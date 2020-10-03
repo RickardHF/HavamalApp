@@ -13,7 +13,7 @@ namespace Havamal.Repositories.MockRepositories
 {
     public class MockVerseRepository : IVerseRepository
     {
-        public async Task<ResultContainer<IReadOnlyCollection<Verse>>> Get(VerseParameter param, CancellationToken cancellationToken)
+        public async Task<Computer<IReadOnlyCollection<Verse>>> Get(VerseParameter param, CancellationToken cancellationToken)
         {
             var verses = await Task.Run(() => {
                 return new List<Verse>
@@ -23,7 +23,7 @@ namespace Havamal.Repositories.MockRepositories
                 };
             });
 
-            return ResultContainer<IReadOnlyCollection<Verse>>.CreateSuccess(DataContainer<IReadOnlyCollection<Verse>>.WithValue(verses.AsReadOnly()));
+            return Computer<IReadOnlyCollection<Verse>>.ComputerSaysYes(Darling<IReadOnlyCollection<Verse>>.Allow(verses.AsReadOnly()));
         }
     }
 }

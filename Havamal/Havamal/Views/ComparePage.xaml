@@ -6,7 +6,13 @@
     <ContentPage.Content>
         <StackLayout>
             <StackLayout x:Name="Menu">
-                
+                <Picker Grid.Column="1" Grid.Row="0" 
+                            ItemsSource="{Binding Languages, Mode=TwoWay}"
+                            SelectedItem="{Binding CurrentFromLanguage, Mode=TwoWay}"/>
+                <Picker Grid.Column="1" Grid.Row="0" 
+                            Title="Select To langugage"
+                            ItemsSource="{Binding Languages, Mode=TwoWay}"
+                            SelectedItem="{Binding CurrentToLanguage, Mode=TwoWay}"/>
             </StackLayout>
             <StackLayout x:Name="Content" Orientation="Vertical">
                 <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Margin="0,-100,0,0">

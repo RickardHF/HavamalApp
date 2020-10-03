@@ -41,7 +41,7 @@ namespace Havamal.ViewModels
             try
             {
                 var languages = await _languages.Get(null, CancellationToken.None).ConfigureAwait(false);
-                languages.SuccessOrFail(success =>
+                languages.CanI(success =>
                 {
                     foreach (var lang in success)
                     {

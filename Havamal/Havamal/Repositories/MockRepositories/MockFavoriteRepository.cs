@@ -24,7 +24,7 @@ namespace Havamal.Repositories.MockRepositories
                 , new Favorite(7)
             };
         }
-        public Task<ResultContainer<IReadOnlyCollection<Favorite>>> Create(IReadOnlyCollection<Favorite> data, FavoriteParameter param)
+        public Task<Computer<IReadOnlyCollection<Favorite>>> Create(IReadOnlyCollection<Favorite> data, FavoriteParameter param)
         {
             var inserted = new List<Favorite>();
             foreach(var d in data)
@@ -36,23 +36,23 @@ namespace Havamal.Repositories.MockRepositories
                 }
             }
 
-            return Task.Run(() => ResultContainer<IReadOnlyCollection<Favorite>>.CreateSuccess((IReadOnlyCollection<Favorite>) inserted));
+            return Task.Run(() => Computer<IReadOnlyCollection<Favorite>>.ComputerSaysYes((IReadOnlyCollection<Favorite>) inserted));
         }
 
-        public Task<ResultContainer<bool>> Delete(IReadOnlyCollection<Favorite> model, FavoriteParameter param)
+        public Task<Computer<bool>> Delete(IReadOnlyCollection<Favorite> model, FavoriteParameter param)
         {
             foreach(var delete in model)
             {
                 if (_favorites.Contains(delete)) _favorites.Remove(delete);
             }
 
-            return Task.Run(() => ResultContainer<bool>.CreateSuccess(true));
+            return Task.Run(() => Computer<bool>.ComputerSaysYes(true));
         }
 
-        public Task<ResultContainer<IReadOnlyCollection<Favorite>>> Get(FavoriteParameter param, CancellationToken cancellationToken)
+        public Task<Computer<IReadOnlyCollection<Favorite>>> Get(FavoriteParameter param, CancellationToken cancellationToken)
         {
             IReadOnlyCollection<Favorite> favs = _favorites;
-            return Task.Run(() => ResultContainer<IReadOnlyCollection<Favorite>>.CreateSuccess(favs));
+            return Task.Run(() => Computer<IReadOnlyCollection<Favorite>>.ComputerSaysYes(favs));
         }
     }
 }

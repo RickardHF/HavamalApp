@@ -66,7 +66,7 @@ namespace Havamal.ViewModels
             try
             {
                 var favs = await _favoriteRepository.Get(new FavoriteParameter(), CancellationToken.None).ConfigureAwait(false);
-                return favs.SuccessOrFail(success => {
+                return favs.CanI(success => {
                     _favorited = (List<Favorite>)success;
                     if(! _favorited.Any()) _errMsg = "You have no favorites";
                     return true;
@@ -94,7 +94,7 @@ namespace Havamal.ViewModels
 
                 Favorites.Clear();
                 
-                verses.SuccessOrFail(success =>
+                verses.CanI(success =>
                 {
                     foreach(var v in success)
                     {

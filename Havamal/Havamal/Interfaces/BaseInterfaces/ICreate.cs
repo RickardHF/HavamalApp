@@ -8,6 +8,6 @@ namespace Havamal.Interfaces.BaseInterfaces
 {
     public interface ICreate<TResult, TModel, TParam>
     {
-        Task<ResultContainer<TResult>> Create(TModel data, TParam param);
+        Task<Computer<TResult>> Create(TModel data, TParam param);
     }
 }

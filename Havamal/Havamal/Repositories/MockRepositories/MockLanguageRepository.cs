@@ -12,7 +12,7 @@ namespace Havamal.Repositories.MockRepositories
 {
     public class MockLanguageRepository : ILanguageRepository
     {
-        public Task<ResultContainer<IReadOnlyCollection<Language>>> Get(LanguageParameter param, CancellationToken cancellationToken)
+        public Task<Computer<IReadOnlyCollection<Language>>> Get(LanguageParameter param, CancellationToken cancellationToken)
         {
             IReadOnlyCollection<Language> languages = new List<Language>
             {
@@ -20,7 +20,7 @@ namespace Havamal.Repositories.MockRepositories
                 , new Language(2, "Bokmål", "NO", "")
             };
 
-            return Task.Run(() => ResultContainer<IReadOnlyCollection<Language>>.CreateSuccess(DataContainer<IReadOnlyCollection<Language>>.WithValue(languages)));
+            return Task.Run(() => Computer<IReadOnlyCollection<Language>>.ComputerSaysYes(Darling<IReadOnlyCollection<Language>>.Allow(languages)));
         }
     }
 }

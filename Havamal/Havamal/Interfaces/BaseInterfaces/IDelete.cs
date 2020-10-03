@@ -8,6 +8,6 @@ namespace Havamal.Interfaces.BaseInterfaces
 {
     public interface IDelete<TResult, TModel, TParam>
     {
-        Task<ResultContainer<TResult>> Delete(TModel model, TParam param);
+        Task<Computer<TResult>> Delete(TModel model, TParam param);
     }
 }

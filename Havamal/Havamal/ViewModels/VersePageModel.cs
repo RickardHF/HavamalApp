@@ -19,7 +19,7 @@ namespace Havamal.ViewModels
 {
     public class VersePageModel : BasePageModel
     {
-        private DataContainer<int> _currentId;
+        private Darling<int> _currentId;
         private List<Favorite> _favorites;
         
         private readonly IVerseRepository _repository;
@@ -35,7 +35,7 @@ namespace Havamal.ViewModels
             {
                 var toDelete = _favorites.Where(x => x.VerseId == _verseId).ToList();
                 var didDelete = await _favoriteRepository.Delete(toDelete, new FavoriteParameter()).ConfigureAwait(false);
-                didDelete.SuccessOrFail(success =>
+                didDelete.CanI(success =>
                 {
                     if (success)
                     {
@@ -49,7 +49,7 @@ namespace Havamal.ViewModels
             {
                 var toAdd = new List<Favorite> { new Favorite(_verseId) };
                 var addResult = await _favoriteRepository.Create(toAdd, new FavoriteParameter()).ConfigureAwait(false);
-                addResult.SuccessOrFail(success =>
+                addResult.CanI(success =>
                 {
                     _favorites.AddRange(success);
                 }, empty => { });
@@ -92,12 +92,12 @@ namespace Havamal.ViewModels
 
         private void CheckIsFavorite()
         {
-            FavoriteImage = _currentId.ValueOrEmpty(value =>
+            FavoriteImage = _currentId.MayI(value =>
             {
                 if (_favorites == null || !_favorites.Any(x => x.VerseId == value)) return "NotFavorite.png";
                 return "favorite.png";
             }, () => "NotFavorite.png");
-            _isFavorite = _currentId.ValueOrEmpty(value =>
+            _isFavorite = _currentId.MayI(value =>
             {
                 if (_favorites == null || !_favorites.Any(x => x.VerseId == value)) return false;
                 return true;
@@ -106,7 +106,7 @@ namespace Havamal.ViewModels
 
         public void SetCurrentVerse()
         {
-            var verse = _currentId.ValueOrEmpty(some =>
+            var verse = _currentId.MayI(some =>
             {
                 return Verses.FirstOrDefault(x => x.VerseId == some);
             }, () =>
@@ -124,7 +124,7 @@ namespace Havamal.ViewModels
         {
             _repository = repository;
             _favoriteRepository = favoriteRepository;
-            _currentId = DataContainer<int>.Empty();
+            _currentId = Darling<int>.No();
             Verses = new ObservableCollection<Verse>();
             _favorites = new List<Favorite>();
 
@@ -139,14 +139,14 @@ namespace Havamal.ViewModels
             {
                 var verses = await _repository.Get(new VerseParameter { Language = Preferences.Get("SelectedLanguage", 1)}, CancellationToken.None).ConfigureAwait(false);
 
-                verses.SuccessOrFail(success =>
+                verses.CanI(success =>
                 {
                     Verses.Clear();
                     foreach (var verse in success)
                     {
                         Verses.Add(verse);
                     }
-                    _currentId = DataContainer<int>.WithValue(Preferences.Get("CurrentVerse", 1));
+                    _currentId = Darling<int>.Allow(Preferences.Get("CurrentVerse", 1));
 
                     SetCurrentVerse();
                 }, exception =>
@@ -170,7 +170,7 @@ namespace Havamal.ViewModels
             {
                 var favs = await _favoriteRepository.Get(null, CancellationToken.None).ConfigureAwait(false);
 
-                favs.SuccessOrFail(success =>
+                favs.CanI(success =>
                {
                    _favorites = success.ToList();
                }, exception =>
@@ -185,7 +185,7 @@ namespace Havamal.ViewModels
 
         private void NextVerse(object sender)
         {
-            _currentId.ValueOrEmpty(some =>
+            _currentId.MayI(some =>
             {
                 if (some < Verses.Count())
                 {
@@ -202,7 +202,7 @@ namespace Havamal.ViewModels
 
         private void PreviousVerse(object sender)
         {
-            _currentId.ValueOrEmpty(some =>
+            _currentId.MayI(some =>
             {
                 if (some > 1)
                 {

@@ -6,28 +6,28 @@ using System.Xml.Schema;
 
 namespace Havamal.Models.HelperModels
 {
-    public struct DataContainer<TModel>
+    public struct Darling<TModel>
     {
         private static List<TModel> _data = new List<TModel>();
 
-        public static DataContainer<TModel> Empty()
+        public static Darling<TModel> No()
         {
-            return new DataContainer<TModel>();
+            return new Darling<TModel>();
         }
 
-        public U ValueOrEmpty<U>(Func<TModel, U> value, Func<U> empty)
+        public U MayI<U>(Func<TModel, U> yes, Func<U> no)
         {
-            if (_data.Any()) return value(_data.SingleOrDefault());
-            return empty();
+            if (_data.Any()) return yes(_data.SingleOrDefault());
+            return no();
         }
 
-        public void ValueOrEmpty(Action<TModel> value, Action empty)
+        public void MayI(Action<TModel> yes, Action no)
         {
             if (_data.Any()) {
-                value(_data.SingleOrDefault());
+                yes(_data.SingleOrDefault());
                 return; 
             }
-            empty();
+            no();
         }
 
         public void SetValue(TModel value)
@@ -37,7 +37,7 @@ namespace Havamal.Models.HelperModels
             _data.Add(value);
         }
 
-        public TModel GetValueOrDefault()
+        public TModel HopeForYes()
         {
             return _data.SingleOrDefault();
         }
@@ -47,10 +47,10 @@ namespace Havamal.Models.HelperModels
             return !(value == null || value.Equals(default(TModel)));
         }
 
-        public static DataContainer<TModel> WithValue(TModel value)
+        public static Darling<TModel> Allow(TModel value)
         {
-            if (! CheckValueValid(value)) return DataContainer<TModel>.Empty();
-            var container = new DataContainer<TModel>();
+            if (! CheckValueValid(value)) return Darling<TModel>.No();
+            var container = new Darling<TModel>();
             container.SetValue(value);
             return container;
         }

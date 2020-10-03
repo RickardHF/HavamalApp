@@ -38,7 +38,7 @@ namespace Tests.VerseReposTests
 
             var result = await repos.Get(new VerseParameter { Language = 1}, CancellationToken.None).ConfigureAwait(false);
 
-            Assert.IsTrue(result.Status == Status.Success, "Fail status");
+            Assert.IsTrue(result.Answer == Answer.Yes, "Fail status");
         }
 
         [TestMethod]
@@ -48,9 +48,9 @@ namespace Tests.VerseReposTests
 
             var result = await repos.Get(new VerseParameter { Language = 1 }, CancellationToken.None).ConfigureAwait(false);
 
-            Assert.IsTrue(result.Status == Status.Success, "Fail status");
+            Assert.IsTrue(result.Answer == Answer.Yes, "Fail status");
 
-            result.Data.ValueOrEmpty(some =>
+            result.Happy.MayI(some =>
             {
                 var count = some.Count(x => x.LanguageId != 1);
                 Assert.AreEqual(0, count, "Not valid data given");

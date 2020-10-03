@@ -27,7 +27,7 @@ namespace Havamal.Repositories
         {
             _dataSettings = dataSettings;
         }
-        public async Task<ResultContainer<IReadOnlyCollection<Verse>>> Get(VerseParameter param, CancellationToken cancellationToken)
+        public async Task<Computer<IReadOnlyCollection<Verse>>> Get(VerseParameter param, CancellationToken cancellationToken)
         {
 
             try
@@ -72,12 +72,12 @@ namespace Havamal.Repositories
                     }
                 }
 
-                return ResultContainer<IReadOnlyCollection<Verse>>.CreateSuccess(DataContainer<IReadOnlyCollection<Verse>>.WithValue(verses));
+                return Computer<IReadOnlyCollection<Verse>>.ComputerSaysYes(Darling<IReadOnlyCollection<Verse>>.Allow(verses));
 
             }
             catch (Exception e)
             {
-                return ResultContainer<IReadOnlyCollection<Verse>>.CreateEmpty(e);
+                return Computer<IReadOnlyCollection<Verse>>.ComputerSaysNo(e);
             }
         }
     }

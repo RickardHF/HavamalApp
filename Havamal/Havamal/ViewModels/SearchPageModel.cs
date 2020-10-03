@@ -56,7 +56,7 @@ namespace Havamal.ViewModels
             if (param.OnlyFavorites)
             {
                 var favs = await _favoriteRepository.Get(new FavoriteParameter(), CancellationToken.None).ConfigureAwait(false);
-                favs.SuccessOrFail(success =>
+                favs.CanI(success =>
                 {
                     verseParam.Ids = success.Select(x => x.VerseId).Distinct().ToList();
                     verseParam.OnIds = true;
@@ -70,11 +70,11 @@ namespace Havamal.ViewModels
             }
 
             // TODO : Make possible get no lang or other than current
-            verseParam.Language = param.LanguageId.GetValueOrDefault();
+            verseParam.Language = param.LanguageId.HopeForYes();
 
             var verses = await _verseRepository.Get(verseParam, CancellationToken.None).ConfigureAwait(false);
 
-            verses.SuccessOrFail(success => {
+            verses.CanI(success => {
                 var indexedVerses = success.IndexObjects(indexingParam, x => x.Content).FilterOnThresh(0.1);
 
                 if (param.NumericOrder) indexedVerses = indexedVerses.OrderBy(x => x.DataObject.VerseId).ToList();

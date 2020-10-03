@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Havamal.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,8 @@ namespace Havamal.Views
         public ComparePage()
         {
             InitializeComponent();
+            var bindingContext = Startup.ServiceProvider.GetService<ComparePageModel>();
+            BindingContext = bindingContext;
         }
     }
 }
