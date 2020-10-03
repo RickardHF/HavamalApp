@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+      xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+      xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:local="clr-namespace:Havamal.Views"  
+      mc:Ignorable="d"
+      xmlns:havamal="clr-namespace:Havamal"
+      Title="Havamal"
+      x:Class="Havamal.AppShell">
+
+    <!-- 
+       Styles and Resources 
+   -->
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Color x:Key="NavigationPrimary">#B4F</Color>
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource NavigationPrimary}" />
+                <Setter Property="Shell.ForegroundColor" Value="White" />
+                <Setter Property="Shell.TitleColor" Value="White" />
+                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
+                <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
+                <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+            </Style>
+            <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" ></Style>
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems" >
+        <ShellContent Title="Verses" ContentTemplate="{DataTemplate local:VersePage}" />
+        <ShellContent Title="Settings" ContentTemplate="{DataTemplate local:SettingsPage}" />
+    </FlyoutItem>
+    <!-- Tabs Pages go below -->
+
+</Shell>

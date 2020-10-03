@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Havamal.ViewModels"
+             xmlns:model="clr-namespace:Havamal.Models" 
+             x:Class="Havamal.Views.SearchPage">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout x:Name="SearchBox" VerticalOptions="Center">
+                <StackLayout Orientation="Horizontal">
+                    <Entry ClearButtonVisibility="WhileEditing" Placeholder="Search text" PlaceholderColor="DarkGray" IsTextPredictionEnabled="false" AutomationId="SearchText" x:Name="SearchText"></Entry>
+                    <Button Text="Search" Clicked="Search_Clicked"></Button>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <CheckBox x:Name="OnlyFavs"></CheckBox>
+                    <Label>Only Favorites</Label>
+                    <CheckBox x:Name="NumericOrder"></CheckBox>
+                    <Label>Numeric Sort</Label>
+                </StackLayout>
+            </StackLayout>
+            <Label Text="{Binding ResultText}"></Label>
+            <CollectionView x:Name="ResultList"
+                            ItemsSource="{Binding SearchResult}"
+                            SelectionMode="None"
+                            HorizontalOptions="FillAndExpand"
+                            VerticalOptions="FillAndExpand"
+                    >
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="10" x:DataType="model:Verse" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                            <Label Text="{Binding VerseId}"  HorizontalOptions="StartAndExpand" Margin="50,0,0,0" FontSize="Medium"/>
+                            <Label Text="{Binding Content}" HorizontalOptions="CenterAndExpand" FontSize="Large" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

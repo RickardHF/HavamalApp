@@ -1,0 +1,15 @@
+{
+  "Hello": "World",
+  "Environment": "Development",
+  "Logging": {
+    "IncludeScopes": false,
+    "LogLevel": {
+      "Default": "Debug",
+      "System": "Information",
+      "Microsoft": "Information"
+    },
+    "Settings": {
+      "SelectedLanguage" : 1
+    }
+  }
+}

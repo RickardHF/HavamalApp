@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Havamal.ViewModels"
+             x:Class="Havamal.Views.ComparePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout x:Name="Menu">
+                
+            </StackLayout>
+            <StackLayout x:Name="Content" Orientation="Vertical">
+                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Margin="0,-100,0,0">
+                    <Label x:DataType="local:ComparePageModel" TextColor="Gray"  Text="{Binding FromVerseId}" FontSize="Medium"/>
+                    <Label x:DataType="local:ComparePageModel" Text="{Binding FromVerseContent}" FontSize="Large" FontFamily="Comic Sans"/>
+                    <Label x:DataType="local:ComparePageModel" Text="{Binding FromError}" FontSize="Large" FontFamily="Comic Sans"/>
+                </StackLayout>
+                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Margin="0,-100,0,0">
+                    <Label x:DataType="local:ComparePageModel" TextColor="Gray"  Text="{Binding ToVerseId}" FontSize="Medium"/>
+                    <Label x:DataType="local:ComparePageModel" Text="{Binding ToVerseContent}" FontSize="Large" FontFamily="Comic Sans"/>
+                    <Label x:DataType="local:ComparePageModel" Text="{Binding ToError}" FontSize="Large" FontFamily="Comic Sans"/>
+                </StackLayout>
+            </StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

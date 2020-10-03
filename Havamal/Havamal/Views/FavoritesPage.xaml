@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Havamal.ViewModels"
+             xmlns:model="clr-namespace:Havamal.Models" 
+             x:Class="Havamal.Views.FavoritesPage">
+    <RefreshView x:DataType="local:FavoritesPageModel" 
+                 Command="{Binding LoadDataCommand}" 
+                 IsRefreshing="{Binding IsBusy, Mode=TwoWay}"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="FillAndExpand">
+        <CollectionView x:Name="FavoritesList"
+                        ItemsSource="{Binding Favorites}"
+                        SelectionMode="None"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="FillAndExpand"
+                        >
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10" x:DataType="model:Verse" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <Label Text="{Binding VerseId}"  HorizontalOptions="StartAndExpand" Margin="50,0,0,0" FontSize="Medium"/>
+                        <Label Text="{Binding Content}" HorizontalOptions="CenterAndExpand" FontSize="Large" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </RefreshView>
+</ContentPage>

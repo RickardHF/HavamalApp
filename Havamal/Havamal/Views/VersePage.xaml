@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Havamal.ViewModels" 
+             xmlns:converters="clr-namespace:Havamal.Converters" 
+             xmlns:headLevel="clr-namespace:Havamal"
+             x:Class="Havamal.Views.VersePage"
+             BackgroundColor="FloralWhite"
+             >
+
+    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="Fill" Padding="0" > 
+
+        <StackLayout.GestureRecognizers>
+            <SwipeGestureRecognizer x:DataType="local:VersePageModel" Direction="Left" Swiped="OnSwipe" Command="{Binding SwipeLeft}"/>
+            <SwipeGestureRecognizer x:DataType="local:VersePageModel" Direction="Right" Swiped="OnSwipe" Command="{Binding SwipeRight}"/>
+        </StackLayout.GestureRecognizers>
+
+        <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Margin="0,-100,0,0" IsVisible="{Binding IsBusy, Converter={converters:NotConverter}}">
+            <ImageButton x:DataType="local:VersePageModel" Source="{Binding FavoriteImage}" HorizontalOptions="End" Clicked="FavoriteClicked" HeightRequest="50" WidthRequest="50"/>
+            <Label x:DataType="local:VersePageModel" TextColor="Gray"  Text="{Binding VerseId}" FontSize="Medium"/>
+            <Label x:DataType="local:VersePageModel" Text="{Binding VerseContent}" FontSize="Large" FontFamily="Comic Sans"/>
+        </StackLayout>
+
+        <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}"
+            VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" />
+    </StackLayout>
+    
+
+</ContentPage>

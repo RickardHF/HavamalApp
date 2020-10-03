@@ -1,0 +1,885 @@
+INSERT INTO Verses (
+                       VerseId,
+                       LanguageId,
+                       Content
+                   )
+                   VALUES (
+                       35,
+                       1,
+                       'Gange skal du,
+gjest ei vere
+alltid på einom stad.
+Ljuv vert leid
+som lenge sit
+kyrr på annans krakk.'
+                   );
+
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (36,1,'Eit lite bu
+er betre enn inkje,
+heime er kvar mann herre.
+Hev du geiter tvo
+og ein tausperra sal,
+då tarv du ikkje tigge.');
+
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	37	,	1	,'Eit lite bu
+er betre enn inkje,
+heime er kvar mann herre.
+Hjarta bløder
+når beda du skal
+um mat til kvart eit mål.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	38	,	1	,'Våpni sine
+skal mann på vollen
+ikkje gange eit fet ifrå.
+Uvisst er å vita
+når på vegom ute
+det spyrjast kann etter spjot.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	39	,	1	,'Ingen so gjevmild
+og gjestmild eg fann,
+han tok ikkje gåvor og takka.
+Eller so gjev-sæl
+med godset sitt,
+han ei lika med løn du takka.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	40	,	1	,'Eigni di,
+som du avla deg hev,
+treng du ''kje spara for deg sjølv.
+Tidt til leide folk gjeng
+det til ljuve var tenkt,
+mangt verre gjeng enn ein vonar.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	41	,	1	,'Med våpen og klæde
+skal vener gåvast,
+det vert på dei sjølve synt.
+Likt gjevande
+lengst er vener,
+um elles alt seg lagar.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	42	,	1	,'Venen sin
+skal ein vera ven
+og løne gåve med gåve.
+Til lått skal mann
+med lått svara
+og møte ljuging med lygn.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	43	,	1	,'Venen sin
+skal ein vera ven,
+honom og hans ven.
+Men med uvens ven
+venskap halde
+høver ''kje fagna folk.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	44	,	1	,'Veit du ein ven
+som vel du trur,
+og du hjå han fagnad vil få:
+gjev han heile din hug
+og gåva ei spar,
+far og finn han ofte.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	45	,	1	,'Veit du ein annan
+som ille du trur,
+og du fagnad vil likevel få:
+du fagert mæle,
+men falskt tenkje,
+og ljuging møte med lygn.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	46	,	1	,'Eit ord til um den
+som ille du trur
+og ikkje kann lit til leggje:
+læ skal du med han
+og låst vera ven;
+lik vere gåve og løn.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	47	,	1	,'Ung var eg fordom,
+eg einsaman fór,
+vegvill då eg vart.
+Rik eg tottest
+når eg råka einkvar;
+mann er manns gaman.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	48	,	1	,'Milde, modige
+menn lever best,
+dei ét seg sjeldan sut.
+For alt ottast
+udjerv dreng,
+gjerug gryler når han fær.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	49	,	1	,'Klædi mine
+kasta eg til
+tre-menn tvo på voll.
+Kaute karar
+med klædi dei vart,
+neist vert naken mann.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	50	,	1	,'Turkar toll
+som i tunet stend,
+det hjelp'' korkje bork eller bar.
+So er kvar mann
+som kjærleik vantar,
+kvi skal han lenge leva!'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	51	,	1	,'Heitar'' enn eld
+brenn hjå ille vener
+fem dags fagnad.
+Men det sloknar
+når den sette kjem,
+då all venskap versnar.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	52	,	1	,'Ikkje tarv gåvor
+so gilde vera,
+ein ofte fangar lov for lite.
+Med ein liten braudleiv
+og læta i staupet
+eg fekk meg ein felage.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	53	,	1	,'Grunne sjøar
+og grunne sandar,
+og d'' er grunt i hugen hjå mange.
+Du ingen stad alle
+jamkloke finn.
+All stad er det båe slagi.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	54	,	1	,'Måteleg klok
+kvar mann vere;
+ovklok vere han ikkje.
+Lettast er livet
+å leva for den
+som vel noko veit.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	55	,	1	,'Måteleg klok
+kvar mann vere;
+ovklok vere han ikkje.
+For sjeldan er hugnad
+i hjarta å finne
+hjå honom som ovklok er.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	56	,	1	,'Måteleg klok
+kvar mann vere;
+ovklok vere han ikkje.
+Sin lagnad ingen
+øygne fyreåt,
+då er han sælast i sinn.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	57	,	1	,'Brand brenn av brand
+til brunnen han er,
+loge kveikjest av loge.
+Ved rødor ein mann
+med menn vert kjend,
+hen vert dott ved å dylja seg byrg.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	58	,	1	,'I otta du rise
+vil du rikdom taka,
+og vil du folk felle.
+Sjeldan liggjande ulv
+lambe-kjøt fær,
+eller sovande mann siger.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	59	,	1	,'I otta du rise
+hev du onn-folk få,
+og gange og garden din vitje.
+Mangt øyder mann
+som um morgonen søv;
+rask er halvveges rik.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	60	,	1	,'Mål på turr-ved
+og tekkje-næver
+lyt mang-mannen vita;
+kor stor ein ved-kost
+som vara kann
+heile halve året.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	61	,	1	,'Tvegen og mett
+ride mannen til tings,
+um han og klent er klædd.
+Korkje brok eller skor
+skjemmer nokon,
+og heller ikkje hesten,
+um han er låk.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	62	,	1	,'Kurer og sturer,
+til sjøen komen,
+ørn ved utgamle hav.
+Slik er den mann
+millom mange folk
+som eig frendar fåe.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	63	,	1	,'Frega og tala
+den frode skal,
+um vis han heite vil.
+Det ein veit
+er utrygt hjå tvo;
+det tri veit um, det veit alle.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	64	,	1	,'Makti si må
+ein mann med vit
+hovsamt og høveleg bruke.
+Jamt han det finn
+når hjå frøkne han kjem,
+at ingen er aller best.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	65	,	1	,'Aktsam og gløgg
+ein alltid skal vera
+og varsam i venelag.
+Dei ordi som du
+til andre segjer,
+fær tidt du trega sårt.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	66	,	1	,'Mykje for snart
+mang-stad kom eg,
+sum-stad kom eg for seint.
+Øl var drukki,
+ubrygt sum-stad,
+sjeldan kjem leid til lags.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	67	,	1	,'Stundom til bords
+dei bedi meg hadde,
+um eg ikkje trong mat til måls.
+Eller tvo kjøtlår hekk
+hjå den trugne venen,
+der eg eitt hadde eti.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	68	,	1	,'Eld på åren
+og sol på eng
+gjer mannen fegen og fjåg.
+Og so å hava,
+helsa god
+når ein kann lytelaust leva.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	69	,	1	,'Endå ver ''kje vesal
+um ho veiknar, helsa:
+sume av søner fær sæle,
+sume av frendar,
+sume av velgjort verk.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	70	,	1	,'Betre å leva
+enn livlaus vera,
+kvik fær alltid ku.
+Bål for rikmannen
+brenne eg såg,
+lik fyre døri låg.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	71	,	1	,'Er du halt, kann du ride,
+handlaus gjæte,
+er du dauv, kann du duga i strid.
+Blind er betre
+enn brend å vera;
+daud mun ein lite duga.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	72	,	1	,'Son er kjærfengd,
+um seint komen,
+etter faren fór.
+Sjeldan bautasteinar
+nær brauti stend,
+utan frendar fekk dei reist.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	73	,	1	,'Av tvo i ein her
+er tunga hovuds bane.
+Fram or kvar ei kufte
+kann det krjupe ei hand.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	74	,	1	,'Den prisar natti
+som nista si trur,
+stutte er skips ræar;
+hustri er haustnatti;
+på fem dagar snart
+skifter vêret,
+men på ein månad meir.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	75	,	1	,'Aldri han trur det,
+som ikkje det veit,
+kor folk vert galne for gull.
+Ein er rik
+og ein annan fatig,
+legg det ''kje honom til last.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	76	,	1	,'Døyr fe;
+døyr frendar;
+døyr sjølv det same.
+Men ordet um deg
+aldri døyr
+vinn du eit gjetord gjævt.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	77	,	1	,'Døyr fe;
+døyr frendar;
+døyr sjølv det same.
+Eg veit eitt
+som aldri døyr,
+dom um daudan kvar.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	78	,	1	,'Eg såg fulle grindar
+hjå Fitjung-sonom,
+no ber dei sekk og stav.
+So er gullet
+som glir i augo
+veslast av alle vener.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	79	,	1	,'Hjå fåvis mann,
+um han fe seg vinn
+og ynde og elsk hjå kvende,
+byrgskapen veks
+men vitet hans ikkje,
+og ovmodet aukar drjugt.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	80	,	1	,'Sant det røynest
+som i runer er sagt,
+dei frå høgdi runne,
+som gudemakter gav,
+og som stor-tul skar,
+trygt hev det han som kann tegja.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	81	,	1	,'Um kveld skal du dagen rose,
+kona når ho brend er,
+gjenta når ho gift er,
+geiren når han røynd er,
+is når du yver kjem,
+øl når det drukki er.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	82	,	1	,'I stilla skal du sjøen ro,
+skog i vind felle,
+med møy i myrker svalle;
+mange er dagsens augo.
+Skip skal fram skrida,
+skjold skal live,
+sverd gjev kvasse hogg,
+kyssar gjev møyi.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	83	,	1	,'Ved elden øl du drikke,
+og på is du skride,
+merri mager kjøpe
+og myrke sverd,
+hesten heime feite,
+og hunden i bui.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	84	,	1	,'På møyar-ord
+er uvisst å lite
+og på det som kvendi kved.
+For på kvervande hjul
+deira hjarto var skapte,
+brigd i brjost var lagd.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	85	,	1	,'[Aldri ein tru:]
+Brestande boge,
+brennande loge,
+gapande ulv,
+galande kråke,
+rjotande svin,
+rotlaust tre,
+svellande våg,
+sjodande kjel,'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	86	,	1	,'Fljugande flein,
+fallande båre,
+ein-nætt is,
+orm ringlagd,
+brur-ord på blæja,
+brotne sverd,
+leikande bjørn
+eller barnet til ein konge.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	87	,	1	,'Sjukan kalv,
+sjølvråden træl,
+volve som hugstel,
+val nyleg felt.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	88	,	1	,'Tru ikkje åker,
+som tidleg er sådd,
+og ikkje son for snart.
+For åkren råder vêr,
+og for sonen vit;
+det uvisst med båe er.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	89	,	1	,'Broder-bane,
+um og burte møtt,
+halvbrunni hus,
+hesten spræke
+- fåfengd er fole,
+um fot brotnar -
+at han desse ting trur,
+so trygg vere ingen.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	90	,	1	,'So er dros i hugen,
+ho som dulram leikar,
+som ut skal øyk køyre
+på isen håle
+- tidig tvivetring,
+tamd med måte -
+eller i stormen stride
+styrelaust beite,
+eller som um halten på høgfjell
+skulle hente reinen.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	91	,	1	,'No berrleg eg mæler,
+for båe eg kjenner,
+brigd hjå gutom og bur.
+Fagraste talen
+hev falskaste meining,
+og klokaste drosi vert dåra.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	92	,	1	,'Fint du tale
+og fager gjeve,
+vil gjerne ei gjente du vinne,
+og fegre lova
+hjå ljose møy;
+han fær som kann fri.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	93	,	1	,'For elskhugen din
+ingen mann skal
+gjeva deg last og lyte.
+Ofte klok mann fell,
+der fåmingen stend,
+for eit ovfagert andlet.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	94	,	1	,'Aldri du leggje
+andre til last
+det som mang ein mann hender.
+Kor klok ein er,
+han kann verte dåra
+når kjærleik kjem og maktstel.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	95	,	1	,'Hugen veit berre
+kva som bur hjarta nær,
+sjølv fær ein kjenne det svid.
+D''er hugsotti verste
+for ein høgtenkt mann,
+når ikkje med noko han uner.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	96	,	1	,'Det eg røynde,
+då i røyri eg sat
+og drosi hugen drog.
+Liv og lyst
+var den ljuve møy meg,
+endå eg aldri ho fekk.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	97	,	1	,'På bolsterkvile
+Billings møy
+eg solbjart fann i svevn.
+Jarls vyrdnad
+lite verdt meg tottest,
+skulde eg møyi misse.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	98	,	1	,'"Heller mot kveld
+du kome, Odin,
+um du vil med møy mæle.
+Ille det vart
+um andre munde
+slik skam få sjå."'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	99	,	1	,'Attende eg gjekk
+med elskhugs voner,
+var reint frå samling og sans.
+Trudde eg då
+so tryggleg eige
+heile hugen til møyi.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	100	,	1	,'Andre gongen
+gjekk eg til ho,
+då var vaktfolki vakne.
+Med brennande ljos
+og borne kyndlar
+dei vettervegen meg viste.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	101	,	1	,'Ut mot morgon
+att eg kom,
+då var sals-vakti sovna.
+På lega, der fyrr
+den fagre sov,
+låg no ei bikkje i band.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	102	,	1	,'Mang ei god møy,
+det merke du kann,
+sviksam er imot sveinar.
+Eg røyne det fekk,
+då den rådkloke drosi
+eg freista løynsk å lokke.
+Hardt meg hædde
+den hugstore møyi,
+og ikkje det vivet eg vann.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	103	,	1	,'Ver gjæv imot gjest
+og glad ver heime,
+alltid vis og varsam;
+minnug og målvis,
+vil du mangklok heite;
+ber gode gjetord fram.
+Ein fåming me kallar
+den som fått kann tala,
+slikt er vesalmanns vit.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	104	,	1	,'Jotungubben eg fann,
+er no attende komen,
+vann vesalt tegjande der.
+Med mange ord
+eg mykje til gagn
+vann meg i Suttungs salar.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	105	,	1	,'Gunnlod meg gav
+på gull-stolen
+drykk av den mæte mjød.
+Vesal løn
+let eg ho få.
+Ho gav meg trygt si tru,
+ho gav meg heile sin hug.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	106	,	1	,'Rata-tonni
+rudde meg veg,
+hardt grjot ho gnog.
+Yver og under
+gjekk jotun-vegar,
+då var det hætt um mitt hovud.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	107	,	1	,'Vegen eg fann
+eg vel hev nòti,
+fått for den vise er vandt,
+di at no Odrere
+upp er komen
+midt i Midgards heim.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	108	,	1	,'Uvisst å vita
+um eg endå var komen
+or jotun-garden ut,
+um ikkje Gunnlod,
+det gode kvendet,
+hadde vorti min sæle ven.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	109	,	1	,'Andre dagen
+av gjekk rimtussar
+til å spyrja råd av Hår
+i Halli til Hår;
+etter Bolverk dei spurde,
+um han var berga hjå gudom,
+eller Suttung hadde slegi han ned.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	110	,	1	,'Ein eid då svor
+Odin på ringen,
+kven kann hans trygdemål tru?
+Suttung han sveik
+for skalde-drykken,
+og Gunnlod sårt han grøtte.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	111	,	1	,'Tid er å tala
+frå tule-stolen
+attmed Urde-brunnen.
+Såg eg og tagde,
+såg eg og tenkte,
+lydde på manna mål.
+Um runer dei tala
+og um tyding dømde
+attmed Håva-Halli,
+i Håva-Halli
+eg høyrde segja so:'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	112	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+ris ikkje um natt,
+utan på njosn du er,
+eller ut for deg sjølv du skal.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	113	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+hjå trollkunnigt kvende
+kvile du aldri,
+so ho i famn deg fær.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	114	,	1	,'Ho det evlar
+at du ikkje håttar
+tings eller konungs krav.
+Mat gjev deg mothug
+og menns gaman,
+du legg deg sorgfull te sova.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	115	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+annan manns kone
+aldri du skal
+deg føre til frilleviv.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	116	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+um på fjell eller fjord
+å fara deg lyster,
+hav niste med deg til nøyes.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	117	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+eit illmenne du
+aldri late
+di vanheppe vita.
+Av ille menn
+aldri like
+du vinn for godhug du viste.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	118	,	1	,'Hovudet misse
+ein mann eg såg
+ved ord av ilt kvende.
+Svikfull tunge
+tok honom livet,
+og ikkje for sann sak.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	119	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaum gjev:
+hev du ein ven
+som vel du trur,
+far då og finn han tidt;
+for med ris gror til
+og med høgt gras
+ein veg der ingen vankar.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	120	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+god mann finn deg
+til gamans tale,
+og lærdom den tidi du lever.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	121	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+med venen din
+ver du aldri
+den fyrste til lag å løyse.
+Sorg ét hjarta,
+um ingen du hev
+som du segja kann heile din hug.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	122	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+ord skifte
+aldri du skal
+med ein uvitug ape.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	123	,	1	,'Av ille menn
+aldri du fær
+løn for godt du dei gjer.
+Men god mann
+millom grannar gjer deg
+vyrd med venskaps ord.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	124	,	1	,'Samd er venskap
+når segja ein kann
+den andre all sin hug.
+Vinglut vera
+er verst av alt,
+all-rosar er ikkje ven.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	125	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+aldri tri stridsord
+du skifte med illmenne;
+gjæving tidt gjev seg
+der låking tek liv.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	126	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+gjer ikkje sko
+eller skaft åt andre;
+ver glad du greider deg sjølv.
+Um skoen vart stygg
+eller skaftet vart rangt,
+då er ulukka ute.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	127	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+merkar du vondt,
+vondt du det kalle,
+gjev ikkje din fiende fred.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	128	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+yver det som er ilt
+aldri deg gled,
+men lat vondt til godt vendast.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	129	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+stend du i strid,
+sjå då ''kje upp
+- som galtar kvekk
+karar då tidt -
+for at fjetring ikkje deg fange.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	130	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+vil du gjævt kvende
+få i gamans tale,
+og fagnad av ho få,
+fagert du love,
+og fast det stande;
+velfengd er god gåve.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	131	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+vár du vere
+men vár med måte,
+várast ver med øl.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	132	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+til håd og lått
+hav du aldri
+gjest eller gangande mann.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	133	,	1	,'Ofte veit dei
+som inne sit
+lite kva folk som kann fara.
+D''er ingen so god
+at gall han vantar,
+eller so arm at til inkje han duger.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	134	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+med gråhærd tul
+gantast du aldri;
+d''er ofte godt som dei gamle talar.
+Tidt or skrukkut skinn
+kjem skillege ord,
+um klædi dei heng,
+og hudskorne sleng,
+og han studrar som ein stakkar.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	135	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+gøy ikkje mot gjest
+som hund ved grind,
+tak imot trengande mann.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	136	,	1	,'Det lyt sterke tappar
+som skal svinge døri
+til upplating for alle;
+men gjev din skilling,
+at ikkje skade
+vert ynskt deg på liv og lem.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	137	,	1	,'Eg råd gjev deg, Loddfåvne,
+råd du take,
+nyttug um du nem,
+god um du gaumar:
+der øl du drikk,
+søk avl av jordi,
+for jord stend mot øl;
+eld stend mot sotter,
+eik mot hardt liv,
+men aks øyder trollskap,
+samliv i hall mot husstrid,
+mot hat hjelper månen,
+beite mot bitsott,
+fast jord mot flaum.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	138	,	1	,'Eg veit at eg hekk
+på vindalt tre
+næter heile nie,
+med geir-odd såra
+og gjeven Odin,
+gjeven sjølv til meg sjølv
+uppå det treet
+som ingen veit
+kvar det av rotom renn.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	139	,	1	,'Ikkje braud dei bar meg,
+og brygg ikkje;
+ned eg nidstirde,
+tok upp runer,
+ropande tok dei,
+ned att der frå eg fall.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	140	,	1	,'Nie tryllesongar fekk eg
+av den fræge son til
+Boltorn, far til Bestla;
+og drikke eg fekk
+av den dyre mjøden,
+aust upp av Odrere.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	141	,	1	,'Då fór eg te fremjast
+og frod verte
+og vekse og finne meg vel.
+Ord meg av ord
+ord avla,
+verk meg av verk
+verk avla.');
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	142	,	1	,'Du runer finn teikna
+og tydde stavar,
+mykje store stavar,
+mykje sterke stavar,
+som fimbul-tul farga
+og høge makter maksla
+og Ragna-Ropt skar.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	143	,	1	,'For æser Odin,
+for alvar Dåin,
+Dvalin for dvergar.
+Allsvinn dei
+for jotnar skar,
+eg riste sjølv sume.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	144	,	1	,'Veit du å riste dei?
+veit du å råde dei?
+veit du å farge dei?
+veit du å freiste dei?
+veit du til bøn dei?
+veit du til blót dei?
+veit du å sende dei?
+veit du å stogge dei?'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	145	,	1	,'Betre enn ov-blót
+ubedi er,
+gåve krev gjeving att;
+betre u-sendt
+enn avstogga.
+So Tund det sette,
+fyrr tidi rann,
+då upp han reis,
+då att han kom.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	146	,	1	,'Mine kvæde ei kann
+kongen si frue,
+korkje mann eller møy.
+Hjelp heiter eitt,
+og det hjelpe deg vil
+mot saker og sorger
+og suter alle.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	147	,	1	,'Det andre eg kann,
+ovgjævt for dei
+som vil læking lære.
+-- -- -- -- -- -- --'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	148	,	1	,'Det tridje kann eg,
+um turvast kann
+mot fiendar rame råder:
+eggjar eg døyver
+for uvener mine,
+so det bit korkje våpen eller velur.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	149	,	1	,'Det fjorde kann eg,
+um folk meg vil
+leggje band um lemer:
+so eg galdrar
+at gange eg kann,
+fjetrune spring meg av fot
+og av hender hapt.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	150	,	1	,'Det femte eg kann,
+ser eg fiends pil skoti
+fram gjennom her haste:
+eg stoggar ho nok,
+kor sterkt ho so flyg,
+so sant eg med syni når ho.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	151	,	1	,'Det sette eg kann,
+skader meg einkvar
+med runer på frisk rot skorne,
+den som upp til argskap
+eggje meg vil,
+mein fær han meir enn eg.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	152	,	1	,'Det sjuande kann eg,
+um salen eg ser
+loga um sovande sellar:
+kor breitt det so brenn,
+eg bergar halli,
+den galder kann eg gala.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	153	,	1	,'Det åttande kann eg,
+som for alle mun vera
+nyttelegt å nemne:
+um hat veks upp
+millom hovding-søner,
+det kann eg bøte brått.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	154	,	1	,'Det niande kann eg,
+når naud stend på,
+å berge båten på hav.
+Vinden eg då
+på vågen stiller
+og svæver sjøen all.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	155	,	1	,'Det tiande kann eg,
+um tuntroll eg ser
+i lufti leike fram:
+eg so det vender
+at ville dei fer
+heim utan hamar,
+heim utan hugar.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	156	,	1	,'Det ellevte kann eg,
+når ut i strid
+eg lang-vener skal leide:
+under skjoldrand gjel eg,
+då gjeng dei veldugt
+striden heile til,
+striden heile frå,
+heile dei heim att kjem.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	157	,	1	,'Det tolvte kann eg,
+um i treet uppe
+eg ser ein daud mann dingle:
+so eg runer
+rister og målar,
+at han som der hekk
+gjeng og med meg mæler.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	158	,	1	,'Det trettande kann eg,
+når tegnen unge
+eg auser med vatn og vigjer:
+ikkje han fell,
+um i ufred han kjem,
+den hausen ryk ikkje for hogg.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	159	,	1	,'Det fjortande kann eg,
+um for folk eg skal
+gudane nemne ved namn:
+alle æser
+og alvar veit eg:
+der stend meg ingen styving.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	160	,	1	,'Det femtande kann eg,
+som han kvad Tjodrøyre,
+dvergen fyre Dellings dør.
+Han åsom gol avle,
+alvom dugleik,
+Ropta-ty hugs i haus.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	161	,	1	,'Det sekstande kann eg,
+um hjå kloke møy
+eg hugnad vil hava og gaman:
+hugen eg kverver
+på kvit-arma viv
+og snur hennar heile sinn.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	162	,	1	,'Det syttande kann eg,
+at seint frå meg gjeng
+ei ung dåm-ven dros.
+Lenge du skal,
+Loddfåvne, visst
+songane desse sakne.
+Godt, um du gaumar,
+nyttugt, um du nèm,
+turvande, um du tek dei.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	163	,	1	,'Det attande kann eg,
+som ikkje eg segjer
+til møy eller manns kone,
+- alt er best
+som ein berre kann;
+det er slutten på songen.'	);
+INSERT INTO Verses ( VerseId, LanguageId, Content ) VALUES (	164	,	1	,'No er Håvamål kvedi
+i Håva-halli
+til magn for manna-søner,
+til ugagn for jotun-søner;
+heil den som kvad!
+heil den som kann!
+njote den som nam!
+heile dei som høyrde.'	);
+
+
