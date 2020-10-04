@@ -15,7 +15,7 @@ using Xamarin.Forms;
 
 namespace Havamal.ViewModels
 {
-    public class ComparePageModel : BasePageModel
+    public class ComparePageModel : BaseSwipeAction
     {
 
         private List<Verse> _fromLanguage;
@@ -79,6 +79,8 @@ namespace Havamal.ViewModels
 
             _fromLanguage = new List<Verse>();
             _toLanguage = new List<Verse>();
+
+            OnVerseIdChange = i => { SetFromContent(); SetToContent(); };
 
             LoadLanguages();
         }

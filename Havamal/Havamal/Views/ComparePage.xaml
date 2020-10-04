@@ -5,7 +5,12 @@
              x:Class="Havamal.Views.ComparePage">
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-            <StackLayout x:Name="Menu" Orientation="Horizontal" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand">
+            <StackLayout.GestureRecognizers>
+                <SwipeGestureRecognizer x:DataType="local:VersePageModel" Direction="Left" Command="{Binding SwipeLeft}"/>
+                <SwipeGestureRecognizer x:DataType="local:VersePageModel" Direction="Right" Command="{Binding SwipeRight}"/>
+            </StackLayout.GestureRecognizers>
+
+            <StackLayout x:Name="Menu" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="CenterAndExpand">
                 <Picker
                             Title="Select From Language"
                             ItemsSource="{Binding FromLanguages, Mode=TwoWay}"
@@ -16,16 +21,25 @@
                             ItemsSource="{Binding ToLanguages, Mode=TwoWay}"
                             SelectedItem="{Binding CurrentToLanguage, Mode=TwoWay}"/>
             </StackLayout>
-            <StackLayout x:Name="Content" VerticalOptions="Start">
+            <StackLayout x:Name="Content" VerticalOptions="FillAndExpand">
                 <Label x:DataType="local:ComparePageModel" TextColor="Gray"  Text="{Binding VerseId}" FontSize="Medium"/>
-                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Start"  Margin="0,-100,0,0">
-                    <Label x:DataType="local:ComparePageModel" Text="{Binding FromVerseContent}" FontSize="Large" FontFamily="Comic Sans"/>
-                    <Label x:DataType="local:ComparePageModel" Text="{Binding FromError}" FontSize="Large" FontFamily="Comic Sans"/>
-                </StackLayout>
-                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Start"  Margin="0,-100,0,0">
-                    <Label x:DataType="local:ComparePageModel" Text="{Binding ToVerseContent}" FontSize="Large" FontFamily="Comic Sans"/>
-                    <Label x:DataType="local:ComparePageModel" Text="{Binding ToError}" FontSize="Large" FontFamily="Comic Sans"/>
-                </StackLayout>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <StackLayout HorizontalOptions="CenterAndExpand"  Margin="0,-100,0,0" Grid.Column="0" Grid.Row="0">
+                        <Label x:DataType="local:ComparePageModel" Text="{Binding FromVerseContent}" FontSize="Large" FontFamily="Comic Sans"/>
+                        <Label x:DataType="local:ComparePageModel" Text="{Binding FromError}" FontSize="Large" FontFamily="Comic Sans"/>
+                    </StackLayout>
+                    <StackLayout HorizontalOptions="CenterAndExpand" Margin="0,-100,0,0" Grid.Column="0" Grid.Row="1">
+                        <Label x:DataType="local:ComparePageModel" Text="{Binding ToVerseContent}" FontSize="Large" FontFamily="Comic Sans"/>
+                        <Label x:DataType="local:ComparePageModel" Text="{Binding ToError}" FontSize="Large" FontFamily="Comic Sans"/>
+                    </StackLayout>
+                </Grid>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

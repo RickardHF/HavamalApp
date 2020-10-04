@@ -17,7 +17,7 @@ using Xamarin.Forms;
 
 namespace Havamal.ViewModels
 {
-    public class VersePageModel : BasePageModel
+    public class VersePageModel : BaseSwipeAction
     {
         private Darling<int> _currentId;
         private List<Favorite> _favorites;
@@ -26,8 +26,6 @@ namespace Havamal.ViewModels
         private readonly IFavoriteRepository _favoriteRepository;
 
         public ObservableCollection<Verse> Verses;
-        public Command SwipeLeft => new Command(NextVerse);
-        public Command SwipeRight => new Command(PreviousVerse);
         public ICommand ClickFavorite => new Command(FavoriteClicked);
         public async void FavoriteClicked(object obj)
         {
@@ -128,6 +126,8 @@ namespace Havamal.ViewModels
             Verses = new ObservableCollection<Verse>();
             _favorites = new List<Favorite>();
 
+            OnVerseIdChange = i => { _currentId.SetValue(i); SetCurrentVerse(); };
+
             InitView();
         }
 
@@ -183,37 +183,6 @@ namespace Havamal.ViewModels
             }
         }
 
-        private void NextVerse(object sender)
-        {
-            _currentId.MayI(some =>
-            {
-                if (some < Verses.Count())
-                {
-                    var newCurrentVerse = some + 1;
-                    Preferences.Set("CurrentVerse", newCurrentVerse);
-                    _currentId.SetValue(newCurrentVerse);
-                    SetCurrentVerse();
-                }
-            }, () =>
-            {
-            });
-
-        }
-
-        private void PreviousVerse(object sender)
-        {
-            _currentId.MayI(some =>
-            {
-                if (some > 1)
-                {
-                    var newCurrentVerse = some - 1;
-                    Preferences.Set("CurrentVerse", newCurrentVerse);
-                    _currentId.SetValue(newCurrentVerse);
-                    SetCurrentVerse();
-                }
-            }, () =>
-            {
-            });
-        }
+        
     }
 }
