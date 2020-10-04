@@ -5,9 +5,12 @@ using Havamal.Parameters;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 
 namespace Havamal.ViewModels
@@ -15,10 +18,13 @@ namespace Havamal.ViewModels
     public class ComparePageModel : BasePageModel
     {
 
-        public ObservableCollection<Verse> FromLanguage;
-        public ObservableCollection<Verse> ToLanguage;
+        private List<Verse> _fromLanguage;
+        private List<Verse> _toLanguage;
 
-        public ObservableCollection<Language> Languages;
+        private int _verseId { get { return Preferences.Get("CurrentVerse", 1); } set { Preferences.Set("CurrentVerse", value); } }
+
+        public ObservableCollection<Language> FromLanguages { get; private set; }
+        public ObservableCollection<Language> ToLanguages { get; private set; }
 
         private Darling<Language> _from;
         private Darling<Language> _to;
@@ -43,11 +49,19 @@ namespace Havamal.ViewModels
             }
         }
 
-        public string FromVerseId { get; set; }
+        public int VerseId
+        {
+            get { return _verseId; }
+            private set
+            {
+                _verseId = value;
+                OnPropertyChanged(nameof(VerseId));
+            }
+        }
+
         public string FromVerseContent { get; set; }
         public string FromError { get; set; }
 
-        public string ToVerseId { get; set; }
         public string ToVerseContent{ get; set; }
         public string ToError { get; set; }
 
@@ -60,34 +74,48 @@ namespace Havamal.ViewModels
             _verseRepository = verseRepository;
             _languageRepository = languageRepository;
 
-            FromLanguage = new ObservableCollection<Verse>();
-            ToLanguage = new ObservableCollection<Verse>();
+            FromLanguages = new ObservableCollection<Language>();
+            ToLanguages = new ObservableCollection<Language>();
+
+            _fromLanguage = new List<Verse>();
+            _toLanguage = new List<Verse>();
 
             LoadLanguages();
-
         }
+
 
         private async void LoadLanguages()
         {
-            Languages.Clear();
-            var langs = await _languageRepository.Get(new LanguageParameter(), CancellationToken.None).ConfigureAwait(false);
-            langs.CanI(yes =>
+            IsBusy = true;
+            try
             {
-                foreach(var l in yes)
+                var langs = await _languageRepository.Get(new LanguageParameter(), CancellationToken.None).ConfigureAwait(false);
+                langs.CanI(yes =>
                 {
-                    Languages.Add(l);
-                }
-            }, no =>
+                    foreach(var l in yes)
+                    {
+                        FromLanguages.Add(l);
+                        ToLanguages.Add(l);
+                    }
+                }, no =>
+                {
+                    // TODO : Error handling
+                });
+            } catch (Exception e)
             {
-                // TODO : Error handling
-            });
+                Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                IsBusy = false;
+            }
         }
 
 
         private void LoadFrom()
         {
 
-            FromLanguage.Clear();
+            _fromLanguage.Clear();
             FromError = "";
             FromVerseContent = "";
             _from.MayI(async yes =>
@@ -97,8 +125,9 @@ namespace Havamal.ViewModels
                 {
                     foreach(var fo in yes)
                     {
-                        FromLanguage.Add(fo);
+                        _fromLanguage.Add(fo);
                     }
+                    SetFromContent();
                 }, no =>
                 {
                     FromError = no.Message;
@@ -113,12 +142,59 @@ namespace Havamal.ViewModels
 
         private void UpdateFields()
         {
-
+            OnPropertyChanged(FromError);
+            OnPropertyChanged(FromVerseContent);
+            OnPropertyChanged(ToError);
+            OnPropertyChanged(ToVerseContent);
         }
 
         private void LoadTo()
         {
+            _toLanguage.Clear();
+            ToError = "";
+            ToVerseContent = "";
+            _from.MayI(async yes =>
+            {
+                var froms = await _verseRepository.Get(new VerseParameter { Language = yes.Id }, CancellationToken.None).ConfigureAwait(false);
+                froms.CanI(yes =>
+                {
+                    foreach (var fo in yes)
+                    {
+                        _toLanguage.Add(fo);
+                    }
+                    SetToContent();
+                }, no =>
+                {
+                    ToError = no.Message;
+                });
+            }, () =>
+            {
+                ToError = "Could not gather verses from selected language";
+            });
 
+            UpdateFields();
+        }
+
+        private void SetFromContent()
+        {
+            var fromverse = Darling<Verse>.Allow(_fromLanguage.FirstOrDefault(x => x.VerseId == _verseId));
+            fromverse.MayI(yes => {
+                FromVerseContent = yes.Content;
+            }, () =>
+            {
+                FromError = "Could not find verse for this language at this Id";
+            });
+        }
+
+        private void SetToContent()
+        {
+            var toverse = Darling<Verse>.Allow(_toLanguage.FirstOrDefault(x => x.VerseId == _verseId));
+            toverse.MayI(yes => {
+                ToVerseContent = yes.Content;
+            }, () =>
+            {
+                ToError = "Could not find verse for this language at this Id";
+            });
         }
     }
 }

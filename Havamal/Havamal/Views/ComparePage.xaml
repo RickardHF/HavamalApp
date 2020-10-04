@@ -4,31 +4,29 @@
              xmlns:local="clr-namespace:Havamal.ViewModels"
              x:Class="Havamal.Views.ComparePage">
     <ContentPage.Content>
-        <StackLayout>
-            <StackLayout x:Name="Menu">
-                <Picker Grid.Column="1" Grid.Row="0" 
-                            ItemsSource="{Binding Languages, Mode=TwoWay}"
-                            SelectedItem="{Binding CurrentFromLanguage, Mode=TwoWay}"/>
-                <Picker Grid.Column="1" Grid.Row="0" 
-                            Title="Select To langugage"
-                            ItemsSource="{Binding Languages, Mode=TwoWay}"
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <StackLayout x:Name="Menu" Orientation="Horizontal" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand">
+                <Picker
+                            Title="Select From Language"
+                            ItemsSource="{Binding FromLanguages, Mode=TwoWay}"
+                            SelectedItem="{Binding CurrentFromLanguage, Mode=TwoWay}"
+                    />
+                <Picker  
+                            Title="Select To Langugage"
+                            ItemsSource="{Binding ToLanguages, Mode=TwoWay}"
                             SelectedItem="{Binding CurrentToLanguage, Mode=TwoWay}"/>
             </StackLayout>
-            <StackLayout x:Name="Content" Orientation="Vertical">
-                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Margin="0,-100,0,0">
-                    <Label x:DataType="local:ComparePageModel" TextColor="Gray"  Text="{Binding FromVerseId}" FontSize="Medium"/>
+            <StackLayout x:Name="Content" VerticalOptions="Start">
+                <Label x:DataType="local:ComparePageModel" TextColor="Gray"  Text="{Binding VerseId}" FontSize="Medium"/>
+                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Start"  Margin="0,-100,0,0">
                     <Label x:DataType="local:ComparePageModel" Text="{Binding FromVerseContent}" FontSize="Large" FontFamily="Comic Sans"/>
                     <Label x:DataType="local:ComparePageModel" Text="{Binding FromError}" FontSize="Large" FontFamily="Comic Sans"/>
                 </StackLayout>
-                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Margin="0,-100,0,0">
-                    <Label x:DataType="local:ComparePageModel" TextColor="Gray"  Text="{Binding ToVerseId}" FontSize="Medium"/>
+                <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Start"  Margin="0,-100,0,0">
                     <Label x:DataType="local:ComparePageModel" Text="{Binding ToVerseContent}" FontSize="Large" FontFamily="Comic Sans"/>
                     <Label x:DataType="local:ComparePageModel" Text="{Binding ToError}" FontSize="Large" FontFamily="Comic Sans"/>
                 </StackLayout>
             </StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

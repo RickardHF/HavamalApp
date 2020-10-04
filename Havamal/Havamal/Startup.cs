@@ -87,6 +87,7 @@ namespace Havamal
                 .AddTransient<VersePageModel>()
                 .AddTransient<FavoritesPageModel>()
                 .AddTransient<SearchPageModel>()
+                .AddTransient<ComparePageModel>()
                 .AddTransient<App>()
                 ;
         }

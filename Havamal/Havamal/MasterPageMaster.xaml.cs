@@ -49,8 +49,9 @@ namespace Havamal
                 {
                     new MasterPageMasterMenuItem { Id = 0, Title = "Verses", TargetType = typeof(VersePage) },
                     new MasterPageMasterMenuItem { Id = 1, Title = "Search", TargetType = typeof(SearchPage) },
-                    new MasterPageMasterMenuItem { Id = 2, Title = "Favorites", TargetType = typeof(FavoritesPage) },
-                    new MasterPageMasterMenuItem { Id = 3, Title = "Settings", TargetType = typeof(SettingsPage) }
+                    new MasterPageMasterMenuItem { Id = 2, Title = "Compare", TargetType = typeof(ComparePage) },
+                    new MasterPageMasterMenuItem { Id = 3, Title = "Favorites", TargetType = typeof(FavoritesPage) },
+                    new MasterPageMasterMenuItem { Id = 4, Title = "Settings", TargetType = typeof(SettingsPage) }
                 });
             }
 

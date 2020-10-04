@@ -25,3 +25,4 @@ C:\Users\ricka\source\repos\Havamal\Havamal\Havamal\obj\Debug\netstandard2.0\Mas
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal\obj\Debug\netstandard2.0\MasterPageMaster.xaml.g.cs
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal\obj\Debug\netstandard2.0\Views\FavoritesPage.xaml.g.cs
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal\obj\Debug\netstandard2.0\Views\SearchPage.xaml.g.cs
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal\obj\Debug\netstandard2.0\Views\ComparePage.xaml.g.cs
