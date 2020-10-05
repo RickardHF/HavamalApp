@@ -6,8 +6,8 @@
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
             <StackLayout.GestureRecognizers>
-                <SwipeGestureRecognizer x:DataType="local:VersePageModel" Direction="Left" Command="{Binding SwipeLeft}"/>
-                <SwipeGestureRecognizer x:DataType="local:VersePageModel" Direction="Right" Command="{Binding SwipeRight}"/>
+                <SwipeGestureRecognizer x:DataType="local:ComparePageModel" Direction="Left"  Command="{Binding SwipeLeft}"/>
+                <SwipeGestureRecognizer x:DataType="local:ComparePageModel" Direction="Right" Command="{Binding SwipeRight}"/>
             </StackLayout.GestureRecognizers>
 
             <StackLayout x:Name="Menu" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="CenterAndExpand">
@@ -23,7 +23,7 @@
             </StackLayout>
             <StackLayout x:Name="Content" VerticalOptions="FillAndExpand">
                 <Label x:DataType="local:ComparePageModel" TextColor="Gray"  Text="{Binding VerseId}" FontSize="Medium"/>
-                <Grid>
+                <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                     <Grid.RowDefinitions>
                         <RowDefinition />
                         <RowDefinition />
@@ -31,11 +31,11 @@
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition />
                     </Grid.ColumnDefinitions>
-                    <StackLayout HorizontalOptions="CenterAndExpand"  Margin="0,-100,0,0" Grid.Column="0" Grid.Row="0">
+                    <StackLayout HorizontalOptions="CenterAndExpand"  Margin="0,0,0,0" Grid.Column="0" Grid.Row="0">
                         <Label x:DataType="local:ComparePageModel" Text="{Binding FromVerseContent}" FontSize="Large" FontFamily="Comic Sans"/>
                         <Label x:DataType="local:ComparePageModel" Text="{Binding FromError}" FontSize="Large" FontFamily="Comic Sans"/>
                     </StackLayout>
-                    <StackLayout HorizontalOptions="CenterAndExpand" Margin="0,-100,0,0" Grid.Column="0" Grid.Row="1">
+                    <StackLayout HorizontalOptions="CenterAndExpand" Margin="0,0,0,0" Grid.Column="0" Grid.Row="1">
                         <Label x:DataType="local:ComparePageModel" Text="{Binding ToVerseContent}" FontSize="Large" FontFamily="Comic Sans"/>
                         <Label x:DataType="local:ComparePageModel" Text="{Binding ToError}" FontSize="Large" FontFamily="Comic Sans"/>
                     </StackLayout>

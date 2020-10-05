@@ -19,5 +19,6 @@ namespace Havamal.Views
             var bindingContext = Startup.ServiceProvider.GetService<ComparePageModel>();
             BindingContext = bindingContext;
         }
+
     }
 }

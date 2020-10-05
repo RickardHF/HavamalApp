@@ -9,8 +9,7 @@
         <StackLayout>
             <StackLayout x:Name="SearchBox" VerticalOptions="Center">
                 <StackLayout Orientation="Horizontal">
-                    <Entry ClearButtonVisibility="WhileEditing" Placeholder="Search text" PlaceholderColor="DarkGray" IsTextPredictionEnabled="false" AutomationId="SearchText" x:Name="SearchText"></Entry>
-                    <Button Text="Search" Clicked="Search_Clicked"></Button>
+                    <SearchBar Placeholder="Search text" PlaceholderColor="DarkGray" AutomationId="SearchText" x:Name="SearchText" SearchButtonPressed="Search_Clicked"></SearchBar>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal">
                     <CheckBox x:Name="OnlyFavs"></CheckBox>

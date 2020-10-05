@@ -80,7 +80,7 @@ namespace Havamal.ViewModels
             _fromLanguage = new List<Verse>();
             _toLanguage = new List<Verse>();
 
-            OnVerseIdChange = i => { SetFromContent(); SetToContent(); };
+            OnVerseIdChange = i => { SetFromContent(); SetToContent(); UpdateFields(); };
 
             LoadLanguages();
         }
@@ -96,8 +96,11 @@ namespace Havamal.ViewModels
                 {
                     foreach(var l in yes)
                     {
-                        FromLanguages.Add(l);
-                        ToLanguages.Add(l);
+                        FromLanguages.Add(new Language(l.Id, l.Name, l.LanguageCode, l.PictureLink));
+                    }
+                    foreach (var l in yes)
+                    {
+                        ToLanguages.Add(new Language(l.Id, l.Name, l.LanguageCode, l.PictureLink));
                     }
                 }, no =>
                 {
@@ -125,10 +128,7 @@ namespace Havamal.ViewModels
                 var froms = await _verseRepository.Get(new VerseParameter { Language = yes.Id }, CancellationToken.None).ConfigureAwait(false);
                 froms.CanI(yes =>
                 {
-                    foreach(var fo in yes)
-                    {
-                        _fromLanguage.Add(fo);
-                    }
+                    _fromLanguage = (List<Verse>) yes;
                     SetFromContent();
                 }, no =>
                 {
@@ -139,15 +139,26 @@ namespace Havamal.ViewModels
                 FromError = "Could not gather verses from selected language";
             });
 
-            UpdateFields();
+            UpdateFrom();
         }
 
         private void UpdateFields()
         {
-            OnPropertyChanged(FromError);
-            OnPropertyChanged(FromVerseContent);
-            OnPropertyChanged(ToError);
-            OnPropertyChanged(ToVerseContent);
+            UpdateFrom();
+            UpdateTo();
+            OnPropertyChanged(nameof(VerseId));
+        }
+
+        private void UpdateFrom()
+        {
+            OnPropertyChanged(nameof(FromError));
+            OnPropertyChanged(nameof(FromVerseContent));
+        }
+
+        private void UpdateTo()
+        {
+            OnPropertyChanged(nameof(ToError));
+            OnPropertyChanged(nameof(ToVerseContent));
         }
 
         private void LoadTo()
@@ -160,10 +171,7 @@ namespace Havamal.ViewModels
                 var froms = await _verseRepository.Get(new VerseParameter { Language = yes.Id }, CancellationToken.None).ConfigureAwait(false);
                 froms.CanI(yes =>
                 {
-                    foreach (var fo in yes)
-                    {
-                        _toLanguage.Add(fo);
-                    }
+                    _toLanguage = (List<Verse>) yes;
                     SetToContent();
                 }, no =>
                 {
@@ -174,7 +182,7 @@ namespace Havamal.ViewModels
                 ToError = "Could not gather verses from selected language";
             });
 
-            UpdateFields();
+            UpdateTo();
         }
 
         private void SetFromContent()
