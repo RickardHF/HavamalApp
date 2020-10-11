@@ -96,11 +96,11 @@ namespace Havamal.ViewModels
                 {
                     foreach(var l in yes)
                     {
-                        FromLanguages.Add(new Language(l.Id, l.Name, l.LanguageCode, l.PictureLink));
+                        FromLanguages.Add(new Language(l.Id, l.Name, l.LanguageCode, l.PictureLink, l.Authors));
                     }
                     foreach (var l in yes)
                     {
-                        ToLanguages.Add(new Language(l.Id, l.Name, l.LanguageCode, l.PictureLink));
+                        ToLanguages.Add(new Language(l.Id, l.Name, l.LanguageCode, l.PictureLink, l.Authors));
                     }
                 }, no =>
                 {

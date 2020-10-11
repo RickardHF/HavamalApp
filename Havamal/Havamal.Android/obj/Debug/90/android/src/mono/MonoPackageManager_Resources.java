@@ -37,6 +37,7 @@ public class MonoPackageManager_Resources {
 		"Microsoft.Extensions.Primitives.dll",
 		"Nancy.dll",
 		"Newtonsoft.Json.dll",
+		"Rg.Plugins.Popup.dll",
 		"SQLitePCLRaw.batteries_v2.dll",
 		"SQLitePCLRaw.core.dll",
 		"SQLitePCLRaw.lib.e_sqlite3.android.dll",

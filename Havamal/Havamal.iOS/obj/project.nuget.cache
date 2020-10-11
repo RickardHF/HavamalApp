@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gF9J/N5Qj7AF7IHIDxjKIytlM1ZyA1NU+bNvmN6v1sbSUJdVCYeAKbcN5jZo7ZlDLtTOw5a4UpGWGz6K1HXCKw==",
+  "dgSpecHash": "+H8jBgFp5b2T1FsMIN9X19elD7alHz7DkwaoZpOUqF7DmqVi4q4Iz2MMNfx7fbCYViMM8rJHW2VXT2cW29WR9Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\ricka\\source\\repos\\Havamal\\Havamal\\Havamal.iOS\\Havamal.iOS.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,7 @@
     "C:\\Users\\ricka\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
     "C:\\Users\\ricka\\.nuget\\packages\\nancy\\2.0.0\\nancy.2.0.0.nupkg.sha512",
     "C:\\Users\\ricka\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\ricka\\.nuget\\packages\\rg.plugins.popup\\2.0.0.6\\rg.plugins.popup.2.0.0.6.nupkg.sha512",
     "C:\\Users\\ricka\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.2\\sqlitepclraw.bundle_e_sqlite3.2.0.2.nupkg.sha512",
     "C:\\Users\\ricka\\.nuget\\packages\\sqlitepclraw.core\\2.0.2\\sqlitepclraw.core.2.0.2.nupkg.sha512",
     "C:\\Users\\ricka\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.ios\\2.0.2\\sqlitepclraw.lib.e_sqlite3.ios.2.0.2.nupkg.sha512",

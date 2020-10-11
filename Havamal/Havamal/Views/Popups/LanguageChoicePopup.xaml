@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             x:Class="Havamal.Views.Popups.LanguageChoicePopup">
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation 
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="400"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"/>
+    </pages:PopupPage.Animation>
+    <Frame CornerRadius="20"
+           Margin="30">
+        <StackLayout VerticalOptions="Center"
+                     HorizontalOptions="Center"
+                     BackgroundColor="White"
+                     >
+            <Label Text="Welcome to shit!"
+                       />
+
+            <ListView x:Name="LangList"
+                          ItemsSource="{Binding Languages, Mode=TwoWay}"
+                          SelectedItem="{Binding SelectedLanguage, Mode=TwoWay}"
+                          HorizontalOptions="Center"
+                          VerticalOptions="Center"
+                        >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell ImageSource="{Binding PictureLink}" Text="{Binding Name}" Detail="{Binding Authors}"></ImageCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <Button Text="OK" Clicked="OkClicked"></Button>
+        </StackLayout>
+    </Frame>
+</pages:PopupPage>

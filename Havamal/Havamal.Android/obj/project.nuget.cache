@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GmSuKYPvVaEwiIbS5uOZ1Jk8v/h1ywGy8R8evZJsOfg5k8eNINh7uhBoxmMETYkhNIFe//pziTxe/U47yvehVQ==",
+  "dgSpecHash": "XeGHXXrp97ldqAInjhNPtNGBOmDGrFTi0qw8VuGUmSY9SbjepqaqeNSvuOFYrE9+M1Lw6WRB/HdY18k+96lUKw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ricka\\source\\repos\\Havamal\\Havamal\\Havamal.Android\\Havamal.Android.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,7 @@
     "C:\\Users\\ricka\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.8\\microsoft.extensions.primitives.3.1.8.nupkg.sha512",
     "C:\\Users\\ricka\\.nuget\\packages\\nancy\\2.0.0\\nancy.2.0.0.nupkg.sha512",
     "C:\\Users\\ricka\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\ricka\\.nuget\\packages\\rg.plugins.popup\\2.0.0.6\\rg.plugins.popup.2.0.0.6.nupkg.sha512",
     "C:\\Users\\ricka\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.2\\sqlitepclraw.bundle_e_sqlite3.2.0.2.nupkg.sha512",
     "C:\\Users\\ricka\\.nuget\\packages\\sqlitepclraw.core\\2.0.2\\sqlitepclraw.core.2.0.2.nupkg.sha512",
     "C:\\Users\\ricka\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.0.2\\sqlitepclraw.lib.e_sqlite3.android.2.0.2.nupkg.sha512",

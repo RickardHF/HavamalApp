@@ -13,6 +13,7 @@
           "Microsoft.Extensions.Hosting": "3.1.8",
           "NETStandard.Library": "2.0.3",
           "Nancy": "2.0.0",
+          "Rg.Plugins.Popup": "2.0.0.6",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.1141",
           "Mono.Android": "0.0.0.0"
@@ -476,6 +477,17 @@
           "lib/netstandard1.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.1.19813"
+          }
+        }
+      },
+      "Rg.Plugins.Popup/2.0.0.6": {
+        "dependencies": {
+          "Xamarin.Forms": "4.6.0.1141"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Rg.Plugins.Popup.dll": {
+            "assemblyVersion": "2.0.0.6",
+            "fileVersion": "2.0.0.6"
           }
         }
       },
@@ -1515,6 +1527,13 @@
       "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
       "path": "newtonsoft.json/9.0.1",
       "hashPath": "newtonsoft.json.9.0.1.nupkg.sha512"
+    },
+    "Rg.Plugins.Popup/2.0.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TQ0VKcq19Tv7XS/QrQTs/B2SkQCtIIkVwRpe1N6Gz6mwqNykEyRFLLGcgee7C9w4Q26bjG4Dsif4BzrWoIrw1A==",
+      "path": "rg.plugins.popup/2.0.0.6",
+      "hashPath": "rg.plugins.popup.2.0.0.6.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",

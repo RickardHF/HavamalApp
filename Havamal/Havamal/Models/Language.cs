@@ -8,15 +8,16 @@ namespace Havamal.Models
     {
         public int Id { get; }
         public string Name { get; }
-
+        public string Authors { get; }
         public string LanguageCode { get; }
         public string PictureLink { get; }
-        public Language(int id, string name, string languageCode, string pictureLink)
+        public Language(int id, string name, string languageCode, string pictureLink, string authors)
         {
             Id = id;
             Name = name;
             LanguageCode = languageCode;
             PictureLink = pictureLink;
+            Authors = authors;
         }
 
 

@@ -11,15 +11,8 @@
             </StackLayout.GestureRecognizers>
 
             <StackLayout x:Name="Menu" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="CenterAndExpand">
-                <Picker
-                            Title="Select From Language"
-                            ItemsSource="{Binding FromLanguages, Mode=TwoWay}"
-                            SelectedItem="{Binding CurrentFromLanguage, Mode=TwoWay}"
-                    />
-                <Picker  
-                            Title="Select To Langugage"
-                            ItemsSource="{Binding ToLanguages, Mode=TwoWay}"
-                            SelectedItem="{Binding CurrentToLanguage, Mode=TwoWay}"/>
+                <Button Text="From" Clicked="FromClicked"></Button>
+                <Button Text="To" Clicked="ToCLicked"></Button>
             </StackLayout>
             <StackLayout x:Name="Content" VerticalOptions="FillAndExpand">
                 <Label x:DataType="local:ComparePageModel" TextColor="Gray"  Text="{Binding VerseId}" FontSize="Medium"/>

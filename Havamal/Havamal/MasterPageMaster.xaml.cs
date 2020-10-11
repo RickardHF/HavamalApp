@@ -36,7 +36,6 @@ namespace Havamal
             var page = (Page)Activator.CreateInstance(item.TargetType);
             page.Title = item.Title;
 
-            
         }
 
         class MasterPageMasterViewModel : INotifyPropertyChanged
