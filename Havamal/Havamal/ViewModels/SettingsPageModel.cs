@@ -27,15 +27,8 @@ namespace Havamal.ViewModels
             set {
                 _currentVerseLanguage = value;
                 OnPropertyChanged(nameof(CurrentVerseLanguage));
-                OnPropertyChanged(nameof(CurrentVerseLangName));
-                OnPropertyChanged(nameof(CurrentVerseLangPic));
-                OnPropertyChanged(nameof(CurrentVerseLangAut));
             }
         }
-
-        public string CurrentVerseLangName { get { return CurrentVerseLanguage.Name; } }
-        public string CurrentVerseLangPic { get { return CurrentVerseLanguage.PictureLink; } }
-        public string CurrentVerseLangAut { get { return CurrentVerseLanguage.Authors; } }
 
         public SettingsPageModel (ILanguageRepository languages)
         {
@@ -43,10 +36,6 @@ namespace Havamal.ViewModels
             Languages = new ObservableCollection<Language>();
 
             InitSettings();
-
-            CurrentVerseLanguage = Languages.FirstOrDefault(x => x.Id == Preferences.Get("SelectedLanguage", 1));
-
-            OnPropertyChanged(nameof(CurrentVerseLanguage));
         }
 
         private async void InitSettings()
@@ -62,8 +51,8 @@ namespace Havamal.ViewModels
                     {
                         Languages.Add(lang);
                     }
-                    //Languages = success.ToList();
 
+                    CurrentVerseLanguage = Languages.FirstOrDefault(x => x.Id == Preferences.Get("SelectedLanguage", 1));
                 }, empty =>
                 {
                     throw empty;

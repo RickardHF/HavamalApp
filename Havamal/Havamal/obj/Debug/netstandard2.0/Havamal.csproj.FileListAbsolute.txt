@@ -27,3 +27,4 @@ C:\Users\ricka\source\repos\Havamal\Havamal\Havamal\obj\Debug\netstandard2.0\Vie
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal\obj\Debug\netstandard2.0\Views\Popups\LanguageChoicePopup.xaml.g.cs
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal\obj\Debug\netstandard2.0\Havamal.csproj.CoreCompileInputs.cache
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal\obj\Debug\netstandard2.0\Views\Components\LanguageButton.xaml.g.cs

@@ -19,10 +19,10 @@ namespace Havamal.Views
         private readonly SettingsPageModel _pagemodel;
         public SettingsPage()
         {
+            InitializeComponent();
             var bindingContext = Startup.ServiceProvider.GetService<SettingsPageModel>();
             _pagemodel = bindingContext;
             BindingContext = bindingContext;
-            InitializeComponent();
         }
 
         public void OnVersionClicked(object sender, EventArgs args)
