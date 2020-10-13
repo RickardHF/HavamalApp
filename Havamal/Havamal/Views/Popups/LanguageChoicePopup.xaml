@@ -22,8 +22,6 @@
                      HorizontalOptions="Center"
                      BackgroundColor="White"
                      >
-            <Label Text="Welcome to shit!"
-                       />
 
             <ListView x:Name="LangList"
                           ItemsSource="{Binding Languages, Mode=TwoWay}"
@@ -37,7 +35,6 @@
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-            <Button Text="OK" Clicked="OkClicked"></Button>
         </StackLayout>
     </Frame>
 </pages:PopupPage>
