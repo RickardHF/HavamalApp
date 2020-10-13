@@ -11,7 +11,7 @@
                 <SwipeGestureRecognizer x:DataType="local:ComparePageModel" Direction="Right" Command="{Binding SwipeRight}"/>
             </StackLayout.GestureRecognizers>
 
-            <StackLayout x:Name="Menu" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="CenterAndExpand">
+            <StackLayout x:Name="Menu" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" Padding="20,0,20,0">
                 <components:LanguageButton x:Name="from" ImageSource="{Binding CurrentFromLanguage.PictureLink}" Title="{Binding CurrentFromLanguage.Name}" Description="{Binding CurrentFromLanguage.Authors}"></components:LanguageButton>
                 <components:LanguageButton x:Name="to" ImageSource="{Binding CurrentToLanguage.PictureLink}" Title="{Binding CurrentToLanguage.Name}" Description="{Binding CurrentToLanguage.Authors}"></components:LanguageButton>
             </StackLayout>

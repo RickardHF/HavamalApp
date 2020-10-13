@@ -17,8 +17,12 @@ namespace Havamal.Views {
     public partial class SettingsPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Havamal.Views.Components.LanguageButton versePicker;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(SettingsPage));
+            versePicker = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Havamal.Views.Components.LanguageButton>(this, "versePicker");
         }
     }
 }

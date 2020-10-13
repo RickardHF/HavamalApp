@@ -23,6 +23,8 @@ namespace Havamal.Views
             var bindingContext = Startup.ServiceProvider.GetService<SettingsPageModel>();
             _pagemodel = bindingContext;
             BindingContext = bindingContext;
+
+            versePicker.OnClick = () => OnVersionClicked(new object(), null);
         }
 
         public void OnVersionClicked(object sender, EventArgs args)

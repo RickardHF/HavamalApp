@@ -8,9 +8,9 @@
         </TapGestureRecognizer>
     </StackLayout.GestureRecognizers>
     <Image x:Name="ButtonImage" WidthRequest="30"></Image>
-    <StackLayout Orientation="Vertical">
-        <Label x:Name="ButtonTitle"></Label>
-        <Label x:Name="ButtonDesctiption">lol</Label>
+    <StackLayout Orientation="Vertical" Spacing="0">
+        <Label x:Name="ButtonTitle" FontSize="Subtitle" FontAttributes="Bold"></Label>
+        <Label x:Name="ButtonDesctiption" FontSize="Small"></Label>
     </StackLayout>
 </StackLayout>
     
