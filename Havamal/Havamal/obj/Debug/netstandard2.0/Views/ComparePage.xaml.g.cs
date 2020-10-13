@@ -20,12 +20,20 @@ namespace Havamal.Views {
         private global::Xamarin.Forms.StackLayout Menu;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Havamal.Views.Components.LanguageButton from;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Havamal.Views.Components.LanguageButton to;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.StackLayout Content;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ComparePage));
             Menu = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "Menu");
+            from = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Havamal.Views.Components.LanguageButton>(this, "from");
+            to = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Havamal.Views.Components.LanguageButton>(this, "to");
             Content = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.StackLayout>(this, "Content");
         }
     }

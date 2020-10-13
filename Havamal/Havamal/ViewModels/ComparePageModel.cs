@@ -30,22 +30,24 @@ namespace Havamal.ViewModels
         private Darling<Language> _to;
         public Language CurrentFromLanguage { get
             {
-                return _from.HopeForYes();
+                return _from.MayI<Language>(yes => yes, () => new Language(0, "Select Language", "XX", "", ""));
             }
             set {
                 _from.SetValue(value);
                 LoadFrom();
+                OnPropertyChanged(nameof(CurrentFromLanguage));
             }
         }
         public Language CurrentToLanguage {
             get
             {
-                return _to.HopeForYes();
+                return _to.MayI<Language>(yes => yes, () => new Language(0, "Select Language", "XX", "", ""));
             }
             set
             {
                 _to.SetValue(value);
                 LoadTo();
+                OnPropertyChanged(nameof(CurrentToLanguage));
             }
         }
 

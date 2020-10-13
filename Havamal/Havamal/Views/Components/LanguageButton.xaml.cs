@@ -16,27 +16,46 @@ namespace Havamal.Views.Components
         public static BindableProperty TitleProperty = BindableProperty.Create(
             nameof(Title)
             , typeof(string)
-            , typeof(Label)
+            , typeof(LanguageButton)
             , default(string)
             , Xamarin.Forms.BindingMode.OneWay
+            , propertyChanged : TitleChanged
             );
+
 
         public static BindableProperty DescriptionProperty = BindableProperty.Create(
             nameof(Description)
             , typeof(string)
-            , typeof(Label)
+            , typeof(LanguageButton)
             , default(string)
-            , Xamarin.Forms.BindingMode.OneWay
+            , Xamarin.Forms.BindingMode.TwoWay
+            , propertyChanged: DescriptionChanged
             );
 
         public static BindableProperty ImageSourceProperty = BindableProperty.Create(
             nameof(ImageSource)
             , typeof(string)
-            , typeof(Label)
+            , typeof(LanguageButton)
             , default(string)
-            , Xamarin.Forms.BindingMode.OneWay
+            , propertyChanged: ImageSourceChanged
             );
+        private static void TitleChanged(BindableObject bindable, object oldValue, object newValue)
+        {
+            var c = (LanguageButton)bindable;
+            c.ButtonTitle.Text = newValue.ToString();
+        }
 
+        private static void DescriptionChanged(BindableObject bindable, object oldValue, object newValue)
+        {
+            var c = (LanguageButton)bindable;
+            c.ButtonDesctiption.Text = newValue.ToString();
+        }
+
+        private static void ImageSourceChanged(BindableObject bindable, object oldValue, object newValue)
+        {
+            var c = (LanguageButton)bindable;
+            c.ButtonImage.Source = newValue.ToString();
+        }
 
         public string Title
         {

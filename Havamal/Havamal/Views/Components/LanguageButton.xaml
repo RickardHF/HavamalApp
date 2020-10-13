@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <StackLayout xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Havamal.Views.Components.LanguageButton">
+             x:Class="Havamal.Views.Components.LanguageButton"
+             Orientation="Horizontal">
     <StackLayout.GestureRecognizers>
         <TapGestureRecognizer Tapped="OnButtonClicked">
         </TapGestureRecognizer>
@@ -9,7 +10,7 @@
     <Image x:Name="ButtonImage" WidthRequest="30"></Image>
     <StackLayout Orientation="Vertical">
         <Label x:Name="ButtonTitle"></Label>
-        <Label x:Name="ButtonDesctiption"></Label>
+        <Label x:Name="ButtonDesctiption">lol</Label>
     </StackLayout>
 </StackLayout>
     

@@ -23,6 +23,9 @@ namespace Havamal.Views
 
             _pageModel = bindingContext;
 
+            from.OnClick = () => FromClicked(new object(), null);
+            to.OnClick = () => ToClicked(new object(), null);
+
             BindingContext = bindingContext;
         }
 
@@ -32,7 +35,7 @@ namespace Havamal.Views
             Navigation.PushPopupAsync(new LanguageChoicePopup(_pageModel.FromLanguages.ToList(), (value) => _pageModel.CurrentFromLanguage = value));
         }
 
-        private void ToCLicked(object sender, EventArgs e)
+        private void ToClicked(object sender, EventArgs e)
         {
             Navigation.PushPopupAsync(new LanguageChoicePopup(_pageModel.ToLanguages.ToList(), (value) => _pageModel.CurrentToLanguage = value));
         }
