@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:pages="clr-namespace:Havamal.Views"
+            x:Class="Havamal.Views.StanzaPage"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.IsSwipePagingEnabled="False"
+            >
+    <!--Pages can be added as references or inline-->
+    <pages:StanzaCarouselPage IconImageSource="bok.png"></pages:StanzaCarouselPage>
+    <pages:StanzaListPage IconImageSource="testListe.png"></pages:StanzaListPage>
+</TabbedPage>

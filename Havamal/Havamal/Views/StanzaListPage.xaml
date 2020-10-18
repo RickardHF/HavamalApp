@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:Havamal.ViewModels"
+             x:Class="Havamal.Views.StanzaListPage">
+    <Frame>
+        <CarouselView 
+            x:Name="Carousel"
+            >
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout
+                        VerticalOptions="CenterAndExpand">
+                        <Label
+                            TextColor="Gray"  
+                            Text="{Binding VerseId}" 
+                            FontSize="Medium"/>
+                        <Label
+                            HorizontalOptions="Center"
+                            Text="{Binding Content}" 
+                            FontSize="Large" 
+                            FontFamily="Comic Sans"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+    </Frame>
+</ContentPage>

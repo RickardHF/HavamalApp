@@ -1,4 +1,5 @@
-﻿using Havamal.Interfaces.RepositoryInterfaces;
+﻿using Android.Content.Res;
+using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Repositories.MockRepositories;
 using Havamal.Views;
 using System;
@@ -9,12 +10,19 @@ namespace Havamal
 {
     public partial class App : Application
     {
-        public App(VersePage mainPage, AppShell shell)
+        public App()
         {
             InitializeComponent();
 
-            MainPage = new MasterPage();
+            var initPage = new InitPage();
+            MainPage = initPage;
+            initPage.SetUpFinished += SetUpFinished;
 
+        }
+
+        private void SetUpFinished(object sender, EventArgs e)
+        {
+            MainPage = new MasterPage();
         }
 
         protected override void OnStart()

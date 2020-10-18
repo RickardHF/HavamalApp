@@ -4,14 +4,7 @@
              x:Class="Havamal.MasterPage"
              xmlns:local="clr-namespace:Havamal.Views"
              xmlns:pages="clr-namespace:Havamal">
-  <MasterDetailPage.Master>
-    <pages:MasterPageMaster x:Name="masterPageMaster" />
-  </MasterDetailPage.Master>
-  <MasterDetailPage.Detail>
-    <NavigationPage>
-      <x:Arguments>
-        <local:VersePage/>
-      </x:Arguments>
-    </NavigationPage>
-  </MasterDetailPage.Detail>
+    <MasterDetailPage.Master>
+        <pages:MasterPageMaster x:Name="masterPageMaster" />
+    </MasterDetailPage.Master>
 </MasterDetailPage>

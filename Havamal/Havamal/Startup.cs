@@ -54,23 +54,6 @@ namespace Havamal
 
             string dbName = "HavamalVerses.db";
             string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), dbName);
-            // Check if your DB has already been extracted.
-            if (File.Exists(dbPath))
-            {
-                File.Delete(dbPath);
-            }
-            using (BinaryReader br = new BinaryReader(Assembly.GetExecutingAssembly().GetManifestResourceStream("Verses.db")))
-            {
-                using (BinaryWriter bw = new BinaryWriter(new FileStream(dbPath, FileMode.Create)))
-                {
-                    byte[] buffer = new byte[2048];
-                    int len = 0;
-                    while ((len = br.Read(buffer, 0, buffer.Length)) > 0)
-                    {
-                        bw.Write(buffer, 0, len);
-                    }
-                }
-            }
             
             var dataSettings = new DataSettings
             {
@@ -88,6 +71,7 @@ namespace Havamal
                 .AddTransient<FavoritesPageModel>()
                 .AddTransient<SearchPageModel>()
                 .AddTransient<ComparePageModel>()
+                .AddTransient<StanzaCarouselPageModel>()
                 .AddTransient<App>()
                 ;
         }
@@ -97,15 +81,11 @@ namespace Havamal
     {
         public static IServiceCollection ConfigureDependencies(this IServiceCollection services)
         {
-            var userSettings = new UserSettings();
-            userSettings.SelectedLanguage = Preferences.Get("SelectedLanguage", 1);
-            userSettings.CurrentVerse = Preferences.Get("CurrentVerse", 1);
 
             services
                 .AddSingleton<IVerseRepository, VerseRepository>()
                 .AddSingleton<ILanguageRepository, MockLanguageRepository>()
                 .AddSingleton<IFavoriteRepository, MockFavoriteRepository>()
-                .AddSingleton(userSettings);
                 ;
             return services;
         }

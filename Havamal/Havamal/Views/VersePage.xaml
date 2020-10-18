@@ -16,9 +16,21 @@
         </StackLayout.GestureRecognizers>
 
         <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"  Margin="0,-100,0,0" IsVisible="{Binding IsBusy, Converter={converters:NotConverter}}">
-            <ImageButton x:DataType="local:VersePageModel" Source="{Binding FavoriteImage}" HorizontalOptions="End" Clicked="FavoriteClicked" HeightRequest="50" WidthRequest="50"/>
-            <Label x:DataType="local:VersePageModel" TextColor="Gray"  Text="{Binding VerseId}" FontSize="Medium"/>
-            <Label x:DataType="local:VersePageModel" Text="{Binding VerseContent}" FontSize="Large" FontFamily="Comic Sans"/>
+            <ImageButton x:DataType="local:VersePageModel" 
+                         Source="{Binding FavoriteImage}" 
+                         BackgroundColor="Transparent"
+                         HorizontalOptions="End" 
+                         Clicked="FavoriteClicked" 
+                         HeightRequest="50" 
+                         WidthRequest="50"/>
+            <Label x:DataType="local:VersePageModel" 
+                   TextColor="Gray"  
+                   Text="{Binding VerseId}" 
+                   FontSize="Medium"/>
+            <Label x:DataType="local:VersePageModel" 
+                   Text="{Binding VerseContent}" 
+                   FontSize="Large" 
+                   FontFamily="Comic Sans"/>
         </StackLayout>
 
         <ActivityIndicator IsVisible="{Binding IsBusy}" IsRunning="{Binding IsBusy}"
