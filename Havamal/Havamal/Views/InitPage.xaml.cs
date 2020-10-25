@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Data.Sqlite;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -35,14 +36,17 @@ namespace Havamal.Views
         {
             string dbName = "HavamalVerses.db";
             string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), dbName);
+
+            string tempName = "VersesTemp.db";
+            string tempPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), tempName);
             // Check if your DB has already been extracted.
-            if (File.Exists(dbPath))
+            if (File.Exists(tempName))
             {
-                File.Delete(dbPath);
+                File.Delete(tempName);
             }
             using (BinaryReader br = new BinaryReader(Assembly.GetExecutingAssembly().GetManifestResourceStream("Verses.db")))
             {
-                using (BinaryWriter bw = new BinaryWriter(new FileStream(dbPath, FileMode.Create)))
+                using (BinaryWriter bw = new BinaryWriter(new FileStream(tempPath, FileMode.Create)))
                 {
                     byte[] buffer = new byte[2048];
                     int len = 0;
@@ -53,9 +57,81 @@ namespace Havamal.Views
                 }
             }
 
+            CreateFavoriteTable(dbPath);
+            CreateVerseTable(dbPath);
+            CreateLanguageTable(dbPath);
+
             await Task.Delay(1000);
 
             OnSetupFinished(EventArgs.Empty);
+        }
+
+        private void CreateFavoriteTable(string path)
+        {
+            try
+            {
+                using (var con = new SqliteConnection($"DataSource = {path}"))
+                {
+                    con.Open();
+                    var dbName = con.Database;
+                    var dbPAth = con.DataSource;
+
+                    var cmd = con.CreateCommand();
+
+                    cmd.CommandText = "CREATE TABLE IF NOT EXISTS Favorites ( VerseId INTEGER NOT NULL PRIMARY KEY);";
+
+                    cmd.ExecuteNonQuery();
+                }
+            } catch (Exception e)
+            {
+
+            }
+        }
+
+        private void CreateLanguageTable(string path)
+        {
+            try
+            {
+                using (var con = new SqliteConnection($"DataSource = {path}"))
+                {
+                    con.Open();
+                    var dbName = con.Database;
+                    var dbPAth = con.DataSource;
+
+                    var cmd = con.CreateCommand();
+
+                    cmd.CommandText = "CREATE TABLE IF NOT EXISTS Language ( Id INTEGER NOT NULL PRIMARY KEY, Name TEXT, Authors TEXT, LanguageCode TEXT, PictureLink TEXT);";
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception e)
+            {
+
+            }
+        }
+
+        private void CreateVerseTable(string path)
+        {
+            try
+            {
+                using (var con = new SqliteConnection($"DataSource = {path}"))
+                {
+                    con.Open();
+                    var dbName = con.Database;
+                    var dbPAth = con.DataSource;
+
+                    var cmd = con.CreateCommand();
+
+                    cmd.CommandText = "CREATE TABLE IF NOT EXISTS Verse ( VerseId INTEGER NOT NULL, LanguageId INTEGER NOT NULL, Content TEXT, PRIMARY KEY (VerseId, LanguageId));";
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+            catch (Exception e)
+            {
+
+            }
         }
     }
 }

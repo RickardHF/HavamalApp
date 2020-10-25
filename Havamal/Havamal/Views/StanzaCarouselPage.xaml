@@ -5,7 +5,7 @@
              x:Class="Havamal.Views.StanzaCarouselPage">
 
 
-    <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand">  
+    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">  
         <ImageButton
                         x:DataType="viewmodel:StanzaCarouselPageModel"
                         Source="{Binding FavoriteImage}" 
@@ -15,28 +15,26 @@
                         HeightRequest="50" 
                         WidthRequest="50"/>
 
-        <Frame>
-            <CarouselView 
+        <CarouselView 
             x:Name="Carousel"
             >
-                <CarouselView.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout
                         VerticalOptions="CenterAndExpand">
-                            <Label
+                        <Label
                             TextColor="Gray"  
                             Text="{Binding VerseId}" 
                             FontSize="Medium"/>
-                            <Label
+                        <Label
                             HorizontalOptions="Center"
                             Text="{Binding Content}" 
                             FontSize="Large" 
                             FontFamily="Comic Sans"/>
-                        </StackLayout>
-                    </DataTemplate>
-                </CarouselView.ItemTemplate>
-            </CarouselView>
-        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
 
     </StackLayout>
 </ContentPage>

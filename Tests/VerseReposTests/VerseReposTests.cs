@@ -19,7 +19,7 @@ namespace Tests.VerseReposTests
     {
         private IVerseRepository InitRepos()
         {
-            var dataSettings = new DataSettings
+            DataSettings dataSettings = new DataSettings
             {
                 DbBasePath = Environment.CurrentDirectory
             };

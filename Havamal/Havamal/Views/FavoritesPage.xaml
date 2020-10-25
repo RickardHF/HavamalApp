@@ -11,13 +11,17 @@
                  VerticalOptions="FillAndExpand">
         <CollectionView x:Name="FavoritesList"
                         ItemsSource="{Binding Favorites}"
-                        SelectionMode="None"
+                        SelectedItem="{Binding SelectedStanza, Mode=TwoWay}"
                         HorizontalOptions="FillAndExpand"
                         VerticalOptions="FillAndExpand"
                         >
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout Padding="10" x:DataType="model:Verse" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <StackLayout Padding="10" x:DataType="model:Verse" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="2" CommandParameter="{Binding .}" Tapped="FavoriteTapped">
+                            </TapGestureRecognizer>
+                        </StackLayout.GestureRecognizers>
                         <Label Text="{Binding VerseId}"  HorizontalOptions="StartAndExpand" Margin="50,0,0,0" FontSize="Medium"/>
                         <Label Text="{Binding Content}" HorizontalOptions="CenterAndExpand" FontSize="Large" />
                     </StackLayout>

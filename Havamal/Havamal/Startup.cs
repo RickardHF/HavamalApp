@@ -85,7 +85,7 @@ namespace Havamal
             services
                 .AddSingleton<IVerseRepository, VerseRepository>()
                 .AddSingleton<ILanguageRepository, MockLanguageRepository>()
-                .AddSingleton<IFavoriteRepository, MockFavoriteRepository>()
+                .AddSingleton<IFavoriteRepository, FavoriteRepository>()
                 ;
             return services;
         }

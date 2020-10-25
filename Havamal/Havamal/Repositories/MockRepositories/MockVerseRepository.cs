@@ -23,7 +23,7 @@ namespace Havamal.Repositories.MockRepositories
                 };
             });
 
-            return Computer<IReadOnlyCollection<Verse>>.ComputerSaysYes(Darling<IReadOnlyCollection<Verse>>.Allow(verses.AsReadOnly()));
+            return ComputerExtensions.ComputerSaysYes(DarlingExtensions.Allow<IReadOnlyCollection<Verse>>(verses));
         }
     }
 }

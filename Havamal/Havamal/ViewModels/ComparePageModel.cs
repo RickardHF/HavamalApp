@@ -189,7 +189,7 @@ namespace Havamal.ViewModels
 
         private void SetFromContent()
         {
-            var fromverse = Darling<Verse>.Allow(_fromLanguage.FirstOrDefault(x => x.VerseId == _verseId));
+            var fromverse = DarlingExtensions.Allow(_fromLanguage.FirstOrDefault(x => x.VerseId == _verseId));
             fromverse.MayI(yes => {
                 FromVerseContent = yes.Content;
             }, () =>
@@ -200,7 +200,7 @@ namespace Havamal.ViewModels
 
         private void SetToContent()
         {
-            var toverse = Darling<Verse>.Allow(_toLanguage.FirstOrDefault(x => x.VerseId == _verseId));
+            var toverse = DarlingExtensions.Allow(_toLanguage.FirstOrDefault(x => x.VerseId == _verseId));
             toverse.MayI(yes => {
                 ToVerseContent = yes.Content;
             }, () =>

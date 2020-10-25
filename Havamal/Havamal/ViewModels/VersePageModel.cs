@@ -122,7 +122,7 @@ namespace Havamal.ViewModels
         {
             _repository = repository;
             _favoriteRepository = favoriteRepository;
-            _currentId = Darling<int>.No();
+            _currentId = DarlingExtensions.No<int>();
             Verses = new ObservableCollection<Verse>();
             _favorites = new List<Favorite>();
 
@@ -146,7 +146,7 @@ namespace Havamal.ViewModels
                     {
                         Verses.Add(verse);
                     }
-                    _currentId = Darling<int>.Allow(Preferences.Get("CurrentVerse", 1));
+                    _currentId = DarlingExtensions.Allow(Preferences.Get("CurrentVerse", 1));
 
                     SetCurrentVerse();
                 }, exception =>

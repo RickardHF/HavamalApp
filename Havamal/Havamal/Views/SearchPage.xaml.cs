@@ -37,7 +37,7 @@ namespace Havamal.Views
                 SearchText = searchText,
                 OnlyFavorites = onlyFavs,
                 NumericOrder = numericOrder,
-                LanguageId = Darling<int>.Allow(Preferences.Get("SelectedLanguage", 1))
+                LanguageId = DarlingExtensions.Allow(Preferences.Get("SelectedLanguage", 1))
             };
 
             _pageModel.LoadData(searchParam);

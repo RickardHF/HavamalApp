@@ -72,12 +72,12 @@ namespace Havamal.Repositories
                     }
                 }
 
-                return Computer<IReadOnlyCollection<Verse>>.ComputerSaysYes(Darling<IReadOnlyCollection<Verse>>.Allow(verses));
+                return ComputerExtensions.ComputerSaysYes(DarlingExtensions.Allow((IReadOnlyCollection<Verse>) verses));
 
             }
             catch (Exception e)
             {
-                return Computer<IReadOnlyCollection<Verse>>.ComputerSaysNo(e);
+                return ComputerExtensions.ComputerSaysNo<IReadOnlyCollection<Verse>>(e);
             }
         }
     }

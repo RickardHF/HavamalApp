@@ -20,7 +20,7 @@ namespace Havamal.Repositories.MockRepositories
                 , new Language(2, "Den Høie's ord", "NO", "bvt.png", "G. A. Gjessing")
             };
 
-            return Task.Run(() => Computer<IReadOnlyCollection<Language>>.ComputerSaysYes(Darling<IReadOnlyCollection<Language>>.Allow(languages)));
+            return Task.Run(() => ComputerExtensions.ComputerSaysYes(DarlingExtensions.Allow<IReadOnlyCollection<Language>>(languages)));
         }
     }
 }

@@ -10,11 +10,6 @@ namespace Havamal.Models.HelperModels
     {
         private static List<TModel> _data = new List<TModel>();
 
-        public static Darling<TModel> No()
-        {
-            return new Darling<TModel>();
-        }
-
         public U MayI<U>(Func<TModel, U> yes, Func<U> no)
         {
             if (_data.Any()) return yes(_data.SingleOrDefault());
@@ -42,17 +37,9 @@ namespace Havamal.Models.HelperModels
             return _data.SingleOrDefault();
         }
 
-        private static bool CheckValueValid(TModel value)
+        public  static bool CheckValueValid(TModel value)
         {
             return !(value == null || value.Equals(default(TModel)));
-        }
-
-        public static Darling<TModel> Allow(TModel value)
-        {
-            if (! CheckValueValid(value)) return Darling<TModel>.No();
-            var container = new Darling<TModel>();
-            container.SetValue(value);
-            return container;
         }
     }
 }

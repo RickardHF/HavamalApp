@@ -36,7 +36,7 @@ namespace Havamal.Repositories.MockRepositories
                 }
             }
 
-            return Task.Run(() => Computer<IReadOnlyCollection<Favorite>>.ComputerSaysYes((IReadOnlyCollection<Favorite>) inserted));
+            return Task.Run(() => ComputerExtensions.ComputerSaysYes((IReadOnlyCollection<Favorite>) inserted));
         }
 
         public Task<Computer<bool>> Delete(IReadOnlyCollection<Favorite> model, FavoriteParameter param)
@@ -46,13 +46,13 @@ namespace Havamal.Repositories.MockRepositories
                 if (_favorites.Contains(delete)) _favorites.Remove(delete);
             }
 
-            return Task.Run(() => Computer<bool>.ComputerSaysYes(true));
+            return Task.Run(() => ComputerExtensions.ComputerSaysYes(true));
         }
 
         public Task<Computer<IReadOnlyCollection<Favorite>>> Get(FavoriteParameter param, CancellationToken cancellationToken)
         {
             IReadOnlyCollection<Favorite> favs = _favorites;
-            return Task.Run(() => Computer<IReadOnlyCollection<Favorite>>.ComputerSaysYes(favs));
+            return Task.Run(() => ComputerExtensions.ComputerSaysYes(favs));
         }
     }
 }

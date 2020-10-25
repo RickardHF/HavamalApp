@@ -35,7 +35,8 @@ namespace Havamal.Views
 
         private void SetStart()
         {
-            Carousel.Position = _context.CurrentStanzaIndex;
+            var startPos = _context.CurrentStanzaIndex;
+            if (startPos >= 0) Carousel.Position = startPos;
         }
     }
 }

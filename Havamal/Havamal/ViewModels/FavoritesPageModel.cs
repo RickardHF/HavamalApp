@@ -1,4 +1,5 @@
-﻿using Havamal.Interfaces.RepositoryInterfaces;
+﻿using Havamal.Helpers;
+using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Models;
 using Havamal.Parameters;
 using System;
@@ -8,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Input;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
@@ -24,7 +26,10 @@ namespace Havamal.ViewModels
 
         public ObservableCollection<Verse> Favorites { get; private set; }
 
+        public Verse SelectedStanza { get; set; }
+
         public Command LoadDataCommand { get; private set; }
+        
 
         public FavoritesPageModel(IVerseRepository verseRepository, IFavoriteRepository favoriteRepository)
         {
@@ -87,7 +92,7 @@ namespace Havamal.ViewModels
             {
                 var favoriteIds = _favorited.Select(x => x.VerseId).Distinct().ToList();
                 var verses = await _verseRepository.Get(new VerseParameter { 
-                    Language = Preferences.Get("SelectedLanguage", 1)
+                    Language = HavamalPreferences.SelectedLanguage
                     , OnIds = true
                     , Ids = favoriteIds
                 }, CancellationToken.None).ConfigureAwait(false);
