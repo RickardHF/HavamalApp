@@ -1,10 +1,15 @@
-﻿using Microsoft.Data.Sqlite;
+﻿using Havamal.Helpers;
+using Havamal.Interfaces.RepositoryInterfaces;
+using Havamal.Models;
+using Havamal.Parameters;
+using Microsoft.Data.Sqlite;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
@@ -17,9 +22,18 @@ namespace Havamal.Views
     {
         public EventHandler SetUpFinished;
 
+        private readonly IVerseRepository _verseRepository;
+        private readonly IVerseSetupRepository _verseSetupRepository;
+        private readonly DataSettings _dataSettings;
+
         public InitPage()
         {
             InitializeComponent();
+
+            _verseRepository = Startup.ServiceProvider.GetService<IVerseRepository>();
+            _verseSetupRepository = Startup.ServiceProvider.GetService<IVerseSetupRepository>();
+            _dataSettings = Startup.ServiceProvider.GetService<DataSettings>();
+
             SetUpDb();
         }
 
@@ -34,10 +48,9 @@ namespace Havamal.Views
 
         public async void SetUpDb()
         {
-            string dbName = "HavamalVerses.db";
-            string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), dbName);
+            var dbPath = _dataSettings.DbBasePath;
 
-            string tempName = "VersesTemp.db";
+            string tempName = HavamalPreferences.SetupDbName;
             string tempPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), tempName);
             // Check if your DB has already been extracted.
             if (File.Exists(tempName))
@@ -61,9 +74,28 @@ namespace Havamal.Views
             CreateVerseTable(dbPath);
             CreateLanguageTable(dbPath);
 
+            await UpdateVerses().ConfigureAwait(false);
+
             await Task.Delay(1000);
 
             OnSetupFinished(EventArgs.Empty);
+        }
+
+        private async Task UpdateVerses()
+        {
+            var fromStartup = await _verseSetupRepository.Get(new SetUpParameter(), CancellationToken.None).ConfigureAwait(false);
+            fromStartup.CanI(async yes =>
+            {
+                var insert = await _verseRepository.Create(yes, new VerseParameter()).ConfigureAwait(false);
+                insert.CanI(yes => {
+                    // TODO : do something smart
+                }, no => { 
+                    // TODO : Add Notification
+                });
+            }, no =>
+            {
+                // TODO : Add notification
+            });
         }
 
         private void CreateFavoriteTable(string path)

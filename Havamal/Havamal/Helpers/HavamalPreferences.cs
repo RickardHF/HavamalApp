@@ -26,5 +26,13 @@ namespace Havamal.Helpers
                 Preferences.Set("SelectedLanguage", 1);
             }
         }
+
+        public static string SetupDbName
+        {
+            get
+            {
+                return "TempVerses";
+            }
+        }
     }
 }

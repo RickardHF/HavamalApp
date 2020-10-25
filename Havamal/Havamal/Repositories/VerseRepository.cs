@@ -27,6 +27,57 @@ namespace Havamal.Repositories
         {
             _dataSettings = dataSettings;
         }
+
+        public async Task<Computer<IReadOnlyCollection<Verse>>> Create(IReadOnlyCollection<Verse> data, VerseParameter param)
+        {
+            try
+            {
+                var verses = new List<Verse>();
+
+                var path = _dataSettings.DbBasePath;
+
+                if (!File.Exists(path)) throw new Exception("Databasefile not found");
+
+                using (var con = new SqliteConnection($"DataSource = {path}"))
+                {
+                    con.Open();
+                    var dbName = con.Database;
+                    var dbPAth = con.DataSource;
+
+                    var cmd = con.CreateCommand();
+
+                    var inserts = from ins in data
+                                  select $"REPLACE INTO Verses (VerseId, LanguageId, Content) VALUES ({ins.VerseId}, {ins.LanguageId}, {ins.Content}); SELECT VerseId, LanguageId, Content FROM Verses WHERE rowid = last_insert_rowid();";
+
+
+                    foreach(var ins in inserts)
+                    {
+                        cmd.CommandText = ins;
+
+                        var reader = cmd.ExecuteReader();
+
+                        while (reader.Read())
+                        {
+                            var verse = new Verse(
+                                reader.GetInt32(0)
+                                , reader.GetInt32(1)
+                                , reader.GetString(2));
+
+                            verses.Add(verse);
+                        }
+                    }
+
+                }
+
+                return ComputerExtensions.ComputerSaysYes(DarlingExtensions.Allow((IReadOnlyCollection<Verse>)verses));
+
+            }
+            catch (Exception e)
+            {
+                return ComputerExtensions.ComputerSaysNo<IReadOnlyCollection<Verse>>(e);
+            }
+        }
+
         public async Task<Computer<IReadOnlyCollection<Verse>>> Get(VerseParameter param, CancellationToken cancellationToken)
         {
 

@@ -13,6 +13,11 @@ namespace Havamal.Repositories.MockRepositories
 {
     public class MockVerseRepository : IVerseRepository
     {
+        public Task<Computer<IReadOnlyCollection<Verse>>> Create(IReadOnlyCollection<Verse> data, VerseParameter param)
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<Computer<IReadOnlyCollection<Verse>>> Get(VerseParameter param, CancellationToken cancellationToken)
         {
             var verses = await Task.Run(() => {
