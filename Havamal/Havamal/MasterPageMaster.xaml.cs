@@ -46,11 +46,11 @@ namespace Havamal
             {
                 MenuItems = new ObservableCollection<MasterPageMasterMenuItem>(new[]
                 {
-                    new MasterPageMasterMenuItem { Id = 0, Title = "Stanzas", TargetType = typeof(StanzaPage) },
-                    new MasterPageMasterMenuItem { Id = 1, Title = "Search", TargetType = typeof(SearchPage) },
-                    new MasterPageMasterMenuItem { Id = 2, Title = "Compare", TargetType = typeof(ComparePage) },
-                    new MasterPageMasterMenuItem { Id = 3, Title = "Favorites", TargetType = typeof(FavoritesPage) },
-                    new MasterPageMasterMenuItem { Id = 4, Title = "Settings", TargetType = typeof(SettingsPage) }
+                    new MasterPageMasterMenuItem { Id = 0, Title = "Stanzas", TargetType = typeof(StanzaPage), Icon = "bok.png" },
+                    new MasterPageMasterMenuItem { Id = 1, Title = "Search", TargetType = typeof(SearchPage), Icon = "search.png"  },
+                    new MasterPageMasterMenuItem { Id = 2, Title = "Compare", TargetType = typeof(ComparePage), Icon = "compare.png"  },
+                    new MasterPageMasterMenuItem { Id = 3, Title = "Favorites", TargetType = typeof(FavoritesPage), Icon = "favoriteempty.png"  },
+                    new MasterPageMasterMenuItem { Id = 4, Title = "Settings", TargetType = typeof(SettingsPage), Icon = "spokes.png"  }
                 });
             }
 

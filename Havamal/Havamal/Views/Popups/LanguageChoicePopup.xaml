@@ -22,12 +22,12 @@
                      HorizontalOptions="Center"
                      BackgroundColor="White"
                      >
-
             <ListView x:Name="LangList"
                           ItemsSource="{Binding Languages, Mode=TwoWay}"
                           SelectedItem="{Binding SelectedLanguage, Mode=TwoWay}"
                           HorizontalOptions="Center"
                           VerticalOptions="Center"
+                          Margin="20"
                         >
                 <ListView.ItemTemplate>
                     <DataTemplate>

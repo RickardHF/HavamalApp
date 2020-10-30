@@ -4,7 +4,7 @@
              x:Class="Havamal.Views.InitPage"
              BackgroundColor="Black">
     <ContentPage.Content>
-        <Image VerticalOptions="Center" HorizontalOptions="Center" Source="logo.png">
+        <Image VerticalOptions="Center" HorizontalOptions="Center" Source="odelwhite.png">
             
         </Image>
     </ContentPage.Content>

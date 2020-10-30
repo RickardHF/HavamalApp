@@ -10,5 +10,5 @@
     <TabbedPage.Title >Stanzas</TabbedPage.Title>
     <!--Pages can be added as references or inline-->
     <pages:StanzaCarouselPage IconImageSource="bok.png"></pages:StanzaCarouselPage>
-    <pages:StanzaListPage IconImageSource="testListe.png"></pages:StanzaListPage>
+    <pages:StanzaListPage IconImageSource="list.png"></pages:StanzaListPage>
 </TabbedPage>
