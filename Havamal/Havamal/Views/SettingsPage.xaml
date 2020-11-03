@@ -16,12 +16,13 @@
                         <RowDefinition />
                         <RowDefinition />
                         <RowDefinition />
+                        <RowDefinition />
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition />
                         <ColumnDefinition />
                     </Grid.ColumnDefinitions>
-                    <Label Grid.Column="0" Grid.Row="0" FontSize="Medium">Verse Version</Label>
+                    <Label Grid.Column="0" Grid.Row="0" Style="{DynamicResource VerseIdText}">Verse Version</Label>
 
                     <components:LanguageButton 
                         x:Name="versePicker"
@@ -30,13 +31,20 @@
                         ImageSource="{Binding CurrentVerseLanguage.PictureLink}"
                         Grid.Column="1" 
                         Grid.Row="0" ></components:LanguageButton>
-                    <Label Grid.Column="0" Grid.Row="1" FontSize="Medium">App Language</Label>
+                    <Label Grid.Column="0" Grid.Row="1" Style="{DynamicResource VerseIdText}">App Language</Label>
                     <Picker Grid.Column="1" Grid.Row="1">
                         <Picker.Items>
                             <x:String>Norsk</x:String>
                             <x:String>Norsk 2</x:String>
                         </Picker.Items>
                     </Picker>
+                    <Label Grid.Column="0" Grid.Row="2" Style="{DynamicResource VerseIdText}">Theme</Label>
+                    <components:ThemeButton
+                        x:Name="themePicker"
+                        Title="{Binding CurrentTheme.ThemeName}"
+                        ImageSource="{Binding CurrentTheme.ThemeImage}"
+                        Grid.Column="1"
+                        Grid.Row="2"></components:ThemeButton>
                 </Grid>
             </StackLayout>
         </StackLayout>

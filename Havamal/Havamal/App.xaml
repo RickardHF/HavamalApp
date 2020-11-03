@@ -3,12 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Havamal.App">
     <Application.Resources>
-        <ResourceDictionary Source="Resources/EarthTheme.xaml">
+        <ResourceDictionary>
             <Style TargetType="{x:Type NavigationPage}">
                 <Setter Property="BarBackgroundColor"
-                    Value="{StaticResource NavigationBarColor}" />
+                    Value="{DynamicResource NavigationBarColor}" />
                 <Setter Property="BarTextColor"
-                    Value="{StaticResource TertiaryTextColor}" />
+                    Value="{DynamicResource TertiaryTextColor}" />
                 <Setter Property="BackgroundColor" Value="{DynamicResource NavigationBarColor}"/>
             </Style>
 

@@ -1,8 +1,11 @@
 ﻿using Android.Content.Res;
+using Havamal.Helpers;
 using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Repositories.MockRepositories;
+using Havamal.Resources;
 using Havamal.Views;
 using System;
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -18,6 +21,9 @@ namespace Havamal
             MainPage = initPage;
             initPage.SetUpFinished += SetUpFinished;
 
+
+            var currentTheme = (HavamalTheme)HavamalPreferences.Theme;
+            Resources.MergedDictionaries.Add(currentTheme.GetTheme());
         }
 
         private void SetUpFinished(object sender, EventArgs e)

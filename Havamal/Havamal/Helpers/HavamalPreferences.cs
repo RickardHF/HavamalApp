@@ -23,7 +23,19 @@ namespace Havamal.Helpers
             }
             set
             {
-                Preferences.Set("SelectedLanguage", 1);
+                Preferences.Set("SelectedLanguage", value);
+            }
+        }
+
+        public static int Theme
+        {
+            get
+            {
+                return Preferences.Get("Theme", 0);
+            }
+            set
+            {
+                Preferences.Set("Theme", value);
             }
         }
 

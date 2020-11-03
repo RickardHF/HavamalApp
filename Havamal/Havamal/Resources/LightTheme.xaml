@@ -4,7 +4,7 @@
              x:Class="Havamal.Resources.LightTheme">
     
     <Color x:Key="PageBackgroundColor">White</Color>
-    <Color x:Key="NavigationBarColor">WhiteSmoke</Color>
+    <Color x:Key="NavigationBarColor">DarkGreen</Color>
     <Color x:Key="PrimaryColor">WhiteSmoke</Color>
     <Color x:Key="SecondaryColor">Black</Color>
     <Color x:Key="PrimaryTextColor">Black</Color>

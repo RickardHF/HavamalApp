@@ -1,4 +1,7 @@
-﻿using Havamal.Models;
+﻿using Havamal.Helpers;
+using Havamal.Models;
+using Havamal.Models.HelperModels;
+using Havamal.Resources;
 using Havamal.ViewModels;
 using Havamal.Views.Popups;
 using Rg.Plugins.Popup.Extensions;
@@ -25,7 +28,14 @@ namespace Havamal.Views
             BindingContext = bindingContext;
 
             versePicker.OnClick = () => OnVersionClicked(new object(), null);
+            themePicker.OnClick = () => OnThemeClicked(new object(), null);
         }
+
+        private void OnThemeClicked(object sender, EventArgs args)
+        {
+            Navigation.PushPopupAsync(new ThemeChoicePopup(_pagemodel.Themes.ToList(), SetTheme));
+        }
+
 
         public void OnVersionClicked(object sender, EventArgs args)
         {
@@ -34,9 +44,19 @@ namespace Havamal.Views
 
         public void SetLanguage(Language language)
         {
-
-            Preferences.Set("SelectedLanguage", language.Id);
+            HavamalPreferences.SelectedLanguage = language.Id;
             _pagemodel.CurrentVerseLanguage = language;
+        }
+
+        public void SetTheme(ThemeListItem theme)
+        {
+            var dics = Application.Current.Resources.MergedDictionaries;
+            dics.Clear();
+
+            HavamalPreferences.Theme = theme.ThemeId;
+
+            dics.Add(theme.Theme);
+            _pagemodel.CurrentTheme = theme;
         }
 
     }

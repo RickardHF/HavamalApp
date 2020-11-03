@@ -1,7 +1,10 @@
 ﻿using Android.Preferences;
+using Havamal.Helpers;
 using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Models;
+using Havamal.Models.HelperModels;
 using Havamal.Parameters;
+using Havamal.Resources;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -19,6 +22,7 @@ namespace Havamal.ViewModels
         private readonly ILanguageRepository _languages;
 
         public ObservableCollection<Language> Languages { get; private set; }
+        public ObservableCollection<ThemeListItem> Themes { get; private set; }
 
         private Language _currentVerseLanguage;
         public Language CurrentVerseLanguage { get {
@@ -27,6 +31,21 @@ namespace Havamal.ViewModels
             set {
                 _currentVerseLanguage = value;
                 OnPropertyChanged(nameof(CurrentVerseLanguage));
+            }
+        }
+
+        private ThemeListItem _currentTheme;
+
+        public ThemeListItem CurrentTheme
+        {
+            get
+            {
+                return _currentTheme;
+            }
+            set
+            {
+                _currentTheme = value;
+                OnPropertyChanged(nameof(CurrentTheme));
             }
         }
 
@@ -44,6 +63,14 @@ namespace Havamal.ViewModels
 
             try
             {
+                Themes = new ObservableCollection<ThemeListItem> {
+                    new ThemeListItem { ThemeId = (int) HavamalTheme.Earth, ThemeName = "Earth", Theme = new EarthTheme()}
+                    , new ThemeListItem {ThemeId = (int) HavamalTheme.Light, ThemeName = "Light", Theme = new LightTheme()}
+                };
+
+                CurrentTheme = Themes.FirstOrDefault(x => x.ThemeId == HavamalPreferences.Theme);
+
+
                 var languages = await _languages.Get(null, CancellationToken.None).ConfigureAwait(false);
                 languages.CanI(success =>
                 {
@@ -52,7 +79,7 @@ namespace Havamal.ViewModels
                         Languages.Add(lang);
                     }
 
-                    CurrentVerseLanguage = Languages.FirstOrDefault(x => x.Id == Preferences.Get("SelectedLanguage", 1));
+                    CurrentVerseLanguage = Languages.FirstOrDefault(x => x.Id == HavamalPreferences.SelectedLanguage);
                 }, empty =>
                 {
                     throw empty;
