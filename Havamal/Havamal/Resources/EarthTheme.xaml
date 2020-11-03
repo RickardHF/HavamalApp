@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Havamal.Resources.EarthTheme">
+
+
+    <Color x:Key="PageBackgroundColor">#EDE7D9</Color>
+    <Color x:Key="NavigationBarColor">#4B4237</Color>
+    <Color x:Key="PrimaryColor">#4B4237</Color>
+    <Color x:Key="SecondaryColor">#D5A021</Color>
+    <Color x:Key="PrimaryTextColor">#736B60</Color>
+    <Color x:Key="SecondaryTextColor">#A49694</Color>
+    <Color x:Key="TertiaryTextColor">#EDE7D9</Color>
+    <Color x:Key="TransparentColor">Transparent</Color>
+
+
+    <Color x:Key="MenuHeaderBackground">#4B4237</Color>
+    <Color x:Key="MenuHeaderText">#D5A021</Color>
+    <Color x:Key="InitBackGround">Black</Color>
+
+    <Style x:Key="FavUnselected" TargetType="ImageButton">
+        <Setter Property="HeightRequest" Value="50"/>
+        <Setter Property="Source" Value="favoritespanishgray.png"/>
+    </Style>
+
+    <Style x:Key="FavSelected" TargetType="ImageButton">
+        <Setter Property="HeightRequest" Value="50"/>
+        <Setter Property="Source" Value="favoritegoldenrod.png"/>
+    </Style>
+
+
+</ResourceDictionary>

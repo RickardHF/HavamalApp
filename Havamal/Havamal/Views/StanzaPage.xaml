@@ -5,10 +5,10 @@
             x:Class="Havamal.Views.StanzaPage"
             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             android:TabbedPage.IsSwipePagingEnabled="False"
-            BackgroundColor="White"
+            BackgroundColor="{DynamicResource PageBackgroundColor}"
             >
-    <TabbedPage.Title >Stanzas</TabbedPage.Title>
+    <TabbedPage.Title>Stanzas</TabbedPage.Title>
     <!--Pages can be added as references or inline-->
-    <pages:StanzaCarouselPage IconImageSource="bok.png"></pages:StanzaCarouselPage>
-    <pages:StanzaListPage IconImageSource="list.png"></pages:StanzaListPage>
+    <pages:StanzaCarouselPage IconImageSource="book.png" BackgroundColor="{DynamicResource PageBackgroundColor}"></pages:StanzaCarouselPage>
+    <pages:StanzaListPage IconImageSource="list.png" BackgroundColor="{DynamicResource PageBackgroundColor}"></pages:StanzaListPage>
 </TabbedPage>

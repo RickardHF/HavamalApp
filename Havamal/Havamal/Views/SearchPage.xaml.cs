@@ -42,5 +42,10 @@ namespace Havamal.Views
 
             _pageModel.LoadData(searchParam);
         }
+
+        private void Checkbox_Changed(object sender, CheckedChangedEventArgs e)
+        {
+            Search_Clicked(sender, e);
+        }
     }
 }

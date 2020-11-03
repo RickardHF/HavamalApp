@@ -3,11 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Havamal.ViewModels" 
              xmlns:components="clr-namespace:Havamal.Views.Components"
-             x:Class="Havamal.Views.SettingsPage">
+             x:Class="Havamal.Views.SettingsPage"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
     <ContentPage.Content>
-        <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <StackLayout HorizontalOptions="FillAndExpand" 
+                     VerticalOptions="FillAndExpand"
+                     Style="{DynamicResource Key=ContentStack}"
+                     Padding="25,0,25,0">
             <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"> 
+                <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                     <Grid.RowDefinitions>
                         <RowDefinition />
                         <RowDefinition />
@@ -17,7 +21,7 @@
                         <ColumnDefinition />
                         <ColumnDefinition />
                     </Grid.ColumnDefinitions>
-                    <Label Grid.Column="0" Grid.Row="0">Verse Version</Label>
+                    <Label Grid.Column="0" Grid.Row="0" FontSize="Medium">Verse Version</Label>
 
                     <components:LanguageButton 
                         x:Name="versePicker"
@@ -26,7 +30,7 @@
                         ImageSource="{Binding CurrentVerseLanguage.PictureLink}"
                         Grid.Column="1" 
                         Grid.Row="0" ></components:LanguageButton>
-                    <Label Grid.Column="0" Grid.Row="1">App Language</Label>
+                    <Label Grid.Column="0" Grid.Row="1" FontSize="Medium">App Language</Label>
                     <Picker Grid.Column="1" Grid.Row="1">
                         <Picker.Items>
                             <x:String>Norsk</x:String>
@@ -35,9 +39,6 @@
                     </Picker>
                 </Grid>
             </StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

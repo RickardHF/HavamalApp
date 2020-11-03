@@ -576,3 +576,11 @@ C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mip
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\odelwhite.png
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\search.png
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\spokes.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\book.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\book.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\favoritegreen.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\favoritegreen.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\favoritegoldenrod.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\favoritespanishgray.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\favoritegoldenrod.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\favoritespanishgray.png

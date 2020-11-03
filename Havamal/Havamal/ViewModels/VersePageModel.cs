@@ -92,9 +92,9 @@ namespace Havamal.ViewModels
         {
             FavoriteImage = _currentId.MayI(value =>
             {
-                if (_favorites == null || !_favorites.Any(x => x.VerseId == value)) return "NotFavorite.png";
+                if (_favorites == null || !_favorites.Any(x => x.VerseId == value)) return "favoriteempty.png";
                 return "favorite.png";
-            }, () => "NotFavorite.png");
+            }, () => "favoriteempty.png");
             _isFavorite = _currentId.MayI(value =>
             {
                 if (_favorites == null || !_favorites.Any(x => x.VerseId == value)) return false;

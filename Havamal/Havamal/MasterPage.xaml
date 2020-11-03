@@ -5,6 +5,6 @@
              xmlns:local="clr-namespace:Havamal.Views"
              xmlns:pages="clr-namespace:Havamal">
     <MasterDetailPage.Master>
-        <pages:MasterPageMaster x:Name="masterPageMaster" />
+        <pages:MasterPageMaster x:Name="masterPageMaster"  />
     </MasterDetailPage.Master>
 </MasterDetailPage>

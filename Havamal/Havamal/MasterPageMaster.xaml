@@ -3,14 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Havamal.MasterPageMaster"
              Title="Master">
-  <StackLayout>
+    <StackLayout>
+        <StackLayout.Resources>
+            <ResourceDictionary/>
+        </StackLayout.Resources>
         <ListView x:Name="MenuItemsListView"
               SeparatorVisibility="None"
               HasUnevenRows="true"
               ItemsSource="{Binding MenuItems}"
+              Style="{DynamicResource MainMenu}"
+              BackgroundColor="{DynamicResource PageBackgroundColor}"
               >
             <ListView.Header>
-        <Grid BackgroundColor="LightGray">
+        <Grid BackgroundColor="{DynamicResource MenuHeaderBackground}">
           <Grid.ColumnDefinitions>
             <ColumnDefinition Width="10"/>
             <ColumnDefinition Width="*"/>
@@ -26,18 +31,23 @@
               Grid.Column="1"
               Grid.Row="2"
               Text="Havamal"
-              Style="{DynamicResource SubtitleStyle}"/>
+              Style="{DynamicResource SubtitleStyle}"
+              TextColor="{DynamicResource MenuHeaderText}"
+              />
         </Grid>
       </ListView.Header>
       <ListView.ItemTemplate >
         <DataTemplate>
           <ViewCell >
                         <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                            <Image Source="{Binding Icon}" HeightRequest="30" ></Image>
+                            <Image 
+                                Style="{DynamicResource Key=SmallImg}"
+                                Source="{Binding Icon}" 
+                                />
                             <Label VerticalOptions="FillAndExpand" 
-                                VerticalTextAlignment="Center" 
                                 Text="{Binding Title}"
-                                FontSize="24"/>
+                                Style="{DynamicResource VerseText}"
+                                />
             </StackLayout>
           </ViewCell>
         </DataTemplate>

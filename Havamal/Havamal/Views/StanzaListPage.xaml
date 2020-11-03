@@ -2,8 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewmodel="clr-namespace:Havamal.ViewModels"
-             x:Class="Havamal.Views.StanzaListPage">
-    <Frame>
+             x:Class="Havamal.Views.StanzaListPage"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <Frame BackgroundColor="{DynamicResource PageBackgroundColor}">
         <CarouselView 
             x:Name="Carousel"
             >
@@ -11,15 +12,12 @@
                 <DataTemplate>
                     <StackLayout
                         VerticalOptions="CenterAndExpand">
-                        <Label
-                            TextColor="Gray"  
+                        <Label  
                             Text="{Binding VerseId}" 
-                            FontSize="Medium"/>
+                            Style="{DynamicResource VerseIdText}"/>
                         <Label
-                            HorizontalOptions="Center"
-                            Text="{Binding Content}" 
-                            FontSize="Large" 
-                            FontFamily="Comic Sans"/>
+                            Style="{DynamicResource VerseText}"
+                            Text="{Binding Content}"/>
                     </StackLayout>
                 </DataTemplate>
             </CarouselView.ItemTemplate>

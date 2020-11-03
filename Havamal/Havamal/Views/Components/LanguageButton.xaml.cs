@@ -11,7 +11,7 @@ using Xamarin.Forms.Xaml;
 namespace Havamal.Views.Components
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class LanguageButton : StackLayout
+    public partial class LanguageButton : Frame
     {
         public static BindableProperty TitleProperty = BindableProperty.Create(
             nameof(Title)

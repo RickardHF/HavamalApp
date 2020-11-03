@@ -2,9 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Havamal.Views.InitPage"
-             BackgroundColor="Black">
+             BackgroundColor="{DynamicResource Key=InitBackGround}">
     <ContentPage.Content>
-        <Image VerticalOptions="Center" HorizontalOptions="Center" Source="odelwhite.png">
+        <Image VerticalOptions="Center" HorizontalOptions="Center" Style="{DynamicResource BigImg}" Source="odelwhite.png">
             
         </Image>
     </ContentPage.Content>

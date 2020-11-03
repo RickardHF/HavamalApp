@@ -1,16 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<StackLayout xmlns="http://xamarin.com/schemas/2014/forms"
+<Frame xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Havamal.Views.Components.LanguageButton"
-             Orientation="Horizontal">
-    <StackLayout.GestureRecognizers>
-        <TapGestureRecognizer Tapped="OnButtonClicked">
-        </TapGestureRecognizer>
-    </StackLayout.GestureRecognizers>
-    <Image x:Name="ButtonImage" WidthRequest="30"></Image>
-    <StackLayout Orientation="Vertical" Spacing="0">
-        <Label x:Name="ButtonTitle" FontSize="Subtitle" FontAttributes="Bold"></Label>
-        <Label x:Name="ButtonDesctiption" FontSize="Small"></Label>
+             Style="{DynamicResource LangButtonFrame}">
+    <StackLayout Orientation="Horizontal">
+        <StackLayout.GestureRecognizers>
+            <TapGestureRecognizer Tapped="OnButtonClicked">
+            </TapGestureRecognizer>
+        </StackLayout.GestureRecognizers>
+        <Image x:Name="ButtonImage" Style="{DynamicResource SmallImg}"></Image>
+        <StackLayout Orientation="Vertical" Spacing="0">
+            <Label x:Name="ButtonTitle" Style="{DynamicResource LangButtonMain}"></Label>
+            <Label x:Name="ButtonDesctiption" Style="{DynamicResource LangButtonSub}"></Label>
+        </StackLayout>
     </StackLayout>
-</StackLayout>
+</Frame>
     

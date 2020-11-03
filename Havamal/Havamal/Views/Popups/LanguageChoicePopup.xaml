@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
              xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
-             x:Class="Havamal.Views.Popups.LanguageChoicePopup">
+             x:Class="Havamal.Views.Popups.LanguageChoicePopup"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
     <pages:PopupPage.Animation>
         <animations:ScaleAnimation 
             PositionIn="Center"
@@ -17,24 +18,18 @@
             HasBackgroundAnimation="True"/>
     </pages:PopupPage.Animation>
     <Frame CornerRadius="20"
-           Margin="30">
-        <StackLayout VerticalOptions="Center"
-                     HorizontalOptions="Center"
-                     BackgroundColor="White"
-                     >
-            <ListView x:Name="LangList"
+           Margin="30"
+           BackgroundColor="{DynamicResource PageBackgroundColor}">
+        <ListView x:Name="LangList"
                           ItemsSource="{Binding Languages, Mode=TwoWay}"
                           SelectedItem="{Binding SelectedLanguage, Mode=TwoWay}"
-                          HorizontalOptions="Center"
-                          VerticalOptions="Center"
-                          Margin="20"
+                          Style="{DynamicResource LangChoiceBack}"
                         >
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ImageCell ImageSource="{Binding PictureLink}" Text="{Binding Name}" Detail="{Binding Authors}"></ImageCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
-            </ListView>
-        </StackLayout>
+        </ListView>
     </Frame>
 </pages:PopupPage>

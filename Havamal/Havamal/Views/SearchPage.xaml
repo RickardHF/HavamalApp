@@ -3,18 +3,37 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Havamal.ViewModels"
              xmlns:model="clr-namespace:Havamal.Models" 
-             x:Class="Havamal.Views.SearchPage">
+             x:Class="Havamal.Views.SearchPage"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
 
     <ContentPage.Content>
-        <StackLayout>
-            <StackLayout x:Name="SearchBox" VerticalOptions="Center">
+        <StackLayout 
+            Padding="25,0,25,0"
+            Style="{DynamicResource Key=ContentStack}">
+            <StackLayout x:Name="SearchBox">
                 <StackLayout Orientation="Horizontal">
-                    <SearchBar Placeholder="Search text" PlaceholderColor="DarkGray" AutomationId="SearchText" x:Name="SearchText" SearchButtonPressed="Search_Clicked"></SearchBar>
+                    <Frame CornerRadius="30" Padding="0" Margin="0,5,0,0">
+                        <SearchBar 
+                            Placeholder="Search text" 
+                            AutomationId="SearchText" 
+                            x:Name="SearchText" 
+                            SearchButtonPressed="Search_Clicked" 
+                            HorizontalOptions="Start"
+                            Style="{DynamicResource SearchBar}"
+                        ></SearchBar>
+                    </Frame>
                 </StackLayout>
-                <StackLayout Orientation="Horizontal">
-                    <CheckBox x:Name="OnlyFavs"></CheckBox>
+                <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="Center"
+                             VerticalOptions="Center">
+                    <CheckBox x:Name="OnlyFavs" 
+                              Visual="Material" 
+                              CheckedChanged="Checkbox_Changed" 
+                              Style="{DynamicResource xx}"></CheckBox>
                     <Label>Only Favorites</Label>
-                    <CheckBox x:Name="NumericOrder"></CheckBox>
+                    <CheckBox x:Name="NumericOrder" 
+                              CheckedChanged="Checkbox_Changed" 
+                              Style="{DynamicResource xx}"></CheckBox>
                     <Label>Numeric Sort</Label>
                 </StackLayout>
             </StackLayout>
@@ -28,8 +47,9 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout Padding="10" x:DataType="model:Verse" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                            <Label Text="{Binding VerseId}"  HorizontalOptions="StartAndExpand" Margin="50,0,0,0" FontSize="Medium"/>
-                            <Label Text="{Binding Content}" HorizontalOptions="CenterAndExpand" FontSize="Large" />
+                            <Label Text="{Binding VerseId}"  HorizontalOptions="StartAndExpand" Margin="50,0,0,0" Style="{DynamicResource VerseIdText}"/>
+                            <Label Text="{Binding Content}" 
+                                   Style="{DynamicResource VerseText}"/>
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>

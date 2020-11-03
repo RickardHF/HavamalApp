@@ -2,18 +2,22 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:viewmodel="clr-namespace:Havamal.ViewModels"
-             x:Class="Havamal.Views.StanzaCarouselPage">
+             x:Class="Havamal.Views.StanzaCarouselPage"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
 
 
-    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">  
+    <StackLayout HorizontalOptions="FillAndExpand" 
+                 VerticalOptions="FillAndExpand"
+                 Style="{DynamicResource Key=ContentStack}"
+                 Padding="20">
+        
         <ImageButton
                         x:DataType="viewmodel:StanzaCarouselPageModel"
-                        Source="{Binding FavoriteImage}" 
+                        Style="{Binding FavoriteImageStyle}"
                         BackgroundColor="Transparent"
                         HorizontalOptions="End" 
                         Clicked="FavoriteClicked" 
-                        HeightRequest="50" 
-                        WidthRequest="50"/>
+            />
 
         <CarouselView 
             x:Name="Carousel"
@@ -27,10 +31,8 @@
                             Text="{Binding VerseId}" 
                             FontSize="Medium"/>
                         <Label
-                            HorizontalOptions="Center"
-                            Text="{Binding Content}" 
-                            FontSize="Large" 
-                            FontFamily="Comic Sans"/>
+                            Style="{DynamicResource VerseText}"
+                            Text="{Binding Content}"/>
                     </StackLayout>
                 </DataTemplate>
             </CarouselView.ItemTemplate>

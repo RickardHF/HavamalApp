@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
+using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 
 namespace Havamal.ViewModels
@@ -25,6 +26,8 @@ namespace Havamal.ViewModels
         public Verse CurrentStanza { get; private set; }
 
         public string FavoriteImage { get; set; }
+
+        public Style FavoriteImageStyle { get; set; }
 
         public StanzaCarouselPageModel(IVerseRepository verseRepository
             , IFavoriteRepository favoriteRepository)
@@ -125,11 +128,9 @@ namespace Havamal.ViewModels
 
         private void SetFavoriteImage()
         {
-
-            if (_favorites.Any(x => x.VerseId == CurrentStanza.VerseId)) FavoriteImage = "favorite.png";
-            else FavoriteImage = "NotFavorite.png";
-
-            OnPropertyChanged(nameof(FavoriteImage));
+            if (_favorites.Any(x => x.VerseId == CurrentStanza.VerseId)) FavoriteImageStyle = (Style)Application.Current.Resources["FavSelected"];
+            else FavoriteImageStyle = (Style)Application.Current.Resources["FavUnselected"];
+            OnPropertyChanged(nameof(FavoriteImageStyle));
         }
 
         private async Task FetchFavorites()

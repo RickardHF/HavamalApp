@@ -443,20 +443,6 @@
           "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
         }
       },
-      "Plugin.CrossPlatformTintedImage/1.0.0": {
-        "type": "package",
-        "dependencies": {
-          "Xamarin.Forms": "2.3.4.247"
-        },
-        "compile": {
-          "lib/MonoAndroid10/Plugin.CrossPlatformTintedImage.Abstractions.dll": {},
-          "lib/MonoAndroid10/Plugin.CrossPlatformTintedImage.Android.dll": {}
-        },
-        "runtime": {
-          "lib/MonoAndroid10/Plugin.CrossPlatformTintedImage.Abstractions.dll": {},
-          "lib/MonoAndroid10/Plugin.CrossPlatformTintedImage.Android.dll": {}
-        }
-      },
       "Rg.Plugins.Popup/2.0.0.6": {
         "type": "package",
         "dependencies": {
@@ -1575,7 +1561,6 @@
           "Microsoft.Data.Sqlite": "3.1.8",
           "Microsoft.Extensions.Hosting": "3.1.8",
           "Nancy": "2.0.0",
-          "Plugin.CrossPlatformTintedImage": "1.0.0",
           "Rg.Plugins.Popup": "2.0.0.6",
           "Xamarin.Essentials": "1.5.3.2",
           "Xamarin.Forms": "4.6.0.1141"
@@ -2132,36 +2117,6 @@
         "newtonsoft.json.9.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "tools/install.ps1"
-      ]
-    },
-    "Plugin.CrossPlatformTintedImage/1.0.0": {
-      "sha512": "T8vNVTtnA3q6zs8rd2H764di6swqbq8HfK/9LAEu8iPWOMjBwXLUE81pkP6owc4KhogDsyOES7LV1js7OuYMSQ==",
-      "type": "package",
-      "path": "plugin.crossplatformtintedimage/1.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/MonoAndroid10/Plugin.CrossPlatformTintedImage.Abstractions.dll",
-        "lib/MonoAndroid10/Plugin.CrossPlatformTintedImage.Abstractions.pdb",
-        "lib/MonoAndroid10/Plugin.CrossPlatformTintedImage.Abstractions.xml",
-        "lib/MonoAndroid10/Plugin.CrossPlatformTintedImage.Android.dll",
-        "lib/MonoAndroid10/Plugin.CrossPlatformTintedImage.Android.pdb",
-        "lib/MonoAndroid10/Plugin.CrossPlatformTintedImage.Android.xml",
-        "lib/UAP10/Plugin.CrossPlatformTintedImage.Abstractions.dll",
-        "lib/UAP10/Plugin.CrossPlatformTintedImage.Abstractions.pdb",
-        "lib/UAP10/Plugin.CrossPlatformTintedImage.Abstractions.xml",
-        "lib/UAP10/Plugin.CrossPlatformTintedImage.UWP.dll",
-        "lib/UAP10/Plugin.CrossPlatformTintedImage.UWP.pdb",
-        "lib/UAP10/Plugin.CrossPlatformTintedImage.UWP.xml",
-        "lib/Xamarin.iOS10/Plugin.CrossPlatformTintedImage.Abstractions.dll",
-        "lib/Xamarin.iOS10/Plugin.CrossPlatformTintedImage.Abstractions.xml",
-        "lib/Xamarin.iOS10/Plugin.CrossPlatformTintedImage.iOS.dll",
-        "lib/Xamarin.iOS10/Plugin.CrossPlatformTintedImage.iOS.xml",
-        "lib/portable-net45+wp80+win8+wpa81/Plugin.CrossPlatformTintedImage.Abstractions.dll",
-        "lib/portable-net45+wp80+win8+wpa81/Plugin.CrossPlatformTintedImage.Abstractions.pdb",
-        "lib/portable-net45+wp80+win8+wpa81/Plugin.CrossPlatformTintedImage.Abstractions.xml",
-        "plugin.crossplatformtintedimage.1.0.0.nupkg.sha512",
-        "plugin.crossplatformtintedimage.nuspec"
       ]
     },
     "Rg.Plugins.Popup/2.0.0.6": {
