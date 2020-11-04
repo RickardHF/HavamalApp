@@ -2,9 +2,12 @@
 using Havamal.Helpers;
 using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Repositories.MockRepositories;
-using Havamal.Resources;
+using Havamal.Resources.TextResources;
+using Havamal.Resources.Themes;
 using Havamal.Views;
 using System;
+using System.Globalization;
+using System.Threading;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -22,6 +25,11 @@ namespace Havamal
             initPage.SetUpFinished += SetUpFinished;
 
 
+            CultureInfo language = new CultureInfo(HavamalPreferences.AppLanguage);
+
+            Thread.CurrentThread.CurrentUICulture = language;
+            AppResources.Culture = language;
+
             var currentTheme = (HavamalTheme)HavamalPreferences.Theme;
             Resources.MergedDictionaries.Add(currentTheme.GetTheme());
         }
@@ -29,6 +37,11 @@ namespace Havamal
         private void SetUpFinished(object sender, EventArgs e)
         {
             MainPage = new MasterPage();
+        }
+
+        public void Reset(NavigationPage navigationPage)
+        {
+            MainPage = new MasterPage(navigationPage);
         }
 
         protected override void OnStart()

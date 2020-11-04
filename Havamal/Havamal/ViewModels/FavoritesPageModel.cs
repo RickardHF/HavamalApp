@@ -2,6 +2,7 @@
 using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Models;
 using Havamal.Parameters;
+using Havamal.Resources.TextResources;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -73,10 +74,10 @@ namespace Havamal.ViewModels
                 var favs = await _favoriteRepository.Get(new FavoriteParameter(), CancellationToken.None).ConfigureAwait(false);
                 return favs.CanI(success => {
                     _favorited = (List<Favorite>)success;
-                    if(! _favorited.Any()) _errMsg = "You have no favorites";
+                    if(! _favorited.Any()) _errMsg = AppResources.NoFavorites;
                     return true;
                 }, empty => {
-                    _errMsg = "Could not load favorites";
+                    _errMsg = AppResources.CouldNotLoadFavs;
                     return false;
                 });
             } catch (Exception e)
@@ -107,7 +108,7 @@ namespace Havamal.ViewModels
                     }
                 }, fail =>
                 {
-                    _errMsg = "Could not load favorite verses";
+                    _errMsg = AppResources.CouldNotLoadFavs;
                 });
             } catch (Exception e)
             {

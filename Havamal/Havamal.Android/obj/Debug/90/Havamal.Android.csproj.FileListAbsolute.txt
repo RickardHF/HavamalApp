@@ -584,3 +584,9 @@ C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\dra
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\favoritespanishgray.png
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\favoritegoldenrod.png
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\favoritespanishgray.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\bin\Debug\no\Havamal.resources.dll
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\bin\Debug\ru\Havamal.resources.dll
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\cze.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\rus.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\shn.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\bin\Debug\cs\Havamal.resources.dll

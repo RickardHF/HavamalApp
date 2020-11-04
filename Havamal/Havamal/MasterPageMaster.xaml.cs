@@ -1,4 +1,5 @@
-﻿using Havamal.Views;
+﻿using Havamal.Resources.TextResources;
+using Havamal.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -38,7 +39,7 @@ namespace Havamal
 
         }
 
-        class MasterPageMasterViewModel : INotifyPropertyChanged
+        public class MasterPageMasterViewModel : INotifyPropertyChanged
         {
             public ObservableCollection<MasterPageMasterMenuItem> MenuItems { get; set; }
 
@@ -46,11 +47,11 @@ namespace Havamal
             {
                 MenuItems = new ObservableCollection<MasterPageMasterMenuItem>(new[]
                 {
-                    new MasterPageMasterMenuItem { Id = 0, Title = "Stanzas", TargetType = typeof(StanzaPage), Icon = "book.png" },
-                    new MasterPageMasterMenuItem { Id = 1, Title = "Search", TargetType = typeof(SearchPage), Icon = "search.png"  },
-                    new MasterPageMasterMenuItem { Id = 2, Title = "Compare", TargetType = typeof(ComparePage), Icon = "compare.png"  },
-                    new MasterPageMasterMenuItem { Id = 3, Title = "Favorites", TargetType = typeof(FavoritesPage), Icon = "favoriteempty.png"  },
-                    new MasterPageMasterMenuItem { Id = 4, Title = "Settings", TargetType = typeof(SettingsPage), Icon = "spokes.png"  }
+                    new MasterPageMasterMenuItem { Id = 0, Title = AppResources.Stanzas, TargetType = typeof(StanzaPage), Icon = "book.png" },
+                    new MasterPageMasterMenuItem { Id = 1, Title = AppResources.Search, TargetType = typeof(SearchPage), Icon = "search.png"  },
+                    new MasterPageMasterMenuItem { Id = 2, Title = AppResources.Compare, TargetType = typeof(ComparePage), Icon = "compare.png"  },
+                    new MasterPageMasterMenuItem { Id = 3, Title = AppResources.Favorites, TargetType = typeof(FavoritesPage), Icon = "favoriteempty.png"  },
+                    new MasterPageMasterMenuItem { Id = 4, Title = AppResources.Settings, TargetType = typeof(SettingsPage), Icon = "spokes.png"  }
                 });
             }
 

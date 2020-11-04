@@ -1,4 +1,5 @@
-﻿using Havamal.Views;
+﻿using Havamal.Resources.TextResources;
+using Havamal.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,13 +14,18 @@ namespace Havamal
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MasterPage : MasterDetailPage
     {
-        public MasterPage()
+        public MasterPage() : this(new NavigationPage(new StanzaPage()) { Title = AppResources.Stanzas })
+        {
+        }
+
+        public MasterPage(NavigationPage navPage)
         {
             InitializeComponent();
             masterPageMaster.ListView.ItemSelected += ListView_ItemSelected;
 
-            Detail = new NavigationPage(new StanzaPage()) { Title = "Stanzas" };
+            Detail = navPage;
         }
+
         public void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var item = e.SelectedItem as MasterPageMasterMenuItem;

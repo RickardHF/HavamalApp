@@ -1,6 +1,9 @@
-﻿using System;
+﻿using Havamal.Resources.TextResources;
+using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
+using System.Threading;
 using Xamarin.Essentials;
 
 namespace Havamal.Helpers
@@ -36,6 +39,33 @@ namespace Havamal.Helpers
             set
             {
                 Preferences.Set("Theme", value);
+            }
+        }
+
+        public static string AppLanguage
+        {
+            get
+            {
+                return Preferences.Get("AppLanguage", "en");
+            }
+            set
+            {
+                UpdateLang(value);
+                Preferences.Set("AppLanguage", value.ToLower());
+            }
+        }
+
+        private static void UpdateLang(string code)
+        {
+            try
+            {
+                CultureInfo language = new CultureInfo(code);
+
+                Thread.CurrentThread.CurrentUICulture = language;
+                AppResources.Culture = language;
+            } catch
+            {
+                // Do something smart
             }
         }
 

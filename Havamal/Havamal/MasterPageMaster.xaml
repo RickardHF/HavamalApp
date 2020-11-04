@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Havamal.MasterPageMaster"
+             xmlns:resources="clr-namespace:Havamal.Resources.TextResources"
              Title="Master">
     <StackLayout>
         <StackLayout.Resources>
@@ -30,7 +31,7 @@
           <Label
               Grid.Column="1"
               Grid.Row="2"
-              Text="Havamal"
+              Text="{Static resources:AppResources.Havamal}"
               Style="{DynamicResource SubtitleStyle}"
               TextColor="{DynamicResource MenuHeaderText}"
               />

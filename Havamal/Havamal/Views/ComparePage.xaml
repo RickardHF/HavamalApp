@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Havamal.ViewModels"
              xmlns:components="clr-namespace:Havamal.Views.Components"
+             xmlns:converters="clr-namespace:Havamal.Converters"
              x:Class="Havamal.Views.ComparePage"
              BackgroundColor="{DynamicResource PageBackgroundColor}">
     <ContentPage.Content>
@@ -15,12 +16,12 @@
             <StackLayout x:Name="Menu" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" Padding="20,0,20,0">
                 <components:LanguageButton 
                     x:Name="from" 
-                    ImageSource="{Binding CurrentFromLanguage.PictureLink}" 
+                    ImageSource="{Binding CurrentAppLanguage.LanguageCode, Converter={converters:CountryImageConverter}}" 
                     Title="{Binding CurrentFromLanguage.Name}" 
                     Description="{Binding CurrentFromLanguage.Authors}"></components:LanguageButton>
                 <components:LanguageButton 
                     x:Name="to" 
-                    ImageSource="{Binding CurrentToLanguage.PictureLink}" 
+                    ImageSource="{Binding CurrentAppLanguage.LanguageCode, Converter={converters:CountryImageConverter}}"
                     Title="{Binding CurrentToLanguage.Name}" 
                     Description="{Binding CurrentToLanguage.Authors}"></components:LanguageButton>
             </StackLayout>

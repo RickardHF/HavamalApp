@@ -1,6 +1,7 @@
 ﻿using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Models;
 using Havamal.Parameters;
+using Havamal.Resources.TextResources;
 using Havamal.SearchHelpers.Filtering;
 using Havamal.SearchHelpers.Indexing;
 using Havamal.SearchHelpers.Indexing.Helper;
@@ -31,7 +32,7 @@ namespace Havamal.ViewModels
             _favoriteRepository = favoriteRepository;
             _verseRepository = verseRepository;
 
-            ResultText = "Search for verses";
+            ResultText = AppResources.Search;
 
             SearchResult = new ObservableCollection<Verse>();
         }
@@ -45,7 +46,7 @@ namespace Havamal.ViewModels
 
             if (string.IsNullOrEmpty(param.SearchText))
             {
-                ResultText = "Search text cannot be empty";
+                ResultText = AppResources.SearchEmpty;
                 SearchResult.Clear();
                 OnPropertyChanged(nameof(ResultText));
                 return;
@@ -81,7 +82,7 @@ namespace Havamal.ViewModels
 
                 SearchResult.Clear();
 
-                if (!indexedVerses.Any()) ResultText = "No verses found";
+                if (!indexedVerses.Any()) ResultText = AppResources.SearchNotFound;
                 foreach(var verse in indexedVerses)
                 {
                     SearchResult.Add(verse.DataObject);

@@ -1,5 +1,6 @@
 ﻿using Havamal.Helpers;
 using Havamal.Models;
+using Havamal.Resources.TextResources;
 using Havamal.ViewModels;
 using Rg.Plugins.Popup.Extensions;
 using System;
@@ -33,7 +34,7 @@ namespace Havamal.Views
 
             var page = (Page) Activator.CreateInstance(typeof(StanzaPage));
 
-            NavigationHelpers.GoToPage(page, "Stanzas");
+            NavigationHelpers.GoToPage(page, AppResources.Stanzas);
         }
     }
 }

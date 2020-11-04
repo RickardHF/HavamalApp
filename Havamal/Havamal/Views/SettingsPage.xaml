@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:Havamal.ViewModels" 
              xmlns:components="clr-namespace:Havamal.Views.Components"
+             xmlns:resources="clr-namespace:Havamal.Resources.TextResources"
+             xmlns:converters="clr-namespace:Havamal.Converters" 
              x:Class="Havamal.Views.SettingsPage"
              BackgroundColor="{DynamicResource PageBackgroundColor}">
     <ContentPage.Content>
@@ -22,23 +24,24 @@
                         <ColumnDefinition />
                         <ColumnDefinition />
                     </Grid.ColumnDefinitions>
-                    <Label Grid.Column="0" Grid.Row="0" Style="{DynamicResource VerseIdText}">Verse Version</Label>
+                    <Label Grid.Column="0" Grid.Row="0" Style="{DynamicResource VerseIdText}" Text="{x:Static resources:AppResources.VerseVer}"/>
 
                     <components:LanguageButton 
                         x:Name="versePicker"
                         Title="{Binding CurrentVerseLanguage.Name}" 
                         Description="{Binding CurrentVerseLanguage.Authors}" 
-                        ImageSource="{Binding CurrentVerseLanguage.PictureLink}"
+                        ImageSource="{Binding CurrentVerseLanguage.LanguageCode, Converter={converters:CountryImageConverter}}"
                         Grid.Column="1" 
                         Grid.Row="0" ></components:LanguageButton>
-                    <Label Grid.Column="0" Grid.Row="1" Style="{DynamicResource VerseIdText}">App Language</Label>
-                    <Picker Grid.Column="1" Grid.Row="1">
-                        <Picker.Items>
-                            <x:String>Norsk</x:String>
-                            <x:String>Norsk 2</x:String>
-                        </Picker.Items>
-                    </Picker>
-                    <Label Grid.Column="0" Grid.Row="2" Style="{DynamicResource VerseIdText}">Theme</Label>
+                    <Label Grid.Column="0" Grid.Row="1" Style="{DynamicResource VerseIdText}" Text="{x:Static resources:AppResources.AppLang}"/>
+                    <components:LanguageButton
+                        x:Name="langPicker"
+                        Title="{Binding CurrentAppLanguage.Name}"
+                        ImageSource="{Binding CurrentAppLanguage.LanguageCode, Converter={converters:CountryImageConverter}}"
+                        Grid.Column="1" 
+                        Grid.Row="1" 
+                        />
+                    <Label Grid.Column="0" Grid.Row="2" Style="{DynamicResource VerseIdText}" Text="{x:Static resources:AppResources.Theme}"/>
                     <components:ThemeButton
                         x:Name="themePicker"
                         Title="{Binding CurrentTheme.ThemeName}"

@@ -16,8 +16,8 @@ namespace Havamal.Repositories.MockRepositories
         {
             IReadOnlyCollection<Language> languages = new List<Language>
             {
-                new Language(1, "Håvamål", "NO", "bvt.png", "Ivar Mortensson-Egnund")
-                , new Language(2, "Den Høie's ord", "NO", "bvt.png", "G. A. Gjessing")
+                new Language(1, "Håvamål", "NO", "Ivar Mortensson-Egnund")
+                , new Language(2, "Den Høie's ord", "NO", "G. A. Gjessing")
             };
 
             return Task.Run(() => ComputerExtensions.ComputerSaysYes(DarlingExtensions.Allow<IReadOnlyCollection<Language>>(languages)));

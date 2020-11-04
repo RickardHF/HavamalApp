@@ -10,13 +10,11 @@ namespace Havamal.Models
         public string Name { get; }
         public string Authors { get; }
         public string LanguageCode { get; }
-        public string PictureLink { get; }
-        public Language(int id, string name, string languageCode, string pictureLink, string authors)
+        public Language(int id, string name, string languageCode, string authors)
         {
             Id = id;
             Name = name;
             LanguageCode = languageCode;
-            PictureLink = pictureLink;
             Authors = authors;
         }
 

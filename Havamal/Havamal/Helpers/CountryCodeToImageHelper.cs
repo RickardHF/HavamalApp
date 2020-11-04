@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Havamal.Helpers
@@ -12,15 +13,23 @@ namespace Havamal.Helpers
         {
             _langs = new Dictionary<string, string>
             {
-                {"NO", "btv.png" }
+                {"NO", "bvt.png" }
+                , {"EN", "shn.png"}
+                , {"CS", "cze.png"}
+                , {"RU", "rus.png"}
             };
         }
 
         public static string Get(string key)
         {
-            _langs.TryGetValue(key, out string val);
+            _langs.TryGetValue(key.ToUpper(), out string val);
 
             return val;
+        }
+
+        public static string Revert(string value)
+        {
+            return _langs.FirstOrDefault(pair => value.Equals(pair.Value)).Key;
         }
     }
 }

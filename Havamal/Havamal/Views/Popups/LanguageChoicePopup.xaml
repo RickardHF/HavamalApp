@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
              xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             xmlns:converters="clr-namespace:Havamal.Converters"
              x:Class="Havamal.Views.Popups.LanguageChoicePopup"
              BackgroundColor="{DynamicResource PageBackgroundColor}">
     <pages:PopupPage.Animation>
@@ -27,7 +28,7 @@
                         >
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ImageCell ImageSource="{Binding PictureLink}" Text="{Binding Name}" Detail="{Binding Authors}"></ImageCell>
+                    <ImageCell ImageSource="{Binding LanguageCode, Converter={converters:CountryImageConverter}}" Text="{Binding Name}" Detail="{Binding Authors}"></ImageCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
         </ListView>

@@ -1,7 +1,9 @@
-﻿using Havamal.Interfaces.RepositoryInterfaces;
+﻿using Havamal.Helpers;
+using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Models;
 using Havamal.Models.HelperModels;
 using Havamal.Parameters;
+using Havamal.Resources.TextResources;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -21,7 +23,7 @@ namespace Havamal.ViewModels
         private List<Verse> _fromLanguage;
         private List<Verse> _toLanguage;
 
-        private int _verseId { get { return Preferences.Get("CurrentVerse", 1); } set { Preferences.Set("CurrentVerse", value); } }
+        private int _verseId { get { return HavamalPreferences.CurrentVerse; } set { HavamalPreferences.CurrentVerse = value; } }
 
         public ObservableCollection<Language> FromLanguages { get; private set; }
         public ObservableCollection<Language> ToLanguages { get; private set; }
@@ -30,7 +32,7 @@ namespace Havamal.ViewModels
         private Darling<Language> _to;
         public Language CurrentFromLanguage { get
             {
-                return _from.MayI<Language>(yes => yes, () => new Language(0, "Select Language", "XX", "", ""));
+                return _from.MayI<Language>(yes => yes, () => new Language(0, AppResources.SelLang, "XX", ""));
             }
             set {
                 _from.SetValue(value);
@@ -41,7 +43,7 @@ namespace Havamal.ViewModels
         public Language CurrentToLanguage {
             get
             {
-                return _to.MayI<Language>(yes => yes, () => new Language(0, "Select Language", "XX", "", ""));
+                return _to.MayI<Language>(yes => yes, () => new Language(0, AppResources.SelLang, "XX", ""));
             }
             set
             {
@@ -98,11 +100,11 @@ namespace Havamal.ViewModels
                 {
                     foreach(var l in yes)
                     {
-                        FromLanguages.Add(new Language(l.Id, l.Name, l.LanguageCode, l.PictureLink, l.Authors));
+                        FromLanguages.Add(new Language(l.Id, l.Name, l.LanguageCode, l.Authors));
                     }
                     foreach (var l in yes)
                     {
-                        ToLanguages.Add(new Language(l.Id, l.Name, l.LanguageCode, l.PictureLink, l.Authors));
+                        ToLanguages.Add(new Language(l.Id, l.Name, l.LanguageCode, l.Authors));
                     }
                 }, no =>
                 {
@@ -138,7 +140,7 @@ namespace Havamal.ViewModels
                 });
             }, () =>
             {
-                FromError = "Could not gather verses from selected language";
+                FromError = AppResources.CouldNotVersForLang;
             });
 
             UpdateFrom();
@@ -181,7 +183,7 @@ namespace Havamal.ViewModels
                 });
             }, () =>
             {
-                ToError = "Could not gather verses from selected language";
+                ToError = AppResources.CouldNotVersForLang;
             });
 
             UpdateTo();
@@ -194,7 +196,7 @@ namespace Havamal.ViewModels
                 FromVerseContent = yes.Content;
             }, () =>
             {
-                FromError = "Could not find verse for this language at this Id";
+                FromError = AppResources.CouldNotVersForId;
             });
         }
 
@@ -205,7 +207,7 @@ namespace Havamal.ViewModels
                 ToVerseContent = yes.Content;
             }, () =>
             {
-                ToError = "Could not find verse for this language at this Id";
+                ToError = AppResources.CouldNotVersForId;
             });
         }
     }

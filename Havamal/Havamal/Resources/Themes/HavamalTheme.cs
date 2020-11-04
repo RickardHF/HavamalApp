@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Havamal.Resources
+namespace Havamal.Resources.Themes
 {
     public enum HavamalTheme : int
     {
