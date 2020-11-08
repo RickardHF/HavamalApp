@@ -5,7 +5,8 @@
              xmlns:model="clr-namespace:Havamal.Models" 
              xmlns:resources="clr-namespace:Havamal.Resources.TextResources"
              x:Class="Havamal.Views.SearchPage"
-             BackgroundColor="{DynamicResource PageBackgroundColor}">
+             BackgroundColor="{DynamicResource PageBackgroundColor}"
+             Title="{Static resources:AppResources.Search}">
 
     <ContentPage.Content>
         <StackLayout 

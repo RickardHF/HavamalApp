@@ -36,12 +36,18 @@ namespace Havamal
 
         private void SetUpFinished(object sender, EventArgs e)
         {
-            MainPage = new MasterPage();
+            MainPage = new MasterPage
+            {
+                Title = AppResources.Stanzas
+            };
         }
 
         public void Reset(NavigationPage navigationPage)
         {
-            MainPage = new MasterPage(navigationPage);
+            MainPage = new MasterPage(navigationPage)
+            {
+                Title = navigationPage.Title
+            };
         }
 
         protected override void OnStart()

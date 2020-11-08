@@ -59,7 +59,7 @@ namespace Havamal.Views
             HavamalPreferences.AppLanguage = language.LanguageCode;
             _pagemodel.CurrentAppLanguage = language;
             var app = (App) Application.Current;
-            app.Reset(new NavigationPage(new SettingsPage()) { Title = AppResources.Settings });
+            app.Reset(new NavigationPage(new SettingsPage() { Title = AppResources.Settings } ));
         }
 
         public void SetTheme(ThemeListItem theme)

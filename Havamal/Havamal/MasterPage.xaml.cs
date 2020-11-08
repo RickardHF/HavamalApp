@@ -14,7 +14,7 @@ namespace Havamal
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MasterPage : MasterDetailPage
     {
-        public MasterPage() : this(new NavigationPage(new StanzaPage()) { Title = AppResources.Stanzas })
+        public MasterPage() : this(new NavigationPage(new StanzaPage() { Title = AppResources.Stanzas }) { Title = AppResources.Stanzas })
         {
         }
 

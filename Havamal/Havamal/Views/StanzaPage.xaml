@@ -2,12 +2,13 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:pages="clr-namespace:Havamal.Views"
+            xmlns:resources="clr-namespace:Havamal.Resources.TextResources"
             x:Class="Havamal.Views.StanzaPage"
             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             android:TabbedPage.IsSwipePagingEnabled="False"
             BackgroundColor="{DynamicResource PageBackgroundColor}"
+            Title="{Static resources:AppResources.Stanzas}"
             >
-    <TabbedPage.Title>Stanzas</TabbedPage.Title>
     <!--Pages can be added as references or inline-->
     <pages:StanzaCarouselPage IconImageSource="book.png" BackgroundColor="{DynamicResource PageBackgroundColor}"></pages:StanzaCarouselPage>
     <pages:StanzaListPage IconImageSource="list.png" BackgroundColor="{DynamicResource PageBackgroundColor}"></pages:StanzaListPage>

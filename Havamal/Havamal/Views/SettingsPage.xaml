@@ -6,7 +6,8 @@
              xmlns:resources="clr-namespace:Havamal.Resources.TextResources"
              xmlns:converters="clr-namespace:Havamal.Converters" 
              x:Class="Havamal.Views.SettingsPage"
-             BackgroundColor="{DynamicResource PageBackgroundColor}">
+             BackgroundColor="{DynamicResource PageBackgroundColor}"
+             Title="{Static resources:AppResources.Settings}">
     <ContentPage.Content>
         <StackLayout HorizontalOptions="FillAndExpand" 
                      VerticalOptions="FillAndExpand"

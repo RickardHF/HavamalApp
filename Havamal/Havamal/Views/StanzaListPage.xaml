@@ -12,6 +12,18 @@
                 <DataTemplate>
                     <StackLayout
                         VerticalOptions="CenterAndExpand">
+                        <StackLayout.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="2" CommandParameter="{Binding .}"  Tapped="FavoriteTapped"/>
+                        </StackLayout.GestureRecognizers>
+                        <ImageButton
+                                    x:Name="FavBtn"
+                                    Margin="0,0,60,-15"
+                                    Style="{Binding Favorite}"
+                                    CommandParameter="{Binding .}"
+                                    BackgroundColor="Transparent"
+                                    HorizontalOptions="End" 
+                                    Clicked="FavoriteClicked" 
+                        />
                         <Label  
                             Text="{Binding VerseId}" 
                             Style="{DynamicResource VerseIdText}"/>

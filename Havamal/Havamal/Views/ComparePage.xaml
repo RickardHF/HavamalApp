@@ -12,47 +12,51 @@
                 <SwipeGestureRecognizer x:DataType="local:ComparePageModel" Direction="Left"  Command="{Binding SwipeLeft}"/>
                 <SwipeGestureRecognizer x:DataType="local:ComparePageModel" Direction="Right" Command="{Binding SwipeRight}"/>
             </StackLayout.GestureRecognizers>
-
             <StackLayout x:Name="Menu" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" Padding="20,0,20,0">
                 <components:LanguageButton 
                     x:Name="from" 
-                    ImageSource="{Binding CurrentAppLanguage.LanguageCode, Converter={converters:CountryImageConverter}}" 
+                    ImageSource="{Binding CurrentFromLanguage.LanguageCode, Converter={converters:CountryImageConverter}}" 
                     Title="{Binding CurrentFromLanguage.Name}" 
                     Description="{Binding CurrentFromLanguage.Authors}"></components:LanguageButton>
                 <components:LanguageButton 
                     x:Name="to" 
-                    ImageSource="{Binding CurrentAppLanguage.LanguageCode, Converter={converters:CountryImageConverter}}"
+                    ImageSource="{Binding CurrentToLanguage.LanguageCode, Converter={converters:CountryImageConverter}}"
                     Title="{Binding CurrentToLanguage.Name}" 
                     Description="{Binding CurrentToLanguage.Authors}"></components:LanguageButton>
             </StackLayout>
-            <StackLayout x:Name="Content" VerticalOptions="FillAndExpand" Margin="20">
-                <Label x:DataType="local:ComparePageModel" 
-                       Text="{Binding VerseId}" 
-                       Style="{DynamicResource VerseIdText}"/>
-                <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-                    <Grid.RowDefinitions>
-                        <RowDefinition />
-                        <RowDefinition />
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition />
-                    </Grid.ColumnDefinitions>
-                    <StackLayout HorizontalOptions="CenterAndExpand"  Margin="0,0,0,0" Grid.Column="0" Grid.Row="0">
-                        <Label x:DataType="local:ComparePageModel" 
-                               Text="{Binding FromVerseContent}" 
-                               Style="{DynamicResource VerseText}"
-                               />
-                        <Label x:DataType="local:ComparePageModel" Text="{Binding FromError}" 
-                               Style="{DynamicResource VerseText}"/>
-                    </StackLayout>
-                    <StackLayout HorizontalOptions="CenterAndExpand" Margin="0,0,0,0" Grid.Column="0" Grid.Row="1">
-                        <Label x:DataType="local:ComparePageModel" Text="{Binding ToVerseContent}" 
-                               Style="{DynamicResource VerseText}"/>
-                        <Label x:DataType="local:ComparePageModel" Text="{Binding ToError}" 
-                               Style="{DynamicResource VerseText}"/>
-                    </StackLayout>
-                </Grid>
-            </StackLayout>
+            <ScrollView 
+                Orientation="Vertical"
+                VerticalScrollBarVisibility="Never">
+                <StackLayout x:Name="Content" VerticalOptions="FillAndExpand" Margin="20">
+                    <Label x:DataType="local:ComparePageModel" 
+                        Text="{Binding VerseId}" 
+                        Style="{DynamicResource VerseIdText}"/>
+                    <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <StackLayout HorizontalOptions="CenterAndExpand"  Margin="0,0,0,0" Grid.Column="0" Grid.Row="0">
+                            <Label x:DataType="local:ComparePageModel" 
+                                Text="{Binding FromVerseContent}" 
+                                Style="{DynamicResource VerseText}"
+                                />
+                            <Label x:DataType="local:ComparePageModel" Text="{Binding FromError}" 
+                                Style="{DynamicResource VerseText}"/>
+                        </StackLayout>
+                        <StackLayout HorizontalOptions="CenterAndExpand" Margin="0,0,0,0" Grid.Column="0" Grid.Row="1">
+                            <Label x:DataType="local:ComparePageModel" Text="{Binding ToVerseContent}" 
+                                Style="{DynamicResource VerseText}"/>
+                            <Label x:DataType="local:ComparePageModel" Text="{Binding ToError}" 
+                                Style="{DynamicResource VerseText}"/>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+            </ScrollView>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -33,7 +33,7 @@ namespace Havamal.Views
             HavamalPreferences.CurrentVerse = tappedStanza.VerseId;
 
             var page = (Page) Activator.CreateInstance(typeof(StanzaPage));
-
+            
             NavigationHelpers.GoToPage(page, AppResources.Stanzas);
         }
     }

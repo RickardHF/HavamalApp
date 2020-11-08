@@ -40,15 +40,15 @@
       <ListView.ItemTemplate >
         <DataTemplate>
           <ViewCell >
-                        <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
-                            <Image 
-                                Style="{DynamicResource Key=SmallImg}"
-                                Source="{Binding Icon}" 
-                                />
-                            <Label VerticalOptions="FillAndExpand" 
-                                Text="{Binding Title}"
-                                Style="{DynamicResource VerseText}"
-                                />
+                <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                    <Image 
+                        Style="{DynamicResource Key=SmallImg}"
+                        Source="{Binding Icon}" 
+                        />
+                    <Label VerticalOptions="FillAndExpand" 
+                        Text="{Binding Title}"
+                        Style="{DynamicResource VerseText}"
+                        />
             </StackLayout>
           </ViewCell>
         </DataTemplate>

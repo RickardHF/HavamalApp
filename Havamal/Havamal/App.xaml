@@ -17,7 +17,7 @@
             </Style>
 
             <Style x:Key="BigImg" TargetType="Image">
-                <Setter Property="HeightRequest" Value="100"/>
+                <Setter Property="HeightRequest" Value="250"/>
             </Style>
 
 
@@ -25,12 +25,12 @@
                 <Setter Property="FontSize" Value="Large"/>
                 <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
                 <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="LineHeight" Value="1.4"/>
             </Style>
 
             <Style x:Key="VerseIdText" TargetType="Label">
                 <Setter Property="FontSize" Value="Medium"/>
                 <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
-                <Setter Property="HorizontalOptions" Value="Center"/>
             </Style>
 
             <Style x:Key="MainMenu" TargetType="ListView">

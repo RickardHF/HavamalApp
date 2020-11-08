@@ -1,6 +1,7 @@
 ﻿using Havamal.Helpers;
 using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Models;
+using Havamal.Models.HelperModels;
 using Havamal.Parameters;
 using System;
 using System.Collections.Generic;
@@ -20,10 +21,10 @@ namespace Havamal.ViewModels
         private readonly IVerseRepository _verseRepository;
         private readonly IFavoriteRepository _favoriteRepository;
 
-        public ObservableCollection<Verse> Stanzas;
+        public ObservableCollection<VerseListItem> Stanzas;
         private List<Favorite> _favorites;
 
-        public Verse CurrentStanza { get; private set; }
+        public VerseListItem CurrentStanza { get; private set; }
 
         public string FavoriteImage { get; set; }
 
@@ -49,24 +50,23 @@ namespace Havamal.ViewModels
 
         internal void StanzaChanged(object sender, Xamarin.Forms.CurrentItemChangedEventArgs e)
         {
-            var newStanza = (Verse) e.CurrentItem;
+            var newStanza = (VerseListItem) e.CurrentItem;
             if (newStanza == null) return;
             CurrentStanza = newStanza;
             HavamalPreferences.CurrentVerse = newStanza.VerseId;
-
-            SetFavoriteImage();
+            OnPropertyChanged(nameof(newStanza.Favorite));
         }
 
         public async void Initialize()
         {
             IsBusy = false;
-            Stanzas = new ObservableCollection<Verse>();
+            Stanzas = new ObservableCollection<VerseListItem>();
             _favorites = new List<Favorite>();
             try
             {
                 await FetchStanzas();
                 await FetchFavorites();
-                SetFavoriteImage();
+                SetFavoriteImages();
             }
             catch
             {
@@ -84,11 +84,15 @@ namespace Havamal.ViewModels
             var stanzas = await _verseRepository
                 .Get(new VerseParameter {Language = HavamalPreferences.SelectedLanguage }, CancellationToken.None)
                 .ConfigureAwait(false);
+
             stanzas.CanI(yes =>
             {
                 foreach(var nod in yes)
                 {
-                    Stanzas.Add(nod);
+                    Stanzas.Add(new VerseListItem { 
+                        VerseId = nod.VerseId
+                        , Content = nod.Content
+                    });
                 }
                 CurrentStanza = Stanzas.FirstOrDefault(x => x.VerseId == HavamalPreferences.CurrentVerse);
             }, no =>
@@ -122,15 +126,19 @@ namespace Havamal.ViewModels
                     _favorites.AddRange(success);
                 }, empty => { });
             }
-
-            SetFavoriteImage();
+            SetFavoriteImages();
         }
 
-        private void SetFavoriteImage()
+        private void SetFavoriteImages()
         {
-            if (_favorites.Any(x => x.VerseId == CurrentStanza.VerseId)) FavoriteImageStyle = (Style)Application.Current.Resources["FavSelected"];
-            else FavoriteImageStyle = (Style)Application.Current.Resources["FavUnselected"];
-            OnPropertyChanged(nameof(FavoriteImageStyle));
+            foreach(var vers in Stanzas)
+            {
+                vers.Favorite = _favorites.Any(x => x.VerseId == vers.VerseId) 
+                    ? (Style)Application.Current.Resources["FavSelected"] 
+                    : (Style)Application.Current.Resources["FavUnselected"];
+            }
+
+            CurrentStanza = Stanzas.FirstOrDefault(x => x.VerseId == HavamalPreferences.CurrentVerse);
         }
 
         private async Task FetchFavorites()
