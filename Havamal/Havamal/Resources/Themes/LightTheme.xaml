@@ -27,5 +27,11 @@
         <Setter Property="Source" Value="favoritegreen.png"/>
     </Style>
 
-    
+
+    <Style x:Key="ShareBtn" TargetType="ImageButton">
+        <Setter Property="HeightRequest" Value="40"/>
+        <Setter Property="Source" Value="share.png"/>
+    </Style>
+
+
 </ResourceDictionary>

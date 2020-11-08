@@ -1,10 +1,12 @@
-﻿using Havamal.ViewModels;
+﻿using Havamal.Models.HelperModels;
+using Havamal.Resources.TextResources;
+using Havamal.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -46,6 +48,19 @@ namespace Havamal.Views
             var btn = (StackLayout)sender;
             var realBtn = btn.Children.FirstOrDefault(x => x.GetType() == typeof(ImageButton));
             FavoriteClicked(realBtn, ards);
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            var item = (VerseListItem)((ImageButton)sender).CommandParameter;
+            await Share.RequestAsync(new ShareTextRequest
+            {
+                Title = Title,
+                Text = $"{item.VerseId}\n{item.Content}\n  - {AppResources.Havamal}",
+                PresentationSourceBounds = DeviceInfo.Platform == DevicePlatform.iOS && DeviceInfo.Idiom == DeviceIdiom.Tablet
+                            ? new System.Drawing.Rectangle(0, 20, 0, 0)
+                            : System.Drawing.Rectangle.Empty
+            });;
         }
     }
 }

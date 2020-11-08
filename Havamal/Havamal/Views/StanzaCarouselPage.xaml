@@ -38,6 +38,13 @@
                         <Label
                             Style="{DynamicResource VerseText}"
                             Text="{Binding Content}"/>
+                        <ImageButton 
+                                Style="{DynamicResource ShareBtn}"
+                                Margin="0,10,60,-15"
+                                BackgroundColor="Transparent"
+                                HorizontalOptions="End"
+                                CommandParameter="{Binding .}"
+                                Clicked="Button_Clicked"></ImageButton>
                     </StackLayout>
                 </DataTemplate>
             </CarouselView.ItemTemplate>

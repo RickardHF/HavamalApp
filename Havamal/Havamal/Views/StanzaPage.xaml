@@ -11,5 +11,5 @@
             >
     <!--Pages can be added as references or inline-->
     <pages:StanzaCarouselPage IconImageSource="book.png" BackgroundColor="{DynamicResource PageBackgroundColor}"></pages:StanzaCarouselPage>
-    <pages:StanzaListPage IconImageSource="list.png" BackgroundColor="{DynamicResource PageBackgroundColor}"></pages:StanzaListPage>
+    <pages:StanzaListPage IconImageSource="listpage.png" BackgroundColor="{DynamicResource PageBackgroundColor}"></pages:StanzaListPage>
 </TabbedPage>

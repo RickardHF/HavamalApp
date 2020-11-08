@@ -103,9 +103,16 @@ namespace Havamal.ViewModels
 
         public async Task FavoriteClicked()
         {
-            if(_favorites.Any(x => x.VerseId == CurrentStanza.VerseId))
+            await FavoriteClicked(CurrentStanza.VerseId);
+
+            SetFavoriteImages();
+        }
+
+        private async Task FavoriteClicked(int verseId)
+        {
+            if(_favorites.Any(x => x.VerseId == verseId))
             {
-                var toDelete = _favorites.Where(x => x.VerseId == CurrentStanza.VerseId).ToList();
+                var toDelete = _favorites.Where(x => x.VerseId == verseId).ToList();
                 var didDelete = await _favoriteRepository.Delete(toDelete, new FavoriteParameter()).ConfigureAwait(false);
                 didDelete.CanI(success =>
                 {
@@ -119,12 +126,20 @@ namespace Havamal.ViewModels
                 }, empty => { });
             } else
             {
-                var toAdd = new List<Favorite> { new Favorite(CurrentStanza.VerseId) };
+                var toAdd = new List<Favorite> { new Favorite(verseId) };
                 var addResult = await _favoriteRepository.Create(toAdd, new FavoriteParameter()).ConfigureAwait(false);
                 addResult.CanI(success =>
                 {
                     _favorites.AddRange(success);
                 }, empty => { });
+            }
+        }
+
+        public async Task FavoriteClicked(IReadOnlyCollection<int> verseIds)
+        {
+            foreach(var verse in verseIds)
+            {
+                await FavoriteClicked(verse);
             }
             SetFavoriteImages();
         }

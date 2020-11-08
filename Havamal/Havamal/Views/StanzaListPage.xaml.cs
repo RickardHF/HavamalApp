@@ -1,6 +1,8 @@
 ﻿using Android.Print;
+using Havamal.Models.HelperModels;
 using Havamal.ViewModels;
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Linq;
@@ -42,8 +44,9 @@ namespace Havamal.Views
         public async void FavoriteClicked(object sender, EventArgs ards)
         {
             // TODO : Check id on item
-            await _context.FavoriteClicked();
             var btn = (ImageButton)sender;
+            var selItem = (VerseListItem) btn.CommandParameter; 
+            await _context.FavoriteClicked(new List<int> { selItem.VerseId });
             btn.Style = _context.CurrentStanza.Favorite;
         }
 
