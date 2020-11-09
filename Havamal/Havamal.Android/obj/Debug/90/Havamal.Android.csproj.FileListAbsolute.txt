@@ -596,3 +596,15 @@ C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mip
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\sharegoldenrod.png
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\share.png
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\sharegoldenrod.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\hide.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\hidegoldenrod.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\show.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\showgoldenrod.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\hide.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\hidegoldenrod.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\show.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\showgoldenrod.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\exit.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\exitgoldenrod.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\exit.png
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\exitgoldenrod.png

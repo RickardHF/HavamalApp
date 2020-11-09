@@ -20,16 +20,23 @@
     <Frame CornerRadius="20"
            Margin="30"
            BackgroundColor="{DynamicResource PageBackgroundColor}">
-        <ListView x:Name="LangList"
-                          ItemsSource="{Binding Themes, Mode=TwoWay}"
-                          SelectedItem="{Binding SelectedTheme, Mode=TwoWay}"
-                          Style="{DynamicResource ThemeChoiceBack}"
-                        >
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ImageCell ImageSource="{Binding ThemeImage}" Text="{Binding ThemeName}"></ImageCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+        <StackLayout>
+            <ImageButton Style="{DynamicResource ExitBtn}" 
+                         HeightRequest="30" 
+                         HorizontalOptions="End" 
+                         Clicked="CloseClicked" 
+                         BackgroundColor="Transparent"/>
+            <ListView x:Name="LangList"
+                              ItemsSource="{Binding Themes, Mode=TwoWay}"
+                              SelectedItem="{Binding SelectedTheme, Mode=TwoWay}"
+                              Style="{DynamicResource ThemeChoiceBack}"
+                            >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell ImageSource="{Binding ThemeImage}" Text="{Binding ThemeName}"></ImageCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
     </Frame>
 </pages:PopupPage>

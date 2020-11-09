@@ -47,5 +47,21 @@ namespace Havamal.Views
         {
             Search_Clicked(sender, e);
         }
+
+        private void Advanced_Clicked(object sender, EventArgs e)
+        {
+            var btn = (ImageButton)sender;
+            if (AdvancedSettings.IsVisible)
+            {
+                AdvancedSettings.IsVisible = false;
+                OnlyFavs.IsChecked = false;
+                NumericOrder.IsChecked = false;
+                btn.Style = (Style)Application.Current.Resources["ShowBtn"];
+            } else
+            {
+                AdvancedSettings.IsVisible = true;
+                btn.Style = (Style)Application.Current.Resources["HideBtn"];
+            }
+        }
     }
 }

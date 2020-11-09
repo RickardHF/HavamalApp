@@ -6,7 +6,8 @@
     <Color x:Key="PageBackgroundColor">White</Color>
     <Color x:Key="NavigationBarColor">DarkGreen</Color>
     <Color x:Key="PrimaryColor">WhiteSmoke</Color>
-    <Color x:Key="SecondaryColor">Black</Color>
+    <Color x:Key="SecondaryColor">Gray</Color>
+    <Color x:Key="TertiaryColor">Black</Color>
     <Color x:Key="PrimaryTextColor">Black</Color>
     <Color x:Key="SecondaryTextColor">Gray</Color>
     <Color x:Key="TertiaryTextColor">White</Color>
@@ -27,11 +28,21 @@
         <Setter Property="Source" Value="favoritegreen.png"/>
     </Style>
 
-
     <Style x:Key="ShareBtn" TargetType="ImageButton">
         <Setter Property="HeightRequest" Value="40"/>
         <Setter Property="Source" Value="share.png"/>
     </Style>
 
+    <Style x:Key="ShowBtn" TargetType="ImageButton">
+        <Setter Property="Source" Value="show.png"/>
+    </Style>
+
+    <Style x:Key="HideBtn" TargetType="ImageButton">
+        <Setter Property="Source" Value="hide.png"/>
+    </Style>
+
+    <Style x:Key="ExitBtn" TargetType="ImageButton">
+        <Setter Property="Source" Value="exit.png"/>
+    </Style>
 
 </ResourceDictionary>

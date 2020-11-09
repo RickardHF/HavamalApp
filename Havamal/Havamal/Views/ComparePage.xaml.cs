@@ -32,12 +32,12 @@ namespace Havamal.Views
 
         private void FromClicked(object sender, EventArgs e)
         {
-            Navigation.PushPopupAsync(new LanguageChoicePopup(_pageModel.FromLanguages.ToList(), (value) => _pageModel.CurrentFromLanguage = value, false));
+            Navigation.PushPopupAsync(new LanguageChoicePopup(_pageModel.FromLanguages.ToList(), (value) => _pageModel.CurrentFromLanguage = value, null, false));
         }
 
         private void ToClicked(object sender, EventArgs e)
         {
-            Navigation.PushPopupAsync(new LanguageChoicePopup(_pageModel.ToLanguages.ToList(), (value) => _pageModel.CurrentToLanguage = value, false));
+            Navigation.PushPopupAsync(new LanguageChoicePopup(_pageModel.ToLanguages.ToList(), (value) => _pageModel.CurrentToLanguage = value, null, false));
         }
     }
 }

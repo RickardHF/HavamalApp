@@ -8,6 +8,7 @@
     <Color x:Key="NavigationBarColor">#4B4237</Color>
     <Color x:Key="PrimaryColor">#4B4237</Color>
     <Color x:Key="SecondaryColor">#D5A021</Color>
+    <Color x:Key="TertiaryColor">#736B60</Color>
     <Color x:Key="PrimaryTextColor">#736B60</Color>
     <Color x:Key="SecondaryTextColor">#A49694</Color>
     <Color x:Key="TertiaryTextColor">#EDE7D9</Color>
@@ -33,5 +34,16 @@
         <Setter Property="Source" Value="sharegoldenrod.png"/>
     </Style>
 
+    <Style x:Key="ShowBtn" TargetType="ImageButton">
+        <Setter Property="Source" Value="showgoldenrod.png"/>
+    </Style>
+
+    <Style x:Key="HideBtn" TargetType="ImageButton">
+        <Setter Property="Source" Value="hidegoldenrod.png"/>
+    </Style>
+
+    <Style x:Key="ExitBtn" TargetType="ImageButton">
+        <Setter Property="Source" Value="exitgoldenrod.png"/>
+    </Style>
 
 </ResourceDictionary>

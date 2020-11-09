@@ -44,8 +44,18 @@
             <Style x:Key="SearchBar" TargetType="SearchBar">
                 <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryColor}"/>
                 <Setter Property="PlaceholderColor" Value="{DynamicResource SecondaryTextColor}"/>
-                <Setter Property="TextColor" Value="{DynamicResource TertiaryTextColor}"/>
+                <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
                 <Setter Property="FontSize" Value="Medium"/>
+            </Style>
+
+            <Style x:Key="SearchMenu" TargetType="StackLayout">
+                <Setter Property="BackgroundColor" Value="{DynamicResource TertiaryColor}"/>
+                <Setter Property="HorizontalOptions" Value="FillAndExpand"/>
+                <Setter Property="Padding" Value="0,0,0,10"/>
+            </Style>
+
+            <Style x:Key="SearchLabel" TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}"/>
             </Style>
 
             <Style x:Key="LangButtonMain" TargetType="Label">

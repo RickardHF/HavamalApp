@@ -42,11 +42,13 @@ namespace Havamal.Views
 
         public void OnVersionClicked(object sender, EventArgs args)
         {
-            Navigation.PushPopupAsync(new LanguageChoicePopup(_pagemodel.Languages.ToList(), SetLanguage));
+            var page = new LanguageChoicePopup(_pagemodel.Languages.ToList(), SetLanguage, _pagemodel.CurrentVerseLanguage);
+            Navigation.PushPopupAsync(page);
         }
         public void OnAppLangClicked(object sender, EventArgs args)
         {
-            Navigation.PushPopupAsync(new LanguageChoicePopup(_pagemodel.AppLanguages.ToList(), SetAppLanguage));
+            var page = new LanguageChoicePopup(_pagemodel.AppLanguages.ToList(), SetAppLanguage, _pagemodel.CurrentAppLanguage);
+            Navigation.PushPopupAsync(page);
         }
 
         public void SetLanguage(Language language)

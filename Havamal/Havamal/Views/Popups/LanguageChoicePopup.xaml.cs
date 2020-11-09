@@ -28,16 +28,16 @@ namespace Havamal.Views.Popups
             {
                 _selectedLanguage = value;
                 OnPropertyChanged(nameof(SelectedLanguage));
-                Close();
                 //LanguageSelected();
             }
         }
 
-        public LanguageChoicePopup(List<Language> langs, Action<Language> selectionAction, bool showSelectedLanguage = true)
+        public LanguageChoicePopup(List<Language> langs, Action<Language> selectionAction, Language selectedLanguage = null, bool showSelectedLanguage = true)
         {
             Languages = new ObservableCollection<Language>();
 
             _selectionAction = selectionAction;
+            _selectedLanguage = selectedLanguage;
 
             PopulateList(langs);
 
@@ -51,6 +51,7 @@ namespace Havamal.Views.Popups
         {
             SelectedLanguage = (Language) e.SelectedItem;
             _selectionAction(SelectedLanguage);
+            Close();
         }
 
         private void PopulateList(List<Language> langs)
@@ -59,13 +60,6 @@ namespace Havamal.Views.Popups
             {
                 Languages.Add(lang);
             }
-            _selectedLanguage = langs.FirstOrDefault(X => X.Id == Preferences.Get("SelectedLanguage", 1));
-        }
-
-        public void LanguageSelected()
-        {
-            Preferences.Set("SelectedLanguage", _selectedLanguage?.Id ?? 1);
-            //Navigation.RemovePopupPageAsync(this);
         }
 
         private void Close()
@@ -73,5 +67,9 @@ namespace Havamal.Views.Popups
             Navigation.RemovePopupPageAsync(this);
         }
 
+        private void CloseClicked(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

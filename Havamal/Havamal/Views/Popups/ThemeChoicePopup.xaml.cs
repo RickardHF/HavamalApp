@@ -73,5 +73,9 @@ namespace Havamal.Views.Popups
         {
             Navigation.RemovePopupPageAsync(this);
         }
+        private void CloseClicked(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -10,9 +10,8 @@
 
     <ContentPage.Content>
         <StackLayout 
-            Padding="25,0,25,0"
             Style="{DynamicResource Key=ContentStack}">
-            <StackLayout x:Name="SearchBox">
+            <StackLayout x:Name="SearchBox" Style="{DynamicResource SearchMenu}">
                 <StackLayout Orientation="Horizontal">
                     <Frame CornerRadius="30" Padding="0" Margin="0,5,0,0">
                         <SearchBar 
@@ -24,19 +23,28 @@
                             Style="{DynamicResource SearchBar}"
                         ></SearchBar>
                     </Frame>
+                    <ImageButton Clicked="Advanced_Clicked" 
+                                 HorizontalOptions="End" 
+                                 WidthRequest="20"
+                                 BackgroundColor="Transparent"
+                                 Style="{DynamicResource Key=ShowBtn}"/>
                 </StackLayout>
                 <StackLayout Orientation="Horizontal"
+                             x:Name="AdvancedSettings"
                              HorizontalOptions="Center"
-                             VerticalOptions="Center">
+                             VerticalOptions="Center"
+                             IsVisible="false"
+                             Padding="25,0,25,0"
+                             >
                     <CheckBox x:Name="OnlyFavs" 
                               Visual="Material" 
                               CheckedChanged="Checkbox_Changed" 
                               Style="{DynamicResource xx}"></CheckBox>
-                    <Label Text="{x:Static resources:AppResources.FavsOnly}"/>
+                    <Label Text="{x:Static resources:AppResources.FavsOnly}" Style="{DynamicResource SearchLabel}"/>
                     <CheckBox x:Name="NumericOrder" 
                               CheckedChanged="Checkbox_Changed" 
                               Style="{DynamicResource xx}"></CheckBox>
-                    <Label Text="{x:Static resources:AppResources.NumSort}"/>
+                    <Label Text="{x:Static resources:AppResources.NumSort}" Style="{DynamicResource SearchLabel}"/>
                 </StackLayout>
             </StackLayout>
             <Label Text="{Binding ResultText}"></Label>

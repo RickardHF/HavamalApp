@@ -16,8 +16,9 @@ namespace Havamal.Droid
         | ConfigChanges.Orientation 
         | ConfigChanges.UiMode 
         | ConfigChanges.ScreenLayout 
-        | ConfigChanges.SmallestScreenSize 
-        )]
+        | ConfigChanges.SmallestScreenSize
+        , ScreenOrientation = Android.Content.PM.ScreenOrientation.Locked)
+        ]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -40,16 +41,6 @@ namespace Havamal.Droid
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
-        public override void OnBackPressed()
-        {
-            if (Rg.Plugins.Popup.Popup.SendBackPressed(base.OnBackPressed))
-            {
-                // Do something if there are some pages in the `PopupStack`
-            }
-            else
-            {
-                // Do something if there are not any pages in the `PopupStack`
-            }
-        }
+       
     }
 }
