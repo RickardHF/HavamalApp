@@ -150,6 +150,12 @@
   <data name="NumSort" xml:space="preserve">
     <value>Numeric sort</value>
   </data>
+  <data name="Random" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="RandomBtn" xml:space="preserve">
+    <value>Fetch new</value>
+  </data>
   <data name="Search" xml:space="preserve">
     <value>Search</value>
   </data>
@@ -164,6 +170,21 @@
   </data>
   <data name="SearchNotFound" xml:space="preserve">
     <value>Did not find any verses for search</value>
+  </data>
+  <data name="SectionGas" xml:space="preserve">
+    <value>Gestaþáttr</value>
+  </data>
+  <data name="SectionLjo" xml:space="preserve">
+    <value>Ljóðatal</value>
+  </data>
+  <data name="SectionLod" xml:space="preserve">
+    <value>Loddfáfnismál</value>
+  </data>
+  <data name="SectionRun" xml:space="preserve">
+    <value>Rúnatal</value>
+  </data>
+  <data name="SectionWom" xml:space="preserve">
+    <value>Woman section</value>
   </data>
   <data name="SelLang" xml:space="preserve">
     <value>Select Language</value>

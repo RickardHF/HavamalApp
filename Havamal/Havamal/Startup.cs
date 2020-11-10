@@ -72,6 +72,7 @@ namespace Havamal
                 .AddTransient<SearchPageModel>()
                 .AddTransient<ComparePageModel>()
                 .AddTransient<StanzaCarouselPageModel>()
+                .AddTransient<RandomPageModel>()
                 .AddTransient<App>()
                 ;
         }

@@ -150,6 +150,12 @@
   <data name="NumSort" xml:space="preserve">
     <value>Numerisk sortering</value>
   </data>
+  <data name="Random" xml:space="preserve">
+    <value>Tilfeldig</value>
+  </data>
+  <data name="RandomBtn" xml:space="preserve">
+    <value>Hent ny</value>
+  </data>
   <data name="Search" xml:space="preserve">
     <value>Søk</value>
   </data>

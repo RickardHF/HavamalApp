@@ -160,6 +160,24 @@ namespace Havamal.Resources.TextResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Random.
+        /// </summary>
+        internal static string Random {
+            get {
+                return ResourceManager.GetString("Random", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fetch new.
+        /// </summary>
+        internal static string RandomBtn {
+            get {
+                return ResourceManager.GetString("RandomBtn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Search.
         /// </summary>
         internal static string Search {
@@ -201,6 +219,51 @@ namespace Havamal.Resources.TextResources {
         internal static string SearchNotFound {
             get {
                 return ResourceManager.GetString("SearchNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gestaþáttr.
+        /// </summary>
+        internal static string SectionGas {
+            get {
+                return ResourceManager.GetString("SectionGas", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ljóðatal.
+        /// </summary>
+        internal static string SectionLjo {
+            get {
+                return ResourceManager.GetString("SectionLjo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Loddfáfnismál.
+        /// </summary>
+        internal static string SectionLod {
+            get {
+                return ResourceManager.GetString("SectionLod", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rúnatal.
+        /// </summary>
+        internal static string SectionRun {
+            get {
+                return ResourceManager.GetString("SectionRun", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Woman section.
+        /// </summary>
+        internal static string SectionWom {
+            get {
+                return ResourceManager.GetString("SectionWom", resourceCulture);
             }
         }
         

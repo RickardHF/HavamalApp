@@ -9,6 +9,6 @@ namespace Havamal.Interfaces.BaseInterfaces
 {
     public interface IRead<TModel, TParam>
     {
-        Task<Computer<TModel>> Get(TParam param, CancellationToken cancellationToken);
+        Task<Computer<TModel>> Get(TParam param, CancellationToken cancellationToken = new CancellationToken());
     }
 }

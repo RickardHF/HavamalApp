@@ -80,6 +80,9 @@
     <Compile Update="Views\Popups\LanguageChoicePopup.xaml.cs">
       <DependentUpon>LanguageChoicePopup.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\RandomPage.xaml.cs">
+      <DependentUpon>RandomPage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
@@ -121,6 +124,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\Popups\ThemeChoicePopup.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\RandomPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SearchPage.xaml">
