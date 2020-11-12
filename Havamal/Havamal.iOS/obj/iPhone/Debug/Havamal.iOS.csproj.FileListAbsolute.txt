@@ -107,3 +107,6 @@ C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\obj\iPhone\Debug\XamlC.s
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\obj\iPhone\Debug\Havamal.iOS.csproj.CopyComplete
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\obj\iPhone\Debug\Havamal.iOS.exe
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\obj\iPhone\Debug\Havamal.iOS.pdb
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\bin\iPhone\Debug\cs\Havamal.resources.dll
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\bin\iPhone\Debug\no\Havamal.resources.dll
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\bin\iPhone\Debug\ru\Havamal.resources.dll

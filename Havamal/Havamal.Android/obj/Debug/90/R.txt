@@ -1004,10 +1004,11 @@ int drawable sharegoldenrod 0x7f070088
 int drawable shn 0x7f070089
 int drawable show 0x7f07008a
 int drawable showgoldenrod 0x7f07008b
-int drawable spokes 0x7f07008c
-int drawable testliste 0x7f07008d
-int drawable tooltip_frame_dark 0x7f07008e
-int drawable tooltip_frame_light 0x7f07008f
+int drawable sjo 0x7f07008c
+int drawable spokes 0x7f07008d
+int drawable testliste 0x7f07008e
+int drawable tooltip_frame_dark 0x7f07008f
+int drawable tooltip_frame_light 0x7f070090
 int id ALT 0x7f080000
 int id CTRL 0x7f080001
 int id FUNCTION 0x7f080002

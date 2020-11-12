@@ -11017,16 +11017,19 @@ namespace Havamal.Droid
 			public const int showgoldenrod = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int spokes = 2131165319;
+			public const int sjo = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int testListe = 2131165320;
+			public const int spokes = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int tooltip_frame_dark = 2131165321;
+			public const int testListe = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int tooltip_frame_light = 2131165322;
+			public const int tooltip_frame_dark = 2131165322;
+			
+			// aapt resource value: 0x7F07008B
+			public const int tooltip_frame_light = 2131165323;
 			
 			static Drawable()
 			{

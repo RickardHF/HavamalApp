@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Havamal", "Havamal\Havamal\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{C24E3AB6-0093-4F77-90E2-25773BB5843C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HavamalWebApplication", "HavamalWebApplication\HavamalWebApplication.csproj", "{B51F4AF3-6F1F-44EA-96B4-609A4915B025}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,22 @@ Global
 		{C24E3AB6-0093-4F77-90E2-25773BB5843C}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{C24E3AB6-0093-4F77-90E2-25773BB5843C}.Release|x64.ActiveCfg = Release|Any CPU
 		{C24E3AB6-0093-4F77-90E2-25773BB5843C}.Release|x64.Build.0 = Release|Any CPU
+		{B51F4AF3-6F1F-44EA-96B4-609A4915B025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B51F4AF3-6F1F-44EA-96B4-609A4915B025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B51F4AF3-6F1F-44EA-96B4-609A4915B025}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{B51F4AF3-6F1F-44EA-96B4-609A4915B025}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{B51F4AF3-6F1F-44EA-96B4-609A4915B025}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{B51F4AF3-6F1F-44EA-96B4-609A4915B025}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{B51F4AF3-6F1F-44EA-96B4-609A4915B025}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B51F4AF3-6F1F-44EA-96B4-609A4915B025}.Debug|x64.Build.0 = Debug|Any CPU
+		{B51F4AF3-6F1F-44EA-96B4-609A4915B025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B51F4AF3-6F1F-44EA-96B4-609A4915B025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B51F4AF3-6F1F-44EA-96B4-609A4915B025}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{B51F4AF3-6F1F-44EA-96B4-609A4915B025}.Release|iPhone.Build.0 = Release|Any CPU
+		{B51F4AF3-6F1F-44EA-96B4-609A4915B025}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{B51F4AF3-6F1F-44EA-96B4-609A4915B025}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{B51F4AF3-6F1F-44EA-96B4-609A4915B025}.Release|x64.ActiveCfg = Release|Any CPU
+		{B51F4AF3-6F1F-44EA-96B4-609A4915B025}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

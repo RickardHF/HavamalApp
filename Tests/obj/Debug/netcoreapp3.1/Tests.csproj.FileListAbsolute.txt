@@ -149,3 +149,6 @@ C:\Users\ricka\source\repos\Havamal\Tests\obj\Debug\netcoreapp3.1\Tests.csproj.C
 C:\Users\ricka\source\repos\Havamal\Tests\obj\Debug\netcoreapp3.1\Tests.dll
 C:\Users\ricka\source\repos\Havamal\Tests\obj\Debug\netcoreapp3.1\Tests.pdb
 C:\Users\ricka\source\repos\Havamal\Tests\obj\Debug\netcoreapp3.1\Tests.genruntimeconfig.cache
+C:\Users\ricka\source\repos\Havamal\Tests\bin\Debug\netcoreapp3.1\cs\Havamal.resources.dll
+C:\Users\ricka\source\repos\Havamal\Tests\bin\Debug\netcoreapp3.1\no\Havamal.resources.dll
+C:\Users\ricka\source\repos\Havamal\Tests\bin\Debug\netcoreapp3.1\ru\Havamal.resources.dll
