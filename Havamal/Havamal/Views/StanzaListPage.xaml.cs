@@ -31,6 +31,8 @@ namespace Havamal.Views
             {
                 ItemSpacing = 0
             };
+            Carousel.CurrentItemChanged += _context.StanzaChanged;
+            Carousel.IsScrollAnimated = false;
 
             SetStart();
         }

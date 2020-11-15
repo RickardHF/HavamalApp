@@ -27,10 +27,21 @@
             <ScrollView 
                 Orientation="Vertical"
                 VerticalScrollBarVisibility="Never">
-                <StackLayout x:Name="Content" VerticalOptions="FillAndExpand" Margin="20">
-                    <Label x:DataType="local:ComparePageModel" 
-                        Text="{Binding VerseId}" 
-                        Style="{DynamicResource VerseIdText}"/>
+                <StackLayout 
+                    x:Name="Content" 
+                    VerticalOptions="FillAndExpand" 
+                    Margin="20">
+                    <Frame
+                                BackgroundColor="Transparent"
+                                BorderColor="Transparent"
+                            >
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapVerseId"></TapGestureRecognizer>
+                        </Frame.GestureRecognizers>
+                        <Label x:DataType="local:ComparePageModel" 
+                               Text="{Binding VerseId}" 
+                               Style="{DynamicResource VerseIdText}" />
+                    </Frame>
                     <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                         <Grid.RowDefinitions>
                             <RowDefinition />

@@ -99,7 +99,7 @@ namespace Havamal.Repositories
 
                     var where = "";
 
-                    where = $"WHERE LanguageId = {param.Language}";
+                    where = $"WHERE LanguageId IN ({string.Join(",", param.Language)})";
                     
                     if (param.OnIds)
                     {

@@ -35,6 +35,12 @@
                 <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
             </Style>
 
+            <Style x:Key="ErrorMsg" TargetType="Label">
+                <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+
             <Style x:Key="MainMenu" TargetType="ListView">
                 <Setter Property="SeparatorColor" Value="{DynamicResource SecondaryColor}"/>
             </Style>
@@ -44,6 +50,13 @@
             </Style>
 
             <Style x:Key="SearchBar" TargetType="SearchBar">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryColor}"/>
+                <Setter Property="PlaceholderColor" Value="{DynamicResource SecondaryTextColor}"/>
+                <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
+                <Setter Property="FontSize" Value="Medium"/>
+            </Style>
+
+            <Style x:Key="Entry" TargetType="Entry">
                 <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryColor}"/>
                 <Setter Property="PlaceholderColor" Value="{DynamicResource SecondaryTextColor}"/>
                 <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>

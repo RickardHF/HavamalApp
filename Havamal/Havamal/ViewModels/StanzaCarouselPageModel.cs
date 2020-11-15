@@ -30,6 +30,7 @@ namespace Havamal.ViewModels
 
         public Style FavoriteImageStyle { get; set; }
 
+
         public StanzaCarouselPageModel(IVerseRepository verseRepository
             , IFavoriteRepository favoriteRepository)
         {
@@ -47,6 +48,16 @@ namespace Havamal.ViewModels
                 return Stanzas.IndexOf(CurrentStanza); 
             }
         }
+        public string Chapter
+        {
+            get { return CurrentStanza.VerseId.GetSection().GetSectionString(); }
+        }
+
+        public void ChangeSelectedStanza(int verseId)
+        {
+            var curr = Stanzas.FirstOrDefault(x => x.VerseId == verseId);
+            if (curr != null) CurrentStanza = curr;
+        }
 
         internal void StanzaChanged(object sender, Xamarin.Forms.CurrentItemChangedEventArgs e)
         {
@@ -55,6 +66,8 @@ namespace Havamal.ViewModels
             CurrentStanza = newStanza;
             HavamalPreferences.CurrentVerse = newStanza.VerseId;
             OnPropertyChanged(nameof(newStanza.Favorite));
+            OnPropertyChanged(nameof(newStanza.Chapter));
+            OnPropertyChanged(nameof(Chapter));
         }
 
         public async void Initialize()
@@ -82,7 +95,7 @@ namespace Havamal.ViewModels
         {
             Stanzas.Clear();
             var stanzas = await _verseRepository
-                .Get(new VerseParameter {Language = HavamalPreferences.SelectedLanguage }, CancellationToken.None)
+                .Get(new VerseParameter {Language = new List<int> { HavamalPreferences.SelectedLanguage } }, CancellationToken.None)
                 .ConfigureAwait(false);
 
             stanzas.CanI(yes =>

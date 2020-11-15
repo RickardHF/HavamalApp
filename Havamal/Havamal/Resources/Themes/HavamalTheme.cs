@@ -7,6 +7,7 @@ namespace Havamal.Resources.Themes
     public enum HavamalTheme : int
     {
         Earth = 0,
-        Light = 1
+        Light = 1,
+        Water = 2
     }
 }

@@ -216,6 +216,21 @@
   <data name="ThemeWater" xml:space="preserve">
     <value>Water Theme</value>
   </data>
+  <data name="VerseChoiceError" xml:space="preserve">
+    <value>Valid input not given</value>
+  </data>
+  <data name="VerseChoiceOk" xml:space="preserve">
+    <value>Go to</value>
+  </data>
+  <data name="VerseChoicePlace" xml:space="preserve">
+    <value>Select  verse</value>
+  </data>
+  <data name="VerseChoiceTooHigh" xml:space="preserve">
+    <value>Verse number too high</value>
+  </data>
+  <data name="VerseChoiceTooLow" xml:space="preserve">
+    <value>Verse number must be higher than 0</value>
+  </data>
   <data name="VerseVer" xml:space="preserve">
     <value>Verse version</value>
   </data>

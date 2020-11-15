@@ -48,7 +48,7 @@ namespace Havamal.ViewModels
         {
             try
             {
-                var param = new VerseParameter { Language = HavamalPreferences.SelectedLanguage, OnIds = false };
+                var param = new VerseParameter { Language = new List<int> { HavamalPreferences.SelectedLanguage }, OnIds = false };
                 var verses = await _verseRepository.Get(param).ConfigureAwait(false);
                 verses.CanI(data => {
                     var amount = data.Count;

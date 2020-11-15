@@ -63,6 +63,14 @@ namespace Havamal.ViewModels
             }
         }
 
+        public void SetSelectedVerse(int id)
+        {
+            VerseId = id;
+            SetFromContent();
+            SetToContent();
+            UpdateFields();
+        }
+
         public string FromVerseContent { get; set; }
         public string FromError { get; set; }
 
@@ -129,7 +137,7 @@ namespace Havamal.ViewModels
             FromVerseContent = "";
             _from.MayI(async yes =>
             {
-                var froms = await _verseRepository.Get(new VerseParameter { Language = yes.Id }, CancellationToken.None).ConfigureAwait(false);
+                var froms = await _verseRepository.Get(new VerseParameter { Language = new List<int> { yes.Id } }, CancellationToken.None).ConfigureAwait(false);
                 froms.CanI(yes =>
                 {
                     _fromLanguage = (List<Verse>) yes;
@@ -170,10 +178,10 @@ namespace Havamal.ViewModels
             _toLanguage.Clear();
             ToError = "";
             ToVerseContent = "";
-            _from.MayI(async yes =>
+            _to.MayI(async yes =>
             {
-                var froms = await _verseRepository.Get(new VerseParameter { Language = yes.Id }, CancellationToken.None).ConfigureAwait(false);
-                froms.CanI(yes =>
+                var tos = await _verseRepository.Get(new VerseParameter { Language = new List<int> { yes.Id } }, CancellationToken.None).ConfigureAwait(false);
+                tos.CanI(yes =>
                 {
                     _toLanguage = (List<Verse>) yes;
                     SetToContent();

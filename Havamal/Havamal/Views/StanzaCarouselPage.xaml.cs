@@ -1,6 +1,8 @@
 ﻿using Havamal.Models.HelperModels;
 using Havamal.Resources.TextResources;
 using Havamal.ViewModels;
+using Havamal.Views.Popups;
+using Rg.Plugins.Popup.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +28,7 @@ namespace Havamal.Views
 
             Carousel.ItemsSource = context.Stanzas;
             Carousel.CurrentItemChanged += context.StanzaChanged;
+            Carousel.IsScrollAnimated = false;
 
             SetStart();
         }
@@ -45,7 +48,7 @@ namespace Havamal.Views
 
         public void FavoriteTapped(object sender, EventArgs ards)
         {
-            var btn = (StackLayout)sender;
+            var btn = (AbsoluteLayout)sender;
             var realBtn = btn.Children.FirstOrDefault(x => x.GetType() == typeof(ImageButton));
             FavoriteClicked(realBtn, ards);
         }
@@ -61,6 +64,15 @@ namespace Havamal.Views
                             ? new System.Drawing.Rectangle(0, 20, 0, 0)
                             : System.Drawing.Rectangle.Empty
             });;
+        }
+
+        private void TapVerseId(object sender, EventArgs e)
+        {            
+            var page = new VerseChoicePopup(i => {
+                _context.ChangeSelectedStanza(i);
+                SetStart();
+            }, _context.Stanzas.Select(x => x.VerseId).Max());
+            Navigation.PushPopupAsync(page);
         }
     }
 }

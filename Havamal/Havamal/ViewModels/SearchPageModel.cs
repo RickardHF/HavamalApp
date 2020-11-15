@@ -71,7 +71,7 @@ namespace Havamal.ViewModels
             }
 
             // TODO : Make possible get no lang or other than current
-            verseParam.Language = param.LanguageId.HopeForYes();
+            verseParam.Language = new List<int> { param.LanguageId.HopeForYes() };
 
             var verses = await _verseRepository.Get(verseParam, CancellationToken.None).ConfigureAwait(false);
 

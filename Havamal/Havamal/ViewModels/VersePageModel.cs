@@ -1,4 +1,5 @@
-﻿using Havamal.Interfaces.RepositoryInterfaces;
+﻿using Havamal.Helpers;
+using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Models;
 using Havamal.Models.HelperModels;
 using Havamal.Parameters;
@@ -137,7 +138,7 @@ namespace Havamal.ViewModels
 
             try
             {
-                var verses = await _repository.Get(new VerseParameter { Language = Preferences.Get("SelectedLanguage", 1)}, CancellationToken.None).ConfigureAwait(false);
+                var verses = await _repository.Get(new VerseParameter { Language = new List<int> { HavamalPreferences.SelectedLanguage } }, CancellationToken.None).ConfigureAwait(false);
 
                 verses.CanI(success =>
                 {

@@ -93,7 +93,7 @@ namespace Havamal.ViewModels
             {
                 var favoriteIds = _favorited.Select(x => x.VerseId).Distinct().ToList();
                 var verses = await _verseRepository.Get(new VerseParameter { 
-                    Language = HavamalPreferences.SelectedLanguage
+                    Language = new List<int> { HavamalPreferences.SelectedLanguage }
                     , OnIds = true
                     , Ids = favoriteIds
                 }, CancellationToken.None).ConfigureAwait(false);

@@ -50,7 +50,7 @@ namespace Havamal
                     new MasterPageMasterMenuItem { Id = 0, Title = AppResources.Stanzas, TargetType = typeof(StanzaPage), Icon = "book.png" },
                     new MasterPageMasterMenuItem { Id = 1, Title = AppResources.Search, TargetType = typeof(SearchPage), Icon = "search.png"  },
                     new MasterPageMasterMenuItem { Id = 2, Title = AppResources.Random, TargetType = typeof(RandomPage), Icon = "random.png"  },
-                    new MasterPageMasterMenuItem { Id = 3, Title = AppResources.Compare, TargetType = typeof(ComparePage), Icon = "compare.png"  },
+                    new MasterPageMasterMenuItem { Id = 3, Title = AppResources.Compare, TargetType = typeof(CompareCarouselPage), Icon = "compare.png"  },
                     new MasterPageMasterMenuItem { Id = 4, Title = AppResources.Favorites, TargetType = typeof(FavoritesPage), Icon = "favoriteempty.png"  },
                     new MasterPageMasterMenuItem { Id = 5, Title = AppResources.Settings, TargetType = typeof(SettingsPage), Icon = "spokes.png"  }
                 });

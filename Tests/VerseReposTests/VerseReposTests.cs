@@ -36,7 +36,7 @@ namespace Tests.VerseReposTests
         {
             var repos = InitRepos();
 
-            var result = await repos.Get(new VerseParameter { Language = 1}, CancellationToken.None).ConfigureAwait(false);
+            var result = await repos.Get(new VerseParameter { Language = new List<int> { 1 } }, CancellationToken.None).ConfigureAwait(false);
 
             Assert.IsTrue(result.Answer == Answer.Yes, "Fail status");
         }
@@ -46,7 +46,7 @@ namespace Tests.VerseReposTests
         {
             var repos = InitRepos();
 
-            var result = await repos.Get(new VerseParameter { Language = 1 }, CancellationToken.None).ConfigureAwait(false);
+            var result = await repos.Get(new VerseParameter { Language = new List<int> { 1 } }, CancellationToken.None).ConfigureAwait(false);
 
             Assert.IsTrue(result.Answer == Answer.Yes, "Fail status");
 

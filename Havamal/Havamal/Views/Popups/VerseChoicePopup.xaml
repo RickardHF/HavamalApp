@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             xmlns:resources="clr-namespace:Havamal.Resources.TextResources"
+             x:Class="Havamal.Views.Popups.VerseChoicePopup">
+    <Frame HeightRequest="150" 
+           WidthRequest="275"
+           CornerRadius="30"
+           HorizontalOptions="Center" 
+           VerticalOptions="Center"
+           BackgroundColor="{DynamicResource PageBackgroundColor}">
+        <AbsoluteLayout 
+            HorizontalOptions="Fill" 
+            VerticalOptions="Fill">
+            <Label
+                x:Name="ErrorTextField"
+                AbsoluteLayout.LayoutBounds="0.5,0.3"
+                Style="{DynamicResource ErrorMsg}"
+                />
+
+            <Frame CornerRadius="30" 
+                   Padding="0" 
+                   Margin="0,5,0,0"
+                   AbsoluteLayout.LayoutBounds="0.15,0.5"
+                   AbsoluteLayout.LayoutFlags="PositionProportional">
+                <Entry 
+                    x:Name="IdField"
+                    Keyboard="Numeric" 
+                    ReturnType="Send" 
+                    WidthRequest="140"
+                    Style="{DynamicResource Entry}"
+                    Placeholder="{Static resources:AppResources.VerseChoicePlace}"
+                    />
+            </Frame>
+            <Button 
+                Text="{Static resources:AppResources.VerseChoiceOk}"
+                Style="{DynamicResource RandBtn}"
+                AbsoluteLayout.LayoutBounds="0.85,0.5"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Clicked="VerseChosen"
+                CommandParameter="{Binding EntryContent}"
+                />
+        </AbsoluteLayout>
+    </Frame>
+</pages:PopupPage>

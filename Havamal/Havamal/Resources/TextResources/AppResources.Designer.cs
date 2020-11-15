@@ -358,6 +358,51 @@ namespace Havamal.Resources.TextResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Valid input not given.
+        /// </summary>
+        internal static string VerseChoiceError {
+            get {
+                return ResourceManager.GetString("VerseChoiceError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Go to.
+        /// </summary>
+        internal static string VerseChoiceOk {
+            get {
+                return ResourceManager.GetString("VerseChoiceOk", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Select  verse.
+        /// </summary>
+        internal static string VerseChoicePlace {
+            get {
+                return ResourceManager.GetString("VerseChoicePlace", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Verse number too high.
+        /// </summary>
+        internal static string VerseChoiceTooHigh {
+            get {
+                return ResourceManager.GetString("VerseChoiceTooHigh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Verse number must be higher than 0.
+        /// </summary>
+        internal static string VerseChoiceTooLow {
+            get {
+                return ResourceManager.GetString("VerseChoiceTooLow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Verse version.
         /// </summary>
         internal static string VerseVer {

@@ -84,6 +84,7 @@ namespace Havamal.ViewModels
                 Themes = new ObservableCollection<ThemeListItem> {
                     new ThemeListItem { ThemeId = (int) HavamalTheme.Earth, ThemeName = AppResources.ThemeEarth, Theme = new EarthTheme()}
                     , new ThemeListItem {ThemeId = (int) HavamalTheme.Light, ThemeName = AppResources.ThemeLight, Theme = new LightTheme()}
+                    , new ThemeListItem { ThemeId = (int) HavamalTheme.Water, ThemeName = AppResources.ThemeWater, Theme = new WaterTheme()}
                 };
 
                 CurrentTheme = Themes.FirstOrDefault(x => x.ThemeId == HavamalPreferences.Theme);

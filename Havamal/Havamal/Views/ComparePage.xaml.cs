@@ -29,6 +29,17 @@ namespace Havamal.Views
             BindingContext = bindingContext;
         }
 
+        private void TapVerseId(object sender, EventArgs e)
+        {
+
+
+            var page = new VerseChoicePopup(i =>
+            {
+                _pageModel.SetSelectedVerse(i);
+            }, 164);
+            Navigation.PushPopupAsync(page);
+        }
+
 
         private void FromClicked(object sender, EventArgs e)
         {

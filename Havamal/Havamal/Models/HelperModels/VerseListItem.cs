@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Havamal.Helpers;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
@@ -10,5 +11,9 @@ namespace Havamal.Models.HelperModels
         public int VerseId { get; set; }
         public string Content { get; set; }
         public Style Favorite { get; set; }
+        public string Chapter
+        {
+            get { return VerseId.GetSection().GetSectionString(); }
+        }
     }
 }

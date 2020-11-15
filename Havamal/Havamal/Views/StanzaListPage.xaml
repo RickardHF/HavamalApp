@@ -4,35 +4,44 @@
              xmlns:viewmodel="clr-namespace:Havamal.ViewModels"
              x:Class="Havamal.Views.StanzaListPage"
              BackgroundColor="{DynamicResource PageBackgroundColor}">
-    <Frame BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <AbsoluteLayout BackgroundColor="{DynamicResource PageBackgroundColor}">
         <CarouselView 
             x:Name="Carousel"
             >
             <CarouselView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout
+                    <AbsoluteLayout
                         VerticalOptions="CenterAndExpand">
-                        <StackLayout.GestureRecognizers>
+                        <AbsoluteLayout.GestureRecognizers>
                             <TapGestureRecognizer NumberOfTapsRequired="2" CommandParameter="{Binding .}"  Tapped="FavoriteTapped"/>
-                        </StackLayout.GestureRecognizers>
+                        </AbsoluteLayout.GestureRecognizers>
+                        <Label Text="{Binding VerseId}" 
+                               Style="{DynamicResource VerseIdText}"
+                               AbsoluteLayout.LayoutBounds="0.15,0.015"
+                               AbsoluteLayout.LayoutFlags="PositionProportional" />
+                        <Label Text="{Binding Content}" 
+                               Style="{DynamicResource VerseText}"
+                               AbsoluteLayout.LayoutBounds="0.5,0.4"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"/>
                         <ImageButton
                                     x:Name="FavBtn"
-                                    Margin="0,0,60,-15"
                                     Style="{Binding Favorite}"
-                                    CommandParameter="{Binding .}"
                                     BackgroundColor="Transparent"
-                                    HorizontalOptions="End" 
                                     Clicked="FavoriteClicked" 
+                                    AbsoluteLayout.LayoutBounds="0.85,0.1"
+                                    AbsoluteLayout.LayoutFlags="PositionProportional"
                         />
-                        <Label  
-                            Text="{Binding VerseId}" 
-                            Style="{DynamicResource VerseIdText}"/>
-                        <Label
-                            Style="{DynamicResource VerseText}"
-                            Text="{Binding Content}"/>
-                    </StackLayout>
+                    </AbsoluteLayout>
                 </DataTemplate>
             </CarouselView.ItemTemplate>
         </CarouselView>
-    </Frame>
+        <Frame CornerRadius="30" 
+                               Padding="5,0,5,0"
+                               AbsoluteLayout.LayoutBounds="0.5,0.015"
+                               AbsoluteLayout.LayoutFlags="PositionProportional"
+                               BackgroundColor="{DynamicResource PageBackgroundColor}"
+                               >
+            <Label Text="{Binding Chapter}" Style="{DynamicResource VerseIdText}" x:DataType="viewmodel:StanzaCarouselPageModel"></Label>
+        </Frame>
+    </AbsoluteLayout>
 </ContentPage>

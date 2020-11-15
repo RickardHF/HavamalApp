@@ -27,7 +27,7 @@
             <Button Text="{x:Static resources:AppResources.RandomBtn}" 
                     Clicked="GetRandom" 
                     Style="{DynamicResource RandBtn}"
-                    AbsoluteLayout.LayoutBounds="0.5,0.9"
+                    AbsoluteLayout.LayoutBounds="0.5,0.95"
                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
         </AbsoluteLayout>
     </ContentPage.Content>
