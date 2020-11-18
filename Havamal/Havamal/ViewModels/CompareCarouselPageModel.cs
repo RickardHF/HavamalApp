@@ -35,7 +35,7 @@ namespace Havamal.ViewModels
                 //    yes => yes
                 //    , () => new Language(0, AppResources.SelLang, "XX", "")
                 //    );
-                return _from ?? new Language(0, AppResources.SelLang, "XX", "");
+                return _from ?? new Language(-1, AppResources.SelLang, "", "");
             }
             set
             {
@@ -50,7 +50,7 @@ namespace Havamal.ViewModels
             get
             {
                 //return _to.MayI<Language>(yes => yes, () => new Language(0, AppResources.SelLang, "XX", ""));
-                return _to ?? new Language(0, AppResources.SelLang, "XX", "");
+                return _to ?? new Language(-1, AppResources.SelLang, "", "");
             }
             set
             {
@@ -122,7 +122,7 @@ namespace Havamal.ViewModels
 
                 var fromLangId = CurrentFromLanguage.Id;
                 var toLangId = CurrentToLanguage.Id;
-                if(fromLangId <= 0 || toLangId <= 0)
+                if(fromLangId < 0 || toLangId < 0)
                 {
 
                 }

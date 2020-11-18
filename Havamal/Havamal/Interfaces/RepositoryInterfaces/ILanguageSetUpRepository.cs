@@ -7,8 +7,7 @@ using System.Text;
 
 namespace Havamal.Interfaces.RepositoryInterfaces
 {
-    public interface ILanguageRepository : IRead<IReadOnlyCollection<Language>, LanguageParameter>
-        , ICreate<IReadOnlyCollection<Language>, IReadOnlyCollection<Language>, LanguageParameter>
+    public interface ILanguageSetUpRepository : IRead<IReadOnlyCollection<Language>, SetUpParameter>
     {
     }
 }

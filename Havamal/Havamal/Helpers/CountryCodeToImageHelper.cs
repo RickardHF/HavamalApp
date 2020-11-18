@@ -17,6 +17,7 @@ namespace Havamal.Helpers
                 , {"EN", "shn.png"}
                 , {"CS", "cze.png"}
                 , {"RU", "rus.png"}
+                , {"XX", "nor.png"}
             };
         }
 

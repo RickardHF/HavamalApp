@@ -1,4 +1,5 @@
-﻿using Havamal.Interfaces.RepositoryInterfaces;
+﻿using Havamal.Helpers;
+using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Models;
 using Havamal.Parameters;
 using Havamal.Resources.TextResources;
@@ -22,15 +23,20 @@ namespace Havamal.ViewModels
     {
         private readonly IFavoriteRepository _favoriteRepository;
         private readonly IVerseRepository _verseRepository;
+        private readonly ILanguageRepository _languageRepository;
 
 
         public ObservableCollection<Verse> SearchResult { get; private set; }
         public string ResultText { get; private set; }
 
-        public SearchPageModel(IFavoriteRepository favoriteRepository, IVerseRepository verseRepository)
+        public SearchPageModel(IFavoriteRepository favoriteRepository
+            , IVerseRepository verseRepository
+            , ILanguageRepository languageRepository
+            )
         {
             _favoriteRepository = favoriteRepository;
             _verseRepository = verseRepository;
+            _languageRepository = languageRepository;
 
             ResultText = AppResources.Search;
 
@@ -70,8 +76,21 @@ namespace Havamal.ViewModels
                 });
             }
 
-            // TODO : Make possible get no lang or other than current
-            verseParam.Language = new List<int> { param.LanguageId.HopeForYes() };
+            var langs = new List<int> { HavamalPreferences.SelectedLanguage };
+            if (param.AllLanguages)
+            {
+                var allLangs = await _languageRepository.Get(new LanguageParameter()).ConfigureAwait(false);
+                allLangs.CanI(yes => {
+                    langs = yes.Select(x => x.Id).ToList();
+                }, no =>
+                {
+                    ResultText = no.Message;
+                    SearchResult = new ObservableCollection<Verse>();
+                    OnPropertyChanged(nameof(ResultText));
+                    return;
+                });
+            }
+            verseParam.Language = langs;
 
             var verses = await _verseRepository.Get(verseParam, CancellationToken.None).ConfigureAwait(false);
 

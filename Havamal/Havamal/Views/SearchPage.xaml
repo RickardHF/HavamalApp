@@ -45,6 +45,10 @@
                               CheckedChanged="Checkbox_Changed" 
                               Style="{DynamicResource xx}"></CheckBox>
                     <Label Text="{x:Static resources:AppResources.NumSort}" Style="{DynamicResource SearchLabel}"/>
+                    <CheckBox x:Name="AllLAng"
+                              CheckedChanged="Checkbox_Changed"
+                              Style="{DynamicResource xx}"/>
+                    <Label Text="{x:Static resources:AppResources.AllLang}" Style="{DynamicResource SearchLabel}"/>
                 </StackLayout>
             </StackLayout>
             <Label Text="{Binding ResultText}"></Label>
@@ -57,6 +61,9 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout Padding="10" x:DataType="model:Verse" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer NumberOfTapsRequired="2" CommandParameter="{Binding .}" Tapped="VerseTapped"/>
+                            </StackLayout.GestureRecognizers>
                             <Label Text="{Binding VerseId}"  HorizontalOptions="StartAndExpand" Margin="50,0,0,0" Style="{DynamicResource VerseIdText}"/>
                             <Label Text="{Binding Content}" 
                                    Style="{DynamicResource VerseText}"/>

@@ -77,8 +77,8 @@ namespace Havamal.ViewModels
             _favorites = new List<Favorite>();
             try
             {
-                await FetchStanzas();
                 await FetchFavorites();
+                await FetchStanzas();
                 SetFavoriteImages();
             }
             catch
@@ -102,10 +102,14 @@ namespace Havamal.ViewModels
             {
                 foreach(var nod in yes)
                 {
-                    Stanzas.Add(new VerseListItem { 
+                    Stanzas.Add(new VerseListItem
+                    {
                         VerseId = nod.VerseId
                         , Content = nod.Content
-                    });
+                        , Favorite = _favorites.Any(x => x.VerseId == nod.VerseId)
+                                ? (Style)Application.Current.Resources["FavSelected"]
+                                : (Style)Application.Current.Resources["FavUnselected"]
+                    }); ;
                 }
                 CurrentStanza = Stanzas.FirstOrDefault(x => x.VerseId == HavamalPreferences.CurrentVerse);
             }, no =>

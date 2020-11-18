@@ -1,5 +1,8 @@
-﻿using Havamal.Models.HelperModels;
+﻿using Havamal.Helpers;
+using Havamal.Models;
+using Havamal.Models.HelperModels;
 using Havamal.Parameters;
+using Havamal.Resources.TextResources;
 using Havamal.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -31,14 +34,15 @@ namespace Havamal.Views
             var searchText = SearchText.Text;
             var onlyFavs = OnlyFavs.IsChecked;
             var numericOrder = NumericOrder.IsChecked;
+            var allLang = AllLAng.IsChecked;
 
             var searchParam = new SearchParameter
             {
                 SearchText = searchText,
                 OnlyFavorites = onlyFavs,
                 NumericOrder = numericOrder,
-                LanguageId = DarlingExtensions.Allow(Preferences.Get("SelectedLanguage", 1))
-            };
+                AllLanguages = allLang
+             };
 
             _pageModel.LoadData(searchParam);
         }
@@ -56,12 +60,23 @@ namespace Havamal.Views
                 AdvancedSettings.IsVisible = false;
                 OnlyFavs.IsChecked = false;
                 NumericOrder.IsChecked = false;
+                AllLAng.IsChecked = false;
                 btn.Style = (Style)Application.Current.Resources["ShowBtn"];
             } else
             {
                 AdvancedSettings.IsVisible = true;
                 btn.Style = (Style)Application.Current.Resources["HideBtn"];
             }
+        }
+
+        private void VerseTapped(object sender, EventArgs e)
+        {
+            var tappedStanza = (Verse)((TappedEventArgs)e).Parameter;
+            HavamalPreferences.CurrentVerse = tappedStanza.VerseId;
+
+            var page = (Page)Activator.CreateInstance(typeof(StanzaPage));
+
+            NavigationHelpers.GoToPage(page, AppResources.Stanzas);
         }
     }
 }

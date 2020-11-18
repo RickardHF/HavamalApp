@@ -12,6 +12,11 @@ namespace Havamal.Repositories.MockRepositories
 {
     public class MockLanguageRepository : ILanguageRepository
     {
+        public Task<Computer<IReadOnlyCollection<Language>>> Create(IReadOnlyCollection<Language> data, LanguageParameter param)
+        {
+            throw new NotImplementedException();
+        }
+
         public Task<Computer<IReadOnlyCollection<Language>>> Get(LanguageParameter param, CancellationToken cancellationToken)
         {
             IReadOnlyCollection<Language> languages = new List<Language>

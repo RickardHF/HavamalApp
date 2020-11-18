@@ -24,6 +24,10 @@ namespace Havamal.Views
 
         private readonly IVerseRepository _verseRepository;
         private readonly IVerseSetupRepository _verseSetupRepository;
+
+        private readonly ILanguageRepository _languageRepository;
+        private readonly ILanguageSetUpRepository _languageSetUpRepository;
+
         private readonly DataSettings _dataSettings;
 
         public InitPage()
@@ -32,6 +36,10 @@ namespace Havamal.Views
 
             _verseRepository = Startup.ServiceProvider.GetService<IVerseRepository>();
             _verseSetupRepository = Startup.ServiceProvider.GetService<IVerseSetupRepository>();
+
+            _languageRepository = Startup.ServiceProvider.GetService<ILanguageRepository>();
+            _languageSetUpRepository = Startup.ServiceProvider.GetService<ILanguageSetUpRepository>();
+
             _dataSettings = Startup.ServiceProvider.GetService<DataSettings>();
 
             SetUpDb();
@@ -74,7 +82,10 @@ namespace Havamal.Views
             CreateVerseTable(dbPath);
             CreateLanguageTable(dbPath);
 
-            await UpdateVerses().ConfigureAwait(false);
+            var updateVersesTask = UpdateVerses();
+            var updateLangsTask = UpdateLanguages();
+
+            Task.WaitAll(updateLangsTask, updateVersesTask);
 
             await Task.Delay(1000);
 
@@ -90,6 +101,23 @@ namespace Havamal.Views
                 insert.CanI(yes => {
                     // TODO : do something smart
                 }, no => { 
+                    // TODO : Add Notification
+                });
+            }, no =>
+            {
+                // TODO : Add notification
+            });
+        }
+
+        private async Task UpdateLanguages()
+        {
+            var fromStartup = await _languageSetUpRepository.Get(new SetUpParameter(), CancellationToken.None).ConfigureAwait(false);
+            fromStartup.CanI(async yes =>
+            {
+                var insert = await _languageRepository.Create(yes, new LanguageParameter()).ConfigureAwait(false);
+                insert.CanI(yes => {
+                    // TODO : do something smart
+                }, no => {
                     // TODO : Add Notification
                 });
             }, no =>
@@ -132,7 +160,7 @@ namespace Havamal.Views
 
                     var cmd = con.CreateCommand();
 
-                    cmd.CommandText = "CREATE TABLE IF NOT EXISTS Language ( Id INTEGER NOT NULL PRIMARY KEY, Name TEXT, Authors TEXT, LanguageCode TEXT, PictureLink TEXT);";
+                    cmd.CommandText = "CREATE TABLE IF NOT EXISTS Languages ( Id INTEGER NOT NULL PRIMARY KEY, Name TEXT, Authors TEXT, LanguageCode TEXT);";
 
                     cmd.ExecuteNonQuery();
                 }

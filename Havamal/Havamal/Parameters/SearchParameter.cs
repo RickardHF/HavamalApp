@@ -7,7 +7,7 @@ namespace Havamal.Parameters
 {
     public class SearchParameter
     {
-        public Darling<int> LanguageId { get; set; }
+        public bool AllLanguages { get; set; }
         public bool OnlyFavorites { get; set; }
         public bool NumericOrder { get; set; }
         public string SearchText { get; set; }

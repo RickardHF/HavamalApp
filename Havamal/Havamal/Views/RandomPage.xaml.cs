@@ -1,4 +1,7 @@
-﻿using Havamal.ViewModels;
+﻿using Havamal.Helpers;
+using Havamal.Models;
+using Havamal.Resources.TextResources;
+using Havamal.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +29,16 @@ namespace Havamal.Views
         private async void GetRandom(object sender, EventArgs e)
         {
             await _randomPageModel.GetRandomVerse();
+        }
+
+        private void VerseTapped(object sender, EventArgs e)
+        {
+            var tappedStanza = (RandomPageModel)((TappedEventArgs)e).Parameter;
+            HavamalPreferences.CurrentVerse = tappedStanza.VerseId;
+
+            var page = (Page)Activator.CreateInstance(typeof(StanzaPage));
+
+            NavigationHelpers.GoToPage(page, AppResources.Stanzas);
         }
     }
 }

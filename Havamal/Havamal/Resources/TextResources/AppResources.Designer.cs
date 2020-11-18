@@ -61,6 +61,15 @@ namespace Havamal.Resources.TextResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Search in all versions.
+        /// </summary>
+        internal static string AllLang {
+            get {
+                return ResourceManager.GetString("AllLang", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Application Language.
         /// </summary>
         internal static string AppLang {

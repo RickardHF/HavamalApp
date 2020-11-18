@@ -607,3 +607,4 @@ C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mip
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\random.png
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\mipmap-xxxhdpi\random.png
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\sjo.jpg
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\nor.png

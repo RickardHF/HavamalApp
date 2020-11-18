@@ -1,4 +1,5 @@
-﻿using Havamal.Resources.TextResources;
+﻿using Havamal.Helpers;
+using Havamal.Resources.TextResources;
 using Rg.Plugins.Popup.Extensions;
 using Rg.Plugins.Popup.Pages;
 using System;
@@ -40,6 +41,7 @@ namespace Havamal.Views.Popups
                 else
                 {
                     _verseChosen(i);
+                    HavamalPreferences.CurrentVerse = i;
                     Close();
                 }
             }else

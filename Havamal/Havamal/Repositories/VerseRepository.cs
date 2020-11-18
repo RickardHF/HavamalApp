@@ -1,4 +1,5 @@
 ﻿using Android.Database.Sqlite;
+using Havamal.Helpers;
 using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Models;
 using Havamal.Models.HelperModels;
@@ -47,7 +48,7 @@ namespace Havamal.Repositories
                     var cmd = con.CreateCommand();
 
                     var inserts = from ins in data
-                                  select $"REPLACE INTO Verses (VerseId, LanguageId, Content) VALUES ({ins.VerseId}, {ins.LanguageId}, {ins.Content}); SELECT VerseId, LanguageId, Content FROM Verses WHERE rowid = last_insert_rowid();";
+                                  select $"REPLACE INTO Verses (VerseId, LanguageId, Content) VALUES ({ins.VerseId}, {ins.LanguageId}, '{ins.Content.SafeSqLiteString()}'); SELECT VerseId, LanguageId, Content FROM Verses WHERE rowid = last_insert_rowid();";
 
 
                     foreach(var ins in inserts)
@@ -65,6 +66,8 @@ namespace Havamal.Repositories
 
                             verses.Add(verse);
                         }
+
+                        reader.Close();
                     }
 
                 }

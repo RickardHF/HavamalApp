@@ -8,6 +8,9 @@
     <ContentPage.Content>
         <AbsoluteLayout
                    BackgroundColor="{DynamicResource PageBackgroundColorOpaque}">
+            <AbsoluteLayout.GestureRecognizers>
+                <TapGestureRecognizer NumberOfTapsRequired="2" CommandParameter="{Binding .}" Tapped="VerseTapped"/>
+            </AbsoluteLayout.GestureRecognizers>
             <Frame CornerRadius="30" 
                    Padding="5,0,5,0"
                    AbsoluteLayout.LayoutBounds="0.5,0.05"
