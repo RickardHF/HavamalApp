@@ -34,7 +34,11 @@
                     >
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ImageCell ImageSource="{Binding LanguageCode, Converter={converters:CountryImageConverter}}" Text="{Binding Name}" Detail="{Binding Authors}"></ImageCell>
+                        <ImageCell 
+                            ImageSource="{Binding LanguageCode, Converter={converters:CountryImageConverter}}" 
+                            Text="{Binding Name}" 
+                            Detail="{Binding Authors}"
+                            />
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

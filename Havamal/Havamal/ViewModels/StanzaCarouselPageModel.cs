@@ -24,6 +24,8 @@ namespace Havamal.ViewModels
         public ObservableCollection<VerseListItem> Stanzas;
         private List<Favorite> _favorites;
 
+        public EventHandler ItemsLoaded;
+
         public VerseListItem CurrentStanza { get; private set; }
 
         public string FavoriteImage { get; set; }
@@ -112,6 +114,7 @@ namespace Havamal.ViewModels
                     }); ;
                 }
                 CurrentStanza = Stanzas.FirstOrDefault(x => x.VerseId == HavamalPreferences.CurrentVerse);
+                ItemsLoaded.Invoke(this, null);
             }, no =>
             {
 
@@ -170,7 +173,7 @@ namespace Havamal.ViewModels
                     : (Style)Application.Current.Resources["FavUnselected"];
             }
 
-            CurrentStanza = Stanzas.FirstOrDefault(x => x.VerseId == HavamalPreferences.CurrentVerse);
+            //CurrentStanza = Stanzas.FirstOrDefault(x => x.VerseId == HavamalPreferences.CurrentVerse);
         }
 
         private async Task FetchFavorites()

@@ -85,6 +85,7 @@ namespace Havamal.ViewModels
                     new ThemeListItem { ThemeId = (int) HavamalTheme.Earth, ThemeName = AppResources.ThemeEarth, Theme = new EarthTheme()}
                     , new ThemeListItem {ThemeId = (int) HavamalTheme.Light, ThemeName = AppResources.ThemeLight, Theme = new LightTheme()}
                     , new ThemeListItem { ThemeId = (int) HavamalTheme.Water, ThemeName = AppResources.ThemeWater, Theme = new WaterTheme()}
+                    , new ThemeListItem { ThemeId = (int) HavamalTheme.Dark, ThemeName = AppResources.ThemeDark, Theme = new DarkTheme()}
                 };
 
                 CurrentTheme = Themes.FirstOrDefault(x => x.ThemeId == HavamalPreferences.Theme);

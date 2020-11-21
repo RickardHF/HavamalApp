@@ -2,6 +2,7 @@
 using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Models;
 using Havamal.Parameters;
+using Havamal.Resources.TextResources;
 using Microsoft.Data.Sqlite;
 using System;
 using System.Collections.Generic;
@@ -11,7 +12,6 @@ using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -99,13 +99,13 @@ namespace Havamal.Views
             {
                 var insert = await _verseRepository.Create(yes, new VerseParameter()).ConfigureAwait(false);
                 insert.CanI(yes => {
-                    // TODO : do something smart
-                }, no => { 
-                    // TODO : Add Notification
+                    InfoText.Text = AppResources.InfoVersesLoaded;
+                }, no => {
+                    InfoText.Text = AppResources.InfoVersesInsertFail;
                 });
             }, no =>
             {
-                // TODO : Add notification
+                InfoText.Text = AppResources.InfoLangsLoadedError;
             });
         }
 
@@ -116,13 +116,13 @@ namespace Havamal.Views
             {
                 var insert = await _languageRepository.Create(yes, new LanguageParameter()).ConfigureAwait(false);
                 insert.CanI(yes => {
-                    // TODO : do something smart
+                    InfoText.Text = AppResources.InfoLangsLoaded;
                 }, no => {
-                    // TODO : Add Notification
+                    InfoText.Text = AppResources.InfoLangsInsertFail;
                 });
             }, no =>
             {
-                // TODO : Add notification
+                InfoText.Text = AppResources.InfoLangsLoadedError;
             });
         }
 
@@ -144,7 +144,7 @@ namespace Havamal.Views
                 }
             } catch (Exception e)
             {
-
+                InfoText.Text = AppResources.InfoSetupFavsFailed;
             }
         }
 
@@ -167,6 +167,7 @@ namespace Havamal.Views
             }
             catch (Exception e)
             {
+                InfoText.Text = AppResources.InfoSetupLangsFailed;
 
             }
         }
@@ -190,6 +191,7 @@ namespace Havamal.Views
             }
             catch (Exception e)
             {
+                InfoText.Text = AppResources.InfoSetupVersesFailed;
 
             }
         }

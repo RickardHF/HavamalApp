@@ -4,21 +4,22 @@
              x:Class="Havamal.Resources.WaterTheme">
 
 
-    <Color x:Key="PageBackgroundColor">#2F6690</Color>
-    <Color x:Key="NavigationBarColor">#2F6690</Color>
-    <Color x:Key="PrimaryColor">#2F6690</Color>
-    <Color x:Key="SecondaryColor">#3A7CA5</Color>
-    <Color x:Key="TertiaryColor">#D9DCD6</Color>
-    <Color x:Key="PrimaryTextColor">#D9DCD6</Color>
-    <Color x:Key="SecondaryTextColor">#16425B</Color>
+    <Color x:Key="PageBackgroundColor">#3e94b6</Color>
+    <Color x:Key="NavigationBarColor">#004966</Color>
+    <Color x:Key="PrimaryColor">#004966</Color>
+    <Color x:Key="SecondaryColor">#ca5553</Color>
+    <Color x:Key="TertiaryColor">#8c2d2b</Color>
+    <Color x:Key="PrimaryTextColor">#ffffff</Color>
+    <Color x:Key="SecondaryTextColor">#004966</Color>
     <Color x:Key="TertiaryTextColor">#81C3D7</Color>
     <Color x:Key="TransparentColor">Transparent</Color>
-    <Color x:Key="PageBackgroundColorOpaque">#CC2F6690</Color>
+    <Color x:Key="PageBackgroundColorOpaque">#663e94b6</Color>
 
 
-    <Color x:Key="MenuHeaderBackground">#2F6690</Color>
-    <Color x:Key="MenuHeaderText">#D9DCD6</Color>
+    <Color x:Key="MenuHeaderBackground">#004966</Color>
+    <Color x:Key="MenuHeaderText">#ca5553</Color>
     <Color x:Key="InitBackGround">#16425B</Color>
+    <Color x:Key="InfoTextColor">#D9DCD6</Color>
 
     <Style x:Key="FavUnselected" TargetType="ImageButton">
         <Setter Property="HeightRequest" Value="50"/>
@@ -45,6 +46,10 @@
 
     <Style x:Key="ExitBtn" TargetType="ImageButton">
         <Setter Property="Source" Value="exitgoldenrod.png"/>
+    </Style>
+
+    <Style x:Key="ContentBackground" TargetType="ContentPage">
+        <Setter Property="BackgroundImageSource" Value="sjo.jpg"/>
     </Style>
 
 </ResourceDictionary>

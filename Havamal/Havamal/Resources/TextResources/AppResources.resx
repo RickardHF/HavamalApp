@@ -147,6 +147,33 @@
   <data name="Havamal" xml:space="preserve">
     <value>Havamal</value>
   </data>
+  <data name="InfoLangsInsertFail" xml:space="preserve">
+    <value>Error occurred inserting new languages</value>
+  </data>
+  <data name="InfoLangsLoaded" xml:space="preserve">
+    <value>Languages updated</value>
+  </data>
+  <data name="InfoLangsLoadedError" xml:space="preserve">
+    <value>Error occurred loading Languages</value>
+  </data>
+  <data name="InfoSetupFavsFailed" xml:space="preserve">
+    <value>Setup of favorites failed</value>
+  </data>
+  <data name="InfoSetupLangsFailed" xml:space="preserve">
+    <value>Setup of languages failed</value>
+  </data>
+  <data name="InfoSetupVersesFailed" xml:space="preserve">
+    <value>Setup of stanzas failed</value>
+  </data>
+  <data name="InfoVersesInsertFail" xml:space="preserve">
+    <value>Error occurred inserting new stanzas</value>
+  </data>
+  <data name="InfoVersesLoaded" xml:space="preserve">
+    <value>Stanzas updated</value>
+  </data>
+  <data name="InfoVersesLoadError" xml:space="preserve">
+    <value>Error occured loading stanzas</value>
+  </data>
   <data name="NoFavorites" xml:space="preserve">
     <value>You have no favorites</value>
   </data>

@@ -12,12 +12,13 @@
     <Color x:Key="SecondaryTextColor">Gray</Color>
     <Color x:Key="TertiaryTextColor">White</Color>
     <Color x:Key="TransparentColor">Transparent</Color>
-    <Color x:Key="PageBackgroundColorOpaque">#CCFFFFFF</Color>
+    <Color x:Key="PageBackgroundColorOpaque">#88FFFFFF</Color>
     
     
     <Color x:Key="MenuHeaderBackground">DarkGreen</Color>
     <Color x:Key="MenuHeaderText">White</Color>
     <Color x:Key="InitBackGround">Black</Color>
+    <Color x:Key="InfoTextColor">White</Color>
 
     <Style x:Key="FavUnselected" TargetType="ImageButton">
         <Setter Property="HeightRequest" Value="50"/>
@@ -44,6 +45,10 @@
 
     <Style x:Key="ExitBtn" TargetType="ImageButton">
         <Setter Property="Source" Value="exit.png"/>
+    </Style>
+    
+    <Style x:Key="ContentBackground" TargetType="ContentPage">
+        <Setter Property="BackgroundImageSource" Value="luft.jpg"/>
     </Style>
 
 </ResourceDictionary>

@@ -8,6 +8,7 @@ namespace Havamal.Resources.Themes
     {
         Earth = 0,
         Light = 1,
-        Water = 2
+        Water = 2,
+        Dark = 3
     }
 }

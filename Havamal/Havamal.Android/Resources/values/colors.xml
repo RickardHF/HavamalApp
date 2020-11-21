@@ -8,4 +8,5 @@
     <color name="colorBackground">#FFFFFF</color>
     <color name="ListViewSelected">#DBDDDB</color>
     <color name="ListViewHighlighted">#E39696</color>
+    <color name="splash_background">#000000</color>
 </resources>

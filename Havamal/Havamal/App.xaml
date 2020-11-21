@@ -13,11 +13,11 @@
             </Style>
 
             <Style x:Key="SmallImg" TargetType="Image">
-                <Setter Property="HeightRequest" Value="30"/>
+                <Setter Property="WidthRequest" Value="40"/>
             </Style>
 
             <Style x:Key="BigImg" TargetType="Image">
-                <Setter Property="HeightRequest" Value="250"/>
+                <Setter Property="MinimumHeightRequest" Value="250"/>
             </Style>
 
 
@@ -57,7 +57,7 @@
             </Style>
 
             <Style x:Key="Entry" TargetType="Entry">
-                <Setter Property="BackgroundColor" Value="{DynamicResource PrimaryColor}"/>
+                <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}"/>
                 <Setter Property="PlaceholderColor" Value="{DynamicResource SecondaryTextColor}"/>
                 <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
                 <Setter Property="FontSize" Value="Medium"/>
@@ -108,6 +108,15 @@
                 <Setter Property="Margin" Value="20"/>
                 <Setter Property="VerticalOptions" Value="Center"/>
                 <Setter Property="HorizontalOptions" Value="Center"/>
+            </Style>
+
+            <Style x:Key="InfoStartup" TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource InfoTextColor}"/>
+                <Setter Property="FontSize" Value="Medium"/>
+            </Style>
+
+            <Style x:Key="ListItem" TargetType="ImageCell">
+                <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
             </Style>
         </ResourceDictionary>
     </Application.Resources>

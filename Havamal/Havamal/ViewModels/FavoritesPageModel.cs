@@ -91,6 +91,9 @@ namespace Havamal.ViewModels
         {
             try
             {
+                Favorites.Clear();
+
+
                 var favoriteIds = _favorited.Select(x => x.VerseId).Distinct().ToList();
                 var verses = await _verseRepository.Get(new VerseParameter { 
                     Language = new List<int> { HavamalPreferences.SelectedLanguage }
@@ -98,7 +101,6 @@ namespace Havamal.ViewModels
                     , Ids = favoriteIds
                 }, CancellationToken.None).ConfigureAwait(false);
 
-                Favorites.Clear();
                 
                 verses.CanI(success =>
                 {

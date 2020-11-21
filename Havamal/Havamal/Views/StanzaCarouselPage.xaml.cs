@@ -30,6 +30,13 @@ namespace Havamal.Views
             Carousel.CurrentItemChanged += context.StanzaChanged;
             Carousel.IsScrollAnimated = false;
 
+            _context.ItemsLoaded -= ItemsLoadedCarouselAction;
+            _context.ItemsLoaded += ItemsLoadedCarouselAction;
+
+        }
+
+        private void ItemsLoadedCarouselAction(object sender, EventArgs e)
+        {
             SetStart();
         }
 

@@ -4,8 +4,18 @@
              x:Class="Havamal.Views.InitPage"
              BackgroundColor="{DynamicResource Key=InitBackGround}">
     <ContentPage.Content>
-        <Image VerticalOptions="Center" HorizontalOptions="Center" Style="{DynamicResource BigImg}" Source="odelwhite.png">
-            
-        </Image>
+        <AbsoluteLayout>
+            <Image 
+                AbsoluteLayout.LayoutBounds="0.5,0.4"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                VerticalOptions="Center" 
+                Style="{DynamicResource BigImg}" 
+                Source="odelwhite.png"/>
+            <Label 
+                x:Name="InfoText" 
+                AbsoluteLayout.LayoutBounds="0.5,0.75"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Style="{DynamicResource InfoStartup}"/>
+        </AbsoluteLayout>
     </ContentPage.Content>
 </ContentPage>

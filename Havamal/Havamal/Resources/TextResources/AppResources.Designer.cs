@@ -151,6 +151,87 @@ namespace Havamal.Resources.TextResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Error occurred inserting new languages.
+        /// </summary>
+        internal static string InfoLangsInsertFail {
+            get {
+                return ResourceManager.GetString("InfoLangsInsertFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Languages updated.
+        /// </summary>
+        internal static string InfoLangsLoaded {
+            get {
+                return ResourceManager.GetString("InfoLangsLoaded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error occurred loading Languages.
+        /// </summary>
+        internal static string InfoLangsLoadedError {
+            get {
+                return ResourceManager.GetString("InfoLangsLoadedError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Setup of favorites failed.
+        /// </summary>
+        internal static string InfoSetupFavsFailed {
+            get {
+                return ResourceManager.GetString("InfoSetupFavsFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Setup of languages failed.
+        /// </summary>
+        internal static string InfoSetupLangsFailed {
+            get {
+                return ResourceManager.GetString("InfoSetupLangsFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Setup of stanzas failed.
+        /// </summary>
+        internal static string InfoSetupVersesFailed {
+            get {
+                return ResourceManager.GetString("InfoSetupVersesFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error occurred inserting new stanzas.
+        /// </summary>
+        internal static string InfoVersesInsertFail {
+            get {
+                return ResourceManager.GetString("InfoVersesInsertFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Stanzas updated.
+        /// </summary>
+        internal static string InfoVersesLoaded {
+            get {
+                return ResourceManager.GetString("InfoVersesLoaded", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error occured loading stanzas.
+        /// </summary>
+        internal static string InfoVersesLoadError {
+            get {
+                return ResourceManager.GetString("InfoVersesLoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to You have no favorites.
         /// </summary>
         internal static string NoFavorites {

@@ -34,9 +34,15 @@ namespace Havamal.Views
             Carousel.CurrentItemChanged += _context.StanzaChanged;
             Carousel.IsScrollAnimated = false;
 
+            _context.ItemsLoaded -= ItemsLoadedAction;
+            _context.ItemsLoaded += ItemsLoadedAction;
+
             SetStart();
         }
-
+        private void ItemsLoadedAction(object sender, EventArgs e)
+        {
+            SetStart();
+        }
         private void SetStart()
         {
             var startPos = _context.CurrentStanzaIndex;
@@ -54,7 +60,7 @@ namespace Havamal.Views
 
         public void FavoriteTapped(object sender, EventArgs ards)
         {
-            var btn = (StackLayout)sender;
+            var btn = (AbsoluteLayout)sender;
             var realBtn = btn.Children.FirstOrDefault(x => x.GetType() == typeof(ImageButton));
             FavoriteClicked(realBtn, ards);
         }

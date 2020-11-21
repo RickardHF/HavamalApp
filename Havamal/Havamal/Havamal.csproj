@@ -77,6 +77,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>AppResources.resx</DependentUpon>
     </Compile>
+    <Compile Update="Resources\Themes\DarkTheme.xaml.cs">
+      <DependentUpon>DarkTheme.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Resources\Themes\WaterTheme.xaml.cs">
       <DependentUpon>WaterTheme.xaml</DependentUpon>
     </Compile>

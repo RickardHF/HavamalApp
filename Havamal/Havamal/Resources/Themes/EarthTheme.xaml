@@ -13,12 +13,13 @@
     <Color x:Key="SecondaryTextColor">#A49694</Color>
     <Color x:Key="TertiaryTextColor">#EDE7D9</Color>
     <Color x:Key="TransparentColor">Transparent</Color>
-    <Color x:Key="PageBackgroundColorOpaque">#CCEDE7D9</Color>
+    <Color x:Key="PageBackgroundColorOpaque">#88EDE7D9</Color>
 
 
     <Color x:Key="MenuHeaderBackground">#4B4237</Color>
     <Color x:Key="MenuHeaderText">#D5A021</Color>
-    <Color x:Key="InitBackGround">Black</Color>
+    <Color x:Key="InitBackGround">#4B4237</Color>
+    <Color x:Key="InfoTextColor">#EDE7D9</Color>
 
     <Style x:Key="FavUnselected" TargetType="ImageButton">
         <Setter Property="HeightRequest" Value="50"/>
@@ -45,6 +46,10 @@
 
     <Style x:Key="ExitBtn" TargetType="ImageButton">
         <Setter Property="Source" Value="exitgoldenrod.png"/>
+    </Style>
+
+    <Style x:Key="ContentBackground" TargetType="ContentPage">
+        <Setter Property="BackgroundImageSource" Value="hoy.jpg"/>
     </Style>
 
 </ResourceDictionary>

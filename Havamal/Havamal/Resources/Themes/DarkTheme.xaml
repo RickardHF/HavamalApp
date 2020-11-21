@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Havamal.Resources.DarkTheme">
+
+
+    <Color x:Key="PageBackgroundColor">#04151F</Color>
+    <Color x:Key="NavigationBarColor">#183A37</Color>
+    <Color x:Key="PrimaryColor">#04151F</Color>
+    <Color x:Key="SecondaryColor">#04151F</Color>
+    <Color x:Key="TertiaryColor">#432534</Color>
+    <Color x:Key="PrimaryTextColor">#EFD6AC</Color>
+    <Color x:Key="SecondaryTextColor">#EFD6AC</Color>
+    <Color x:Key="TertiaryTextColor">#EFD6AC</Color>
+    <Color x:Key="TransparentColor">Transparent</Color>
+    <Color x:Key="PageBackgroundColorOpaque">#6604151F</Color>
+
+
+    <Color x:Key="MenuHeaderBackground">#183A37</Color>
+    <Color x:Key="MenuHeaderText">#EFD6AC</Color>
+    <Color x:Key="InitBackGround">#432534</Color>
+    <Color x:Key="InfoTextColor">#EFD6AC</Color>
+
+    <Style x:Key="FavUnselected" TargetType="ImageButton">
+        <Setter Property="HeightRequest" Value="50"/>
+        <Setter Property="Source" Value="favoritespanishgray.png"/>
+    </Style>
+
+    <Style x:Key="FavSelected" TargetType="ImageButton">
+        <Setter Property="HeightRequest" Value="50"/>
+        <Setter Property="Source" Value="favoritegoldenrod.png"/>
+    </Style>
+
+    <Style x:Key="ShareBtn" TargetType="ImageButton">
+        <Setter Property="HeightRequest" Value="40"/>
+        <Setter Property="Source" Value="sharegoldenrod.png"/>
+    </Style>
+
+    <Style x:Key="ShowBtn" TargetType="ImageButton">
+        <Setter Property="Source" Value="showgoldenrod.png"/>
+    </Style>
+
+    <Style x:Key="HideBtn" TargetType="ImageButton">
+        <Setter Property="Source" Value="hidegoldenrod.png"/>
+    </Style>
+
+    <Style x:Key="ExitBtn" TargetType="ImageButton">
+        <Setter Property="Source" Value="exitgoldenrod.png"/>
+    </Style>
+
+    <Style x:Key="ContentBackground" TargetType="ContentPage">
+        <Setter Property="BackgroundImageSource" Value="fgl.jpg"/>
+    </Style>
+
+</ResourceDictionary>
