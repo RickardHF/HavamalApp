@@ -61,7 +61,9 @@ namespace Havamal.Views
         public void FavoriteTapped(object sender, EventArgs ards)
         {
             var btn = (AbsoluteLayout)sender;
-            var realBtn = btn.Children.FirstOrDefault(x => x.GetType() == typeof(ImageButton));
+            var tappedArds = (TappedEventArgs)ards;
+            var realBtn = (ImageButton) btn.Children.FirstOrDefault(x => x.GetType() == typeof(ImageButton));
+            realBtn.CommandParameter = tappedArds.Parameter;
             FavoriteClicked(realBtn, ards);
         }
     }

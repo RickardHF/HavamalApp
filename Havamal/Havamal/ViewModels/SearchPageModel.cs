@@ -38,7 +38,6 @@ namespace Havamal.ViewModels
             _verseRepository = verseRepository;
             _languageRepository = languageRepository;
 
-            ResultText = AppResources.Search;
 
             SearchResult = new ObservableCollection<Verse>();
         }

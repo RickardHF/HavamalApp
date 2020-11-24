@@ -7,45 +7,46 @@
     <Color x:Key="PageBackgroundColor">#3e94b6</Color>
     <Color x:Key="NavigationBarColor">#004966</Color>
     <Color x:Key="PrimaryColor">#004966</Color>
-    <Color x:Key="SecondaryColor">#ca5553</Color>
-    <Color x:Key="TertiaryColor">#8c2d2b</Color>
+    <!--<Color x:Key="SecondaryColor">#ca5553</Color>-->
+    <Color x:Key="SecondaryColor">#E20000</Color>
+    <Color x:Key="TertiaryColor">#81C3D7</Color>
     <Color x:Key="PrimaryTextColor">#ffffff</Color>
-    <Color x:Key="SecondaryTextColor">#004966</Color>
-    <Color x:Key="TertiaryTextColor">#81C3D7</Color>
+    <Color x:Key="SecondaryTextColor">#ffffff</Color>
+    <Color x:Key="TertiaryTextColor">#D9DCD6</Color>
     <Color x:Key="TransparentColor">Transparent</Color>
     <Color x:Key="PageBackgroundColorOpaque">#663e94b6</Color>
 
 
     <Color x:Key="MenuHeaderBackground">#004966</Color>
-    <Color x:Key="MenuHeaderText">#ca5553</Color>
+    <Color x:Key="MenuHeaderText">#D9DCD6</Color>
     <Color x:Key="InitBackGround">#16425B</Color>
     <Color x:Key="InfoTextColor">#D9DCD6</Color>
 
     <Style x:Key="FavUnselected" TargetType="ImageButton">
         <Setter Property="HeightRequest" Value="50"/>
-        <Setter Property="Source" Value="favoritespanishgray.png"/>
+        <Setter Property="Source" Value="favoriteindigoblue.png"/>
     </Style>
 
     <Style x:Key="FavSelected" TargetType="ImageButton">
         <Setter Property="HeightRequest" Value="50"/>
-        <Setter Property="Source" Value="favoritegoldenrod.png"/>
+        <Setter Property="Source" Value="favoriterossocorsa.png"/>
     </Style>
 
     <Style x:Key="ShareBtn" TargetType="ImageButton">
         <Setter Property="HeightRequest" Value="40"/>
-        <Setter Property="Source" Value="sharegoldenrod.png"/>
+        <Setter Property="Source" Value="shareRC.png"/>
     </Style>
 
     <Style x:Key="ShowBtn" TargetType="ImageButton">
-        <Setter Property="Source" Value="showgoldenrod.png"/>
+        <Setter Property="Source" Value="showRC.png"/>
     </Style>
 
     <Style x:Key="HideBtn" TargetType="ImageButton">
-        <Setter Property="Source" Value="hidegoldenrod.png"/>
+        <Setter Property="Source" Value="hideRC.png"/>
     </Style>
 
     <Style x:Key="ExitBtn" TargetType="ImageButton">
-        <Setter Property="Source" Value="exitgoldenrod.png"/>
+        <Setter Property="Source" Value="exitRC.png"/>
     </Style>
 
     <Style x:Key="ContentBackground" TargetType="ContentPage">

@@ -32,19 +32,19 @@
 
     <Style x:Key="ShareBtn" TargetType="ImageButton">
         <Setter Property="HeightRequest" Value="40"/>
-        <Setter Property="Source" Value="share.png"/>
+        <Setter Property="Source" Value="shareDG.png"/>
     </Style>
 
     <Style x:Key="ShowBtn" TargetType="ImageButton">
-        <Setter Property="Source" Value="show.png"/>
+        <Setter Property="Source" Value="showDG.png"/>
     </Style>
 
     <Style x:Key="HideBtn" TargetType="ImageButton">
-        <Setter Property="Source" Value="hide.png"/>
+        <Setter Property="Source" Value="hideDG.png"/>
     </Style>
 
     <Style x:Key="ExitBtn" TargetType="ImageButton">
-        <Setter Property="Source" Value="exit.png"/>
+        <Setter Property="Source" Value="exitDG.png"/>
     </Style>
     
     <Style x:Key="ContentBackground" TargetType="ContentPage">

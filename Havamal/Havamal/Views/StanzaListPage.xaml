@@ -26,6 +26,7 @@
                         <ImageButton
                                     x:Name="FavBtn"
                                     Style="{Binding Favorite}"
+                                    CommandParameter="{Binding .}"
                                     BackgroundColor="Transparent"
                                     Clicked="FavoriteClicked" 
                                     AbsoluteLayout.LayoutBounds="0.85,0.1"

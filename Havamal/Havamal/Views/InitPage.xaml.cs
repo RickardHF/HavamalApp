@@ -87,6 +87,8 @@ namespace Havamal.Views
 
             Task.WaitAll(updateLangsTask, updateVersesTask);
 
+            InfoText.Text = AppResources.FinishedUpdate;
+
             await Task.Delay(1000);
 
             OnSetupFinished(EventArgs.Empty);
@@ -184,7 +186,7 @@ namespace Havamal.Views
 
                     var cmd = con.CreateCommand();
 
-                    cmd.CommandText = "CREATE TABLE IF NOT EXISTS Verse ( VerseId INTEGER NOT NULL, LanguageId INTEGER NOT NULL, Content TEXT, PRIMARY KEY (VerseId, LanguageId));";
+                    cmd.CommandText = "CREATE TABLE IF NOT EXISTS Verses ( VerseId INTEGER NOT NULL, LanguageId INTEGER NOT NULL, Content TEXT, PRIMARY KEY (VerseId, LanguageId));";
 
                     cmd.ExecuteNonQuery();
                 }

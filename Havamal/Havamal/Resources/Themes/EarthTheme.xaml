@@ -33,19 +33,19 @@
 
     <Style x:Key="ShareBtn" TargetType="ImageButton">
         <Setter Property="HeightRequest" Value="40"/>
-        <Setter Property="Source" Value="sharegoldenrod.png"/>
+        <Setter Property="Source" Value="shareGR.png"/>
     </Style>
 
     <Style x:Key="ShowBtn" TargetType="ImageButton">
-        <Setter Property="Source" Value="showgoldenrod.png"/>
+        <Setter Property="Source" Value="showGR.png"/>
     </Style>
 
     <Style x:Key="HideBtn" TargetType="ImageButton">
-        <Setter Property="Source" Value="hidegoldenrod.png"/>
+        <Setter Property="Source" Value="hideGR.png"/>
     </Style>
 
     <Style x:Key="ExitBtn" TargetType="ImageButton">
-        <Setter Property="Source" Value="exitgoldenrod.png"/>
+        <Setter Property="Source" Value="exitGR.png"/>
     </Style>
 
     <Style x:Key="ContentBackground" TargetType="ContentPage">

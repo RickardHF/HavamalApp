@@ -144,6 +144,15 @@ namespace Havamal.Resources.TextResources {
         /// <summary>
         ///   Looks up a localized string similar to Havamal.
         /// </summary>
+        internal static string FinishedUpdate {
+            get {
+                return ResourceManager.GetString("FinishedUpdate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Havamal.
+        /// </summary>
         internal static string Havamal {
             get {
                 return ResourceManager.GetString("Havamal", resourceCulture);

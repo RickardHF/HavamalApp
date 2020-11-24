@@ -114,10 +114,23 @@
                 <Setter Property="TextColor" Value="{DynamicResource InfoTextColor}"/>
                 <Setter Property="FontSize" Value="Medium"/>
             </Style>
+            
+            <Style x:Key="ErrText" TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}"/>
+                <Setter Property="FontSize" Value="Medium"/>
+            </Style>
 
             <Style x:Key="ListItem" TargetType="ImageCell">
                 <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
             </Style>
+
+            <Style x:Key="FrameImp" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}"/>
+                <Setter Property="BorderColor" Value="{DynamicResource PrimaryTextColor}"/>
+                <Setter Property="CornerRadius" Value="30"/>
+                <Setter Property="Padding" Value="5,0,5,0"/>
+            </Style>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

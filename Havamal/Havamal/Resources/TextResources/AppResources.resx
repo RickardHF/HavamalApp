@@ -144,6 +144,9 @@
   <data name="FavsOnly" xml:space="preserve">
     <value>Only favorites</value>
   </data>
+  <data name="FinishedUpdate" xml:space="preserve">
+    <value>Havamal</value>
+  </data>
   <data name="Havamal" xml:space="preserve">
     <value>Havamal</value>
   </data>

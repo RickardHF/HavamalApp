@@ -1,4 +1,6 @@
-﻿using Havamal.ViewModels;
+﻿using Havamal.Helpers;
+using Havamal.Resources.Themes;
+using Havamal.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +21,11 @@ namespace Havamal.Views
 
             var bindingContext = Startup.ServiceProvider.GetService<VersePageModel>();
             BindingContext = bindingContext;
-;
+
+            var currentTheme = (HavamalTheme)HavamalPreferences.Theme;
+
+            book.IconImageSource = currentTheme.GetBookSource();
+            list.IconImageSource = currentTheme.GetListSource();
         }
     }
 }

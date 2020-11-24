@@ -33,7 +33,13 @@
                             >
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ImageCell ImageSource="{Binding ThemeImage}" Text="{Binding ThemeName}"></ImageCell>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="{Binding ThemeImage}"  
+                                       Style="{DynamicResource SmallImg}"/>
+                                <Label Text="{Binding ThemeName}" Style="{DynamicResource LangButtonMain}"></Label>
+                            </StackLayout>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

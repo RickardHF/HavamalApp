@@ -1,4 +1,6 @@
-﻿using Havamal.Resources.TextResources;
+﻿using Havamal.Helpers;
+using Havamal.Resources.TextResources;
+using Havamal.Resources.Themes;
 using Havamal.Views;
 using System;
 using System.Collections.Generic;
@@ -45,14 +47,17 @@ namespace Havamal
 
             public MasterPageMasterViewModel()
             {
+
+                var currentTheme = (HavamalTheme)HavamalPreferences.Theme;
+
                 MenuItems = new ObservableCollection<MasterPageMasterMenuItem>(new[]
                 {
-                    new MasterPageMasterMenuItem { Id = 0, Title = AppResources.Stanzas, TargetType = typeof(StanzaPage), Icon = "book.png" },
-                    new MasterPageMasterMenuItem { Id = 1, Title = AppResources.Search, TargetType = typeof(SearchPage), Icon = "search.png"  },
-                    new MasterPageMasterMenuItem { Id = 2, Title = AppResources.Random, TargetType = typeof(RandomPage), Icon = "random.png"  },
-                    new MasterPageMasterMenuItem { Id = 3, Title = AppResources.Compare, TargetType = typeof(CompareCarouselPage), Icon = "compare.png"  },
-                    new MasterPageMasterMenuItem { Id = 4, Title = AppResources.Favorites, TargetType = typeof(FavoritesPage), Icon = "favoriteempty.png"  },
-                    new MasterPageMasterMenuItem { Id = 5, Title = AppResources.Settings, TargetType = typeof(SettingsPage), Icon = "spokes.png"  }
+                    new MasterPageMasterMenuItem { Id = 0, Title = AppResources.Stanzas, TargetType = typeof(StanzaPage), Icon = currentTheme.GetBookSource() },
+                    new MasterPageMasterMenuItem { Id = 1, Title = AppResources.Search, TargetType = typeof(SearchPage), Icon = currentTheme.GetSearchSource()  },
+                    new MasterPageMasterMenuItem { Id = 2, Title = AppResources.Random, TargetType = typeof(RandomPage), Icon = currentTheme.GetRandomSource() },
+                    new MasterPageMasterMenuItem { Id = 3, Title = AppResources.Compare, TargetType = typeof(CompareCarouselPage), Icon = currentTheme.GetCompareSource() },
+                    new MasterPageMasterMenuItem { Id = 4, Title = AppResources.Favorites, TargetType = typeof(FavoritesPage), Icon = currentTheme.GetFavoriteSource() },
+                    new MasterPageMasterMenuItem { Id = 5, Title = AppResources.Settings, TargetType = typeof(SettingsPage), Icon = currentTheme.GetSpokesSource()  }
                 });
             }
 

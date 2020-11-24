@@ -73,6 +73,8 @@ namespace Havamal.Views
 
             dics.Add(theme.Theme);
             _pagemodel.CurrentTheme = theme;
+            var app = (App)Application.Current;
+            app.Reset(new NavigationPage(new SettingsPage() { Title = AppResources.Settings }));
         }
 
     }

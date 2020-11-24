@@ -15,6 +15,8 @@ namespace Havamal.Helpers
             return themeId switch
             {
                 HavamalTheme.Light => new LightTheme(),
+                HavamalTheme.Dark => new DarkTheme(),
+                HavamalTheme.Water => new WaterTheme(),
                 _ => new EarthTheme(),
             };
         }

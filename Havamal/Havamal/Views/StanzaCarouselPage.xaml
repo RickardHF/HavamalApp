@@ -23,30 +23,36 @@
                         <AbsoluteLayout.GestureRecognizers>
                             <TapGestureRecognizer NumberOfTapsRequired="2" CommandParameter="{Binding .}"  Tapped="FavoriteTapped"/>
                         </AbsoluteLayout.GestureRecognizers>
-                        <Frame CornerRadius="30" 
-                               Padding="5,0,5,0"
+                        <Frame 
                                AbsoluteLayout.LayoutBounds="0.5,0.03"
                                AbsoluteLayout.LayoutFlags="PositionProportional"
-                               BackgroundColor="{DynamicResource PageBackgroundColor}"
+                               Style="{DynamicResource FrameImp}"
                                >
                             <Label Text="{Binding Chapter}" Style="{DynamicResource VerseIdText}"></Label>
                         </Frame>
                         <Frame
+                                AbsoluteLayout.LayoutBounds="0.11,0.03"
+                                AbsoluteLayout.LayoutFlags="PositionProportional"
                                 BackgroundColor="Transparent"
                                 BorderColor="Transparent"
-                                AbsoluteLayout.LayoutBounds="0.15,0.03"
-                                AbsoluteLayout.LayoutFlags="PositionProportional"
                             >
                             <Frame.GestureRecognizers>
                                 <TapGestureRecognizer Tapped="TapVerseId"></TapGestureRecognizer>
                             </Frame.GestureRecognizers>
-                            <Label Text="{Binding VerseId}" 
-                                   Style="{DynamicResource VerseIdText}" />
+                            <Frame 
+                                Style="{DynamicResource FrameImp}">
+                                <Label Text="{Binding VerseId}" 
+                                       Style="{DynamicResource VerseIdText}" />
+                                
+                            </Frame>
                         </Frame>
-                        <Label Text="{Binding Content}" 
-                               Style="{DynamicResource VerseText}"
-                               AbsoluteLayout.LayoutBounds="0.5,0.4"
-                               AbsoluteLayout.LayoutFlags="PositionProportional"/>
+                        <ScrollView
+                                   AbsoluteLayout.LayoutBounds="0.5,0.50"
+                                   AbsoluteLayout.LayoutFlags="PositionProportional"
+                                   HeightRequest="330">
+                            <Label Text="{Binding Content}" 
+                                   Style="{DynamicResource VerseText}"/>
+                        </ScrollView>
                         <ImageButton
                                     x:Name="FavBtn"
                                     Style="{Binding Favorite}"
@@ -60,7 +66,7 @@
                                 BackgroundColor="Transparent"
                                 CommandParameter="{Binding .}"
                                 Clicked="Button_Clicked"
-                                AbsoluteLayout.LayoutBounds="0.85,0.85"
+                                AbsoluteLayout.LayoutBounds="0.85,0.88"
                                 AbsoluteLayout.LayoutFlags="PositionProportional"/>
                     </AbsoluteLayout>
                 </DataTemplate>

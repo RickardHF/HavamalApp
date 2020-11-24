@@ -51,7 +51,7 @@
                     <Label Text="{x:Static resources:AppResources.AllLang}" Style="{DynamicResource SearchLabel}"/>
                 </StackLayout>
             </StackLayout>
-            <Label Text="{Binding ResultText}"></Label>
+            <Label Text="{Binding ResultText}" Style="{DynamicResource ErrText}" HorizontalOptions="Center"></Label>
             <CollectionView x:Name="ResultList"
                             ItemsSource="{Binding SearchResult}"
                             SelectionMode="None"
