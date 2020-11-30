@@ -44,7 +44,7 @@ namespace Havamal.Helpers
                 HavamalTheme.Dark => "favoritewheat.png",
                 HavamalTheme.Light => "favoriteblack.png",
                 HavamalTheme.Water => "favoritetimberwolf.png",
-                _ => "favoritespanishgray.png"
+                _ => "favoriteDG.png"
             };
         }
         public static string GetCompareSource(this HavamalTheme theme)

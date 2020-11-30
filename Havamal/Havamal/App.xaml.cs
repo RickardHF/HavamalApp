@@ -20,9 +20,8 @@ namespace Havamal
         {
             InitializeComponent();
 
-            var initPage = new InitPage();
+            var initPage = new InitPage(SetUpFinished);
             MainPage = initPage;
-            initPage.SetUpFinished += SetUpFinished;
 
 
             CultureInfo language = new CultureInfo(HavamalPreferences.AppLanguage);

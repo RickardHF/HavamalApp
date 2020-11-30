@@ -117,23 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AllLang" xml:space="preserve">
+    <value>Søk i alle oversettelser</value>
+  </data>
   <data name="AppLang" xml:space="preserve">
-    <value>Applikasjon språk</value>
+    <value>Applikasjonsspråk</value>
   </data>
   <data name="Compare" xml:space="preserve">
     <value>Sammenlign</value>
   </data>
   <data name="CouldNotLoadFavs" xml:space="preserve">
-    <value>Kunne ikke laste inn favoritter</value>
+    <value>Kunne ikke laste favoritter</value>
   </data>
   <data name="CouldNotLoadFavsVerses" xml:space="preserve">
-    <value>Kunne ikke laste inn vers for favorittene</value>
+    <value>Kunne ikke laste vers til favoritter</value>
   </data>
   <data name="CouldNotVersForId" xml:space="preserve">
-    <value>Kunne ikke finne vers med riktig id</value>
+    <value>Kunne ikke finne vers for gitt oversettelse</value>
   </data>
   <data name="CouldNotVersForLang" xml:space="preserve">
-    <value>Kunne ikke hente vers for valgt oversetting</value>
+    <value>Kunne ikke finne vers for valgt oversettelse</value>
   </data>
   <data name="Favorites" xml:space="preserve">
     <value>Favoritter</value>
@@ -141,11 +144,41 @@
   <data name="FavsOnly" xml:space="preserve">
     <value>Kun favoritter</value>
   </data>
-  <data name="Havamal" xml:space="preserve">
+  <data name="FinishedUpdate" xml:space="preserve">
     <value>Håvamål</value>
   </data>
+  <data name="Havamal" xml:space="preserve">
+    <value>Håvamåø</value>
+  </data>
+  <data name="InfoLangsInsertFail" xml:space="preserve">
+    <value>Feil ved insetting av favoritter</value>
+  </data>
+  <data name="InfoLangsLoaded" xml:space="preserve">
+    <value>Språk oppdatert</value>
+  </data>
+  <data name="InfoLangsLoadedError" xml:space="preserve">
+    <value>Feil ved lasting av språk</value>
+  </data>
+  <data name="InfoSetupFavsFailed" xml:space="preserve">
+    <value>Oppsett av favoritter feilet</value>
+  </data>
+  <data name="InfoSetupLangsFailed" xml:space="preserve">
+    <value>Oppsett av språk feilet</value>
+  </data>
+  <data name="InfoSetupVersesFailed" xml:space="preserve">
+    <value>Oppsett av vers feilet</value>
+  </data>
+  <data name="InfoVersesInsertFail" xml:space="preserve">
+    <value>Feil ved innsetting av vers</value>
+  </data>
+  <data name="InfoVersesLoaded" xml:space="preserve">
+    <value>Vers oppdatert</value>
+  </data>
+  <data name="InfoVersesLoadError" xml:space="preserve">
+    <value>Feil ved lasting av vers</value>
+  </data>
   <data name="NoFavorites" xml:space="preserve">
-    <value>Du har ingen favoritter</value>
+    <value>Du har inger favoritter</value>
   </data>
   <data name="NumSort" xml:space="preserve">
     <value>Numerisk sortering</value>
@@ -160,16 +193,31 @@
     <value>Søk</value>
   </data>
   <data name="SearchEmpty" xml:space="preserve">
-    <value>Søket kan ikke være tomt</value>
+    <value>Søk kan ikke være tomt</value>
   </data>
   <data name="SearchFailed" xml:space="preserve">
-    <value>Søking feilet</value>
+    <value>Søk feilet</value>
   </data>
   <data name="SearchForVerses" xml:space="preserve">
     <value>Søk etter vers</value>
   </data>
   <data name="SearchNotFound" xml:space="preserve">
     <value>Fant ingen vers for søket</value>
+  </data>
+  <data name="SectionGas" xml:space="preserve">
+    <value>Gestaþáttr</value>
+  </data>
+  <data name="SectionLjo" xml:space="preserve">
+    <value>Ljóðatal</value>
+  </data>
+  <data name="SectionLod" xml:space="preserve">
+    <value>Loddfáfnismál</value>
+  </data>
+  <data name="SectionRun" xml:space="preserve">
+    <value>Rúnatal</value>
+  </data>
+  <data name="SectionWom" xml:space="preserve">
+    <value>Om kvinner</value>
   </data>
   <data name="SelLang" xml:space="preserve">
     <value>Velg språk</value>
@@ -178,30 +226,45 @@
     <value>Instillinger</value>
   </data>
   <data name="Stanzas" xml:space="preserve">
-    <value>Stanzaer</value>
+    <value>Vers</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Tema</value>
   </data>
   <data name="ThemeAir" xml:space="preserve">
-    <value>Luft Tema</value>
+    <value>Luft tema</value>
   </data>
   <data name="ThemeDark" xml:space="preserve">
-    <value>Mørkt Tema</value>
+    <value>Mørkt tema</value>
   </data>
   <data name="ThemeEarth" xml:space="preserve">
-    <value>Jord Tema</value>
+    <value>Jord tema </value>
   </data>
   <data name="ThemeFire" xml:space="preserve">
-    <value>Ild Tema</value>
+    <value>Ild tema</value>
   </data>
   <data name="ThemeLight" xml:space="preserve">
-    <value>Lyst Tema</value>
+    <value>Lyst tema</value>
   </data>
   <data name="ThemeWater" xml:space="preserve">
-    <value>Vann Tema</value>
+    <value>Vann tema</value>
+  </data>
+  <data name="VerseChoiceError" xml:space="preserve">
+    <value>Gyldig inndata ikke gitt</value>
+  </data>
+  <data name="VerseChoiceOk" xml:space="preserve">
+    <value>Gåå til</value>
+  </data>
+  <data name="VerseChoicePlace" xml:space="preserve">
+    <value>Velg vers</value>
+  </data>
+  <data name="VerseChoiceTooHigh" xml:space="preserve">
+    <value>Versnummer er for høy</value>
+  </data>
+  <data name="VerseChoiceTooLow" xml:space="preserve">
+    <value>Versnummer må være høyere enn 0</value>
   </data>
   <data name="VerseVer" xml:space="preserve">
-    <value>Oversettelse</value>
+    <value>Versversjon</value>
   </data>
 </root>

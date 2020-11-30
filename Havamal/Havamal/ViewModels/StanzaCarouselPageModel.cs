@@ -39,8 +39,6 @@ namespace Havamal.ViewModels
             _verseRepository = verseRepository;
             _favoriteRepository = favoriteRepository;
 
-
-
             OnPropertyChanged(nameof(FavoriteImage));
             Initialize();
         }

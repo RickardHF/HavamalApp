@@ -358,7 +358,7 @@ namespace Havamal.Resources.TextResources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Woman section.
+        ///   Looks up a localized string similar to About women.
         /// </summary>
         internal static string SectionWom {
             get {
@@ -385,7 +385,7 @@ namespace Havamal.Resources.TextResources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Stanzas.
+        ///   Looks up a localized string similar to Verses.
         /// </summary>
         internal static string Stanzas {
             get {

@@ -96,6 +96,12 @@ namespace Havamal.ViewModels
                     new Language(0, "Norsk", "no", "no")
                     , new Language(1, "English", "en", "en")
                     , new Language(2, "Čeština", "cs", "cs")
+                    , new Language(3, "Russisk - placeholder", "ru", "ru")
+                    , new Language(4, "Deutsh - placeholder", "de", "de")
+                    , new Language(5, "Spanish - placeholder", "es", "es")
+                    , new Language(6, "Dutch - placeholder", "nl", "nl")
+                    , new Language(7, "Kyrgiz - placeholder", "kg", "kg")
+                    , new Language(8, "Makedonski - placeholder", "mk", "mk")
                 };
 
                 CurrentAppLanguage = AppLanguages.FirstOrDefault(x => x.LanguageCode.Equals(HavamalPreferences.AppLanguage));

@@ -217,7 +217,7 @@
     <value>Rúnatal</value>
   </data>
   <data name="SectionWom" xml:space="preserve">
-    <value>Woman section</value>
+    <value>About women</value>
   </data>
   <data name="SelLang" xml:space="preserve">
     <value>Select Language</value>
@@ -226,7 +226,7 @@
     <value>Settings</value>
   </data>
   <data name="Stanzas" xml:space="preserve">
-    <value>Stanzas</value>
+    <value>Verses</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Theme</value>

@@ -23,7 +23,7 @@
 
     <Style x:Key="FavUnselected" TargetType="ImageButton">
         <Setter Property="HeightRequest" Value="50"/>
-        <Setter Property="Source" Value="favoritespanishgray.png"/>
+        <Setter Property="Source" Value="favoriteDG.png"/>
     </Style>
 
     <Style x:Key="FavSelected" TargetType="ImageButton">

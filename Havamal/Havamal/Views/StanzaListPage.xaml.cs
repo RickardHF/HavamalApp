@@ -27,10 +27,14 @@ namespace Havamal.Views
 
             Carousel.PeekAreaInsets = 100;
             Carousel.ItemsSource = _context.Stanzas;
+            
+
             Carousel.ItemsLayout = new LinearItemsLayout(ItemsLayoutOrientation.Vertical)
             {
-                ItemSpacing = 0
+                SnapPointsAlignment = SnapPointsAlignment.Center
             };
+
+            
             Carousel.CurrentItemChanged += _context.StanzaChanged;
             Carousel.IsScrollAnimated = false;
 

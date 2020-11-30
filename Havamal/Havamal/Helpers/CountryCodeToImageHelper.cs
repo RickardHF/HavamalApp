@@ -18,6 +18,13 @@ namespace Havamal.Helpers
                 , {"CS", "cze.png"}
                 , {"RU", "rus.png"}
                 , {"XX", "nor.png"}
+                , {"DK", "dnk.png"}
+                , {"SE", "swe.png"}
+                , {"MK", "mkd.png"}
+                , {"NL", "bes.png"}
+                , {"KG", "kgz.png"}
+                , {"DE", "deu.png"}
+                , {"ES", "esp.png"}
             };
         }
 

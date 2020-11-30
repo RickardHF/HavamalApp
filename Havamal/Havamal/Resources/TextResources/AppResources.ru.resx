@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AllLang" xml:space="preserve">
+    <value>Search in all versions</value>
+  </data>
   <data name="AppLang" xml:space="preserve">
     <value>Application Language</value>
   </data>
@@ -141,14 +144,50 @@
   <data name="FavsOnly" xml:space="preserve">
     <value>Only favorites</value>
   </data>
+  <data name="FinishedUpdate" xml:space="preserve">
+    <value>Havamal</value>
+  </data>
   <data name="Havamal" xml:space="preserve">
     <value>Havamal</value>
+  </data>
+  <data name="InfoLangsInsertFail" xml:space="preserve">
+    <value>Error occurred inserting new languages</value>
+  </data>
+  <data name="InfoLangsLoaded" xml:space="preserve">
+    <value>Languages updated</value>
+  </data>
+  <data name="InfoLangsLoadedError" xml:space="preserve">
+    <value>Error occurred loading Languages</value>
+  </data>
+  <data name="InfoSetupFavsFailed" xml:space="preserve">
+    <value>Setup of favorites failed</value>
+  </data>
+  <data name="InfoSetupLangsFailed" xml:space="preserve">
+    <value>Setup of languages failed</value>
+  </data>
+  <data name="InfoSetupVersesFailed" xml:space="preserve">
+    <value>Setup of stanzas failed</value>
+  </data>
+  <data name="InfoVersesInsertFail" xml:space="preserve">
+    <value>Error occurred inserting new stanzas</value>
+  </data>
+  <data name="InfoVersesLoaded" xml:space="preserve">
+    <value>Stanzas updated</value>
+  </data>
+  <data name="InfoVersesLoadError" xml:space="preserve">
+    <value>Error occured loading stanzas</value>
   </data>
   <data name="NoFavorites" xml:space="preserve">
     <value>You have no favorites</value>
   </data>
   <data name="NumSort" xml:space="preserve">
     <value>Numeric sort</value>
+  </data>
+  <data name="Random" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="RandomBtn" xml:space="preserve">
+    <value>Fetch new</value>
   </data>
   <data name="Search" xml:space="preserve">
     <value>Search</value>
@@ -165,6 +204,21 @@
   <data name="SearchNotFound" xml:space="preserve">
     <value>Did not find any verses for search</value>
   </data>
+  <data name="SectionGas" xml:space="preserve">
+    <value>Gestaþáttr</value>
+  </data>
+  <data name="SectionLjo" xml:space="preserve">
+    <value>Ljóðatal</value>
+  </data>
+  <data name="SectionLod" xml:space="preserve">
+    <value>Loddfáfnismál</value>
+  </data>
+  <data name="SectionRun" xml:space="preserve">
+    <value>Rúnatal</value>
+  </data>
+  <data name="SectionWom" xml:space="preserve">
+    <value>About women</value>
+  </data>
   <data name="SelLang" xml:space="preserve">
     <value>Select Language</value>
   </data>
@@ -172,7 +226,7 @@
     <value>Settings</value>
   </data>
   <data name="Stanzas" xml:space="preserve">
-    <value>Stanzas</value>
+    <value>Verses</value>
   </data>
   <data name="Theme" xml:space="preserve">
     <value>Theme</value>
@@ -194,6 +248,21 @@
   </data>
   <data name="ThemeWater" xml:space="preserve">
     <value>Water Theme</value>
+  </data>
+  <data name="VerseChoiceError" xml:space="preserve">
+    <value>Valid input not given</value>
+  </data>
+  <data name="VerseChoiceOk" xml:space="preserve">
+    <value>Go to</value>
+  </data>
+  <data name="VerseChoicePlace" xml:space="preserve">
+    <value>Select  verse</value>
+  </data>
+  <data name="VerseChoiceTooHigh" xml:space="preserve">
+    <value>Verse number too high</value>
+  </data>
+  <data name="VerseChoiceTooLow" xml:space="preserve">
+    <value>Verse number must be higher than 0</value>
   </data>
   <data name="VerseVer" xml:space="preserve">
     <value>Verse version</value>
