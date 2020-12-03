@@ -27,13 +27,14 @@ namespace Havamal.Views
             _context = context;
 
             Carousel.ItemsSource = context.Stanzas;
-            Carousel.CurrentItemChanged += context.StanzaChanged;
+
+
             Carousel.IsScrollAnimated = false;
 
-            //_context.ItemsLoaded -= ItemsLoadedCarouselAction;
-            //_context.ItemsLoaded += ItemsLoadedCarouselAction;
+            _context.ItemsLoaded -= ItemsLoadedCarouselAction;
+            _context.ItemsLoaded += ItemsLoadedCarouselAction;
 
-            SetStart();
+            //SetStart();
 
         }
 
@@ -44,8 +45,13 @@ namespace Havamal.Views
 
         private void SetStart()
         {
+            _context.ToggleSaveChange = false;
+            Carousel.CurrentItemChanged -= _context.StanzaChanged;
+            Carousel.CurrentItemChanged += _context.StanzaChanged;
             var startPos = _context.CurrentStanzaIndex;
             if (startPos >= 0) Carousel.Position = startPos;
+
+            _context.ToggleSaveChange = true;
         }
 
         public async void FavoriteClicked(object sender, EventArgs ards)

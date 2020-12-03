@@ -143,8 +143,6 @@ C:\Users\ricka\source\repos\Havamal\Tests\bin\Debug\netcoreapp3.1\Havamal.pdb
 C:\Users\ricka\source\repos\Havamal\Tests\obj\Debug\netcoreapp3.1\Tests.csprojAssemblyReference.cache
 C:\Users\ricka\source\repos\Havamal\Tests\obj\Debug\netcoreapp3.1\Tests.AssemblyInfoInputs.cache
 C:\Users\ricka\source\repos\Havamal\Tests\obj\Debug\netcoreapp3.1\Tests.AssemblyInfo.cs
-C:\Users\ricka\source\repos\Havamal\Tests\obj\Debug\netcoreapp3.1\Tests.csproj.CoreCompileInputs.cache
-C:\Users\ricka\source\repos\Havamal\Tests\obj\Debug\netcoreapp3.1\XamlC.stamp
 C:\Users\ricka\source\repos\Havamal\Tests\obj\Debug\netcoreapp3.1\Tests.csproj.CopyComplete
 C:\Users\ricka\source\repos\Havamal\Tests\obj\Debug\netcoreapp3.1\Tests.dll
 C:\Users\ricka\source\repos\Havamal\Tests\obj\Debug\netcoreapp3.1\Tests.pdb
@@ -152,3 +150,8 @@ C:\Users\ricka\source\repos\Havamal\Tests\obj\Debug\netcoreapp3.1\Tests.genrunti
 C:\Users\ricka\source\repos\Havamal\Tests\bin\Debug\netcoreapp3.1\cs\Havamal.resources.dll
 C:\Users\ricka\source\repos\Havamal\Tests\bin\Debug\netcoreapp3.1\no\Havamal.resources.dll
 C:\Users\ricka\source\repos\Havamal\Tests\bin\Debug\netcoreapp3.1\ru\Havamal.resources.dll
+C:\Users\ricka\source\repos\Havamal\Tests\bin\Debug\netcoreapp3.1\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\ricka\source\repos\Havamal\Tests\bin\Debug\netcoreapp3.1\de\Havamal.resources.dll
+C:\Users\ricka\source\repos\Havamal\Tests\bin\Debug\netcoreapp3.1\es\Havamal.resources.dll
+C:\Users\ricka\source\repos\Havamal\Tests\bin\Debug\netcoreapp3.1\mk\Havamal.resources.dll
+C:\Users\ricka\source\repos\Havamal\Tests\bin\Debug\netcoreapp3.1\nl\Havamal.resources.dll

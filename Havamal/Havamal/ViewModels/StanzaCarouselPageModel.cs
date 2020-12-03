@@ -32,6 +32,9 @@ namespace Havamal.ViewModels
 
         public Style FavoriteImageStyle { get; set; }
 
+        private bool _saveChange;
+
+        public bool ToggleSaveChange { get { return _saveChange; } set { _saveChange = value; } }
 
         public StanzaCarouselPageModel(IVerseRepository verseRepository
             , IFavoriteRepository favoriteRepository)
@@ -64,7 +67,7 @@ namespace Havamal.ViewModels
             var newStanza = (VerseListItem) e.CurrentItem;
             if (newStanza == null) return;
             CurrentStanza = newStanza;
-            HavamalPreferences.CurrentVerse = newStanza.VerseId;
+            if(_saveChange) HavamalPreferences.CurrentVerse = newStanza.VerseId;
             OnPropertyChanged(nameof(newStanza.Favorite));
             OnPropertyChanged(nameof(newStanza.Chapter));
             OnPropertyChanged(nameof(Chapter));

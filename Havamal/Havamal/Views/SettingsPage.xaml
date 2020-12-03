@@ -25,16 +25,23 @@
                         <ColumnDefinition />
                         <ColumnDefinition />
                     </Grid.ColumnDefinitions>
-                    <Label Grid.Column="0" Grid.Row="0" Style="{DynamicResource VerseIdText}" Text="{x:Static resources:AppResources.VerseVer}"/>
-
+                    <Label Grid.Column="0" 
+                           Grid.Row="0" 
+                           Style="{DynamicResource VerseIdText}" 
+                           Text="{x:Static resources:AppResources.VerseVer}"
+                           VerticalOptions="Center"/>
                     <components:LanguageButton 
                         x:Name="versePicker"
                         Title="{Binding CurrentVerseLanguage.Name}" 
                         Description="{Binding CurrentVerseLanguage.Authors}" 
                         ImageSource="{Binding CurrentVerseLanguage.LanguageCode, Converter={converters:CountryImageConverter}}"
                         Grid.Column="1" 
-                        Grid.Row="0" ></components:LanguageButton>
-                    <Label Grid.Column="0" Grid.Row="1" Style="{DynamicResource VerseIdText}" Text="{x:Static resources:AppResources.AppLang}"/>
+                        Grid.Row="0" />
+                    <Label Grid.Column="0" 
+                           Grid.Row="1" 
+                           Style="{DynamicResource VerseIdText}" 
+                           Text="{x:Static resources:AppResources.AppLang}"
+                           VerticalOptions="Center"/>
                     <components:LanguageButton
                         x:Name="langPicker"
                         Title="{Binding CurrentAppLanguage.Name}"
@@ -42,13 +49,17 @@
                         Grid.Column="1" 
                         Grid.Row="1" 
                         />
-                    <Label Grid.Column="0" Grid.Row="2" Style="{DynamicResource VerseIdText}" Text="{x:Static resources:AppResources.Theme}"/>
+                    <Label Grid.Column="0" 
+                           Grid.Row="2" 
+                           Style="{DynamicResource VerseIdText}" 
+                           Text="{x:Static resources:AppResources.Theme}"
+                           VerticalOptions="Center"/>
                     <components:ThemeButton
                         x:Name="themePicker"
                         Title="{Binding CurrentTheme.ThemeName}"
                         ImageSource="{Binding CurrentTheme.ThemeImage}"
                         Grid.Column="1"
-                        Grid.Row="2"></components:ThemeButton>
+                        Grid.Row="2"/>
                 </Grid>
             </StackLayout>
         </StackLayout>

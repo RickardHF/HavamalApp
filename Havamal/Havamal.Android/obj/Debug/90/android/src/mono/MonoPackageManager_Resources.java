@@ -42,6 +42,7 @@ public class MonoPackageManager_Resources {
 		"SQLitePCLRaw.core.dll",
 		"SQLitePCLRaw.lib.e_sqlite3.android.dll",
 		"SQLitePCLRaw.provider.e_sqlite3.dll",
+		"System.Diagnostics.DiagnosticSource.dll",
 		"System.Diagnostics.EventLog.dll",
 		"System.Security.Principal.Windows.dll",
 		"System.Text.Encodings.Web.dll",

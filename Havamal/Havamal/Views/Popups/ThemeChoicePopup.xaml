@@ -19,7 +19,8 @@
     </pages:PopupPage.Animation>
     <Frame CornerRadius="20"
            Margin="30"
-           BackgroundColor="{DynamicResource PageBackgroundColor}">
+           BackgroundColor="{DynamicResource PageBackgroundColor}"
+           BorderColor="{DynamicResource PrimaryTextColor}">
         <StackLayout>
             <ImageButton Style="{DynamicResource ExitBtn}" 
                          HeightRequest="30" 
@@ -37,7 +38,7 @@
                             <StackLayout Orientation="Horizontal">
                                 <Image Source="{Binding ThemeImage}"  
                                        Style="{DynamicResource SmallImg}"/>
-                                <Label Text="{Binding ThemeName}" Style="{DynamicResource LangButtonMain}"></Label>
+                                <Label Text="{Binding ThemeName}" Style="{DynamicResource LangButtonMain}" VerticalOptions="CenterAndExpand"></Label>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

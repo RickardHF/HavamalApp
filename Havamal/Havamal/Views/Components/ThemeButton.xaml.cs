@@ -22,15 +22,6 @@ namespace Havamal.Views.Components
             );
 
 
-        public static BindableProperty DescriptionProperty = BindableProperty.Create(
-            nameof(Description)
-            , typeof(string)
-            , typeof(ThemeButton)
-            , default(string)
-            , Xamarin.Forms.BindingMode.TwoWay
-            , propertyChanged: DescriptionChanged
-            );
-
         public static BindableProperty ImageSourceProperty = BindableProperty.Create(
             nameof(ImageSource)
             , typeof(string)
@@ -42,12 +33,6 @@ namespace Havamal.Views.Components
         {
             var c = (ThemeButton)bindable;
             c.ButtonTitle.Text = newValue.ToString();
-        }
-
-        private static void DescriptionChanged(BindableObject bindable, object oldValue, object newValue)
-        {
-            var c = (ThemeButton)bindable;
-            c.ButtonDesctiption.Text = newValue.ToString();
         }
 
         private static void ImageSourceChanged(BindableObject bindable, object oldValue, object newValue)
@@ -66,19 +51,6 @@ namespace Havamal.Views.Components
             set
             {
                 SetValue(TitleProperty, value);
-            }
-        }
-
-        public string Description
-        {
-            get
-            {
-                return (string)GetValue(DescriptionProperty);
-            }
-
-            set
-            {
-                SetValue(DescriptionProperty, value);
             }
         }
 
@@ -103,7 +75,6 @@ namespace Havamal.Views.Components
 
             ButtonImage.Source = ImageSource;
             ButtonTitle.Text = Title;
-            ButtonDesctiption.Text = Description;
         }
 
         public void OnButtonClicked(object sender, EventArgs args)

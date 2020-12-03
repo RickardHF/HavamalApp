@@ -1,4 +1,5 @@
-﻿using Havamal.Interfaces.RepositoryInterfaces;
+﻿using Havamal.Helpers;
+using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Models;
 using Havamal.Models.HelperModels;
 using Havamal.Parameters;
@@ -10,6 +11,8 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Input;
+using Xamarin.Forms;
 
 namespace Havamal.ViewModels
 {
@@ -18,9 +21,21 @@ namespace Havamal.ViewModels
         private readonly ILanguageRepository _languageRepository;
         private readonly IVerseRepository _verseRepository;
 
+        private CompareVerseListItem _current { get; set; }
+        public CompareVerseListItem CurrentComparison { 
+            get { return _current; } 
+            set { 
+                _current = value; 
+                if (_initialized && value != null) HavamalPreferences.CurrentVerse = value.VerseId;
+            } 
+        }
+
+
         private Language _from;
 
         private Language _to;
+
+        private bool _initialized;
 
         public ObservableCollection<Language> FromLanguages;
         public ObservableCollection<Language> ToLanguages;
@@ -31,15 +46,11 @@ namespace Havamal.ViewModels
         {
             get
             {
-                //return _from.MayI<Language>(
-                //    yes => yes
-                //    , () => new Language(0, AppResources.SelLang, "XX", "")
-                //    );
                 return _from ?? new Language(-1, AppResources.SelLang, "", "");
             }
             set
             {
-                //_from.SetValue(value);
+                _initialized = false;
                 _from = value;
                 _ = LoadComparisons();
                 OnPropertyChanged(nameof(CurrentFromLanguage));
@@ -49,12 +60,11 @@ namespace Havamal.ViewModels
         {
             get
             {
-                //return _to.MayI<Language>(yes => yes, () => new Language(0, AppResources.SelLang, "XX", ""));
                 return _to ?? new Language(-1, AppResources.SelLang, "", "");
             }
             set
             {
-                //_to = DarlingExtensions.Allow(value);
+                _initialized = false;
                 _to = value;
                 _ = LoadComparisons();
                 OnPropertyChanged(nameof(CurrentToLanguage));
@@ -63,6 +73,8 @@ namespace Havamal.ViewModels
 
         public CompareCarouselPageModel(IVerseRepository verseRepository, ILanguageRepository languageRepository)
         {
+            _initialized = false;
+
             _languageRepository = languageRepository;
             _verseRepository = verseRepository;
 
@@ -70,14 +82,21 @@ namespace Havamal.ViewModels
             ToLanguages = new ObservableCollection<Language>();
 
             Comparisons = new ObservableCollection<CompareVerseListItem>();
-
             LoadLanguages();
         }
 
-        public int GetVersePosision(int verseId)
+        public void SetComparison(int verseId)
         {
-            var comp = Comparisons.FirstOrDefault(x => x.VerseId == verseId);
-            return Comparisons.IndexOf(comp);
+            if (Comparisons.Any())
+            {
+                var selection = Comparisons.FirstOrDefault(x => x.VerseId == verseId);
+                if(selection != null)
+                {
+                    CurrentComparison = selection;
+                    OnPropertyChanged(nameof(CurrentComparison));
+                }
+            }
+            //OnPropertyChanged(nameof(Comparisons));
         }
 
         private async void LoadLanguages()
@@ -117,6 +136,7 @@ namespace Havamal.ViewModels
         {
             IsBusy = true;
             Comparisons.Clear();
+            _initialized = false;
             try
             {
 
@@ -146,6 +166,9 @@ namespace Havamal.ViewModels
 
                             Comparisons.Add(comparison);
                         }
+                        SetComparison(HavamalPreferences.CurrentVerse);
+
+                        _initialized = true;
                     }, no =>
                     {
 

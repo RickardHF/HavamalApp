@@ -59,9 +59,15 @@ namespace Havamal.ViewModels
             SetUp();
         }
 
-        private void SetUp()
+        private async void SetUp()
         {
-            SetUpDb();
+            try
+            {
+                await SetUpDb();
+            } catch (Exception e)
+            {
+                InfoText = e.Message;
+            }
         }
 
         private void OnSetupFinished(EventArgs args)

@@ -6,7 +6,11 @@
              x:Class="Havamal.Views.CompareCarouselPage">
     <ContentPage.Content>
         <StackLayout Style="{DynamicResource Key=ContentStack}">
-            <StackLayout x:Name="Menu" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" Padding="20,0,20,0">
+            <StackLayout x:Name="Menu" 
+                         Orientation="Horizontal" 
+                         VerticalOptions="Start" 
+                         HorizontalOptions="CenterAndExpand" 
+                         Padding="20,0,20,0">
                 <components:LanguageButton 
                     x:Name="from" 
                     ImageSource="{Binding CurrentFromLanguage.LanguageCode, Converter={converters:CountryImageConverter}}" 
@@ -21,7 +25,9 @@
             <ScrollView 
                 Orientation="Vertical"
                 VerticalScrollBarVisibility="Never">
-                <CarouselView x:Name="ComparisonsView" ItemsSource="{Binding Comparisons}">
+                <CarouselView x:Name="ComparisonsView" 
+                              ItemsSource="{Binding Comparisons}" 
+                              CurrentItem="{Binding CurrentComparison, Mode=TwoWay}"  >
                     <CarouselView.ItemTemplate>
                         <DataTemplate>
                             <StackLayout>

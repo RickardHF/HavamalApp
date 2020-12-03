@@ -14,13 +14,14 @@ namespace Havamal
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class MasterPage : MasterDetailPage
     {
-        public MasterPage() : this(new NavigationPage(new StanzaPage() { Title = AppResources.Stanzas }) { Title = AppResources.Stanzas })
+        public MasterPage() : this(new NavigationPage(new StanzaCarouselPage() { Title = AppResources.Stanzas }) { Title = AppResources.Stanzas })
         {
         }
 
         public MasterPage(NavigationPage navPage)
         {
             InitializeComponent();
+            masterPageMaster.ListView.ItemSelected -= ListView_ItemSelected;
             masterPageMaster.ListView.ItemSelected += ListView_ItemSelected;
 
             Detail = navPage;

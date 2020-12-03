@@ -27,7 +27,8 @@ namespace Havamal
 
             BindingContext = new MasterPageMasterViewModel();
             ListView = MenuItemsListView;
-            ListView.ItemSelected += PageSelected;
+            //ListView.ItemSelected -= PageSelected;
+            //ListView.ItemSelected += PageSelected;
         }
 
         private void PageSelected(object sender, SelectedItemChangedEventArgs e)
@@ -36,7 +37,8 @@ namespace Havamal
             if (item == null)
                 return;
 
-            var page = (Page)Activator.CreateInstance(item.TargetType);
+
+            var page = (Page)Startup.ServiceProvider.GetService(item.TargetType);
             page.Title = item.Title;
 
         }
@@ -52,7 +54,7 @@ namespace Havamal
 
                 MenuItems = new ObservableCollection<MasterPageMasterMenuItem>(new[]
                 {
-                    new MasterPageMasterMenuItem { Id = 0, Title = AppResources.Stanzas, TargetType = typeof(StanzaPage), Icon = currentTheme.GetBookSource() },
+                    new MasterPageMasterMenuItem { Id = 0, Title = AppResources.Stanzas, TargetType = typeof(StanzaCarouselPage), Icon = currentTheme.GetBookSource() },
                     new MasterPageMasterMenuItem { Id = 1, Title = AppResources.Search, TargetType = typeof(SearchPage), Icon = currentTheme.GetSearchSource()  },
                     new MasterPageMasterMenuItem { Id = 2, Title = AppResources.Random, TargetType = typeof(RandomPage), Icon = currentTheme.GetRandomSource() },
                     new MasterPageMasterMenuItem { Id = 3, Title = AppResources.Compare, TargetType = typeof(CompareCarouselPage), Icon = currentTheme.GetCompareSource() },

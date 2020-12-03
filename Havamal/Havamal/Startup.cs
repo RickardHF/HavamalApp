@@ -60,13 +60,25 @@ namespace Havamal
 
                 DbBasePath = dbPath
             };
+
+            services
+                .AddTransient<StanzaCarouselPage>()
+                .AddTransient<StanzaListPage>()
+                .AddTransient<StanzaPage>()
+                .AddTransient<RandomPage>()
+                .AddTransient<SearchPage>()
+                .AddTransient<CompareCarouselPage>()
+                .AddTransient<FavoritesPage>()
+                .AddTransient<SettingsPage>()
+                ;
+
             services
                 .AddSingleton(dataSettings)
                 .ConfigureDependencies()
                 .AddTransient<VersePage>()
                 .AddTransient<AppShell>()
-                .AddTransient<SettingsPageModel>()
                 .AddTransient<SettingsPage>()
+                .AddTransient<SettingsPageModel>()
                 .AddTransient<VersePageModel>()
                 .AddTransient<FavoritesPageModel>()
                 .AddTransient<SearchPageModel>()

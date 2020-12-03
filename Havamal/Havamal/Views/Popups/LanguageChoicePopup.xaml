@@ -20,7 +20,8 @@
     </pages:PopupPage.Animation>
     <Frame CornerRadius="20"
            Margin="30"
-           BackgroundColor="{DynamicResource PageBackgroundColor}">
+           BackgroundColor="{DynamicResource PageBackgroundColor}"
+           BorderColor="{DynamicResource PrimaryTextColor}">
         <StackLayout>
             <ImageButton Style="{DynamicResource ExitBtn}" 
                          HeightRequest="30" 

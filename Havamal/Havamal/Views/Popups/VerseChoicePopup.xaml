@@ -10,10 +10,17 @@
            CornerRadius="30"
            HorizontalOptions="Center" 
            VerticalOptions="Center"
-           BackgroundColor="{DynamicResource PageBackgroundColor}">
+           BackgroundColor="{DynamicResource PageBackgroundColor}"
+           BorderColor="{DynamicResource PrimaryTextColor}">
         <AbsoluteLayout 
             HorizontalOptions="Fill" 
             VerticalOptions="Fill">
+            <ImageButton Style="{DynamicResource ExitBtn}" 
+                         HeightRequest="30" 
+                         AbsoluteLayout.LayoutBounds="0.98,0.05"
+                         AbsoluteLayout.LayoutFlags="PositionProportional"
+                         Clicked="CloseClicked" 
+                         BackgroundColor="Transparent"/>
             <Label
                 x:Name="ErrorTextField"
                 AbsoluteLayout.LayoutBounds="0.5,0.3"

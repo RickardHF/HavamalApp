@@ -148,7 +148,7 @@
     <value>Håvamål</value>
   </data>
   <data name="Havamal" xml:space="preserve">
-    <value>Håvamåø</value>
+    <value>Håvamål</value>
   </data>
   <data name="InfoLangsInsertFail" xml:space="preserve">
     <value>Feil ved insetting av favoritter</value>
@@ -253,7 +253,7 @@
     <value>Gyldig inndata ikke gitt</value>
   </data>
   <data name="VerseChoiceOk" xml:space="preserve">
-    <value>Gåå til</value>
+    <value>Gå til</value>
   </data>
   <data name="VerseChoicePlace" xml:space="preserve">
     <value>Velg vers</value>

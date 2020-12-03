@@ -49,7 +49,10 @@ namespace Havamal.Views.Popups
                 ErrorTextField.Text = AppResources.VerseChoiceError;
             }
         }
-
+        private void CloseClicked(object sender, EventArgs e)
+        {
+            Close();
+        }
         private void Close()
         {
             Navigation.RemovePopupPageAsync(this);

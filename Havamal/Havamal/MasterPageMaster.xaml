@@ -45,7 +45,7 @@
                         Style="{DynamicResource Key=SmallImg}"
                         Source="{Binding Icon}" 
                         />
-                    <Label VerticalOptions="FillAndExpand" 
+                    <Label VerticalOptions="CenterAndExpand" 
                         Text="{Binding Title}"
                         Style="{DynamicResource VerseText}"
                         />

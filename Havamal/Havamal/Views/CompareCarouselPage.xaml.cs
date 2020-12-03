@@ -32,23 +32,18 @@ namespace Havamal.Views
             ComparisonsView.ItemsSource = _pageModel.Comparisons;
             ComparisonsView.IsScrollAnimated = false;
 
-            SetCorrectVerse(HavamalPreferences.CurrentVerse);
         }
 
         private void TapVerseId(object sender, EventArgs e)
         {
             var page = new VerseChoicePopup(i =>
             {
-                SetCorrectVerse(i);
+                _pageModel.SetComparison(i);
             }, _pageModel.Comparisons.Count);
             Navigation.PushPopupAsync(page);
         }
 
-        private void SetCorrectVerse(int i)
-        {
-            var selection = _pageModel.GetVersePosision(i);
-            if (selection >= 0) ComparisonsView.Position = selection;
-        }
+        
 
         private void FromClicked(object sender, EventArgs e)
         {
