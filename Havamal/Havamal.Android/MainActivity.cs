@@ -6,6 +6,8 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Havamal.Interfaces.Helpers;
+using Havamal.Resources.Themes;
 
 namespace Havamal.Droid
 {
@@ -19,7 +21,7 @@ namespace Havamal.Droid
         | ConfigChanges.SmallestScreenSize
         , ScreenOrientation = Android.Content.PM.ScreenOrientation.Locked)
         ]
-    public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
+    public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity, IThemeChanger
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -32,7 +34,7 @@ namespace Havamal.Droid
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            LoadApplication(Startup.InitApplication());
+            LoadApplication(Startup.InitApplication(this));
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
@@ -41,6 +43,18 @@ namespace Havamal.Droid
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
-       
+        public void ChangeTheme(HavamalTheme theme)
+        {
+            var changeTo = theme switch
+            {
+                HavamalTheme.Earth => Resource.Style.EarthTheme,
+                HavamalTheme.Dark => Resource.Style.DarkTheme,
+                HavamalTheme.Light => Resource.Style.HLightTheme,
+                HavamalTheme.Water => Resource.Style.WaterTheme,
+                _ => Resource.Style.MainTheme
+            };
+
+            SetTheme(changeTo);
+        }
     }
 }

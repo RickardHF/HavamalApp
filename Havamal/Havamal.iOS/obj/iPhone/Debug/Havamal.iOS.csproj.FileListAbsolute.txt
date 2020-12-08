@@ -103,10 +103,14 @@ C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\obj\iPhone\Debug\coremlc
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\obj\iPhone\Debug\optimized\
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\obj\iPhone\Debug\Havamal.iOS.csprojAssemblyReference.cache
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\obj\iPhone\Debug\Havamal.iOS.csproj.CoreCompileInputs.cache
-C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\obj\iPhone\Debug\XamlC.stamp
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\obj\iPhone\Debug\Havamal.iOS.csproj.CopyComplete
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\obj\iPhone\Debug\Havamal.iOS.exe
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\obj\iPhone\Debug\Havamal.iOS.pdb
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\bin\iPhone\Debug\cs\Havamal.resources.dll
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\bin\iPhone\Debug\no\Havamal.resources.dll
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\bin\iPhone\Debug\ru\Havamal.resources.dll
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\bin\iPhone\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\bin\iPhone\Debug\de\Havamal.resources.dll
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\bin\iPhone\Debug\es\Havamal.resources.dll
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\bin\iPhone\Debug\mk\Havamal.resources.dll
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.iOS\bin\iPhone\Debug\nl\Havamal.resources.dll

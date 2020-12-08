@@ -7,14 +7,11 @@
              BackgroundColor="{DynamicResource PageBackgroundColor}">
 
 
-    <StackLayout HorizontalOptions="FillAndExpand" 
-                 VerticalOptions="FillAndExpand"
-                 Style="{DynamicResource Key=ContentStack}"
-                 Padding="20,50,20,0">
-        
-
+    
         <CarouselView 
             x:Name="Carousel"
+            ItemsSource="{Binding Stanzas}" 
+            CurrentItem="{Binding CurrentStanza, Mode=TwoWay}"
             >
             <CarouselView.ItemTemplate>
                 <DataTemplate>
@@ -73,5 +70,4 @@
             </CarouselView.ItemTemplate>
         </CarouselView>
 
-    </StackLayout>
 </ContentPage>

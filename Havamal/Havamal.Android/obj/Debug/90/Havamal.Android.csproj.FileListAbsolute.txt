@@ -642,3 +642,7 @@ C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\android
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\RectView.java
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ShapeRenderer_2.java
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\android\src\crc643f46942d9dd1fff9\ShapeView.java
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\values\styles_dark.xml
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\values\styles_earth.xml
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\values\styles_light.xml
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\values\styles_water.xml

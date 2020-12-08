@@ -39,7 +39,7 @@
       </ListView.Header>
       <ListView.ItemTemplate >
         <DataTemplate>
-          <ViewCell >
+          <ViewCell>
                 <StackLayout Padding="15,10" HorizontalOptions="FillAndExpand" Orientation="Horizontal">
                     <Image 
                         Style="{DynamicResource Key=SmallImg}"

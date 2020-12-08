@@ -24,7 +24,6 @@ namespace Havamal.Views
             InitializeComponent();
             var bindingContext = Startup.ServiceProvider.GetService<FavoritesPageModel>();
             BindingContext = bindingContext;
-
         }
 
         private void FavoriteTapped(object sender, EventArgs e)

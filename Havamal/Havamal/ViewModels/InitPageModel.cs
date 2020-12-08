@@ -61,12 +61,17 @@ namespace Havamal.ViewModels
 
         private async void SetUp()
         {
+            IsBusy = true;
             try
             {
                 await SetUpDb();
             } catch (Exception e)
             {
                 InfoText = e.Message;
+            }
+            finally
+            {
+                IsBusy = false;
             }
         }
 

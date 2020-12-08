@@ -26,33 +26,10 @@ namespace Havamal.Views
             BindingContext = context;
             _context = context;
 
-            Carousel.ItemsSource = context.Stanzas;
-
-
+            Carousel.ItemsSource = _context.Stanzas;
             Carousel.IsScrollAnimated = false;
-
-            _context.ItemsLoaded -= ItemsLoadedCarouselAction;
-            _context.ItemsLoaded += ItemsLoadedCarouselAction;
-
-            //SetStart();
-
         }
 
-        private void ItemsLoadedCarouselAction(object sender, EventArgs e)
-        {
-            SetStart();
-        }
-
-        private void SetStart()
-        {
-            _context.ToggleSaveChange = false;
-            Carousel.CurrentItemChanged -= _context.StanzaChanged;
-            Carousel.CurrentItemChanged += _context.StanzaChanged;
-            var startPos = _context.CurrentStanzaIndex;
-            if (startPos >= 0) Carousel.Position = startPos;
-
-            _context.ToggleSaveChange = true;
-        }
 
         public async void FavoriteClicked(object sender, EventArgs ards)
         {
@@ -81,11 +58,18 @@ namespace Havamal.Views
             });;
         }
 
+        private void GoToStanza(int i) {
+            var pos = _context.PositionOfVerse(i);
+            if (pos < 0) return;
+            _context.UpdateCurrent = false;
+            Carousel.Position = pos;
+            _context.UpdateCurrent = true;
+        }
+
         private void TapVerseId(object sender, EventArgs e)
         {            
             var page = new VerseChoicePopup(i => {
-                _context.ChangeSelectedStanza(i);
-                SetStart();
+                GoToStanza(i);
             }, _context.Stanzas.Select(x => x.VerseId).Max());
             Navigation.PushPopupAsync(page);
         }

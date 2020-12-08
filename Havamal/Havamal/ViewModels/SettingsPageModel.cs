@@ -1,5 +1,6 @@
 ﻿using Android.Preferences;
 using Havamal.Helpers;
+using Havamal.Interfaces.Helpers;
 using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Models;
 using Havamal.Models.HelperModels;
@@ -22,6 +23,8 @@ namespace Havamal.ViewModels
     public class SettingsPageModel : BasePageModel
     {
         private readonly ILanguageRepository _languages;
+
+        public readonly IThemeChanger ThemeChanger;
 
         public ObservableCollection<Language> Languages { get; private set; }
         public ObservableCollection<ThemeListItem> Themes { get; private set; }
@@ -67,10 +70,11 @@ namespace Havamal.ViewModels
             }
         }
 
-        public SettingsPageModel (ILanguageRepository languages)
+        public SettingsPageModel (ILanguageRepository languages, IThemeChanger themeChanger)
         {
             _languages = languages;
             Languages = new ObservableCollection<Language>();
+            ThemeChanger = themeChanger;
 
             InitSettings();
         }

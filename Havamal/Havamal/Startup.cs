@@ -1,7 +1,10 @@
-﻿using Havamal.Interfaces.RepositoryInterfaces;
+﻿using Havamal.Helpers;
+using Havamal.Interfaces.Helpers;
+using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Models;
 using Havamal.Repositories;
 using Havamal.Repositories.MockRepositories;
+using Havamal.Resources.Themes;
 using Havamal.ViewModels;
 using Havamal.Views;
 using Microsoft.Extensions.Configuration;
@@ -22,7 +25,7 @@ namespace Havamal
     {
         public static IServiceProvider ServiceProvider { get; set; }
 
-        public static void Init()
+        public static void Init(IThemeChanger themeChanger)
         {
             var a = Assembly.GetExecutingAssembly();
             using var stream = a.GetManifestResourceStream("Havamal.applicationsettings.json");
@@ -34,21 +37,21 @@ namespace Havamal
                             c.AddJsonStream(stream);
                         }).ConfigureServices((c, x) =>
                         {
-                            ConfigureServices(c, x);
+                            ConfigureServices(c, x, themeChanger);
                         })
                         .Build();
 
             ServiceProvider = host.Services;
         }
 
-        public static App InitApplication()
+        public static App InitApplication(IThemeChanger themeChanger)
         {
-            Init();
-
+            Init(themeChanger);
+            
             return ServiceProvider.GetService<App>();
         }
 
-        static void ConfigureServices(HostBuilderContext context, IServiceCollection services)
+        static void ConfigureServices(HostBuilderContext context, IServiceCollection services, IThemeChanger themeChanger)
         {
             //var stream = Assembly.GetExecutingAssembly().GetManifestResourceNames().Where(x => x.Contains("Havamal.HavamalVerses.db"));
 
@@ -60,6 +63,8 @@ namespace Havamal
 
                 DbBasePath = dbPath
             };
+            themeChanger.ChangeTheme((HavamalTheme)HavamalPreferences.Theme);
+            services.AddSingleton<IThemeChanger>(themeChanger);
 
             services
                 .AddTransient<StanzaCarouselPage>()

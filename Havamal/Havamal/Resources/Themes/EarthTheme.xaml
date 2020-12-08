@@ -51,5 +51,5 @@
     <Style x:Key="ContentBackground" TargetType="ContentPage">
         <Setter Property="BackgroundImageSource" Value="hoy.jpg"/>
     </Style>
-
+    
 </ResourceDictionary>

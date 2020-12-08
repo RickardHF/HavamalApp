@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<resources
-  >
-
+<resources>
   <style name="MainTheme" parent="MainTheme.Base">
     <!-- As of Xamarin.Forms 4.6 the theme has moved into the Forms binary -->
     <!-- If you want to override anything you can do that here. -->
@@ -25,8 +23,8 @@
     <item name="android:colorLongPressedHighlight">@color/ListViewHighlighted</item>
     <item name="android:colorFocusedHighlight">@color/ListViewSelected</item>
     <item name="android:colorActivatedHighlight">@color/ListViewSelected</item>
-    <item name="android:colorActivatedHighlight" >#FF0000</item >
     <item name="android:activatedBackgroundIndicator">@color/ListViewSelected</item>
     
   </style>
+
 </resources>

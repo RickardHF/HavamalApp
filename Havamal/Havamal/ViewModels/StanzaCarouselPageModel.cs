@@ -26,15 +26,37 @@ namespace Havamal.ViewModels
 
         public EventHandler ItemsLoaded;
 
-        public VerseListItem CurrentStanza { get; private set; }
+        private VerseListItem _currentStanza { get; set; }
+        public VerseListItem CurrentStanza { 
+            get { 
+                return _currentStanza; 
+            } set {
+                if (value == null) return;
+                _currentStanza = value;
+                if (UpdateCurrent) HavamalPreferences.CurrentVerse = value.VerseId;
+                InformChange();
+            } 
+        }
+        public  bool UpdateCurrent { get; internal set; }
 
         public string FavoriteImage { get; set; }
 
         public Style FavoriteImageStyle { get; set; }
 
-        private bool _saveChange;
+        public int PositionOfVerse(int verseId)
+        {
+            return Stanzas.IndexOf(x => x.VerseId == verseId);
+        }
 
-        public bool ToggleSaveChange { get { return _saveChange; } set { _saveChange = value; } }
+        private void InformChange()
+        {
+            OnPropertyChanged(nameof(CurrentStanza));
+            OnPropertyChanged(nameof(CurrentStanza.Favorite));
+            OnPropertyChanged(nameof(CurrentStanza.Chapter));
+            OnPropertyChanged(nameof(CurrentStanza.Content));
+            OnPropertyChanged(nameof(CurrentStanza.VerseId));
+            OnPropertyChanged(nameof(Chapter));
+        }
 
         public StanzaCarouselPageModel(IVerseRepository verseRepository
             , IFavoriteRepository favoriteRepository)
@@ -44,12 +66,6 @@ namespace Havamal.ViewModels
 
             OnPropertyChanged(nameof(FavoriteImage));
             Initialize();
-        }
-        internal int CurrentStanzaIndex
-        {
-            get {
-                return Stanzas.IndexOf(CurrentStanza); 
-            }
         }
         public string Chapter
         {
@@ -62,22 +78,12 @@ namespace Havamal.ViewModels
             if (curr != null) CurrentStanza = curr;
         }
 
-        internal void StanzaChanged(object sender, Xamarin.Forms.CurrentItemChangedEventArgs e)
-        {
-            var newStanza = (VerseListItem) e.CurrentItem;
-            if (newStanza == null) return;
-            CurrentStanza = newStanza;
-            if(_saveChange) HavamalPreferences.CurrentVerse = newStanza.VerseId;
-            OnPropertyChanged(nameof(newStanza.Favorite));
-            OnPropertyChanged(nameof(newStanza.Chapter));
-            OnPropertyChanged(nameof(Chapter));
-        }
-
         public async void Initialize()
         {
             IsBusy = false;
             Stanzas = new ObservableCollection<VerseListItem>();
             _favorites = new List<Favorite>();
+            UpdateCurrent = false;
             try
             {
                 await FetchFavorites();
@@ -115,7 +121,8 @@ namespace Havamal.ViewModels
                     }); ;
                 }
                 CurrentStanza = Stanzas.FirstOrDefault(x => x.VerseId == HavamalPreferences.CurrentVerse);
-                ItemsLoaded.Invoke(this, null);
+                UpdateCurrent = true;
+                OnPropertyChanged(nameof(Stanzas));
             }, no =>
             {
 

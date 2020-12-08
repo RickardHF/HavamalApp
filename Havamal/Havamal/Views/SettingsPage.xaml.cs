@@ -3,6 +3,7 @@ using Havamal.Models;
 using Havamal.Models.HelperModels;
 using Havamal.Resources;
 using Havamal.Resources.TextResources;
+using Havamal.Resources.Themes;
 using Havamal.ViewModels;
 using Havamal.Views.Popups;
 using Rg.Plugins.Popup.Extensions;
@@ -75,6 +76,7 @@ namespace Havamal.Views
             _pagemodel.CurrentTheme = theme;
             var app = (App)Application.Current;
             app.Reset(new NavigationPage(new SettingsPage() { Title = AppResources.Settings }));
+            _pagemodel.ThemeChanger.ChangeTheme((HavamalTheme)theme.ThemeId);
         }
 
     }

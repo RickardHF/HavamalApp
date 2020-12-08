@@ -31,10 +31,10 @@ public final class R {
 		public static final int ttcIndex = 0x7f0301d1;
 	}
 	public static final class color {
-		public static final int notification_action_color_filter = 0x7f050073;
-		public static final int notification_icon_bg_color = 0x7f050074;
-		public static final int ripple_material_light = 0x7f05007f;
-		public static final int secondary_text_default_material_light = 0x7f050081;
+		public static final int notification_action_color_filter = 0x7f05008d;
+		public static final int notification_icon_bg_color = 0x7f05008e;
+		public static final int ripple_material_light = 0x7f050099;
+		public static final int secondary_text_default_material_light = 0x7f05009b;
 	}
 	public static final class dimen {
 		public static final int compat_button_inset_horizontal_material = 0x7f060050;
@@ -126,14 +126,14 @@ public final class R {
 		public static final int status_bar_notification_info_overflow = 0x7f0c0036;
 	}
 	public static final class style {
-		public static final int TextAppearance_Compat_Notification = 0x7f0d0117;
-		public static final int TextAppearance_Compat_Notification_Info = 0x7f0d0118;
-		public static final int TextAppearance_Compat_Notification_Line2 = 0x7f0d011a;
-		public static final int TextAppearance_Compat_Notification_Time = 0x7f0d011d;
-		public static final int TextAppearance_Compat_Notification_Title = 0x7f0d011f;
-		public static final int Widget_Compat_NotificationActionContainer = 0x7f0d01c6;
-		public static final int Widget_Compat_NotificationActionText = 0x7f0d01c7;
-		public static final int Widget_Support_CoordinatorLayout = 0x7f0d01f6;
+		public static final int TextAppearance_Compat_Notification = 0x7f0d011a;
+		public static final int TextAppearance_Compat_Notification_Info = 0x7f0d011b;
+		public static final int TextAppearance_Compat_Notification_Line2 = 0x7f0d011d;
+		public static final int TextAppearance_Compat_Notification_Time = 0x7f0d0120;
+		public static final int TextAppearance_Compat_Notification_Title = 0x7f0d0122;
+		public static final int Widget_Compat_NotificationActionContainer = 0x7f0d01ca;
+		public static final int Widget_Compat_NotificationActionText = 0x7f0d01cb;
+		public static final int Widget_Support_CoordinatorLayout = 0x7f0d01fa;
 	}
 	public static final class styleable {
 		public static final int[] ColorStateListItem = new int[] { 0x010101a5, 0x0101031f, 0x7f030027 };

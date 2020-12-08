@@ -24,6 +24,10 @@ external-path;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\De
 FrameLayout;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\lp\41\jl\res\layout\bottomtablayout.xml
 item;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\lp\41\jl\res\values\styles.xml
 item;obj\Debug\90\res\values\styles.xml
+item;obj\Debug\90\res\values\styles_dark.xml
+item;obj\Debug\90\res\values\styles_earth.xml
+item;obj\Debug\90\res\values\styles_light.xml
+item;obj\Debug\90\res\values\styles_water.xml
 LinearLayout;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\lp\41\jl\res\layout\bottomtablayout.xml
 paths;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\lp\40\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 resources;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\lp\41\jl\res\values\attrs.xml
@@ -31,6 +35,10 @@ resources;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\
 resources;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\lp\41\jl\res\values\styles.xml
 resources;obj\Debug\90\res\values\colors.xml
 resources;obj\Debug\90\res\values\styles.xml
+resources;obj\Debug\90\res\values\styles_dark.xml
+resources;obj\Debug\90\res\values\styles_earth.xml
+resources;obj\Debug\90\res\values\styles_light.xml
+resources;obj\Debug\90\res\values\styles_water.xml
 set;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\lp\41\jl\res\anim\enterfromleft.xml
 set;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\lp\41\jl\res\anim\enterfromright.xml
 set;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\lp\41\jl\res\anim\exittoleft.xml
@@ -38,6 +46,10 @@ set;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\lp\
 string;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\lp\41\jl\res\values\strings.xml
 style;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\lp\41\jl\res\values\styles.xml
 style;obj\Debug\90\res\values\styles.xml
+style;obj\Debug\90\res\values\styles_dark.xml
+style;obj\Debug\90\res\values\styles_earth.xml
+style;obj\Debug\90\res\values\styles_light.xml
+style;obj\Debug\90\res\values\styles_water.xml
 translate;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\lp\41\jl\res\anim\enterfromleft.xml
 translate;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\lp\41\jl\res\anim\enterfromright.xml
 translate;C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\lp\41\jl\res\anim\exittoleft.xml

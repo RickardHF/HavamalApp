@@ -21,6 +21,8 @@ namespace Havamal.ViewModels
         private readonly IVerseRepository _verseRepository;
         private readonly IFavoriteRepository _favoriteRepository;
 
+        private readonly SemaphoreSlim _semaphore;
+
         private string _errMsg;
 
         private List<Favorite> _favorited;
@@ -30,7 +32,8 @@ namespace Havamal.ViewModels
         public Verse SelectedStanza { get; set; }
 
         public Command LoadDataCommand { get; private set; }
-        
+
+
 
         public FavoritesPageModel(IVerseRepository verseRepository, IFavoriteRepository favoriteRepository)
         {
@@ -39,6 +42,8 @@ namespace Havamal.ViewModels
 
             Favorites = new ObservableCollection<Verse>();
             _favorited = new List<Favorite>();
+
+            _semaphore = new SemaphoreSlim(1);
 
             LoadDataCommand = new Command(async () => await LoadFavorites());
 
@@ -71,7 +76,10 @@ namespace Havamal.ViewModels
         {
             try
             {
-                var favs = await _favoriteRepository.Get(new FavoriteParameter(), CancellationToken.None).ConfigureAwait(false);
+                var favs = await _favoriteRepository
+                    .Get(new FavoriteParameter(), CancellationToken.None)
+                    .ConfigureAwait(false)
+                    ;
                 return favs.CanI(success => {
                     _favorited = (List<Favorite>)success;
                     if(! _favorited.Any()) _errMsg = AppResources.NoFavorites;
@@ -89,6 +97,7 @@ namespace Havamal.ViewModels
 
         private async void LoadFavoriteVerses()
         {
+            await _semaphore.WaitAsync();
             try
             {
                 Favorites.Clear();
@@ -115,6 +124,10 @@ namespace Havamal.ViewModels
             } catch (Exception e)
             {
                 _errMsg = e.Message;
+            }
+            finally
+            {
+                _semaphore.Release();
             }
         }
     }

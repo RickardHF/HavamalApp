@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Havamal.Interfaces.Helpers;
+using Havamal.Resources.Themes;
 using UIKit;
 
 namespace Havamal.iOS
@@ -11,8 +13,13 @@ namespace Havamal.iOS
     // User Interface of the application, as well as listening (and optionally responding) to 
     // application events from iOS.
     [Register("AppDelegate")]
-    public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
+    public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate, IThemeChanger
     {
+        public void ChangeTheme(HavamalTheme theme)
+        {
+            throw new NotImplementedException();
+        }
+
         //
         // This method is invoked when the application has loaded and is ready to run. In this 
         // method you should instantiate the window, load the UI into it and then make the window
@@ -25,7 +32,7 @@ namespace Havamal.iOS
             Rg.Plugins.Popup.Popup.Init();
 
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(Startup.InitApplication());
+            LoadApplication(Startup.InitApplication(this));
 
             return base.FinishedLaunching(app, options);
         }

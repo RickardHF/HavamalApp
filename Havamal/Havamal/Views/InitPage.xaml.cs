@@ -34,6 +34,7 @@ namespace Havamal.Views
             bindingContext.SetUpFinished -= RunFinisher;
             bindingContext.SetUpFinished += RunFinisher;
 
+            
             BindingContext = bindingContext;
         }
 

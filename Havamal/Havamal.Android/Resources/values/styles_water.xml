@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="WaterTheme" parent="MainTheme.Base">
+    
+    <item name="colorPrimary">@color/colorPrimary_water</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark_water</item>
+    <item name="colorAccent">@color/ListViewSelected_water</item>
+    
+    <item name="android:windowBackground">@color/colorBackground_water</item>
+    <item name="android:colorPressedHighlight">@color/ListViewSelected_water</item>
+    <item name="android:colorLongPressedHighlight">@color/ListViewHighlighted_water</item>
+    <item name="android:colorFocusedHighlight">@color/ListViewSelected_water</item>
+    <item name="android:colorActivatedHighlight">@color/ListViewSelected_water</item>
+    <item name="android:activatedBackgroundIndicator">@color/ListViewSelected_water</item>
+    
+  </style>
+
+</resources>
