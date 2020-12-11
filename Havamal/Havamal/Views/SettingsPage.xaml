@@ -16,9 +16,9 @@
             <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                 <Grid HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                     <Grid.RowDefinitions>
-                        <RowDefinition />
-                        <RowDefinition />
-                        <RowDefinition />
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition Height="100"/>
                         <RowDefinition />
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
@@ -36,7 +36,8 @@
                         Description="{Binding CurrentVerseLanguage.Authors}" 
                         ImageSource="{Binding CurrentVerseLanguage.LanguageCode, Converter={converters:CountryImageConverter}}"
                         Grid.Column="1" 
-                        Grid.Row="0" />
+                        Grid.Row="0" 
+                        VerticalOptions="CenterAndExpand"/>
                     <Label Grid.Column="0" 
                            Grid.Row="1" 
                            Style="{DynamicResource VerseIdText}" 
@@ -48,6 +49,7 @@
                         ImageSource="{Binding CurrentAppLanguage.LanguageCode, Converter={converters:CountryImageConverter}}"
                         Grid.Column="1" 
                         Grid.Row="1" 
+                        VerticalOptions="CenterAndExpand"
                         />
                     <Label Grid.Column="0" 
                            Grid.Row="2" 
@@ -59,7 +61,8 @@
                         Title="{Binding CurrentTheme.ThemeName}"
                         ImageSource="{Binding CurrentTheme.ThemeImage}"
                         Grid.Column="1"
-                        Grid.Row="2"/>
+                        Grid.Row="2"
+                        VerticalOptions="CenterAndExpand"/>
                 </Grid>
             </StackLayout>
         </StackLayout>

@@ -13,7 +13,7 @@ namespace Havamal.Droid
 {
     [Activity(Label = "Havamal"
         //, Theme = "@style/MainTheme"
-        , MainLauncher = true
+        //, MainLauncher = true
         , ConfigurationChanges = ConfigChanges.ScreenSize
         | ConfigChanges.Orientation 
         | ConfigChanges.UiMode 

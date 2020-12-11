@@ -646,3 +646,5 @@ C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\val
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\values\styles_earth.xml
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\values\styles_light.xml
 C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\values\styles_water.xml
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\res\drawable\splash.xml
+C:\Users\ricka\source\repos\Havamal\Havamal\Havamal.Android\obj\Debug\90\android\src\crc64c7ca0a0aac4a7966\SplashActivity.java

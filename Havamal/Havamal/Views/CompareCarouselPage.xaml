@@ -8,19 +8,22 @@
         <StackLayout Style="{DynamicResource Key=ContentStack}">
             <StackLayout x:Name="Menu" 
                          Orientation="Horizontal" 
-                         VerticalOptions="Start" 
+                         VerticalOptions="StartAndExpand" 
                          HorizontalOptions="CenterAndExpand" 
                          Padding="20,0,20,0">
                 <components:LanguageButton 
                     x:Name="from" 
                     ImageSource="{Binding CurrentFromLanguage.LanguageCode, Converter={converters:CountryImageConverter}}" 
                     Title="{Binding CurrentFromLanguage.Name}" 
-                    Description="{Binding CurrentFromLanguage.Authors}"></components:LanguageButton>
+                    Description="{Binding CurrentFromLanguage.Authors}"
+                    WidthRequest="250"
+                    />
                 <components:LanguageButton 
                     x:Name="to" 
                     ImageSource="{Binding CurrentToLanguage.LanguageCode, Converter={converters:CountryImageConverter}}"
                     Title="{Binding CurrentToLanguage.Name}" 
-                    Description="{Binding CurrentToLanguage.Authors}"></components:LanguageButton>
+                    Description="{Binding CurrentToLanguage.Authors}"
+                    WidthRequest="250"/>
             </StackLayout>
             <ScrollView 
                 Orientation="Vertical"
@@ -38,16 +41,19 @@
                                     <Frame.GestureRecognizers>
                                         <TapGestureRecognizer Tapped="TapVerseId"></TapGestureRecognizer>
                                     </Frame.GestureRecognizers>
-                                    <Label 
-                                            Text="{Binding VerseId}" 
-                                            Style="{DynamicResource VerseIdText}" />
+                                    <Frame Style="{DynamicResource FrameImp}" 
+                                           WidthRequest="20">
+                                        <Label Text="{Binding VerseId}" 
+                                               Style="{DynamicResource VerseIdText}" 
+                                               HorizontalOptions="Center"/>
+                                    </Frame>
                                 </Frame>
                                 <Label Text="{Binding FromContent}"
                                        Style="{DynamicResource VerseText}"
                                        Margin="0,0,0,20"/>
                                 <Label Text="{Binding ToContent}"
                                        Style="{DynamicResource VerseText}"
-                                       Margin="0,20,0,0"/>
+                                       Margin="0,20,0,5"/>
                             </StackLayout>
                         </DataTemplate>
                     </CarouselView.ItemTemplate>

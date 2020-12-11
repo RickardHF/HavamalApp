@@ -1,6 +1,9 @@
 Havamal.Droid.MainActivity, Havamal.Android;crc64c7ca0a0aac4a7966.MainActivity
 Havamal.Droid.MainActivity;crc64c7ca0a0aac4a7966.MainActivity
 havamal.droid.MainActivity;crc64c7ca0a0aac4a7966.MainActivity
+Havamal.Droid.SplashActivity, Havamal.Android;crc64c7ca0a0aac4a7966.SplashActivity
+Havamal.Droid.SplashActivity;crc64c7ca0a0aac4a7966.SplashActivity
+havamal.droid.SplashActivity;crc64c7ca0a0aac4a7966.SplashActivity
 Rg.Plugins.Popup.Droid.Renderers.PopupPageRenderer, Rg.Plugins.Popup;crc643dd37f507f3d9710.PopupPageRenderer
 Rg.Plugins.Popup.Droid.Renderers.PopupPageRenderer;crc643dd37f507f3d9710.PopupPageRenderer
 rg.plugins.popup.droid.renderers.PopupPageRenderer;crc643dd37f507f3d9710.PopupPageRenderer

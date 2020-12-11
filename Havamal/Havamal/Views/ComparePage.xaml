@@ -12,7 +12,7 @@
                 <SwipeGestureRecognizer x:DataType="local:ComparePageModel" Direction="Left"  Command="{Binding SwipeLeft}"/>
                 <SwipeGestureRecognizer x:DataType="local:ComparePageModel" Direction="Right" Command="{Binding SwipeRight}"/>
             </StackLayout.GestureRecognizers>
-            <StackLayout x:Name="Menu" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" Padding="20,0,20,0">
+            <StackLayout x:Name="Menu" Orientation="Horizontal" VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" Padding="20,0,20,0">
                 <components:LanguageButton 
                     x:Name="from" 
                     ImageSource="{Binding CurrentFromLanguage.LanguageCode, Converter={converters:CountryImageConverter}}" 

@@ -27,6 +27,7 @@ namespace Havamal.Views
             var bindingContext = Startup.ServiceProvider.GetService<SearchPageModel>();
             _pageModel = bindingContext;
             BindingContext = bindingContext;
+
         }
 
         private void Search_Clicked(object sender, EventArgs e)

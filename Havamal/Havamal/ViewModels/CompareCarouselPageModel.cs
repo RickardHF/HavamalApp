@@ -26,7 +26,7 @@ namespace Havamal.ViewModels
             get { return _current; } 
             set { 
                 _current = value; 
-                if (_initialized && value != null) HavamalPreferences.CurrentVerse = value.VerseId;
+                if (SaveChange && value != null) HavamalPreferences.CurrentVerse = value.VerseId;
             } 
         }
 
@@ -35,7 +35,7 @@ namespace Havamal.ViewModels
 
         private Language _to;
 
-        private bool _initialized;
+        public bool SaveChange { get; set; }
 
         public ObservableCollection<Language> FromLanguages;
         public ObservableCollection<Language> ToLanguages;
@@ -50,7 +50,7 @@ namespace Havamal.ViewModels
             }
             set
             {
-                _initialized = false;
+                SaveChange = false;
                 _from = value;
                 _ = LoadComparisons();
                 OnPropertyChanged(nameof(CurrentFromLanguage));
@@ -64,7 +64,7 @@ namespace Havamal.ViewModels
             }
             set
             {
-                _initialized = false;
+                SaveChange = false;
                 _to = value;
                 _ = LoadComparisons();
                 OnPropertyChanged(nameof(CurrentToLanguage));
@@ -73,7 +73,7 @@ namespace Havamal.ViewModels
 
         public CompareCarouselPageModel(IVerseRepository verseRepository, ILanguageRepository languageRepository)
         {
-            _initialized = false;
+            SaveChange = false;
 
             _languageRepository = languageRepository;
             _verseRepository = verseRepository;
@@ -97,6 +97,11 @@ namespace Havamal.ViewModels
                 }
             }
             //OnPropertyChanged(nameof(Comparisons));
+        }
+
+        public int VersePosition(int verseId)
+        {
+            return Comparisons.IndexOf(Comparisons.FirstOrDefault(x => x.VerseId == verseId));
         }
 
         private async void LoadLanguages()
@@ -136,7 +141,7 @@ namespace Havamal.ViewModels
         {
             IsBusy = true;
             Comparisons.Clear();
-            _initialized = false;
+            SaveChange = false;
             try
             {
 
@@ -168,7 +173,7 @@ namespace Havamal.ViewModels
                         }
                         SetComparison(HavamalPreferences.CurrentVerse);
 
-                        _initialized = true;
+                        SaveChange = true;
                     }, no =>
                     {
 

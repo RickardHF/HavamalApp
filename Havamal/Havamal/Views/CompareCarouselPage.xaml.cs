@@ -34,11 +34,20 @@ namespace Havamal.Views
 
         }
 
+        private void ChangeVerse(int verseId)
+        {
+            var pos = _pageModel.VersePosition(verseId);
+            if (pos < 0) return;
+            _pageModel.SaveChange = false;
+            ComparisonsView.Position = pos;
+            _pageModel.SaveChange = true;
+        }
+
         private void TapVerseId(object sender, EventArgs e)
         {
             var page = new VerseChoicePopup(i =>
             {
-                _pageModel.SetComparison(i);
+                ChangeVerse(i);
             }, _pageModel.Comparisons.Count);
             Navigation.PushPopupAsync(page);
         }

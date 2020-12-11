@@ -54,7 +54,6 @@ namespace Havamal.ViewModels
 
             _dataSettings = dataSettings;
 
-            OnPropertyChanged(nameof(InfoText));
 
             SetUp();
         }

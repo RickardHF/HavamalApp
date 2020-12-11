@@ -54,6 +54,7 @@
                 <Setter Property="PlaceholderColor" Value="{DynamicResource SecondaryTextColor}"/>
                 <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
                 <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="CancelButtonColor" Value="{DynamicResource SecondaryTextColor}"/>
             </Style>
 
             <Style x:Key="Entry" TargetType="Entry">
