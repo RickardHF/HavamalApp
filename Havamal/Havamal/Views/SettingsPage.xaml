@@ -46,6 +46,7 @@
                     <components:LanguageButton
                         x:Name="langPicker"
                         Title="{Binding CurrentAppLanguage.Name}"
+                        Description="{Binding CurrentAppLanguage.Authors}" 
                         ImageSource="{Binding CurrentAppLanguage.LanguageCode, Converter={converters:CountryImageConverter}}"
                         Grid.Column="1" 
                         Grid.Row="1" 

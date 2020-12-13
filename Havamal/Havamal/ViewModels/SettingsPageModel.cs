@@ -97,15 +97,15 @@ namespace Havamal.ViewModels
 
                 AppLanguages = new ObservableCollection<Language>
                 {
-                    new Language(0, "Norsk", "no", "no")
-                    , new Language(1, "English", "en", "en")
-                    , new Language(2, "Český", "cs", "cs")
-                    , new Language(3, "Russisk - placeholder", "ru", "ru")
-                    , new Language(4, "Deutsh - placeholder", "de", "de")
-                    , new Language(5, "Spanish - placeholder", "es", "es")
-                    , new Language(6, "Nederlans", "nl", "Tjark Roozendaal")
-                    , new Language(7, "Kyrgiz - placeholder", "kg", "kg")
-                    , new Language(8, "Makedonski - placeholder", "mk", "mk")
+                    new Language(0, "Norsk", "no", "")
+                    , new Language(1, "English", "en", "")
+                    , new Language(2, "Český", "cs", "")
+                    , new Language(3, "Русский", "ru", "Эрмек Акелов")
+                    , new Language(4, "Nederlans", "nl", "Tjark Roozendaal")
+                    , new Language(5, "Македонски", "mk", "Филип Џамбазоски")
+                    //, new Language(6, "Deutsh - placeholder", "de", "")
+                    //, new Language(7, "Spanish - placeholder", "es", "")
+                    //, new Language(8, "Kyrgiz - placeholder", "kg", "")
                 };
 
                 CurrentAppLanguage = AppLanguages.FirstOrDefault(x => x.LanguageCode.Equals(HavamalPreferences.AppLanguage));
