@@ -118,25 +118,25 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AllLang" xml:space="preserve">
-    <value>Hledej ve všech vercích</value>
+    <value>Hledat ve všech vercích</value>
   </data>
   <data name="AppLang" xml:space="preserve">
     <value>Applikový jazyk</value>
   </data>
   <data name="Compare" xml:space="preserve">
-    <value>Compare</value>
+    <value>Porovnat</value>
   </data>
   <data name="CouldNotLoadFavs" xml:space="preserve">
-    <value>Could not load favorites</value>
+    <value>Nelze načíst oblíbené položky</value>
   </data>
   <data name="CouldNotLoadFavsVerses" xml:space="preserve">
-    <value>Could not load verses for favorites</value>
+    <value>Nelze načíst verše pro oblíbené položky</value>
   </data>
   <data name="CouldNotVersForId" xml:space="preserve">
-    <value>Could not find verse for this language at this Id</value>
+    <value>Nelze najít verš pro tento jazyka na toto místo</value>
   </data>
   <data name="CouldNotVersForLang" xml:space="preserve">
-    <value>Could not gather verses from selected language</value>
+    <value>Nelze načíst verše z výberného jazyka</value>
   </data>
   <data name="Favorites" xml:space="preserve">
     <value>Oblibené </value>
@@ -151,58 +151,58 @@
     <value>Hávamál</value>
   </data>
   <data name="InfoLangsInsertFail" xml:space="preserve">
-    <value>Error occurred inserting new languages</value>
+    <value>Při vkládání nových jazyků došlo k chybě</value>
   </data>
   <data name="InfoLangsLoaded" xml:space="preserve">
-    <value>Languages updated</value>
+    <value>Jazyky aktualizovány</value>
   </data>
   <data name="InfoLangsLoadedError" xml:space="preserve">
-    <value>Error occurred loading Languages</value>
+    <value>Při načítání jazyků došlo k chybě</value>
   </data>
   <data name="InfoSetupFavsFailed" xml:space="preserve">
-    <value>Setup of favorites failed</value>
+    <value>Nastavení oblíbených položek se nezadařilo</value>
   </data>
   <data name="InfoSetupLangsFailed" xml:space="preserve">
-    <value>Setup of languages failed</value>
+    <value>Nastavení jazyků se nezdařilo</value>
   </data>
   <data name="InfoSetupVersesFailed" xml:space="preserve">
-    <value>Setup of stanzas failed</value>
+    <value>Nastavení veršů se nezdarilo</value>
   </data>
   <data name="InfoVersesInsertFail" xml:space="preserve">
-    <value>Error occurred inserting new stanzas</value>
+    <value>Při vkládání nových veršů došlo k chybě</value>
   </data>
   <data name="InfoVersesLoaded" xml:space="preserve">
-    <value>Stanzas updated</value>
+    <value>Verše aktulizovány</value>
   </data>
   <data name="InfoVersesLoadError" xml:space="preserve">
-    <value>Error occured loading stanzas</value>
+    <value>Při načítaní veršů došlo k chybě</value>
   </data>
   <data name="NoFavorites" xml:space="preserve">
     <value>Nemáte žádné oblíbené</value>
   </data>
   <data name="NumSort" xml:space="preserve">
-    <value>Numeric sort</value>
+    <value>Číselné třídění</value>
   </data>
   <data name="Random" xml:space="preserve">
-    <value>Random</value>
+    <value>Náhodný</value>
   </data>
   <data name="RandomBtn" xml:space="preserve">
-    <value>Fetch new</value>
+    <value>Načíst nové </value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>Hledaní</value>
+    <value>Hledat</value>
   </data>
   <data name="SearchEmpty" xml:space="preserve">
     <value>Hledaní nemůže být pustý </value>
   </data>
   <data name="SearchFailed" xml:space="preserve">
-    <value>Hledaní došlo</value>
+    <value>Hledaní se nezdařilo</value>
   </data>
   <data name="SearchForVerses" xml:space="preserve">
-    <value>Search for verses</value>
+    <value>Hledat verše</value>
   </data>
   <data name="SearchNotFound" xml:space="preserve">
-    <value>Did not find any verses for search</value>
+    <value>Nenašli jsme žádné verše k vyhledávání</value>
   </data>
   <data name="SectionGas" xml:space="preserve">
     <value>Gestaþáttr</value>
@@ -217,54 +217,54 @@
     <value>Rúnatal</value>
   </data>
   <data name="SectionWom" xml:space="preserve">
-    <value>O ženách a lásky</value>
+    <value>O ženách a lásce</value>
   </data>
   <data name="SelLang" xml:space="preserve">
-    <value>Výber jazyk</value>
+    <value>Vyberte jazyk</value>
   </data>
   <data name="Settings" xml:space="preserve">
-    <value>Settings</value>
+    <value>Nastavení</value>
   </data>
   <data name="Stanzas" xml:space="preserve">
-    <value>Verses</value>
+    <value>Verše</value>
   </data>
   <data name="Theme" xml:space="preserve">
-    <value>Tema</value>
+    <value>Téma</value>
   </data>
   <data name="ThemeAir" xml:space="preserve">
     <value>Vzduchová Tema</value>
   </data>
   <data name="ThemeDark" xml:space="preserve">
-    <value>Tmavá Tema</value>
+    <value>Tmavé téma</value>
   </data>
   <data name="ThemeEarth" xml:space="preserve">
-    <value>Zemná Tema</value>
+    <value>Zemité téma</value>
   </data>
   <data name="ThemeFire" xml:space="preserve">
     <value>Fire Theme</value>
   </data>
   <data name="ThemeLight" xml:space="preserve">
-    <value>Světlá Tema</value>
+    <value>Světelné téma</value>
   </data>
   <data name="ThemeWater" xml:space="preserve">
-    <value>Vodná Tema</value>
+    <value>Vodní téma</value>
   </data>
   <data name="VerseChoiceError" xml:space="preserve">
-    <value>Valid input not given</value>
+    <value>Není zadán platný vstup</value>
   </data>
   <data name="VerseChoiceOk" xml:space="preserve">
-    <value>Go to</value>
+    <value>Přejít na</value>
   </data>
   <data name="VerseChoicePlace" xml:space="preserve">
-    <value>Select  verse</value>
+    <value>Vyberte verš</value>
   </data>
   <data name="VerseChoiceTooHigh" xml:space="preserve">
-    <value>Verse number too high</value>
+    <value>Číslo verše je příliš vysoké</value>
   </data>
   <data name="VerseChoiceTooLow" xml:space="preserve">
-    <value>Verse number must be higher than 0</value>
+    <value>Číslo verše musí být vyšší než 0</value>
   </data>
   <data name="VerseVer" xml:space="preserve">
-    <value>Verse version</value>
+    <value>Překlad</value>
   </data>
 </root>
