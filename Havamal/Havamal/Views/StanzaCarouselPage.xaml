@@ -17,9 +17,9 @@
                 <DataTemplate>
                     <AbsoluteLayout
                             BackgroundColor="{DynamicResource PageBackgroundColorOpaque}">
-                        <AbsoluteLayout.GestureRecognizers>
+                        <!--<AbsoluteLayout.GestureRecognizers>
                             <TapGestureRecognizer NumberOfTapsRequired="2" CommandParameter="{Binding .}"  Tapped="FavoriteTapped"/>
-                        </AbsoluteLayout.GestureRecognizers>
+                        </AbsoluteLayout.GestureRecognizers>-->
                         <Frame 
                                AbsoluteLayout.LayoutBounds="0.5,0.03"
                                AbsoluteLayout.LayoutFlags="PositionProportional"
@@ -34,7 +34,7 @@
                                 BorderColor="Transparent"
                             >
                             <Frame.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="TapVerseId"></TapGestureRecognizer>
+                                <TapGestureRecognizer Tapped="TapVerseId" ></TapGestureRecognizer>
                             </Frame.GestureRecognizers>
                             <Frame 
                                 Style="{DynamicResource FrameImp}">
@@ -47,6 +47,9 @@
                                    AbsoluteLayout.LayoutBounds="0.5,0.50"
                                    AbsoluteLayout.LayoutFlags="PositionProportional"
                                    HeightRequest="330">
+                        <ScrollView.GestureRecognizers>
+                            <TapGestureRecognizer NumberOfTapsRequired="2" CommandParameter="{Binding .}"  Tapped="FavoriteTapped"/>
+                        </ScrollView.GestureRecognizers>
                             <Label Text="{Binding Content}" 
                                    Style="{DynamicResource VerseText}"/>
                         </ScrollView>

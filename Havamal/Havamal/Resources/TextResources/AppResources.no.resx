@@ -217,7 +217,7 @@
     <value>Rúnatal</value>
   </data>
   <data name="SectionWom" xml:space="preserve">
-    <value>Om kvinner</value>
+    <value>Kvinner &amp; Kjærlighet</value>
   </data>
   <data name="SelLang" xml:space="preserve">
     <value>Velg språk</value>
@@ -265,6 +265,6 @@
     <value>Versnummer må være høyere enn 0</value>
   </data>
   <data name="VerseVer" xml:space="preserve">
-    <value>Versversjon</value>
+    <value>Oversettelse</value>
   </data>
 </root>

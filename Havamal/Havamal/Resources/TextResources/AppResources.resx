@@ -169,10 +169,10 @@
     <value>Setup of stanzas failed</value>
   </data>
   <data name="InfoVersesInsertFail" xml:space="preserve">
-    <value>Error occurred inserting new stanzas</value>
+    <value>Error occurred inserting new verses</value>
   </data>
   <data name="InfoVersesLoaded" xml:space="preserve">
-    <value>Stanzas updated</value>
+    <value>Verses updated</value>
   </data>
   <data name="InfoVersesLoadError" xml:space="preserve">
     <value>Error occured loading stanzas</value>
@@ -217,7 +217,7 @@
     <value>Rúnatal</value>
   </data>
   <data name="SectionWom" xml:space="preserve">
-    <value>About women</value>
+    <value>Women &amp; Love</value>
   </data>
   <data name="SelLang" xml:space="preserve">
     <value>Select Language</value>
@@ -265,6 +265,6 @@
     <value>Verse number must be higher than 0</value>
   </data>
   <data name="VerseVer" xml:space="preserve">
-    <value>Verse version</value>
+    <value>Translation</value>
   </data>
 </root>

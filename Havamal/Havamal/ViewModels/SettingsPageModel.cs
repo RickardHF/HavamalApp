@@ -103,7 +103,7 @@ namespace Havamal.ViewModels
                     , new Language(3, "Russisk - placeholder", "ru", "ru")
                     , new Language(4, "Deutsh - placeholder", "de", "de")
                     , new Language(5, "Spanish - placeholder", "es", "es")
-                    , new Language(6, "Dutch - placeholder", "nl", "nl")
+                    , new Language(6, "Nederlans", "nl", "Tjark Roozendaal")
                     , new Language(7, "Kyrgiz - placeholder", "kg", "kg")
                     , new Language(8, "Makedonski - placeholder", "mk", "mk")
                 };

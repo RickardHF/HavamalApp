@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace Havamal.Droid
 {
-    [Activity(Label = "SplashActivity"
+    [Activity(Label = "Havamal"
         , MainLauncher = true
         , NoHistory = true
         , Theme = "@style/MyTheme.Splash"
@@ -23,6 +23,7 @@ namespace Havamal.Droid
         {
             base.OnCreate(savedInstanceState);
             SetUpApp();
+            
         }
 
         private void SetUpApp()

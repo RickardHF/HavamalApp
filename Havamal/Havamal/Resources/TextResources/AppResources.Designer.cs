@@ -214,7 +214,7 @@ namespace Havamal.Resources.TextResources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Error occurred inserting new stanzas.
+        ///   Looks up a localized string similar to Error occurred inserting new verses.
         /// </summary>
         internal static string InfoVersesInsertFail {
             get {
@@ -223,7 +223,7 @@ namespace Havamal.Resources.TextResources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Stanzas updated.
+        ///   Looks up a localized string similar to Verses updated.
         /// </summary>
         internal static string InfoVersesLoaded {
             get {
@@ -358,7 +358,7 @@ namespace Havamal.Resources.TextResources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to About women.
+        ///   Looks up a localized string similar to Women &amp; Love.
         /// </summary>
         internal static string SectionWom {
             get {
@@ -502,7 +502,7 @@ namespace Havamal.Resources.TextResources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Verse version.
+        ///   Looks up a localized string similar to Translation.
         /// </summary>
         internal static string VerseVer {
             get {

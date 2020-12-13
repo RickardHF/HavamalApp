@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AllLang" xml:space="preserve">
-    <value>Search in all versions</value>
+    <value>Hledej ve všech vercích</value>
   </data>
   <data name="AppLang" xml:space="preserve">
-    <value>Application Language</value>
+    <value>Applikový jazyk</value>
   </data>
   <data name="Compare" xml:space="preserve">
     <value>Compare</value>
@@ -139,16 +139,16 @@
     <value>Could not gather verses from selected language</value>
   </data>
   <data name="Favorites" xml:space="preserve">
-    <value>Favorites</value>
+    <value>Oblibené </value>
   </data>
   <data name="FavsOnly" xml:space="preserve">
-    <value>Only favorites</value>
+    <value>Pouze oblíbené</value>
   </data>
   <data name="FinishedUpdate" xml:space="preserve">
-    <value>Havamal</value>
+    <value>Hávamál</value>
   </data>
   <data name="Havamal" xml:space="preserve">
-    <value>Havamal</value>
+    <value>Hávamál</value>
   </data>
   <data name="InfoLangsInsertFail" xml:space="preserve">
     <value>Error occurred inserting new languages</value>
@@ -178,7 +178,7 @@
     <value>Error occured loading stanzas</value>
   </data>
   <data name="NoFavorites" xml:space="preserve">
-    <value>You have no favorites</value>
+    <value>Nemáte žádné oblíbené</value>
   </data>
   <data name="NumSort" xml:space="preserve">
     <value>Numeric sort</value>
@@ -190,13 +190,13 @@
     <value>Fetch new</value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>Search</value>
+    <value>Hledaní</value>
   </data>
   <data name="SearchEmpty" xml:space="preserve">
-    <value>Search can not be empty</value>
+    <value>Hledaní nemůže být pustý </value>
   </data>
   <data name="SearchFailed" xml:space="preserve">
-    <value>Searching failed</value>
+    <value>Hledaní došlo</value>
   </data>
   <data name="SearchForVerses" xml:space="preserve">
     <value>Search for verses</value>
@@ -217,10 +217,10 @@
     <value>Rúnatal</value>
   </data>
   <data name="SectionWom" xml:space="preserve">
-    <value>About women</value>
+    <value>O ženách a lásky</value>
   </data>
   <data name="SelLang" xml:space="preserve">
-    <value>Select Language</value>
+    <value>Výber jazyk</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Settings</value>
@@ -229,25 +229,25 @@
     <value>Verses</value>
   </data>
   <data name="Theme" xml:space="preserve">
-    <value>Theme</value>
+    <value>Tema</value>
   </data>
   <data name="ThemeAir" xml:space="preserve">
-    <value>Air Theme</value>
+    <value>Vzduchová Tema</value>
   </data>
   <data name="ThemeDark" xml:space="preserve">
-    <value>Dark Theme</value>
+    <value>Tmavá Tema</value>
   </data>
   <data name="ThemeEarth" xml:space="preserve">
-    <value>Earth Theme</value>
+    <value>Zemná Tema</value>
   </data>
   <data name="ThemeFire" xml:space="preserve">
     <value>Fire Theme</value>
   </data>
   <data name="ThemeLight" xml:space="preserve">
-    <value>Light Theme</value>
+    <value>Světlá Tema</value>
   </data>
   <data name="ThemeWater" xml:space="preserve">
-    <value>Water Theme</value>
+    <value>Vodná Tema</value>
   </data>
   <data name="VerseChoiceError" xml:space="preserve">
     <value>Valid input not given</value>

@@ -63,6 +63,7 @@ namespace Havamal.Views
             if (pos < 0) return;
             _context.UpdateCurrent = false;
             Carousel.Position = pos;
+            
             _context.UpdateCurrent = true;
         }
 

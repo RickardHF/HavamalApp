@@ -118,31 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AllLang" xml:space="preserve">
-    <value>Search in all versions</value>
+    <value>Zoeken in alle versies</value>
   </data>
   <data name="AppLang" xml:space="preserve">
-    <value>Application Language</value>
+    <value>Applicatie taal</value>
   </data>
   <data name="Compare" xml:space="preserve">
-    <value>Compare</value>
+    <value>Vergelijken</value>
   </data>
   <data name="CouldNotLoadFavs" xml:space="preserve">
-    <value>Could not load favorites</value>
+    <value>Kan favorieten niet laden</value>
   </data>
   <data name="CouldNotLoadFavsVerses" xml:space="preserve">
-    <value>Could not load verses for favorites</value>
+    <value>Kan geen favoriete verzen laden</value>
   </data>
   <data name="CouldNotVersForId" xml:space="preserve">
-    <value>Could not find verse for this language at this Id</value>
+    <value>Kan geen vers vinden voor deze taal op deze Id</value>
   </data>
   <data name="CouldNotVersForLang" xml:space="preserve">
-    <value>Could not gather verses from selected language</value>
+    <value>Kan geen verzen uit de geselecteerde taal verzamelen</value>
   </data>
   <data name="Favorites" xml:space="preserve">
-    <value>Favorites</value>
+    <value>Favorieten</value>
   </data>
   <data name="FavsOnly" xml:space="preserve">
-    <value>Only favorites</value>
+    <value>Alleen favorieten</value>
   </data>
   <data name="FinishedUpdate" xml:space="preserve">
     <value>Havamal</value>
@@ -151,58 +151,58 @@
     <value>Havamal</value>
   </data>
   <data name="InfoLangsInsertFail" xml:space="preserve">
-    <value>Error occurred inserting new languages</value>
+    <value>Fout bij het invoegen van nieuwe talen</value>
   </data>
   <data name="InfoLangsLoaded" xml:space="preserve">
-    <value>Languages updated</value>
+    <value>Talen bijgewerkt</value>
   </data>
   <data name="InfoLangsLoadedError" xml:space="preserve">
-    <value>Error occurred loading Languages</value>
+    <value>Fout bij het laden van talen</value>
   </data>
   <data name="InfoSetupFavsFailed" xml:space="preserve">
-    <value>Setup of favorites failed</value>
+    <value>Setup van favorieten niet gelukt</value>
   </data>
   <data name="InfoSetupLangsFailed" xml:space="preserve">
-    <value>Setup of languages failed</value>
+    <value>Setup van talen is mislukt</value>
   </data>
   <data name="InfoSetupVersesFailed" xml:space="preserve">
-    <value>Setup of stanzas failed</value>
+    <value>Setup van strofen is mislukt</value>
   </data>
   <data name="InfoVersesInsertFail" xml:space="preserve">
-    <value>Error occurred inserting new stanzas</value>
+    <value>Fout opgetreden bij het invoegen van nieuwe strofen</value>
   </data>
   <data name="InfoVersesLoaded" xml:space="preserve">
-    <value>Stanzas updated</value>
+    <value>Strofen bijgewerkt</value>
   </data>
   <data name="InfoVersesLoadError" xml:space="preserve">
-    <value>Error occured loading stanzas</value>
+    <value>Laden van strofen mislukt</value>
   </data>
   <data name="NoFavorites" xml:space="preserve">
-    <value>You have no favorites</value>
+    <value>U heeft geen favorieten</value>
   </data>
   <data name="NumSort" xml:space="preserve">
-    <value>Numeric sort</value>
+    <value>Numeriek sorteren</value>
   </data>
   <data name="Random" xml:space="preserve">
-    <value>Random</value>
+    <value>Willekeurig</value>
   </data>
   <data name="RandomBtn" xml:space="preserve">
-    <value>Fetch new</value>
+    <value>Nieuw ophalen</value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>Search</value>
+    <value>Zoeken</value>
   </data>
   <data name="SearchEmpty" xml:space="preserve">
-    <value>Search can not be empty</value>
+    <value>Zoekveld kan niet leeg zijn</value>
   </data>
   <data name="SearchFailed" xml:space="preserve">
-    <value>Searching failed</value>
+    <value>Zoeken mislukt</value>
   </data>
   <data name="SearchForVerses" xml:space="preserve">
-    <value>Search for verses</value>
+    <value>Zoeken naar verzen</value>
   </data>
   <data name="SearchNotFound" xml:space="preserve">
-    <value>Did not find any verses for search</value>
+    <value>Geen verzen gevonden voor zoekopdracht</value>
   </data>
   <data name="SectionGas" xml:space="preserve">
     <value>Gestaþáttr</value>
@@ -217,54 +217,54 @@
     <value>Rúnatal</value>
   </data>
   <data name="SectionWom" xml:space="preserve">
-    <value>About women</value>
+    <value>Over vrouwen</value>
   </data>
   <data name="SelLang" xml:space="preserve">
-    <value>Select Language</value>
+    <value>Taal selecteren</value>
   </data>
   <data name="Settings" xml:space="preserve">
-    <value>Settings</value>
+    <value>Instellingen</value>
   </data>
   <data name="Stanzas" xml:space="preserve">
-    <value>Verses</value>
+    <value>Verzen</value>
   </data>
   <data name="Theme" xml:space="preserve">
-    <value>Theme</value>
+    <value>Thema</value>
   </data>
   <data name="ThemeAir" xml:space="preserve">
-    <value>Air Theme</value>
+    <value>Lucht thema</value>
   </data>
   <data name="ThemeDark" xml:space="preserve">
-    <value>Dark Theme</value>
+    <value>Donker thema</value>
   </data>
   <data name="ThemeEarth" xml:space="preserve">
-    <value>Earth Theme</value>
+    <value>Aarde thema</value>
   </data>
   <data name="ThemeFire" xml:space="preserve">
-    <value>Fire Theme</value>
+    <value>Vuur thema</value>
   </data>
   <data name="ThemeLight" xml:space="preserve">
-    <value>Light Theme</value>
+    <value>Licht thema</value>
   </data>
   <data name="ThemeWater" xml:space="preserve">
-    <value>Water Theme</value>
+    <value>Water thema</value>
   </data>
   <data name="VerseChoiceError" xml:space="preserve">
-    <value>Valid input not given</value>
+    <value>Geen geldige input</value>
   </data>
   <data name="VerseChoiceOk" xml:space="preserve">
-    <value>Go to</value>
+    <value>Ga naar</value>
   </data>
   <data name="VerseChoicePlace" xml:space="preserve">
-    <value>Select  verse</value>
+    <value>Vers selecteren</value>
   </data>
   <data name="VerseChoiceTooHigh" xml:space="preserve">
-    <value>Verse number too high</value>
+    <value>Vers nummer te hoog</value>
   </data>
   <data name="VerseChoiceTooLow" xml:space="preserve">
-    <value>Verse number must be higher than 0</value>
+    <value>Vers nummer moet hoger zijn dan 0</value>
   </data>
   <data name="VerseVer" xml:space="preserve">
-    <value>Verse version</value>
+    <value>Vers versie</value>
   </data>
 </root>
