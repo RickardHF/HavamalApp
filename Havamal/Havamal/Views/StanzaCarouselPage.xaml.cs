@@ -1,4 +1,5 @@
-﻿using Havamal.Models.HelperModels;
+﻿using Havamal.Helpers;
+using Havamal.Models.HelperModels;
 using Havamal.Resources.TextResources;
 using Havamal.ViewModels;
 using Havamal.Views.Popups;
@@ -22,6 +23,7 @@ namespace Havamal.Views
         {
             InitializeComponent();
             var context = Startup.ServiceProvider.GetService<StanzaCarouselPageModel>();
+            context.ChangeCurrent = GoToStanza;
 
             BindingContext = context;
             _context = context;
@@ -61,9 +63,11 @@ namespace Havamal.Views
         private void GoToStanza(int i) {
             var pos = _context.PositionOfVerse(i);
             if (pos < 0) return;
+
+            var newSelection = _context.Stanzas.ElementAt(pos);
+
             _context.UpdateCurrent = false;
             Carousel.Position = pos;
-            
             _context.UpdateCurrent = true;
         }
 

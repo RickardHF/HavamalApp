@@ -81,7 +81,6 @@ namespace Havamal
                 .AddSingleton(dataSettings)
                 .ConfigureDependencies()
                 .AddTransient<VersePage>()
-                .AddTransient<AppShell>()
                 .AddTransient<SettingsPage>()
                 .AddTransient<SettingsPageModel>()
                 .AddTransient<VersePageModel>()

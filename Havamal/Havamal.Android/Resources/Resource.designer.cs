@@ -11184,103 +11184,115 @@ namespace Havamal.Droid
 			public const int notify_panel_notification_icon_bg = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int odelDARK = 2131165345;
+			public const int odelBorderCorneredBIG = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int odelEARTH = 2131165346;
+			public const int odelBorderCorneredDR = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int odelLIGHT = 2131165347;
+			public const int odelDARK = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int odelWATER = 2131165348;
+			public const int odelEARTH = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int odelwhite = 2131165349;
+			public const int odelLIGHT = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int randomB = 2131165350;
+			public const int odelWATER = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int randomDG = 2131165351;
+			public const int odelwhite = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int randomTW = 2131165352;
+			public const int randomB = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int randomWH = 2131165353;
+			public const int randomDG = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int rus = 2131165354;
+			public const int randomTW = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int searchB = 2131165355;
+			public const int randomWH = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int searchDG = 2131165356;
+			public const int rfWHITE = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int searchTW = 2131165357;
+			public const int rfWHITEsmall = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int searchWH = 2131165358;
+			public const int rus = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int shareDG = 2131165359;
+			public const int searchB = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int shareDJG = 2131165360;
+			public const int searchDG = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int shareGR = 2131165361;
+			public const int searchTW = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int shareRC = 2131165362;
+			public const int searchWH = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int shn = 2131165363;
+			public const int shareDG = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int showDG = 2131165364;
+			public const int shareDJG = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int showDJG = 2131165365;
+			public const int shareGR = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int showGR = 2131165366;
+			public const int shareRC = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int showRC = 2131165367;
+			public const int shn = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int sjo = 2131165368;
+			public const int showDG = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int splash = 2131165369;
+			public const int showDJG = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int spokesB = 2131165370;
+			public const int showGR = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int spokesDG = 2131165371;
+			public const int showRC = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int spokesTW = 2131165372;
+			public const int sjo = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int spokesWH = 2131165373;
+			public const int splash = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int swe = 2131165374;
+			public const int spokesB = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int tooltip_frame_dark = 2131165375;
+			public const int spokesDG = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int tooltip_frame_light = 2131165376;
+			public const int spokesTW = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int vegg = 2131165377;
+			public const int spokesWH = 2131165377;
+			
+			// aapt resource value: 0x7F0700C2
+			public const int swe = 2131165378;
+			
+			// aapt resource value: 0x7F0700C3
+			public const int tooltip_frame_dark = 2131165379;
+			
+			// aapt resource value: 0x7F0700C4
+			public const int tooltip_frame_light = 2131165380;
+			
+			// aapt resource value: 0x7F0700C5
+			public const int vegg = 2131165381;
 			
 			static Drawable()
 			{

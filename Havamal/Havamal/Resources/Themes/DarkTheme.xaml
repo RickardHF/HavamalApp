@@ -8,12 +8,12 @@
     <Color x:Key="NavigationBarColor">#265B56</Color>
     <Color x:Key="PrimaryColor">#04151F</Color>
     <Color x:Key="SecondaryColor">#265B56</Color>
-    <Color x:Key="TertiaryColor">#60364B</Color>
+    <Color x:Key="TertiaryColor">#6660364B</Color>
     <Color x:Key="PrimaryTextColor">#EFD6AC</Color>
     <Color x:Key="SecondaryTextColor">#EFD6AC</Color>
     <Color x:Key="TertiaryTextColor">#EFD6AC</Color>
     <Color x:Key="TransparentColor">Transparent</Color>
-    <Color x:Key="PageBackgroundColorOpaque">#6604151F</Color>
+    <Color x:Key="PageBackgroundColorOpaque">#9904151F</Color>
 
 
     <Color x:Key="MenuHeaderBackground">#265B56</Color>

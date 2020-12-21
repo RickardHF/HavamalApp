@@ -22,6 +22,8 @@ namespace Havamal.Views
             InitializeComponent();
             var bindingContext = Startup.ServiceProvider.GetService<CompareCarouselPageModel>();
 
+            bindingContext.ChangePos = ChangeVerse;
+
             _pageModel = bindingContext;
 
             from.OnClick = () => FromClicked(new object(), null);

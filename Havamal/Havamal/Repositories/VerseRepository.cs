@@ -39,38 +39,37 @@ namespace Havamal.Repositories
 
                 if (!File.Exists(path)) throw new Exception("Databasefile not found");
 
-                using (var con = new SqliteConnection($"DataSource = {path}"))
+                using var con = new SqliteConnection($"DataSource = {path}");
+                con.Open();
+                var dbName = con.Database;
+                var dbPAth = con.DataSource;
+
+                var cmd = con.CreateCommand();
+
+                var inserts = from ins in data
+                                select $"REPLACE INTO Verses (VerseId, LanguageId, Content) VALUES ({ins.VerseId}, {ins.LanguageId}, '{ins.Content.SafeSqLiteString()}'); SELECT VerseId, LanguageId, Content FROM Verses WHERE rowid = last_insert_rowid();";
+
+
+                foreach(var ins in inserts)
                 {
-                    con.Open();
-                    var dbName = con.Database;
-                    var dbPAth = con.DataSource;
+                    cmd.CommandText = ins;
 
-                    var cmd = con.CreateCommand();
+                    var reader = cmd.ExecuteReader();
 
-                    var inserts = from ins in data
-                                  select $"REPLACE INTO Verses (VerseId, LanguageId, Content) VALUES ({ins.VerseId}, {ins.LanguageId}, '{ins.Content.SafeSqLiteString()}'); SELECT VerseId, LanguageId, Content FROM Verses WHERE rowid = last_insert_rowid();";
-
-
-                    foreach(var ins in inserts)
+                    while (reader.Read())
                     {
-                        cmd.CommandText = ins;
+                        var verse = new Verse(
+                            reader.GetInt32(0)
+                            , reader.GetInt32(1)
+                            , reader.GetString(2));
 
-                        var reader = cmd.ExecuteReader();
-
-                        while (reader.Read())
-                        {
-                            var verse = new Verse(
-                                reader.GetInt32(0)
-                                , reader.GetInt32(1)
-                                , reader.GetString(2));
-
-                            verses.Add(verse);
-                        }
-
-                        reader.Close();
+                        verses.Add(verse);
                     }
 
+                    reader.Close();
                 }
+
+                
 
                 return ComputerExtensions.ComputerSaysYes(DarlingExtensions.Allow((IReadOnlyCollection<Verse>)verses));
 
@@ -92,39 +91,38 @@ namespace Havamal.Repositories
 
                 if (!File.Exists(path)) throw new Exception("Databasefile not found");
 
-                using (var con = new SqliteConnection($"DataSource = {path}"))
+                using var con = new SqliteConnection($"DataSource = {path}");
+                con.Open();
+                var dbName = con.Database;
+                var dbPAth = con.DataSource;
+                    
+                var cmd = con.CreateCommand();
+
+                var where = "";
+
+                where = $"WHERE LanguageId IN ({string.Join(",", param.Language)})";
+                    
+                if (param.OnIds)
                 {
-                    con.Open();
-                    var dbName = con.Database;
-                    var dbPAth = con.DataSource;
-                    
-                    var cmd = con.CreateCommand();
-
-                    var where = "";
-
-                    where = $"WHERE LanguageId IN ({string.Join(",", param.Language)})";
-                    
-                    if (param.OnIds)
-                    {
-                        var ids = string.Join(",", param.Ids);
-                        where += $" AND VerseId IN ({ids})";
-                    }
-                    
-                    cmd.CommandText = $"SELECT VerseId, LanguageId, Content FROM Verses {where}; ";
-                    
-                    var reader = cmd.ExecuteReader();
-
-
-                    while (reader.Read())
-                    {
-                        var verse = new Verse(
-                            reader.GetInt32(0)
-                            , reader.GetInt32(1)
-                            , reader.GetString(2));
-
-                        verses.Add(verse);
-                    }
+                    var ids = string.Join(",", param.Ids);
+                    where += $" AND VerseId IN ({ids})";
                 }
+                    
+                cmd.CommandText = $"SELECT VerseId, LanguageId, Content FROM Verses {where}; ";
+                    
+                var reader = cmd.ExecuteReader();
+
+
+                while (reader.Read())
+                {
+                    var verse = new Verse(
+                        reader.GetInt32(0)
+                        , reader.GetInt32(1)
+                        , reader.GetString(2));
+
+                    verses.Add(verse);
+                }
+                
 
                 return ComputerExtensions.ComputerSaysYes(DarlingExtensions.Allow((IReadOnlyCollection<Verse>) verses));
 

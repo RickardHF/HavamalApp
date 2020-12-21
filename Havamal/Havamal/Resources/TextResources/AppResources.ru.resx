@@ -118,153 +118,153 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AllLang" xml:space="preserve">
-    <value>Search in all versions</value>
+    <value>Искать во всех версиях</value>
   </data>
   <data name="AppLang" xml:space="preserve">
-    <value>Application Language</value>
+    <value>Язык приложения</value>
   </data>
   <data name="Compare" xml:space="preserve">
-    <value>Compare</value>
+    <value>Сравнить</value>
   </data>
   <data name="CouldNotLoadFavs" xml:space="preserve">
-    <value>Could not load favorites</value>
+    <value>Не удалось загрузить избранное</value>
   </data>
   <data name="CouldNotLoadFavsVerses" xml:space="preserve">
-    <value>Could not load verses for favorites</value>
+    <value>Не удалось загрузить стихи в избранное</value>
   </data>
   <data name="CouldNotVersForId" xml:space="preserve">
-    <value>Could not find verse for this language at this Id</value>
+    <value>Не удалось найти стих для этого языка по этому идентификатору</value>
   </data>
   <data name="CouldNotVersForLang" xml:space="preserve">
-    <value>Could not gather verses from selected language</value>
+    <value>Не удалось собрать стихи на выбранном языке</value>
   </data>
   <data name="Favorites" xml:space="preserve">
-    <value>Favorites</value>
+    <value>Избранное</value>
   </data>
   <data name="FavsOnly" xml:space="preserve">
-    <value>Only favorites</value>
+    <value>Только избранное</value>
   </data>
   <data name="FinishedUpdate" xml:space="preserve">
-    <value>Havamal</value>
+    <value>Хавамал</value>
   </data>
   <data name="Havamal" xml:space="preserve">
-    <value>Havamal</value>
+    <value>Хавамал</value>
   </data>
   <data name="InfoLangsInsertFail" xml:space="preserve">
-    <value>Error occurred inserting new languages</value>
+    <value>Ошибка при вставке новых языков</value>
   </data>
   <data name="InfoLangsLoaded" xml:space="preserve">
-    <value>Languages updated</value>
+    <value>Языки обновлены</value>
   </data>
   <data name="InfoLangsLoadedError" xml:space="preserve">
-    <value>Error occurred loading Languages</value>
+    <value>Ошибка при загрузке языков</value>
   </data>
   <data name="InfoSetupFavsFailed" xml:space="preserve">
-    <value>Setup of favorites failed</value>
+    <value>Не удалось настроить избранное</value>
   </data>
   <data name="InfoSetupLangsFailed" xml:space="preserve">
-    <value>Setup of languages failed</value>
+    <value>Не удалось установить языки</value>
   </data>
   <data name="InfoSetupVersesFailed" xml:space="preserve">
-    <value>Setup of stanzas failed</value>
+    <value>Не удалось настроить строфу</value>
   </data>
   <data name="InfoVersesInsertFail" xml:space="preserve">
-    <value>Error occurred inserting new stanzas</value>
+    <value>Ошибка при вставке новых строфы</value>
   </data>
   <data name="InfoVersesLoaded" xml:space="preserve">
-    <value>Stanzas updated</value>
+    <value>Строфы обновлены</value>
   </data>
   <data name="InfoVersesLoadError" xml:space="preserve">
-    <value>Error occured loading stanzas</value>
+    <value>Произошла ошибка при загрузке строф</value>
   </data>
   <data name="NoFavorites" xml:space="preserve">
-    <value>You have no favorites</value>
+    <value>У вас нет избранных</value>
   </data>
   <data name="NumSort" xml:space="preserve">
-    <value>Numeric sort</value>
+    <value>Сортировка по номеру</value>
   </data>
   <data name="Random" xml:space="preserve">
-    <value>Random</value>
+    <value>Случайные</value>
   </data>
   <data name="RandomBtn" xml:space="preserve">
-    <value>Fetch new</value>
+    <value>Получить новые</value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>Search</value>
+    <value>Поиск</value>
   </data>
   <data name="SearchEmpty" xml:space="preserve">
-    <value>Search can not be empty</value>
+    <value>Поиск не может быть пустым</value>
   </data>
   <data name="SearchFailed" xml:space="preserve">
-    <value>Searching failed</value>
+    <value>Поиск не удался</value>
   </data>
   <data name="SearchForVerses" xml:space="preserve">
-    <value>Search for verses</value>
+    <value>Искать стихи</value>
   </data>
   <data name="SearchNotFound" xml:space="preserve">
-    <value>Did not find any verses for search</value>
+    <value>Ни один стих не найден</value>
   </data>
   <data name="SectionGas" xml:space="preserve">
-    <value>Gestaþáttr</value>
+    <value>Гостевые манеры</value>
   </data>
   <data name="SectionLjo" xml:space="preserve">
-    <value>Ljóðatal</value>
+    <value>Чары</value>
   </data>
   <data name="SectionLod" xml:space="preserve">
-    <value>Loddfáfnismál</value>
+    <value>Мораль "бродячего певца"</value>
   </data>
   <data name="SectionRun" xml:space="preserve">
-    <value>Rúnatal</value>
+    <value>Рунический стих</value>
   </data>
   <data name="SectionWom" xml:space="preserve">
-    <value>About women</value>
+    <value>О женщинах</value>
   </data>
   <data name="SelLang" xml:space="preserve">
-    <value>Select Language</value>
+    <value>Выбрать язык</value>
   </data>
   <data name="Settings" xml:space="preserve">
-    <value>Settings</value>
+    <value>Настройки</value>
   </data>
   <data name="Stanzas" xml:space="preserve">
-    <value>Verses</value>
+    <value>Стихи</value>
   </data>
   <data name="Theme" xml:space="preserve">
-    <value>Theme</value>
+    <value>Тема</value>
   </data>
   <data name="ThemeAir" xml:space="preserve">
-    <value>Air Theme</value>
+    <value>Воздушная тема</value>
   </data>
   <data name="ThemeDark" xml:space="preserve">
-    <value>Dark Theme</value>
+    <value>Темная тема</value>
   </data>
   <data name="ThemeEarth" xml:space="preserve">
-    <value>Earth Theme</value>
+    <value>Тема Земли</value>
   </data>
   <data name="ThemeFire" xml:space="preserve">
-    <value>Fire Theme</value>
+    <value>Огненная тема</value>
   </data>
   <data name="ThemeLight" xml:space="preserve">
-    <value>Light Theme</value>
+    <value>Светлая тема</value>
   </data>
   <data name="ThemeWater" xml:space="preserve">
-    <value>Water Theme</value>
+    <value>Тема воды</value>
   </data>
   <data name="VerseChoiceError" xml:space="preserve">
-    <value>Valid input not given</value>
+    <value>Правильный ввод не указан</value>
   </data>
   <data name="VerseChoiceOk" xml:space="preserve">
-    <value>Go to</value>
+    <value>Перейти к</value>
   </data>
   <data name="VerseChoicePlace" xml:space="preserve">
-    <value>Select  verse</value>
+    <value>Выбрать стих</value>
   </data>
   <data name="VerseChoiceTooHigh" xml:space="preserve">
-    <value>Verse number too high</value>
+    <value>Номер стиха слишком велик</value>
   </data>
   <data name="VerseChoiceTooLow" xml:space="preserve">
-    <value>Verse number must be higher than 0</value>
+    <value>Номер стиха должен быть больше 0</value>
   </data>
   <data name="VerseVer" xml:space="preserve">
-    <value>Verse version</value>
+    <value>Версия стиха</value>
   </data>
 </root>

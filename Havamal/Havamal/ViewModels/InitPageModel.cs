@@ -161,18 +161,16 @@ namespace Havamal.ViewModels
         {
             try
             {
-                using (var con = new SqliteConnection($"DataSource = {path}"))
-                {
-                    con.Open();
-                    var dbName = con.Database;
-                    var dbPAth = con.DataSource;
+                using var con = new SqliteConnection($"DataSource = {path}");
+                con.Open();
+                var dbName = con.Database;
+                var dbPAth = con.DataSource;
 
-                    var cmd = con.CreateCommand();
+                var cmd = con.CreateCommand();
 
-                    cmd.CommandText = "CREATE TABLE IF NOT EXISTS Favorites ( VerseId INTEGER NOT NULL PRIMARY KEY);";
+                cmd.CommandText = "CREATE TABLE IF NOT EXISTS Favorites ( VerseId INTEGER NOT NULL PRIMARY KEY);";
 
-                    cmd.ExecuteNonQuery();
-                }
+                cmd.ExecuteNonQuery();
             }
             catch (Exception e)
             {
@@ -184,18 +182,17 @@ namespace Havamal.ViewModels
         {
             try
             {
-                using (var con = new SqliteConnection($"DataSource = {path}"))
-                {
-                    con.Open();
-                    var dbName = con.Database;
-                    var dbPAth = con.DataSource;
+                //using var con = new SqliteConnection($"DataSource = {path};Password={HavamalPreferences.DbPassword};");
+                using var con = new SqliteConnection($"DataSource = {path}");
+                con.Open();
+                var dbName = con.Database;
+                var dbPAth = con.DataSource;
 
-                    var cmd = con.CreateCommand();
+                var cmd = con.CreateCommand();
 
-                    cmd.CommandText = "CREATE TABLE IF NOT EXISTS Languages ( Id INTEGER NOT NULL PRIMARY KEY, Name TEXT, Authors TEXT, LanguageCode TEXT);";
+                cmd.CommandText = "CREATE TABLE IF NOT EXISTS Languages ( Id INTEGER NOT NULL PRIMARY KEY, Name TEXT, Authors TEXT, LanguageCode TEXT);";
 
-                    cmd.ExecuteNonQuery();
-                }
+                cmd.ExecuteNonQuery();
             }
             catch (Exception e)
             {
@@ -208,18 +205,16 @@ namespace Havamal.ViewModels
         {
             try
             {
-                using (var con = new SqliteConnection($"DataSource = {path}"))
-                {
-                    con.Open();
-                    var dbName = con.Database;
-                    var dbPAth = con.DataSource;
+                using var con = new SqliteConnection($"DataSource = {path}");
+                con.Open();
+                var dbName = con.Database;
+                var dbPAth = con.DataSource;
 
-                    var cmd = con.CreateCommand();
+                var cmd = con.CreateCommand();
 
-                    cmd.CommandText = "CREATE TABLE IF NOT EXISTS Verses ( VerseId INTEGER NOT NULL, LanguageId INTEGER NOT NULL, Content TEXT, PRIMARY KEY (VerseId, LanguageId));";
+                cmd.CommandText = "CREATE TABLE IF NOT EXISTS Verses ( VerseId INTEGER NOT NULL, LanguageId INTEGER NOT NULL, Content TEXT, PRIMARY KEY (VerseId, LanguageId));";
 
-                    cmd.ExecuteNonQuery();
-                }
+                cmd.ExecuteNonQuery();
             }
             catch (Exception e)
             {

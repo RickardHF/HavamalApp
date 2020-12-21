@@ -28,7 +28,7 @@
                             <Label Text="{Binding Chapter}" Style="{DynamicResource VerseIdText}"></Label>
                         </Frame>
                         <Frame
-                                AbsoluteLayout.LayoutBounds="0.11,0.03"
+                                AbsoluteLayout.LayoutBounds="0.11,0.08"
                                 AbsoluteLayout.LayoutFlags="PositionProportional"
                                 BackgroundColor="Transparent"
                                 BorderColor="Transparent"
@@ -46,7 +46,8 @@
                         <ScrollView
                                    AbsoluteLayout.LayoutBounds="0.5,0.50"
                                    AbsoluteLayout.LayoutFlags="PositionProportional"
-                                   HeightRequest="330">
+                                   HeightRequest="330"
+                            >
                         <ScrollView.GestureRecognizers>
                             <TapGestureRecognizer NumberOfTapsRequired="2" CommandParameter="{Binding .}"  Tapped="FavoriteTapped"/>
                         </ScrollView.GestureRecognizers>

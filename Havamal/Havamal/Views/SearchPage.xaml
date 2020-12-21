@@ -11,7 +11,7 @@
     <ContentPage.Content>
         <StackLayout 
             Style="{DynamicResource Key=ContentStack}">
-            <StackLayout x:Name="SearchBox" Style="{DynamicResource SearchMenu}">
+            <StackLayout x:Name="SearchBox" Style="{DynamicResource SearchMenu}" VerticalOptions="StartAndExpand">
                 <StackLayout Orientation="Horizontal">
                     <Frame CornerRadius="30" Padding="0" Margin="0,5,0,0">
                         <SearchBar 
@@ -32,9 +32,10 @@
                 <StackLayout Orientation="Horizontal"
                              x:Name="AdvancedSettings"
                              HorizontalOptions="Center"
-                             VerticalOptions="Center"
+                             VerticalOptions="CenterAndExpand"
                              IsVisible="false"
                              Padding="25,0,25,0"
+                             Margin="0,0,0,10"
                              >
                     <CheckBox x:Name="OnlyFavs" 
                               Visual="Material" 

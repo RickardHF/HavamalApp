@@ -145,10 +145,10 @@
     <value>Само омилени</value>
   </data>
   <data name="FinishedUpdate" xml:space="preserve">
-    <value>Havamal</value>
+    <value>Хавамал</value>
   </data>
   <data name="Havamal" xml:space="preserve">
-    <value>Havamal</value>
+    <value>Хавамал</value>
   </data>
   <data name="InfoLangsInsertFail" xml:space="preserve">
     <value>Грешка при вметнување на нов јазик</value>

@@ -27,7 +27,7 @@
             </StackLayout>
             <ScrollView 
                 Orientation="Vertical"
-                VerticalScrollBarVisibility="Never">
+                VerticalScrollBarVisibility="Always">
                 <CarouselView x:Name="ComparisonsView" 
                               ItemsSource="{Binding Comparisons}" 
                               CurrentItem="{Binding CurrentComparison, Mode=TwoWay}"  >
@@ -42,7 +42,7 @@
                                         <TapGestureRecognizer Tapped="TapVerseId"></TapGestureRecognizer>
                                     </Frame.GestureRecognizers>
                                     <Frame Style="{DynamicResource FrameImp}" 
-                                           WidthRequest="20">
+                                           HorizontalOptions="Start">
                                         <Label Text="{Binding VerseId}" 
                                                Style="{DynamicResource VerseIdText}" 
                                                HorizontalOptions="Center"/>

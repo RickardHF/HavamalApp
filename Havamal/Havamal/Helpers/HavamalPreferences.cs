@@ -76,5 +76,13 @@ namespace Havamal.Helpers
                 return "TempVerses";
             }
         }
+
+        public static string DbPassword
+        {
+            get
+            {
+                return "HavmalIsBest";
+            }
+        }
     }
 }

@@ -36,6 +36,7 @@ namespace Havamal.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(Startup.InitApplication(this));
         }
+
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);

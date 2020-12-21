@@ -84,7 +84,7 @@ namespace Havamal.Repositories
                 var path = _dataSettings.DbBasePath;
 
                 if (!File.Exists(path)) throw new Exception("Databasefile not found");
-                
+
                 using var con = new SqliteConnection($"DataSource = {path}");
                 con.Open();
                 var dbName = con.Database;

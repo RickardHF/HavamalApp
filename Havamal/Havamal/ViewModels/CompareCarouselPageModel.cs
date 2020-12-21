@@ -18,6 +18,8 @@ namespace Havamal.ViewModels
 {
     public class CompareCarouselPageModel : BasePageModel
     {
+        public Action<int> ChangePos { get; internal set; }
+
         private readonly ILanguageRepository _languageRepository;
         private readonly IVerseRepository _verseRepository;
 
@@ -172,7 +174,7 @@ namespace Havamal.ViewModels
                             Comparisons.Add(comparison);
                         }
                         SetComparison(HavamalPreferences.CurrentVerse);
-
+                        ChangePos(HavamalPreferences.CurrentVerse);
                         SaveChange = true;
                     }, no =>
                     {

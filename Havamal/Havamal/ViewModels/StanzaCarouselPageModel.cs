@@ -31,6 +31,7 @@ namespace Havamal.ViewModels
             get { 
                 return _currentStanza; 
             } set {
+                
                 if (value == null) return;
                 _currentStanza = value;
                 if (UpdateCurrent) HavamalPreferences.CurrentVerse = value.VerseId;
@@ -48,14 +49,15 @@ namespace Havamal.ViewModels
             return Stanzas.IndexOf(x => x.VerseId == verseId);
         }
 
-        private void InformChange()
+        public void InformChange()
         {
             OnPropertyChanged(nameof(CurrentStanza));
-            OnPropertyChanged(nameof(CurrentStanza.Favorite));
-            OnPropertyChanged(nameof(CurrentStanza.Chapter));
-            OnPropertyChanged(nameof(CurrentStanza.Content));
-            OnPropertyChanged(nameof(CurrentStanza.VerseId));
+            //OnPropertyChanged(nameof(CurrentStanza.Favorite));
+            //OnPropertyChanged(nameof(CurrentStanza.Chapter));
+            //OnPropertyChanged(nameof(CurrentStanza.Content));
+            //OnPropertyChanged(nameof(CurrentStanza.VerseId));
             OnPropertyChanged(nameof(Chapter));
+            OnPropertyChanged(nameof(Stanzas));
         }
 
         public StanzaCarouselPageModel(IVerseRepository verseRepository
@@ -71,6 +73,8 @@ namespace Havamal.ViewModels
         {
             get { return CurrentStanza.VerseId.GetSection().GetSectionString(); }
         }
+
+        public Action<int> ChangeCurrent { get; internal set; }
 
         public void ChangeSelectedStanza(int verseId)
         {
@@ -109,7 +113,7 @@ namespace Havamal.ViewModels
 
             stanzas.CanI(yes =>
             {
-                foreach(var nod in yes)
+                foreach(var nod in yes.OrderBy(x => x.VerseId))
                 {
                     Stanzas.Add(new VerseListItem
                     {
@@ -120,9 +124,10 @@ namespace Havamal.ViewModels
                                 : (Style)Application.Current.Resources["FavUnselected"]
                     }); ;
                 }
-                CurrentStanza = Stanzas.FirstOrDefault(x => x.VerseId == HavamalPreferences.CurrentVerse);
-                UpdateCurrent = true;
                 OnPropertyChanged(nameof(Stanzas));
+                UpdateCurrent = true;
+                CurrentStanza = Stanzas.FirstOrDefault(x => x.VerseId == HavamalPreferences.CurrentVerse);
+                ChangeCurrent(HavamalPreferences.CurrentVerse);
             }, no =>
             {
 
@@ -180,8 +185,6 @@ namespace Havamal.ViewModels
                     ? (Style)Application.Current.Resources["FavSelected"] 
                     : (Style)Application.Current.Resources["FavUnselected"];
             }
-
-            //CurrentStanza = Stanzas.FirstOrDefault(x => x.VerseId == HavamalPreferences.CurrentVerse);
         }
 
         private async Task FetchFavorites()

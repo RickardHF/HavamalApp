@@ -26,31 +26,31 @@ namespace Havamal.Repositories
 
                 if (!File.Exists(path)) throw new Exception("Databasefile not found");
 
-                using (var con = new SqliteConnection($"DataSource = {path}"))
+                using var con = new SqliteConnection($"DataSource = {path}");
+
+                con.Open();
+                var dbName = con.Database;
+                var dbPAth = con.DataSource;
+
+                var cmd = con.CreateCommand();
+
+                var where = $""; // TODO : Add timestamp
+
+                cmd.CommandText = $"SELECT VerseId, LanguageId, Content FROM Verses {where}; ";
+
+                var reader = cmd.ExecuteReader();
+
+
+                while (reader.Read())
                 {
-                    con.Open();
-                    var dbName = con.Database;
-                    var dbPAth = con.DataSource;
+                    var verse = new Verse(
+                        reader.GetInt32(0)
+                        , reader.GetInt32(1)
+                        , reader.GetString(2));
 
-                    var cmd = con.CreateCommand();
-
-                    var where = $""; // TODO : Add timestamp
-
-                    cmd.CommandText = $"SELECT VerseId, LanguageId, Content FROM Verses {where}; ";
-
-                    var reader = cmd.ExecuteReader();
-
-
-                    while (reader.Read())
-                    {
-                        var verse = new Verse(
-                            reader.GetInt32(0)
-                            , reader.GetInt32(1)
-                            , reader.GetString(2));
-
-                        verses.Add(verse);
-                    }
+                    verses.Add(verse);
                 }
+                
 
                 return ComputerExtensions.ComputerSaysYes(DarlingExtensions.Allow((IReadOnlyCollection<Verse>)verses));
 

@@ -6,6 +6,7 @@ using Havamal.Resources.TextResources;
 using Havamal.Resources.Themes;
 using Havamal.Views;
 using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Threading;
 using Xamarin.Essentials;
@@ -16,13 +17,12 @@ namespace Havamal
 {
     public partial class App : Application
     {
+        private readonly Stack<Page> _pageStack;
         public App()
         {
             InitializeComponent();
 
-            var initPage = new InitPage(SetUpFinished);
-            MainPage = initPage;
-
+            _pageStack = new Stack<Page>();
 
             CultureInfo language = new CultureInfo(HavamalPreferences.AppLanguage);
 
@@ -51,6 +51,8 @@ namespace Havamal
 
         protected override void OnStart()
         {
+            var initPage = new InitPage(SetUpFinished);
+            MainPage = initPage;
         }
 
         protected override void OnSleep()
@@ -59,6 +61,7 @@ namespace Havamal
 
         protected override void OnResume()
         {
+            
         }
     }
 

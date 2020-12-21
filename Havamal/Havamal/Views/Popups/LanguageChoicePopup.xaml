@@ -35,7 +35,7 @@
                     >
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <ViewCell>
+                        <ViewCell Height="100">
                             <StackLayout Orientation="Horizontal">
                                 <Image Source="{Binding LanguageCode, Converter={converters:CountryImageConverter}}"  
                                        Style="{DynamicResource SmallImg}"/>
