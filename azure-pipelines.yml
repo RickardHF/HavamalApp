@@ -20,8 +20,11 @@ steps:
     command: 'test'
     arguments: '--no-build --configuration $(buildConfiguration)'
     publishTestResults: true
-    projects: '**/Tests.csproj'
+    projects: '**/*Tests*.csproj'
 - task: NuGetToolInstaller@1
+
+- task: WhiteSource Bolt@20
+  displayName: 'Run WhiteSource Bolt'
 
 - task: NuGetCommand@2
   inputs:
