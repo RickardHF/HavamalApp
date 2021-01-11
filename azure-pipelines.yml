@@ -33,29 +33,14 @@ steps:
   inputs:
     restoreSolution: '**/*.sln'
 
-
 - task: XamarinAndroid@1
   inputs:
     projectFile: '**/*droid*.csproj'
     outputDirectory: '$(outputDirectory)'
     configuration: '$(buildConfiguration)'
-    msbuildVersionOption: '4.0'
 
-- task: DotNetCoreCLI@2
-  displayName: 'Pack the project - $(buildConfiguration)'
+- task: AndroidSigning@3
   inputs:
-    command: 'pack'
-    projects: '**/*.csproj'
-    arguments: '--no-build --configuration $(buildConfiguration)'
-    versioningScheme: byPrereleaseNumber
-    majorVersion: '1'
-    minorVersion: '0'
-    patchVersion: '0'
-
-- task: NuGetCommand@2
-  displayName: 'Publish NuGet package'
-  inputs:
-    command: push
-    publishVstsFeed: 'Test feed/Havamal'
-    allowPackageConflicts: true
-  condition: succeeded()
+      apksign: false
+      zipalign: false
+      apkFiles: '$(outputDirectory)/*.apk'
