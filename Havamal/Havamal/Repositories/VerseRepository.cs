@@ -1,10 +1,8 @@
-﻿using Android.Database.Sqlite;
-using Havamal.Helpers;
+﻿using Havamal.Helpers;
 using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Models;
 using Havamal.Models.HelperModels;
 using Havamal.Parameters;
-using Javax.Xml.Xpath;
 using Microsoft.Data.Sqlite;
 using Microsoft.Extensions.Configuration.UserSecrets;
 using System;

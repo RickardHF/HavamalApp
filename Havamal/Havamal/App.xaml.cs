@@ -1,5 +1,4 @@
-﻿using Android.Content.Res;
-using Havamal.Helpers;
+﻿using Havamal.Helpers;
 using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Repositories.MockRepositories;
 using Havamal.Resources.TextResources;

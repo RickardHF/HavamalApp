@@ -1,5 +1,4 @@
-﻿using Android.Print;
-using Havamal.Models.HelperModels;
+﻿using Havamal.Models.HelperModels;
 using Havamal.ViewModels;
 using System;
 using System.Collections.Generic;

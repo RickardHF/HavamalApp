@@ -1,5 +1,4 @@
-﻿using Android.Preferences;
-using Havamal.Helpers;
+﻿using Havamal.Helpers;
 using Havamal.Interfaces.Helpers;
 using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Models;
