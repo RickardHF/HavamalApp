@@ -21,10 +21,6 @@ steps:
     arguments: '--no-build --configuration $(buildConfiguration)'
     publishTestResults: true
     projects: '**/*Tests*.csproj'
-- task: NuGetToolInstaller@1
-
-- checkout: self
-  lfs: true
 
 - task: WhiteSource Bolt@20
   displayName: 'Run WhiteSource Bolt'
