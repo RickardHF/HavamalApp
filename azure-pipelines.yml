@@ -16,6 +16,8 @@ variables:
 steps:
 - task: DotNetCoreCLI@2
   displayName: 'Run unit tests - $(buildConfiguration)'
+  packageType: 'sdk'
+  version: '3.1.x'
   inputs:
     command: 'test'
     arguments: '--no-build --configuration $(buildConfiguration)'
