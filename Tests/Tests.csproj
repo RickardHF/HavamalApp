@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -7,10 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="HavamalVerses.db" />
     <None Remove="Verses.db" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="HavamalVerses.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Verses.db">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <LogicalName>Verses.db</LogicalName>
