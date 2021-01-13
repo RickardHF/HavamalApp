@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: 'macos-latest'
+  vmImage: 'default'
 
 variables:
   buildConfiguration: 'Release'
@@ -20,7 +20,7 @@ steps:
     command: 'test'
     arguments: '--no-build --configuration $(buildConfiguration)'
     publishTestResults: true
-    projects: '**/*Tests*.csproj'
+    projects: '**/*Tests.csproj'
 
 - task: WhiteSource Bolt@20
   displayName: 'Run WhiteSource Bolt'
@@ -38,5 +38,5 @@ steps:
 - task: AndroidSigning@3
   inputs:
       apksign: false
-      zipalign: false
+      zipalign: true
       apkFiles: '$(outputDirectory)/*.apk'
