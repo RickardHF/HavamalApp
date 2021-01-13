@@ -15,14 +15,10 @@ variables:
 
 steps:
 - task: DotNetCoreCLI@2
-  displayName: 'Run unit tests - $(buildConfiguration)'
-  packageType: 'sdk'
-  version: '3.1.x'
   inputs:
     command: 'test'
-    arguments: '--no-build --configuration $(buildConfiguration)'
-    publishTestResults: true
-    projects: '**/*Tests.csproj'
+    projects: '**/*Tests*.csproj'
+
 
 - task: WhiteSource Bolt@20
   displayName: 'Run WhiteSource Bolt'
