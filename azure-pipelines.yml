@@ -38,3 +38,6 @@ steps:
       apksign: false
       zipalign: true
       apkFiles: '$(outputDirectory)/*.apk'
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: '$(outputDirectory)'
