@@ -16,6 +16,11 @@
                 <Setter Property="WidthRequest" Value="40"/>
             </Style>
 
+            <Style x:Key="HideImg" TargetType="Image">
+                <Setter Property="WidthRequest" Value="0"/>
+                <Setter Property="IsVisible" Value="false"/>
+            </Style>
+
             <Style x:Key="BigImg" TargetType="Image">
                 <Setter Property="MinimumHeightRequest" Value="250"/>
             </Style>
@@ -23,6 +28,18 @@
 
             <Style x:Key="VerseText" TargetType="Label">
                 <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="FontFamily" Value="Roboto"/>
+                <!--<Setter Property="FontFamily" Value="Raleway"/>--> 
+                <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="LineHeight" Value="1.4"/>
+                <Setter Property="LineBreakMode" Value="WordWrap"/>
+                <Setter Property="WidthRequest" Value="250"/>
+            </Style>
+
+            <Style x:Key="MenuText" TargetType="Label">
+                <Setter Property="FontSize" Value="Large"/>
+                <Setter Property="FontFamily" Value="Raleway"/>
                 <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
                 <Setter Property="HorizontalOptions" Value="Center"/>
                 <Setter Property="LineHeight" Value="1.4"/>
@@ -32,11 +49,13 @@
 
             <Style x:Key="VerseIdText" TargetType="Label">
                 <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="FontFamily" Value="Raleway"/>
                 <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
             </Style>
 
             <Style x:Key="ErrorMsg" TargetType="Label">
                 <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="FontFamily" Value="Roboto"/>
                 <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
             </Style>
@@ -54,6 +73,7 @@
                 <Setter Property="PlaceholderColor" Value="{DynamicResource SecondaryTextColor}"/>
                 <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
                 <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="FontFamily" Value="Raleway"/>
                 <Setter Property="CancelButtonColor" Value="{DynamicResource SecondaryTextColor}"/>
             </Style>
 
@@ -61,6 +81,7 @@
                 <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}"/>
                 <Setter Property="PlaceholderColor" Value="{DynamicResource SecondaryTextColor}"/>
                 <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
+                <Setter Property="FontFamily" Value="Raleway"/>
                 <Setter Property="FontSize" Value="Medium"/>
             </Style>
 
@@ -78,21 +99,30 @@
                 <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
                 <Setter Property="FontSize" Value="Subtitle"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="FontFamily" Value="Raleway"/>
             </Style>
 
             <Style x:Key="LangButtonSub" TargetType="Label">
                 <Setter Property="TextColor" Value="{DynamicResource SecondaryTextColor}"/>
                 <Setter Property="FontSize" Value="Small"/>
+                <Setter Property="FontFamily" Value="Raleway"/>
             </Style>
 
             <Style x:Key="LangButtonFrame" TargetType="Frame">
-                <Setter Property="BackgroundColor" Value="{DynamicResource TransparentColor}"/>
-                <Setter Property="CornerRadius" Value="5"/>
-                <Setter Property="BorderColor" Value="{DynamicResource TransparentColor}"/>
-                <Setter Property="Padding" Value="0"/>
+                <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}"/>
+                <Setter Property="CornerRadius" Value="10"/>
+                <Setter Property="BorderColor" Value="{DynamicResource PrimaryTextColor}"/>
+                <Setter Property="Padding" Value="5,0,5,0"/>
+                <Setter Property="HasShadow" Value="True"/>
             </Style>
 
             <Style x:Key="RandBtn" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{DynamicResource SecondaryColor}"/>
+                <Setter Property="TextColor" Value="{DynamicResource TertiaryTextColor}"/>
+                <Setter Property="CornerRadius" Value="20"/>
+            </Style>
+
+            <Style x:Key="ShopBtn" TargetType="Button">
                 <Setter Property="BackgroundColor" Value="{DynamicResource SecondaryColor}"/>
                 <Setter Property="TextColor" Value="{DynamicResource TertiaryTextColor}"/>
                 <Setter Property="CornerRadius" Value="20"/>
@@ -114,11 +144,13 @@
             <Style x:Key="InfoStartup" TargetType="Label">
                 <Setter Property="TextColor" Value="{DynamicResource InfoTextColor}"/>
                 <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="FontFamily" Value="Raleway"/>
             </Style>
             
             <Style x:Key="ErrText" TargetType="Label">
                 <Setter Property="TextColor" Value="{DynamicResource SecondaryColor}"/>
                 <Setter Property="FontSize" Value="Medium"/>
+                <Setter Property="FontFamily" Value="Roboto"/>
             </Style>
 
             <Style x:Key="ListItem" TargetType="ImageCell">
@@ -129,7 +161,7 @@
                 <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}"/>
                 <Setter Property="BorderColor" Value="{DynamicResource PrimaryTextColor}"/>
                 <Setter Property="CornerRadius" Value="30"/>
-                <Setter Property="Padding" Value="5,0,5,0"/>
+                <Setter Property="Padding" Value="5,0,5,5"/>
             </Style>
 
         </ResourceDictionary>

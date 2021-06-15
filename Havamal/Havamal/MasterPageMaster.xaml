@@ -47,7 +47,7 @@
                         />
                     <Label VerticalOptions="CenterAndExpand" 
                         Text="{Binding Title}"
-                        Style="{DynamicResource VerseText}"
+                        Style="{DynamicResource MenuText}"
                         />
             </StackLayout>
           </ViewCell>

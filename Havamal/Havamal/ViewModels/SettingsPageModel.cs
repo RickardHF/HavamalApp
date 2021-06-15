@@ -102,6 +102,8 @@ namespace Havamal.ViewModels
                     , new Language(3, "Русский", "ru", "Эрмек Акелов")
                     , new Language(4, "Nederlans", "nl", "Tjark Roozendaal")
                     , new Language(5, "Македонски", "mk", "Филип Џамбазоски")
+                    , new Language(6, "Española", "es", "Josep Rebés")
+                    , new Language(7, "Català", "ca", "Josep Rebés")
                     //, new Language(6, "Deutsh - placeholder", "de", "")
                     //, new Language(7, "Spanish - placeholder", "es", "")
                     //, new Language(8, "Kyrgiz - placeholder", "kg", "")

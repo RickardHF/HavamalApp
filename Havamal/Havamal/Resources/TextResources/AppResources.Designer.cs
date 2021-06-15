@@ -385,6 +385,15 @@ namespace Havamal.Resources.TextResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Merch.
+        /// </summary>
+        internal static string Shop {
+            get {
+                return ResourceManager.GetString("Shop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Verses.
         /// </summary>
         internal static string Stanzas {
@@ -507,6 +516,15 @@ namespace Havamal.Resources.TextResources {
         internal static string VerseVer {
             get {
                 return ResourceManager.GetString("VerseVer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Shop.
+        /// </summary>
+        internal static string WebLinkShop {
+            get {
+                return ResourceManager.GetString("WebLinkShop", resourceCulture);
             }
         }
     }

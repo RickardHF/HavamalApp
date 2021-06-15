@@ -12,6 +12,8 @@ using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+[assembly: ExportFont("Raleway-Regular.ttf", Alias = "Raleway")]
+[assembly: ExportFont("Roboto-Regular.ttf", Alias = "Roboto")]
 namespace Havamal
 {
     public partial class App : Application

@@ -19,10 +19,6 @@ steps:
     command: 'test'
     projects: '**/*Tests*.csproj'
 
-
-- task: WhiteSource Bolt@20
-  displayName: 'Run WhiteSource Bolt'
-
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '**/*.sln'

@@ -118,31 +118,31 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="AllLang" xml:space="preserve">
-    <value>Search in all versions</value>
+    <value>Buscar en todas las versiones</value>
   </data>
   <data name="AppLang" xml:space="preserve">
-    <value>Application Language</value>
+    <value>Idioma de la Aplicación</value>
   </data>
   <data name="Compare" xml:space="preserve">
-    <value>Compare</value>
+    <value>Comparar</value>
   </data>
   <data name="CouldNotLoadFavs" xml:space="preserve">
-    <value>Could not load favorites</value>
+    <value>No se pudo cargar los favoritos</value>
   </data>
   <data name="CouldNotLoadFavsVerses" xml:space="preserve">
-    <value>Could not load verses for favorites</value>
+    <value>No se pudo cargar versos para los favoritos</value>
   </data>
   <data name="CouldNotVersForId" xml:space="preserve">
-    <value>Could not find verse for this language at this Id</value>
+    <value>No se pudo encontrar verso para este lenguaje en esta Identidad</value>
   </data>
   <data name="CouldNotVersForLang" xml:space="preserve">
-    <value>Could not gather verses from selected language</value>
+    <value>No se pudo recopilar versos del idioma seleccionado</value>
   </data>
   <data name="Favorites" xml:space="preserve">
-    <value>Favorites</value>
+    <value>Favoritos</value>
   </data>
   <data name="FavsOnly" xml:space="preserve">
-    <value>Only favorites</value>
+    <value>Solo favoritos</value>
   </data>
   <data name="FinishedUpdate" xml:space="preserve">
     <value>Havamal</value>
@@ -151,58 +151,58 @@
     <value>Havamal</value>
   </data>
   <data name="InfoLangsInsertFail" xml:space="preserve">
-    <value>Error occurred inserting new languages</value>
+    <value>Un error ocurrió insertando nuevos idiomas</value>
   </data>
   <data name="InfoLangsLoaded" xml:space="preserve">
-    <value>Languages updated</value>
+    <value>Idiomas actualizados</value>
   </data>
   <data name="InfoLangsLoadedError" xml:space="preserve">
-    <value>Error occurred loading Languages</value>
+    <value>Un error sucedió cargando Idiomas</value>
   </data>
   <data name="InfoSetupFavsFailed" xml:space="preserve">
-    <value>Setup of favorites failed</value>
+    <value>Falló la configuración de favoritos</value>
   </data>
   <data name="InfoSetupLangsFailed" xml:space="preserve">
-    <value>Setup of languages failed</value>
+    <value>Falló la configuración de idiomas</value>
   </data>
   <data name="InfoSetupVersesFailed" xml:space="preserve">
-    <value>Setup of stanzas failed</value>
+    <value>Falló la configuración de estrofas</value>
   </data>
   <data name="InfoVersesInsertFail" xml:space="preserve">
-    <value>Error occurred inserting new stanzas</value>
+    <value>Un error sucedió al instertar nuevas estrofas</value>
   </data>
   <data name="InfoVersesLoaded" xml:space="preserve">
-    <value>Stanzas updated</value>
+    <value>Estrofas actualizadas</value>
   </data>
   <data name="InfoVersesLoadError" xml:space="preserve">
-    <value>Error occured loading stanzas</value>
+    <value>Un error sucedió al cargar estrofas</value>
   </data>
   <data name="NoFavorites" xml:space="preserve">
-    <value>You have no favorites</value>
+    <value>No tienes favoritos</value>
   </data>
   <data name="NumSort" xml:space="preserve">
-    <value>Numeric sort</value>
+    <value>Orden numérico</value>
   </data>
   <data name="Random" xml:space="preserve">
-    <value>Random</value>
+    <value>Aleatorio</value>
   </data>
   <data name="RandomBtn" xml:space="preserve">
-    <value>Fetch new</value>
+    <value>Obtener nuevos</value>
   </data>
   <data name="Search" xml:space="preserve">
-    <value>Search</value>
+    <value>Buscar</value>
   </data>
   <data name="SearchEmpty" xml:space="preserve">
-    <value>Search can not be empty</value>
+    <value>Buscar no puede estar vacío</value>
   </data>
   <data name="SearchFailed" xml:space="preserve">
-    <value>Searching failed</value>
+    <value>Búsqueda fallida</value>
   </data>
   <data name="SearchForVerses" xml:space="preserve">
-    <value>Search for verses</value>
+    <value>Buscar versos</value>
   </data>
   <data name="SearchNotFound" xml:space="preserve">
-    <value>Did not find any verses for search</value>
+    <value>No se encontró ningún verso</value>
   </data>
   <data name="SectionGas" xml:space="preserve">
     <value>Gestaþáttr</value>
@@ -217,54 +217,60 @@
     <value>Rúnatal</value>
   </data>
   <data name="SectionWom" xml:space="preserve">
-    <value>About women</value>
+    <value>Sobre las mujeres</value>
   </data>
   <data name="SelLang" xml:space="preserve">
-    <value>Select Language</value>
+    <value>Seleccionar idioma</value>
   </data>
   <data name="Settings" xml:space="preserve">
-    <value>Settings</value>
+    <value>Configuración</value>
+  </data>
+  <data name="Shop" xml:space="preserve">
+    <value>Tienda</value>
   </data>
   <data name="Stanzas" xml:space="preserve">
-    <value>Verses</value>
+    <value>Versos</value>
   </data>
   <data name="Theme" xml:space="preserve">
-    <value>Theme</value>
+    <value>Tema</value>
   </data>
   <data name="ThemeAir" xml:space="preserve">
-    <value>Air Theme</value>
+    <value>Tema Aire</value>
   </data>
   <data name="ThemeDark" xml:space="preserve">
-    <value>Dark Theme</value>
+    <value>Tema Oscuro</value>
   </data>
   <data name="ThemeEarth" xml:space="preserve">
-    <value>Earth Theme</value>
+    <value>Tema Tierra</value>
   </data>
   <data name="ThemeFire" xml:space="preserve">
-    <value>Fire Theme</value>
+    <value>Tema Fuego</value>
   </data>
   <data name="ThemeLight" xml:space="preserve">
-    <value>Light Theme</value>
+    <value>Tema Ligero</value>
   </data>
   <data name="ThemeWater" xml:space="preserve">
-    <value>Water Theme</value>
+    <value>Tema Agua</value>
   </data>
   <data name="VerseChoiceError" xml:space="preserve">
-    <value>Valid input not given</value>
+    <value>Entrada válida no dada</value>
   </data>
   <data name="VerseChoiceOk" xml:space="preserve">
-    <value>Go to</value>
+    <value>Ir a</value>
   </data>
   <data name="VerseChoicePlace" xml:space="preserve">
-    <value>Select  verse</value>
+    <value>Seleccionar verso</value>
   </data>
   <data name="VerseChoiceTooHigh" xml:space="preserve">
-    <value>Verse number too high</value>
+    <value>Número de verso demasiado alto</value>
   </data>
   <data name="VerseChoiceTooLow" xml:space="preserve">
-    <value>Verse number must be higher than 0</value>
+    <value>Número de verso debe ser mayor que 0</value>
   </data>
   <data name="VerseVer" xml:space="preserve">
-    <value>Verse version</value>
+    <value>Version de verso</value>
+  </data>
+  <data name="WebLinkShop" xml:space="preserve">
+    <value>Tienda abierta</value>
   </data>
 </root>
