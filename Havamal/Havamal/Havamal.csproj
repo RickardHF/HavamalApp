@@ -35,6 +35,8 @@
   
   <ItemGroup>
     <None Remove="HavamalVerses.db" />
+    <None Remove="Resources\Fonts\Raleway\static\Raleway-Regular.ttf" />
+    <None Remove="Resources\Fonts\Roboto\Roboto-Regular.ttf" />
   </ItemGroup>
 
 
@@ -46,6 +48,8 @@
     <EmbeddedResource Include="HavamalVerses.db">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Fonts\Raleway\static\Raleway-Regular.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\Roboto\Roboto-Regular.ttf" />
     <EmbeddedResource Include="Verses.db">
       <LogicalName>Verses.db</LogicalName>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -53,17 +57,16 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Data.Sqlite" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="5.0.1" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
     <PackageReference Include="Nancy" Version="2.0.0" />
-    <PackageReference Include="Rg.Plugins.Popup" Version="2.0.0.7" />
-    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1687" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Rg.Plugins.Popup" Version="2.0.0.9" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Reference Include="Mono.Android">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\MonoAndroid\v9.0\Mono.Android.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -139,6 +142,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SettingsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Shop.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\StanzaCarouselPage.xaml">

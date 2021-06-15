@@ -39,6 +39,7 @@ namespace Havamal.Views.Components
             , default(string)
             , propertyChanged: ImageSourceChanged
             );
+
         private static void TitleChanged(BindableObject bindable, object oldValue, object newValue)
         {
             var c = (LanguageButton)bindable;
@@ -55,6 +56,16 @@ namespace Havamal.Views.Components
         {
             var c = (LanguageButton)bindable;
             c.ButtonImage.Source = newValue.ToString();
+            VisibilityChanged(c, oldValue, newValue);
+        }
+
+        private static void VisibilityChanged(BindableObject bindable, object oldValue, object newValue)
+        {
+            var c = (LanguageButton)bindable;
+            var hide = string.IsNullOrEmpty(newValue?.ToString());
+            if (hide) c.ButtonImage.WidthRequest = 0;
+            else c.ButtonImage.WidthRequest = 40;
+            c.ButtonImage.IsVisible = !hide;
         }
 
         public string Title

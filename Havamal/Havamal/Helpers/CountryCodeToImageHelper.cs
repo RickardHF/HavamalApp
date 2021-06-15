@@ -25,6 +25,7 @@ namespace Havamal.Helpers
                 , {"KG", "kgz.png"}
                 , {"DE", "deu.png"}
                 , {"ES", "esp.png"}
+                , {"CA", "cat.png"}
             };
         }
 

@@ -10,7 +10,7 @@
                          Orientation="Horizontal" 
                          VerticalOptions="StartAndExpand" 
                          HorizontalOptions="CenterAndExpand" 
-                         Padding="20,0,20,0">
+                         Padding="20,5,20,0">
                 <components:LanguageButton 
                     x:Name="from" 
                     ImageSource="{Binding CurrentFromLanguage.LanguageCode, Converter={converters:CountryImageConverter}}" 

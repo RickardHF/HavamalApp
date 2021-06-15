@@ -6,7 +6,6 @@ using Havamal.Resources.TextResources;
 using Havamal.SearchHelpers.Filtering;
 using Havamal.SearchHelpers.Indexing;
 using Havamal.SearchHelpers.Indexing.Helper;
-using Java.Security;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;

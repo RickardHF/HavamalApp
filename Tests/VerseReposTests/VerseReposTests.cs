@@ -21,7 +21,7 @@ namespace Tests.VerseReposTests
         {
             DataSettings dataSettings = new DataSettings
             {
-                DbBasePath = Environment.CurrentDirectory
+                DbBasePath = Environment.CurrentDirectory + "/HavamalVerses.db"
             };
             var provider = new ServiceCollection()
                 .AddSingleton<IVerseRepository, VerseRepository>()

@@ -1,5 +1,4 @@
-﻿using Android.Content.Res;
-using Havamal.Helpers;
+﻿using Havamal.Helpers;
 using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Repositories.MockRepositories;
 using Havamal.Resources.TextResources;
@@ -13,6 +12,8 @@ using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+[assembly: ExportFont("Raleway-Regular.ttf", Alias = "Raleway")]
+[assembly: ExportFont("Roboto-Regular.ttf", Alias = "Roboto")]
 namespace Havamal
 {
     public partial class App : Application

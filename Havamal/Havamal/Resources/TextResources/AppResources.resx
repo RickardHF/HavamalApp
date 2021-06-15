@@ -225,6 +225,9 @@
   <data name="Settings" xml:space="preserve">
     <value>Settings</value>
   </data>
+  <data name="Shop" xml:space="preserve">
+    <value>Merch</value>
+  </data>
   <data name="Stanzas" xml:space="preserve">
     <value>Verses</value>
   </data>
@@ -266,5 +269,8 @@
   </data>
   <data name="VerseVer" xml:space="preserve">
     <value>Translation</value>
+  </data>
+  <data name="WebLinkShop" xml:space="preserve">
+    <value>Open Shop</value>
   </data>
 </root>

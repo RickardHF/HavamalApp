@@ -10,8 +10,14 @@
         </StackLayout.GestureRecognizers>
         <Image x:Name="ButtonImage" Style="{DynamicResource SmallImg}"></Image>
         <StackLayout Orientation="Vertical" Spacing="0">
-            <Label x:Name="ButtonTitle" Style="{DynamicResource LangButtonMain}"></Label>
-            <Label x:Name="ButtonDesctiption" Style="{DynamicResource LangButtonSub}"></Label>
+            <Label 
+                x:Name="ButtonTitle" 
+                Style="{DynamicResource LangButtonMain}" 
+                LineBreakMode="TailTruncation"/>
+            <Label 
+                x:Name="ButtonDesctiption" 
+                Style="{DynamicResource LangButtonSub}" 
+                LineBreakMode="TailTruncation"/>
         </StackLayout>
     </StackLayout>
 </Frame>

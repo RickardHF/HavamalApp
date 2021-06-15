@@ -1,5 +1,4 @@
-﻿using Android.Text;
-using Havamal.SearchHelpers.Indexing;
+﻿using Havamal.SearchHelpers.Indexing;
 using System;
 using System.Collections.Generic;
 using System.Linq;
