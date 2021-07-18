@@ -23,11 +23,11 @@ namespace Havamal.ViewModels
         private readonly ILanguageRepository _languageRepository;
         private readonly IVerseRepository _verseRepository;
 
-        private CompareVerseListItem _current { get; set; }
+        private CompareVerseListItem Current { get; set; }
         public CompareVerseListItem CurrentComparison { 
-            get { return _current; } 
+            get { return Current; } 
             set { 
-                _current = value; 
+                Current = value; 
                 if (SaveChange && value != null) HavamalPreferences.CurrentVerse = value.VerseId;
             } 
         }
@@ -182,7 +182,7 @@ namespace Havamal.ViewModels
                     });
                     OnPropertyChanged(nameof(Comparisons));
                 }
-            } catch (Exception e)
+            } catch (Exception)
             {
 
             }

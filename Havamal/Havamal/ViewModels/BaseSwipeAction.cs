@@ -24,7 +24,7 @@ namespace Havamal.ViewModels
                     OnVerseIdChange(newCurrentVerse);
                 }
             }
-            catch (Exception e)
+            catch (Exception)
             {
 
             }
@@ -41,7 +41,7 @@ namespace Havamal.ViewModels
                     Preferences.Set("CurrentVerse", newCurrentVerse);
                     OnVerseIdChange(newCurrentVerse);
                 }
-            } catch ( Exception e)
+            } catch ( Exception )
             {
 
             }

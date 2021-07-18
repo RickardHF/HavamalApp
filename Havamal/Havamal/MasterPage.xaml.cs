@@ -12,7 +12,7 @@ using Xamarin.Forms.Xaml;
 namespace Havamal
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MasterPage : MasterDetailPage
+    public partial class MasterPage : FlyoutPage
     {
         public MasterPage() : this(new NavigationPage(new StanzaCarouselPage() { Title = AppResources.Stanzas }) { Title = AppResources.Stanzas })
         {
@@ -29,8 +29,7 @@ namespace Havamal
 
         public void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            var item = e.SelectedItem as MasterPageMasterMenuItem;
-            if (item == null)
+            if (!(e.SelectedItem is MasterPageMasterMenuItem item))
                 return;
 
             var page = (Page)Activator.CreateInstance(item.TargetType);

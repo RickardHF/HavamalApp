@@ -84,6 +84,14 @@
                 <Setter Property="FontFamily" Value="Raleway"/>
                 <Setter Property="FontSize" Value="Medium"/>
             </Style>
+            
+            <Style x:Key="CryptoEntry" TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}"/>
+                <Setter Property="PlaceholderColor" Value="{DynamicResource SecondaryTextColor}"/>
+                <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
+                <Setter Property="FontFamily" Value="Raleway"/>
+                <Setter Property="FontSize" Value="Medium"/>
+            </Style>
 
             <Style x:Key="SearchMenu" TargetType="StackLayout">
                 <Setter Property="BackgroundColor" Value="{DynamicResource TertiaryColor}"/>
@@ -114,6 +122,12 @@
                 <Setter Property="BorderColor" Value="{DynamicResource PrimaryTextColor}"/>
                 <Setter Property="Padding" Value="5,0,5,0"/>
                 <Setter Property="HasShadow" Value="True"/>
+            </Style>
+
+            <Style x:Key="CopyableFieldFrame" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}"/>
+                <Setter Property="HasShadow" Value="False"/>
+                <Setter Property="BorderColor" Value="{DynamicResource TransparentColor}"/>
             </Style>
 
             <Style x:Key="RandBtn" TargetType="Button">

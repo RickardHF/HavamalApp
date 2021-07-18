@@ -3,6 +3,7 @@ using Havamal.Interfaces.RepositoryInterfaces;
 using Havamal.Models;
 using Havamal.Parameters;
 using Havamal.Resources.TextResources;
+using Havamal.Views;
 using Microsoft.Data.Sqlite;
 using System;
 using System.Collections.Generic;
@@ -29,6 +30,7 @@ namespace Havamal.ViewModels
         private readonly ILanguageSetUpRepository _languageSetUpRepository;
 
         private readonly DataSettings _dataSettings;
+        private readonly DatabaseSettings _databaseSettings;
 
         private string _infoText = "";
 
@@ -43,7 +45,8 @@ namespace Havamal.ViewModels
             , IVerseSetupRepository verseSetupRepository
             , ILanguageRepository languageRepository
             , ILanguageSetUpRepository languageSetUpRepository
-            , DataSettings dataSettings)
+            , DataSettings dataSettings
+            , DatabaseSettings databaseSettings)
         {
 
             _verseRepository = verseRepository;
@@ -53,7 +56,13 @@ namespace Havamal.ViewModels
             _languageSetUpRepository = languageSetUpRepository;
 
             _dataSettings = dataSettings;
+            _databaseSettings = databaseSettings;
 
+            var app = (App)Application.Current;
+            app.SetUpFinished(this, EventArgs.Empty);
+
+            SetUpFinished -= app.SetUpFinished;
+            SetUpFinished += app.SetUpFinished;
 
             SetUp();
         }
@@ -63,24 +72,33 @@ namespace Havamal.ViewModels
             IsBusy = true;
             try
             {
-                await SetUpDb();
+                InfoText = "";
+                var lastUpdated = HavamalPreferences.LastUpdated;
+                var lastChanges = _databaseSettings.LastDbUpdate;
+
+                var dbPath = _dataSettings.DbBasePath;
+
+                if (lastChanges >= lastUpdated || !File.Exists(dbPath))
+                    await SetUpDb();
+                else await Task.Delay(500);
             } catch (Exception e)
             {
                 InfoText = e.Message;
             }
             finally
             {
+
+                //var app = (App)Application.Current;
+                //app.SetUpFinished(this, EventArgs.Empty);
+                //app.Reset(new NavigationPage(new StanzaCarouselPage() { Title = AppResources.Stanzas }));
+                OnSetupFinished(EventArgs.Empty);
                 IsBusy = false;
             }
         }
 
         private void OnSetupFinished(EventArgs args)
         {
-            var handler = SetUpFinished;
-            if (handler != null)
-            {
-                handler(this, args);
-            }
+            SetUpFinished?.Invoke(this, args);
         }
 
         public async Task SetUpDb()
@@ -96,14 +114,12 @@ namespace Havamal.ViewModels
             }
             using (BinaryReader br = new BinaryReader(Assembly.GetExecutingAssembly().GetManifestResourceStream("Verses.db")))
             {
-                using (BinaryWriter bw = new BinaryWriter(new FileStream(tempPath, FileMode.Create)))
+                using BinaryWriter bw = new BinaryWriter(new FileStream(tempPath, FileMode.Create));
+                byte[] buffer = new byte[2048];
+                int len = 0;
+                while ((len = br.Read(buffer, 0, buffer.Length)) > 0)
                 {
-                    byte[] buffer = new byte[2048];
-                    int len = 0;
-                    while ((len = br.Read(buffer, 0, buffer.Length)) > 0)
-                    {
-                        bw.Write(buffer, 0, len);
-                    }
+                    bw.Write(buffer, 0, len);
                 }
             }
 
@@ -120,7 +136,11 @@ namespace Havamal.ViewModels
 
             await Task.Delay(1000);
 
-            OnSetupFinished(EventArgs.Empty);
+            // TODO : ADD CHECK THAT ALL SUCCEEDED
+
+            HavamalPreferences.LastUpdated = DateTime.Now;
+
+            //OnSetupFinished(EventArgs.Empty);
         }
 
         private async Task UpdateVerses()
@@ -172,7 +192,7 @@ namespace Havamal.ViewModels
 
                 cmd.ExecuteNonQuery();
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 InfoText = AppResources.InfoSetupFavsFailed;
             }
@@ -194,7 +214,7 @@ namespace Havamal.ViewModels
 
                 cmd.ExecuteNonQuery();
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 InfoText = AppResources.InfoSetupLangsFailed;
 
@@ -216,7 +236,7 @@ namespace Havamal.ViewModels
 
                 cmd.ExecuteNonQuery();
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 InfoText = AppResources.InfoSetupVersesFailed;
 

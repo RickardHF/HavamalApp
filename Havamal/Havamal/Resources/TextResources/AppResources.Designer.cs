@@ -79,6 +79,15 @@ namespace Havamal.Resources.TextResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to bc1qdv03zazs9370cspmpnvg7rynvrrkxr992qcnlw.
+        /// </summary>
+        internal static string BitcoinAddress {
+            get {
+                return ResourceManager.GetString("BitcoinAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Compare.
         /// </summary>
         internal static string Compare {
@@ -120,6 +129,24 @@ namespace Havamal.Resources.TextResources {
         internal static string CouldNotVersForLang {
             get {
                 return ResourceManager.GetString("CouldNotVersForLang", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to You can also choose to support us by sending us crypto. We accept the following..
+        /// </summary>
+        internal static string CryptoSupport {
+            get {
+                return ResourceManager.GetString("CryptoSupport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 0x9e7719E5ad23103e065D455FA03834170A6B2369.
+        /// </summary>
+        internal static string EtheriumAddress {
+            get {
+                return ResourceManager.GetString("EtheriumAddress", resourceCulture);
             }
         }
         
@@ -390,6 +417,15 @@ namespace Havamal.Resources.TextResources {
         internal static string Shop {
             get {
                 return ResourceManager.GetString("Shop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Thank you for using our app! We offer this application for free, however it takes both time and resources. We wish to improve this application, and to create more applications for norse mythology. We would greatly appreciate it if you&apos;d be so kind to buy some merch from our shop! The designs are created by us and we hope you find them interesting..
+        /// </summary>
+        internal static string ShopDesc {
+            get {
+                return ResourceManager.GetString("ShopDesc", resourceCulture);
             }
         }
         

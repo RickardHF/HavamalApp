@@ -55,6 +55,18 @@ namespace Havamal.Helpers
             }
         }
 
+        public static DateTime LastUpdated
+        {
+            get
+            {
+                return Preferences.Get("LastUpdated", DateTime.MinValue);
+            }
+            set
+            {
+                Preferences.Set("LastUpdated", value);
+            }
+        }
+
         private static void UpdateLang(string code)
         {
             try
@@ -84,5 +96,6 @@ namespace Havamal.Helpers
                 return "HavmalIsBest";
             }
         }
+
     }
 }

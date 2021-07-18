@@ -7,7 +7,7 @@ namespace Havamal.Helpers
 {
     public static class CountryCodeToImageHelper
     {
-        private static IDictionary<string, string> _langs;
+        private static readonly IDictionary<string, string> _langs;
 
         static CountryCodeToImageHelper()
         {

@@ -123,6 +123,9 @@
   <data name="AppLang" xml:space="preserve">
     <value>Application Language</value>
   </data>
+  <data name="BitcoinAddress" xml:space="preserve">
+    <value>bc1qdv03zazs9370cspmpnvg7rynvrrkxr992qcnlw</value>
+  </data>
   <data name="Compare" xml:space="preserve">
     <value>Compare</value>
   </data>
@@ -137,6 +140,12 @@
   </data>
   <data name="CouldNotVersForLang" xml:space="preserve">
     <value>Could not gather verses from selected language</value>
+  </data>
+  <data name="CryptoSupport" xml:space="preserve">
+    <value>You can also choose to support us by sending us crypto. We accept the following.</value>
+  </data>
+  <data name="EtheriumAddress" xml:space="preserve">
+    <value>0x9e7719E5ad23103e065D455FA03834170A6B2369</value>
   </data>
   <data name="Favorites" xml:space="preserve">
     <value>Favorites</value>
@@ -227,6 +236,9 @@
   </data>
   <data name="Shop" xml:space="preserve">
     <value>Merch</value>
+  </data>
+  <data name="ShopDesc" xml:space="preserve">
+    <value>Thank you for using our app! We offer this application for free, however it takes both time and resources. We wish to improve this application, and to create more applications for norse mythology. We would greatly appreciate it if you'd be so kind to buy some merch from our shop! The designs are created by us and we hope you find them interesting.</value>
   </data>
   <data name="Stanzas" xml:space="preserve">
     <value>Verses</value>

@@ -37,6 +37,16 @@ namespace Havamal.Helpers
                 _ => "randomDG.png"
             };
         }
+        public static string GetMerchSource(this HavamalTheme theme)
+        {
+            return theme switch
+            {
+                HavamalTheme.Dark => "merchWH.png",
+                HavamalTheme.Light => "merchB.png",
+                HavamalTheme.Water => "merchTW.png",
+                _ => "merchDG.png"
+            };
+        }
         public static string GetFavoriteSource(this HavamalTheme theme)
         {
             return theme switch

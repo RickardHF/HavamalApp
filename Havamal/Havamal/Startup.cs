@@ -66,6 +66,11 @@ namespace Havamal
             themeChanger.ChangeTheme((HavamalTheme)HavamalPreferences.Theme);
             services.AddSingleton<IThemeChanger>(themeChanger);
 
+            var databaseSettings = new DatabaseSettings
+            {
+                LastDbUpdate = context.Configuration.GetValue<DateTime>("DatabaseSettings:LastChanged")
+            };
+
             services
                 .AddTransient<StanzaCarouselPage>()
                 .AddTransient<StanzaListPage>()
@@ -79,6 +84,7 @@ namespace Havamal
 
             services
                 .AddSingleton(dataSettings)
+                .AddSingleton(databaseSettings)
                 .ConfigureDependencies()
                 .AddTransient<VersePage>()
                 .AddTransient<SettingsPage>()

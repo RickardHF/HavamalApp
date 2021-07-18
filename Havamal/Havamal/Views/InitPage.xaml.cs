@@ -29,10 +29,12 @@ namespace Havamal.Views
             InitializeComponent();
 
             var bindingContext = Startup.ServiceProvider.GetService<InitPageModel>();
+            
+            //bindingContext.SetUpFinished -= RunFinisher;
+            //bindingContext.SetUpFinished += RunFinisher;
+            
             _finishedAction = setUpFinished;
 
-            bindingContext.SetUpFinished -= RunFinisher;
-            bindingContext.SetUpFinished += RunFinisher;
 
             
             BindingContext = bindingContext;

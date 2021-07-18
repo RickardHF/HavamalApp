@@ -18,12 +18,9 @@ namespace Havamal
 {
     public partial class App : Application
     {
-        private readonly Stack<Page> _pageStack;
         public App()
         {
             InitializeComponent();
-
-            _pageStack = new Stack<Page>();
 
             CultureInfo language = new CultureInfo(HavamalPreferences.AppLanguage);
 
@@ -34,7 +31,7 @@ namespace Havamal
             Resources.MergedDictionaries.Add(currentTheme.GetTheme());
         }
 
-        private void SetUpFinished(object sender, EventArgs e)
+        public void SetUpFinished(object sender, EventArgs e)
         {
             MainPage = new MasterPage
             {

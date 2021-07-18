@@ -69,7 +69,7 @@ namespace Havamal.Repositories
 
                 
 
-                return ComputerExtensions.ComputerSaysYes(DarlingExtensions.Allow((IReadOnlyCollection<Verse>)verses));
+                return await Task.FromResult(ComputerExtensions.ComputerSaysYes(DarlingExtensions.Allow((IReadOnlyCollection<Verse>)verses)));
 
             }
             catch (Exception e)
@@ -122,7 +122,7 @@ namespace Havamal.Repositories
                 }
                 
 
-                return ComputerExtensions.ComputerSaysYes(DarlingExtensions.Allow((IReadOnlyCollection<Verse>) verses));
+                return await Task.FromResult(ComputerExtensions.ComputerSaysYes(DarlingExtensions.Allow((IReadOnlyCollection<Verse>) verses)));
 
             }
             catch (Exception e)

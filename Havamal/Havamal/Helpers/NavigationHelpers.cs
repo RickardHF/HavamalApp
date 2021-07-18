@@ -11,7 +11,7 @@ namespace Havamal.Helpers
         public static void GoToPage(Page page, string title = "")
         {
             var main = (MasterPage)App.Current.MainPage;
-            var master = (MasterPageMaster)main.Master;
+            var master = (MasterPageMaster)main.Flyout;
 
 
             main.Detail = new NavigationPage(page) { Title = title };

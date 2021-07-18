@@ -9,7 +9,10 @@
       "Microsoft": "Information"
     },
     "Settings": {
-      "SelectedLanguage" : 1
+      "SelectedLanguage": 1
     }
+  },
+  "DatabaseSettings": {
+    "LastChanged": "2021-01-01T00:00:00"
   }
 }

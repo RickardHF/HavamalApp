@@ -64,7 +64,7 @@ namespace Havamal.Views
             var pos = _context.PositionOfVerse(i);
             if (pos < 0) return;
 
-            var newSelection = _context.Stanzas.ElementAt(pos);
+            //var newSelection = _context.Stanzas.ElementAt(pos);
 
             _context.UpdateCurrent = false;
             Carousel.Position = pos;

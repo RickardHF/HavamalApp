@@ -24,7 +24,7 @@ namespace Havamal.Views
                 var uri = "https://norse-wisdom-shop.creator-spring.com/";
                 await Browser.OpenAsync(uri, BrowserLaunchMode.SystemPreferred);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 // An unexpected error occured. No browser may be installed on the device.
             }

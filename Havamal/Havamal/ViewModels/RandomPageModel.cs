@@ -60,7 +60,7 @@ namespace Havamal.ViewModels
                 {
                     // TODO : Alert user
                 });
-            }catch (Exception e)
+            }catch (Exception)
             {
                 // TODO : Alert user
             }
