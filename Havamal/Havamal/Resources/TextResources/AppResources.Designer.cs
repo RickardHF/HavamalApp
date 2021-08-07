@@ -61,6 +61,24 @@ namespace Havamal.Resources.TextResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to About.
+        /// </summary>
+        internal static string About {
+            get {
+                return ResourceManager.GetString("About", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to About Havamal.
+        /// </summary>
+        internal static string AboutHavamal {
+            get {
+                return ResourceManager.GetString("AboutHavamal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Search in all versions.
         /// </summary>
         internal static string AllLang {
@@ -187,6 +205,15 @@ namespace Havamal.Resources.TextResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Havamal is the speach of &quot;The High One&quot;. In norse mythology the highest deity off them all is Odin, it is assumed this poem is Odin&apos;s words of wisdom to the humans. It contains words of wisdom about everyday things, friendship etc, and also about magic. The poem is part of the &quot;Older Edda&quot; and was likely a mostly oral tradition before it was written down, although parts of it has been found carved on runestones. .
+        /// </summary>
+        internal static string HavamalAbout {
+            get {
+                return ResourceManager.GetString("HavamalAbout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Error occurred inserting new languages.
         /// </summary>
         internal static string InfoLangsInsertFail {
@@ -282,6 +309,15 @@ namespace Havamal.Resources.TextResources {
         internal static string NumSort {
             get {
                 return ResourceManager.GetString("NumSort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Odin was the leader of the gods, and very central in norse mythology. He was among other things the god of wisdom and travelling. He himself traveled far and wide in search of wisom, for which he sacrificed his eye, and also did sacrifice himself to himself, allowing the runes to reveal themselves for him..
+        /// </summary>
+        internal static string OdinAbout {
+            get {
+                return ResourceManager.GetString("OdinAbout", resourceCulture);
             }
         }
         

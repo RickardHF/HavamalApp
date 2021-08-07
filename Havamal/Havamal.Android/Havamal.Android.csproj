@@ -414,10 +414,13 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\merchWH.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\runic_stone.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties XamarinHotReloadDebuggerTimeoutExceptionHavamalAndroidHideInfoBar="True" TriggeredFromHotReload="False" />
+      <UserProperties TriggeredFromHotReload="False" XamarinHotReloadDebuggerTimeoutExceptionHavamalAndroidHideInfoBar="True" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

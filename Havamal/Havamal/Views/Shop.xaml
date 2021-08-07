@@ -22,7 +22,7 @@
                 <Image Source="shop.png"/>
                 <Label 
                     Text="{Static resources:AppResources.ShopDesc}"
-                    Style="{DynamicResource VerseIdText}" />
+                    Style="{DynamicResource VerseText}" />
                 <Label/>
                 <Button 
                     Text="{Static resources:AppResources.WebLinkShop}"
@@ -31,7 +31,7 @@
                     />
                 <Label/>
                 <Label Text="{Static resources:AppResources.CryptoSupport}"
-                           Style="{DynamicResource VerseIdText}" />
+                           Style="{DynamicResource VerseText}" />
                 <Label Text="Bitcoin"
                            Style="{DynamicResource VerseIdText}" />
                 <components:CopyableField Title="{Static resources:AppResources.BitcoinAddress}" />

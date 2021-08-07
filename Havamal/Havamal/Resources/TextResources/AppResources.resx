@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AboutHavamal" xml:space="preserve">
+    <value>About Havamal</value>
+  </data>
   <data name="AllLang" xml:space="preserve">
     <value>Search in all versions</value>
   </data>
@@ -159,6 +165,9 @@
   <data name="Havamal" xml:space="preserve">
     <value>Havamal</value>
   </data>
+  <data name="HavamalAbout" xml:space="preserve">
+    <value>Havamal is the speach of "The High One". In norse mythology the highest deity off them all is Odin, it is assumed this poem is Odin's words of wisdom to the humans. It contains words of wisdom about everyday things, friendship etc, and also about magic. The poem is part of the "Older Edda" and was likely a mostly oral tradition before it was written down, although parts of it has been found carved on runestones. </value>
+  </data>
   <data name="InfoLangsInsertFail" xml:space="preserve">
     <value>Error occurred inserting new languages</value>
   </data>
@@ -191,6 +200,9 @@
   </data>
   <data name="NumSort" xml:space="preserve">
     <value>Numeric sort</value>
+  </data>
+  <data name="OdinAbout" xml:space="preserve">
+    <value>Odin was the leader of the gods, and very central in norse mythology. He was among other things the god of wisdom and travelling. He himself traveled far and wide in search of wisom, for which he sacrificed his eye, and also did sacrifice himself to himself, allowing the runes to reveal themselves for him.</value>
   </data>
   <data name="Random" xml:space="preserve">
     <value>Random</value>

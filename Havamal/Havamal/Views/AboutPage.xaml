@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Havamal.Views.AboutPage"
+             xmlns:resources="clr-namespace:Havamal.Resources.TextResources"
+             xmlns:components="clr-namespace:Havamal.Views.Components"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Image Source="runic_stone.png"/>
+                <Label 
+                    Text="{Static resources:AppResources.HavamalAbout}"
+                    Style="{DynamicResource VerseText}"
+                    Padding="0,0,0,10"/>
+                <Label 
+                    Text="{Static resources:AppResources.OdinAbout}"
+                    Style="{DynamicResource VerseText}"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -25,6 +25,16 @@
                 <Setter Property="MinimumHeightRequest" Value="250"/>
             </Style>
 
+            <Style x:Key="HeaderText" TargetType="Label">
+                <Setter Property="FontSize" Value="Title"/>
+                <Setter Property="FontFamily" Value="Roboto"/>
+                <!--<Setter Property="FontFamily" Value="Raleway"/>-->
+                <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="LineHeight" Value="2"/>
+                <Setter Property="LineBreakMode" Value="WordWrap"/>
+                <Setter Property="WidthRequest" Value="250"/>
+            </Style>
 
             <Style x:Key="VerseText" TargetType="Label">
                 <Setter Property="FontSize" Value="Large"/>
