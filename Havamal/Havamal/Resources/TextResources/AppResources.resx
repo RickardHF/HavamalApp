@@ -148,7 +148,7 @@
     <value>Could not gather verses from selected language</value>
   </data>
   <data name="CryptoSupport" xml:space="preserve">
-    <value>You can also choose to support us by sending us crypto. We accept the following.</value>
+    <value>You can also choose to support us by donating cryptocurrencies. Here are our addresses for various currencies.</value>
   </data>
   <data name="EtheriumAddress" xml:space="preserve">
     <value>0x9e7719E5ad23103e065D455FA03834170A6B2369</value>

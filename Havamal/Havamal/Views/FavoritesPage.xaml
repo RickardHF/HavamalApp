@@ -23,8 +23,18 @@
                             <TapGestureRecognizer NumberOfTapsRequired="2" CommandParameter="{Binding .}" Tapped="FavoriteTapped">
                             </TapGestureRecognizer>
                         </StackLayout.GestureRecognizers>
-                        <Label Text="{Binding VerseId}"  HorizontalOptions="StartAndExpand" Margin="50,0,0,0" 
-                               Style="{DynamicResource VerseIdText}"/>
+                        <StackLayout HorizontalOptions="FillAndExpand"
+                                     VerticalOptions="FillAndExpand"
+                                     Orientation="Horizontal">
+                            <Label Text="{Binding VerseId}"  HorizontalOptions="StartAndExpand" Margin="50,0,0,0" 
+                                   Style="{DynamicResource VerseIdText}"/>
+                            <Button Text="-" 
+                                    Clicked="Remove_Clicked" 
+                                    FontSize="Large"
+                                    Padding="0"
+                                    Style="{DynamicResource RemvBtn}"
+                                    CommandParameter="{Binding .}"/>
+                        </StackLayout>
                         <Label Text="{Binding Content}" 
                                Style="{DynamicResource VerseText}"/>
                     </StackLayout>

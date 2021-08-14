@@ -151,7 +151,7 @@ namespace Havamal.Resources.TextResources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to You can also choose to support us by sending us crypto. We accept the following..
+        ///   Looks up a localized string similar to You can also choose to support us by donating cryptocurrencies. Here are our addresses for various currencies..
         /// </summary>
         internal static string CryptoSupport {
             get {

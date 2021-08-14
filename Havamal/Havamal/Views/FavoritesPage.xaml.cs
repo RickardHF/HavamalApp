@@ -17,12 +17,13 @@ namespace Havamal.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class FavoritesPage : ContentPage
     {
-
+        private readonly Action<Verse> OnRemove;
         public FavoritesPage()
         {
             InitializeComponent();
             var bindingContext = Startup.ServiceProvider.GetService<FavoritesPageModel>();
             BindingContext = bindingContext;
+            OnRemove = bindingContext.RemoveFavorite;
         }
 
         private void FavoriteTapped(object sender, EventArgs e)
@@ -33,6 +34,16 @@ namespace Havamal.Views
             //var page = (Page) Activator.CreateInstance(typeof(StanzaCarouselPage));
             var page = new StanzaCarouselPage() { Title = AppResources.Stanzas };
             NavigationHelpers.GoToPage(page, AppResources.Stanzas);
+        }
+
+
+
+        private void Remove_Clicked(object sender, EventArgs e)
+        {
+            var btn = (Button) sender;
+            var verse = (Verse) btn.CommandParameter;
+
+            OnRemove(verse);
         }
     }
 }

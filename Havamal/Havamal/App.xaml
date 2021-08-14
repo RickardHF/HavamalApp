@@ -152,6 +152,14 @@
                 <Setter Property="CornerRadius" Value="20"/>
             </Style>
 
+            <Style x:Key="RemvBtn" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{DynamicResource SecondaryColor}"/>
+                <Setter Property="TextColor" Value="{DynamicResource TertiaryTextColor}"/>
+                <Setter Property="CornerRadius" Value="10"/>
+                <Setter Property="WidthRequest" Value="40"/>
+                <Setter Property="HeightRequest" Value="30"/>
+            </Style>
+            
             <Style x:Key="ContentStack" TargetType="StackLayout">
                 <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}"/>
                 <Setter Property="HorizontalOptions" Value="FillAndExpand"/>

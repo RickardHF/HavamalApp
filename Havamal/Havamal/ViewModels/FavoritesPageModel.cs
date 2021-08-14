@@ -33,7 +33,7 @@ namespace Havamal.ViewModels
 
         public Command LoadDataCommand { get; private set; }
 
-
+        public Action<Verse> RemoveFavorite { get; private set; } 
 
         public FavoritesPageModel(IVerseRepository verseRepository, IFavoriteRepository favoriteRepository)
         {
@@ -46,6 +46,7 @@ namespace Havamal.ViewModels
             _semaphore = new SemaphoreSlim(1);
 
             LoadDataCommand = new Command(async () => await LoadFavorites());
+            RemoveFavorite = new Action<Verse>(async verse => await RemoveFav(verse));
 
             InitPage();
         }
@@ -69,6 +70,23 @@ namespace Havamal.ViewModels
             } finally
             {
                 IsBusy = false;
+            }
+        }
+
+        private async Task RemoveFav(Verse verse)
+        {
+            try
+            {
+                _errMsg = "";
+                var del = await _favoriteRepository.Delete(new List<Favorite> { new Favorite(verse.VerseId) }, null);
+                del.CanI(yes =>
+                {
+                    _favorited.RemoveAll(x => x.VerseId == verse.VerseId);
+                    Favorites.Remove(verse);
+                }, no => { });
+            } catch (Exception e)
+            {
+                _errMsg = e.Message;
             }
         }
 

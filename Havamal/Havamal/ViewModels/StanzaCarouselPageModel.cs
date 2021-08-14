@@ -126,7 +126,7 @@ namespace Havamal.ViewModels
                 }
                 OnPropertyChanged(nameof(Stanzas));
                 UpdateCurrent = true;
-                CurrentStanza = Stanzas.FirstOrDefault(x => x.VerseId == HavamalPreferences.CurrentVerse);
+                //CurrentStanza = Stanzas.FirstOrDefault(x => x.VerseId == HavamalPreferences.CurrentVerse);
                 ChangeCurrent(HavamalPreferences.CurrentVerse);
             }, no =>
             {

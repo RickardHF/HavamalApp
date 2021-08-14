@@ -22,14 +22,19 @@ namespace Havamal.Views
         public StanzaCarouselPage()
         {
             InitializeComponent();
+
+            Carousel.IsScrollAnimated = false;
+            Carousel.Loop = false;
+
             var context = Startup.ServiceProvider.GetService<StanzaCarouselPageModel>();
+            
+            Carousel.ItemsSource = context.Stanzas;
+            
             context.ChangeCurrent = GoToStanza;
 
             BindingContext = context;
             _context = context;
 
-            Carousel.ItemsSource = _context.Stanzas;
-            Carousel.IsScrollAnimated = false;
         }
 
 
@@ -63,9 +68,8 @@ namespace Havamal.Views
         private void GoToStanza(int i) {
             var pos = _context.PositionOfVerse(i);
             if (pos < 0) return;
-
-            //var newSelection = _context.Stanzas.ElementAt(pos);
-
+            var newSelection = _context.Stanzas.ElementAt(pos);
+            
             _context.UpdateCurrent = false;
             Carousel.Position = pos;
             _context.UpdateCurrent = true;
