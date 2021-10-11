@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <resources>
-  <style name="DarkTheme" parent="MainTheme.Base">
+  <style name="DarkTheme" parent="HavamalTheme">
 
     <item name="colorPrimary">@color/colorPrimary_dark</item>
     <item name="colorPrimaryDark">@color/colorPrimaryDark_dark</item>

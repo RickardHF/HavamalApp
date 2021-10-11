@@ -7,6 +7,17 @@ namespace Havamal.Helpers
 {
     public static class IconThemeHelper
     {
+        public static string GetThemeIconCode(this HavamalTheme theme)
+        {
+            return theme switch
+            {
+                HavamalTheme.Dark => "WH",
+                HavamalTheme.Light => "B",
+                HavamalTheme.Water => "TW",
+                _ => "DG"
+            };
+        }
+
         public static string GetBookSource(this HavamalTheme theme)
         {
             return theme switch

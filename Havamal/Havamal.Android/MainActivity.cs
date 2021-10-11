@@ -11,7 +11,7 @@ using Havamal.Resources.Themes;
 namespace Havamal.Droid
 {
     [Activity(Label = "Havamal"
-        //, Theme = "@style/MainTheme"
+        , Theme = "@style/HavamalTheme"
         //, MainLauncher = true
         , ConfigurationChanges = ConfigChanges.ScreenSize
         | ConfigChanges.Orientation 

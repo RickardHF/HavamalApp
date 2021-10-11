@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
+using Havamal.Resources.Themes;
+using Havamal.Helpers;
+using Havamal.ViewModels.Components;
 
 namespace Havamal.Views.Components
 {
@@ -15,7 +18,9 @@ namespace Havamal.Views.Components
     {
         public CopyableField()
         {
+            BindingContext = new CopyableFieldModel();
             InitializeComponent();
+
         }
         public static BindableProperty TitleProperty = BindableProperty.Create(
             nameof(Title)

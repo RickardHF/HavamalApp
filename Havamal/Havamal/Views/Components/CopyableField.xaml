@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Frame xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="Havamal.Views.Components.CopyableField"
              Style="{DynamicResource CopyableFieldFrame}">
     <Grid>
@@ -8,8 +8,8 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="7*"/>
-            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="2*"/>
         </Grid.ColumnDefinitions>
         <Entry 
             Style="{DynamicResource CryptoEntry}"
@@ -19,10 +19,14 @@
             IsReadOnly="True"
             WidthRequest="200"
                        />
-        <Button 
+        <ImageButton 
             Grid.Row="0"
             Grid.Column="1"
-            Clicked="Copy_Clicked" 
-            Text="Copy"/>
+            Style="{DynamicResource CopyButton}"
+            Source="{Binding ImageSource}"
+            Clicked="Copy_Clicked"
+            HeightRequest="10"
+            >
+        </ImageButton>
     </Grid>
 </Frame>

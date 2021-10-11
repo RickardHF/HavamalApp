@@ -189,6 +189,13 @@
                 <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
             </Style>
 
+            <Style x:Key="CopyButton" TargetType="ImageButton">
+                <Setter Property="WidthRequest" Value="30"/>
+                <Setter Property="CornerRadius" Value="20"/>
+                <Setter Property="BackgroundColor" Value="{DynamicResource SecondaryColor}"/>
+                <Setter Property="Aspect" Value="AspectFit"/>
+            </Style>
+
             <Style x:Key="FrameImp" TargetType="Frame">
                 <Setter Property="BackgroundColor" Value="{DynamicResource PageBackgroundColor}"/>
                 <Setter Property="BorderColor" Value="{DynamicResource PrimaryTextColor}"/>
