@@ -91,6 +91,7 @@ namespace Havamal
                 .AddTransient<SettingsPageModel>()
                 .AddTransient<VersePageModel>()
                 .AddTransient<FavoritesPageModel>()
+                .AddTransient<FirstTimePageModel>()
                 .AddTransient<SearchPageModel>()
                 .AddTransient<ComparePageModel>()
                 .AddTransient<StanzaCarouselPageModel>()

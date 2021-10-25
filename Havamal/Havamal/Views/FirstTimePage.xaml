@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewmodels="clr-namespace:Havamal.ViewModels"
+             xmlns:views="clr-namespace:Havamal.Views.FirstPageViews"
+             x:DataType="viewmodels:FirstTimePageModel"
+             x:Class="Havamal.Views.FirstTimePage"
+             BackgroundColor="{DynamicResource PageBackgroundColor}">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <ContentView Content="{Binding SelectedItem.View}"/>
+
+
+            <ProgressBar
+                Progress="{Binding Progress}"    
+                AbsoluteLayout.LayoutBounds="0.5,0.85"
+                ScaleY="2"
+                ScaleX="6"
+                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            <Grid 
+                   AbsoluteLayout.LayoutBounds="0.5,0.95"
+                   AbsoluteLayout.LayoutFlags="PositionProportional">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button 
+                    Grid.Row="0" 
+                    Grid.Column="0" 
+                    Text="Back" 
+                    Style="{DynamicResource RandBtn}" 
+                    Command="{Binding BackCommand}" 
+                    IsVisible="{Binding VisibleBack}"/>
+                <Button 
+                    Grid.Row="0" 
+                    Grid.Column="1" 
+                    Text="Finish" 
+                    Style="{DynamicResource RandBtn}" 
+                    Command="{Binding FinishCommand}" 
+                    IsVisible="{Binding VisibleFinish}"/>
+                <Button 
+                    Grid.Row="0" 
+                    Grid.Column="2" 
+                    Text="Next" 
+                    Style="{DynamicResource RandBtn}" 
+                    Command="{Binding NextCommand}" 
+                    IsVisible="{Binding VisibleNext}"/>
+            </Grid>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>

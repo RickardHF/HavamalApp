@@ -60,7 +60,8 @@ namespace Havamal
                     new MasterPageMasterMenuItem { Id = 4, Title = AppResources.Favorites, TargetType = typeof(FavoritesPage), Icon = currentTheme.GetFavoriteSource() },
                     new MasterPageMasterMenuItem { Id = 5, Title = AppResources.Shop, TargetType = typeof(Shop), Icon = currentTheme.GetMerchSource() },
                     new MasterPageMasterMenuItem { Id = 6, Title = AppResources.About, TargetType = typeof(AboutPage), Icon = $"info{currentTheme.GetThemeIconCode()}.xml" },
-                    new MasterPageMasterMenuItem { Id = 7, Title = AppResources.Settings, TargetType = typeof(SettingsPage), Icon = currentTheme.GetSpokesSource()  }
+                    new MasterPageMasterMenuItem { Id = 7, Title = AppResources.Settings, TargetType = typeof(SettingsPage), Icon = currentTheme.GetSpokesSource()  },
+                    new MasterPageMasterMenuItem { Id = 8, Title = "FirstTime", TargetType = typeof(FirstTimePage), Icon = currentTheme.GetSpokesSource()  }
                 });
             }
 

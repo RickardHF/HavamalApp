@@ -54,6 +54,7 @@ namespace Havamal.Views.Components
         {
             var text = TitleField.Text;
             await Clipboard.SetTextAsync(text);
+            
         }
     }
 }

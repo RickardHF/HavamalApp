@@ -87,10 +87,6 @@ namespace Havamal.ViewModels
             }
             finally
             {
-
-                //var app = (App)Application.Current;
-                //app.SetUpFinished(this, EventArgs.Empty);
-                //app.Reset(new NavigationPage(new StanzaCarouselPage() { Title = AppResources.Stanzas }));
                 OnSetupFinished(EventArgs.Empty);
                 IsBusy = false;
             }
