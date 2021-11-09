@@ -1,10 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:components="clr-namespace:Havamal.Views.Components" 
+             xmlns:viewmodels="clr-namespace:Havamal.ViewModels"
+             x:DataType="viewmodels:FirstTimePageModel"
              x:Class="Havamal.Views.FirstPageViews.ThemeView">
   <ContentView.Content>
       <StackLayout>
-          <Label Text="Hello ThemeView!" />
-      </StackLayout>
+            <Label Text="Select Theme"/>
+            <Label Text="Select your prefered theme for the application"/>
+            
+        </StackLayout>
   </ContentView.Content>
 </ContentView>

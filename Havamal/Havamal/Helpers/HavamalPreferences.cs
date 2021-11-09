@@ -10,44 +10,43 @@ namespace Havamal.Helpers
 {
     public static class HavamalPreferences
     {
-        public static int CurrentVerse { get
-            {
-                return Preferences.Get("CurrentVerse", 1);
-            } set {
-                Preferences.Set("CurrentVerse", value);
-            }
+        public static bool HasSeenInstructions
+        {
+            get => Preferences.Get("HasSeenInstructions", false);
+            set => Preferences.Set("HasSeenInstructions", value);
+        }
+
+        public static int SelectedFromLanguage {
+            get => Preferences.Get("FromLanguage", -1);
+            set => Preferences.Set("FromLanguage", value);
+        }
+
+        public static int SelectedToLanguage
+        {
+            get => Preferences.Get("ToLanguage", -1);
+            set => Preferences.Set("ToLanguage", value);
+        }
+
+        public static int CurrentVerse
+        {
+            get => Preferences.Get("CurrentVerse", 1); set => Preferences.Set("CurrentVerse", value);
         }
 
         public static int SelectedLanguage
         {
-            get
-            {
-                return Preferences.Get("SelectedLanguage", 1);
-            }
-            set
-            {
-                Preferences.Set("SelectedLanguage", value);
-            }
+            get => Preferences.Get("SelectedLanguage", 1);
+            set => Preferences.Set("SelectedLanguage", value);
         }
 
         public static int Theme
         {
-            get
-            {
-                return Preferences.Get("Theme", 0);
-            }
-            set
-            {
-                Preferences.Set("Theme", value);
-            }
+            get => Preferences.Get("Theme", 0);
+            set => Preferences.Set("Theme", value);
         }
 
         public static string AppLanguage
         {
-            get
-            {
-                return Preferences.Get("AppLanguage", "en");
-            }
+            get => Preferences.Get("AppLanguage", "en");
             set
             {
                 UpdateLang(value);
@@ -57,14 +56,8 @@ namespace Havamal.Helpers
 
         public static DateTime LastUpdated
         {
-            get
-            {
-                return Preferences.Get("LastUpdated", DateTime.MinValue);
-            }
-            set
-            {
-                Preferences.Set("LastUpdated", value);
-            }
+            get => Preferences.Get("LastUpdated", DateTime.MinValue);
+            set => Preferences.Set("LastUpdated", value);
         }
 
         private static void UpdateLang(string code)
@@ -81,21 +74,9 @@ namespace Havamal.Helpers
             }
         }
 
-        public static string SetupDbName
-        {
-            get
-            {
-                return "TempVerses";
-            }
-        }
+        public static string SetupDbName => "TempVerses";
 
-        public static string DbPassword
-        {
-            get
-            {
-                return "HavmalIsBest";
-            }
-        }
+        public static string DbPassword => "HavmalIsBest";
 
     }
 }

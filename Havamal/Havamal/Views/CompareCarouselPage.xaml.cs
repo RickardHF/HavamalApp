@@ -32,6 +32,7 @@ namespace Havamal.Views
             BindingContext = bindingContext;
 
             ComparisonsView.ItemsSource = _pageModel.Comparisons;
+            ComparisonsView.Loop = false;
             ComparisonsView.IsScrollAnimated = false;
 
         }

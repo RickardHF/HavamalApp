@@ -2,6 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Havamal.Views.StanzaCarouselPage"
+             xmlns:viewmodels="clr-namespace:Havamal.ViewModels"
+             xmlns:models="clr-namespace:Havamal.Models.HelperModels"
+             x:DataType="viewmodels:StanzaCarouselPageModel"
              BackgroundColor="{DynamicResource PageBackgroundColor}">
     <CarouselView 
             x:Name="Carousel"
@@ -11,6 +14,7 @@
             <CarouselView.ItemTemplate>
                 <DataTemplate>
                     <AbsoluteLayout
+                        x:DataType="models:VerseListItem"
                             BackgroundColor="{DynamicResource PageBackgroundColorOpaque}">
                         <!--<AbsoluteLayout.GestureRecognizers>
                             <TapGestureRecognizer NumberOfTapsRequired="2" CommandParameter="{Binding .}"  Tapped="FavoriteTapped"/>

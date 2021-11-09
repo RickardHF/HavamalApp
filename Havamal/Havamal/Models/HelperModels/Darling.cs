@@ -8,7 +8,7 @@ namespace Havamal.Models.HelperModels
 {
     public struct Darling<TModel>
     {
-        private static readonly List<TModel> _data = new List<TModel>();
+        private static readonly List<TModel> _data = new();
 
         public U MayI<U>(Func<TModel, U> yes, Func<U> no)
         {

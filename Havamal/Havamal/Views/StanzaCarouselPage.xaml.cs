@@ -28,13 +28,15 @@ namespace Havamal.Views
 
             var context = Startup.ServiceProvider.GetService<StanzaCarouselPageModel>();
             
-            Carousel.ItemsSource = context.Stanzas;
+            //Carousel.ItemsSource = context.Stanzas;
             
             context.ChangeCurrent = GoToStanza;
 
             BindingContext = context;
             _context = context;
 
+            //GoToStanza(HavamalPreferences.CurrentVerse);
+            //_context.InformChange();
         }
 
 
@@ -68,7 +70,6 @@ namespace Havamal.Views
         private void GoToStanza(int i) {
             var pos = _context.PositionOfVerse(i);
             if (pos < 0) return;
-            var newSelection = _context.Stanzas.ElementAt(pos);
             
             _context.UpdateCurrent = false;
             Carousel.Position = pos;

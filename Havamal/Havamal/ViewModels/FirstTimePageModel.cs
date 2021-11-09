@@ -1,4 +1,6 @@
-﻿using Havamal.Views.FirstPageViews;
+﻿using Havamal.Interfaces.Helpers;
+using Havamal.Views;
+using Havamal.Views.FirstPageViews;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,8 +30,12 @@ namespace Havamal.ViewModels
         public ICommand NextCommand { get; set; }
         
         
-        public FirstTimePageModel()
+        public BaseThemePageModel ThemeModel { get; private set; }
+
+        public FirstTimePageModel(IThemeChanger themeChanger)
         {
+            ThemeModel = new BaseThemePageModel(themeChanger, new NavigationPage(new FirstTimePage() { Title = "Welcome" }));
+
             Items = new List<ViewListItem>(){
                 new ViewListItem{Index = 1, View = new WelcomeView()}
                 , new ViewListItem{Index = 2, View = new AppLanguageView()}

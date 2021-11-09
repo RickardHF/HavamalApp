@@ -3,6 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:components="clr-namespace:Havamal.Views.Components"
              xmlns:converters="clr-namespace:Havamal.Converters"
+             xmlns:viewmodels="clr-namespace:Havamal.ViewModels"
+             xmlns:models="clr-namespace:Havamal.Models.HelperModels"
+             x:DataType="viewmodels:CompareCarouselPageModel"
              x:Class="Havamal.Views.CompareCarouselPage">
     <ContentPage.Content>
         <StackLayout Style="{DynamicResource Key=ContentStack}">
@@ -27,13 +30,15 @@
             </StackLayout>
             <ScrollView 
                 Orientation="Vertical"
-                VerticalScrollBarVisibility="Always">
-                <CarouselView x:Name="ComparisonsView" 
+                VerticalScrollBarVisibility="Always"
+                Margin="0,0,0,5">
+                <CarouselView x:Name="ComparisonsView"
                               ItemsSource="{Binding Comparisons}" 
                               CurrentItem="{Binding CurrentComparison, Mode=TwoWay}"  >
-                    <CarouselView.ItemTemplate>
+                    <CarouselView.ItemTemplate >
                         <DataTemplate>
-                            <StackLayout>
+                            <StackLayout
+                              x:DataType="models:CompareVerseListItem">
                                 <Frame
                                         BackgroundColor="Transparent"
                                         BorderColor="Transparent"

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Windows.Input;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -29,6 +29,14 @@ namespace Havamal.Views.Components
             , default(string)
             , propertyChanged: ImageSourceChanged
             );
+
+        public static BindableProperty ClickedProperty = BindableProperty.Create(
+            nameof(ICommand)
+            , typeof(string)
+            , typeof(ThemeButton)
+            , new Command(() => { })
+            , propertyChanged: ClickedChanged
+            );
         private static void TitleChanged(BindableObject bindable, object oldValue, object newValue)
         {
             var c = (ThemeButton)bindable;
@@ -39,6 +47,12 @@ namespace Havamal.Views.Components
         {
             var c = (ThemeButton)bindable;
             c.ButtonImage.Source = newValue.ToString();
+        }
+
+        private static void ClickedChanged(BindableObject bindable, object oldValue, object newValue)
+        {
+            var c = (ThemeButton)bindable;
+            c.Clicked = (ICommand)newValue;
         }
 
         public string Title
@@ -56,15 +70,16 @@ namespace Havamal.Views.Components
 
         public string ImageSource
         {
-            get
-            {
-                return (string)GetValue(ImageSourceProperty);
-            }
+            get => (string)GetValue(ImageSourceProperty);
 
-            set
-            {
-                SetValue(ImageSourceProperty, value);
-            }
+            set => SetValue(ImageSourceProperty, value);
+        }
+
+        public ICommand Clicked
+        {
+            get => (ICommand)GetValue(ClickedProperty);
+
+            set => SetValue(ClickedProperty, value);
         }
 
 
@@ -79,7 +94,8 @@ namespace Havamal.Views.Components
 
         public void OnButtonClicked(object sender, EventArgs args)
         {
-            OnClick();
+            if (OnClick != null) OnClick();
+            if ((bool)(Clicked?.CanExecute(null))) Clicked.Execute(null); 
         }
     }
 }

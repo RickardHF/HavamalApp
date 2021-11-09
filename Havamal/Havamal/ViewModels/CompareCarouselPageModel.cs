@@ -25,8 +25,9 @@ namespace Havamal.ViewModels
 
         private CompareVerseListItem Current { get; set; }
         public CompareVerseListItem CurrentComparison { 
-            get { return Current; } 
-            set { 
+            get { return Current; }
+            set
+            {
                 Current = value; 
                 if (SaveChange && value != null) HavamalPreferences.CurrentVerse = value.VerseId;
             } 
@@ -42,7 +43,7 @@ namespace Havamal.ViewModels
         public ObservableCollection<Language> FromLanguages;
         public ObservableCollection<Language> ToLanguages;
 
-        public ObservableCollection<CompareVerseListItem> Comparisons;
+        public ObservableCollection<CompareVerseListItem> Comparisons { get; set; }
 
         public Language CurrentFromLanguage
         {
@@ -54,6 +55,7 @@ namespace Havamal.ViewModels
             {
                 SaveChange = false;
                 _from = value;
+                HavamalPreferences.SelectedFromLanguage = value.Id;
                 _ = LoadComparisons();
                 OnPropertyChanged(nameof(CurrentFromLanguage));
             }
@@ -68,6 +70,7 @@ namespace Havamal.ViewModels
             {
                 SaveChange = false;
                 _to = value;
+                HavamalPreferences.SelectedToLanguage = value.Id;
                 _ = LoadComparisons();
                 OnPropertyChanged(nameof(CurrentToLanguage));
             }
@@ -124,6 +127,14 @@ namespace Havamal.ViewModels
                     {
                         ToLanguages.Add(new Language(l.Id, l.Name, l.LanguageCode, l.Authors));
                     }
+
+                    var fromLang = FromLanguages.FirstOrDefault(x => x.Id == HavamalPreferences.SelectedFromLanguage);
+                    var toLang = ToLanguages.FirstOrDefault(x => x.Id == HavamalPreferences.SelectedToLanguage);
+
+                    if (fromLang != null || fromLang != default(Language)) CurrentFromLanguage = fromLang;
+                    if (toLang != null || toLang != default(Language)) CurrentToLanguage = toLang;
+
+
                 }, no =>
                 {
                     // TODO : Error handling
@@ -188,6 +199,7 @@ namespace Havamal.ViewModels
             }
             finally
             {
+                SaveChange = true;
                 IsBusy = false;
             }
         }

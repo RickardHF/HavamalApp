@@ -21,7 +21,7 @@ namespace Havamal.ViewModels
         private readonly IVerseRepository _verseRepository;
         private readonly IFavoriteRepository _favoriteRepository;
 
-        public ObservableCollection<VerseListItem> Stanzas;
+        public ObservableCollection<VerseListItem> Stanzas { get; set; }
         private List<Favorite> _favorites;
 
         public EventHandler ItemsLoaded;
@@ -52,10 +52,6 @@ namespace Havamal.ViewModels
         public void InformChange()
         {
             OnPropertyChanged(nameof(CurrentStanza));
-            //OnPropertyChanged(nameof(CurrentStanza.Favorite));
-            //OnPropertyChanged(nameof(CurrentStanza.Chapter));
-            //OnPropertyChanged(nameof(CurrentStanza.Content));
-            //OnPropertyChanged(nameof(CurrentStanza.VerseId));
             OnPropertyChanged(nameof(Chapter));
             OnPropertyChanged(nameof(Stanzas));
         }
@@ -84,7 +80,7 @@ namespace Havamal.ViewModels
 
         public async void Initialize()
         {
-            IsBusy = false;
+            IsBusy = true;
             Stanzas = new ObservableCollection<VerseListItem>();
             _favorites = new List<Favorite>();
             UpdateCurrent = false;
@@ -92,7 +88,7 @@ namespace Havamal.ViewModels
             {
                 await FetchFavorites();
                 await FetchStanzas();
-                SetFavoriteImages();
+                //SetFavoriteImages();
             }
             catch
             {
@@ -100,7 +96,7 @@ namespace Havamal.ViewModels
             }
             finally
             {
-                IsBusy = true;
+                IsBusy = false;
             }
         }
 
@@ -124,14 +120,16 @@ namespace Havamal.ViewModels
                                 : (Style)Application.Current.Resources["FavUnselected"]
                     }); ;
                 }
-                OnPropertyChanged(nameof(Stanzas));
                 UpdateCurrent = true;
-                //CurrentStanza = Stanzas.FirstOrDefault(x => x.VerseId == HavamalPreferences.CurrentVerse);
+                CurrentStanza = Stanzas.FirstOrDefault(x => x.VerseId == HavamalPreferences.CurrentVerse);
+                OnPropertyChanged(nameof(CurrentStanza));
+                
                 ChangeCurrent(HavamalPreferences.CurrentVerse);
             }, no =>
             {
 
             });
+            OnPropertyChanged(nameof(Stanzas));
         }
 
         public async Task FavoriteClicked()
