@@ -28,42 +28,43 @@
                     Description="{Binding CurrentToLanguage.Authors}"
                     WidthRequest="250"/>
             </StackLayout>
-            <ScrollView 
-                Orientation="Vertical"
-                VerticalScrollBarVisibility="Always"
-                Margin="0,0,0,5">
-                <CarouselView x:Name="ComparisonsView"
-                              ItemsSource="{Binding Comparisons}" 
-                              CurrentItem="{Binding CurrentComparison, Mode=TwoWay}"  >
-                    <CarouselView.ItemTemplate >
-                        <DataTemplate>
-                            <StackLayout
-                              x:DataType="models:CompareVerseListItem">
-                                <Frame
-                                        BackgroundColor="Transparent"
-                                        BorderColor="Transparent"
-                                        >
-                                    <Frame.GestureRecognizers>
-                                        <TapGestureRecognizer Tapped="TapVerseId"></TapGestureRecognizer>
-                                    </Frame.GestureRecognizers>
-                                    <Frame Style="{DynamicResource FrameImp}" 
-                                           HorizontalOptions="Start">
-                                        <Label Text="{Binding VerseId}" 
-                                               Style="{DynamicResource VerseIdText}" 
-                                               HorizontalOptions="Center"/>
-                                    </Frame>
+            <CarouselView x:Name="ComparisonsView"
+                            ItemsSource="{Binding Comparisons}" 
+                            CurrentItem="{Binding CurrentComparison, Mode=TwoWay}"  >
+                <CarouselView.ItemTemplate >
+                    <DataTemplate>
+                        <StackLayout
+                            x:DataType="models:CompareVerseListItem">
+                            <Frame
+                                    BackgroundColor="Transparent"
+                                    BorderColor="Transparent"
+                                    >
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapVerseId"></TapGestureRecognizer>
+                                </Frame.GestureRecognizers>
+                                <Frame Style="{DynamicResource FrameImp}" 
+                                        HorizontalOptions="Start">
+                                    <Label Text="{Binding VerseId}" 
+                                            Style="{DynamicResource VerseIdText}" 
+                                            HorizontalOptions="Center"/>
                                 </Frame>
-                                <Label Text="{Binding FromContent}"
-                                       Style="{DynamicResource VerseText}"
-                                       Margin="0,0,0,20"/>
-                                <Label Text="{Binding ToContent}"
-                                       Style="{DynamicResource VerseText}"
-                                       Margin="0,20,0,5"/>
-                            </StackLayout>
-                        </DataTemplate>
-                    </CarouselView.ItemTemplate>
-                </CarouselView>
-            </ScrollView>
+                            </Frame>
+                            <ScrollView
+                                    Orientation="Vertical"
+                                    VerticalScrollBarVisibility="Always">
+                                <StackLayout>
+                                    <Label Text="{Binding FromContent}"
+                                            Style="{DynamicResource VerseText}"
+                                            Margin="0,0,0,20"/>
+                                    <Label Text="{Binding ToContent}"
+                                            Style="{DynamicResource VerseText}"
+                                            Margin="0,20,0,5"/>
+                                </StackLayout>
+                            </ScrollView>
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
