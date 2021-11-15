@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Frame xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewmodel="clr-namespace:Havamal.ViewModels.Components"
              x:Class="Havamal.Views.Components.CopyableField"
+             x:DataType="viewmodel:CopyableFieldModel"
              Style="{DynamicResource CopyableFieldFrame}">
     <Grid>
         <Grid.RowDefinitions>
@@ -24,7 +26,8 @@
             Grid.Column="1"
             Style="{DynamicResource CopyButton}"
             Source="{Binding ImageSource}"
-            Clicked="Copy_Clicked"
+            Command="{Binding CopyCommand}"
+            CommandParameter="{Binding Source={x:Reference TitleField}, Path=Text}"
             HeightRequest="10"
             >
         </ImageButton>
