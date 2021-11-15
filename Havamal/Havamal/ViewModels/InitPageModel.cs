@@ -33,6 +33,8 @@ namespace Havamal.ViewModels
         private readonly DatabaseSettings _databaseSettings;
 
         private string _infoText = "";
+        private readonly Task _setupTask;
+        private Timer _timer;
 
         public string InfoText { get { return _infoText; } set
             {
@@ -64,10 +66,12 @@ namespace Havamal.ViewModels
             SetUpFinished -= app.SetUpFinished;
             SetUpFinished += app.SetUpFinished;
 
-            SetUp();
+            _setupTask = SetUp();
         }
 
-        private async void SetUp()
+
+
+        private async Task SetUp()
         {
             IsBusy = true;
             try
@@ -80,7 +84,7 @@ namespace Havamal.ViewModels
 
                 if (lastChanges >= lastUpdated || !File.Exists(dbPath))
                     await SetUpDb();
-                else await Task.Delay(500);
+                else await Task.Delay(50);
             } catch (Exception e)
             {
                 InfoText = e.Message;
@@ -130,7 +134,7 @@ namespace Havamal.ViewModels
 
             InfoText = AppResources.FinishedUpdate;
 
-            await Task.Delay(1000);
+            await Task.Delay(50);
 
             // TODO : ADD CHECK THAT ALL SUCCEEDED
 
