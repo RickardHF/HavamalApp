@@ -31,8 +31,8 @@ namespace Havamal.Views.Components
             );
 
         public static BindableProperty ClickedProperty = BindableProperty.Create(
-            nameof(ICommand)
-            , typeof(string)
+            nameof(Clicked)
+            , typeof(ICommand)
             , typeof(ThemeButton)
             , new Command(() => { })
             , propertyChanged: ClickedChanged

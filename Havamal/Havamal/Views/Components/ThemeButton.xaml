@@ -5,8 +5,7 @@
              Style="{DynamicResource LangButtonFrame}">
     <StackLayout Orientation="Horizontal">
         <StackLayout.GestureRecognizers>
-            <TapGestureRecognizer Tapped="OnButtonClicked">
-            </TapGestureRecognizer>
+            <TapGestureRecognizer Tapped="OnButtonClicked"/>
         </StackLayout.GestureRecognizers>
         <Image x:Name="ButtonImage" Style="{DynamicResource SmallImg}"></Image>
         <StackLayout Orientation="Vertical" Spacing="0" VerticalOptions="CenterAndExpand">

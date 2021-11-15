@@ -6,6 +6,7 @@
              xmlns:resources="clr-namespace:Havamal.Resources.TextResources"
              xmlns:converters="clr-namespace:Havamal.Converters" 
              x:Class="Havamal.Views.SettingsPage"
+             x:DataType="local:SettingsPageModel"
              BackgroundColor="{DynamicResource PageBackgroundColor}"
              Title="{Static resources:AppResources.Settings}">
     <ContentPage.Content>
@@ -61,6 +62,7 @@
                         x:Name="themePicker"
                         Title="{Binding CurrentTheme.ThemeName}"
                         ImageSource="{Binding CurrentTheme.ThemeImage}"
+                        Clicked="{Binding ThemeClicked}"
                         Grid.Column="1"
                         Grid.Row="2"
                         VerticalOptions="CenterAndExpand"/>

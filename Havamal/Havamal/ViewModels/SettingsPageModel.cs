@@ -14,6 +14,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using System.Windows.Input;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 
@@ -24,6 +25,8 @@ namespace Havamal.ViewModels
         private readonly ILanguageRepository _languages;
 
         public readonly IThemeChanger ThemeChanger;
+
+        public ICommand ThemeClicked { get; set; }
 
         public ObservableCollection<Language> Languages { get; private set; }
         public ObservableCollection<ThemeListItem> Themes { get; private set; }
@@ -74,6 +77,8 @@ namespace Havamal.ViewModels
             _languages = languages;
             Languages = new ObservableCollection<Language>();
             ThemeChanger = themeChanger;
+
+            ThemeClicked = new Command(() => { });
 
             InitSettings();
         }
