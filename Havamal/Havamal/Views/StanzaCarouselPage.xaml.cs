@@ -22,18 +22,17 @@ namespace Havamal.Views
         public StanzaCarouselPage()
         {
             InitializeComponent();
-
-            Carousel.IsScrollAnimated = false;
-            Carousel.Loop = false;
-
             var context = Startup.ServiceProvider.GetService<StanzaCarouselPageModel>();
-            
-            //Carousel.ItemsSource = context.Stanzas;
             
             context.ChangeCurrent = GoToStanza;
 
-            BindingContext = context;
             _context = context;
+            
+            BindingContext = context;
+            
+            Carousel.ItemsSource = context.Stanzas;
+            Carousel.IsScrollAnimated = false;
+            Carousel.Loop = false;
 
             //GoToStanza(HavamalPreferences.CurrentVerse);
             //_context.InformChange();

@@ -35,7 +35,7 @@ namespace Havamal.ViewModels
                 if (value == null) return;
                 _currentStanza = value;
                 if (UpdateCurrent) HavamalPreferences.CurrentVerse = value.VerseId;
-                InformChange();
+                //InformChange();
             } 
         }
         public  bool UpdateCurrent { get; internal set; }
@@ -62,7 +62,7 @@ namespace Havamal.ViewModels
             _verseRepository = verseRepository;
             _favoriteRepository = favoriteRepository;
 
-            OnPropertyChanged(nameof(FavoriteImage));
+            //OnPropertyChanged(nameof(FavoriteImage));
             Initialize();
         }
         public string Chapter
@@ -80,14 +80,13 @@ namespace Havamal.ViewModels
 
         public async void Initialize()
         {
-            IsBusy = true;
+            //IsBusy = true;
             Stanzas = new ObservableCollection<VerseListItem>();
             _favorites = new List<Favorite>();
             UpdateCurrent = false;
             try
             {
-                await FetchFavorites();
-                await FetchStanzas();
+                _ = FetchFavorites();
                 //SetFavoriteImages();
             }
             catch
@@ -96,12 +95,13 @@ namespace Havamal.ViewModels
             }
             finally
             {
-                IsBusy = false;
+                //IsBusy = false;
             }
         }
 
         private async Task FetchStanzas()
         {
+            IsBusy = true;
             Stanzas.Clear();
             var stanzas = await _verseRepository
                 .Get(new VerseParameter {Language = new List<int> { HavamalPreferences.SelectedLanguage } }, CancellationToken.None)
@@ -130,6 +130,7 @@ namespace Havamal.ViewModels
 
             });
             OnPropertyChanged(nameof(Stanzas));
+            IsBusy = false;
         }
 
         public async Task FavoriteClicked()
@@ -195,6 +196,8 @@ namespace Havamal.ViewModels
 
             favs.CanI(yes => {
                 _favorites.AddRange(yes);
+
+                _ = FetchStanzas();
             }, no => { 
 
             });

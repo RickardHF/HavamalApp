@@ -61,7 +61,7 @@ namespace Havamal.ViewModels
             _databaseSettings = databaseSettings;
 
             var app = (App)Application.Current;
-            app.SetUpFinished(this, EventArgs.Empty);
+            //app.SetUpFinished(this, EventArgs.Empty);
 
             SetUpFinished -= app.SetUpFinished;
             SetUpFinished += app.SetUpFinished;
