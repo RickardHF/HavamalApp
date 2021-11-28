@@ -13,9 +13,11 @@
                     Text="{Static resources:AppResources.HavamalAbout}"
                     Style="{DynamicResource VerseText}"
                     Padding="0,0,0,10"/>
+                <Image Source="torStatue.png"/>
                 <Label 
                     Text="{Static resources:AppResources.OdinAbout}"
                     Style="{DynamicResource VerseText}"/>
+                <Image Source="odinstatue.png"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>
