@@ -38,6 +38,27 @@
                 <Label Text="Etherium"
                            Style="{DynamicResource VerseIdText}" />
                 <components:CopyableField Title="{Static resources:AppResources.EtheriumAddress}" />
+                <Label Text="Solana"
+                           Style="{DynamicResource VerseIdText}" />
+                <components:CopyableField Title="6UmjmbPD4s8ih4esFihstLkN5fu9NTVZ4JJ5vjBBPFfG" />
+                <Label Text="Cardano"
+                           Style="{DynamicResource VerseIdText}" />
+                <components:CopyableField Title="0x9e7719E5ad23103e065D455FA03834170A6B2369" />
+                <Label Text="Basic Attention Token (BEP20)"
+                           Style="{DynamicResource VerseIdText}" />
+                <components:CopyableField Title="0x9e7719E5ad23103e065D455FA03834170A6B2369" />
+                <Label Text="BNB"
+                           Style="{DynamicResource VerseIdText}" />
+                <components:CopyableField Title="bnb18engrj2jl0tydgnufhyfv3jypvmtyha2psjrgz" />
+                <Label Text="ECOMI"
+                           Style="{DynamicResource VerseIdText}" />
+                <components:CopyableField Title="0xf0954bCfcD38D1BF55Acb964E85d4471A41D58e1" />
+                <Label Text="XRP"
+                           Style="{DynamicResource VerseIdText}" />
+                <components:CopyableField Title="rEjm9BqZFWMdYoFjLgwKmbn1dcvfv9r6Sn" />
+                <Label Text="Polygon"
+                           Style="{DynamicResource VerseIdText}" />
+                <components:CopyableField Title="0x9e7719E5ad23103e065D455FA03834170A6B2369" />
             </StackLayout>
         </ScrollView>
         <!--<WebView x:Name="webView" Source="https://norse-wisdom-shop.creator-spring.com"/>-->
