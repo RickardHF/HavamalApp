@@ -32,8 +32,11 @@ namespace Havamal.Views
             HavamalPreferences.CurrentVerse = tappedStanza.VerseId;
 
             //var page = (Page) Activator.CreateInstance(typeof(StanzaCarouselPage));
-            var page = new StanzaCarouselPage() { Title = AppResources.Stanzas };
-            NavigationHelpers.GoToPage(page, AppResources.Stanzas);
+            //var page = new StanzaCarouselPage() { Title = AppResources.Stanzas };
+            //NavigationHelpers.GoToPage(page, AppResources.Stanzas);
+
+            var app = (App)Application.Current;
+            app.Reset(new NavigationPage(new StanzaCarouselPage() { Title = AppResources.Stanzas }));
         }
 
 
