@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="AboutHavamal" xml:space="preserve">
+    <value>O Hávamálu</value>
+  </data>
   <data name="AllLang" xml:space="preserve">
     <value>Hledat ve všech vercích</value>
   </data>
@@ -138,6 +144,9 @@
   <data name="CouldNotVersForLang" xml:space="preserve">
     <value>Nelze načíst verše z výberného jazyka</value>
   </data>
+  <data name="CryptoSupport" xml:space="preserve">
+    <value>Můžete nám také podpořit darováním kryptoměny. Zde jsou naše adresy pro různé měny.</value>
+  </data>
   <data name="Favorites" xml:space="preserve">
     <value>Oblibené </value>
   </data>
@@ -149,6 +158,9 @@
   </data>
   <data name="Havamal" xml:space="preserve">
     <value>Hávamál</value>
+  </data>
+  <data name="HavamalAbout" xml:space="preserve">
+    <value>Hávamál je starověká báseň, kterou jméno znamená něco jako Výroky Vysokého. Báseň je odinská báseň pro lidstvo a zahrnuje jeho moudrá slova. Přetože tahle báseň je starověká, hodně ze své moudrostí použitelné i dnes.</value>
   </data>
   <data name="InfoLangsInsertFail" xml:space="preserve">
     <value>Při vkládání nových jazyků došlo k chybě</value>
@@ -182,6 +194,9 @@
   </data>
   <data name="NumSort" xml:space="preserve">
     <value>Číselné třídění</value>
+  </data>
+  <data name="OdinAbout" xml:space="preserve">
+    <value>Odin byl vůdce bohů a bydlel ve Valhale. On byl Boha nad některé doménami, mezi je doméni jak moudrostí a cestovaní navíc válka. Sam cestoval daleko a obětoval vlastní oko, aby napil ze studnice moudrosti.I obětoval sám sebe, aby se pro mu runi objevili.</value>
   </data>
   <data name="Random" xml:space="preserve">
     <value>Náhodný</value>
@@ -225,6 +240,12 @@
   <data name="Settings" xml:space="preserve">
     <value>Nastavení</value>
   </data>
+  <data name="Shop" xml:space="preserve">
+    <value>Obchod</value>
+  </data>
+  <data name="ShopDesc" xml:space="preserve">
+    <value>Děkuju vám za používání naše aplikace. Tohle aplikace je za zdarmo, ale vyžaduje od nás čas a zdroje na vývoj a údržbu. Chceme pokračovat na vývoj této aplikace a chceme vyvíjet nové aplikace o severské mytologii. Velmi si vážíme veškeré podpory. Můžete nás podpořit nákupem zboží z našeho obchodu. Designy jsou vytvořen u nás. Doufáme, že se vám to líbí</value>
+  </data>
   <data name="Stanzas" xml:space="preserve">
     <value>Verše</value>
   </data>
@@ -266,5 +287,8 @@
   </data>
   <data name="VerseVer" xml:space="preserve">
     <value>Překlad</value>
+  </data>
+  <data name="WebLinkShop" xml:space="preserve">
+    <value>Otevřete obchod</value>
   </data>
 </root>

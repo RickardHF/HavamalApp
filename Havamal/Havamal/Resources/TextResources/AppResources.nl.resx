@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Over</value>
+  </data>
+  <data name="AboutHavamal" xml:space="preserve">
+    <value>Over Havamal</value>
+  </data>
   <data name="AllLang" xml:space="preserve">
     <value>Zoeken in alle versies</value>
   </data>
@@ -138,6 +144,9 @@
   <data name="CouldNotVersForLang" xml:space="preserve">
     <value>Kan geen verzen uit de geselecteerde taal verzamelen</value>
   </data>
+  <data name="CryptoSupport" xml:space="preserve">
+    <value>U kunt ons ook steunen door cryptocurrencies te doneren. Hier zijn onze adressen voor verschillende valuta.</value>
+  </data>
   <data name="Favorites" xml:space="preserve">
     <value>Favorieten</value>
   </data>
@@ -149,6 +158,9 @@
   </data>
   <data name="Havamal" xml:space="preserve">
     <value>Havamal</value>
+  </data>
+  <data name="HavamalAbout" xml:space="preserve">
+    <value>Havamal is een oud Noors gedicht. De naam betekent zoiets als "De toespraak van de Hoge". Dit gedicht is het gedicht van Odins aan de mensheid, dat zijn woorden van wijsheid bevat. Het gedicht spreekt met een oude stem, maar veel van zijn wijsheid is zelfs vandaag van toepassing!</value>
   </data>
   <data name="InfoLangsInsertFail" xml:space="preserve">
     <value>Fout bij het invoegen van nieuwe talen</value>
@@ -182,6 +194,9 @@
   </data>
   <data name="NumSort" xml:space="preserve">
     <value>Numeriek sorteren</value>
+  </data>
+  <data name="OdinAbout" xml:space="preserve">
+    <value>Odin was de leider van de Noorse goden, woonachtig in Walhalla. Zijn domeinen als een God waren verschillende, en omvatten zaken als wijsheid en reizen naast oorlog. Zelf reisde hij heinde en verre, en offerde zijn eigen oog op om te drinken uit de bron van wijsheid. Hij offerde zichzelf zelfs aan zichzelf op en liet de runen zich voor hem openbaren.</value>
   </data>
   <data name="Random" xml:space="preserve">
     <value>Willekeurig</value>
@@ -225,6 +240,12 @@
   <data name="Settings" xml:space="preserve">
     <value>Instellingen</value>
   </data>
+  <data name="Shop" xml:space="preserve">
+    <value>Winkel</value>
+  </data>
+  <data name="ShopDesc" xml:space="preserve">
+    <value>Bedankt voor het gebruik van onze applicatie! Deze applicatie is gratis te gebruiken, maar het kost ons tijd en middelen om te ontwikkelen en te onderhouden. We willen deze applicatie verbeteren en meer applicaties maken voor de Noorse mythologie. We zouden elke steun zeer op prijs stellen. Je kunt ons steunen door merchandise te kopen in onze winkel. De ontwerpen zijn door ons gemaakt, we hopen dat je ze interessant vindt.</value>
+  </data>
   <data name="Stanzas" xml:space="preserve">
     <value>Verzen</value>
   </data>
@@ -266,5 +287,8 @@
   </data>
   <data name="VerseVer" xml:space="preserve">
     <value>Vers versie</value>
+  </data>
+  <data name="WebLinkShop" xml:space="preserve">
+    <value>Winkel openen</value>
   </data>
 </root>

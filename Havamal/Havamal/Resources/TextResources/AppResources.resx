@@ -166,7 +166,7 @@
     <value>Havamal</value>
   </data>
   <data name="HavamalAbout" xml:space="preserve">
-    <value>Havamal is the speach of "The High One". In norse mythology the highest deity off them all is Odin, it is assumed this poem is Odin's words of wisdom to the humans. It contains words of wisdom about everyday things, friendship etc, and also about magic. The poem is part of the "Older Edda" and was likely a mostly oral tradition before it was written down, although parts of it has been found carved on runestones. </value>
+    <value>Havamal is an ancient norse poem. The name means something like “The speech of the High One”. This poem is Odins poem to humanity, containing his words of wisdom. The poem speaks with an ancient voice, however much of its wisdom is applicable even today!</value>
   </data>
   <data name="InfoLangsInsertFail" xml:space="preserve">
     <value>Error occurred inserting new languages</value>
@@ -202,7 +202,7 @@
     <value>Numeric sort</value>
   </data>
   <data name="OdinAbout" xml:space="preserve">
-    <value>Odin was the leader of the gods, and very central in norse mythology. He was among other things the god of wisdom and travelling. He himself traveled far and wide in search of wisom, for which he sacrificed his eye, and also did sacrifice himself to himself, allowing the runes to reveal themselves for him.</value>
+    <value>Odin was the leader of the norse gods, residing in Valhalla. His domains as a God were several, and included things like wisdom and traveling in addition to war. He himself traveled far and wide, and sacrificed his own eye to drink from the well of wisdom. He even sacrificed himself to himself allowing the runes to reveal themselves for him.</value>
   </data>
   <data name="Random" xml:space="preserve">
     <value>Random</value>
@@ -250,7 +250,7 @@
     <value>Merch</value>
   </data>
   <data name="ShopDesc" xml:space="preserve">
-    <value>Thank you for using our app! We offer this application for free, however it takes both time and resources. We wish to improve this application, and to create more applications for norse mythology. We would greatly appreciate it if you'd be so kind to buy some merch from our shop! The designs are created by us and we hope you find them interesting.</value>
+    <value>Thank you for using our application! This application is provided free to use, however it takes time and resources for us to develop and maintain. We wish to improve this application, and to create more applications for norse mythology. We would greatly appreciate any support. You can support us by buying merch from our shop. The designs are created by us, we hope you find them interesting.</value>
   </data>
   <data name="Stanzas" xml:space="preserve">
     <value>Verses</value>

@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="AboutHavamal" xml:space="preserve">
+    <value>Sobre Havamal</value>
+  </data>
   <data name="AllLang" xml:space="preserve">
     <value>Buscar en todas las versiones</value>
   </data>
@@ -138,6 +144,9 @@
   <data name="CouldNotVersForLang" xml:space="preserve">
     <value>No se pudo recopilar versos del idioma seleccionado</value>
   </data>
+  <data name="CryptoSupport" xml:space="preserve">
+    <value>También puedes apoyarnos donando criptomonedas. Aquí están nuestras direcciones para varias monedas.</value>
+  </data>
   <data name="Favorites" xml:space="preserve">
     <value>Favoritos</value>
   </data>
@@ -149,6 +158,9 @@
   </data>
   <data name="Havamal" xml:space="preserve">
     <value>Havamal</value>
+  </data>
+  <data name="HavamalAbout" xml:space="preserve">
+    <value>Havamal es un antiguo poema nórdico. El nombre significa algo así como "El discurso del Alto". Este poema es el poema de Odin a la humanidad, que contiene sus palabras de sabiduría. El poema habla con una voz antigua, ¡sin embargo, gran parte de su sabiduría es aplicable incluso hoy!</value>
   </data>
   <data name="InfoLangsInsertFail" xml:space="preserve">
     <value>Un error ocurrió insertando nuevos idiomas</value>
@@ -182,6 +194,9 @@
   </data>
   <data name="NumSort" xml:space="preserve">
     <value>Orden numérico</value>
+  </data>
+  <data name="OdinAbout" xml:space="preserve">
+    <value>Odin era el líder de los dioses nórdicos, que residía en Valhalla. Sus dominios como Dios eran varios e incluían cosas como la sabiduría y los viajes además de la guerra. Él mismo viajó por todas partes y sacrificó su propio ojo para beber del pozo de la sabiduría. Incluso se sacrificó a sí mismo permitiendo que las runas se le revelaran.</value>
   </data>
   <data name="Random" xml:space="preserve">
     <value>Aleatorio</value>
@@ -227,6 +242,9 @@
   </data>
   <data name="Shop" xml:space="preserve">
     <value>Tienda</value>
+  </data>
+  <data name="ShopDesc" xml:space="preserve">
+    <value>¡Gracias por usar nuestra aplicación! Esta aplicación se proporciona de forma gratuita, sin embargo, su desarrollo y mantenimiento requiere tiempo y recursos. Deseamos mejorar esta aplicación y crear más aplicaciones para la mitología nórdica. Agradeceríamos mucho cualquier apoyo. Puedes apoyarnos comprando merchandising en nuestra tienda. Los diseños son creados por nosotros, esperamos que los encuentres interesantes.</value>
   </data>
   <data name="Stanzas" xml:space="preserve">
     <value>Versos</value>

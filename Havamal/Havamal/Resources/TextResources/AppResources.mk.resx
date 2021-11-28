@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About" xml:space="preserve">
+    <value>За</value>
+  </data>
+  <data name="AboutHavamal" xml:space="preserve">
+    <value>За Хавамал</value>
+  </data>
   <data name="AllLang" xml:space="preserve">
     <value>Пребарај во сите верзии</value>
   </data>
@@ -138,6 +144,9 @@
   <data name="CouldNotVersForLang" xml:space="preserve">
     <value>Не можат да се соберат стихови за одбраниот јазик</value>
   </data>
+  <data name="CryptoSupport" xml:space="preserve">
+    <value>Можете да не поддржите и со донирање криптовалути. Еве ги нашите адреси за различни валути.</value>
+  </data>
   <data name="Favorites" xml:space="preserve">
     <value>Омилени</value>
   </data>
@@ -149,6 +158,9 @@
   </data>
   <data name="Havamal" xml:space="preserve">
     <value>Хавамал</value>
+  </data>
+  <data name="HavamalAbout" xml:space="preserve">
+    <value>Хавамал е древна нордиска песна. Името значи нешто како „Говорот на Вишиот“. Оваа песна е песна на Один за човештвото, која ги содржи неговите мудрости зборови. Поемата зборува со древен глас, сепак голем дел од неговата мудрост е применлива и денес!</value>
   </data>
   <data name="InfoLangsInsertFail" xml:space="preserve">
     <value>Грешка при вметнување на нов јазик</value>
@@ -182,6 +194,9 @@
   </data>
   <data name="NumSort" xml:space="preserve">
     <value>Нумерично подредување</value>
+  </data>
+  <data name="OdinAbout" xml:space="preserve">
+    <value>Один бил водач на нордиските богови, кој живеел во Валхала. Неговите домени како Бог беа неколку, и вклучуваа работи како мудрост и патување покрај војната. Самиот патувал далеку и широко и го жртвувал своето око за да пие од бунарот на мудроста. Тој дури и се жртвуваше себеси дозволувајќи им на руните да се откријат за него.</value>
   </data>
   <data name="Random" xml:space="preserve">
     <value>Случајно</value>
@@ -225,6 +240,12 @@
   <data name="Settings" xml:space="preserve">
     <value>Поставки</value>
   </data>
+  <data name="Shop" xml:space="preserve">
+    <value>Продавница</value>
+  </data>
+  <data name="ShopDesc" xml:space="preserve">
+    <value>Ви благодариме што ја искористивте нашата апликација! Оваа апликација е обезбедена бесплатна за користење, но потребни се време и ресурси за да ја развиеме и одржуваме. Сакаме да ја подобриме оваа апликација и да создадеме повеќе апликации за нордиската митологија. Ние многу би ценеле каква било поддршка. Можете да не поддржите со купување стока од нашата продавница. Дизајните се создадени од нас, се надеваме дека ќе ви бидат интересни.</value>
+  </data>
   <data name="Stanzas" xml:space="preserve">
     <value>Стихови</value>
   </data>
@@ -266,5 +287,8 @@
   </data>
   <data name="VerseVer" xml:space="preserve">
     <value>Верзија на стих</value>
+  </data>
+  <data name="WebLinkShop" xml:space="preserve">
+    <value>Отворете продавница</value>
   </data>
 </root>

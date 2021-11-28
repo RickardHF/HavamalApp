@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="AboutHavamal" xml:space="preserve">
+    <value>Om Håvamål</value>
+  </data>
   <data name="AllLang" xml:space="preserve">
     <value>Søk i alle oversettelser</value>
   </data>
@@ -138,6 +144,9 @@
   <data name="CouldNotVersForLang" xml:space="preserve">
     <value>Kunne ikke finne vers for valgt oversettelse</value>
   </data>
+  <data name="CryptoSupport" xml:space="preserve">
+    <value>Du kan også støtte oss ved å donere kryptovaluta. Her er våre adresser for ulike valutaer.</value>
+  </data>
   <data name="Favorites" xml:space="preserve">
     <value>Favoritter</value>
   </data>
@@ -149,6 +158,9 @@
   </data>
   <data name="Havamal" xml:space="preserve">
     <value>Håvamål</value>
+  </data>
+  <data name="HavamalAbout" xml:space="preserve">
+    <value>Håvamål er et gammelt norrønt dikt. Navnet betyr noe lignende til “Den høyes tale”. Diktet er Odins dikt til menneskeheten, og inneholder hans visdomsord. Dette diktet er urgammelt, men mye av visdommen i det er aktuelt selv i dag!</value>
   </data>
   <data name="InfoLangsInsertFail" xml:space="preserve">
     <value>Feil ved insetting av favoritter</value>
@@ -182,6 +194,9 @@
   </data>
   <data name="NumSort" xml:space="preserve">
     <value>Numerisk sortering</value>
+  </data>
+  <data name="OdinAbout" xml:space="preserve">
+    <value>Odin var lederen for de norrøne gudene, og holdt til i Valhall. Han hadde flere domener som gud, blant annet var han guden for visdom og reising i tillegg til en gud for krig. Selv reiste han langt, og ofret sitt eget øye for å drikke fra visdommens brønn. Han ofret til og med seg selv til seg selv, slik at runene åpenbarte seg for han.</value>
   </data>
   <data name="Random" xml:space="preserve">
     <value>Tilfeldig</value>
@@ -225,6 +240,12 @@
   <data name="Settings" xml:space="preserve">
     <value>Instillinger</value>
   </data>
+  <data name="Shop" xml:space="preserve">
+    <value>Butikk</value>
+  </data>
+  <data name="ShopDesc" xml:space="preserve">
+    <value>Takk for at du bruker vår applikasjon. Denne applikasjonen er gratis å bruke, men det krever både tid og ressurser for oss å utvikle og vedlikeholde applikasjonen. Vi ønsker å videreutvikle denne applikasjonen, samt å utvikle flere applikasjoner for norrøn mytologi. Vi setter stor pris på en hver for for støtte. Du kan støtte oss ved å kjøpe merch fra vår butikk, designene er utviklet av oss, og vi håper du liker dem.</value>
+  </data>
   <data name="Stanzas" xml:space="preserve">
     <value>Vers</value>
   </data>
@@ -266,5 +287,8 @@
   </data>
   <data name="VerseVer" xml:space="preserve">
     <value>Oversettelse</value>
+  </data>
+  <data name="WebLinkShop" xml:space="preserve">
+    <value>Åpne butikk</value>
   </data>
 </root>

@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="AboutHavamal" xml:space="preserve">
+    <value>Sobre Havamal</value>
+  </data>
   <data name="AllLang" xml:space="preserve">
     <value>Cerqueu en totes les versions</value>
   </data>
@@ -138,6 +144,9 @@
   <data name="CouldNotVersForLang" xml:space="preserve">
     <value>No es poden recopilar versos de l'idioma seleccionat</value>
   </data>
+  <data name="CryptoSupport" xml:space="preserve">
+    <value>També ens pots donar suport donant criptomonedes. Aquí teniu les nostres adreces per a diferents monedes.</value>
+  </data>
   <data name="Favorites" xml:space="preserve">
     <value>Preferències</value>
   </data>
@@ -149,6 +158,9 @@
   </data>
   <data name="Havamal" xml:space="preserve">
     <value>Havamal</value>
+  </data>
+  <data name="HavamalAbout" xml:space="preserve">
+    <value>Havamal és un antic poema nòrdic. El nom significa alguna cosa com "El discurs de l'Alt". Aquest poema és el poema d'Odins a la humanitat, que conté les seves paraules de saviesa. El poema parla amb una veu antiga, encara que gran part de la seva saviesa sigui aplicable fins i tot avui!</value>
   </data>
   <data name="InfoLangsInsertFail" xml:space="preserve">
     <value>Un error ha ocorregut insertant nous idiomes</value>
@@ -182,6 +194,9 @@
   </data>
   <data name="NumSort" xml:space="preserve">
     <value>Ordre numèric</value>
+  </data>
+  <data name="OdinAbout" xml:space="preserve">
+    <value>Odin era el líder dels déus nòrdics, que residia a Valhalla. Els seus dominis com a Déu eren diversos i incloïen coses com la saviesa i els viatges a més de la guerra. Ell mateix va viatjar per tot arreu i va sacrificar el seu propi ull per beure del pou de la saviesa. Fins i tot es va sacrificar a si mateix permetent que les runes es revelessin per ell.</value>
   </data>
   <data name="Random" xml:space="preserve">
     <value>Aleatori</value>
@@ -227,6 +242,9 @@
   </data>
   <data name="Shop" xml:space="preserve">
     <value>Botiga</value>
+  </data>
+  <data name="ShopDesc" xml:space="preserve">
+    <value>Gràcies per utilitzar la nostra aplicació! Aquesta aplicació es proporciona d'ús gratuït, però necessitem temps i recursos per desenvolupar-la i mantenir-la. Volem millorar aquesta aplicació i crear més aplicacions per a la mitologia nòrdica. Agrairem molt qualsevol suport. Pots donar-nos suport comprant mercaderies a la nostra botiga. Els dissenys els hem creat nosaltres, esperem que us resultin interessants.</value>
   </data>
   <data name="Stanzas" xml:space="preserve">
     <value>Versos</value>

@@ -117,6 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="About" xml:space="preserve">
+    <value>О</value>
+  </data>
+  <data name="AboutHavamal" xml:space="preserve">
+    <value>О Хавамале</value>
+  </data>
   <data name="AllLang" xml:space="preserve">
     <value>Искать во всех версиях</value>
   </data>
@@ -138,6 +144,9 @@
   <data name="CouldNotVersForLang" xml:space="preserve">
     <value>Не удалось собрать стихи на выбранном языке</value>
   </data>
+  <data name="CryptoSupport" xml:space="preserve">
+    <value>Вы также можете поддержать нас, пожертвовав криптовалюту. Вот наши адреса для разных валют.</value>
+  </data>
   <data name="Favorites" xml:space="preserve">
     <value>Избранное</value>
   </data>
@@ -149,6 +158,9 @@
   </data>
   <data name="Havamal" xml:space="preserve">
     <value>Хавамал</value>
+  </data>
+  <data name="HavamalAbout" xml:space="preserve">
+    <value>Хавамал - древняя норвежская поэма. Название означает что-то вроде «Речь Высокого». Это стихотворение - стихотворение Одина человечеству, содержащее его мудрые слова. Стихотворение говорит древним голосом, однако многое из его мудрости применимо и сегодня!</value>
   </data>
   <data name="InfoLangsInsertFail" xml:space="preserve">
     <value>Ошибка при вставке новых языков</value>
@@ -182,6 +194,9 @@
   </data>
   <data name="NumSort" xml:space="preserve">
     <value>Сортировка по номеру</value>
+  </data>
+  <data name="OdinAbout" xml:space="preserve">
+    <value>Один был лидером скандинавских богов, проживавших в Валгалле. Его владений как Бога было несколько, и помимо войны они включали такие вещи, как мудрость и путешествия. Сам он путешествовал вдоль и поперек и пожертвовал своим глазом, чтобы испить из колодца мудрости. Он даже пожертвовал собой ради себя, позволив рунам раскрыться за него.</value>
   </data>
   <data name="Random" xml:space="preserve">
     <value>Случайные</value>
@@ -225,6 +240,12 @@
   <data name="Settings" xml:space="preserve">
     <value>Настройки</value>
   </data>
+  <data name="Shop" xml:space="preserve">
+    <value>Магазин</value>
+  </data>
+  <data name="ShopDesc" xml:space="preserve">
+    <value>Спасибо за использование нашего приложения! Это приложение предоставляется бесплатно, однако на его разработку и поддержку у нас уходит время и ресурсы. Мы хотим улучшить это приложение и создать больше приложений для скандинавской мифологии. Мы будем очень признательны за любую поддержку. Вы можете поддержать нас, купив товар в нашем магазине. Дизайны созданы нами, надеемся, они вам понравятся.</value>
+  </data>
   <data name="Stanzas" xml:space="preserve">
     <value>Стихи</value>
   </data>
@@ -266,5 +287,8 @@
   </data>
   <data name="VerseVer" xml:space="preserve">
     <value>Версия стиха</value>
+  </data>
+  <data name="WebLinkShop" xml:space="preserve">
+    <value>Открыть магазин</value>
   </data>
 </root>
