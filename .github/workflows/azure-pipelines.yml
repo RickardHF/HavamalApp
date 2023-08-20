@@ -3,37 +3,43 @@
 # Add steps that test, sign, and distribute an app, save build artifacts, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/xamarin
 
+name: 'Building Havamal App'
+
 on:
   workflow_dispatch: 
 
-pool:
-  vmImage: 'windows-2019'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - uses: DotNetCoreCLI@2
+        with:
+          command: 'test'
+          projects: '**/*Tests*.csproj'
+      
+      - uses: NuGetCommand@2
+        with:
+          restoreSolution: '**/*.sln'
+      
+      - uses: XamarinAndroid@1
+        with:
+          projectFile: '**/*droid*.csproj'
+          outputDirectory: '$(outputDirectory)'
+          configuration: '$(buildConfiguration)'
+      
+      - uses: AndroidSigning@3
+        with:
+            apksign: false
+            zipalign: true
+            apkFiles: '$(outputDirectory)/*.apk'
+      - uses: PublishBuildArtifacts@1
+        with:
+          pathtoPublish: '$(outputDirectory)'
+    
 
-variables:
-  buildConfiguration: 'Release'
-  outputDirectory: '$(build.binariesDirectory)/$(buildConfiguration)'
+#    variables:
+ # buildConfiguration: 'Release'
+  #outputDirectory: '$(build.binariesDirectory)/$(buildConfiguration)'
 
-steps:
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'test'
-    projects: '**/*Tests*.csproj'
-
-- task: NuGetCommand@2
-  inputs:
-    restoreSolution: '**/*.sln'
-
-- task: XamarinAndroid@1
-  inputs:
-    projectFile: '**/*droid*.csproj'
-    outputDirectory: '$(outputDirectory)'
-    configuration: '$(buildConfiguration)'
-
-- task: AndroidSigning@3
-  inputs:
-      apksign: false
-      zipalign: true
-      apkFiles: '$(outputDirectory)/*.apk'
-- task: PublishBuildArtifacts@1
-  inputs:
-    pathtoPublish: '$(outputDirectory)'
