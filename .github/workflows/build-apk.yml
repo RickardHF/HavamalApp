@@ -1,0 +1,33 @@
+name: Xamarin Android Build and Publish
+
+on:
+  push:
+    branches:
+      - main  # Adjust this to match your branch
+
+jobs:
+  build:
+    name: Build and Publish
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up .NET
+      uses: actions/setup-dotnet@v2
+      with:
+        dotnet-version: 5.0  # Use the appropriate version
+
+    - name: Restore NuGet packages
+      run: dotnet restore
+
+    - name: Build Android project
+      run: msbuild /t:Build /p:Configuration=Release Havamal/Havamal.Android/Havamal.Android.sln  # Adjust the solution name
+
+    - name: Publish artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: app-release
+        path: path/to/your/artifact  # Adjust the path to the generated APK
+
