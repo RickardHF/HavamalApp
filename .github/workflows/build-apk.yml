@@ -1,9 +1,7 @@
 name: Xamarin Android Build and Publish
 
 on:
-  push:
-    branches:
-      - main  # Adjust this to match your branch
+    workflow_dispatch: 
 
 jobs:
   build:
