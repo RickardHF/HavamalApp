@@ -15,7 +15,7 @@ jobs:
     - name: Set up .NET
       uses: actions/setup-dotnet@v2
       with:
-        dotnet-version: 5.0  # Use the appropriate version
+        dotnet-version: '5.0.x'  # Use the appropriate version
 
     - name: Restore NuGet packages
       run: dotnet restore
