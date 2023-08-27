@@ -20,6 +20,9 @@ jobs:
     - name: Restore NuGet packages
       run: dotnet restore
 
+    - name: List files
+      run: ls -R
+
     - name: Build Android project
       run: msbuild /t:Build /p:Configuration=Release Havamal.sln  # Adjust the solution name
 
