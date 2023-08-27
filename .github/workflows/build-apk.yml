@@ -21,11 +21,14 @@ jobs:
       run: dotnet restore
 
     - name: Build Android project
-      run: msbuild /t:Build /p:Configuration=Release Havamal/Havamal.Android/Havamal.Android.sln  # Adjust the solution name
+      run: msbuild /t:Build /p:Configuration=Release Havamal.sln  # Adjust the solution name
+
+    - name: List files
+      run: ls -R
 
     - name: Publish artifact
       uses: actions/upload-artifact@v2
       with:
         name: app-release
-        path: path/to/your/artifact  # Adjust the path to the generated APK
+        path: '*.apk'  # Adjust the path to the generated APK
 
