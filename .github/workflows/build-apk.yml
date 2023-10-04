@@ -9,29 +9,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v4
+    - name: Checkout code and Set default Xamarin SDK versions
+      run: |
+        $VM_ASSETS/select-xamarin-sdk.v2.sh --mono=6.10 --android=10.2
 
-    - name: Set up .NET
-      uses: actions/setup-dotnet@v2
+    - name: Set up .NET Core SDK
+      uses: actions/setup-dotnet@v3
       with:
         dotnet-version: '5.0.x'  # Use the appropriate version
 
-    - name: Restore NuGet packages
+    - name: Install Dependencies
       run: dotnet restore
 
-    - name: List files
-      run: ls -R
+    - name: Build
+      run: msbuild 
 
-    - name: Build Android project
+    - name: Build Android project Havamal/Havamal/Havamal.csproj /t:PackageForAndroid /p:Configuration=Release
       run: msbuild /t:Build /p:Configuration=Release Havamal.sln  # Adjust the solution name
 
-    - name: List files
-      run: ls -R
-
-    - name: Publish artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: app-release
-        path: '*.apk'  # Adjust the path to the generated APK
 
