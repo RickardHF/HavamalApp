@@ -14,7 +14,7 @@ namespace Havamal.Droid
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "1.0.0.0")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.2.2.120")]
 	public partial class Resource
 	{
 		
@@ -57,12 +57,20 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Animation.EnterFromRight = global::Havamal.Droid.Resource.Animation.EnterFromRight;
 			global::Rg.Plugins.Popup.Resource.Animation.ExitToLeft = global::Havamal.Droid.Resource.Animation.ExitToLeft;
 			global::Rg.Plugins.Popup.Resource.Animation.ExitToRight = global::Havamal.Droid.Resource.Animation.ExitToRight;
+			global::Rg.Plugins.Popup.Resource.Animation.fragment_fast_out_extra_slow_in = global::Havamal.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Rg.Plugins.Popup.Resource.Animation.mtrl_bottom_sheet_slide_in = global::Havamal.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
+			global::Rg.Plugins.Popup.Resource.Animation.mtrl_bottom_sheet_slide_out = global::Havamal.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
+			global::Rg.Plugins.Popup.Resource.Animation.mtrl_card_lowers_interpolator = global::Havamal.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
 			global::Rg.Plugins.Popup.Resource.Animator.design_appbar_state_list_animator = global::Havamal.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Rg.Plugins.Popup.Resource.Animator.design_fab_hide_motion_spec = global::Havamal.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Rg.Plugins.Popup.Resource.Animator.design_fab_show_motion_spec = global::Havamal.Droid.Resource.Animator.design_fab_show_motion_spec;
 			global::Rg.Plugins.Popup.Resource.Animator.mtrl_btn_state_list_anim = global::Havamal.Droid.Resource.Animator.mtrl_btn_state_list_anim;
 			global::Rg.Plugins.Popup.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Havamal.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Rg.Plugins.Popup.Resource.Animator.mtrl_card_state_list_anim = global::Havamal.Droid.Resource.Animator.mtrl_card_state_list_anim;
 			global::Rg.Plugins.Popup.Resource.Animator.mtrl_chip_state_list_anim = global::Havamal.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Rg.Plugins.Popup.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::Havamal.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
+			global::Rg.Plugins.Popup.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::Havamal.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
+			global::Rg.Plugins.Popup.Resource.Animator.mtrl_extended_fab_state_list_animator = global::Havamal.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
 			global::Rg.Plugins.Popup.Resource.Animator.mtrl_fab_hide_motion_spec = global::Havamal.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
 			global::Rg.Plugins.Popup.Resource.Animator.mtrl_fab_show_motion_spec = global::Havamal.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
 			global::Rg.Plugins.Popup.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::Havamal.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
@@ -99,6 +107,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.actionOverflowButtonStyle = global::Havamal.Droid.Resource.Attribute.actionOverflowButtonStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.actionOverflowMenuStyle = global::Havamal.Droid.Resource.Attribute.actionOverflowMenuStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.actionProviderClass = global::Havamal.Droid.Resource.Attribute.actionProviderClass;
+			global::Rg.Plugins.Popup.Resource.Attribute.actionTextColorAlpha = global::Havamal.Droid.Resource.Attribute.actionTextColorAlpha;
 			global::Rg.Plugins.Popup.Resource.Attribute.actionViewClass = global::Havamal.Droid.Resource.Attribute.actionViewClass;
 			global::Rg.Plugins.Popup.Resource.Attribute.activityChooserViewStyle = global::Havamal.Droid.Resource.Attribute.activityChooserViewStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.alertDialogButtonGroupStyle = global::Havamal.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
@@ -108,6 +117,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.allowStacking = global::Havamal.Droid.Resource.Attribute.allowStacking;
 			global::Rg.Plugins.Popup.Resource.Attribute.alpha = global::Havamal.Droid.Resource.Attribute.alpha;
 			global::Rg.Plugins.Popup.Resource.Attribute.alphabeticModifiers = global::Havamal.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Rg.Plugins.Popup.Resource.Attribute.animationMode = global::Havamal.Droid.Resource.Attribute.animationMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.appBarLayoutStyle = global::Havamal.Droid.Resource.Attribute.appBarLayoutStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.arrowHeadLength = global::Havamal.Droid.Resource.Attribute.arrowHeadLength;
 			global::Rg.Plugins.Popup.Resource.Attribute.arrowShaftLength = global::Havamal.Droid.Resource.Attribute.arrowShaftLength;
 			global::Rg.Plugins.Popup.Resource.Attribute.autoCompleteTextViewStyle = global::Havamal.Droid.Resource.Attribute.autoCompleteTextViewStyle;
@@ -117,16 +128,30 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.autoSizeStepGranularity = global::Havamal.Droid.Resource.Attribute.autoSizeStepGranularity;
 			global::Rg.Plugins.Popup.Resource.Attribute.autoSizeTextType = global::Havamal.Droid.Resource.Attribute.autoSizeTextType;
 			global::Rg.Plugins.Popup.Resource.Attribute.background = global::Havamal.Droid.Resource.Attribute.background;
+			global::Rg.Plugins.Popup.Resource.Attribute.backgroundColor = global::Havamal.Droid.Resource.Attribute.backgroundColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.backgroundInsetBottom = global::Havamal.Droid.Resource.Attribute.backgroundInsetBottom;
+			global::Rg.Plugins.Popup.Resource.Attribute.backgroundInsetEnd = global::Havamal.Droid.Resource.Attribute.backgroundInsetEnd;
+			global::Rg.Plugins.Popup.Resource.Attribute.backgroundInsetStart = global::Havamal.Droid.Resource.Attribute.backgroundInsetStart;
+			global::Rg.Plugins.Popup.Resource.Attribute.backgroundInsetTop = global::Havamal.Droid.Resource.Attribute.backgroundInsetTop;
+			global::Rg.Plugins.Popup.Resource.Attribute.backgroundOverlayColorAlpha = global::Havamal.Droid.Resource.Attribute.backgroundOverlayColorAlpha;
 			global::Rg.Plugins.Popup.Resource.Attribute.backgroundSplit = global::Havamal.Droid.Resource.Attribute.backgroundSplit;
 			global::Rg.Plugins.Popup.Resource.Attribute.backgroundStacked = global::Havamal.Droid.Resource.Attribute.backgroundStacked;
 			global::Rg.Plugins.Popup.Resource.Attribute.backgroundTint = global::Havamal.Droid.Resource.Attribute.backgroundTint;
 			global::Rg.Plugins.Popup.Resource.Attribute.backgroundTintMode = global::Havamal.Droid.Resource.Attribute.backgroundTintMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.badgeGravity = global::Havamal.Droid.Resource.Attribute.badgeGravity;
+			global::Rg.Plugins.Popup.Resource.Attribute.badgeStyle = global::Havamal.Droid.Resource.Attribute.badgeStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.badgeTextColor = global::Havamal.Droid.Resource.Attribute.badgeTextColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.barLength = global::Havamal.Droid.Resource.Attribute.barLength;
 			global::Rg.Plugins.Popup.Resource.Attribute.behavior_autoHide = global::Havamal.Droid.Resource.Attribute.behavior_autoHide;
+			global::Rg.Plugins.Popup.Resource.Attribute.behavior_autoShrink = global::Havamal.Droid.Resource.Attribute.behavior_autoShrink;
+			global::Rg.Plugins.Popup.Resource.Attribute.behavior_draggable = global::Havamal.Droid.Resource.Attribute.behavior_draggable;
+			global::Rg.Plugins.Popup.Resource.Attribute.behavior_expandedOffset = global::Havamal.Droid.Resource.Attribute.behavior_expandedOffset;
 			global::Rg.Plugins.Popup.Resource.Attribute.behavior_fitToContents = global::Havamal.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Rg.Plugins.Popup.Resource.Attribute.behavior_halfExpandedRatio = global::Havamal.Droid.Resource.Attribute.behavior_halfExpandedRatio;
 			global::Rg.Plugins.Popup.Resource.Attribute.behavior_hideable = global::Havamal.Droid.Resource.Attribute.behavior_hideable;
 			global::Rg.Plugins.Popup.Resource.Attribute.behavior_overlapTop = global::Havamal.Droid.Resource.Attribute.behavior_overlapTop;
 			global::Rg.Plugins.Popup.Resource.Attribute.behavior_peekHeight = global::Havamal.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Rg.Plugins.Popup.Resource.Attribute.behavior_saveFlags = global::Havamal.Droid.Resource.Attribute.behavior_saveFlags;
 			global::Rg.Plugins.Popup.Resource.Attribute.behavior_skipCollapsed = global::Havamal.Droid.Resource.Attribute.behavior_skipCollapsed;
 			global::Rg.Plugins.Popup.Resource.Attribute.borderlessButtonStyle = global::Havamal.Droid.Resource.Attribute.borderlessButtonStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.borderWidth = global::Havamal.Droid.Resource.Attribute.borderWidth;
@@ -142,7 +167,9 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.boxCornerRadiusTopEnd = global::Havamal.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
 			global::Rg.Plugins.Popup.Resource.Attribute.boxCornerRadiusTopStart = global::Havamal.Droid.Resource.Attribute.boxCornerRadiusTopStart;
 			global::Rg.Plugins.Popup.Resource.Attribute.boxStrokeColor = global::Havamal.Droid.Resource.Attribute.boxStrokeColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.boxStrokeErrorColor = global::Havamal.Droid.Resource.Attribute.boxStrokeErrorColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.boxStrokeWidth = global::Havamal.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Rg.Plugins.Popup.Resource.Attribute.boxStrokeWidthFocused = global::Havamal.Droid.Resource.Attribute.boxStrokeWidthFocused;
 			global::Rg.Plugins.Popup.Resource.Attribute.buttonBarButtonStyle = global::Havamal.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.buttonBarNegativeButtonStyle = global::Havamal.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.buttonBarNeutralButtonStyle = global::Havamal.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
@@ -159,14 +186,17 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.cardBackgroundColor = global::Havamal.Droid.Resource.Attribute.cardBackgroundColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.cardCornerRadius = global::Havamal.Droid.Resource.Attribute.cardCornerRadius;
 			global::Rg.Plugins.Popup.Resource.Attribute.cardElevation = global::Havamal.Droid.Resource.Attribute.cardElevation;
+			global::Rg.Plugins.Popup.Resource.Attribute.cardForegroundColor = global::Havamal.Droid.Resource.Attribute.cardForegroundColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.cardMaxElevation = global::Havamal.Droid.Resource.Attribute.cardMaxElevation;
 			global::Rg.Plugins.Popup.Resource.Attribute.cardPreventCornerOverlap = global::Havamal.Droid.Resource.Attribute.cardPreventCornerOverlap;
 			global::Rg.Plugins.Popup.Resource.Attribute.cardUseCompatPadding = global::Havamal.Droid.Resource.Attribute.cardUseCompatPadding;
 			global::Rg.Plugins.Popup.Resource.Attribute.cardViewStyle = global::Havamal.Droid.Resource.Attribute.cardViewStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.checkboxStyle = global::Havamal.Droid.Resource.Attribute.checkboxStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.checkedButton = global::Havamal.Droid.Resource.Attribute.checkedButton;
 			global::Rg.Plugins.Popup.Resource.Attribute.checkedChip = global::Havamal.Droid.Resource.Attribute.checkedChip;
 			global::Rg.Plugins.Popup.Resource.Attribute.checkedIcon = global::Havamal.Droid.Resource.Attribute.checkedIcon;
 			global::Rg.Plugins.Popup.Resource.Attribute.checkedIconEnabled = global::Havamal.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Rg.Plugins.Popup.Resource.Attribute.checkedIconTint = global::Havamal.Droid.Resource.Attribute.checkedIconTint;
 			global::Rg.Plugins.Popup.Resource.Attribute.checkedIconVisible = global::Havamal.Droid.Resource.Attribute.checkedIconVisible;
 			global::Rg.Plugins.Popup.Resource.Attribute.checkedTextViewStyle = global::Havamal.Droid.Resource.Attribute.checkedTextViewStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.chipBackgroundColor = global::Havamal.Droid.Resource.Attribute.chipBackgroundColor;
@@ -179,6 +209,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.chipIconTint = global::Havamal.Droid.Resource.Attribute.chipIconTint;
 			global::Rg.Plugins.Popup.Resource.Attribute.chipIconVisible = global::Havamal.Droid.Resource.Attribute.chipIconVisible;
 			global::Rg.Plugins.Popup.Resource.Attribute.chipMinHeight = global::Havamal.Droid.Resource.Attribute.chipMinHeight;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipMinTouchTargetSize = global::Havamal.Droid.Resource.Attribute.chipMinTouchTargetSize;
 			global::Rg.Plugins.Popup.Resource.Attribute.chipSpacing = global::Havamal.Droid.Resource.Attribute.chipSpacing;
 			global::Rg.Plugins.Popup.Resource.Attribute.chipSpacingHorizontal = global::Havamal.Droid.Resource.Attribute.chipSpacingHorizontal;
 			global::Rg.Plugins.Popup.Resource.Attribute.chipSpacingVertical = global::Havamal.Droid.Resource.Attribute.chipSpacingVertical;
@@ -187,6 +218,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.chipStrokeColor = global::Havamal.Droid.Resource.Attribute.chipStrokeColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.chipStrokeWidth = global::Havamal.Droid.Resource.Attribute.chipStrokeWidth;
 			global::Rg.Plugins.Popup.Resource.Attribute.chipStyle = global::Havamal.Droid.Resource.Attribute.chipStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.chipSurfaceColor = global::Havamal.Droid.Resource.Attribute.chipSurfaceColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.closeIcon = global::Havamal.Droid.Resource.Attribute.closeIcon;
 			global::Rg.Plugins.Popup.Resource.Attribute.closeIconEnabled = global::Havamal.Droid.Resource.Attribute.closeIconEnabled;
 			global::Rg.Plugins.Popup.Resource.Attribute.closeIconEndPadding = global::Havamal.Droid.Resource.Attribute.closeIconEndPadding;
@@ -199,6 +231,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.collapsedTitleGravity = global::Havamal.Droid.Resource.Attribute.collapsedTitleGravity;
 			global::Rg.Plugins.Popup.Resource.Attribute.collapsedTitleTextAppearance = global::Havamal.Droid.Resource.Attribute.collapsedTitleTextAppearance;
 			global::Rg.Plugins.Popup.Resource.Attribute.collapseIcon = global::Havamal.Droid.Resource.Attribute.collapseIcon;
+			global::Rg.Plugins.Popup.Resource.Attribute.collectionViewStyle = global::Havamal.Droid.Resource.Attribute.collectionViewStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.color = global::Havamal.Droid.Resource.Attribute.color;
 			global::Rg.Plugins.Popup.Resource.Attribute.colorAccent = global::Havamal.Droid.Resource.Attribute.colorAccent;
 			global::Rg.Plugins.Popup.Resource.Attribute.colorBackgroundFloating = global::Havamal.Droid.Resource.Attribute.colorBackgroundFloating;
@@ -207,9 +240,19 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.colorControlHighlight = global::Havamal.Droid.Resource.Attribute.colorControlHighlight;
 			global::Rg.Plugins.Popup.Resource.Attribute.colorControlNormal = global::Havamal.Droid.Resource.Attribute.colorControlNormal;
 			global::Rg.Plugins.Popup.Resource.Attribute.colorError = global::Havamal.Droid.Resource.Attribute.colorError;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorOnBackground = global::Havamal.Droid.Resource.Attribute.colorOnBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorOnError = global::Havamal.Droid.Resource.Attribute.colorOnError;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorOnPrimary = global::Havamal.Droid.Resource.Attribute.colorOnPrimary;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorOnPrimarySurface = global::Havamal.Droid.Resource.Attribute.colorOnPrimarySurface;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorOnSecondary = global::Havamal.Droid.Resource.Attribute.colorOnSecondary;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorOnSurface = global::Havamal.Droid.Resource.Attribute.colorOnSurface;
 			global::Rg.Plugins.Popup.Resource.Attribute.colorPrimary = global::Havamal.Droid.Resource.Attribute.colorPrimary;
 			global::Rg.Plugins.Popup.Resource.Attribute.colorPrimaryDark = global::Havamal.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorPrimarySurface = global::Havamal.Droid.Resource.Attribute.colorPrimarySurface;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorPrimaryVariant = global::Havamal.Droid.Resource.Attribute.colorPrimaryVariant;
 			global::Rg.Plugins.Popup.Resource.Attribute.colorSecondary = global::Havamal.Droid.Resource.Attribute.colorSecondary;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorSecondaryVariant = global::Havamal.Droid.Resource.Attribute.colorSecondaryVariant;
+			global::Rg.Plugins.Popup.Resource.Attribute.colorSurface = global::Havamal.Droid.Resource.Attribute.colorSurface;
 			global::Rg.Plugins.Popup.Resource.Attribute.colorSwitchThumbNormal = global::Havamal.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Rg.Plugins.Popup.Resource.Attribute.commitIcon = global::Havamal.Droid.Resource.Attribute.commitIcon;
 			global::Rg.Plugins.Popup.Resource.Attribute.contentDescription = global::Havamal.Droid.Resource.Attribute.contentDescription;
@@ -227,12 +270,28 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.contentScrim = global::Havamal.Droid.Resource.Attribute.contentScrim;
 			global::Rg.Plugins.Popup.Resource.Attribute.controlBackground = global::Havamal.Droid.Resource.Attribute.controlBackground;
 			global::Rg.Plugins.Popup.Resource.Attribute.coordinatorLayoutStyle = global::Havamal.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.cornerFamily = global::Havamal.Droid.Resource.Attribute.cornerFamily;
+			global::Rg.Plugins.Popup.Resource.Attribute.cornerFamilyBottomLeft = global::Havamal.Droid.Resource.Attribute.cornerFamilyBottomLeft;
+			global::Rg.Plugins.Popup.Resource.Attribute.cornerFamilyBottomRight = global::Havamal.Droid.Resource.Attribute.cornerFamilyBottomRight;
+			global::Rg.Plugins.Popup.Resource.Attribute.cornerFamilyTopLeft = global::Havamal.Droid.Resource.Attribute.cornerFamilyTopLeft;
+			global::Rg.Plugins.Popup.Resource.Attribute.cornerFamilyTopRight = global::Havamal.Droid.Resource.Attribute.cornerFamilyTopRight;
 			global::Rg.Plugins.Popup.Resource.Attribute.cornerRadius = global::Havamal.Droid.Resource.Attribute.cornerRadius;
+			global::Rg.Plugins.Popup.Resource.Attribute.cornerSize = global::Havamal.Droid.Resource.Attribute.cornerSize;
+			global::Rg.Plugins.Popup.Resource.Attribute.cornerSizeBottomLeft = global::Havamal.Droid.Resource.Attribute.cornerSizeBottomLeft;
+			global::Rg.Plugins.Popup.Resource.Attribute.cornerSizeBottomRight = global::Havamal.Droid.Resource.Attribute.cornerSizeBottomRight;
+			global::Rg.Plugins.Popup.Resource.Attribute.cornerSizeTopLeft = global::Havamal.Droid.Resource.Attribute.cornerSizeTopLeft;
+			global::Rg.Plugins.Popup.Resource.Attribute.cornerSizeTopRight = global::Havamal.Droid.Resource.Attribute.cornerSizeTopRight;
 			global::Rg.Plugins.Popup.Resource.Attribute.counterEnabled = global::Havamal.Droid.Resource.Attribute.counterEnabled;
 			global::Rg.Plugins.Popup.Resource.Attribute.counterMaxLength = global::Havamal.Droid.Resource.Attribute.counterMaxLength;
 			global::Rg.Plugins.Popup.Resource.Attribute.counterOverflowTextAppearance = global::Havamal.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.counterOverflowTextColor = global::Havamal.Droid.Resource.Attribute.counterOverflowTextColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.counterTextAppearance = global::Havamal.Droid.Resource.Attribute.counterTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.counterTextColor = global::Havamal.Droid.Resource.Attribute.counterTextColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.customNavigationLayout = global::Havamal.Droid.Resource.Attribute.customNavigationLayout;
+			global::Rg.Plugins.Popup.Resource.Attribute.dayInvalidStyle = global::Havamal.Droid.Resource.Attribute.dayInvalidStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.daySelectedStyle = global::Havamal.Droid.Resource.Attribute.daySelectedStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.dayStyle = global::Havamal.Droid.Resource.Attribute.dayStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.dayTodayStyle = global::Havamal.Droid.Resource.Attribute.dayTodayStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.defaultQueryHint = global::Havamal.Droid.Resource.Attribute.defaultQueryHint;
 			global::Rg.Plugins.Popup.Resource.Attribute.dialogCornerRadius = global::Havamal.Droid.Resource.Attribute.dialogCornerRadius;
 			global::Rg.Plugins.Popup.Resource.Attribute.dialogPreferredPadding = global::Havamal.Droid.Resource.Attribute.dialogPreferredPadding;
@@ -252,16 +311,31 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.drawableTintMode = global::Havamal.Droid.Resource.Attribute.drawableTintMode;
 			global::Rg.Plugins.Popup.Resource.Attribute.drawableTopCompat = global::Havamal.Droid.Resource.Attribute.drawableTopCompat;
 			global::Rg.Plugins.Popup.Resource.Attribute.drawerArrowStyle = global::Havamal.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.drawerLayoutStyle = global::Havamal.Droid.Resource.Attribute.drawerLayoutStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.dropdownListPreferredItemHeight = global::Havamal.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
 			global::Rg.Plugins.Popup.Resource.Attribute.dropDownListViewStyle = global::Havamal.Droid.Resource.Attribute.dropDownListViewStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.editTextBackground = global::Havamal.Droid.Resource.Attribute.editTextBackground;
 			global::Rg.Plugins.Popup.Resource.Attribute.editTextColor = global::Havamal.Droid.Resource.Attribute.editTextColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.editTextStyle = global::Havamal.Droid.Resource.Attribute.editTextStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.elevation = global::Havamal.Droid.Resource.Attribute.elevation;
+			global::Rg.Plugins.Popup.Resource.Attribute.elevationOverlayColor = global::Havamal.Droid.Resource.Attribute.elevationOverlayColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.elevationOverlayEnabled = global::Havamal.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Rg.Plugins.Popup.Resource.Attribute.endIconCheckable = global::Havamal.Droid.Resource.Attribute.endIconCheckable;
+			global::Rg.Plugins.Popup.Resource.Attribute.endIconContentDescription = global::Havamal.Droid.Resource.Attribute.endIconContentDescription;
+			global::Rg.Plugins.Popup.Resource.Attribute.endIconDrawable = global::Havamal.Droid.Resource.Attribute.endIconDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.endIconMode = global::Havamal.Droid.Resource.Attribute.endIconMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.endIconTint = global::Havamal.Droid.Resource.Attribute.endIconTint;
+			global::Rg.Plugins.Popup.Resource.Attribute.endIconTintMode = global::Havamal.Droid.Resource.Attribute.endIconTintMode;
 			global::Rg.Plugins.Popup.Resource.Attribute.enforceMaterialTheme = global::Havamal.Droid.Resource.Attribute.enforceMaterialTheme;
 			global::Rg.Plugins.Popup.Resource.Attribute.enforceTextAppearance = global::Havamal.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.ensureMinTouchTargetSize = global::Havamal.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::Rg.Plugins.Popup.Resource.Attribute.errorContentDescription = global::Havamal.Droid.Resource.Attribute.errorContentDescription;
 			global::Rg.Plugins.Popup.Resource.Attribute.errorEnabled = global::Havamal.Droid.Resource.Attribute.errorEnabled;
+			global::Rg.Plugins.Popup.Resource.Attribute.errorIconDrawable = global::Havamal.Droid.Resource.Attribute.errorIconDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.errorIconTint = global::Havamal.Droid.Resource.Attribute.errorIconTint;
+			global::Rg.Plugins.Popup.Resource.Attribute.errorIconTintMode = global::Havamal.Droid.Resource.Attribute.errorIconTintMode;
 			global::Rg.Plugins.Popup.Resource.Attribute.errorTextAppearance = global::Havamal.Droid.Resource.Attribute.errorTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.errorTextColor = global::Havamal.Droid.Resource.Attribute.errorTextColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Havamal.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
 			global::Rg.Plugins.Popup.Resource.Attribute.expanded = global::Havamal.Droid.Resource.Attribute.expanded;
 			global::Rg.Plugins.Popup.Resource.Attribute.expandedTitleGravity = global::Havamal.Droid.Resource.Attribute.expandedTitleGravity;
@@ -271,7 +345,10 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.expandedTitleMarginStart = global::Havamal.Droid.Resource.Attribute.expandedTitleMarginStart;
 			global::Rg.Plugins.Popup.Resource.Attribute.expandedTitleMarginTop = global::Havamal.Droid.Resource.Attribute.expandedTitleMarginTop;
 			global::Rg.Plugins.Popup.Resource.Attribute.expandedTitleTextAppearance = global::Havamal.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.extendedFloatingActionButtonStyle = global::Havamal.Droid.Resource.Attribute.extendedFloatingActionButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.extendMotionSpec = global::Havamal.Droid.Resource.Attribute.extendMotionSpec;
 			global::Rg.Plugins.Popup.Resource.Attribute.fabAlignmentMode = global::Havamal.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.fabAnimationMode = global::Havamal.Droid.Resource.Attribute.fabAnimationMode;
 			global::Rg.Plugins.Popup.Resource.Attribute.fabCradleMargin = global::Havamal.Droid.Resource.Attribute.fabCradleMargin;
 			global::Rg.Plugins.Popup.Resource.Attribute.fabCradleRoundedCornerRadius = global::Havamal.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
 			global::Rg.Plugins.Popup.Resource.Attribute.fabCradleVerticalOffset = global::Havamal.Droid.Resource.Attribute.fabCradleVerticalOffset;
@@ -297,20 +374,26 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.fontWeight = global::Havamal.Droid.Resource.Attribute.fontWeight;
 			global::Rg.Plugins.Popup.Resource.Attribute.foregroundInsidePadding = global::Havamal.Droid.Resource.Attribute.foregroundInsidePadding;
 			global::Rg.Plugins.Popup.Resource.Attribute.gapBetweenBars = global::Havamal.Droid.Resource.Attribute.gapBetweenBars;
+			global::Rg.Plugins.Popup.Resource.Attribute.gestureInsetBottomIgnored = global::Havamal.Droid.Resource.Attribute.gestureInsetBottomIgnored;
 			global::Rg.Plugins.Popup.Resource.Attribute.goIcon = global::Havamal.Droid.Resource.Attribute.goIcon;
+			global::Rg.Plugins.Popup.Resource.Attribute.haloColor = global::Havamal.Droid.Resource.Attribute.haloColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.haloRadius = global::Havamal.Droid.Resource.Attribute.haloRadius;
 			global::Rg.Plugins.Popup.Resource.Attribute.headerLayout = global::Havamal.Droid.Resource.Attribute.headerLayout;
 			global::Rg.Plugins.Popup.Resource.Attribute.height = global::Havamal.Droid.Resource.Attribute.height;
 			global::Rg.Plugins.Popup.Resource.Attribute.helperText = global::Havamal.Droid.Resource.Attribute.helperText;
 			global::Rg.Plugins.Popup.Resource.Attribute.helperTextEnabled = global::Havamal.Droid.Resource.Attribute.helperTextEnabled;
 			global::Rg.Plugins.Popup.Resource.Attribute.helperTextTextAppearance = global::Havamal.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.helperTextTextColor = global::Havamal.Droid.Resource.Attribute.helperTextTextColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.hideMotionSpec = global::Havamal.Droid.Resource.Attribute.hideMotionSpec;
 			global::Rg.Plugins.Popup.Resource.Attribute.hideOnContentScroll = global::Havamal.Droid.Resource.Attribute.hideOnContentScroll;
 			global::Rg.Plugins.Popup.Resource.Attribute.hideOnScroll = global::Havamal.Droid.Resource.Attribute.hideOnScroll;
 			global::Rg.Plugins.Popup.Resource.Attribute.hintAnimationEnabled = global::Havamal.Droid.Resource.Attribute.hintAnimationEnabled;
 			global::Rg.Plugins.Popup.Resource.Attribute.hintEnabled = global::Havamal.Droid.Resource.Attribute.hintEnabled;
 			global::Rg.Plugins.Popup.Resource.Attribute.hintTextAppearance = global::Havamal.Droid.Resource.Attribute.hintTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.hintTextColor = global::Havamal.Droid.Resource.Attribute.hintTextColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.homeAsUpIndicator = global::Havamal.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::Rg.Plugins.Popup.Resource.Attribute.homeLayout = global::Havamal.Droid.Resource.Attribute.homeLayout;
+			global::Rg.Plugins.Popup.Resource.Attribute.horizontalOffset = global::Havamal.Droid.Resource.Attribute.horizontalOffset;
 			global::Rg.Plugins.Popup.Resource.Attribute.hoveredFocusedTranslationZ = global::Havamal.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
 			global::Rg.Plugins.Popup.Resource.Attribute.icon = global::Havamal.Droid.Resource.Attribute.icon;
 			global::Rg.Plugins.Popup.Resource.Attribute.iconEndPadding = global::Havamal.Droid.Resource.Attribute.iconEndPadding;
@@ -326,19 +409,34 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.initialActivityCount = global::Havamal.Droid.Resource.Attribute.initialActivityCount;
 			global::Rg.Plugins.Popup.Resource.Attribute.insetForeground = global::Havamal.Droid.Resource.Attribute.insetForeground;
 			global::Rg.Plugins.Popup.Resource.Attribute.isLightTheme = global::Havamal.Droid.Resource.Attribute.isLightTheme;
+			global::Rg.Plugins.Popup.Resource.Attribute.isMaterialTheme = global::Havamal.Droid.Resource.Attribute.isMaterialTheme;
 			global::Rg.Plugins.Popup.Resource.Attribute.itemBackground = global::Havamal.Droid.Resource.Attribute.itemBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemFillColor = global::Havamal.Droid.Resource.Attribute.itemFillColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.itemHorizontalPadding = global::Havamal.Droid.Resource.Attribute.itemHorizontalPadding;
 			global::Rg.Plugins.Popup.Resource.Attribute.itemHorizontalTranslationEnabled = global::Havamal.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
 			global::Rg.Plugins.Popup.Resource.Attribute.itemIconPadding = global::Havamal.Droid.Resource.Attribute.itemIconPadding;
 			global::Rg.Plugins.Popup.Resource.Attribute.itemIconSize = global::Havamal.Droid.Resource.Attribute.itemIconSize;
 			global::Rg.Plugins.Popup.Resource.Attribute.itemIconTint = global::Havamal.Droid.Resource.Attribute.itemIconTint;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemMaxLines = global::Havamal.Droid.Resource.Attribute.itemMaxLines;
 			global::Rg.Plugins.Popup.Resource.Attribute.itemPadding = global::Havamal.Droid.Resource.Attribute.itemPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemRippleColor = global::Havamal.Droid.Resource.Attribute.itemRippleColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemShapeAppearance = global::Havamal.Droid.Resource.Attribute.itemShapeAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemShapeAppearanceOverlay = global::Havamal.Droid.Resource.Attribute.itemShapeAppearanceOverlay;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemShapeFillColor = global::Havamal.Droid.Resource.Attribute.itemShapeFillColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemShapeInsetBottom = global::Havamal.Droid.Resource.Attribute.itemShapeInsetBottom;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemShapeInsetEnd = global::Havamal.Droid.Resource.Attribute.itemShapeInsetEnd;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemShapeInsetStart = global::Havamal.Droid.Resource.Attribute.itemShapeInsetStart;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemShapeInsetTop = global::Havamal.Droid.Resource.Attribute.itemShapeInsetTop;
 			global::Rg.Plugins.Popup.Resource.Attribute.itemSpacing = global::Havamal.Droid.Resource.Attribute.itemSpacing;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemStrokeColor = global::Havamal.Droid.Resource.Attribute.itemStrokeColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.itemStrokeWidth = global::Havamal.Droid.Resource.Attribute.itemStrokeWidth;
 			global::Rg.Plugins.Popup.Resource.Attribute.itemTextAppearance = global::Havamal.Droid.Resource.Attribute.itemTextAppearance;
 			global::Rg.Plugins.Popup.Resource.Attribute.itemTextAppearanceActive = global::Havamal.Droid.Resource.Attribute.itemTextAppearanceActive;
 			global::Rg.Plugins.Popup.Resource.Attribute.itemTextAppearanceInactive = global::Havamal.Droid.Resource.Attribute.itemTextAppearanceInactive;
 			global::Rg.Plugins.Popup.Resource.Attribute.itemTextColor = global::Havamal.Droid.Resource.Attribute.itemTextColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.keylines = global::Havamal.Droid.Resource.Attribute.keylines;
+			global::Rg.Plugins.Popup.Resource.Attribute.labelBehavior = global::Havamal.Droid.Resource.Attribute.labelBehavior;
+			global::Rg.Plugins.Popup.Resource.Attribute.labelStyle = global::Havamal.Droid.Resource.Attribute.labelStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.labelVisibilityMode = global::Havamal.Droid.Resource.Attribute.labelVisibilityMode;
 			global::Rg.Plugins.Popup.Resource.Attribute.lastBaselineToBottomHeight = global::Havamal.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::Rg.Plugins.Popup.Resource.Attribute.layout = global::Havamal.Droid.Resource.Attribute.layout;
@@ -354,6 +452,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.layout_scrollFlags = global::Havamal.Droid.Resource.Attribute.layout_scrollFlags;
 			global::Rg.Plugins.Popup.Resource.Attribute.layout_scrollInterpolator = global::Havamal.Droid.Resource.Attribute.layout_scrollInterpolator;
 			global::Rg.Plugins.Popup.Resource.Attribute.liftOnScroll = global::Havamal.Droid.Resource.Attribute.liftOnScroll;
+			global::Rg.Plugins.Popup.Resource.Attribute.liftOnScrollTargetViewId = global::Havamal.Droid.Resource.Attribute.liftOnScrollTargetViewId;
 			global::Rg.Plugins.Popup.Resource.Attribute.lineHeight = global::Havamal.Droid.Resource.Attribute.lineHeight;
 			global::Rg.Plugins.Popup.Resource.Attribute.lineSpacing = global::Havamal.Droid.Resource.Attribute.lineSpacing;
 			global::Rg.Plugins.Popup.Resource.Attribute.listChoiceBackgroundIndicator = global::Havamal.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
@@ -373,22 +472,47 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.listPreferredItemPaddingStart = global::Havamal.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Rg.Plugins.Popup.Resource.Attribute.logo = global::Havamal.Droid.Resource.Attribute.logo;
 			global::Rg.Plugins.Popup.Resource.Attribute.logoDescription = global::Havamal.Droid.Resource.Attribute.logoDescription;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialAlertDialogBodyTextStyle = global::Havamal.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialAlertDialogTheme = global::Havamal.Droid.Resource.Attribute.materialAlertDialogTheme;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialAlertDialogTitleIconStyle = global::Havamal.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialAlertDialogTitlePanelStyle = global::Havamal.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialAlertDialogTitleTextStyle = global::Havamal.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialButtonOutlinedStyle = global::Havamal.Droid.Resource.Attribute.materialButtonOutlinedStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.materialButtonStyle = global::Havamal.Droid.Resource.Attribute.materialButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialButtonToggleGroupStyle = global::Havamal.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialCalendarDay = global::Havamal.Droid.Resource.Attribute.materialCalendarDay;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialCalendarFullscreenTheme = global::Havamal.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialCalendarHeaderConfirmButton = global::Havamal.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialCalendarHeaderDivider = global::Havamal.Droid.Resource.Attribute.materialCalendarHeaderDivider;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialCalendarHeaderLayout = global::Havamal.Droid.Resource.Attribute.materialCalendarHeaderLayout;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialCalendarHeaderSelection = global::Havamal.Droid.Resource.Attribute.materialCalendarHeaderSelection;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialCalendarHeaderTitle = global::Havamal.Droid.Resource.Attribute.materialCalendarHeaderTitle;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialCalendarHeaderToggleButton = global::Havamal.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialCalendarStyle = global::Havamal.Droid.Resource.Attribute.materialCalendarStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialCalendarTheme = global::Havamal.Droid.Resource.Attribute.materialCalendarTheme;
 			global::Rg.Plugins.Popup.Resource.Attribute.materialCardViewStyle = global::Havamal.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.materialThemeOverlay = global::Havamal.Droid.Resource.Attribute.materialThemeOverlay;
 			global::Rg.Plugins.Popup.Resource.Attribute.maxActionInlineWidth = global::Havamal.Droid.Resource.Attribute.maxActionInlineWidth;
 			global::Rg.Plugins.Popup.Resource.Attribute.maxButtonHeight = global::Havamal.Droid.Resource.Attribute.maxButtonHeight;
+			global::Rg.Plugins.Popup.Resource.Attribute.maxCharacterCount = global::Havamal.Droid.Resource.Attribute.maxCharacterCount;
 			global::Rg.Plugins.Popup.Resource.Attribute.maxImageSize = global::Havamal.Droid.Resource.Attribute.maxImageSize;
+			global::Rg.Plugins.Popup.Resource.Attribute.maxLines = global::Havamal.Droid.Resource.Attribute.maxLines;
 			global::Rg.Plugins.Popup.Resource.Attribute.measureWithLargestChild = global::Havamal.Droid.Resource.Attribute.measureWithLargestChild;
 			global::Rg.Plugins.Popup.Resource.Attribute.menu = global::Havamal.Droid.Resource.Attribute.menu;
+			global::Rg.Plugins.Popup.Resource.Attribute.minTouchTargetSize = global::Havamal.Droid.Resource.Attribute.minTouchTargetSize;
 			global::Rg.Plugins.Popup.Resource.Attribute.multiChoiceItemLayout = global::Havamal.Droid.Resource.Attribute.multiChoiceItemLayout;
 			global::Rg.Plugins.Popup.Resource.Attribute.navigationContentDescription = global::Havamal.Droid.Resource.Attribute.navigationContentDescription;
 			global::Rg.Plugins.Popup.Resource.Attribute.navigationIcon = global::Havamal.Droid.Resource.Attribute.navigationIcon;
 			global::Rg.Plugins.Popup.Resource.Attribute.navigationMode = global::Havamal.Droid.Resource.Attribute.navigationMode;
 			global::Rg.Plugins.Popup.Resource.Attribute.navigationViewStyle = global::Havamal.Droid.Resource.Attribute.navigationViewStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.number = global::Havamal.Droid.Resource.Attribute.number;
 			global::Rg.Plugins.Popup.Resource.Attribute.numericModifiers = global::Havamal.Droid.Resource.Attribute.numericModifiers;
 			global::Rg.Plugins.Popup.Resource.Attribute.overlapAnchor = global::Havamal.Droid.Resource.Attribute.overlapAnchor;
 			global::Rg.Plugins.Popup.Resource.Attribute.paddingBottomNoButtons = global::Havamal.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Rg.Plugins.Popup.Resource.Attribute.paddingBottomSystemWindowInsets = global::Havamal.Droid.Resource.Attribute.paddingBottomSystemWindowInsets;
 			global::Rg.Plugins.Popup.Resource.Attribute.paddingEnd = global::Havamal.Droid.Resource.Attribute.paddingEnd;
+			global::Rg.Plugins.Popup.Resource.Attribute.paddingLeftSystemWindowInsets = global::Havamal.Droid.Resource.Attribute.paddingLeftSystemWindowInsets;
+			global::Rg.Plugins.Popup.Resource.Attribute.paddingRightSystemWindowInsets = global::Havamal.Droid.Resource.Attribute.paddingRightSystemWindowInsets;
 			global::Rg.Plugins.Popup.Resource.Attribute.paddingStart = global::Havamal.Droid.Resource.Attribute.paddingStart;
 			global::Rg.Plugins.Popup.Resource.Attribute.paddingTopNoTitle = global::Havamal.Droid.Resource.Attribute.paddingTopNoTitle;
 			global::Rg.Plugins.Popup.Resource.Attribute.panelBackground = global::Havamal.Droid.Resource.Attribute.panelBackground;
@@ -399,9 +523,16 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.passwordToggleEnabled = global::Havamal.Droid.Resource.Attribute.passwordToggleEnabled;
 			global::Rg.Plugins.Popup.Resource.Attribute.passwordToggleTint = global::Havamal.Droid.Resource.Attribute.passwordToggleTint;
 			global::Rg.Plugins.Popup.Resource.Attribute.passwordToggleTintMode = global::Havamal.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.placeholderText = global::Havamal.Droid.Resource.Attribute.placeholderText;
+			global::Rg.Plugins.Popup.Resource.Attribute.placeholderTextAppearance = global::Havamal.Droid.Resource.Attribute.placeholderTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.placeholderTextColor = global::Havamal.Droid.Resource.Attribute.placeholderTextColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.popupMenuBackground = global::Havamal.Droid.Resource.Attribute.popupMenuBackground;
 			global::Rg.Plugins.Popup.Resource.Attribute.popupMenuStyle = global::Havamal.Droid.Resource.Attribute.popupMenuStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.popupTheme = global::Havamal.Droid.Resource.Attribute.popupTheme;
 			global::Rg.Plugins.Popup.Resource.Attribute.popupWindowStyle = global::Havamal.Droid.Resource.Attribute.popupWindowStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.prefixText = global::Havamal.Droid.Resource.Attribute.prefixText;
+			global::Rg.Plugins.Popup.Resource.Attribute.prefixTextAppearance = global::Havamal.Droid.Resource.Attribute.prefixTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.prefixTextColor = global::Havamal.Droid.Resource.Attribute.prefixTextColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.preserveIconSpacing = global::Havamal.Droid.Resource.Attribute.preserveIconSpacing;
 			global::Rg.Plugins.Popup.Resource.Attribute.pressedTranslationZ = global::Havamal.Droid.Resource.Attribute.pressedTranslationZ;
 			global::Rg.Plugins.Popup.Resource.Attribute.progressBarPadding = global::Havamal.Droid.Resource.Attribute.progressBarPadding;
@@ -409,6 +540,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.queryBackground = global::Havamal.Droid.Resource.Attribute.queryBackground;
 			global::Rg.Plugins.Popup.Resource.Attribute.queryHint = global::Havamal.Droid.Resource.Attribute.queryHint;
 			global::Rg.Plugins.Popup.Resource.Attribute.radioButtonStyle = global::Havamal.Droid.Resource.Attribute.radioButtonStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.rangeFillColor = global::Havamal.Droid.Resource.Attribute.rangeFillColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.ratingBarStyle = global::Havamal.Droid.Resource.Attribute.ratingBarStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.ratingBarStyleIndicator = global::Havamal.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Rg.Plugins.Popup.Resource.Attribute.ratingBarStyleSmall = global::Havamal.Droid.Resource.Attribute.ratingBarStyleSmall;
@@ -418,22 +550,32 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.scrimAnimationDuration = global::Havamal.Droid.Resource.Attribute.scrimAnimationDuration;
 			global::Rg.Plugins.Popup.Resource.Attribute.scrimBackground = global::Havamal.Droid.Resource.Attribute.scrimBackground;
 			global::Rg.Plugins.Popup.Resource.Attribute.scrimVisibleHeightTrigger = global::Havamal.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Rg.Plugins.Popup.Resource.Attribute.scrollViewStyle = global::Havamal.Droid.Resource.Attribute.scrollViewStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.searchHintIcon = global::Havamal.Droid.Resource.Attribute.searchHintIcon;
 			global::Rg.Plugins.Popup.Resource.Attribute.searchIcon = global::Havamal.Droid.Resource.Attribute.searchIcon;
 			global::Rg.Plugins.Popup.Resource.Attribute.searchViewStyle = global::Havamal.Droid.Resource.Attribute.searchViewStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.seekBarStyle = global::Havamal.Droid.Resource.Attribute.seekBarStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.selectableItemBackground = global::Havamal.Droid.Resource.Attribute.selectableItemBackground;
 			global::Rg.Plugins.Popup.Resource.Attribute.selectableItemBackgroundBorderless = global::Havamal.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Rg.Plugins.Popup.Resource.Attribute.selectionRequired = global::Havamal.Droid.Resource.Attribute.selectionRequired;
+			global::Rg.Plugins.Popup.Resource.Attribute.shapeAppearance = global::Havamal.Droid.Resource.Attribute.shapeAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.shapeAppearanceLargeComponent = global::Havamal.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
+			global::Rg.Plugins.Popup.Resource.Attribute.shapeAppearanceMediumComponent = global::Havamal.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
+			global::Rg.Plugins.Popup.Resource.Attribute.shapeAppearanceOverlay = global::Havamal.Droid.Resource.Attribute.shapeAppearanceOverlay;
+			global::Rg.Plugins.Popup.Resource.Attribute.shapeAppearanceSmallComponent = global::Havamal.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
 			global::Rg.Plugins.Popup.Resource.Attribute.showAsAction = global::Havamal.Droid.Resource.Attribute.showAsAction;
 			global::Rg.Plugins.Popup.Resource.Attribute.showDividers = global::Havamal.Droid.Resource.Attribute.showDividers;
 			global::Rg.Plugins.Popup.Resource.Attribute.showMotionSpec = global::Havamal.Droid.Resource.Attribute.showMotionSpec;
 			global::Rg.Plugins.Popup.Resource.Attribute.showText = global::Havamal.Droid.Resource.Attribute.showText;
 			global::Rg.Plugins.Popup.Resource.Attribute.showTitle = global::Havamal.Droid.Resource.Attribute.showTitle;
+			global::Rg.Plugins.Popup.Resource.Attribute.shrinkMotionSpec = global::Havamal.Droid.Resource.Attribute.shrinkMotionSpec;
 			global::Rg.Plugins.Popup.Resource.Attribute.singleChoiceItemLayout = global::Havamal.Droid.Resource.Attribute.singleChoiceItemLayout;
 			global::Rg.Plugins.Popup.Resource.Attribute.singleLine = global::Havamal.Droid.Resource.Attribute.singleLine;
 			global::Rg.Plugins.Popup.Resource.Attribute.singleSelection = global::Havamal.Droid.Resource.Attribute.singleSelection;
+			global::Rg.Plugins.Popup.Resource.Attribute.sliderStyle = global::Havamal.Droid.Resource.Attribute.sliderStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.snackbarButtonStyle = global::Havamal.Droid.Resource.Attribute.snackbarButtonStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.snackbarStyle = global::Havamal.Droid.Resource.Attribute.snackbarStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.snackbarTextViewStyle = global::Havamal.Droid.Resource.Attribute.snackbarTextViewStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.spanCount = global::Havamal.Droid.Resource.Attribute.spanCount;
 			global::Rg.Plugins.Popup.Resource.Attribute.spinBars = global::Havamal.Droid.Resource.Attribute.spinBars;
 			global::Rg.Plugins.Popup.Resource.Attribute.spinnerDropDownItemStyle = global::Havamal.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -441,12 +583,19 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.splitTrack = global::Havamal.Droid.Resource.Attribute.splitTrack;
 			global::Rg.Plugins.Popup.Resource.Attribute.srcCompat = global::Havamal.Droid.Resource.Attribute.srcCompat;
 			global::Rg.Plugins.Popup.Resource.Attribute.stackFromEnd = global::Havamal.Droid.Resource.Attribute.stackFromEnd;
+			global::Rg.Plugins.Popup.Resource.Attribute.startIconCheckable = global::Havamal.Droid.Resource.Attribute.startIconCheckable;
+			global::Rg.Plugins.Popup.Resource.Attribute.startIconContentDescription = global::Havamal.Droid.Resource.Attribute.startIconContentDescription;
+			global::Rg.Plugins.Popup.Resource.Attribute.startIconDrawable = global::Havamal.Droid.Resource.Attribute.startIconDrawable;
+			global::Rg.Plugins.Popup.Resource.Attribute.startIconTint = global::Havamal.Droid.Resource.Attribute.startIconTint;
+			global::Rg.Plugins.Popup.Resource.Attribute.startIconTintMode = global::Havamal.Droid.Resource.Attribute.startIconTintMode;
 			global::Rg.Plugins.Popup.Resource.Attribute.state_above_anchor = global::Havamal.Droid.Resource.Attribute.state_above_anchor;
 			global::Rg.Plugins.Popup.Resource.Attribute.state_collapsed = global::Havamal.Droid.Resource.Attribute.state_collapsed;
 			global::Rg.Plugins.Popup.Resource.Attribute.state_collapsible = global::Havamal.Droid.Resource.Attribute.state_collapsible;
+			global::Rg.Plugins.Popup.Resource.Attribute.state_dragged = global::Havamal.Droid.Resource.Attribute.state_dragged;
 			global::Rg.Plugins.Popup.Resource.Attribute.state_liftable = global::Havamal.Droid.Resource.Attribute.state_liftable;
 			global::Rg.Plugins.Popup.Resource.Attribute.state_lifted = global::Havamal.Droid.Resource.Attribute.state_lifted;
 			global::Rg.Plugins.Popup.Resource.Attribute.statusBarBackground = global::Havamal.Droid.Resource.Attribute.statusBarBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.statusBarForeground = global::Havamal.Droid.Resource.Attribute.statusBarForeground;
 			global::Rg.Plugins.Popup.Resource.Attribute.statusBarScrim = global::Havamal.Droid.Resource.Attribute.statusBarScrim;
 			global::Rg.Plugins.Popup.Resource.Attribute.strokeColor = global::Havamal.Droid.Resource.Attribute.strokeColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.strokeWidth = global::Havamal.Droid.Resource.Attribute.strokeWidth;
@@ -456,7 +605,11 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.subtitleTextAppearance = global::Havamal.Droid.Resource.Attribute.subtitleTextAppearance;
 			global::Rg.Plugins.Popup.Resource.Attribute.subtitleTextColor = global::Havamal.Droid.Resource.Attribute.subtitleTextColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.subtitleTextStyle = global::Havamal.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.suffixText = global::Havamal.Droid.Resource.Attribute.suffixText;
+			global::Rg.Plugins.Popup.Resource.Attribute.suffixTextAppearance = global::Havamal.Droid.Resource.Attribute.suffixTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Attribute.suffixTextColor = global::Havamal.Droid.Resource.Attribute.suffixTextColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.suggestionRowLayout = global::Havamal.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Rg.Plugins.Popup.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::Havamal.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.switchMinWidth = global::Havamal.Droid.Resource.Attribute.switchMinWidth;
 			global::Rg.Plugins.Popup.Resource.Attribute.switchPadding = global::Havamal.Droid.Resource.Attribute.switchPadding;
 			global::Rg.Plugins.Popup.Resource.Attribute.switchStyle = global::Havamal.Droid.Resource.Attribute.switchStyle;
@@ -499,6 +652,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceHeadline5 = global::Havamal.Droid.Resource.Attribute.textAppearanceHeadline5;
 			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceHeadline6 = global::Havamal.Droid.Resource.Attribute.textAppearanceHeadline6;
 			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceLargePopupMenu = global::Havamal.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceLineHeightEnabled = global::Havamal.Droid.Resource.Attribute.textAppearanceLineHeightEnabled;
 			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceListItem = global::Havamal.Droid.Resource.Attribute.textAppearanceListItem;
 			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceListItemSecondary = global::Havamal.Droid.Resource.Attribute.textAppearanceListItemSecondary;
 			global::Rg.Plugins.Popup.Resource.Attribute.textAppearanceListItemSmall = global::Havamal.Droid.Resource.Attribute.textAppearanceListItemSmall;
@@ -512,14 +666,22 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.textColorAlertDialogListItem = global::Havamal.Droid.Resource.Attribute.textColorAlertDialogListItem;
 			global::Rg.Plugins.Popup.Resource.Attribute.textColorSearchUrl = global::Havamal.Droid.Resource.Attribute.textColorSearchUrl;
 			global::Rg.Plugins.Popup.Resource.Attribute.textEndPadding = global::Havamal.Droid.Resource.Attribute.textEndPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.textInputLayoutFocusedRectEnabled = global::Havamal.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled;
 			global::Rg.Plugins.Popup.Resource.Attribute.textInputStyle = global::Havamal.Droid.Resource.Attribute.textInputStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.textLocale = global::Havamal.Droid.Resource.Attribute.textLocale;
 			global::Rg.Plugins.Popup.Resource.Attribute.textStartPadding = global::Havamal.Droid.Resource.Attribute.textStartPadding;
 			global::Rg.Plugins.Popup.Resource.Attribute.theme = global::Havamal.Droid.Resource.Attribute.theme;
+			global::Rg.Plugins.Popup.Resource.Attribute.themeLineHeight = global::Havamal.Droid.Resource.Attribute.themeLineHeight;
 			global::Rg.Plugins.Popup.Resource.Attribute.thickness = global::Havamal.Droid.Resource.Attribute.thickness;
+			global::Rg.Plugins.Popup.Resource.Attribute.thumbColor = global::Havamal.Droid.Resource.Attribute.thumbColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.thumbElevation = global::Havamal.Droid.Resource.Attribute.thumbElevation;
+			global::Rg.Plugins.Popup.Resource.Attribute.thumbRadius = global::Havamal.Droid.Resource.Attribute.thumbRadius;
 			global::Rg.Plugins.Popup.Resource.Attribute.thumbTextPadding = global::Havamal.Droid.Resource.Attribute.thumbTextPadding;
 			global::Rg.Plugins.Popup.Resource.Attribute.thumbTint = global::Havamal.Droid.Resource.Attribute.thumbTint;
 			global::Rg.Plugins.Popup.Resource.Attribute.thumbTintMode = global::Havamal.Droid.Resource.Attribute.thumbTintMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.tickColor = global::Havamal.Droid.Resource.Attribute.tickColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.tickColorActive = global::Havamal.Droid.Resource.Attribute.tickColorActive;
+			global::Rg.Plugins.Popup.Resource.Attribute.tickColorInactive = global::Havamal.Droid.Resource.Attribute.tickColorInactive;
 			global::Rg.Plugins.Popup.Resource.Attribute.tickMark = global::Havamal.Droid.Resource.Attribute.tickMark;
 			global::Rg.Plugins.Popup.Resource.Attribute.tickMarkTint = global::Havamal.Droid.Resource.Attribute.tickMarkTint;
 			global::Rg.Plugins.Popup.Resource.Attribute.tickMarkTintMode = global::Havamal.Droid.Resource.Attribute.tickMarkTintMode;
@@ -541,12 +703,21 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.toolbarStyle = global::Havamal.Droid.Resource.Attribute.toolbarStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.tooltipForegroundColor = global::Havamal.Droid.Resource.Attribute.tooltipForegroundColor;
 			global::Rg.Plugins.Popup.Resource.Attribute.tooltipFrameBackground = global::Havamal.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Rg.Plugins.Popup.Resource.Attribute.tooltipStyle = global::Havamal.Droid.Resource.Attribute.tooltipStyle;
 			global::Rg.Plugins.Popup.Resource.Attribute.tooltipText = global::Havamal.Droid.Resource.Attribute.tooltipText;
 			global::Rg.Plugins.Popup.Resource.Attribute.track = global::Havamal.Droid.Resource.Attribute.track;
+			global::Rg.Plugins.Popup.Resource.Attribute.trackColor = global::Havamal.Droid.Resource.Attribute.trackColor;
+			global::Rg.Plugins.Popup.Resource.Attribute.trackColorActive = global::Havamal.Droid.Resource.Attribute.trackColorActive;
+			global::Rg.Plugins.Popup.Resource.Attribute.trackColorInactive = global::Havamal.Droid.Resource.Attribute.trackColorInactive;
+			global::Rg.Plugins.Popup.Resource.Attribute.trackHeight = global::Havamal.Droid.Resource.Attribute.trackHeight;
 			global::Rg.Plugins.Popup.Resource.Attribute.trackTint = global::Havamal.Droid.Resource.Attribute.trackTint;
 			global::Rg.Plugins.Popup.Resource.Attribute.trackTintMode = global::Havamal.Droid.Resource.Attribute.trackTintMode;
+			global::Rg.Plugins.Popup.Resource.Attribute.transitionShapeAppearance = global::Havamal.Droid.Resource.Attribute.transitionShapeAppearance;
 			global::Rg.Plugins.Popup.Resource.Attribute.ttcIndex = global::Havamal.Droid.Resource.Attribute.ttcIndex;
 			global::Rg.Plugins.Popup.Resource.Attribute.useCompatPadding = global::Havamal.Droid.Resource.Attribute.useCompatPadding;
+			global::Rg.Plugins.Popup.Resource.Attribute.useMaterialThemeColors = global::Havamal.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::Rg.Plugins.Popup.Resource.Attribute.values = global::Havamal.Droid.Resource.Attribute.values;
+			global::Rg.Plugins.Popup.Resource.Attribute.verticalOffset = global::Havamal.Droid.Resource.Attribute.verticalOffset;
 			global::Rg.Plugins.Popup.Resource.Attribute.viewInflaterClass = global::Havamal.Droid.Resource.Attribute.viewInflaterClass;
 			global::Rg.Plugins.Popup.Resource.Attribute.voiceIcon = global::Havamal.Droid.Resource.Attribute.voiceIcon;
 			global::Rg.Plugins.Popup.Resource.Attribute.windowActionBar = global::Havamal.Droid.Resource.Attribute.windowActionBar;
@@ -559,6 +730,9 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Attribute.windowMinWidthMajor = global::Havamal.Droid.Resource.Attribute.windowMinWidthMajor;
 			global::Rg.Plugins.Popup.Resource.Attribute.windowMinWidthMinor = global::Havamal.Droid.Resource.Attribute.windowMinWidthMinor;
 			global::Rg.Plugins.Popup.Resource.Attribute.windowNoTitle = global::Havamal.Droid.Resource.Attribute.windowNoTitle;
+			global::Rg.Plugins.Popup.Resource.Attribute.yearSelectedStyle = global::Havamal.Droid.Resource.Attribute.yearSelectedStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.yearStyle = global::Havamal.Droid.Resource.Attribute.yearStyle;
+			global::Rg.Plugins.Popup.Resource.Attribute.yearTodayStyle = global::Havamal.Droid.Resource.Attribute.yearTodayStyle;
 			global::Rg.Plugins.Popup.Resource.Boolean.abc_action_bar_embed_tabs = global::Havamal.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
 			global::Rg.Plugins.Popup.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Havamal.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
 			global::Rg.Plugins.Popup.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::Havamal.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
@@ -567,6 +741,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Color.abc_btn_colored_borderless_text_material = global::Havamal.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
 			global::Rg.Plugins.Popup.Resource.Color.abc_btn_colored_text_material = global::Havamal.Droid.Resource.Color.abc_btn_colored_text_material;
 			global::Rg.Plugins.Popup.Resource.Color.abc_color_highlight_material = global::Havamal.Droid.Resource.Color.abc_color_highlight_material;
+			global::Rg.Plugins.Popup.Resource.Color.abc_decor_view_status_guard = global::Havamal.Droid.Resource.Color.abc_decor_view_status_guard;
+			global::Rg.Plugins.Popup.Resource.Color.abc_decor_view_status_guard_light = global::Havamal.Droid.Resource.Color.abc_decor_view_status_guard_light;
 			global::Rg.Plugins.Popup.Resource.Color.abc_hint_foreground_material_dark = global::Havamal.Droid.Resource.Color.abc_hint_foreground_material_dark;
 			global::Rg.Plugins.Popup.Resource.Color.abc_hint_foreground_material_light = global::Havamal.Droid.Resource.Color.abc_hint_foreground_material_light;
 			global::Rg.Plugins.Popup.Resource.Color.abc_primary_text_disable_only_material_dark = global::Havamal.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
@@ -587,6 +763,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Color.abc_tint_switch_track = global::Havamal.Droid.Resource.Color.abc_tint_switch_track;
 			global::Rg.Plugins.Popup.Resource.Color.accent_material_dark = global::Havamal.Droid.Resource.Color.accent_material_dark;
 			global::Rg.Plugins.Popup.Resource.Color.accent_material_light = global::Havamal.Droid.Resource.Color.accent_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.androidx_core_ripple_material_light = global::Havamal.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.androidx_core_secondary_text_default_material_light = global::Havamal.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
 			global::Rg.Plugins.Popup.Resource.Color.background_floating_material_dark = global::Havamal.Droid.Resource.Color.background_floating_material_dark;
 			global::Rg.Plugins.Popup.Resource.Color.background_floating_material_light = global::Havamal.Droid.Resource.Color.background_floating_material_light;
 			global::Rg.Plugins.Popup.Resource.Color.background_material_dark = global::Havamal.Droid.Resource.Color.background_material_dark;
@@ -607,9 +785,35 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Color.cardview_light_background = global::Havamal.Droid.Resource.Color.cardview_light_background;
 			global::Rg.Plugins.Popup.Resource.Color.cardview_shadow_end_color = global::Havamal.Droid.Resource.Color.cardview_shadow_end_color;
 			global::Rg.Plugins.Popup.Resource.Color.cardview_shadow_start_color = global::Havamal.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Rg.Plugins.Popup.Resource.Color.checkbox_themeable_attribute_color = global::Havamal.Droid.Resource.Color.checkbox_themeable_attribute_color;
 			global::Rg.Plugins.Popup.Resource.Color.design_bottom_navigation_shadow_color = global::Havamal.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Rg.Plugins.Popup.Resource.Color.design_box_stroke_color = global::Havamal.Droid.Resource.Color.design_box_stroke_color;
+			global::Rg.Plugins.Popup.Resource.Color.design_dark_default_color_background = global::Havamal.Droid.Resource.Color.design_dark_default_color_background;
+			global::Rg.Plugins.Popup.Resource.Color.design_dark_default_color_error = global::Havamal.Droid.Resource.Color.design_dark_default_color_error;
+			global::Rg.Plugins.Popup.Resource.Color.design_dark_default_color_on_background = global::Havamal.Droid.Resource.Color.design_dark_default_color_on_background;
+			global::Rg.Plugins.Popup.Resource.Color.design_dark_default_color_on_error = global::Havamal.Droid.Resource.Color.design_dark_default_color_on_error;
+			global::Rg.Plugins.Popup.Resource.Color.design_dark_default_color_on_primary = global::Havamal.Droid.Resource.Color.design_dark_default_color_on_primary;
+			global::Rg.Plugins.Popup.Resource.Color.design_dark_default_color_on_secondary = global::Havamal.Droid.Resource.Color.design_dark_default_color_on_secondary;
+			global::Rg.Plugins.Popup.Resource.Color.design_dark_default_color_on_surface = global::Havamal.Droid.Resource.Color.design_dark_default_color_on_surface;
+			global::Rg.Plugins.Popup.Resource.Color.design_dark_default_color_primary = global::Havamal.Droid.Resource.Color.design_dark_default_color_primary;
+			global::Rg.Plugins.Popup.Resource.Color.design_dark_default_color_primary_dark = global::Havamal.Droid.Resource.Color.design_dark_default_color_primary_dark;
+			global::Rg.Plugins.Popup.Resource.Color.design_dark_default_color_primary_variant = global::Havamal.Droid.Resource.Color.design_dark_default_color_primary_variant;
+			global::Rg.Plugins.Popup.Resource.Color.design_dark_default_color_secondary = global::Havamal.Droid.Resource.Color.design_dark_default_color_secondary;
+			global::Rg.Plugins.Popup.Resource.Color.design_dark_default_color_secondary_variant = global::Havamal.Droid.Resource.Color.design_dark_default_color_secondary_variant;
+			global::Rg.Plugins.Popup.Resource.Color.design_dark_default_color_surface = global::Havamal.Droid.Resource.Color.design_dark_default_color_surface;
+			global::Rg.Plugins.Popup.Resource.Color.design_default_color_background = global::Havamal.Droid.Resource.Color.design_default_color_background;
+			global::Rg.Plugins.Popup.Resource.Color.design_default_color_error = global::Havamal.Droid.Resource.Color.design_default_color_error;
+			global::Rg.Plugins.Popup.Resource.Color.design_default_color_on_background = global::Havamal.Droid.Resource.Color.design_default_color_on_background;
+			global::Rg.Plugins.Popup.Resource.Color.design_default_color_on_error = global::Havamal.Droid.Resource.Color.design_default_color_on_error;
+			global::Rg.Plugins.Popup.Resource.Color.design_default_color_on_primary = global::Havamal.Droid.Resource.Color.design_default_color_on_primary;
+			global::Rg.Plugins.Popup.Resource.Color.design_default_color_on_secondary = global::Havamal.Droid.Resource.Color.design_default_color_on_secondary;
+			global::Rg.Plugins.Popup.Resource.Color.design_default_color_on_surface = global::Havamal.Droid.Resource.Color.design_default_color_on_surface;
 			global::Rg.Plugins.Popup.Resource.Color.design_default_color_primary = global::Havamal.Droid.Resource.Color.design_default_color_primary;
 			global::Rg.Plugins.Popup.Resource.Color.design_default_color_primary_dark = global::Havamal.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Rg.Plugins.Popup.Resource.Color.design_default_color_primary_variant = global::Havamal.Droid.Resource.Color.design_default_color_primary_variant;
+			global::Rg.Plugins.Popup.Resource.Color.design_default_color_secondary = global::Havamal.Droid.Resource.Color.design_default_color_secondary;
+			global::Rg.Plugins.Popup.Resource.Color.design_default_color_secondary_variant = global::Havamal.Droid.Resource.Color.design_default_color_secondary_variant;
+			global::Rg.Plugins.Popup.Resource.Color.design_default_color_surface = global::Havamal.Droid.Resource.Color.design_default_color_surface;
 			global::Rg.Plugins.Popup.Resource.Color.design_error = global::Havamal.Droid.Resource.Color.design_error;
 			global::Rg.Plugins.Popup.Resource.Color.design_fab_shadow_end_color = global::Havamal.Droid.Resource.Color.design_fab_shadow_end_color;
 			global::Rg.Plugins.Popup.Resource.Color.design_fab_shadow_mid_color = global::Havamal.Droid.Resource.Color.design_fab_shadow_mid_color;
@@ -618,6 +822,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Color.design_fab_stroke_end_outer_color = global::Havamal.Droid.Resource.Color.design_fab_stroke_end_outer_color;
 			global::Rg.Plugins.Popup.Resource.Color.design_fab_stroke_top_inner_color = global::Havamal.Droid.Resource.Color.design_fab_stroke_top_inner_color;
 			global::Rg.Plugins.Popup.Resource.Color.design_fab_stroke_top_outer_color = global::Havamal.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Rg.Plugins.Popup.Resource.Color.design_icon_tint = global::Havamal.Droid.Resource.Color.design_icon_tint;
 			global::Rg.Plugins.Popup.Resource.Color.design_snackbar_background_color = global::Havamal.Droid.Resource.Color.design_snackbar_background_color;
 			global::Rg.Plugins.Popup.Resource.Color.dim_foreground_disabled_material_dark = global::Havamal.Droid.Resource.Color.dim_foreground_disabled_material_dark;
 			global::Rg.Plugins.Popup.Resource.Color.dim_foreground_disabled_material_light = global::Havamal.Droid.Resource.Color.dim_foreground_disabled_material_light;
@@ -641,17 +846,56 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Color.material_grey_800 = global::Havamal.Droid.Resource.Color.material_grey_800;
 			global::Rg.Plugins.Popup.Resource.Color.material_grey_850 = global::Havamal.Droid.Resource.Color.material_grey_850;
 			global::Rg.Plugins.Popup.Resource.Color.material_grey_900 = global::Havamal.Droid.Resource.Color.material_grey_900;
+			global::Rg.Plugins.Popup.Resource.Color.material_on_background_disabled = global::Havamal.Droid.Resource.Color.material_on_background_disabled;
+			global::Rg.Plugins.Popup.Resource.Color.material_on_background_emphasis_high_type = global::Havamal.Droid.Resource.Color.material_on_background_emphasis_high_type;
+			global::Rg.Plugins.Popup.Resource.Color.material_on_background_emphasis_medium = global::Havamal.Droid.Resource.Color.material_on_background_emphasis_medium;
+			global::Rg.Plugins.Popup.Resource.Color.material_on_primary_disabled = global::Havamal.Droid.Resource.Color.material_on_primary_disabled;
+			global::Rg.Plugins.Popup.Resource.Color.material_on_primary_emphasis_high_type = global::Havamal.Droid.Resource.Color.material_on_primary_emphasis_high_type;
+			global::Rg.Plugins.Popup.Resource.Color.material_on_primary_emphasis_medium = global::Havamal.Droid.Resource.Color.material_on_primary_emphasis_medium;
+			global::Rg.Plugins.Popup.Resource.Color.material_on_surface_disabled = global::Havamal.Droid.Resource.Color.material_on_surface_disabled;
+			global::Rg.Plugins.Popup.Resource.Color.material_on_surface_emphasis_high_type = global::Havamal.Droid.Resource.Color.material_on_surface_emphasis_high_type;
+			global::Rg.Plugins.Popup.Resource.Color.material_on_surface_emphasis_medium = global::Havamal.Droid.Resource.Color.material_on_surface_emphasis_medium;
+			global::Rg.Plugins.Popup.Resource.Color.material_on_surface_stroke = global::Havamal.Droid.Resource.Color.material_on_surface_stroke;
+			global::Rg.Plugins.Popup.Resource.Color.material_slider_active_tick_marks_color = global::Havamal.Droid.Resource.Color.material_slider_active_tick_marks_color;
+			global::Rg.Plugins.Popup.Resource.Color.material_slider_active_track_color = global::Havamal.Droid.Resource.Color.material_slider_active_track_color;
+			global::Rg.Plugins.Popup.Resource.Color.material_slider_halo_color = global::Havamal.Droid.Resource.Color.material_slider_halo_color;
+			global::Rg.Plugins.Popup.Resource.Color.material_slider_inactive_tick_marks_color = global::Havamal.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
+			global::Rg.Plugins.Popup.Resource.Color.material_slider_inactive_track_color = global::Havamal.Droid.Resource.Color.material_slider_inactive_track_color;
+			global::Rg.Plugins.Popup.Resource.Color.material_slider_thumb_color = global::Havamal.Droid.Resource.Color.material_slider_thumb_color;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_btn_bg_color_selector = global::Havamal.Droid.Resource.Color.mtrl_btn_bg_color_selector;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_btn_ripple_color = global::Havamal.Droid.Resource.Color.mtrl_btn_ripple_color;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_btn_stroke_color_selector = global::Havamal.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_btn_text_btn_bg_color_selector = global::Havamal.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_btn_text_btn_ripple_color = global::Havamal.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_btn_text_color_disabled = global::Havamal.Droid.Resource.Color.mtrl_btn_text_color_disabled;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_btn_text_color_selector = global::Havamal.Droid.Resource.Color.mtrl_btn_text_color_selector;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_btn_transparent_bg_color = global::Havamal.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_calendar_item_stroke_color = global::Havamal.Droid.Resource.Color.mtrl_calendar_item_stroke_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_calendar_selected_range = global::Havamal.Droid.Resource.Color.mtrl_calendar_selected_range;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_card_view_foreground = global::Havamal.Droid.Resource.Color.mtrl_card_view_foreground;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_card_view_ripple = global::Havamal.Droid.Resource.Color.mtrl_card_view_ripple;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_chip_background_color = global::Havamal.Droid.Resource.Color.mtrl_chip_background_color;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_chip_close_icon_tint = global::Havamal.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_chip_surface_color = global::Havamal.Droid.Resource.Color.mtrl_chip_surface_color;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_chip_text_color = global::Havamal.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_choice_chip_background_color = global::Havamal.Droid.Resource.Color.mtrl_choice_chip_background_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_choice_chip_ripple_color = global::Havamal.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_choice_chip_text_color = global::Havamal.Droid.Resource.Color.mtrl_choice_chip_text_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_error = global::Havamal.Droid.Resource.Color.mtrl_error;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_fab_bg_color_selector = global::Havamal.Droid.Resource.Color.mtrl_fab_bg_color_selector;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_fab_icon_text_color_selector = global::Havamal.Droid.Resource.Color.mtrl_fab_icon_text_color_selector;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_fab_ripple_color = global::Havamal.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_filled_background_color = global::Havamal.Droid.Resource.Color.mtrl_filled_background_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_filled_icon_tint = global::Havamal.Droid.Resource.Color.mtrl_filled_icon_tint;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_filled_stroke_color = global::Havamal.Droid.Resource.Color.mtrl_filled_stroke_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_indicator_text_color = global::Havamal.Droid.Resource.Color.mtrl_indicator_text_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_navigation_item_background_color = global::Havamal.Droid.Resource.Color.mtrl_navigation_item_background_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_navigation_item_icon_tint = global::Havamal.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_navigation_item_text_color = global::Havamal.Droid.Resource.Color.mtrl_navigation_item_text_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::Havamal.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_outlined_icon_tint = global::Havamal.Droid.Resource.Color.mtrl_outlined_icon_tint;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_outlined_stroke_color = global::Havamal.Droid.Resource.Color.mtrl_outlined_stroke_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_popupmenu_overlay_color = global::Havamal.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_scrim_color = global::Havamal.Droid.Resource.Color.mtrl_scrim_color;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_tabs_colored_ripple_color = global::Havamal.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_tabs_icon_color_selector = global::Havamal.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
@@ -661,6 +905,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_textinput_default_box_stroke_color = global::Havamal.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_textinput_disabled_color = global::Havamal.Droid.Resource.Color.mtrl_textinput_disabled_color;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::Havamal.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Rg.Plugins.Popup.Resource.Color.mtrl_textinput_focused_box_stroke_color = global::Havamal.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::Havamal.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
 			global::Rg.Plugins.Popup.Resource.Color.mtrl_text_btn_text_color_selector = global::Havamal.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
 			global::Rg.Plugins.Popup.Resource.Color.notification_action_color_filter = global::Havamal.Droid.Resource.Color.notification_action_color_filter;
@@ -674,6 +919,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Color.primary_text_default_material_light = global::Havamal.Droid.Resource.Color.primary_text_default_material_light;
 			global::Rg.Plugins.Popup.Resource.Color.primary_text_disabled_material_dark = global::Havamal.Droid.Resource.Color.primary_text_disabled_material_dark;
 			global::Rg.Plugins.Popup.Resource.Color.primary_text_disabled_material_light = global::Havamal.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.radiobutton_themeable_attribute_color = global::Havamal.Droid.Resource.Color.radiobutton_themeable_attribute_color;
 			global::Rg.Plugins.Popup.Resource.Color.ripple_material_dark = global::Havamal.Droid.Resource.Color.ripple_material_dark;
 			global::Rg.Plugins.Popup.Resource.Color.ripple_material_light = global::Havamal.Droid.Resource.Color.ripple_material_light;
 			global::Rg.Plugins.Popup.Resource.Color.secondary_text_default_material_dark = global::Havamal.Droid.Resource.Color.secondary_text_default_material_dark;
@@ -686,6 +932,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Color.switch_thumb_material_light = global::Havamal.Droid.Resource.Color.switch_thumb_material_light;
 			global::Rg.Plugins.Popup.Resource.Color.switch_thumb_normal_material_dark = global::Havamal.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::Rg.Plugins.Popup.Resource.Color.switch_thumb_normal_material_light = global::Havamal.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Rg.Plugins.Popup.Resource.Color.test_mtrl_calendar_day = global::Havamal.Droid.Resource.Color.test_mtrl_calendar_day;
+			global::Rg.Plugins.Popup.Resource.Color.test_mtrl_calendar_day_selected = global::Havamal.Droid.Resource.Color.test_mtrl_calendar_day_selected;
 			global::Rg.Plugins.Popup.Resource.Color.tooltip_background_dark = global::Havamal.Droid.Resource.Color.tooltip_background_dark;
 			global::Rg.Plugins.Popup.Resource.Color.tooltip_background_light = global::Havamal.Droid.Resource.Color.tooltip_background_light;
 			global::Rg.Plugins.Popup.Resource.Dimension.abc_action_bar_content_inset_material = global::Havamal.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
@@ -766,6 +1014,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Havamal.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_title_material = global::Havamal.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::Rg.Plugins.Popup.Resource.Dimension.abc_text_size_title_material_toolbar = global::Havamal.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Rg.Plugins.Popup.Resource.Dimension.action_bar_size = global::Havamal.Droid.Resource.Dimension.action_bar_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.appcompat_dialog_background_inset = global::Havamal.Droid.Resource.Dimension.appcompat_dialog_background_inset;
 			global::Rg.Plugins.Popup.Resource.Dimension.browser_actions_context_menu_max_width = global::Havamal.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
 			global::Rg.Plugins.Popup.Resource.Dimension.browser_actions_context_menu_min_padding = global::Havamal.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
 			global::Rg.Plugins.Popup.Resource.Dimension.cardview_compat_inset_shadow = global::Havamal.Droid.Resource.Dimension.cardview_compat_inset_shadow;
@@ -778,6 +1028,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Dimension.compat_control_corner_material = global::Havamal.Droid.Resource.Dimension.compat_control_corner_material;
 			global::Rg.Plugins.Popup.Resource.Dimension.compat_notification_large_icon_max_height = global::Havamal.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::Rg.Plugins.Popup.Resource.Dimension.compat_notification_large_icon_max_width = global::Havamal.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.default_dimension = global::Havamal.Droid.Resource.Dimension.default_dimension;
+			global::Rg.Plugins.Popup.Resource.Dimension.def_drawer_elevation = global::Havamal.Droid.Resource.Dimension.def_drawer_elevation;
 			global::Rg.Plugins.Popup.Resource.Dimension.design_appbar_elevation = global::Havamal.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Havamal.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
 			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::Havamal.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
@@ -790,6 +1042,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_navigation_margin = global::Havamal.Droid.Resource.Dimension.design_bottom_navigation_margin;
 			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_navigation_shadow_height = global::Havamal.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
 			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_navigation_text_size = global::Havamal.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_sheet_elevation = global::Havamal.Droid.Resource.Dimension.design_bottom_sheet_elevation;
 			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Havamal.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
 			global::Rg.Plugins.Popup.Resource.Dimension.design_bottom_sheet_peek_height_min = global::Havamal.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
 			global::Rg.Plugins.Popup.Resource.Dimension.design_fab_border_width = global::Havamal.Droid.Resource.Dimension.design_fab_border_width;
@@ -808,6 +1061,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Dimension.design_navigation_padding_bottom = global::Havamal.Droid.Resource.Dimension.design_navigation_padding_bottom;
 			global::Rg.Plugins.Popup.Resource.Dimension.design_navigation_separator_vertical_padding = global::Havamal.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
 			global::Rg.Plugins.Popup.Resource.Dimension.design_snackbar_action_inline_max_width = global::Havamal.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.design_snackbar_action_text_color_alpha = global::Havamal.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha;
 			global::Rg.Plugins.Popup.Resource.Dimension.design_snackbar_background_corner_radius = global::Havamal.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
 			global::Rg.Plugins.Popup.Resource.Dimension.design_snackbar_elevation = global::Havamal.Droid.Resource.Dimension.design_snackbar_elevation;
 			global::Rg.Plugins.Popup.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Havamal.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
@@ -837,7 +1091,24 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Havamal.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::Rg.Plugins.Popup.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Havamal.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::Rg.Plugins.Popup.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Havamal.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Rg.Plugins.Popup.Resource.Dimension.material_emphasis_disabled = global::Havamal.Droid.Resource.Dimension.material_emphasis_disabled;
+			global::Rg.Plugins.Popup.Resource.Dimension.material_emphasis_high_type = global::Havamal.Droid.Resource.Dimension.material_emphasis_high_type;
+			global::Rg.Plugins.Popup.Resource.Dimension.material_emphasis_medium = global::Havamal.Droid.Resource.Dimension.material_emphasis_medium;
+			global::Rg.Plugins.Popup.Resource.Dimension.material_text_view_test_line_height = global::Havamal.Droid.Resource.Dimension.material_text_view_test_line_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.material_text_view_test_line_height_override = global::Havamal.Droid.Resource.Dimension.material_text_view_test_line_height_override;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::Havamal.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::Havamal.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::Havamal.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_alert_dialog_background_inset_top = global::Havamal.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_alert_dialog_picker_background_inset = global::Havamal.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_badge_horizontal_edge_offset = global::Havamal.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_badge_long_text_horizontal_padding = global::Havamal.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_badge_radius = global::Havamal.Droid.Resource.Dimension.mtrl_badge_radius;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::Havamal.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_badge_text_size = global::Havamal.Droid.Resource.Dimension.mtrl_badge_text_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_badge_with_text_radius = global::Havamal.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::Havamal.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::Havamal.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::Havamal.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::Havamal.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::Havamal.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
@@ -864,25 +1135,130 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::Havamal.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_text_size = global::Havamal.Droid.Resource.Dimension.mtrl_btn_text_size;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_btn_z = global::Havamal.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_action_height = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_action_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_action_padding = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_action_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_bottom_padding = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_content_padding = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_content_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_days_of_week_height = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_day_corner = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_day_corner;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_day_height = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_day_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_day_horizontal_padding = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_day_today_stroke = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_day_vertical_padding = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_day_width = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_day_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_dialog_background_inset = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_header_content_padding = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_header_content_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_header_divider_thickness = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_header_height = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_header_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_header_height_fullscreen = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_header_selection_line_height = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_header_text_padding = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_header_text_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_header_toggle_margin_top = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_landscape_header_width = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_month_horizontal_padding = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_month_vertical_padding = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_navigation_bottom_padding = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_navigation_height = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_navigation_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_navigation_top_padding = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_text_input_padding_top = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_title_baseline_to_top = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_year_corner = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_year_corner;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_year_height = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_year_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_year_horizontal_padding = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_year_vertical_padding = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_calendar_year_width = global::Havamal.Droid.Resource.Dimension.mtrl_calendar_year_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_card_checked_icon_margin = global::Havamal.Droid.Resource.Dimension.mtrl_card_checked_icon_margin;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_card_checked_icon_size = global::Havamal.Droid.Resource.Dimension.mtrl_card_checked_icon_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_card_corner_radius = global::Havamal.Droid.Resource.Dimension.mtrl_card_corner_radius;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_card_dragged_z = global::Havamal.Droid.Resource.Dimension.mtrl_card_dragged_z;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_card_elevation = global::Havamal.Droid.Resource.Dimension.mtrl_card_elevation;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_card_spacing = global::Havamal.Droid.Resource.Dimension.mtrl_card_spacing;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Havamal.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_chip_text_size = global::Havamal.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::Havamal.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::Havamal.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::Havamal.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::Havamal.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_corner_radius = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_elevation = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_end_padding = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_end_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_end_padding_icon = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_icon_size = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_icon_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_icon_text_spacing = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_min_height = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_min_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_min_width = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_min_width;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_start_padding = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_start_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_start_padding_icon = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_top_padding = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_top_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_translation_z_base = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_extended_fab_translation_z_pressed = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_fab_elevation = global::Havamal.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_fab_min_touch_target = global::Havamal.Droid.Resource.Dimension.mtrl_fab_min_touch_target;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::Havamal.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_fab_translation_z_pressed = global::Havamal.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_high_ripple_default_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_large_touch_target = global::Havamal.Droid.Resource.Dimension.mtrl_large_touch_target;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_low_ripple_default_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_low_ripple_pressed_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_min_touch_target_size = global::Havamal.Droid.Resource.Dimension.mtrl_min_touch_target_size;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_navigation_elevation = global::Havamal.Droid.Resource.Dimension.mtrl_navigation_elevation;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::Havamal.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_navigation_item_icon_padding = global::Havamal.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_navigation_item_icon_size = global::Havamal.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::Havamal.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::Havamal.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_shape_corner_size_large_component = global::Havamal.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::Havamal.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_shape_corner_size_small_component = global::Havamal.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_slider_halo_radius = global::Havamal.Droid.Resource.Dimension.mtrl_slider_halo_radius;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_slider_label_padding = global::Havamal.Droid.Resource.Dimension.mtrl_slider_label_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_slider_label_radius = global::Havamal.Droid.Resource.Dimension.mtrl_slider_label_radius;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_slider_label_square_side = global::Havamal.Droid.Resource.Dimension.mtrl_slider_label_square_side;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_slider_thumb_elevation = global::Havamal.Droid.Resource.Dimension.mtrl_slider_thumb_elevation;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_slider_thumb_radius = global::Havamal.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_slider_track_height = global::Havamal.Droid.Resource.Dimension.mtrl_slider_track_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_slider_track_side_padding = global::Havamal.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_slider_track_top = global::Havamal.Droid.Resource.Dimension.mtrl_slider_track_top;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_slider_widget_height = global::Havamal.Droid.Resource.Dimension.mtrl_slider_widget_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Havamal.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_snackbar_margin = global::Havamal.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_switch_thumb_elevation = global::Havamal.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::Havamal.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::Havamal.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::Havamal.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::Havamal.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::Havamal.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_textinput_counter_margin_start = global::Havamal.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::Havamal.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::Havamal.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::Havamal.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
 			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_toolbar_default_height = global::Havamal.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_tooltip_arrowSize = global::Havamal.Droid.Resource.Dimension.mtrl_tooltip_arrowSize;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_tooltip_cornerSize = global::Havamal.Droid.Resource.Dimension.mtrl_tooltip_cornerSize;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_tooltip_minHeight = global::Havamal.Droid.Resource.Dimension.mtrl_tooltip_minHeight;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_tooltip_minWidth = global::Havamal.Droid.Resource.Dimension.mtrl_tooltip_minWidth;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_tooltip_padding = global::Havamal.Droid.Resource.Dimension.mtrl_tooltip_padding;
+			global::Rg.Plugins.Popup.Resource.Dimension.mtrl_transition_shared_axis_slide_distance = global::Havamal.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance;
 			global::Rg.Plugins.Popup.Resource.Dimension.notification_action_icon_size = global::Havamal.Droid.Resource.Dimension.notification_action_icon_size;
 			global::Rg.Plugins.Popup.Resource.Dimension.notification_action_text_size = global::Havamal.Droid.Resource.Dimension.notification_action_text_size;
 			global::Rg.Plugins.Popup.Resource.Dimension.notification_big_circle_margin = global::Havamal.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -898,6 +1274,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Dimension.notification_subtext_size = global::Havamal.Droid.Resource.Dimension.notification_subtext_size;
 			global::Rg.Plugins.Popup.Resource.Dimension.notification_top_pad = global::Havamal.Droid.Resource.Dimension.notification_top_pad;
 			global::Rg.Plugins.Popup.Resource.Dimension.notification_top_pad_large_text = global::Havamal.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Rg.Plugins.Popup.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::Havamal.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
 			global::Rg.Plugins.Popup.Resource.Dimension.tooltip_corner_radius = global::Havamal.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Rg.Plugins.Popup.Resource.Dimension.tooltip_horizontal_padding = global::Havamal.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Rg.Plugins.Popup.Resource.Dimension.tooltip_margin = global::Havamal.Droid.Resource.Dimension.tooltip_margin;
@@ -995,9 +1372,25 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Drawable.design_ic_visibility_off = global::Havamal.Droid.Resource.Drawable.design_ic_visibility_off;
 			global::Rg.Plugins.Popup.Resource.Drawable.design_password_eye = global::Havamal.Droid.Resource.Drawable.design_password_eye;
 			global::Rg.Plugins.Popup.Resource.Drawable.design_snackbar_background = global::Havamal.Droid.Resource.Drawable.design_snackbar_background;
+			global::Rg.Plugins.Popup.Resource.Drawable.ic_mtrl_checked_circle = global::Havamal.Droid.Resource.Drawable.ic_mtrl_checked_circle;
 			global::Rg.Plugins.Popup.Resource.Drawable.ic_mtrl_chip_checked_black = global::Havamal.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
 			global::Rg.Plugins.Popup.Resource.Drawable.ic_mtrl_chip_checked_circle = global::Havamal.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
 			global::Rg.Plugins.Popup.Resource.Drawable.ic_mtrl_chip_close_circle = global::Havamal.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Rg.Plugins.Popup.Resource.Drawable.material_ic_calendar_black_24dp = global::Havamal.Droid.Resource.Drawable.material_ic_calendar_black_24dp;
+			global::Rg.Plugins.Popup.Resource.Drawable.material_ic_clear_black_24dp = global::Havamal.Droid.Resource.Drawable.material_ic_clear_black_24dp;
+			global::Rg.Plugins.Popup.Resource.Drawable.material_ic_edit_black_24dp = global::Havamal.Droid.Resource.Drawable.material_ic_edit_black_24dp;
+			global::Rg.Plugins.Popup.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp = global::Havamal.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp;
+			global::Rg.Plugins.Popup.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp = global::Havamal.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp;
+			global::Rg.Plugins.Popup.Resource.Drawable.material_ic_menu_arrow_down_black_24dp = global::Havamal.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp;
+			global::Rg.Plugins.Popup.Resource.Drawable.material_ic_menu_arrow_up_black_24dp = global::Havamal.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp;
+			global::Rg.Plugins.Popup.Resource.Drawable.mtrl_dialog_background = global::Havamal.Droid.Resource.Drawable.mtrl_dialog_background;
+			global::Rg.Plugins.Popup.Resource.Drawable.mtrl_dropdown_arrow = global::Havamal.Droid.Resource.Drawable.mtrl_dropdown_arrow;
+			global::Rg.Plugins.Popup.Resource.Drawable.mtrl_ic_arrow_drop_down = global::Havamal.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
+			global::Rg.Plugins.Popup.Resource.Drawable.mtrl_ic_arrow_drop_up = global::Havamal.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up;
+			global::Rg.Plugins.Popup.Resource.Drawable.mtrl_ic_cancel = global::Havamal.Droid.Resource.Drawable.mtrl_ic_cancel;
+			global::Rg.Plugins.Popup.Resource.Drawable.mtrl_ic_error = global::Havamal.Droid.Resource.Drawable.mtrl_ic_error;
+			global::Rg.Plugins.Popup.Resource.Drawable.mtrl_popupmenu_background = global::Havamal.Droid.Resource.Drawable.mtrl_popupmenu_background;
+			global::Rg.Plugins.Popup.Resource.Drawable.mtrl_popupmenu_background_dark = global::Havamal.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
 			global::Rg.Plugins.Popup.Resource.Drawable.mtrl_tabs_default_indicator = global::Havamal.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::Rg.Plugins.Popup.Resource.Drawable.navigation_empty_icon = global::Havamal.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Rg.Plugins.Popup.Resource.Drawable.notification_action_background = global::Havamal.Droid.Resource.Drawable.notification_action_background;
@@ -1012,6 +1405,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Drawable.notification_template_icon_low_bg = global::Havamal.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Rg.Plugins.Popup.Resource.Drawable.notification_tile_bg = global::Havamal.Droid.Resource.Drawable.notification_tile_bg;
 			global::Rg.Plugins.Popup.Resource.Drawable.notify_panel_notification_icon_bg = global::Havamal.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Rg.Plugins.Popup.Resource.Drawable.test_custom_background = global::Havamal.Droid.Resource.Drawable.test_custom_background;
 			global::Rg.Plugins.Popup.Resource.Drawable.tooltip_frame_dark = global::Havamal.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Rg.Plugins.Popup.Resource.Drawable.tooltip_frame_light = global::Havamal.Droid.Resource.Drawable.tooltip_frame_light;
 			global::Rg.Plugins.Popup.Resource.Id.accessibility_action_clickable_span = global::Havamal.Droid.Resource.Id.accessibility_action_clickable_span;
@@ -1079,6 +1473,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Id.bottom = global::Havamal.Droid.Resource.Id.bottom;
 			global::Rg.Plugins.Popup.Resource.Id.bottomtab_navarea = global::Havamal.Droid.Resource.Id.bottomtab_navarea;
 			global::Rg.Plugins.Popup.Resource.Id.bottomtab_tabbar = global::Havamal.Droid.Resource.Id.bottomtab_tabbar;
+			global::Rg.Plugins.Popup.Resource.Id.BOTTOM_END = global::Havamal.Droid.Resource.Id.BOTTOM_END;
+			global::Rg.Plugins.Popup.Resource.Id.BOTTOM_START = global::Havamal.Droid.Resource.Id.BOTTOM_START;
 			global::Rg.Plugins.Popup.Resource.Id.browser_actions_header_text = global::Havamal.Droid.Resource.Id.browser_actions_header_text;
 			global::Rg.Plugins.Popup.Resource.Id.browser_actions_menu_items = global::Havamal.Droid.Resource.Id.browser_actions_menu_items;
 			global::Rg.Plugins.Popup.Resource.Id.browser_actions_menu_item_icon = global::Havamal.Droid.Resource.Id.browser_actions_menu_item_icon;
@@ -1086,15 +1482,23 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Id.browser_actions_menu_view = global::Havamal.Droid.Resource.Id.browser_actions_menu_view;
 			global::Rg.Plugins.Popup.Resource.Id.buttonPanel = global::Havamal.Droid.Resource.Id.buttonPanel;
 			global::Rg.Plugins.Popup.Resource.Id.cancel_action = global::Havamal.Droid.Resource.Id.cancel_action;
+			global::Rg.Plugins.Popup.Resource.Id.cancel_button = global::Havamal.Droid.Resource.Id.cancel_button;
 			global::Rg.Plugins.Popup.Resource.Id.center = global::Havamal.Droid.Resource.Id.center;
 			global::Rg.Plugins.Popup.Resource.Id.center_horizontal = global::Havamal.Droid.Resource.Id.center_horizontal;
 			global::Rg.Plugins.Popup.Resource.Id.center_vertical = global::Havamal.Droid.Resource.Id.center_vertical;
 			global::Rg.Plugins.Popup.Resource.Id.checkbox = global::Havamal.Droid.Resource.Id.checkbox;
 			global::Rg.Plugins.Popup.Resource.Id.@checked = global::Havamal.Droid.Resource.Id.@checked;
+			global::Rg.Plugins.Popup.Resource.Id.chip = global::Havamal.Droid.Resource.Id.chip;
+			global::Rg.Plugins.Popup.Resource.Id.chip1 = global::Havamal.Droid.Resource.Id.chip1;
+			global::Rg.Plugins.Popup.Resource.Id.chip2 = global::Havamal.Droid.Resource.Id.chip2;
+			global::Rg.Plugins.Popup.Resource.Id.chip3 = global::Havamal.Droid.Resource.Id.chip3;
+			global::Rg.Plugins.Popup.Resource.Id.chip_group = global::Havamal.Droid.Resource.Id.chip_group;
 			global::Rg.Plugins.Popup.Resource.Id.chronometer = global::Havamal.Droid.Resource.Id.chronometer;
+			global::Rg.Plugins.Popup.Resource.Id.clear_text = global::Havamal.Droid.Resource.Id.clear_text;
 			global::Rg.Plugins.Popup.Resource.Id.clip_horizontal = global::Havamal.Droid.Resource.Id.clip_horizontal;
 			global::Rg.Plugins.Popup.Resource.Id.clip_vertical = global::Havamal.Droid.Resource.Id.clip_vertical;
 			global::Rg.Plugins.Popup.Resource.Id.collapseActionView = global::Havamal.Droid.Resource.Id.collapseActionView;
+			global::Rg.Plugins.Popup.Resource.Id.confirm_button = global::Havamal.Droid.Resource.Id.confirm_button;
 			global::Rg.Plugins.Popup.Resource.Id.container = global::Havamal.Droid.Resource.Id.container;
 			global::Rg.Plugins.Popup.Resource.Id.content = global::Havamal.Droid.Resource.Id.content;
 			global::Rg.Plugins.Popup.Resource.Id.contentPanel = global::Havamal.Droid.Resource.Id.contentPanel;
@@ -1102,6 +1506,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Id.CTRL = global::Havamal.Droid.Resource.Id.CTRL;
 			global::Rg.Plugins.Popup.Resource.Id.custom = global::Havamal.Droid.Resource.Id.custom;
 			global::Rg.Plugins.Popup.Resource.Id.customPanel = global::Havamal.Droid.Resource.Id.customPanel;
+			global::Rg.Plugins.Popup.Resource.Id.cut = global::Havamal.Droid.Resource.Id.cut;
+			global::Rg.Plugins.Popup.Resource.Id.date_picker_actions = global::Havamal.Droid.Resource.Id.date_picker_actions;
 			global::Rg.Plugins.Popup.Resource.Id.decor_content_parent = global::Havamal.Droid.Resource.Id.decor_content_parent;
 			global::Rg.Plugins.Popup.Resource.Id.default_activity_button = global::Havamal.Droid.Resource.Id.default_activity_button;
 			global::Rg.Plugins.Popup.Resource.Id.design_bottom_sheet = global::Havamal.Droid.Resource.Id.design_bottom_sheet;
@@ -1111,6 +1517,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Id.design_navigation_view = global::Havamal.Droid.Resource.Id.design_navigation_view;
 			global::Rg.Plugins.Popup.Resource.Id.dialog_button = global::Havamal.Droid.Resource.Id.dialog_button;
 			global::Rg.Plugins.Popup.Resource.Id.disableHome = global::Havamal.Droid.Resource.Id.disableHome;
+			global::Rg.Plugins.Popup.Resource.Id.dropdown_menu = global::Havamal.Droid.Resource.Id.dropdown_menu;
 			global::Rg.Plugins.Popup.Resource.Id.edit_query = global::Havamal.Droid.Resource.Id.edit_query;
 			global::Rg.Plugins.Popup.Resource.Id.end = global::Havamal.Droid.Resource.Id.end;
 			global::Rg.Plugins.Popup.Resource.Id.end_padder = global::Havamal.Droid.Resource.Id.end_padder;
@@ -1119,17 +1526,23 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Id.exitUntilCollapsed = global::Havamal.Droid.Resource.Id.exitUntilCollapsed;
 			global::Rg.Plugins.Popup.Resource.Id.expanded_menu = global::Havamal.Droid.Resource.Id.expanded_menu;
 			global::Rg.Plugins.Popup.Resource.Id.expand_activities_button = global::Havamal.Droid.Resource.Id.expand_activities_button;
+			global::Rg.Plugins.Popup.Resource.Id.fade = global::Havamal.Droid.Resource.Id.fade;
 			global::Rg.Plugins.Popup.Resource.Id.fill = global::Havamal.Droid.Resource.Id.fill;
 			global::Rg.Plugins.Popup.Resource.Id.filled = global::Havamal.Droid.Resource.Id.filled;
 			global::Rg.Plugins.Popup.Resource.Id.fill_horizontal = global::Havamal.Droid.Resource.Id.fill_horizontal;
 			global::Rg.Plugins.Popup.Resource.Id.fill_vertical = global::Havamal.Droid.Resource.Id.fill_vertical;
+			global::Rg.Plugins.Popup.Resource.Id.fitToContents = global::Havamal.Droid.Resource.Id.fitToContents;
 			global::Rg.Plugins.Popup.Resource.Id.@fixed = global::Havamal.Droid.Resource.Id.@fixed;
+			global::Rg.Plugins.Popup.Resource.Id.floating = global::Havamal.Droid.Resource.Id.floating;
 			global::Rg.Plugins.Popup.Resource.Id.flyoutcontent_appbar = global::Havamal.Droid.Resource.Id.flyoutcontent_appbar;
 			global::Rg.Plugins.Popup.Resource.Id.forever = global::Havamal.Droid.Resource.Id.forever;
+			global::Rg.Plugins.Popup.Resource.Id.fragment_container_view_tag = global::Havamal.Droid.Resource.Id.fragment_container_view_tag;
 			global::Rg.Plugins.Popup.Resource.Id.FUNCTION = global::Havamal.Droid.Resource.Id.FUNCTION;
 			global::Rg.Plugins.Popup.Resource.Id.ghost_view = global::Havamal.Droid.Resource.Id.ghost_view;
 			global::Rg.Plugins.Popup.Resource.Id.ghost_view_holder = global::Havamal.Droid.Resource.Id.ghost_view_holder;
+			global::Rg.Plugins.Popup.Resource.Id.gone = global::Havamal.Droid.Resource.Id.gone;
 			global::Rg.Plugins.Popup.Resource.Id.group_divider = global::Havamal.Droid.Resource.Id.group_divider;
+			global::Rg.Plugins.Popup.Resource.Id.hideable = global::Havamal.Droid.Resource.Id.hideable;
 			global::Rg.Plugins.Popup.Resource.Id.home = global::Havamal.Droid.Resource.Id.home;
 			global::Rg.Plugins.Popup.Resource.Id.homeAsUp = global::Havamal.Droid.Resource.Id.homeAsUp;
 			global::Rg.Plugins.Popup.Resource.Id.icon = global::Havamal.Droid.Resource.Id.icon;
@@ -1151,17 +1564,44 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Id.main_viewpager = global::Havamal.Droid.Resource.Id.main_viewpager;
 			global::Rg.Plugins.Popup.Resource.Id.masked = global::Havamal.Droid.Resource.Id.masked;
 			global::Rg.Plugins.Popup.Resource.Id.media_actions = global::Havamal.Droid.Resource.Id.media_actions;
+			global::Rg.Plugins.Popup.Resource.Id.media_controller_compat_view_tag = global::Havamal.Droid.Resource.Id.media_controller_compat_view_tag;
 			global::Rg.Plugins.Popup.Resource.Id.message = global::Havamal.Droid.Resource.Id.message;
 			global::Rg.Plugins.Popup.Resource.Id.META = global::Havamal.Droid.Resource.Id.META;
 			global::Rg.Plugins.Popup.Resource.Id.middle = global::Havamal.Droid.Resource.Id.middle;
 			global::Rg.Plugins.Popup.Resource.Id.mini = global::Havamal.Droid.Resource.Id.mini;
+			global::Rg.Plugins.Popup.Resource.Id.month_grid = global::Havamal.Droid.Resource.Id.month_grid;
+			global::Rg.Plugins.Popup.Resource.Id.month_navigation_bar = global::Havamal.Droid.Resource.Id.month_navigation_bar;
+			global::Rg.Plugins.Popup.Resource.Id.month_navigation_fragment_toggle = global::Havamal.Droid.Resource.Id.month_navigation_fragment_toggle;
+			global::Rg.Plugins.Popup.Resource.Id.month_navigation_next = global::Havamal.Droid.Resource.Id.month_navigation_next;
+			global::Rg.Plugins.Popup.Resource.Id.month_navigation_previous = global::Havamal.Droid.Resource.Id.month_navigation_previous;
+			global::Rg.Plugins.Popup.Resource.Id.month_title = global::Havamal.Droid.Resource.Id.month_title;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_calendar_days_of_week = global::Havamal.Droid.Resource.Id.mtrl_calendar_days_of_week;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_calendar_day_selector_frame = global::Havamal.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_calendar_frame = global::Havamal.Droid.Resource.Id.mtrl_calendar_frame;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_calendar_main_pane = global::Havamal.Droid.Resource.Id.mtrl_calendar_main_pane;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_calendar_months = global::Havamal.Droid.Resource.Id.mtrl_calendar_months;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_calendar_selection_frame = global::Havamal.Droid.Resource.Id.mtrl_calendar_selection_frame;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_calendar_text_input_frame = global::Havamal.Droid.Resource.Id.mtrl_calendar_text_input_frame;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_calendar_year_selector_frame = global::Havamal.Droid.Resource.Id.mtrl_calendar_year_selector_frame;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_card_checked_layer_id = global::Havamal.Droid.Resource.Id.mtrl_card_checked_layer_id;
 			global::Rg.Plugins.Popup.Resource.Id.mtrl_child_content_container = global::Havamal.Droid.Resource.Id.mtrl_child_content_container;
 			global::Rg.Plugins.Popup.Resource.Id.mtrl_internal_children_alpha_tag = global::Havamal.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_motion_snapshot_view = global::Havamal.Droid.Resource.Id.mtrl_motion_snapshot_view;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_picker_fullscreen = global::Havamal.Droid.Resource.Id.mtrl_picker_fullscreen;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_picker_header = global::Havamal.Droid.Resource.Id.mtrl_picker_header;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_picker_header_selection_text = global::Havamal.Droid.Resource.Id.mtrl_picker_header_selection_text;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_picker_header_title_and_selection = global::Havamal.Droid.Resource.Id.mtrl_picker_header_title_and_selection;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_picker_header_toggle = global::Havamal.Droid.Resource.Id.mtrl_picker_header_toggle;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_picker_text_input_date = global::Havamal.Droid.Resource.Id.mtrl_picker_text_input_date;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_picker_text_input_range_end = global::Havamal.Droid.Resource.Id.mtrl_picker_text_input_range_end;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_picker_text_input_range_start = global::Havamal.Droid.Resource.Id.mtrl_picker_text_input_range_start;
+			global::Rg.Plugins.Popup.Resource.Id.mtrl_picker_title_text = global::Havamal.Droid.Resource.Id.mtrl_picker_title_text;
 			global::Rg.Plugins.Popup.Resource.Id.multiply = global::Havamal.Droid.Resource.Id.multiply;
 			global::Rg.Plugins.Popup.Resource.Id.navigation_header_container = global::Havamal.Droid.Resource.Id.navigation_header_container;
 			global::Rg.Plugins.Popup.Resource.Id.never = global::Havamal.Droid.Resource.Id.never;
 			global::Rg.Plugins.Popup.Resource.Id.none = global::Havamal.Droid.Resource.Id.none;
 			global::Rg.Plugins.Popup.Resource.Id.normal = global::Havamal.Droid.Resource.Id.normal;
+			global::Rg.Plugins.Popup.Resource.Id.noScroll = global::Havamal.Droid.Resource.Id.noScroll;
 			global::Rg.Plugins.Popup.Resource.Id.notification_background = global::Havamal.Droid.Resource.Id.notification_background;
 			global::Rg.Plugins.Popup.Resource.Id.notification_main_column = global::Havamal.Droid.Resource.Id.notification_main_column;
 			global::Rg.Plugins.Popup.Resource.Id.notification_main_column_container = global::Havamal.Droid.Resource.Id.notification_main_column_container;
@@ -1171,6 +1611,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Id.parallax = global::Havamal.Droid.Resource.Id.parallax;
 			global::Rg.Plugins.Popup.Resource.Id.parentPanel = global::Havamal.Droid.Resource.Id.parentPanel;
 			global::Rg.Plugins.Popup.Resource.Id.parent_matrix = global::Havamal.Droid.Resource.Id.parent_matrix;
+			global::Rg.Plugins.Popup.Resource.Id.password_toggle = global::Havamal.Droid.Resource.Id.password_toggle;
+			global::Rg.Plugins.Popup.Resource.Id.peekHeight = global::Havamal.Droid.Resource.Id.peekHeight;
 			global::Rg.Plugins.Popup.Resource.Id.pin = global::Havamal.Droid.Resource.Id.pin;
 			global::Rg.Plugins.Popup.Resource.Id.progress_circular = global::Havamal.Droid.Resource.Id.progress_circular;
 			global::Rg.Plugins.Popup.Resource.Id.progress_horizontal = global::Havamal.Droid.Resource.Id.progress_horizontal;
@@ -1178,8 +1620,11 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Id.right = global::Havamal.Droid.Resource.Id.right;
 			global::Rg.Plugins.Popup.Resource.Id.right_icon = global::Havamal.Droid.Resource.Id.right_icon;
 			global::Rg.Plugins.Popup.Resource.Id.right_side = global::Havamal.Droid.Resource.Id.right_side;
+			global::Rg.Plugins.Popup.Resource.Id.rounded = global::Havamal.Droid.Resource.Id.rounded;
+			global::Rg.Plugins.Popup.Resource.Id.row_index_key = global::Havamal.Droid.Resource.Id.row_index_key;
 			global::Rg.Plugins.Popup.Resource.Id.save_non_transition_alpha = global::Havamal.Droid.Resource.Id.save_non_transition_alpha;
 			global::Rg.Plugins.Popup.Resource.Id.save_overlay_view = global::Havamal.Droid.Resource.Id.save_overlay_view;
+			global::Rg.Plugins.Popup.Resource.Id.scale = global::Havamal.Droid.Resource.Id.scale;
 			global::Rg.Plugins.Popup.Resource.Id.screen = global::Havamal.Droid.Resource.Id.screen;
 			global::Rg.Plugins.Popup.Resource.Id.scroll = global::Havamal.Droid.Resource.Id.scroll;
 			global::Rg.Plugins.Popup.Resource.Id.scrollable = global::Havamal.Droid.Resource.Id.scrollable;
@@ -1205,6 +1650,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Id.showCustom = global::Havamal.Droid.Resource.Id.showCustom;
 			global::Rg.Plugins.Popup.Resource.Id.showHome = global::Havamal.Droid.Resource.Id.showHome;
 			global::Rg.Plugins.Popup.Resource.Id.showTitle = global::Havamal.Droid.Resource.Id.showTitle;
+			global::Rg.Plugins.Popup.Resource.Id.skipCollapsed = global::Havamal.Droid.Resource.Id.skipCollapsed;
+			global::Rg.Plugins.Popup.Resource.Id.slide = global::Havamal.Droid.Resource.Id.slide;
 			global::Rg.Plugins.Popup.Resource.Id.sliding_tabs = global::Havamal.Droid.Resource.Id.sliding_tabs;
 			global::Rg.Plugins.Popup.Resource.Id.snackbar_action = global::Havamal.Droid.Resource.Id.snackbar_action;
 			global::Rg.Plugins.Popup.Resource.Id.snackbar_text = global::Havamal.Droid.Resource.Id.snackbar_text;
@@ -1230,14 +1677,24 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Id.tag_transition_group = global::Havamal.Droid.Resource.Id.tag_transition_group;
 			global::Rg.Plugins.Popup.Resource.Id.tag_unhandled_key_event_manager = global::Havamal.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Rg.Plugins.Popup.Resource.Id.tag_unhandled_key_listeners = global::Havamal.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Rg.Plugins.Popup.Resource.Id.test_checkbox_android_button_tint = global::Havamal.Droid.Resource.Id.test_checkbox_android_button_tint;
+			global::Rg.Plugins.Popup.Resource.Id.test_checkbox_app_button_tint = global::Havamal.Droid.Resource.Id.test_checkbox_app_button_tint;
+			global::Rg.Plugins.Popup.Resource.Id.test_radiobutton_android_button_tint = global::Havamal.Droid.Resource.Id.test_radiobutton_android_button_tint;
+			global::Rg.Plugins.Popup.Resource.Id.test_radiobutton_app_button_tint = global::Havamal.Droid.Resource.Id.test_radiobutton_app_button_tint;
 			global::Rg.Plugins.Popup.Resource.Id.text = global::Havamal.Droid.Resource.Id.text;
 			global::Rg.Plugins.Popup.Resource.Id.text2 = global::Havamal.Droid.Resource.Id.text2;
+			global::Rg.Plugins.Popup.Resource.Id.textEnd = global::Havamal.Droid.Resource.Id.textEnd;
 			global::Rg.Plugins.Popup.Resource.Id.textinput_counter = global::Havamal.Droid.Resource.Id.textinput_counter;
 			global::Rg.Plugins.Popup.Resource.Id.textinput_error = global::Havamal.Droid.Resource.Id.textinput_error;
 			global::Rg.Plugins.Popup.Resource.Id.textinput_helper_text = global::Havamal.Droid.Resource.Id.textinput_helper_text;
+			global::Rg.Plugins.Popup.Resource.Id.textinput_placeholder = global::Havamal.Droid.Resource.Id.textinput_placeholder;
+			global::Rg.Plugins.Popup.Resource.Id.textinput_prefix_text = global::Havamal.Droid.Resource.Id.textinput_prefix_text;
+			global::Rg.Plugins.Popup.Resource.Id.textinput_suffix_text = global::Havamal.Droid.Resource.Id.textinput_suffix_text;
 			global::Rg.Plugins.Popup.Resource.Id.textSpacerNoButtons = global::Havamal.Droid.Resource.Id.textSpacerNoButtons;
 			global::Rg.Plugins.Popup.Resource.Id.textSpacerNoTitle = global::Havamal.Droid.Resource.Id.textSpacerNoTitle;
 			global::Rg.Plugins.Popup.Resource.Id.textStart = global::Havamal.Droid.Resource.Id.textStart;
+			global::Rg.Plugins.Popup.Resource.Id.text_input_end_icon = global::Havamal.Droid.Resource.Id.text_input_end_icon;
+			global::Rg.Plugins.Popup.Resource.Id.text_input_start_icon = global::Havamal.Droid.Resource.Id.text_input_start_icon;
 			global::Rg.Plugins.Popup.Resource.Id.time = global::Havamal.Droid.Resource.Id.time;
 			global::Rg.Plugins.Popup.Resource.Id.title = global::Havamal.Droid.Resource.Id.title;
 			global::Rg.Plugins.Popup.Resource.Id.titleDividerNoCustom = global::Havamal.Droid.Resource.Id.titleDividerNoCustom;
@@ -1245,6 +1702,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Id.toolbar = global::Havamal.Droid.Resource.Id.toolbar;
 			global::Rg.Plugins.Popup.Resource.Id.top = global::Havamal.Droid.Resource.Id.top;
 			global::Rg.Plugins.Popup.Resource.Id.topPanel = global::Havamal.Droid.Resource.Id.topPanel;
+			global::Rg.Plugins.Popup.Resource.Id.TOP_END = global::Havamal.Droid.Resource.Id.TOP_END;
+			global::Rg.Plugins.Popup.Resource.Id.TOP_START = global::Havamal.Droid.Resource.Id.TOP_START;
 			global::Rg.Plugins.Popup.Resource.Id.touch_outside = global::Havamal.Droid.Resource.Id.touch_outside;
 			global::Rg.Plugins.Popup.Resource.Id.transition_current_scene = global::Havamal.Droid.Resource.Id.transition_current_scene;
 			global::Rg.Plugins.Popup.Resource.Id.transition_layout_save = global::Havamal.Droid.Resource.Id.transition_layout_save;
@@ -1257,9 +1716,13 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Id.up = global::Havamal.Droid.Resource.Id.up;
 			global::Rg.Plugins.Popup.Resource.Id.useLogo = global::Havamal.Droid.Resource.Id.useLogo;
 			global::Rg.Plugins.Popup.Resource.Id.view_offset_helper = global::Havamal.Droid.Resource.Id.view_offset_helper;
+			global::Rg.Plugins.Popup.Resource.Id.view_tree_saved_state_registry_owner = global::Havamal.Droid.Resource.Id.view_tree_saved_state_registry_owner;
 			global::Rg.Plugins.Popup.Resource.Id.visible = global::Havamal.Droid.Resource.Id.visible;
+			global::Rg.Plugins.Popup.Resource.Id.visible_removing_fragment_view_tag = global::Havamal.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Rg.Plugins.Popup.Resource.Id.withinBounds = global::Havamal.Droid.Resource.Id.withinBounds;
 			global::Rg.Plugins.Popup.Resource.Id.withText = global::Havamal.Droid.Resource.Id.withText;
 			global::Rg.Plugins.Popup.Resource.Id.wrap_content = global::Havamal.Droid.Resource.Id.wrap_content;
+			global::Rg.Plugins.Popup.Resource.Id.zero_corner_chip = global::Havamal.Droid.Resource.Id.zero_corner_chip;
 			global::Rg.Plugins.Popup.Resource.Integer.abc_config_activityDefaultDur = global::Havamal.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::Rg.Plugins.Popup.Resource.Integer.abc_config_activityShortDur = global::Havamal.Droid.Resource.Integer.abc_config_activityShortDur;
 			global::Rg.Plugins.Popup.Resource.Integer.app_bar_elevation_anim_duration = global::Havamal.Droid.Resource.Integer.app_bar_elevation_anim_duration;
@@ -1269,8 +1732,14 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Integer.design_snackbar_text_max_lines = global::Havamal.Droid.Resource.Integer.design_snackbar_text_max_lines;
 			global::Rg.Plugins.Popup.Resource.Integer.design_tab_indicator_anim_duration_ms = global::Havamal.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
 			global::Rg.Plugins.Popup.Resource.Integer.hide_password_duration = global::Havamal.Droid.Resource.Integer.hide_password_duration;
+			global::Rg.Plugins.Popup.Resource.Integer.mtrl_badge_max_character_count = global::Havamal.Droid.Resource.Integer.mtrl_badge_max_character_count;
 			global::Rg.Plugins.Popup.Resource.Integer.mtrl_btn_anim_delay_ms = global::Havamal.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
 			global::Rg.Plugins.Popup.Resource.Integer.mtrl_btn_anim_duration_ms = global::Havamal.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Rg.Plugins.Popup.Resource.Integer.mtrl_calendar_header_orientation = global::Havamal.Droid.Resource.Integer.mtrl_calendar_header_orientation;
+			global::Rg.Plugins.Popup.Resource.Integer.mtrl_calendar_selection_text_lines = global::Havamal.Droid.Resource.Integer.mtrl_calendar_selection_text_lines;
+			global::Rg.Plugins.Popup.Resource.Integer.mtrl_calendar_year_selector_span = global::Havamal.Droid.Resource.Integer.mtrl_calendar_year_selector_span;
+			global::Rg.Plugins.Popup.Resource.Integer.mtrl_card_anim_delay_ms = global::Havamal.Droid.Resource.Integer.mtrl_card_anim_delay_ms;
+			global::Rg.Plugins.Popup.Resource.Integer.mtrl_card_anim_duration_ms = global::Havamal.Droid.Resource.Integer.mtrl_card_anim_duration_ms;
 			global::Rg.Plugins.Popup.Resource.Integer.mtrl_chip_anim_duration = global::Havamal.Droid.Resource.Integer.mtrl_chip_anim_duration;
 			global::Rg.Plugins.Popup.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::Havamal.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::Rg.Plugins.Popup.Resource.Integer.show_password_duration = global::Havamal.Droid.Resource.Integer.show_password_duration;
@@ -1331,11 +1800,39 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Layout.design_navigation_item_subheader = global::Havamal.Droid.Resource.Layout.design_navigation_item_subheader;
 			global::Rg.Plugins.Popup.Resource.Layout.design_navigation_menu = global::Havamal.Droid.Resource.Layout.design_navigation_menu;
 			global::Rg.Plugins.Popup.Resource.Layout.design_navigation_menu_item = global::Havamal.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Rg.Plugins.Popup.Resource.Layout.design_text_input_end_icon = global::Havamal.Droid.Resource.Layout.design_text_input_end_icon;
+			global::Rg.Plugins.Popup.Resource.Layout.design_text_input_start_icon = global::Havamal.Droid.Resource.Layout.design_text_input_start_icon;
 			global::Rg.Plugins.Popup.Resource.Layout.FallbackTabbarDoNotUse = global::Havamal.Droid.Resource.Layout.FallbackTabbarDoNotUse;
 			global::Rg.Plugins.Popup.Resource.Layout.FallbackToolbarDoNotUse = global::Havamal.Droid.Resource.Layout.FallbackToolbarDoNotUse;
 			global::Rg.Plugins.Popup.Resource.Layout.FlyoutContent = global::Havamal.Droid.Resource.Layout.FlyoutContent;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_alert_dialog = global::Havamal.Droid.Resource.Layout.mtrl_alert_dialog;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_alert_dialog_actions = global::Havamal.Droid.Resource.Layout.mtrl_alert_dialog_actions;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_alert_dialog_title = global::Havamal.Droid.Resource.Layout.mtrl_alert_dialog_title;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_alert_select_dialog_item = global::Havamal.Droid.Resource.Layout.mtrl_alert_select_dialog_item;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_alert_select_dialog_multichoice = global::Havamal.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_alert_select_dialog_singlechoice = global::Havamal.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_calendar_day = global::Havamal.Droid.Resource.Layout.mtrl_calendar_day;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_calendar_days_of_week = global::Havamal.Droid.Resource.Layout.mtrl_calendar_days_of_week;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_calendar_day_of_week = global::Havamal.Droid.Resource.Layout.mtrl_calendar_day_of_week;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_calendar_horizontal = global::Havamal.Droid.Resource.Layout.mtrl_calendar_horizontal;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_calendar_month = global::Havamal.Droid.Resource.Layout.mtrl_calendar_month;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_calendar_months = global::Havamal.Droid.Resource.Layout.mtrl_calendar_months;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_calendar_month_labeled = global::Havamal.Droid.Resource.Layout.mtrl_calendar_month_labeled;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_calendar_month_navigation = global::Havamal.Droid.Resource.Layout.mtrl_calendar_month_navigation;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_calendar_vertical = global::Havamal.Droid.Resource.Layout.mtrl_calendar_vertical;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_calendar_year = global::Havamal.Droid.Resource.Layout.mtrl_calendar_year;
 			global::Rg.Plugins.Popup.Resource.Layout.mtrl_layout_snackbar = global::Havamal.Droid.Resource.Layout.mtrl_layout_snackbar;
 			global::Rg.Plugins.Popup.Resource.Layout.mtrl_layout_snackbar_include = global::Havamal.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_picker_actions = global::Havamal.Droid.Resource.Layout.mtrl_picker_actions;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_picker_dialog = global::Havamal.Droid.Resource.Layout.mtrl_picker_dialog;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_picker_fullscreen = global::Havamal.Droid.Resource.Layout.mtrl_picker_fullscreen;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_picker_header_dialog = global::Havamal.Droid.Resource.Layout.mtrl_picker_header_dialog;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_picker_header_fullscreen = global::Havamal.Droid.Resource.Layout.mtrl_picker_header_fullscreen;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_picker_header_selection_text = global::Havamal.Droid.Resource.Layout.mtrl_picker_header_selection_text;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_picker_header_title_text = global::Havamal.Droid.Resource.Layout.mtrl_picker_header_title_text;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_picker_header_toggle = global::Havamal.Droid.Resource.Layout.mtrl_picker_header_toggle;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_picker_text_input_date = global::Havamal.Droid.Resource.Layout.mtrl_picker_text_input_date;
+			global::Rg.Plugins.Popup.Resource.Layout.mtrl_picker_text_input_date_range = global::Havamal.Droid.Resource.Layout.mtrl_picker_text_input_date_range;
 			global::Rg.Plugins.Popup.Resource.Layout.notification_action = global::Havamal.Droid.Resource.Layout.notification_action;
 			global::Rg.Plugins.Popup.Resource.Layout.notification_action_tombstone = global::Havamal.Droid.Resource.Layout.notification_action_tombstone;
 			global::Rg.Plugins.Popup.Resource.Layout.notification_media_action = global::Havamal.Droid.Resource.Layout.notification_media_action;
@@ -1358,7 +1855,22 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Layout.ShellContent = global::Havamal.Droid.Resource.Layout.ShellContent;
 			global::Rg.Plugins.Popup.Resource.Layout.support_simple_spinner_dropdown_item = global::Havamal.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Rg.Plugins.Popup.Resource.Layout.Tabbar = global::Havamal.Droid.Resource.Layout.Tabbar;
+			global::Rg.Plugins.Popup.Resource.Layout.test_action_chip = global::Havamal.Droid.Resource.Layout.test_action_chip;
+			global::Rg.Plugins.Popup.Resource.Layout.test_chip_zero_corner_radius = global::Havamal.Droid.Resource.Layout.test_chip_zero_corner_radius;
+			global::Rg.Plugins.Popup.Resource.Layout.test_design_checkbox = global::Havamal.Droid.Resource.Layout.test_design_checkbox;
+			global::Rg.Plugins.Popup.Resource.Layout.test_design_radiobutton = global::Havamal.Droid.Resource.Layout.test_design_radiobutton;
+			global::Rg.Plugins.Popup.Resource.Layout.test_reflow_chipgroup = global::Havamal.Droid.Resource.Layout.test_reflow_chipgroup;
+			global::Rg.Plugins.Popup.Resource.Layout.test_toolbar = global::Havamal.Droid.Resource.Layout.test_toolbar;
+			global::Rg.Plugins.Popup.Resource.Layout.test_toolbar_custom_background = global::Havamal.Droid.Resource.Layout.test_toolbar_custom_background;
+			global::Rg.Plugins.Popup.Resource.Layout.test_toolbar_elevation = global::Havamal.Droid.Resource.Layout.test_toolbar_elevation;
+			global::Rg.Plugins.Popup.Resource.Layout.test_toolbar_surface = global::Havamal.Droid.Resource.Layout.test_toolbar_surface;
+			global::Rg.Plugins.Popup.Resource.Layout.text_view_without_line_height = global::Havamal.Droid.Resource.Layout.text_view_without_line_height;
+			global::Rg.Plugins.Popup.Resource.Layout.text_view_with_line_height_from_appearance = global::Havamal.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
+			global::Rg.Plugins.Popup.Resource.Layout.text_view_with_line_height_from_layout = global::Havamal.Droid.Resource.Layout.text_view_with_line_height_from_layout;
+			global::Rg.Plugins.Popup.Resource.Layout.text_view_with_line_height_from_style = global::Havamal.Droid.Resource.Layout.text_view_with_line_height_from_style;
+			global::Rg.Plugins.Popup.Resource.Layout.text_view_with_theme_line_height = global::Havamal.Droid.Resource.Layout.text_view_with_theme_line_height;
 			global::Rg.Plugins.Popup.Resource.Layout.Toolbar = global::Havamal.Droid.Resource.Layout.Toolbar;
+			global::Rg.Plugins.Popup.Resource.Plurals.mtrl_badge_content_description = global::Havamal.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Rg.Plugins.Popup.Resource.String.abc_action_bar_home_description = global::Havamal.Droid.Resource.String.abc_action_bar_home_description;
 			global::Rg.Plugins.Popup.Resource.String.abc_action_bar_up_description = global::Havamal.Droid.Resource.String.abc_action_bar_up_description;
 			global::Rg.Plugins.Popup.Resource.String.abc_action_menu_overflow_description = global::Havamal.Droid.Resource.String.abc_action_menu_overflow_description;
@@ -1389,11 +1901,59 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.String.appbar_scrolling_view_behavior = global::Havamal.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Rg.Plugins.Popup.Resource.String.bottom_sheet_behavior = global::Havamal.Droid.Resource.String.bottom_sheet_behavior;
 			global::Rg.Plugins.Popup.Resource.String.character_counter_content_description = global::Havamal.Droid.Resource.String.character_counter_content_description;
+			global::Rg.Plugins.Popup.Resource.String.character_counter_overflowed_content_description = global::Havamal.Droid.Resource.String.character_counter_overflowed_content_description;
 			global::Rg.Plugins.Popup.Resource.String.character_counter_pattern = global::Havamal.Droid.Resource.String.character_counter_pattern;
+			global::Rg.Plugins.Popup.Resource.String.chip_text = global::Havamal.Droid.Resource.String.chip_text;
+			global::Rg.Plugins.Popup.Resource.String.clear_text_end_icon_content_description = global::Havamal.Droid.Resource.String.clear_text_end_icon_content_description;
+			global::Rg.Plugins.Popup.Resource.String.copy_toast_msg = global::Havamal.Droid.Resource.String.copy_toast_msg;
+			global::Rg.Plugins.Popup.Resource.String.error_icon_content_description = global::Havamal.Droid.Resource.String.error_icon_content_description;
+			global::Rg.Plugins.Popup.Resource.String.exposed_dropdown_menu_content_description = global::Havamal.Droid.Resource.String.exposed_dropdown_menu_content_description;
 			global::Rg.Plugins.Popup.Resource.String.fab_transformation_scrim_behavior = global::Havamal.Droid.Resource.String.fab_transformation_scrim_behavior;
 			global::Rg.Plugins.Popup.Resource.String.fab_transformation_sheet_behavior = global::Havamal.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Rg.Plugins.Popup.Resource.String.fallback_menu_item_copy_link = global::Havamal.Droid.Resource.String.fallback_menu_item_copy_link;
+			global::Rg.Plugins.Popup.Resource.String.fallback_menu_item_open_in_browser = global::Havamal.Droid.Resource.String.fallback_menu_item_open_in_browser;
+			global::Rg.Plugins.Popup.Resource.String.fallback_menu_item_share_link = global::Havamal.Droid.Resource.String.fallback_menu_item_share_link;
 			global::Rg.Plugins.Popup.Resource.String.hide_bottom_view_on_scroll_behavior = global::Havamal.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Rg.Plugins.Popup.Resource.String.icon_content_description = global::Havamal.Droid.Resource.String.icon_content_description;
+			global::Rg.Plugins.Popup.Resource.String.item_view_role_description = global::Havamal.Droid.Resource.String.item_view_role_description;
+			global::Rg.Plugins.Popup.Resource.String.material_slider_range_end = global::Havamal.Droid.Resource.String.material_slider_range_end;
+			global::Rg.Plugins.Popup.Resource.String.material_slider_range_start = global::Havamal.Droid.Resource.String.material_slider_range_start;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_badge_numberless_content_description = global::Havamal.Droid.Resource.String.mtrl_badge_numberless_content_description;
 			global::Rg.Plugins.Popup.Resource.String.mtrl_chip_close_icon_content_description = global::Havamal.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_exceed_max_badge_number_content_description = global::Havamal.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_exceed_max_badge_number_suffix = global::Havamal.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_a11y_next_month = global::Havamal.Droid.Resource.String.mtrl_picker_a11y_next_month;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_a11y_prev_month = global::Havamal.Droid.Resource.String.mtrl_picker_a11y_prev_month;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_announce_current_selection = global::Havamal.Droid.Resource.String.mtrl_picker_announce_current_selection;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_cancel = global::Havamal.Droid.Resource.String.mtrl_picker_cancel;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_confirm = global::Havamal.Droid.Resource.String.mtrl_picker_confirm;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_date_header_selected = global::Havamal.Droid.Resource.String.mtrl_picker_date_header_selected;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_date_header_title = global::Havamal.Droid.Resource.String.mtrl_picker_date_header_title;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_date_header_unselected = global::Havamal.Droid.Resource.String.mtrl_picker_date_header_unselected;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_day_of_week_column_header = global::Havamal.Droid.Resource.String.mtrl_picker_day_of_week_column_header;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_invalid_format = global::Havamal.Droid.Resource.String.mtrl_picker_invalid_format;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_invalid_format_example = global::Havamal.Droid.Resource.String.mtrl_picker_invalid_format_example;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_invalid_format_use = global::Havamal.Droid.Resource.String.mtrl_picker_invalid_format_use;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_invalid_range = global::Havamal.Droid.Resource.String.mtrl_picker_invalid_range;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_navigate_to_year_description = global::Havamal.Droid.Resource.String.mtrl_picker_navigate_to_year_description;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_out_of_range = global::Havamal.Droid.Resource.String.mtrl_picker_out_of_range;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_range_header_only_end_selected = global::Havamal.Droid.Resource.String.mtrl_picker_range_header_only_end_selected;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_range_header_only_start_selected = global::Havamal.Droid.Resource.String.mtrl_picker_range_header_only_start_selected;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_range_header_selected = global::Havamal.Droid.Resource.String.mtrl_picker_range_header_selected;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_range_header_title = global::Havamal.Droid.Resource.String.mtrl_picker_range_header_title;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_range_header_unselected = global::Havamal.Droid.Resource.String.mtrl_picker_range_header_unselected;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_save = global::Havamal.Droid.Resource.String.mtrl_picker_save;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_text_input_date_hint = global::Havamal.Droid.Resource.String.mtrl_picker_text_input_date_hint;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_text_input_date_range_end_hint = global::Havamal.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_text_input_date_range_start_hint = global::Havamal.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_text_input_day_abbr = global::Havamal.Droid.Resource.String.mtrl_picker_text_input_day_abbr;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_text_input_month_abbr = global::Havamal.Droid.Resource.String.mtrl_picker_text_input_month_abbr;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_text_input_year_abbr = global::Havamal.Droid.Resource.String.mtrl_picker_text_input_year_abbr;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_toggle_to_calendar_input_mode = global::Havamal.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_toggle_to_day_selection = global::Havamal.Droid.Resource.String.mtrl_picker_toggle_to_day_selection;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_toggle_to_text_input_mode = global::Havamal.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode;
+			global::Rg.Plugins.Popup.Resource.String.mtrl_picker_toggle_to_year_selection = global::Havamal.Droid.Resource.String.mtrl_picker_toggle_to_year_selection;
+			global::Rg.Plugins.Popup.Resource.String.overflow_tab_title = global::Havamal.Droid.Resource.String.overflow_tab_title;
 			global::Rg.Plugins.Popup.Resource.String.password_toggle_content_description = global::Havamal.Droid.Resource.String.password_toggle_content_description;
 			global::Rg.Plugins.Popup.Resource.String.path_password_eye = global::Havamal.Droid.Resource.String.path_password_eye;
 			global::Rg.Plugins.Popup.Resource.String.path_password_eye_mask_strike_through = global::Havamal.Droid.Resource.String.path_password_eye_mask_strike_through;
@@ -1403,10 +1963,13 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.String.status_bar_notification_info_overflow = global::Havamal.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Rg.Plugins.Popup.Resource.Style.AlertDialog_AppCompat = global::Havamal.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Rg.Plugins.Popup.Resource.Style.AlertDialog_AppCompat_Light = global::Havamal.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.AndroidThemeColorAccentYellow = global::Havamal.Droid.Resource.Style.AndroidThemeColorAccentYellow;
 			global::Rg.Plugins.Popup.Resource.Style.Animation_AppCompat_Dialog = global::Havamal.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::Rg.Plugins.Popup.Resource.Style.Animation_AppCompat_DropDownUp = global::Havamal.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Rg.Plugins.Popup.Resource.Style.Animation_AppCompat_Tooltip = global::Havamal.Droid.Resource.Style.Animation_AppCompat_Tooltip;
 			global::Rg.Plugins.Popup.Resource.Style.Animation_Design_BottomSheetDialog = global::Havamal.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Rg.Plugins.Popup.Resource.Style.Animation_MaterialComponents_BottomSheetDialog = global::Havamal.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog;
+			global::Rg.Plugins.Popup.Resource.Style.AppCompatDialogStyle = global::Havamal.Droid.Resource.Style.AppCompatDialogStyle;
 			global::Rg.Plugins.Popup.Resource.Style.Base_AlertDialog_AppCompat = global::Havamal.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::Rg.Plugins.Popup.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Havamal.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Animation_AppCompat_Dialog = global::Havamal.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
@@ -1415,6 +1978,9 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Style.Base_CardView = global::Havamal.Droid.Resource.Style.Base_CardView;
 			global::Rg.Plugins.Popup.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Havamal.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
 			global::Rg.Plugins.Popup.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Havamal.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Rg.Plugins.Popup.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon = global::Havamal.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Rg.Plugins.Popup.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel = global::Havamal.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Rg.Plugins.Popup.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text = global::Havamal.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text;
 			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat = global::Havamal.Droid.Resource.Style.Base_TextAppearance_AppCompat;
 			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Havamal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
 			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Havamal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
@@ -1460,6 +2026,10 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Havamal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Havamal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
 			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Havamal.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_MaterialComponents_Badge = global::Havamal.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_MaterialComponents_Button = global::Havamal.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6 = global::Havamal.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6;
+			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2 = global::Havamal.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2;
 			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Havamal.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Havamal.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Rg.Plugins.Popup.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Havamal.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -1472,6 +2042,9 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Havamal.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
 			global::Rg.Plugins.Popup.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::Havamal.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
 			global::Rg.Plugins.Popup.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Havamal.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::Havamal.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Rg.Plugins.Popup.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::Havamal.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Rg.Plugins.Popup.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::Havamal.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat = global::Havamal.Droid.Resource.Style.Base_Theme_AppCompat;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Havamal.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_AppCompat_Dialog = global::Havamal.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
@@ -1492,6 +2065,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::Havamal.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::Havamal.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::Havamal.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge = global::Havamal.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::Havamal.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::Havamal.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Light = global::Havamal.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
@@ -1501,22 +2075,30 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::Havamal.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::Havamal.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::Havamal.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge = global::Havamal.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::Havamal.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::Havamal.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::Havamal.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::Havamal.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::Havamal.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V14_Theme_MaterialComponents = global::Havamal.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::Havamal.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::Havamal.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge = global::Havamal.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::Havamal.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::Havamal.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::Havamal.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::Havamal.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = global::Havamal.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::Havamal.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V21_Theme_AppCompat = global::Havamal.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Havamal.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Havamal.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Havamal.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V21_Theme_MaterialComponents = global::Havamal.Droid.Resource.Style.Base_V21_Theme_MaterialComponents;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog = global::Havamal.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V21_Theme_MaterialComponents_Light = global::Havamal.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog = global::Havamal.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V22_Theme_AppCompat = global::Havamal.Droid.Resource.Style.Base_V22_Theme_AppCompat;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Havamal.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
 			global::Rg.Plugins.Popup.Resource.Style.Base_V23_Theme_AppCompat = global::Havamal.Droid.Resource.Style.Base_V23_Theme_AppCompat;
@@ -1593,12 +2175,34 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Havamal.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Havamal.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_Design_TabLayout = global::Havamal.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::Havamal.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::Havamal.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_MaterialComponents_Chip = global::Havamal.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::Havamal.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::Havamal.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::Havamal.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::Havamal.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_MaterialComponents_Slider = global::Havamal.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::Havamal.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
 			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::Havamal.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Rg.Plugins.Popup.Resource.Style.Base_Widget_MaterialComponents_TextView = global::Havamal.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
 			global::Rg.Plugins.Popup.Resource.Style.CardView = global::Havamal.Droid.Resource.Style.CardView;
 			global::Rg.Plugins.Popup.Resource.Style.CardView_Dark = global::Havamal.Droid.Resource.Style.CardView_Dark;
 			global::Rg.Plugins.Popup.Resource.Style.CardView_Light = global::Havamal.Droid.Resource.Style.CardView_Light;
+			global::Rg.Plugins.Popup.Resource.Style.collectionViewTheme = global::Havamal.Droid.Resource.Style.collectionViewTheme;
+			global::Rg.Plugins.Popup.Resource.Style.EmptyTheme = global::Havamal.Droid.Resource.Style.EmptyTheme;
+			global::Rg.Plugins.Popup.Resource.Style.MainTheme = global::Havamal.Droid.Resource.Style.MainTheme;
+			global::Rg.Plugins.Popup.Resource.Style.MainTheme_Base = global::Havamal.Droid.Resource.Style.MainTheme_Base;
+			global::Rg.Plugins.Popup.Resource.Style.MaterialAlertDialog_MaterialComponents = global::Havamal.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
+			global::Rg.Plugins.Popup.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text = global::Havamal.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text;
+			global::Rg.Plugins.Popup.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = global::Havamal.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar;
+			global::Rg.Plugins.Popup.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = global::Havamal.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner;
+			global::Rg.Plugins.Popup.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon = global::Havamal.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Rg.Plugins.Popup.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = global::Havamal.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked;
+			global::Rg.Plugins.Popup.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel = global::Havamal.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Rg.Plugins.Popup.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = global::Havamal.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked;
+			global::Rg.Plugins.Popup.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text = global::Havamal.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Rg.Plugins.Popup.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = global::Havamal.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked;
 			global::Rg.Plugins.Popup.Resource.Style.Platform_AppCompat = global::Havamal.Droid.Resource.Style.Platform_AppCompat;
 			global::Rg.Plugins.Popup.Resource.Style.Platform_AppCompat_Light = global::Havamal.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Rg.Plugins.Popup.Resource.Style.Platform_MaterialComponents = global::Havamal.Droid.Resource.Style.Platform_MaterialComponents;
@@ -1630,6 +2234,40 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Havamal.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
 			global::Rg.Plugins.Popup.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Havamal.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
 			global::Rg.Plugins.Popup.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Havamal.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Rg.Plugins.Popup.Resource.Style.scrollViewScrollBars = global::Havamal.Droid.Resource.Style.scrollViewScrollBars;
+			global::Rg.Plugins.Popup.Resource.Style.scrollViewTheme = global::Havamal.Droid.Resource.Style.scrollViewTheme;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearanceOverlay = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearanceOverlay_Cut = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearance_MaterialComponents = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
+			global::Rg.Plugins.Popup.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
+			global::Rg.Plugins.Popup.Resource.Style.TestStyleWithLineHeight = global::Havamal.Droid.Resource.Style.TestStyleWithLineHeight;
+			global::Rg.Plugins.Popup.Resource.Style.TestStyleWithLineHeightAppearance = global::Havamal.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
+			global::Rg.Plugins.Popup.Resource.Style.TestStyleWithoutLineHeight = global::Havamal.Droid.Resource.Style.TestStyleWithoutLineHeight;
+			global::Rg.Plugins.Popup.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::Havamal.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
+			global::Rg.Plugins.Popup.Resource.Style.TestThemeWithLineHeight = global::Havamal.Droid.Resource.Style.TestThemeWithLineHeight;
+			global::Rg.Plugins.Popup.Resource.Style.TestThemeWithLineHeightDisabled = global::Havamal.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
+			global::Rg.Plugins.Popup.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::Havamal.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Rg.Plugins.Popup.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::Havamal.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
+			global::Rg.Plugins.Popup.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::Havamal.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
+			global::Rg.Plugins.Popup.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::Havamal.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Rg.Plugins.Popup.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::Havamal.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat = global::Havamal.Droid.Resource.Style.TextAppearance_AppCompat;
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Body1 = global::Havamal.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_AppCompat_Body2 = global::Havamal.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
@@ -1694,8 +2332,12 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Design_Error = global::Havamal.Droid.Resource.Style.TextAppearance_Design_Error;
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Design_HelperText = global::Havamal.Droid.Resource.Style.TextAppearance_Design_HelperText;
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Design_Hint = global::Havamal.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Design_Placeholder = global::Havamal.Droid.Resource.Style.TextAppearance_Design_Placeholder;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Design_Prefix = global::Havamal.Droid.Resource.Style.TextAppearance_Design_Prefix;
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Havamal.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Design_Suffix = global::Havamal.Droid.Resource.Style.TextAppearance_Design_Suffix;
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Design_Tab = global::Havamal.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Badge = global::Havamal.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::Havamal.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::Havamal.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Button = global::Havamal.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
@@ -1710,9 +2352,11 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Overline = global::Havamal.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::Havamal.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::Havamal.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_MaterialComponents_Tooltip = global::Havamal.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip;
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Havamal.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Havamal.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Rg.Plugins.Popup.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Havamal.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlayColorAccentRed = global::Havamal.Droid.Resource.Style.ThemeOverlayColorAccentRed;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_AppCompat = global::Havamal.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Havamal.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Havamal.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -1722,18 +2366,43 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::Havamal.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::Havamal.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_AppCompat_Light = global::Havamal.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_Design_TextInputEditText = global::Havamal.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
+			global::Rg.Plugins.Popup.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::Havamal.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat = global::Havamal.Droid.Resource.Style.Theme_AppCompat;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_CompactMenu = global::Havamal.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_DayNight = global::Havamal.Droid.Resource.Style.Theme_AppCompat_DayNight;
@@ -1747,6 +2416,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Havamal.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Havamal.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Havamal.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_Empty = global::Havamal.Droid.Resource.Style.Theme_AppCompat_Empty;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_Light = global::Havamal.Droid.Resource.Style.Theme_AppCompat_Light;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Havamal.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_AppCompat_Light_Dialog = global::Havamal.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
@@ -1765,11 +2435,33 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_CompactMenu = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DayNight = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DayNight;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DayNight_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DayNight_Dialog = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Dialog = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Dialog_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
@@ -1777,7 +2469,13 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
+			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
 			global::Rg.Plugins.Popup.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
@@ -1866,11 +2564,27 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Havamal.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_Design_Snackbar = global::Havamal.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_Design_TabLayout = global::Havamal.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_Design_TextInputEditText = global::Havamal.Droid.Resource.Style.Widget_Design_TextInputEditText;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_Design_TextInputLayout = global::Havamal.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_ActionBar_Solid = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_ActionBar_Surface = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Badge = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Badge;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_BottomSheet = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Button;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_Icon = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
@@ -1878,31 +2592,76 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_CardView = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_CheckedTextView = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_ChipGroup = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Chip_Action = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_NavigationView = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_PopupMenu = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_ShapeableImageView = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Slider = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Slider;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Snackbar = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Snackbar_TextView = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TabLayout = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_TextView = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_TextView;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Toolbar = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
+			global::Rg.Plugins.Popup.Resource.Style.Widget_MaterialComponents_Tooltip = global::Havamal.Droid.Resource.Style.Widget_MaterialComponents_Tooltip;
 			global::Rg.Plugins.Popup.Resource.Style.Widget_Support_CoordinatorLayout = global::Havamal.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::Rg.Plugins.Popup.Resource.Styleable.ActionBar = global::Havamal.Droid.Resource.Styleable.ActionBar;
 			global::Rg.Plugins.Popup.Resource.Styleable.ActionBarLayout = global::Havamal.Droid.Resource.Styleable.ActionBarLayout;
@@ -1988,6 +2747,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::Havamal.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
 			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::Havamal.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
 			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayout_liftOnScroll = global::Havamal.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::Havamal.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
+			global::Rg.Plugins.Popup.Resource.Styleable.AppBarLayout_statusBarForeground = global::Havamal.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
 			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatImageView = global::Havamal.Droid.Resource.Styleable.AppCompatImageView;
 			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatImageView_android_src = global::Havamal.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatImageView_srcCompat = global::Havamal.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -2154,20 +2915,42 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Havamal.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Havamal.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::Rg.Plugins.Popup.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Havamal.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Rg.Plugins.Popup.Resource.Styleable.Badge = global::Havamal.Droid.Resource.Styleable.Badge;
+			global::Rg.Plugins.Popup.Resource.Styleable.Badge_backgroundColor = global::Havamal.Droid.Resource.Styleable.Badge_backgroundColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.Badge_badgeGravity = global::Havamal.Droid.Resource.Styleable.Badge_badgeGravity;
+			global::Rg.Plugins.Popup.Resource.Styleable.Badge_badgeTextColor = global::Havamal.Droid.Resource.Styleable.Badge_badgeTextColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.Badge_horizontalOffset = global::Havamal.Droid.Resource.Styleable.Badge_horizontalOffset;
+			global::Rg.Plugins.Popup.Resource.Styleable.Badge_maxCharacterCount = global::Havamal.Droid.Resource.Styleable.Badge_maxCharacterCount;
+			global::Rg.Plugins.Popup.Resource.Styleable.Badge_number = global::Havamal.Droid.Resource.Styleable.Badge_number;
+			global::Rg.Plugins.Popup.Resource.Styleable.Badge_verticalOffset = global::Havamal.Droid.Resource.Styleable.Badge_verticalOffset;
 			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar = global::Havamal.Droid.Resource.Styleable.BottomAppBar;
 			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_backgroundTint = global::Havamal.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_elevation = global::Havamal.Droid.Resource.Styleable.BottomAppBar_elevation;
 			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::Havamal.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_fabAnimationMode = global::Havamal.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode;
 			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_fabCradleMargin = global::Havamal.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
 			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::Havamal.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
 			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::Havamal.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
 			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_hideOnScroll = global::Havamal.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets = global::Havamal.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets = global::Havamal.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets = global::Havamal.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets;
 			global::Rg.Plugins.Popup.Resource.Styleable.BottomNavigationView = global::Havamal.Droid.Resource.Styleable.BottomNavigationView;
 			global::Rg.Plugins.Popup.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::Havamal.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
 			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout = global::Havamal.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::Havamal.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::Havamal.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable = global::Havamal.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::Havamal.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
 			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::Havamal.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::Havamal.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
 			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::Havamal.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
 			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::Havamal.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::Havamal.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
 			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::Havamal.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored = global::Havamal.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::Havamal.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::Havamal.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
 			global::Rg.Plugins.Popup.Resource.Styleable.ButtonBarLayout = global::Havamal.Droid.Resource.Styleable.ButtonBarLayout;
 			global::Rg.Plugins.Popup.Resource.Styleable.ButtonBarLayout_allowStacking = global::Havamal.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
 			global::Rg.Plugins.Popup.Resource.Styleable.CardView = global::Havamal.Droid.Resource.Styleable.CardView;
@@ -2190,6 +2973,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.ChipGroup_chipSpacing = global::Havamal.Droid.Resource.Styleable.ChipGroup_chipSpacing;
 			global::Rg.Plugins.Popup.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::Havamal.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
 			global::Rg.Plugins.Popup.Resource.Styleable.ChipGroup_chipSpacingVertical = global::Havamal.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Rg.Plugins.Popup.Resource.Styleable.ChipGroup_selectionRequired = global::Havamal.Droid.Resource.Styleable.ChipGroup_selectionRequired;
 			global::Rg.Plugins.Popup.Resource.Styleable.ChipGroup_singleLine = global::Havamal.Droid.Resource.Styleable.ChipGroup_singleLine;
 			global::Rg.Plugins.Popup.Resource.Styleable.ChipGroup_singleSelection = global::Havamal.Droid.Resource.Styleable.ChipGroup_singleSelection;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_android_checkable = global::Havamal.Droid.Resource.Styleable.Chip_android_checkable;
@@ -2197,8 +2981,10 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_android_maxWidth = global::Havamal.Droid.Resource.Styleable.Chip_android_maxWidth;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_android_text = global::Havamal.Droid.Resource.Styleable.Chip_android_text;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_android_textAppearance = global::Havamal.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_android_textColor = global::Havamal.Droid.Resource.Styleable.Chip_android_textColor;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_checkedIcon = global::Havamal.Droid.Resource.Styleable.Chip_checkedIcon;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_checkedIconEnabled = global::Havamal.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_checkedIconTint = global::Havamal.Droid.Resource.Styleable.Chip_checkedIconTint;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_checkedIconVisible = global::Havamal.Droid.Resource.Styleable.Chip_checkedIconVisible;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipBackgroundColor = global::Havamal.Droid.Resource.Styleable.Chip_chipBackgroundColor;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipCornerRadius = global::Havamal.Droid.Resource.Styleable.Chip_chipCornerRadius;
@@ -2209,9 +2995,11 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipIconTint = global::Havamal.Droid.Resource.Styleable.Chip_chipIconTint;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipIconVisible = global::Havamal.Droid.Resource.Styleable.Chip_chipIconVisible;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipMinHeight = global::Havamal.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipMinTouchTargetSize = global::Havamal.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipStartPadding = global::Havamal.Droid.Resource.Styleable.Chip_chipStartPadding;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipStrokeColor = global::Havamal.Droid.Resource.Styleable.Chip_chipStrokeColor;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipStrokeWidth = global::Havamal.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_chipSurfaceColor = global::Havamal.Droid.Resource.Styleable.Chip_chipSurfaceColor;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_closeIcon = global::Havamal.Droid.Resource.Styleable.Chip_closeIcon;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_closeIconEnabled = global::Havamal.Droid.Resource.Styleable.Chip_closeIconEnabled;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_closeIconEndPadding = global::Havamal.Droid.Resource.Styleable.Chip_closeIconEndPadding;
@@ -2219,10 +3007,13 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_closeIconStartPadding = global::Havamal.Droid.Resource.Styleable.Chip_closeIconStartPadding;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_closeIconTint = global::Havamal.Droid.Resource.Styleable.Chip_closeIconTint;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_closeIconVisible = global::Havamal.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_ensureMinTouchTargetSize = global::Havamal.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_hideMotionSpec = global::Havamal.Droid.Resource.Styleable.Chip_hideMotionSpec;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_iconEndPadding = global::Havamal.Droid.Resource.Styleable.Chip_iconEndPadding;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_iconStartPadding = global::Havamal.Droid.Resource.Styleable.Chip_iconStartPadding;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_rippleColor = global::Havamal.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_shapeAppearance = global::Havamal.Droid.Resource.Styleable.Chip_shapeAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.Chip_shapeAppearanceOverlay = global::Havamal.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_showMotionSpec = global::Havamal.Droid.Resource.Styleable.Chip_showMotionSpec;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_textEndPadding = global::Havamal.Droid.Resource.Styleable.Chip_textEndPadding;
 			global::Rg.Plugins.Popup.Resource.Styleable.Chip_textStartPadding = global::Havamal.Droid.Resource.Styleable.Chip_textStartPadding;
@@ -2240,6 +3031,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_Layout = global::Havamal.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
 			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::Havamal.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
 			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::Havamal.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_maxLines = global::Havamal.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines;
 			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::Havamal.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
 			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::Havamal.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
 			global::Rg.Plugins.Popup.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Havamal.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
@@ -2275,13 +3067,26 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Havamal.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
 			global::Rg.Plugins.Popup.Resource.Styleable.DrawerArrowToggle_spinBars = global::Havamal.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
 			global::Rg.Plugins.Popup.Resource.Styleable.DrawerArrowToggle_thickness = global::Havamal.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Rg.Plugins.Popup.Resource.Styleable.DrawerLayout = global::Havamal.Droid.Resource.Styleable.DrawerLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.DrawerLayout_elevation = global::Havamal.Droid.Resource.Styleable.DrawerLayout_elevation;
+			global::Rg.Plugins.Popup.Resource.Styleable.ExtendedFloatingActionButton = global::Havamal.Droid.Resource.Styleable.ExtendedFloatingActionButton;
+			global::Rg.Plugins.Popup.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::Havamal.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
+			global::Rg.Plugins.Popup.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::Havamal.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Rg.Plugins.Popup.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::Havamal.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
+			global::Rg.Plugins.Popup.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::Havamal.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
+			global::Rg.Plugins.Popup.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::Havamal.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
+			global::Rg.Plugins.Popup.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::Havamal.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
+			global::Rg.Plugins.Popup.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::Havamal.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
+			global::Rg.Plugins.Popup.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::Havamal.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
 			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton = global::Havamal.Droid.Resource.Styleable.FloatingActionButton;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_android_enabled = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_android_enabled;
 			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_backgroundTint = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
 			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
 			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
 			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
 			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_borderWidth = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
 			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_elevation = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize;
 			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_fabCustomSize = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
 			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_fabSize = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_fabSize;
 			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
@@ -2289,6 +3094,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_maxImageSize = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
 			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
 			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_rippleColor = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_shapeAppearance = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay;
 			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_showMotionSpec = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
 			global::Rg.Plugins.Popup.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Havamal.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
 			global::Rg.Plugins.Popup.Resource.Styleable.FlowLayout = global::Havamal.Droid.Resource.Styleable.FlowLayout;
@@ -2316,6 +3123,13 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Havamal.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::Rg.Plugins.Popup.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Havamal.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
 			global::Rg.Plugins.Popup.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Havamal.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.Fragment = global::Havamal.Droid.Resource.Styleable.Fragment;
+			global::Rg.Plugins.Popup.Resource.Styleable.FragmentContainerView = global::Havamal.Droid.Resource.Styleable.FragmentContainerView;
+			global::Rg.Plugins.Popup.Resource.Styleable.FragmentContainerView_android_name = global::Havamal.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Rg.Plugins.Popup.Resource.Styleable.FragmentContainerView_android_tag = global::Havamal.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Rg.Plugins.Popup.Resource.Styleable.Fragment_android_id = global::Havamal.Droid.Resource.Styleable.Fragment_android_id;
+			global::Rg.Plugins.Popup.Resource.Styleable.Fragment_android_name = global::Havamal.Droid.Resource.Styleable.Fragment_android_name;
+			global::Rg.Plugins.Popup.Resource.Styleable.Fragment_android_tag = global::Havamal.Droid.Resource.Styleable.Fragment_android_tag;
 			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor = global::Havamal.Droid.Resource.Styleable.GradientColor;
 			global::Rg.Plugins.Popup.Resource.Styleable.GradientColorItem = global::Havamal.Droid.Resource.Styleable.GradientColorItem;
 			global::Rg.Plugins.Popup.Resource.Styleable.GradientColorItem_android_color = global::Havamal.Droid.Resource.Styleable.GradientColorItem_android_color;
@@ -2332,6 +3146,12 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor_android_startY = global::Havamal.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor_android_tileMode = global::Havamal.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Rg.Plugins.Popup.Resource.Styleable.GradientColor_android_type = global::Havamal.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Rg.Plugins.Popup.Resource.Styleable.Insets = global::Havamal.Droid.Resource.Styleable.Insets;
+			global::Rg.Plugins.Popup.Resource.Styleable.Insets_paddingBottomSystemWindowInsets = global::Havamal.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets;
+			global::Rg.Plugins.Popup.Resource.Styleable.Insets_paddingLeftSystemWindowInsets = global::Havamal.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets;
+			global::Rg.Plugins.Popup.Resource.Styleable.Insets_paddingRightSystemWindowInsets = global::Havamal.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets;
+			global::Rg.Plugins.Popup.Resource.Styleable.ItemsViewRendererTheme = global::Havamal.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Rg.Plugins.Popup.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::Havamal.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
 			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat = global::Havamal.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Havamal.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::Rg.Plugins.Popup.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Havamal.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -2350,7 +3170,26 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.ListPopupWindow = global::Havamal.Droid.Resource.Styleable.ListPopupWindow;
 			global::Rg.Plugins.Popup.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Havamal.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::Rg.Plugins.Popup.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Havamal.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialAlertDialog = global::Havamal.Droid.Resource.Styleable.MaterialAlertDialog;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialAlertDialogTheme = global::Havamal.Droid.Resource.Styleable.MaterialAlertDialogTheme;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = global::Havamal.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme = global::Havamal.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle = global::Havamal.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle = global::Havamal.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle = global::Havamal.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom = global::Havamal.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::Havamal.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::Havamal.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::Havamal.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialAutoCompleteTextView = global::Havamal.Droid.Resource.Styleable.MaterialAutoCompleteTextView;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType = global::Havamal.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType;
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton = global::Havamal.Droid.Resource.Styleable.MaterialButton;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButtonToggleGroup = global::Havamal.Droid.Resource.Styleable.MaterialButtonToggleGroup;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::Havamal.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired = global::Havamal.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::Havamal.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_android_background = global::Havamal.Droid.Resource.Styleable.MaterialButton_android_background;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_android_checkable = global::Havamal.Droid.Resource.Styleable.MaterialButton_android_checkable;
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_android_insetBottom = global::Havamal.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_android_insetLeft = global::Havamal.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_android_insetRight = global::Havamal.Droid.Resource.Styleable.MaterialButton_android_insetRight;
@@ -2358,6 +3197,7 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_backgroundTint = global::Havamal.Droid.Resource.Styleable.MaterialButton_backgroundTint;
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_backgroundTintMode = global::Havamal.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_cornerRadius = global::Havamal.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_elevation = global::Havamal.Droid.Resource.Styleable.MaterialButton_elevation;
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_icon = global::Havamal.Droid.Resource.Styleable.MaterialButton_icon;
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_iconGravity = global::Havamal.Droid.Resource.Styleable.MaterialButton_iconGravity;
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_iconPadding = global::Havamal.Droid.Resource.Styleable.MaterialButton_iconPadding;
@@ -2365,11 +3205,58 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_iconTint = global::Havamal.Droid.Resource.Styleable.MaterialButton_iconTint;
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_iconTintMode = global::Havamal.Droid.Resource.Styleable.MaterialButton_iconTintMode;
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_rippleColor = global::Havamal.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_shapeAppearance = global::Havamal.Droid.Resource.Styleable.MaterialButton_shapeAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_shapeAppearanceOverlay = global::Havamal.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay;
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_strokeColor = global::Havamal.Droid.Resource.Styleable.MaterialButton_strokeColor;
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialButton_strokeWidth = global::Havamal.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendar = global::Havamal.Droid.Resource.Styleable.MaterialCalendar;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendarItem = global::Havamal.Droid.Resource.Styleable.MaterialCalendarItem;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendarItem_android_insetBottom = global::Havamal.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendarItem_android_insetLeft = global::Havamal.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendarItem_android_insetRight = global::Havamal.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendarItem_android_insetTop = global::Havamal.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendarItem_itemFillColor = global::Havamal.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance = global::Havamal.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay = global::Havamal.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendarItem_itemStrokeColor = global::Havamal.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth = global::Havamal.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendarItem_itemTextColor = global::Havamal.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendar_android_windowFullscreen = global::Havamal.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendar_dayInvalidStyle = global::Havamal.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::Havamal.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendar_dayStyle = global::Havamal.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::Havamal.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendar_rangeFillColor = global::Havamal.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::Havamal.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendar_yearStyle = global::Havamal.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCalendar_yearTodayStyle = global::Havamal.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle;
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCardView = global::Havamal.Droid.Resource.Styleable.MaterialCardView;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCardView_android_checkable = global::Havamal.Droid.Resource.Styleable.MaterialCardView_android_checkable;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCardView_cardForegroundColor = global::Havamal.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCardView_checkedIcon = global::Havamal.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCardView_checkedIconTint = global::Havamal.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCardView_rippleColor = global::Havamal.Droid.Resource.Styleable.MaterialCardView_rippleColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCardView_shapeAppearance = global::Havamal.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay = global::Havamal.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCardView_state_dragged = global::Havamal.Droid.Resource.Styleable.MaterialCardView_state_dragged;
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCardView_strokeColor = global::Havamal.Droid.Resource.Styleable.MaterialCardView_strokeColor;
 			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCardView_strokeWidth = global::Havamal.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCheckBox = global::Havamal.Droid.Resource.Styleable.MaterialCheckBox;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCheckBox_buttonTint = global::Havamal.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::Havamal.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialRadioButton = global::Havamal.Droid.Resource.Styleable.MaterialRadioButton;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialRadioButton_buttonTint = global::Havamal.Droid.Resource.Styleable.MaterialRadioButton_buttonTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::Havamal.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialShape = global::Havamal.Droid.Resource.Styleable.MaterialShape;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialShape_shapeAppearance = global::Havamal.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::Havamal.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialTextAppearance = global::Havamal.Droid.Resource.Styleable.MaterialTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::Havamal.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialTextAppearance_lineHeight = global::Havamal.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialTextView = global::Havamal.Droid.Resource.Styleable.MaterialTextView;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialTextView_android_lineHeight = global::Havamal.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialTextView_android_textAppearance = global::Havamal.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.MaterialTextView_lineHeight = global::Havamal.Droid.Resource.Styleable.MaterialTextView_lineHeight;
 			global::Rg.Plugins.Popup.Resource.Styleable.MenuGroup = global::Havamal.Droid.Resource.Styleable.MenuGroup;
 			global::Rg.Plugins.Popup.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Havamal.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
 			global::Rg.Plugins.Popup.Resource.Styleable.MenuGroup_android_enabled = global::Havamal.Droid.Resource.Styleable.MenuGroup_android_enabled;
@@ -2420,7 +3307,16 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemBackground = global::Havamal.Droid.Resource.Styleable.NavigationView_itemBackground;
 			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemHorizontalPadding = global::Havamal.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
 			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemIconPadding = global::Havamal.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemIconSize = global::Havamal.Droid.Resource.Styleable.NavigationView_itemIconSize;
 			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemIconTint = global::Havamal.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemMaxLines = global::Havamal.Droid.Resource.Styleable.NavigationView_itemMaxLines;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemShapeAppearance = global::Havamal.Droid.Resource.Styleable.NavigationView_itemShapeAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay = global::Havamal.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemShapeFillColor = global::Havamal.Droid.Resource.Styleable.NavigationView_itemShapeFillColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemShapeInsetBottom = global::Havamal.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemShapeInsetEnd = global::Havamal.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemShapeInsetStart = global::Havamal.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart;
+			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemShapeInsetTop = global::Havamal.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop;
 			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemTextAppearance = global::Havamal.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_itemTextColor = global::Havamal.Droid.Resource.Styleable.NavigationView_itemTextColor;
 			global::Rg.Plugins.Popup.Resource.Styleable.NavigationView_menu = global::Havamal.Droid.Resource.Styleable.NavigationView_menu;
@@ -2430,6 +3326,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::Havamal.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
 			global::Rg.Plugins.Popup.Resource.Styleable.PopupWindow_android_popupBackground = global::Havamal.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
 			global::Rg.Plugins.Popup.Resource.Styleable.PopupWindow_overlapAnchor = global::Havamal.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Rg.Plugins.Popup.Resource.Styleable.RangeSlider = global::Havamal.Droid.Resource.Styleable.RangeSlider;
+			global::Rg.Plugins.Popup.Resource.Styleable.RangeSlider_values = global::Havamal.Droid.Resource.Styleable.RangeSlider_values;
 			global::Rg.Plugins.Popup.Resource.Styleable.RecycleListView = global::Havamal.Droid.Resource.Styleable.RecycleListView;
 			global::Rg.Plugins.Popup.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::Havamal.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
 			global::Rg.Plugins.Popup.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::Havamal.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
@@ -2450,6 +3348,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Havamal.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
 			global::Rg.Plugins.Popup.Resource.Styleable.ScrollingViewBehavior_Layout = global::Havamal.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
 			global::Rg.Plugins.Popup.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::Havamal.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Rg.Plugins.Popup.Resource.Styleable.ScrollViewRendererTheme = global::Havamal.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Rg.Plugins.Popup.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::Havamal.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
 			global::Rg.Plugins.Popup.Resource.Styleable.SearchView = global::Havamal.Droid.Resource.Styleable.SearchView;
 			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_android_focusable = global::Havamal.Droid.Resource.Styleable.SearchView_android_focusable;
 			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_android_imeOptions = global::Havamal.Droid.Resource.Styleable.SearchView_android_imeOptions;
@@ -2468,13 +3368,55 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_submitBackground = global::Havamal.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_suggestionRowLayout = global::Havamal.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::Rg.Plugins.Popup.Resource.Styleable.SearchView_voiceIcon = global::Havamal.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Rg.Plugins.Popup.Resource.Styleable.ShapeableImageView = global::Havamal.Droid.Resource.Styleable.ShapeableImageView;
+			global::Rg.Plugins.Popup.Resource.Styleable.ShapeableImageView_shapeAppearance = global::Havamal.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay = global::Havamal.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay;
+			global::Rg.Plugins.Popup.Resource.Styleable.ShapeableImageView_strokeColor = global::Havamal.Droid.Resource.Styleable.ShapeableImageView_strokeColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.ShapeableImageView_strokeWidth = global::Havamal.Droid.Resource.Styleable.ShapeableImageView_strokeWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.ShapeAppearance = global::Havamal.Droid.Resource.Styleable.ShapeAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.ShapeAppearance_cornerFamily = global::Havamal.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
+			global::Rg.Plugins.Popup.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::Havamal.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
+			global::Rg.Plugins.Popup.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight = global::Havamal.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight;
+			global::Rg.Plugins.Popup.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft = global::Havamal.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft;
+			global::Rg.Plugins.Popup.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight = global::Havamal.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight;
+			global::Rg.Plugins.Popup.Resource.Styleable.ShapeAppearance_cornerSize = global::Havamal.Droid.Resource.Styleable.ShapeAppearance_cornerSize;
+			global::Rg.Plugins.Popup.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft = global::Havamal.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft;
+			global::Rg.Plugins.Popup.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::Havamal.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
+			global::Rg.Plugins.Popup.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::Havamal.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
+			global::Rg.Plugins.Popup.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::Havamal.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider = global::Havamal.Droid.Resource.Styleable.Slider;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_android_enabled = global::Havamal.Droid.Resource.Styleable.Slider_android_enabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_android_stepSize = global::Havamal.Droid.Resource.Styleable.Slider_android_stepSize;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_android_value = global::Havamal.Droid.Resource.Styleable.Slider_android_value;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_android_valueFrom = global::Havamal.Droid.Resource.Styleable.Slider_android_valueFrom;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_android_valueTo = global::Havamal.Droid.Resource.Styleable.Slider_android_valueTo;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_haloColor = global::Havamal.Droid.Resource.Styleable.Slider_haloColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_haloRadius = global::Havamal.Droid.Resource.Styleable.Slider_haloRadius;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_labelBehavior = global::Havamal.Droid.Resource.Styleable.Slider_labelBehavior;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_labelStyle = global::Havamal.Droid.Resource.Styleable.Slider_labelStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_thumbColor = global::Havamal.Droid.Resource.Styleable.Slider_thumbColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_thumbElevation = global::Havamal.Droid.Resource.Styleable.Slider_thumbElevation;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_thumbRadius = global::Havamal.Droid.Resource.Styleable.Slider_thumbRadius;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_tickColor = global::Havamal.Droid.Resource.Styleable.Slider_tickColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_tickColorActive = global::Havamal.Droid.Resource.Styleable.Slider_tickColorActive;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_tickColorInactive = global::Havamal.Droid.Resource.Styleable.Slider_tickColorInactive;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_trackColor = global::Havamal.Droid.Resource.Styleable.Slider_trackColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_trackColorActive = global::Havamal.Droid.Resource.Styleable.Slider_trackColorActive;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_trackColorInactive = global::Havamal.Droid.Resource.Styleable.Slider_trackColorInactive;
+			global::Rg.Plugins.Popup.Resource.Styleable.Slider_trackHeight = global::Havamal.Droid.Resource.Styleable.Slider_trackHeight;
 			global::Rg.Plugins.Popup.Resource.Styleable.Snackbar = global::Havamal.Droid.Resource.Styleable.Snackbar;
 			global::Rg.Plugins.Popup.Resource.Styleable.SnackbarLayout = global::Havamal.Droid.Resource.Styleable.SnackbarLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::Havamal.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
 			global::Rg.Plugins.Popup.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Havamal.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.SnackbarLayout_animationMode = global::Havamal.Droid.Resource.Styleable.SnackbarLayout_animationMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::Havamal.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
+			global::Rg.Plugins.Popup.Resource.Styleable.SnackbarLayout_backgroundTint = global::Havamal.Droid.Resource.Styleable.SnackbarLayout_backgroundTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.SnackbarLayout_backgroundTintMode = global::Havamal.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode;
 			global::Rg.Plugins.Popup.Resource.Styleable.SnackbarLayout_elevation = global::Havamal.Droid.Resource.Styleable.SnackbarLayout_elevation;
 			global::Rg.Plugins.Popup.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Havamal.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
 			global::Rg.Plugins.Popup.Resource.Styleable.Snackbar_snackbarButtonStyle = global::Havamal.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
 			global::Rg.Plugins.Popup.Resource.Styleable.Snackbar_snackbarStyle = global::Havamal.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Rg.Plugins.Popup.Resource.Styleable.Snackbar_snackbarTextViewStyle = global::Havamal.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle;
 			global::Rg.Plugins.Popup.Resource.Styleable.Spinner = global::Havamal.Droid.Resource.Styleable.Spinner;
 			global::Rg.Plugins.Popup.Resource.Styleable.Spinner_android_dropDownWidth = global::Havamal.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
 			global::Rg.Plugins.Popup.Resource.Styleable.Spinner_android_entries = global::Havamal.Droid.Resource.Styleable.Spinner_android_entries;
@@ -2490,6 +3432,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::Havamal.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
 			global::Rg.Plugins.Popup.Resource.Styleable.StateListDrawable_android_variablePadding = global::Havamal.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
 			global::Rg.Plugins.Popup.Resource.Styleable.StateListDrawable_android_visible = global::Havamal.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwipeRefreshLayout = global::Havamal.Droid.Resource.Styleable.SwipeRefreshLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = global::Havamal.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat = global::Havamal.Droid.Resource.Styleable.SwitchCompat;
 			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_android_textOff = global::Havamal.Droid.Resource.Styleable.SwitchCompat_android_textOff;
 			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_android_textOn = global::Havamal.Droid.Resource.Styleable.SwitchCompat_android_textOn;
@@ -2505,6 +3449,8 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_track = global::Havamal.Droid.Resource.Styleable.SwitchCompat_track;
 			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_trackTint = global::Havamal.Droid.Resource.Styleable.SwitchCompat_trackTint;
 			global::Rg.Plugins.Popup.Resource.Styleable.SwitchCompat_trackTintMode = global::Havamal.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchMaterial = global::Havamal.Droid.Resource.Styleable.SwitchMaterial;
+			global::Rg.Plugins.Popup.Resource.Styleable.SwitchMaterial_useMaterialThemeColors = global::Havamal.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors;
 			global::Rg.Plugins.Popup.Resource.Styleable.TabItem = global::Havamal.Droid.Resource.Styleable.TabItem;
 			global::Rg.Plugins.Popup.Resource.Styleable.TabItem_android_icon = global::Havamal.Droid.Resource.Styleable.TabItem_android_icon;
 			global::Rg.Plugins.Popup.Resource.Styleable.TabItem_android_layout = global::Havamal.Droid.Resource.Styleable.TabItem_android_layout;
@@ -2552,7 +3498,10 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_fontVariationSettings = global::Havamal.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_textAllCaps = global::Havamal.Droid.Resource.Styleable.TextAppearance_textAllCaps;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextAppearance_textLocale = global::Havamal.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputEditText = global::Havamal.Droid.Resource.Styleable.TextInputEditText;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled = global::Havamal.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout = global::Havamal.Droid.Resource.Styleable.TextInputLayout;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_android_enabled = global::Havamal.Droid.Resource.Styleable.TextInputLayout_android_enabled;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_android_hint = global::Havamal.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_android_textColorHint = global::Havamal.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::Havamal.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
@@ -2563,24 +3512,57 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::Havamal.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::Havamal.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_boxStrokeColor = global::Havamal.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_boxStrokeErrorColor = global::Havamal.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::Havamal.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::Havamal.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_counterEnabled = global::Havamal.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_counterMaxLength = global::Havamal.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Havamal.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_counterOverflowTextColor = global::Havamal.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Havamal.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_counterTextColor = global::Havamal.Droid.Resource.Styleable.TextInputLayout_counterTextColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_endIconCheckable = global::Havamal.Droid.Resource.Styleable.TextInputLayout_endIconCheckable;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_endIconContentDescription = global::Havamal.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_endIconDrawable = global::Havamal.Droid.Resource.Styleable.TextInputLayout_endIconDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_endIconMode = global::Havamal.Droid.Resource.Styleable.TextInputLayout_endIconMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_endIconTint = global::Havamal.Droid.Resource.Styleable.TextInputLayout_endIconTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_endIconTintMode = global::Havamal.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_errorContentDescription = global::Havamal.Droid.Resource.Styleable.TextInputLayout_errorContentDescription;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_errorEnabled = global::Havamal.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_errorIconDrawable = global::Havamal.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_errorIconTint = global::Havamal.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_errorIconTintMode = global::Havamal.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Havamal.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_errorTextColor = global::Havamal.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_helperText = global::Havamal.Droid.Resource.Styleable.TextInputLayout_helperText;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_helperTextEnabled = global::Havamal.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::Havamal.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_helperTextTextColor = global::Havamal.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Havamal.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_hintEnabled = global::Havamal.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Havamal.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_hintTextColor = global::Havamal.Droid.Resource.Styleable.TextInputLayout_hintTextColor;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::Havamal.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::Havamal.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::Havamal.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_passwordToggleTint = global::Havamal.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
 			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::Havamal.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_placeholderText = global::Havamal.Droid.Resource.Styleable.TextInputLayout_placeholderText;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_placeholderTextAppearance = global::Havamal.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_placeholderTextColor = global::Havamal.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_prefixText = global::Havamal.Droid.Resource.Styleable.TextInputLayout_prefixText;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_prefixTextAppearance = global::Havamal.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_prefixTextColor = global::Havamal.Droid.Resource.Styleable.TextInputLayout_prefixTextColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_shapeAppearance = global::Havamal.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::Havamal.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_startIconCheckable = global::Havamal.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_startIconContentDescription = global::Havamal.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_startIconDrawable = global::Havamal.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_startIconTint = global::Havamal.Droid.Resource.Styleable.TextInputLayout_startIconTint;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_startIconTintMode = global::Havamal.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_suffixText = global::Havamal.Droid.Resource.Styleable.TextInputLayout_suffixText;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_suffixTextAppearance = global::Havamal.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.TextInputLayout_suffixTextColor = global::Havamal.Droid.Resource.Styleable.TextInputLayout_suffixTextColor;
 			global::Rg.Plugins.Popup.Resource.Styleable.ThemeEnforcement = global::Havamal.Droid.Resource.Styleable.ThemeEnforcement;
 			global::Rg.Plugins.Popup.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::Havamal.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
 			global::Rg.Plugins.Popup.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::Havamal.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
@@ -2616,11 +3598,21 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_titleMarginTop = global::Havamal.Droid.Resource.Styleable.Toolbar_titleMarginTop;
 			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_titleTextAppearance = global::Havamal.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
 			global::Rg.Plugins.Popup.Resource.Styleable.Toolbar_titleTextColor = global::Havamal.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Rg.Plugins.Popup.Resource.Styleable.Tooltip = global::Havamal.Droid.Resource.Styleable.Tooltip;
+			global::Rg.Plugins.Popup.Resource.Styleable.Tooltip_android_layout_margin = global::Havamal.Droid.Resource.Styleable.Tooltip_android_layout_margin;
+			global::Rg.Plugins.Popup.Resource.Styleable.Tooltip_android_minHeight = global::Havamal.Droid.Resource.Styleable.Tooltip_android_minHeight;
+			global::Rg.Plugins.Popup.Resource.Styleable.Tooltip_android_minWidth = global::Havamal.Droid.Resource.Styleable.Tooltip_android_minWidth;
+			global::Rg.Plugins.Popup.Resource.Styleable.Tooltip_android_padding = global::Havamal.Droid.Resource.Styleable.Tooltip_android_padding;
+			global::Rg.Plugins.Popup.Resource.Styleable.Tooltip_android_text = global::Havamal.Droid.Resource.Styleable.Tooltip_android_text;
+			global::Rg.Plugins.Popup.Resource.Styleable.Tooltip_android_textAppearance = global::Havamal.Droid.Resource.Styleable.Tooltip_android_textAppearance;
+			global::Rg.Plugins.Popup.Resource.Styleable.Tooltip_backgroundTint = global::Havamal.Droid.Resource.Styleable.Tooltip_backgroundTint;
 			global::Rg.Plugins.Popup.Resource.Styleable.View = global::Havamal.Droid.Resource.Styleable.View;
 			global::Rg.Plugins.Popup.Resource.Styleable.ViewBackgroundHelper = global::Havamal.Droid.Resource.Styleable.ViewBackgroundHelper;
 			global::Rg.Plugins.Popup.Resource.Styleable.ViewBackgroundHelper_android_background = global::Havamal.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
 			global::Rg.Plugins.Popup.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Havamal.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
 			global::Rg.Plugins.Popup.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Havamal.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Rg.Plugins.Popup.Resource.Styleable.ViewPager2 = global::Havamal.Droid.Resource.Styleable.ViewPager2;
+			global::Rg.Plugins.Popup.Resource.Styleable.ViewPager2_android_orientation = global::Havamal.Droid.Resource.Styleable.ViewPager2_android_orientation;
 			global::Rg.Plugins.Popup.Resource.Styleable.ViewStubCompat = global::Havamal.Droid.Resource.Styleable.ViewStubCompat;
 			global::Rg.Plugins.Popup.Resource.Styleable.ViewStubCompat_android_id = global::Havamal.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Rg.Plugins.Popup.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Havamal.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
@@ -2630,6 +3622,12 @@ namespace Havamal.Droid
 			global::Rg.Plugins.Popup.Resource.Styleable.View_paddingEnd = global::Havamal.Droid.Resource.Styleable.View_paddingEnd;
 			global::Rg.Plugins.Popup.Resource.Styleable.View_paddingStart = global::Havamal.Droid.Resource.Styleable.View_paddingStart;
 			global::Rg.Plugins.Popup.Resource.Styleable.View_theme = global::Havamal.Droid.Resource.Styleable.View_theme;
+			global::Rg.Plugins.Popup.Resource.Xml.image_share_filepaths = global::Havamal.Droid.Resource.Xml.image_share_filepaths;
+			global::Rg.Plugins.Popup.Resource.Xml.standalone_badge = global::Havamal.Droid.Resource.Xml.standalone_badge;
+			global::Rg.Plugins.Popup.Resource.Xml.standalone_badge_gravity_bottom_end = global::Havamal.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
+			global::Rg.Plugins.Popup.Resource.Xml.standalone_badge_gravity_bottom_start = global::Havamal.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
+			global::Rg.Plugins.Popup.Resource.Xml.standalone_badge_gravity_top_start = global::Havamal.Droid.Resource.Xml.standalone_badge_gravity_top_start;
+			global::Rg.Plugins.Popup.Resource.Xml.standalone_badge_offset = global::Havamal.Droid.Resource.Xml.standalone_badge_offset;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::Havamal.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::Havamal.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::Havamal.Droid.Resource.Attribute.fontProviderAuthority;
@@ -2870,10 +3868,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.fragment_fade_exit = global::Havamal.Droid.Resource.Animator.fragment_fade_exit;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.fragment_open_enter = global::Havamal.Droid.Resource.Animator.fragment_open_enter;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.fragment_open_exit = global::Havamal.Droid.Resource.Animator.fragment_open_exit;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.linear_indeterminate_line1_head_interpolator = global::Havamal.Droid.Resource.Animator.linear_indeterminate_line1_head_interpolator;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.linear_indeterminate_line1_tail_interpolator = global::Havamal.Droid.Resource.Animator.linear_indeterminate_line1_tail_interpolator;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.linear_indeterminate_line2_head_interpolator = global::Havamal.Droid.Resource.Animator.linear_indeterminate_line2_head_interpolator;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.linear_indeterminate_line2_tail_interpolator = global::Havamal.Droid.Resource.Animator.linear_indeterminate_line2_tail_interpolator;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_btn_state_list_anim = global::Havamal.Droid.Resource.Animator.mtrl_btn_state_list_anim;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Havamal.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_card_state_list_anim = global::Havamal.Droid.Resource.Animator.mtrl_card_state_list_anim;
@@ -3047,6 +4041,9 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIconTint = global::Havamal.Droid.Resource.Attribute.checkedIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIconVisible = global::Havamal.Droid.Resource.Attribute.checkedIconVisible;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedTextViewStyle = global::Havamal.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkMarkCompat = global::Havamal.Droid.Resource.Attribute.checkMarkCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkMarkTint = global::Havamal.Droid.Resource.Attribute.checkMarkTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkMarkTintMode = global::Havamal.Droid.Resource.Attribute.checkMarkTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipBackgroundColor = global::Havamal.Droid.Resource.Attribute.chipBackgroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipCornerRadius = global::Havamal.Droid.Resource.Attribute.chipCornerRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipEndPadding = global::Havamal.Droid.Resource.Attribute.chipEndPadding;
@@ -3118,7 +4115,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSurface = global::Havamal.Droid.Resource.Attribute.colorSurface;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSwitchThumbNormal = global::Havamal.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.commitIcon = global::Havamal.Droid.Resource.Attribute.commitIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ConstraintRotate = global::Havamal.Droid.Resource.Attribute.ConstraintRotate;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.constraints = global::Havamal.Droid.Resource.Attribute.constraints;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.constraintSet = global::Havamal.Droid.Resource.Attribute.constraintSet;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.constraintSetEnd = global::Havamal.Droid.Resource.Attribute.constraintSetEnd;
@@ -3219,6 +4215,7 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevation = global::Havamal.Droid.Resource.Attribute.elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevationOverlayColor = global::Havamal.Droid.Resource.Attribute.elevationOverlayColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevationOverlayEnabled = global::Havamal.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.emojiCompatEnabled = global::Havamal.Droid.Resource.Attribute.emojiCompatEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.enableEdgeToEdge = global::Havamal.Droid.Resource.Attribute.enableEdgeToEdge;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconCheckable = global::Havamal.Droid.Resource.Attribute.endIconCheckable;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconContentDescription = global::Havamal.Droid.Resource.Attribute.endIconContentDescription;
@@ -3477,6 +4474,7 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingStart = global::Havamal.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.logo = global::Havamal.Droid.Resource.Attribute.logo;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.logoDescription = global::Havamal.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lStar = global::Havamal.Droid.Resource.Attribute.lStar;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogBodyTextStyle = global::Havamal.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogTheme = global::Havamal.Droid.Resource.Attribute.materialAlertDialogTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogTitleIconStyle = global::Havamal.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
@@ -3814,7 +4812,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textureHeight = global::Havamal.Droid.Resource.Attribute.textureHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textureWidth = global::Havamal.Droid.Resource.Attribute.textureWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.theme = global::Havamal.Droid.Resource.Attribute.theme;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.themeLineHeight = global::Havamal.Droid.Resource.Attribute.themeLineHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thickness = global::Havamal.Droid.Resource.Attribute.thickness;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbColor = global::Havamal.Droid.Resource.Attribute.thumbColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbElevation = global::Havamal.Droid.Resource.Attribute.thumbElevation;
@@ -3956,7 +4953,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_light_background = global::Havamal.Droid.Resource.Color.cardview_light_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_shadow_end_color = global::Havamal.Droid.Resource.Color.cardview_shadow_end_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_shadow_start_color = global::Havamal.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.checkbox_themeable_attribute_color = global::Havamal.Droid.Resource.Color.checkbox_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_bottom_navigation_shadow_color = global::Havamal.Droid.Resource.Color.design_bottom_navigation_shadow_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_box_stroke_color = global::Havamal.Droid.Resource.Color.design_box_stroke_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_background = global::Havamal.Droid.Resource.Color.design_dark_default_color_background;
@@ -4101,7 +5097,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_default_material_light = global::Havamal.Droid.Resource.Color.primary_text_default_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_dark = global::Havamal.Droid.Resource.Color.primary_text_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_light = global::Havamal.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.radiobutton_themeable_attribute_color = global::Havamal.Droid.Resource.Color.radiobutton_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.ripple_material_dark = global::Havamal.Droid.Resource.Color.ripple_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.ripple_material_light = global::Havamal.Droid.Resource.Color.ripple_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.secondary_text_default_material_dark = global::Havamal.Droid.Resource.Color.secondary_text_default_material_dark;
@@ -4114,8 +5109,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_material_light = global::Havamal.Droid.Resource.Color.switch_thumb_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_normal_material_dark = global::Havamal.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_normal_material_light = global::Havamal.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.test_mtrl_calendar_day = global::Havamal.Droid.Resource.Color.test_mtrl_calendar_day;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.test_mtrl_calendar_day_selected = global::Havamal.Droid.Resource.Color.test_mtrl_calendar_day_selected;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.tooltip_background_dark = global::Havamal.Droid.Resource.Color.tooltip_background_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.tooltip_background_light = global::Havamal.Droid.Resource.Color.tooltip_background_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::Havamal.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
@@ -4199,7 +5192,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Havamal.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_title_material = global::Havamal.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::Havamal.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.action_bar_size = global::Havamal.Droid.Resource.Dimension.action_bar_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.appcompat_dialog_background_inset = global::Havamal.Droid.Resource.Dimension.appcompat_dialog_background_inset;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_compat_inset_shadow = global::Havamal.Droid.Resource.Dimension.cardview_compat_inset_shadow;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_default_elevation = global::Havamal.Droid.Resource.Dimension.cardview_default_elevation;
@@ -4212,7 +5204,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_control_corner_material = global::Havamal.Droid.Resource.Dimension.compat_control_corner_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_notification_large_icon_max_height = global::Havamal.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_notification_large_icon_max_width = global::Havamal.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.default_dimension = global::Havamal.Droid.Resource.Dimension.default_dimension;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.def_drawer_elevation = global::Havamal.Droid.Resource.Dimension.def_drawer_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_appbar_elevation = global::Havamal.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Havamal.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
@@ -4284,11 +5275,8 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_hand_stroke_width = global::Havamal.Droid.Resource.Dimension.material_clock_hand_stroke_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_number_text_size = global::Havamal.Droid.Resource.Dimension.material_clock_number_text_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_period_toggle_height = global::Havamal.Droid.Resource.Dimension.material_clock_period_toggle_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_period_toggle_margin_left = global::Havamal.Droid.Resource.Dimension.material_clock_period_toggle_margin_left;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_period_toggle_width = global::Havamal.Droid.Resource.Dimension.material_clock_period_toggle_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_size = global::Havamal.Droid.Resource.Dimension.material_clock_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_cursor_inset_bottom = global::Havamal.Droid.Resource.Dimension.material_cursor_inset_bottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_cursor_inset_top = global::Havamal.Droid.Resource.Dimension.material_cursor_inset_top;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_cursor_width = global::Havamal.Droid.Resource.Dimension.material_cursor_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_emphasis_disabled = global::Havamal.Droid.Resource.Dimension.material_emphasis_disabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_emphasis_high_type = global::Havamal.Droid.Resource.Dimension.material_emphasis_high_type;
@@ -4306,8 +5294,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_textinput_default_width = global::Havamal.Droid.Resource.Dimension.material_textinput_default_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_textinput_max_width = global::Havamal.Droid.Resource.Dimension.material_textinput_max_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_textinput_min_width = global::Havamal.Droid.Resource.Dimension.material_textinput_min_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_text_view_test_line_height = global::Havamal.Droid.Resource.Dimension.material_text_view_test_line_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_text_view_test_line_height_override = global::Havamal.Droid.Resource.Dimension.material_text_view_test_line_height_override;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_timepicker_dialog_buttons_margin_top = global::Havamal.Droid.Resource.Dimension.material_timepicker_dialog_buttons_margin_top;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_time_picker_minimum_screen_height = global::Havamal.Droid.Resource.Dimension.material_time_picker_minimum_screen_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_time_picker_minimum_screen_width = global::Havamal.Droid.Resource.Dimension.material_time_picker_minimum_screen_width;
@@ -4404,12 +5390,10 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_spacing = global::Havamal.Droid.Resource.Dimension.mtrl_card_spacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Havamal.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_chip_text_size = global::Havamal.Droid.Resource.Dimension.mtrl_chip_text_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::Havamal.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::Havamal.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::Havamal.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::Havamal.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_corner_radius = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_elevation = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
@@ -4433,7 +5417,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_large_touch_target = global::Havamal.Droid.Resource.Dimension.mtrl_large_touch_target;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_default_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
@@ -4481,7 +5464,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_thumb_radius = global::Havamal.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_height = global::Havamal.Droid.Resource.Dimension.mtrl_slider_track_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_side_padding = global::Havamal.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_top = global::Havamal.Droid.Resource.Dimension.mtrl_slider_track_top;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_widget_height = global::Havamal.Droid.Resource.Dimension.mtrl_slider_widget_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Havamal.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
@@ -4521,18 +5503,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_subtext_size = global::Havamal.Droid.Resource.Dimension.notification_subtext_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_top_pad = global::Havamal.Droid.Resource.Dimension.notification_top_pad;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_top_pad_large_text = global::Havamal.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::Havamal.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_active_item_max_width = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_active_item_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_active_item_min_width = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_active_item_min_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_active_text_size = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_active_text_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_elevation = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_height = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_icon_size = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_icon_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_item_max_width = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_item_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_item_min_width = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_item_min_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_label_padding = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_label_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_shadow_height = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_shadow_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_text_size = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_text_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_corner_radius = global::Havamal.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_horizontal_padding = global::Havamal.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_margin = global::Havamal.Droid.Resource.Dimension.tooltip_margin;
@@ -4659,7 +5629,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_ic_error = global::Havamal.Droid.Resource.Drawable.mtrl_ic_error;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_navigation_bar_item_background = global::Havamal.Droid.Resource.Drawable.mtrl_navigation_bar_item_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_popupmenu_background = global::Havamal.Droid.Resource.Drawable.mtrl_popupmenu_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_popupmenu_background_dark = global::Havamal.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_tabs_default_indicator = global::Havamal.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.navigation_empty_icon = global::Havamal.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_action_background = global::Havamal.Droid.Resource.Drawable.notification_action_background;
@@ -4674,7 +5643,7 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_template_icon_low_bg = global::Havamal.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_tile_bg = global::Havamal.Droid.Resource.Drawable.notification_tile_bg;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::Havamal.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.test_custom_background = global::Havamal.Droid.Resource.Drawable.test_custom_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.test_level_drawable = global::Havamal.Droid.Resource.Drawable.test_level_drawable;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.tooltip_frame_dark = global::Havamal.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.tooltip_frame_light = global::Havamal.Droid.Resource.Drawable.tooltip_frame_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.accelerate = global::Havamal.Droid.Resource.Id.accelerate;
@@ -4779,11 +5748,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.chains = global::Havamal.Droid.Resource.Id.chains;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.checkbox = global::Havamal.Droid.Resource.Id.checkbox;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.@checked = global::Havamal.Droid.Resource.Id.@checked;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.chip = global::Havamal.Droid.Resource.Id.chip;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.chip1 = global::Havamal.Droid.Resource.Id.chip1;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.chip2 = global::Havamal.Droid.Resource.Id.chip2;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.chip3 = global::Havamal.Droid.Resource.Id.chip3;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.chip_group = global::Havamal.Droid.Resource.Id.chip_group;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.chronometer = global::Havamal.Droid.Resource.Id.chronometer;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.circle_center = global::Havamal.Droid.Resource.Id.circle_center;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.clear_text = global::Havamal.Droid.Resource.Id.clear_text;
@@ -4872,7 +5836,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.grouping = global::Havamal.Droid.Resource.Id.grouping;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.groups = global::Havamal.Droid.Resource.Id.groups;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.group_divider = global::Havamal.Droid.Resource.Id.group_divider;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.guideline = global::Havamal.Droid.Resource.Id.guideline;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.header_title = global::Havamal.Droid.Resource.Id.header_title;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.hideable = global::Havamal.Droid.Resource.Id.hideable;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.home = global::Havamal.Droid.Resource.Id.home;
@@ -4925,7 +5888,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_textinput_timepicker = global::Havamal.Droid.Resource.Id.material_textinput_timepicker;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_cancel_button = global::Havamal.Droid.Resource.Id.material_timepicker_cancel_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_container = global::Havamal.Droid.Resource.Id.material_timepicker_container;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_edit_text = global::Havamal.Droid.Resource.Id.material_timepicker_edit_text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_mode_button = global::Havamal.Droid.Resource.Id.material_timepicker_mode_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_ok_button = global::Havamal.Droid.Resource.Id.material_timepicker_ok_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_view = global::Havamal.Droid.Resource.Id.material_timepicker_view;
@@ -5100,10 +6062,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_unhandled_key_event_manager = global::Havamal.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_unhandled_key_listeners = global::Havamal.Droid.Resource.Id.tag_unhandled_key_listeners;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_window_insets_animation_callback = global::Havamal.Droid.Resource.Id.tag_window_insets_animation_callback;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.test_checkbox_android_button_tint = global::Havamal.Droid.Resource.Id.test_checkbox_android_button_tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.test_checkbox_app_button_tint = global::Havamal.Droid.Resource.Id.test_checkbox_app_button_tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.test_radiobutton_android_button_tint = global::Havamal.Droid.Resource.Id.test_radiobutton_android_button_tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.test_radiobutton_app_button_tint = global::Havamal.Droid.Resource.Id.test_radiobutton_app_button_tint;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.text = global::Havamal.Droid.Resource.Id.text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.text2 = global::Havamal.Droid.Resource.Id.text2;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textEnd = global::Havamal.Droid.Resource.Id.textEnd;
@@ -5148,6 +6106,7 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_offset_helper = global::Havamal.Droid.Resource.Id.view_offset_helper;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_transition = global::Havamal.Droid.Resource.Id.view_transition;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_tree_lifecycle_owner = global::Havamal.Droid.Resource.Id.view_tree_lifecycle_owner;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.view_tree_on_back_pressed_dispatcher_owner = global::Havamal.Droid.Resource.Id.view_tree_on_back_pressed_dispatcher_owner;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_tree_saved_state_registry_owner = global::Havamal.Droid.Resource.Id.view_tree_saved_state_registry_owner;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_tree_view_model_store_owner = global::Havamal.Droid.Resource.Id.view_tree_view_model_store_owner;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.visible = global::Havamal.Droid.Resource.Id.visible;
@@ -5160,7 +6119,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.wrap_content_constrained = global::Havamal.Droid.Resource.Id.wrap_content_constrained;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.x_left = global::Havamal.Droid.Resource.Id.x_left;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.x_right = global::Havamal.Droid.Resource.Id.x_right;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.zero_corner_chip = global::Havamal.Droid.Resource.Id.zero_corner_chip;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.abc_config_activityDefaultDur = global::Havamal.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.abc_config_activityShortDur = global::Havamal.Droid.Resource.Integer.abc_config_activityShortDur;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.app_bar_elevation_anim_duration = global::Havamal.Droid.Resource.Integer.app_bar_elevation_anim_duration;
@@ -5314,21 +6272,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.ShellContent = global::Havamal.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::Havamal.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.Tabbar = global::Havamal.Droid.Resource.Layout.Tabbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_action_chip = global::Havamal.Droid.Resource.Layout.test_action_chip;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_chip_zero_corner_radius = global::Havamal.Droid.Resource.Layout.test_chip_zero_corner_radius;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_design_checkbox = global::Havamal.Droid.Resource.Layout.test_design_checkbox;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_design_radiobutton = global::Havamal.Droid.Resource.Layout.test_design_radiobutton;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_navigation_bar_item_layout = global::Havamal.Droid.Resource.Layout.test_navigation_bar_item_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_reflow_chipgroup = global::Havamal.Droid.Resource.Layout.test_reflow_chipgroup;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar = global::Havamal.Droid.Resource.Layout.test_toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar_custom_background = global::Havamal.Droid.Resource.Layout.test_toolbar_custom_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar_elevation = global::Havamal.Droid.Resource.Layout.test_toolbar_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar_surface = global::Havamal.Droid.Resource.Layout.test_toolbar_surface;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_without_line_height = global::Havamal.Droid.Resource.Layout.text_view_without_line_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_appearance = global::Havamal.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_layout = global::Havamal.Droid.Resource.Layout.text_view_with_line_height_from_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_style = global::Havamal.Droid.Resource.Layout.text_view_with_line_height_from_style;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_theme_line_height = global::Havamal.Droid.Resource.Layout.text_view_with_theme_line_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.Toolbar = global::Havamal.Droid.Resource.Layout.Toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Plurals.mtrl_badge_content_description = global::Havamal.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_home_description = global::Havamal.Droid.Resource.String.abc_action_bar_home_description;
@@ -5358,13 +6301,13 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_shareactionprovider_share_with = global::Havamal.Droid.Resource.String.abc_shareactionprovider_share_with;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_shareactionprovider_share_with_application = global::Havamal.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_toolbar_collapse_description = global::Havamal.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.androidx_startup = global::Havamal.Droid.Resource.String.androidx_startup;
 			global::Xamarin.Forms.Platform.Android.Resource.String.appbar_scrolling_view_behavior = global::Havamal.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.bottomsheet_action_expand_halfway = global::Havamal.Droid.Resource.String.bottomsheet_action_expand_halfway;
 			global::Xamarin.Forms.Platform.Android.Resource.String.bottom_sheet_behavior = global::Havamal.Droid.Resource.String.bottom_sheet_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_content_description = global::Havamal.Droid.Resource.String.character_counter_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_overflowed_content_description = global::Havamal.Droid.Resource.String.character_counter_overflowed_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_pattern = global::Havamal.Droid.Resource.String.character_counter_pattern;
-			global::Xamarin.Forms.Platform.Android.Resource.String.chip_text = global::Havamal.Droid.Resource.String.chip_text;
 			global::Xamarin.Forms.Platform.Android.Resource.String.clear_text_end_icon_content_description = global::Havamal.Droid.Resource.String.clear_text_end_icon_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.error_icon_content_description = global::Havamal.Droid.Resource.String.error_icon_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.exposed_dropdown_menu_content_description = global::Havamal.Droid.Resource.String.exposed_dropdown_menu_content_description;
@@ -5440,7 +6383,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.String.status_bar_notification_info_overflow = global::Havamal.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat = global::Havamal.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat_Light = global::Havamal.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.AndroidThemeColorAccentYellow = global::Havamal.Droid.Resource.Style.AndroidThemeColorAccentYellow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Dialog = global::Havamal.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::Havamal.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Tooltip = global::Havamal.Droid.Resource.Style.Animation_AppCompat_Tooltip;
@@ -5671,7 +6613,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Dark = global::Havamal.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Light = global::Havamal.Droid.Resource.Style.CardView_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewTheme = global::Havamal.Droid.Resource.Style.collectionViewTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.EmptyTheme = global::Havamal.Droid.Resource.Style.EmptyTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme = global::Havamal.Droid.Resource.Style.MainTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme_Base = global::Havamal.Droid.Resource.Style.MainTheme_Base;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents = global::Havamal.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
@@ -5717,11 +6658,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Havamal.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.scrollViewScrollBars = global::Havamal.Droid.Resource.Style.scrollViewScrollBars;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.scrollViewTheme = global::Havamal.Droid.Resource.Style.scrollViewTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_Cut = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
@@ -5730,25 +6666,11 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithLineHeight = global::Havamal.Droid.Resource.Style.TestStyleWithLineHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithLineHeightAppearance = global::Havamal.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithoutLineHeight = global::Havamal.Droid.Resource.Style.TestStyleWithoutLineHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::Havamal.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestThemeWithLineHeight = global::Havamal.Droid.Resource.Style.TestThemeWithLineHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestThemeWithLineHeightDisabled = global::Havamal.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::Havamal.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::Havamal.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::Havamal.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::Havamal.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::Havamal.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat = global::Havamal.Droid.Resource.Style.TextAppearance_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::Havamal.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::Havamal.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
@@ -5838,7 +6760,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Havamal.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Havamal.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Havamal.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlayColorAccentRed = global::Havamal.Droid.Resource.Style.ThemeOverlayColorAccentRed;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat = global::Havamal.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Havamal.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Havamal.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -5945,7 +6866,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
@@ -5959,7 +6879,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
@@ -6262,6 +7181,7 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_liftOnScroll = global::Havamal.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::Havamal.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_statusBarForeground = global::Havamal.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatEmojiHelper = global::Havamal.Droid.Resource.Styleable.AppCompatEmojiHelper;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView = global::Havamal.Droid.Resource.Styleable.AppCompatImageView;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_android_src = global::Havamal.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::Havamal.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -6295,6 +7215,7 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableTint = global::Havamal.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableTintMode = global::Havamal.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::Havamal.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_emojiCompatEnabled = global::Havamal.Droid.Resource.Styleable.AppCompatTextView_emojiCompatEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Havamal.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::Havamal.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::Havamal.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
@@ -6511,6 +7432,11 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Carousel_carousel_touchUpMode = global::Havamal.Droid.Resource.Styleable.Carousel_carousel_touchUpMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Carousel_carousel_touchUp_dampeningFactor = global::Havamal.Droid.Resource.Styleable.Carousel_carousel_touchUp_dampeningFactor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Carousel_carousel_touchUp_velocityThreshold = global::Havamal.Droid.Resource.Styleable.Carousel_carousel_touchUp_velocityThreshold;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CheckedTextView = global::Havamal.Droid.Resource.Styleable.CheckedTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CheckedTextView_android_checkMark = global::Havamal.Droid.Resource.Styleable.CheckedTextView_android_checkMark;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CheckedTextView_checkMarkCompat = global::Havamal.Droid.Resource.Styleable.CheckedTextView_checkMarkCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CheckedTextView_checkMarkTint = global::Havamal.Droid.Resource.Styleable.CheckedTextView_checkMarkTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CheckedTextView_checkMarkTintMode = global::Havamal.Droid.Resource.Styleable.CheckedTextView_checkMarkTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip = global::Havamal.Droid.Resource.Styleable.Chip;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup = global::Havamal.Droid.Resource.Styleable.ChipGroup;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_checkedChip = global::Havamal.Droid.Resource.Styleable.ChipGroup_checkedChip;
@@ -6601,6 +7527,8 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_alpha = global::Havamal.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::Havamal.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_color = global::Havamal.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_lStar = global::Havamal.Droid.Resource.Styleable.ColorStateListItem_android_lStar;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_lStar = global::Havamal.Droid.Resource.Styleable.ColorStateListItem_lStar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton = global::Havamal.Droid.Resource.Styleable.CompoundButton;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_android_button = global::Havamal.Droid.Resource.Styleable.CompoundButton_android_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonCompat = global::Havamal.Droid.Resource.Styleable.CompoundButton_buttonCompat;
@@ -6874,7 +7802,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_barrierDirection = global::Havamal.Droid.Resource.Styleable.ConstraintSet_barrierDirection;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_barrierMargin = global::Havamal.Droid.Resource.Styleable.ConstraintSet_barrierMargin;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_chainUseRtl = global::Havamal.Droid.Resource.Styleable.ConstraintSet_chainUseRtl;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_ConstraintRotate = global::Havamal.Droid.Resource.Styleable.ConstraintSet_ConstraintRotate;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_constraint_referenced_ids = global::Havamal.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_ids;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_constraint_referenced_tags = global::Havamal.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_tags;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_deriveConstraintsFrom = global::Havamal.Droid.Resource.Styleable.ConstraintSet_deriveConstraintsFrom;
@@ -8103,11 +9030,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_paddingEnd = global::Havamal.Droid.Resource.Styleable.View_paddingEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_paddingStart = global::Havamal.Droid.Resource.Styleable.View_paddingStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_theme = global::Havamal.Droid.Resource.Styleable.View_theme;
-			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge = global::Havamal.Droid.Resource.Xml.standalone_badge;
-			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_bottom_end = global::Havamal.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
-			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_bottom_start = global::Havamal.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
-			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_top_start = global::Havamal.Droid.Resource.Xml.standalone_badge_gravity_top_start;
-			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_offset = global::Havamal.Droid.Resource.Xml.standalone_badge_offset;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_fade_in = global::Havamal.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_fade_out = global::Havamal.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_grow_fade_in_from_bottom = global::Havamal.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -8157,10 +9079,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Animator.fragment_fade_exit = global::Havamal.Droid.Resource.Animator.fragment_fade_exit;
 			global::Xamarin.Forms.Platform.Resource.Animator.fragment_open_enter = global::Havamal.Droid.Resource.Animator.fragment_open_enter;
 			global::Xamarin.Forms.Platform.Resource.Animator.fragment_open_exit = global::Havamal.Droid.Resource.Animator.fragment_open_exit;
-			global::Xamarin.Forms.Platform.Resource.Animator.linear_indeterminate_line1_head_interpolator = global::Havamal.Droid.Resource.Animator.linear_indeterminate_line1_head_interpolator;
-			global::Xamarin.Forms.Platform.Resource.Animator.linear_indeterminate_line1_tail_interpolator = global::Havamal.Droid.Resource.Animator.linear_indeterminate_line1_tail_interpolator;
-			global::Xamarin.Forms.Platform.Resource.Animator.linear_indeterminate_line2_head_interpolator = global::Havamal.Droid.Resource.Animator.linear_indeterminate_line2_head_interpolator;
-			global::Xamarin.Forms.Platform.Resource.Animator.linear_indeterminate_line2_tail_interpolator = global::Havamal.Droid.Resource.Animator.linear_indeterminate_line2_tail_interpolator;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_btn_state_list_anim = global::Havamal.Droid.Resource.Animator.mtrl_btn_state_list_anim;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::Havamal.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_card_state_list_anim = global::Havamal.Droid.Resource.Animator.mtrl_card_state_list_anim;
@@ -8334,6 +9252,9 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIconTint = global::Havamal.Droid.Resource.Attribute.checkedIconTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIconVisible = global::Havamal.Droid.Resource.Attribute.checkedIconVisible;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedTextViewStyle = global::Havamal.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.checkMarkCompat = global::Havamal.Droid.Resource.Attribute.checkMarkCompat;
+			global::Xamarin.Forms.Platform.Resource.Attribute.checkMarkTint = global::Havamal.Droid.Resource.Attribute.checkMarkTint;
+			global::Xamarin.Forms.Platform.Resource.Attribute.checkMarkTintMode = global::Havamal.Droid.Resource.Attribute.checkMarkTintMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipBackgroundColor = global::Havamal.Droid.Resource.Attribute.chipBackgroundColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipCornerRadius = global::Havamal.Droid.Resource.Attribute.chipCornerRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipEndPadding = global::Havamal.Droid.Resource.Attribute.chipEndPadding;
@@ -8405,7 +9326,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorSurface = global::Havamal.Droid.Resource.Attribute.colorSurface;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorSwitchThumbNormal = global::Havamal.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Xamarin.Forms.Platform.Resource.Attribute.commitIcon = global::Havamal.Droid.Resource.Attribute.commitIcon;
-			global::Xamarin.Forms.Platform.Resource.Attribute.ConstraintRotate = global::Havamal.Droid.Resource.Attribute.ConstraintRotate;
 			global::Xamarin.Forms.Platform.Resource.Attribute.constraints = global::Havamal.Droid.Resource.Attribute.constraints;
 			global::Xamarin.Forms.Platform.Resource.Attribute.constraintSet = global::Havamal.Droid.Resource.Attribute.constraintSet;
 			global::Xamarin.Forms.Platform.Resource.Attribute.constraintSetEnd = global::Havamal.Droid.Resource.Attribute.constraintSetEnd;
@@ -8506,6 +9426,7 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.elevation = global::Havamal.Droid.Resource.Attribute.elevation;
 			global::Xamarin.Forms.Platform.Resource.Attribute.elevationOverlayColor = global::Havamal.Droid.Resource.Attribute.elevationOverlayColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.elevationOverlayEnabled = global::Havamal.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Xamarin.Forms.Platform.Resource.Attribute.emojiCompatEnabled = global::Havamal.Droid.Resource.Attribute.emojiCompatEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.enableEdgeToEdge = global::Havamal.Droid.Resource.Attribute.enableEdgeToEdge;
 			global::Xamarin.Forms.Platform.Resource.Attribute.endIconCheckable = global::Havamal.Droid.Resource.Attribute.endIconCheckable;
 			global::Xamarin.Forms.Platform.Resource.Attribute.endIconContentDescription = global::Havamal.Droid.Resource.Attribute.endIconContentDescription;
@@ -8764,6 +9685,7 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemPaddingStart = global::Havamal.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.logo = global::Havamal.Droid.Resource.Attribute.logo;
 			global::Xamarin.Forms.Platform.Resource.Attribute.logoDescription = global::Havamal.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.Platform.Resource.Attribute.lStar = global::Havamal.Droid.Resource.Attribute.lStar;
 			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogBodyTextStyle = global::Havamal.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogTheme = global::Havamal.Droid.Resource.Attribute.materialAlertDialogTheme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogTitleIconStyle = global::Havamal.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
@@ -9101,7 +10023,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.textureHeight = global::Havamal.Droid.Resource.Attribute.textureHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textureWidth = global::Havamal.Droid.Resource.Attribute.textureWidth;
 			global::Xamarin.Forms.Platform.Resource.Attribute.theme = global::Havamal.Droid.Resource.Attribute.theme;
-			global::Xamarin.Forms.Platform.Resource.Attribute.themeLineHeight = global::Havamal.Droid.Resource.Attribute.themeLineHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thickness = global::Havamal.Droid.Resource.Attribute.thickness;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thumbColor = global::Havamal.Droid.Resource.Attribute.thumbColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thumbElevation = global::Havamal.Droid.Resource.Attribute.thumbElevation;
@@ -9243,7 +10164,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_light_background = global::Havamal.Droid.Resource.Color.cardview_light_background;
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_shadow_end_color = global::Havamal.Droid.Resource.Color.cardview_shadow_end_color;
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_shadow_start_color = global::Havamal.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Xamarin.Forms.Platform.Resource.Color.checkbox_themeable_attribute_color = global::Havamal.Droid.Resource.Color.checkbox_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_bottom_navigation_shadow_color = global::Havamal.Droid.Resource.Color.design_bottom_navigation_shadow_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_box_stroke_color = global::Havamal.Droid.Resource.Color.design_box_stroke_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_background = global::Havamal.Droid.Resource.Color.design_dark_default_color_background;
@@ -9388,7 +10308,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_default_material_light = global::Havamal.Droid.Resource.Color.primary_text_default_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_disabled_material_dark = global::Havamal.Droid.Resource.Color.primary_text_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_disabled_material_light = global::Havamal.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Xamarin.Forms.Platform.Resource.Color.radiobutton_themeable_attribute_color = global::Havamal.Droid.Resource.Color.radiobutton_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Resource.Color.ripple_material_dark = global::Havamal.Droid.Resource.Color.ripple_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.ripple_material_light = global::Havamal.Droid.Resource.Color.ripple_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.secondary_text_default_material_dark = global::Havamal.Droid.Resource.Color.secondary_text_default_material_dark;
@@ -9401,8 +10320,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.switch_thumb_material_light = global::Havamal.Droid.Resource.Color.switch_thumb_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.switch_thumb_normal_material_dark = global::Havamal.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.switch_thumb_normal_material_light = global::Havamal.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Xamarin.Forms.Platform.Resource.Color.test_mtrl_calendar_day = global::Havamal.Droid.Resource.Color.test_mtrl_calendar_day;
-			global::Xamarin.Forms.Platform.Resource.Color.test_mtrl_calendar_day_selected = global::Havamal.Droid.Resource.Color.test_mtrl_calendar_day_selected;
 			global::Xamarin.Forms.Platform.Resource.Color.tooltip_background_dark = global::Havamal.Droid.Resource.Color.tooltip_background_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.tooltip_background_light = global::Havamal.Droid.Resource.Color.tooltip_background_light;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_content_inset_material = global::Havamal.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
@@ -9486,7 +10403,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Havamal.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_title_material = global::Havamal.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_title_material_toolbar = global::Havamal.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Xamarin.Forms.Platform.Resource.Dimension.action_bar_size = global::Havamal.Droid.Resource.Dimension.action_bar_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.appcompat_dialog_background_inset = global::Havamal.Droid.Resource.Dimension.appcompat_dialog_background_inset;
 			global::Xamarin.Forms.Platform.Resource.Dimension.cardview_compat_inset_shadow = global::Havamal.Droid.Resource.Dimension.cardview_compat_inset_shadow;
 			global::Xamarin.Forms.Platform.Resource.Dimension.cardview_default_elevation = global::Havamal.Droid.Resource.Dimension.cardview_default_elevation;
@@ -9499,7 +10415,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_control_corner_material = global::Havamal.Droid.Resource.Dimension.compat_control_corner_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_notification_large_icon_max_height = global::Havamal.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_notification_large_icon_max_width = global::Havamal.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.default_dimension = global::Havamal.Droid.Resource.Dimension.default_dimension;
 			global::Xamarin.Forms.Platform.Resource.Dimension.def_drawer_elevation = global::Havamal.Droid.Resource.Dimension.def_drawer_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_appbar_elevation = global::Havamal.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::Havamal.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
@@ -9571,11 +10486,8 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_hand_stroke_width = global::Havamal.Droid.Resource.Dimension.material_clock_hand_stroke_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_number_text_size = global::Havamal.Droid.Resource.Dimension.material_clock_number_text_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_period_toggle_height = global::Havamal.Droid.Resource.Dimension.material_clock_period_toggle_height;
-			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_period_toggle_margin_left = global::Havamal.Droid.Resource.Dimension.material_clock_period_toggle_margin_left;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_period_toggle_width = global::Havamal.Droid.Resource.Dimension.material_clock_period_toggle_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_size = global::Havamal.Droid.Resource.Dimension.material_clock_size;
-			global::Xamarin.Forms.Platform.Resource.Dimension.material_cursor_inset_bottom = global::Havamal.Droid.Resource.Dimension.material_cursor_inset_bottom;
-			global::Xamarin.Forms.Platform.Resource.Dimension.material_cursor_inset_top = global::Havamal.Droid.Resource.Dimension.material_cursor_inset_top;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_cursor_width = global::Havamal.Droid.Resource.Dimension.material_cursor_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_emphasis_disabled = global::Havamal.Droid.Resource.Dimension.material_emphasis_disabled;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_emphasis_high_type = global::Havamal.Droid.Resource.Dimension.material_emphasis_high_type;
@@ -9593,8 +10505,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_textinput_default_width = global::Havamal.Droid.Resource.Dimension.material_textinput_default_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_textinput_max_width = global::Havamal.Droid.Resource.Dimension.material_textinput_max_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_textinput_min_width = global::Havamal.Droid.Resource.Dimension.material_textinput_min_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.material_text_view_test_line_height = global::Havamal.Droid.Resource.Dimension.material_text_view_test_line_height;
-			global::Xamarin.Forms.Platform.Resource.Dimension.material_text_view_test_line_height_override = global::Havamal.Droid.Resource.Dimension.material_text_view_test_line_height_override;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_timepicker_dialog_buttons_margin_top = global::Havamal.Droid.Resource.Dimension.material_timepicker_dialog_buttons_margin_top;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_time_picker_minimum_screen_height = global::Havamal.Droid.Resource.Dimension.material_time_picker_minimum_screen_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_time_picker_minimum_screen_width = global::Havamal.Droid.Resource.Dimension.material_time_picker_minimum_screen_width;
@@ -9691,12 +10601,10 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_card_spacing = global::Havamal.Droid.Resource.Dimension.mtrl_card_spacing;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_chip_pressed_translation_z = global::Havamal.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_chip_text_size = global::Havamal.Droid.Resource.Dimension.mtrl_chip_text_size;
-			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::Havamal.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::Havamal.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::Havamal.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::Havamal.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
-			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_corner_radius = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_elevation = global::Havamal.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
@@ -9720,7 +10628,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
-			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_large_touch_target = global::Havamal.Droid.Resource.Dimension.mtrl_large_touch_target;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_default_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
@@ -9768,7 +10675,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_thumb_radius = global::Havamal.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_height = global::Havamal.Droid.Resource.Dimension.mtrl_slider_track_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_side_padding = global::Havamal.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
-			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_top = global::Havamal.Droid.Resource.Dimension.mtrl_slider_track_top;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_widget_height = global::Havamal.Droid.Resource.Dimension.mtrl_slider_widget_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::Havamal.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::Havamal.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
@@ -9808,18 +10714,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_subtext_size = global::Havamal.Droid.Resource.Dimension.notification_subtext_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_top_pad = global::Havamal.Droid.Resource.Dimension.notification_top_pad;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_top_pad_large_text = global::Havamal.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::Havamal.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_active_item_max_width = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_active_item_max_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_active_item_min_width = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_active_item_min_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_active_text_size = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_active_text_size;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_elevation = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_elevation;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_height = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_height;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_icon_size = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_icon_size;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_item_max_width = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_item_max_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_item_min_width = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_item_min_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_label_padding = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_label_padding;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_shadow_height = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_shadow_height;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_text_size = global::Havamal.Droid.Resource.Dimension.test_navigation_bar_text_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.tooltip_corner_radius = global::Havamal.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.tooltip_horizontal_padding = global::Havamal.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.tooltip_margin = global::Havamal.Droid.Resource.Dimension.tooltip_margin;
@@ -9946,7 +10840,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_ic_error = global::Havamal.Droid.Resource.Drawable.mtrl_ic_error;
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_navigation_bar_item_background = global::Havamal.Droid.Resource.Drawable.mtrl_navigation_bar_item_background;
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_popupmenu_background = global::Havamal.Droid.Resource.Drawable.mtrl_popupmenu_background;
-			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_popupmenu_background_dark = global::Havamal.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_tabs_default_indicator = global::Havamal.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::Xamarin.Forms.Platform.Resource.Drawable.navigation_empty_icon = global::Havamal.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Xamarin.Forms.Platform.Resource.Drawable.notification_action_background = global::Havamal.Droid.Resource.Drawable.notification_action_background;
@@ -9961,7 +10854,7 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.notification_template_icon_low_bg = global::Havamal.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Xamarin.Forms.Platform.Resource.Drawable.notification_tile_bg = global::Havamal.Droid.Resource.Drawable.notification_tile_bg;
 			global::Xamarin.Forms.Platform.Resource.Drawable.notify_panel_notification_icon_bg = global::Havamal.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Xamarin.Forms.Platform.Resource.Drawable.test_custom_background = global::Havamal.Droid.Resource.Drawable.test_custom_background;
+			global::Xamarin.Forms.Platform.Resource.Drawable.test_level_drawable = global::Havamal.Droid.Resource.Drawable.test_level_drawable;
 			global::Xamarin.Forms.Platform.Resource.Drawable.tooltip_frame_dark = global::Havamal.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Xamarin.Forms.Platform.Resource.Drawable.tooltip_frame_light = global::Havamal.Droid.Resource.Drawable.tooltip_frame_light;
 			global::Xamarin.Forms.Platform.Resource.Id.accelerate = global::Havamal.Droid.Resource.Id.accelerate;
@@ -10066,11 +10959,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.chains = global::Havamal.Droid.Resource.Id.chains;
 			global::Xamarin.Forms.Platform.Resource.Id.checkbox = global::Havamal.Droid.Resource.Id.checkbox;
 			global::Xamarin.Forms.Platform.Resource.Id.@checked = global::Havamal.Droid.Resource.Id.@checked;
-			global::Xamarin.Forms.Platform.Resource.Id.chip = global::Havamal.Droid.Resource.Id.chip;
-			global::Xamarin.Forms.Platform.Resource.Id.chip1 = global::Havamal.Droid.Resource.Id.chip1;
-			global::Xamarin.Forms.Platform.Resource.Id.chip2 = global::Havamal.Droid.Resource.Id.chip2;
-			global::Xamarin.Forms.Platform.Resource.Id.chip3 = global::Havamal.Droid.Resource.Id.chip3;
-			global::Xamarin.Forms.Platform.Resource.Id.chip_group = global::Havamal.Droid.Resource.Id.chip_group;
 			global::Xamarin.Forms.Platform.Resource.Id.chronometer = global::Havamal.Droid.Resource.Id.chronometer;
 			global::Xamarin.Forms.Platform.Resource.Id.circle_center = global::Havamal.Droid.Resource.Id.circle_center;
 			global::Xamarin.Forms.Platform.Resource.Id.clear_text = global::Havamal.Droid.Resource.Id.clear_text;
@@ -10159,7 +11047,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.grouping = global::Havamal.Droid.Resource.Id.grouping;
 			global::Xamarin.Forms.Platform.Resource.Id.groups = global::Havamal.Droid.Resource.Id.groups;
 			global::Xamarin.Forms.Platform.Resource.Id.group_divider = global::Havamal.Droid.Resource.Id.group_divider;
-			global::Xamarin.Forms.Platform.Resource.Id.guideline = global::Havamal.Droid.Resource.Id.guideline;
 			global::Xamarin.Forms.Platform.Resource.Id.header_title = global::Havamal.Droid.Resource.Id.header_title;
 			global::Xamarin.Forms.Platform.Resource.Id.hideable = global::Havamal.Droid.Resource.Id.hideable;
 			global::Xamarin.Forms.Platform.Resource.Id.home = global::Havamal.Droid.Resource.Id.home;
@@ -10212,7 +11099,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.material_textinput_timepicker = global::Havamal.Droid.Resource.Id.material_textinput_timepicker;
 			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_cancel_button = global::Havamal.Droid.Resource.Id.material_timepicker_cancel_button;
 			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_container = global::Havamal.Droid.Resource.Id.material_timepicker_container;
-			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_edit_text = global::Havamal.Droid.Resource.Id.material_timepicker_edit_text;
 			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_mode_button = global::Havamal.Droid.Resource.Id.material_timepicker_mode_button;
 			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_ok_button = global::Havamal.Droid.Resource.Id.material_timepicker_ok_button;
 			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_view = global::Havamal.Droid.Resource.Id.material_timepicker_view;
@@ -10387,10 +11273,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.tag_unhandled_key_event_manager = global::Havamal.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xamarin.Forms.Platform.Resource.Id.tag_unhandled_key_listeners = global::Havamal.Droid.Resource.Id.tag_unhandled_key_listeners;
 			global::Xamarin.Forms.Platform.Resource.Id.tag_window_insets_animation_callback = global::Havamal.Droid.Resource.Id.tag_window_insets_animation_callback;
-			global::Xamarin.Forms.Platform.Resource.Id.test_checkbox_android_button_tint = global::Havamal.Droid.Resource.Id.test_checkbox_android_button_tint;
-			global::Xamarin.Forms.Platform.Resource.Id.test_checkbox_app_button_tint = global::Havamal.Droid.Resource.Id.test_checkbox_app_button_tint;
-			global::Xamarin.Forms.Platform.Resource.Id.test_radiobutton_android_button_tint = global::Havamal.Droid.Resource.Id.test_radiobutton_android_button_tint;
-			global::Xamarin.Forms.Platform.Resource.Id.test_radiobutton_app_button_tint = global::Havamal.Droid.Resource.Id.test_radiobutton_app_button_tint;
 			global::Xamarin.Forms.Platform.Resource.Id.text = global::Havamal.Droid.Resource.Id.text;
 			global::Xamarin.Forms.Platform.Resource.Id.text2 = global::Havamal.Droid.Resource.Id.text2;
 			global::Xamarin.Forms.Platform.Resource.Id.textEnd = global::Havamal.Droid.Resource.Id.textEnd;
@@ -10435,6 +11317,7 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.view_offset_helper = global::Havamal.Droid.Resource.Id.view_offset_helper;
 			global::Xamarin.Forms.Platform.Resource.Id.view_transition = global::Havamal.Droid.Resource.Id.view_transition;
 			global::Xamarin.Forms.Platform.Resource.Id.view_tree_lifecycle_owner = global::Havamal.Droid.Resource.Id.view_tree_lifecycle_owner;
+			global::Xamarin.Forms.Platform.Resource.Id.view_tree_on_back_pressed_dispatcher_owner = global::Havamal.Droid.Resource.Id.view_tree_on_back_pressed_dispatcher_owner;
 			global::Xamarin.Forms.Platform.Resource.Id.view_tree_saved_state_registry_owner = global::Havamal.Droid.Resource.Id.view_tree_saved_state_registry_owner;
 			global::Xamarin.Forms.Platform.Resource.Id.view_tree_view_model_store_owner = global::Havamal.Droid.Resource.Id.view_tree_view_model_store_owner;
 			global::Xamarin.Forms.Platform.Resource.Id.visible = global::Havamal.Droid.Resource.Id.visible;
@@ -10447,7 +11330,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.wrap_content_constrained = global::Havamal.Droid.Resource.Id.wrap_content_constrained;
 			global::Xamarin.Forms.Platform.Resource.Id.x_left = global::Havamal.Droid.Resource.Id.x_left;
 			global::Xamarin.Forms.Platform.Resource.Id.x_right = global::Havamal.Droid.Resource.Id.x_right;
-			global::Xamarin.Forms.Platform.Resource.Id.zero_corner_chip = global::Havamal.Droid.Resource.Id.zero_corner_chip;
 			global::Xamarin.Forms.Platform.Resource.Integer.abc_config_activityDefaultDur = global::Havamal.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::Xamarin.Forms.Platform.Resource.Integer.abc_config_activityShortDur = global::Havamal.Droid.Resource.Integer.abc_config_activityShortDur;
 			global::Xamarin.Forms.Platform.Resource.Integer.app_bar_elevation_anim_duration = global::Havamal.Droid.Resource.Integer.app_bar_elevation_anim_duration;
@@ -10601,21 +11483,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.ShellContent = global::Havamal.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Resource.Layout.support_simple_spinner_dropdown_item = global::Havamal.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.Tabbar = global::Havamal.Droid.Resource.Layout.Tabbar;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_action_chip = global::Havamal.Droid.Resource.Layout.test_action_chip;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_chip_zero_corner_radius = global::Havamal.Droid.Resource.Layout.test_chip_zero_corner_radius;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_design_checkbox = global::Havamal.Droid.Resource.Layout.test_design_checkbox;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_design_radiobutton = global::Havamal.Droid.Resource.Layout.test_design_radiobutton;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_navigation_bar_item_layout = global::Havamal.Droid.Resource.Layout.test_navigation_bar_item_layout;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_reflow_chipgroup = global::Havamal.Droid.Resource.Layout.test_reflow_chipgroup;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar = global::Havamal.Droid.Resource.Layout.test_toolbar;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar_custom_background = global::Havamal.Droid.Resource.Layout.test_toolbar_custom_background;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar_elevation = global::Havamal.Droid.Resource.Layout.test_toolbar_elevation;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar_surface = global::Havamal.Droid.Resource.Layout.test_toolbar_surface;
-			global::Xamarin.Forms.Platform.Resource.Layout.text_view_without_line_height = global::Havamal.Droid.Resource.Layout.text_view_without_line_height;
-			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_appearance = global::Havamal.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
-			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_layout = global::Havamal.Droid.Resource.Layout.text_view_with_line_height_from_layout;
-			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_style = global::Havamal.Droid.Resource.Layout.text_view_with_line_height_from_style;
-			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_theme_line_height = global::Havamal.Droid.Resource.Layout.text_view_with_theme_line_height;
 			global::Xamarin.Forms.Platform.Resource.Layout.Toolbar = global::Havamal.Droid.Resource.Layout.Toolbar;
 			global::Xamarin.Forms.Platform.Resource.Plurals.mtrl_badge_content_description = global::Havamal.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.abc_action_bar_home_description = global::Havamal.Droid.Resource.String.abc_action_bar_home_description;
@@ -10645,13 +11512,13 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.String.abc_shareactionprovider_share_with = global::Havamal.Droid.Resource.String.abc_shareactionprovider_share_with;
 			global::Xamarin.Forms.Platform.Resource.String.abc_shareactionprovider_share_with_application = global::Havamal.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::Xamarin.Forms.Platform.Resource.String.abc_toolbar_collapse_description = global::Havamal.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Forms.Platform.Resource.String.androidx_startup = global::Havamal.Droid.Resource.String.androidx_startup;
 			global::Xamarin.Forms.Platform.Resource.String.appbar_scrolling_view_behavior = global::Havamal.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.bottomsheet_action_expand_halfway = global::Havamal.Droid.Resource.String.bottomsheet_action_expand_halfway;
 			global::Xamarin.Forms.Platform.Resource.String.bottom_sheet_behavior = global::Havamal.Droid.Resource.String.bottom_sheet_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.character_counter_content_description = global::Havamal.Droid.Resource.String.character_counter_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.character_counter_overflowed_content_description = global::Havamal.Droid.Resource.String.character_counter_overflowed_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.character_counter_pattern = global::Havamal.Droid.Resource.String.character_counter_pattern;
-			global::Xamarin.Forms.Platform.Resource.String.chip_text = global::Havamal.Droid.Resource.String.chip_text;
 			global::Xamarin.Forms.Platform.Resource.String.clear_text_end_icon_content_description = global::Havamal.Droid.Resource.String.clear_text_end_icon_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.error_icon_content_description = global::Havamal.Droid.Resource.String.error_icon_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.exposed_dropdown_menu_content_description = global::Havamal.Droid.Resource.String.exposed_dropdown_menu_content_description;
@@ -10727,7 +11594,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.String.status_bar_notification_info_overflow = global::Havamal.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Xamarin.Forms.Platform.Resource.Style.AlertDialog_AppCompat = global::Havamal.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.AlertDialog_AppCompat_Light = global::Havamal.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Resource.Style.AndroidThemeColorAccentYellow = global::Havamal.Droid.Resource.Style.AndroidThemeColorAccentYellow;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_Dialog = global::Havamal.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_DropDownUp = global::Havamal.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_Tooltip = global::Havamal.Droid.Resource.Style.Animation_AppCompat_Tooltip;
@@ -10958,7 +11824,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Dark = global::Havamal.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Light = global::Havamal.Droid.Resource.Style.CardView_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.collectionViewTheme = global::Havamal.Droid.Resource.Style.collectionViewTheme;
-			global::Xamarin.Forms.Platform.Resource.Style.EmptyTheme = global::Havamal.Droid.Resource.Style.EmptyTheme;
 			global::Xamarin.Forms.Platform.Resource.Style.MainTheme = global::Havamal.Droid.Resource.Style.MainTheme;
 			global::Xamarin.Forms.Platform.Resource.Style.MainTheme_Base = global::Havamal.Droid.Resource.Style.MainTheme_Base;
 			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents = global::Havamal.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
@@ -11004,11 +11869,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Havamal.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
 			global::Xamarin.Forms.Platform.Resource.Style.scrollViewScrollBars = global::Havamal.Droid.Resource.Style.scrollViewScrollBars;
 			global::Xamarin.Forms.Platform.Resource.Style.scrollViewTheme = global::Havamal.Droid.Resource.Style.scrollViewTheme;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_Cut = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
@@ -11017,25 +11877,11 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::Havamal.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::Havamal.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
-			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithLineHeight = global::Havamal.Droid.Resource.Style.TestStyleWithLineHeight;
-			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithLineHeightAppearance = global::Havamal.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
-			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithoutLineHeight = global::Havamal.Droid.Resource.Style.TestStyleWithoutLineHeight;
-			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::Havamal.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
-			global::Xamarin.Forms.Platform.Resource.Style.TestThemeWithLineHeight = global::Havamal.Droid.Resource.Style.TestThemeWithLineHeight;
-			global::Xamarin.Forms.Platform.Resource.Style.TestThemeWithLineHeightDisabled = global::Havamal.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
-			global::Xamarin.Forms.Platform.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::Havamal.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
-			global::Xamarin.Forms.Platform.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::Havamal.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
-			global::Xamarin.Forms.Platform.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::Havamal.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
-			global::Xamarin.Forms.Platform.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::Havamal.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
-			global::Xamarin.Forms.Platform.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::Havamal.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat = global::Havamal.Droid.Resource.Style.TextAppearance_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Body1 = global::Havamal.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Body2 = global::Havamal.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
@@ -11125,7 +11971,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Havamal.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Havamal.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Havamal.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlayColorAccentRed = global::Havamal.Droid.Resource.Style.ThemeOverlayColorAccentRed;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat = global::Havamal.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Havamal.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Havamal.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -11232,7 +12077,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light;
-			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
@@ -11246,7 +12090,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
-			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_NoActionBar = global::Havamal.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
@@ -11549,6 +12392,7 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_liftOnScroll = global::Havamal.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::Havamal.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_statusBarForeground = global::Havamal.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatEmojiHelper = global::Havamal.Droid.Resource.Styleable.AppCompatEmojiHelper;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView = global::Havamal.Droid.Resource.Styleable.AppCompatImageView;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView_android_src = global::Havamal.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView_srcCompat = global::Havamal.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -11582,6 +12426,7 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableTint = global::Havamal.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableTintMode = global::Havamal.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::Havamal.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_emojiCompatEnabled = global::Havamal.Droid.Resource.Styleable.AppCompatTextView_emojiCompatEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::Havamal.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_fontFamily = global::Havamal.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::Havamal.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
@@ -11798,6 +12643,11 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Carousel_carousel_touchUpMode = global::Havamal.Droid.Resource.Styleable.Carousel_carousel_touchUpMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Carousel_carousel_touchUp_dampeningFactor = global::Havamal.Droid.Resource.Styleable.Carousel_carousel_touchUp_dampeningFactor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Carousel_carousel_touchUp_velocityThreshold = global::Havamal.Droid.Resource.Styleable.Carousel_carousel_touchUp_velocityThreshold;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CheckedTextView = global::Havamal.Droid.Resource.Styleable.CheckedTextView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CheckedTextView_android_checkMark = global::Havamal.Droid.Resource.Styleable.CheckedTextView_android_checkMark;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CheckedTextView_checkMarkCompat = global::Havamal.Droid.Resource.Styleable.CheckedTextView_checkMarkCompat;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CheckedTextView_checkMarkTint = global::Havamal.Droid.Resource.Styleable.CheckedTextView_checkMarkTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CheckedTextView_checkMarkTintMode = global::Havamal.Droid.Resource.Styleable.CheckedTextView_checkMarkTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip = global::Havamal.Droid.Resource.Styleable.Chip;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup = global::Havamal.Droid.Resource.Styleable.ChipGroup;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_checkedChip = global::Havamal.Droid.Resource.Styleable.ChipGroup_checkedChip;
@@ -11888,6 +12738,8 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_alpha = global::Havamal.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_android_alpha = global::Havamal.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_android_color = global::Havamal.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_android_lStar = global::Havamal.Droid.Resource.Styleable.ColorStateListItem_android_lStar;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_lStar = global::Havamal.Droid.Resource.Styleable.ColorStateListItem_lStar;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton = global::Havamal.Droid.Resource.Styleable.CompoundButton;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_android_button = global::Havamal.Droid.Resource.Styleable.CompoundButton_android_button;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_buttonCompat = global::Havamal.Droid.Resource.Styleable.CompoundButton_buttonCompat;
@@ -12161,7 +13013,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_barrierDirection = global::Havamal.Droid.Resource.Styleable.ConstraintSet_barrierDirection;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_barrierMargin = global::Havamal.Droid.Resource.Styleable.ConstraintSet_barrierMargin;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_chainUseRtl = global::Havamal.Droid.Resource.Styleable.ConstraintSet_chainUseRtl;
-			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_ConstraintRotate = global::Havamal.Droid.Resource.Styleable.ConstraintSet_ConstraintRotate;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_constraint_referenced_ids = global::Havamal.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_ids;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_constraint_referenced_tags = global::Havamal.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_tags;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_deriveConstraintsFrom = global::Havamal.Droid.Resource.Styleable.ConstraintSet_deriveConstraintsFrom;
@@ -13390,11 +14241,6 @@ namespace Havamal.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingEnd = global::Havamal.Droid.Resource.Styleable.View_paddingEnd;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingStart = global::Havamal.Droid.Resource.Styleable.View_paddingStart;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_theme = global::Havamal.Droid.Resource.Styleable.View_theme;
-			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge = global::Havamal.Droid.Resource.Xml.standalone_badge;
-			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_end = global::Havamal.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
-			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_start = global::Havamal.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
-			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_top_start = global::Havamal.Droid.Resource.Xml.standalone_badge_gravity_top_start;
-			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_offset = global::Havamal.Droid.Resource.Xml.standalone_badge_offset;
 		}
 		
 		public partial class Animation
@@ -14089,2018 +14935,2033 @@ namespace Havamal.Droid
 			// aapt resource value: 0x7F030099
 			public const int checkBoxPreferenceStyle = 2130903193;
 			
-			// aapt resource value: 0x7F03009A
-			public const int checkboxStyle = 2130903194;
-			
-			// aapt resource value: 0x7F03009B
-			public const int checkedButton = 2130903195;
-			
-			// aapt resource value: 0x7F03009C
-			public const int checkedChip = 2130903196;
-			
 			// aapt resource value: 0x7F03009D
-			public const int checkedIcon = 2130903197;
+			public const int checkboxStyle = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int checkedIconEnabled = 2130903198;
+			public const int checkedButton = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int checkedIconMargin = 2130903199;
+			public const int checkedChip = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int checkedIconSize = 2130903200;
+			public const int checkedIcon = 2130903200;
 			
 			// aapt resource value: 0x7F0300A1
-			public const int checkedIconTint = 2130903201;
+			public const int checkedIconEnabled = 2130903201;
 			
 			// aapt resource value: 0x7F0300A2
-			public const int checkedIconVisible = 2130903202;
+			public const int checkedIconMargin = 2130903202;
 			
 			// aapt resource value: 0x7F0300A3
-			public const int checkedTextViewStyle = 2130903203;
+			public const int checkedIconSize = 2130903203;
 			
 			// aapt resource value: 0x7F0300A4
-			public const int chipBackgroundColor = 2130903204;
+			public const int checkedIconTint = 2130903204;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int chipCornerRadius = 2130903205;
+			public const int checkedIconVisible = 2130903205;
 			
 			// aapt resource value: 0x7F0300A6
-			public const int chipEndPadding = 2130903206;
+			public const int checkedTextViewStyle = 2130903206;
+			
+			// aapt resource value: 0x7F03009A
+			public const int checkMarkCompat = 2130903194;
+			
+			// aapt resource value: 0x7F03009B
+			public const int checkMarkTint = 2130903195;
+			
+			// aapt resource value: 0x7F03009C
+			public const int checkMarkTintMode = 2130903196;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int chipGroupStyle = 2130903207;
+			public const int chipBackgroundColor = 2130903207;
 			
 			// aapt resource value: 0x7F0300A8
-			public const int chipIcon = 2130903208;
+			public const int chipCornerRadius = 2130903208;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int chipIconEnabled = 2130903209;
+			public const int chipEndPadding = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int chipIconSize = 2130903210;
+			public const int chipGroupStyle = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int chipIconTint = 2130903211;
+			public const int chipIcon = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int chipIconVisible = 2130903212;
+			public const int chipIconEnabled = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int chipMinHeight = 2130903213;
+			public const int chipIconSize = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int chipMinTouchTargetSize = 2130903214;
+			public const int chipIconTint = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int chipSpacing = 2130903215;
+			public const int chipIconVisible = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int chipSpacingHorizontal = 2130903216;
+			public const int chipMinHeight = 2130903216;
 			
 			// aapt resource value: 0x7F0300B1
-			public const int chipSpacingVertical = 2130903217;
+			public const int chipMinTouchTargetSize = 2130903217;
 			
 			// aapt resource value: 0x7F0300B2
-			public const int chipStandaloneStyle = 2130903218;
+			public const int chipSpacing = 2130903218;
 			
 			// aapt resource value: 0x7F0300B3
-			public const int chipStartPadding = 2130903219;
+			public const int chipSpacingHorizontal = 2130903219;
 			
 			// aapt resource value: 0x7F0300B4
-			public const int chipStrokeColor = 2130903220;
+			public const int chipSpacingVertical = 2130903220;
 			
 			// aapt resource value: 0x7F0300B5
-			public const int chipStrokeWidth = 2130903221;
+			public const int chipStandaloneStyle = 2130903221;
 			
 			// aapt resource value: 0x7F0300B6
-			public const int chipStyle = 2130903222;
+			public const int chipStartPadding = 2130903222;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int chipSurfaceColor = 2130903223;
+			public const int chipStrokeColor = 2130903223;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int circleRadius = 2130903224;
-			
-			// aapt resource value: 0x7F0300BA
-			public const int circularflow_angles = 2130903226;
-			
-			// aapt resource value: 0x7F0300BB
-			public const int circularflow_defaultAngle = 2130903227;
-			
-			// aapt resource value: 0x7F0300BC
-			public const int circularflow_defaultRadius = 2130903228;
-			
-			// aapt resource value: 0x7F0300BD
-			public const int circularflow_radiusInDP = 2130903229;
-			
-			// aapt resource value: 0x7F0300BE
-			public const int circularflow_viewCenter = 2130903230;
+			public const int chipStrokeWidth = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int circularProgressIndicatorStyle = 2130903225;
+			public const int chipStyle = 2130903225;
+			
+			// aapt resource value: 0x7F0300BA
+			public const int chipSurfaceColor = 2130903226;
+			
+			// aapt resource value: 0x7F0300BB
+			public const int circleRadius = 2130903227;
+			
+			// aapt resource value: 0x7F0300BD
+			public const int circularflow_angles = 2130903229;
+			
+			// aapt resource value: 0x7F0300BE
+			public const int circularflow_defaultAngle = 2130903230;
 			
 			// aapt resource value: 0x7F0300BF
-			public const int clearsTag = 2130903231;
+			public const int circularflow_defaultRadius = 2130903231;
 			
 			// aapt resource value: 0x7F0300C0
-			public const int clickAction = 2130903232;
+			public const int circularflow_radiusInDP = 2130903232;
 			
 			// aapt resource value: 0x7F0300C1
-			public const int clockFaceBackgroundColor = 2130903233;
+			public const int circularflow_viewCenter = 2130903233;
+			
+			// aapt resource value: 0x7F0300BC
+			public const int circularProgressIndicatorStyle = 2130903228;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int clockHandColor = 2130903234;
+			public const int clearsTag = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int clockIcon = 2130903235;
+			public const int clickAction = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int clockNumberTextColor = 2130903236;
+			public const int clockFaceBackgroundColor = 2130903236;
 			
 			// aapt resource value: 0x7F0300C5
-			public const int closeIcon = 2130903237;
+			public const int clockHandColor = 2130903237;
 			
 			// aapt resource value: 0x7F0300C6
-			public const int closeIconEnabled = 2130903238;
+			public const int clockIcon = 2130903238;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int closeIconEndPadding = 2130903239;
+			public const int clockNumberTextColor = 2130903239;
 			
 			// aapt resource value: 0x7F0300C8
-			public const int closeIconSize = 2130903240;
+			public const int closeIcon = 2130903240;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int closeIconStartPadding = 2130903241;
+			public const int closeIconEnabled = 2130903241;
 			
 			// aapt resource value: 0x7F0300CA
-			public const int closeIconTint = 2130903242;
+			public const int closeIconEndPadding = 2130903242;
 			
 			// aapt resource value: 0x7F0300CB
-			public const int closeIconVisible = 2130903243;
+			public const int closeIconSize = 2130903243;
 			
 			// aapt resource value: 0x7F0300CC
-			public const int closeItemLayout = 2130903244;
+			public const int closeIconStartPadding = 2130903244;
 			
 			// aapt resource value: 0x7F0300CD
-			public const int collapseContentDescription = 2130903245;
-			
-			// aapt resource value: 0x7F0300CF
-			public const int collapsedSize = 2130903247;
-			
-			// aapt resource value: 0x7F0300D0
-			public const int collapsedTitleGravity = 2130903248;
-			
-			// aapt resource value: 0x7F0300D1
-			public const int collapsedTitleTextAppearance = 2130903249;
+			public const int closeIconTint = 2130903245;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int collapseIcon = 2130903246;
+			public const int closeIconVisible = 2130903246;
+			
+			// aapt resource value: 0x7F0300CF
+			public const int closeItemLayout = 2130903247;
+			
+			// aapt resource value: 0x7F0300D0
+			public const int collapseContentDescription = 2130903248;
 			
 			// aapt resource value: 0x7F0300D2
-			public const int collapsingToolbarLayoutStyle = 2130903250;
+			public const int collapsedSize = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int collectionViewStyle = 2130903251;
+			public const int collapsedTitleGravity = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int color = 2130903252;
+			public const int collapsedTitleTextAppearance = 2130903252;
+			
+			// aapt resource value: 0x7F0300D1
+			public const int collapseIcon = 2130903249;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int colorAccent = 2130903253;
+			public const int collapsingToolbarLayoutStyle = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int colorBackgroundFloating = 2130903254;
+			public const int collectionViewStyle = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int colorButtonNormal = 2130903255;
+			public const int color = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int colorControlActivated = 2130903256;
+			public const int colorAccent = 2130903256;
 			
 			// aapt resource value: 0x7F0300D9
-			public const int colorControlHighlight = 2130903257;
+			public const int colorBackgroundFloating = 2130903257;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int colorControlNormal = 2130903258;
+			public const int colorButtonNormal = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int colorError = 2130903259;
+			public const int colorControlActivated = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int colorOnBackground = 2130903260;
+			public const int colorControlHighlight = 2130903260;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int colorOnError = 2130903261;
+			public const int colorControlNormal = 2130903261;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int colorOnPrimary = 2130903262;
+			public const int colorError = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int colorOnPrimarySurface = 2130903263;
+			public const int colorOnBackground = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int colorOnSecondary = 2130903264;
+			public const int colorOnError = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int colorOnSurface = 2130903265;
+			public const int colorOnPrimary = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int colorPrimary = 2130903266;
+			public const int colorOnPrimarySurface = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int colorPrimaryDark = 2130903267;
+			public const int colorOnSecondary = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int colorPrimarySurface = 2130903268;
+			public const int colorOnSurface = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int colorPrimaryVariant = 2130903269;
+			public const int colorPrimary = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int colorSecondary = 2130903270;
+			public const int colorPrimaryDark = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int colorSecondaryVariant = 2130903271;
+			public const int colorPrimarySurface = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int colorSurface = 2130903272;
+			public const int colorPrimaryVariant = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int colorSwitchThumbNormal = 2130903273;
+			public const int colorSecondary = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int commitIcon = 2130903274;
+			public const int colorSecondaryVariant = 2130903274;
+			
+			// aapt resource value: 0x7F0300EB
+			public const int colorSurface = 2130903275;
+			
+			// aapt resource value: 0x7F0300EC
+			public const int colorSwitchThumbNormal = 2130903276;
+			
+			// aapt resource value: 0x7F0300ED
+			public const int commitIcon = 2130903277;
 			
 			// aapt resource value: 0x7F030000
 			public const int ConstraintRotate = 2130903040;
 			
-			// aapt resource value: 0x7F0300F0
-			public const int constraints = 2130903280;
-			
-			// aapt resource value: 0x7F0300EB
-			public const int constraintSet = 2130903275;
-			
-			// aapt resource value: 0x7F0300EC
-			public const int constraintSetEnd = 2130903276;
-			
-			// aapt resource value: 0x7F0300ED
-			public const int constraintSetStart = 2130903277;
+			// aapt resource value: 0x7F0300F3
+			public const int constraints = 2130903283;
 			
 			// aapt resource value: 0x7F0300EE
-			public const int constraint_referenced_ids = 2130903278;
+			public const int constraintSet = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int constraint_referenced_tags = 2130903279;
+			public const int constraintSetEnd = 2130903279;
+			
+			// aapt resource value: 0x7F0300F0
+			public const int constraintSetStart = 2130903280;
 			
 			// aapt resource value: 0x7F0300F1
-			public const int content = 2130903281;
+			public const int constraint_referenced_ids = 2130903281;
 			
 			// aapt resource value: 0x7F0300F2
-			public const int contentDescription = 2130903282;
-			
-			// aapt resource value: 0x7F0300F3
-			public const int contentInsetEnd = 2130903283;
+			public const int constraint_referenced_tags = 2130903282;
 			
 			// aapt resource value: 0x7F0300F4
-			public const int contentInsetEndWithActions = 2130903284;
+			public const int content = 2130903284;
 			
 			// aapt resource value: 0x7F0300F5
-			public const int contentInsetLeft = 2130903285;
+			public const int contentDescription = 2130903285;
 			
 			// aapt resource value: 0x7F0300F6
-			public const int contentInsetRight = 2130903286;
+			public const int contentInsetEnd = 2130903286;
 			
 			// aapt resource value: 0x7F0300F7
-			public const int contentInsetStart = 2130903287;
+			public const int contentInsetEndWithActions = 2130903287;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int contentInsetStartWithNavigation = 2130903288;
+			public const int contentInsetLeft = 2130903288;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int contentPadding = 2130903289;
+			public const int contentInsetRight = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int contentPaddingBottom = 2130903290;
+			public const int contentInsetStart = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int contentPaddingEnd = 2130903291;
+			public const int contentInsetStartWithNavigation = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int contentPaddingLeft = 2130903292;
+			public const int contentPadding = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int contentPaddingRight = 2130903293;
+			public const int contentPaddingBottom = 2130903293;
 			
 			// aapt resource value: 0x7F0300FE
-			public const int contentPaddingStart = 2130903294;
+			public const int contentPaddingEnd = 2130903294;
 			
 			// aapt resource value: 0x7F0300FF
-			public const int contentPaddingTop = 2130903295;
+			public const int contentPaddingLeft = 2130903295;
 			
 			// aapt resource value: 0x7F030100
-			public const int contentScrim = 2130903296;
+			public const int contentPaddingRight = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int contrast = 2130903297;
+			public const int contentPaddingStart = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int controlBackground = 2130903298;
+			public const int contentPaddingTop = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int coordinatorLayoutStyle = 2130903299;
+			public const int contentScrim = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int cornerFamily = 2130903300;
+			public const int contrast = 2130903300;
 			
 			// aapt resource value: 0x7F030105
-			public const int cornerFamilyBottomLeft = 2130903301;
+			public const int controlBackground = 2130903301;
 			
 			// aapt resource value: 0x7F030106
-			public const int cornerFamilyBottomRight = 2130903302;
+			public const int coordinatorLayoutStyle = 2130903302;
 			
 			// aapt resource value: 0x7F030107
-			public const int cornerFamilyTopLeft = 2130903303;
+			public const int cornerFamily = 2130903303;
 			
 			// aapt resource value: 0x7F030108
-			public const int cornerFamilyTopRight = 2130903304;
+			public const int cornerFamilyBottomLeft = 2130903304;
 			
 			// aapt resource value: 0x7F030109
-			public const int cornerRadius = 2130903305;
+			public const int cornerFamilyBottomRight = 2130903305;
 			
 			// aapt resource value: 0x7F03010A
-			public const int cornerSize = 2130903306;
+			public const int cornerFamilyTopLeft = 2130903306;
 			
 			// aapt resource value: 0x7F03010B
-			public const int cornerSizeBottomLeft = 2130903307;
+			public const int cornerFamilyTopRight = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int cornerSizeBottomRight = 2130903308;
+			public const int cornerRadius = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int cornerSizeTopLeft = 2130903309;
+			public const int cornerSize = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int cornerSizeTopRight = 2130903310;
+			public const int cornerSizeBottomLeft = 2130903310;
 			
 			// aapt resource value: 0x7F03010F
-			public const int counterEnabled = 2130903311;
+			public const int cornerSizeBottomRight = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int counterMaxLength = 2130903312;
+			public const int cornerSizeTopLeft = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int counterOverflowTextAppearance = 2130903313;
+			public const int cornerSizeTopRight = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int counterOverflowTextColor = 2130903314;
+			public const int counterEnabled = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int counterTextAppearance = 2130903315;
+			public const int counterMaxLength = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int counterTextColor = 2130903316;
+			public const int counterOverflowTextAppearance = 2130903316;
 			
 			// aapt resource value: 0x7F030115
-			public const int crossfade = 2130903317;
+			public const int counterOverflowTextColor = 2130903317;
 			
 			// aapt resource value: 0x7F030116
-			public const int currentState = 2130903318;
+			public const int counterTextAppearance = 2130903318;
 			
 			// aapt resource value: 0x7F030117
-			public const int curveFit = 2130903319;
+			public const int counterTextColor = 2130903319;
 			
 			// aapt resource value: 0x7F030118
-			public const int customBoolean = 2130903320;
+			public const int crossfade = 2130903320;
 			
 			// aapt resource value: 0x7F030119
-			public const int customColorDrawableValue = 2130903321;
+			public const int currentState = 2130903321;
 			
 			// aapt resource value: 0x7F03011A
-			public const int customColorValue = 2130903322;
+			public const int curveFit = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int customDimension = 2130903323;
+			public const int customBoolean = 2130903323;
 			
 			// aapt resource value: 0x7F03011C
-			public const int customFloatValue = 2130903324;
+			public const int customColorDrawableValue = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int customIntegerValue = 2130903325;
+			public const int customColorValue = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int customNavigationLayout = 2130903326;
+			public const int customDimension = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int customPixelDimension = 2130903327;
+			public const int customFloatValue = 2130903327;
 			
 			// aapt resource value: 0x7F030120
-			public const int customReference = 2130903328;
+			public const int customIntegerValue = 2130903328;
 			
 			// aapt resource value: 0x7F030121
-			public const int customStringValue = 2130903329;
+			public const int customNavigationLayout = 2130903329;
 			
 			// aapt resource value: 0x7F030122
-			public const int data = 2130903330;
+			public const int customPixelDimension = 2130903330;
 			
 			// aapt resource value: 0x7F030123
-			public const int dataPattern = 2130903331;
+			public const int customReference = 2130903331;
 			
 			// aapt resource value: 0x7F030124
-			public const int dayInvalidStyle = 2130903332;
+			public const int customStringValue = 2130903332;
 			
 			// aapt resource value: 0x7F030125
-			public const int daySelectedStyle = 2130903333;
+			public const int data = 2130903333;
 			
 			// aapt resource value: 0x7F030126
-			public const int dayStyle = 2130903334;
+			public const int dataPattern = 2130903334;
 			
 			// aapt resource value: 0x7F030127
-			public const int dayTodayStyle = 2130903335;
+			public const int dayInvalidStyle = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int defaultDuration = 2130903336;
+			public const int daySelectedStyle = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int defaultQueryHint = 2130903337;
+			public const int dayStyle = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int defaultState = 2130903338;
+			public const int dayTodayStyle = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int defaultValue = 2130903339;
+			public const int defaultDuration = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int deltaPolarAngle = 2130903340;
+			public const int defaultQueryHint = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int deltaPolarRadius = 2130903341;
+			public const int defaultState = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int dependency = 2130903342;
+			public const int defaultValue = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int deriveConstraintsFrom = 2130903343;
+			public const int deltaPolarAngle = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int destination = 2130903344;
+			public const int deltaPolarRadius = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int dialogCornerRadius = 2130903345;
+			public const int dependency = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int dialogIcon = 2130903346;
+			public const int deriveConstraintsFrom = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int dialogLayout = 2130903347;
+			public const int destination = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int dialogMessage = 2130903348;
+			public const int dialogCornerRadius = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int dialogPreferenceStyle = 2130903349;
+			public const int dialogIcon = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int dialogPreferredPadding = 2130903350;
+			public const int dialogLayout = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int dialogTheme = 2130903351;
+			public const int dialogMessage = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int dialogTitle = 2130903352;
+			public const int dialogPreferenceStyle = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int disableDependentsState = 2130903353;
+			public const int dialogPreferredPadding = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int displayOptions = 2130903354;
+			public const int dialogTheme = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int divider = 2130903355;
+			public const int dialogTitle = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int dividerHorizontal = 2130903356;
+			public const int disableDependentsState = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int dividerPadding = 2130903357;
+			public const int displayOptions = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int dividerVertical = 2130903358;
+			public const int divider = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int dragDirection = 2130903359;
+			public const int dividerHorizontal = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int dragScale = 2130903360;
+			public const int dividerPadding = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int dragThreshold = 2130903361;
-			
-			// aapt resource value: 0x7F030143
-			public const int drawableBottomCompat = 2130903363;
-			
-			// aapt resource value: 0x7F030144
-			public const int drawableEndCompat = 2130903364;
-			
-			// aapt resource value: 0x7F030145
-			public const int drawableLeftCompat = 2130903365;
-			
-			// aapt resource value: 0x7F030146
-			public const int drawableRightCompat = 2130903366;
-			
-			// aapt resource value: 0x7F030147
-			public const int drawableSize = 2130903367;
-			
-			// aapt resource value: 0x7F030148
-			public const int drawableStartCompat = 2130903368;
-			
-			// aapt resource value: 0x7F030149
-			public const int drawableTint = 2130903369;
-			
-			// aapt resource value: 0x7F03014A
-			public const int drawableTintMode = 2130903370;
-			
-			// aapt resource value: 0x7F03014B
-			public const int drawableTopCompat = 2130903371;
-			
-			// aapt resource value: 0x7F03014C
-			public const int drawerArrowStyle = 2130903372;
-			
-			// aapt resource value: 0x7F03014D
-			public const int drawerLayoutStyle = 2130903373;
+			public const int dividerVertical = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int drawPath = 2130903362;
+			public const int dragDirection = 2130903362;
 			
-			// aapt resource value: 0x7F03014F
-			public const int dropdownListPreferredItemHeight = 2130903375;
+			// aapt resource value: 0x7F030143
+			public const int dragScale = 2130903363;
+			
+			// aapt resource value: 0x7F030144
+			public const int dragThreshold = 2130903364;
+			
+			// aapt resource value: 0x7F030146
+			public const int drawableBottomCompat = 2130903366;
+			
+			// aapt resource value: 0x7F030147
+			public const int drawableEndCompat = 2130903367;
+			
+			// aapt resource value: 0x7F030148
+			public const int drawableLeftCompat = 2130903368;
+			
+			// aapt resource value: 0x7F030149
+			public const int drawableRightCompat = 2130903369;
+			
+			// aapt resource value: 0x7F03014A
+			public const int drawableSize = 2130903370;
+			
+			// aapt resource value: 0x7F03014B
+			public const int drawableStartCompat = 2130903371;
+			
+			// aapt resource value: 0x7F03014C
+			public const int drawableTint = 2130903372;
+			
+			// aapt resource value: 0x7F03014D
+			public const int drawableTintMode = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int dropDownListViewStyle = 2130903374;
+			public const int drawableTopCompat = 2130903374;
+			
+			// aapt resource value: 0x7F03014F
+			public const int drawerArrowStyle = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int dropdownPreferenceStyle = 2130903376;
+			public const int drawerLayoutStyle = 2130903376;
 			
-			// aapt resource value: 0x7F030151
-			public const int duration = 2130903377;
+			// aapt resource value: 0x7F030145
+			public const int drawPath = 2130903365;
 			
 			// aapt resource value: 0x7F030152
-			public const int editTextBackground = 2130903378;
+			public const int dropdownListPreferredItemHeight = 2130903378;
+			
+			// aapt resource value: 0x7F030151
+			public const int dropDownListViewStyle = 2130903377;
 			
 			// aapt resource value: 0x7F030153
-			public const int editTextColor = 2130903379;
+			public const int dropdownPreferenceStyle = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int editTextPreferenceStyle = 2130903380;
+			public const int duration = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int editTextStyle = 2130903381;
+			public const int editTextBackground = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int elevation = 2130903382;
+			public const int editTextColor = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int elevationOverlayColor = 2130903383;
+			public const int editTextPreferenceStyle = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int elevationOverlayEnabled = 2130903384;
+			public const int editTextStyle = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int enableCopying = 2130903385;
-			
-			// aapt resource value: 0x7F03015B
-			public const int enabled = 2130903387;
+			public const int elevation = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int enableEdgeToEdge = 2130903386;
+			public const int elevationOverlayColor = 2130903386;
+			
+			// aapt resource value: 0x7F03015B
+			public const int elevationOverlayEnabled = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int endIconCheckable = 2130903388;
+			public const int emojiCompatEnabled = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int endIconContentDescription = 2130903389;
-			
-			// aapt resource value: 0x7F03015E
-			public const int endIconDrawable = 2130903390;
+			public const int enableCopying = 2130903389;
 			
 			// aapt resource value: 0x7F03015F
-			public const int endIconMode = 2130903391;
+			public const int enabled = 2130903391;
+			
+			// aapt resource value: 0x7F03015E
+			public const int enableEdgeToEdge = 2130903390;
 			
 			// aapt resource value: 0x7F030160
-			public const int endIconTint = 2130903392;
+			public const int endIconCheckable = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int endIconTintMode = 2130903393;
+			public const int endIconContentDescription = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int enforceMaterialTheme = 2130903394;
+			public const int endIconDrawable = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int enforceTextAppearance = 2130903395;
+			public const int endIconMode = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int ensureMinTouchTargetSize = 2130903396;
+			public const int endIconTint = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int enterAnim = 2130903397;
+			public const int endIconTintMode = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int entries = 2130903398;
+			public const int enforceMaterialTheme = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int entryValues = 2130903399;
+			public const int enforceTextAppearance = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int errorContentDescription = 2130903400;
+			public const int ensureMinTouchTargetSize = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int errorEnabled = 2130903401;
+			public const int enterAnim = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int errorIconDrawable = 2130903402;
+			public const int entries = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int errorIconTint = 2130903403;
+			public const int entryValues = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int errorIconTintMode = 2130903404;
+			public const int errorContentDescription = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int errorTextAppearance = 2130903405;
+			public const int errorEnabled = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int errorTextColor = 2130903406;
+			public const int errorIconDrawable = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int exitAnim = 2130903407;
+			public const int errorIconTint = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int expandActivityOverflowButtonDrawable = 2130903408;
+			public const int errorIconTintMode = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int expanded = 2130903409;
+			public const int errorTextAppearance = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int expandedHintEnabled = 2130903410;
+			public const int errorTextColor = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int expandedTitleGravity = 2130903411;
+			public const int exitAnim = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int expandedTitleMargin = 2130903412;
+			public const int expandActivityOverflowButtonDrawable = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int expandedTitleMarginBottom = 2130903413;
+			public const int expanded = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int expandedTitleMarginEnd = 2130903414;
+			public const int expandedHintEnabled = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int expandedTitleMarginStart = 2130903415;
+			public const int expandedTitleGravity = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int expandedTitleMarginTop = 2130903416;
+			public const int expandedTitleMargin = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int expandedTitleTextAppearance = 2130903417;
-			
-			// aapt resource value: 0x7F03017B
-			public const int extendedFloatingActionButtonStyle = 2130903419;
+			public const int expandedTitleMarginBottom = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int extendMotionSpec = 2130903418;
+			public const int expandedTitleMarginEnd = 2130903418;
+			
+			// aapt resource value: 0x7F03017B
+			public const int expandedTitleMarginStart = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int extraMultilineHeightEnabled = 2130903420;
+			public const int expandedTitleMarginTop = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int fabAlignmentMode = 2130903421;
-			
-			// aapt resource value: 0x7F03017E
-			public const int fabAnimationMode = 2130903422;
+			public const int expandedTitleTextAppearance = 2130903421;
 			
 			// aapt resource value: 0x7F03017F
-			public const int fabCradleMargin = 2130903423;
+			public const int extendedFloatingActionButtonStyle = 2130903423;
+			
+			// aapt resource value: 0x7F03017E
+			public const int extendMotionSpec = 2130903422;
 			
 			// aapt resource value: 0x7F030180
-			public const int fabCradleRoundedCornerRadius = 2130903424;
+			public const int extraMultilineHeightEnabled = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int fabCradleVerticalOffset = 2130903425;
+			public const int fabAlignmentMode = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int fabCustomSize = 2130903426;
+			public const int fabAnimationMode = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int fabSize = 2130903427;
+			public const int fabCradleMargin = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int fastScrollEnabled = 2130903428;
+			public const int fabCradleRoundedCornerRadius = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int fastScrollHorizontalThumbDrawable = 2130903429;
+			public const int fabCradleVerticalOffset = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int fastScrollHorizontalTrackDrawable = 2130903430;
+			public const int fabCustomSize = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int fastScrollVerticalThumbDrawable = 2130903431;
+			public const int fabSize = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int fastScrollVerticalTrackDrawable = 2130903432;
+			public const int fastScrollEnabled = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int firstBaselineToTopHeight = 2130903433;
+			public const int fastScrollHorizontalThumbDrawable = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int floatingActionButtonStyle = 2130903434;
+			public const int fastScrollHorizontalTrackDrawable = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int flow_firstHorizontalBias = 2130903435;
+			public const int fastScrollVerticalThumbDrawable = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int flow_firstHorizontalStyle = 2130903436;
+			public const int fastScrollVerticalTrackDrawable = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int flow_firstVerticalBias = 2130903437;
+			public const int firstBaselineToTopHeight = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int flow_firstVerticalStyle = 2130903438;
+			public const int floatingActionButtonStyle = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int flow_horizontalAlign = 2130903439;
+			public const int flow_firstHorizontalBias = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int flow_horizontalBias = 2130903440;
+			public const int flow_firstHorizontalStyle = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int flow_horizontalGap = 2130903441;
+			public const int flow_firstVerticalBias = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int flow_horizontalStyle = 2130903442;
+			public const int flow_firstVerticalStyle = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int flow_lastHorizontalBias = 2130903443;
+			public const int flow_horizontalAlign = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int flow_lastHorizontalStyle = 2130903444;
+			public const int flow_horizontalBias = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int flow_lastVerticalBias = 2130903445;
+			public const int flow_horizontalGap = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int flow_lastVerticalStyle = 2130903446;
+			public const int flow_horizontalStyle = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int flow_maxElementsWrap = 2130903447;
+			public const int flow_lastHorizontalBias = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int flow_padding = 2130903448;
+			public const int flow_lastHorizontalStyle = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int flow_verticalAlign = 2130903449;
+			public const int flow_lastVerticalBias = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int flow_verticalBias = 2130903450;
+			public const int flow_lastVerticalStyle = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int flow_verticalGap = 2130903451;
+			public const int flow_maxElementsWrap = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int flow_verticalStyle = 2130903452;
+			public const int flow_padding = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int flow_wrapMode = 2130903453;
+			public const int flow_verticalAlign = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int font = 2130903454;
+			public const int flow_verticalBias = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int fontFamily = 2130903455;
+			public const int flow_verticalGap = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int fontProviderAuthority = 2130903456;
+			public const int flow_verticalStyle = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int fontProviderCerts = 2130903457;
+			public const int flow_wrapMode = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int fontProviderFetchStrategy = 2130903458;
+			public const int font = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int fontProviderFetchTimeout = 2130903459;
+			public const int fontFamily = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int fontProviderPackage = 2130903460;
+			public const int fontProviderAuthority = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int fontProviderQuery = 2130903461;
+			public const int fontProviderCerts = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int fontProviderSystemFontFamily = 2130903462;
+			public const int fontProviderFetchStrategy = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int fontStyle = 2130903463;
+			public const int fontProviderFetchTimeout = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int fontVariationSettings = 2130903464;
+			public const int fontProviderPackage = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int fontWeight = 2130903465;
+			public const int fontProviderQuery = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int forceApplySystemWindowInsetTop = 2130903466;
+			public const int fontProviderSystemFontFamily = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int foregroundInsidePadding = 2130903467;
+			public const int fontStyle = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int fragment = 2130903468;
+			public const int fontVariationSettings = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int framePosition = 2130903469;
+			public const int fontWeight = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int gapBetweenBars = 2130903470;
+			public const int forceApplySystemWindowInsetTop = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int gestureInsetBottomIgnored = 2130903471;
+			public const int foregroundInsidePadding = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int goIcon = 2130903472;
+			public const int fragment = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int graph = 2130903473;
+			public const int framePosition = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int haloColor = 2130903474;
+			public const int gapBetweenBars = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int haloRadius = 2130903475;
+			public const int gestureInsetBottomIgnored = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int headerLayout = 2130903476;
+			public const int goIcon = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int height = 2130903477;
+			public const int graph = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int helperText = 2130903478;
+			public const int haloColor = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int helperTextEnabled = 2130903479;
+			public const int haloRadius = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int helperTextTextAppearance = 2130903480;
+			public const int headerLayout = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int helperTextTextColor = 2130903481;
+			public const int height = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int hideAnimationBehavior = 2130903482;
+			public const int helperText = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int hideMotionSpec = 2130903483;
+			public const int helperTextEnabled = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int hideOnContentScroll = 2130903484;
+			public const int helperTextTextAppearance = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int hideOnScroll = 2130903485;
+			public const int helperTextTextColor = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int hintAnimationEnabled = 2130903486;
+			public const int hideAnimationBehavior = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int hintEnabled = 2130903487;
+			public const int hideMotionSpec = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int hintTextAppearance = 2130903488;
+			public const int hideOnContentScroll = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int hintTextColor = 2130903489;
+			public const int hideOnScroll = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int homeAsUpIndicator = 2130903490;
+			public const int hintAnimationEnabled = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int homeLayout = 2130903491;
+			public const int hintEnabled = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int horizontalOffset = 2130903492;
+			public const int hintTextAppearance = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int hoveredFocusedTranslationZ = 2130903493;
+			public const int hintTextColor = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int icon = 2130903494;
+			public const int homeAsUpIndicator = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int iconEndPadding = 2130903495;
+			public const int homeLayout = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int iconGravity = 2130903496;
-			
-			// aapt resource value: 0x7F0301CF
-			public const int iconifiedByDefault = 2130903503;
+			public const int horizontalOffset = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int iconPadding = 2130903497;
+			public const int hoveredFocusedTranslationZ = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int iconSize = 2130903498;
+			public const int icon = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int iconSpaceReserved = 2130903499;
+			public const int iconEndPadding = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int iconStartPadding = 2130903500;
-			
-			// aapt resource value: 0x7F0301CD
-			public const int iconTint = 2130903501;
-			
-			// aapt resource value: 0x7F0301CE
-			public const int iconTintMode = 2130903502;
-			
-			// aapt resource value: 0x7F0301D0
-			public const int ifTagNotSet = 2130903504;
-			
-			// aapt resource value: 0x7F0301D1
-			public const int ifTagSet = 2130903505;
-			
-			// aapt resource value: 0x7F0301D2
-			public const int imageButtonStyle = 2130903506;
+			public const int iconGravity = 2130903500;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int imagePanX = 2130903507;
+			public const int iconifiedByDefault = 2130903507;
+			
+			// aapt resource value: 0x7F0301CD
+			public const int iconPadding = 2130903501;
+			
+			// aapt resource value: 0x7F0301CE
+			public const int iconSize = 2130903502;
+			
+			// aapt resource value: 0x7F0301CF
+			public const int iconSpaceReserved = 2130903503;
+			
+			// aapt resource value: 0x7F0301D0
+			public const int iconStartPadding = 2130903504;
+			
+			// aapt resource value: 0x7F0301D1
+			public const int iconTint = 2130903505;
+			
+			// aapt resource value: 0x7F0301D2
+			public const int iconTintMode = 2130903506;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int imagePanY = 2130903508;
+			public const int ifTagNotSet = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int imageRotate = 2130903509;
+			public const int ifTagSet = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int imageZoom = 2130903510;
+			public const int imageButtonStyle = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int indeterminateAnimationType = 2130903511;
+			public const int imagePanX = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int indeterminateProgressStyle = 2130903512;
+			public const int imagePanY = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int indicatorColor = 2130903513;
+			public const int imageRotate = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int indicatorDirectionCircular = 2130903514;
+			public const int imageZoom = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int indicatorDirectionLinear = 2130903515;
+			public const int indeterminateAnimationType = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int indicatorInset = 2130903516;
+			public const int indeterminateProgressStyle = 2130903516;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int indicatorSize = 2130903517;
+			public const int indicatorColor = 2130903517;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int initialActivityCount = 2130903518;
+			public const int indicatorDirectionCircular = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int initialExpandedChildrenCount = 2130903519;
+			public const int indicatorDirectionLinear = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int insetForeground = 2130903520;
+			public const int indicatorInset = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int isLightTheme = 2130903521;
+			public const int indicatorSize = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int isMaterialTheme = 2130903522;
+			public const int initialActivityCount = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int isPreferenceVisible = 2130903523;
+			public const int initialExpandedChildrenCount = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int itemBackground = 2130903524;
+			public const int insetForeground = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int itemFillColor = 2130903525;
+			public const int isLightTheme = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int itemHorizontalPadding = 2130903526;
+			public const int isMaterialTheme = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int itemHorizontalTranslationEnabled = 2130903527;
+			public const int isPreferenceVisible = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int itemIconPadding = 2130903528;
+			public const int itemBackground = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int itemIconSize = 2130903529;
+			public const int itemFillColor = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int itemIconTint = 2130903530;
+			public const int itemHorizontalPadding = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int itemMaxLines = 2130903531;
+			public const int itemHorizontalTranslationEnabled = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int itemPadding = 2130903532;
+			public const int itemIconPadding = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int itemRippleColor = 2130903533;
+			public const int itemIconSize = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int itemShapeAppearance = 2130903534;
+			public const int itemIconTint = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int itemShapeAppearanceOverlay = 2130903535;
+			public const int itemMaxLines = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int itemShapeFillColor = 2130903536;
+			public const int itemPadding = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int itemShapeInsetBottom = 2130903537;
+			public const int itemRippleColor = 2130903537;
 			
 			// aapt resource value: 0x7F0301F2
-			public const int itemShapeInsetEnd = 2130903538;
+			public const int itemShapeAppearance = 2130903538;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int itemShapeInsetStart = 2130903539;
+			public const int itemShapeAppearanceOverlay = 2130903539;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int itemShapeInsetTop = 2130903540;
+			public const int itemShapeFillColor = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int itemSpacing = 2130903541;
+			public const int itemShapeInsetBottom = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int itemStrokeColor = 2130903542;
+			public const int itemShapeInsetEnd = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int itemStrokeWidth = 2130903543;
+			public const int itemShapeInsetStart = 2130903543;
 			
 			// aapt resource value: 0x7F0301F8
-			public const int itemTextAppearance = 2130903544;
+			public const int itemShapeInsetTop = 2130903544;
 			
 			// aapt resource value: 0x7F0301F9
-			public const int itemTextAppearanceActive = 2130903545;
+			public const int itemSpacing = 2130903545;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int itemTextAppearanceInactive = 2130903546;
+			public const int itemStrokeColor = 2130903546;
 			
 			// aapt resource value: 0x7F0301FB
-			public const int itemTextColor = 2130903547;
+			public const int itemStrokeWidth = 2130903547;
 			
 			// aapt resource value: 0x7F0301FC
-			public const int key = 2130903548;
-			
-			// aapt resource value: 0x7F0301FE
-			public const int keyboardIcon = 2130903550;
-			
-			// aapt resource value: 0x7F0301FF
-			public const int keylines = 2130903551;
+			public const int itemTextAppearance = 2130903548;
 			
 			// aapt resource value: 0x7F0301FD
-			public const int keyPositionType = 2130903549;
+			public const int itemTextAppearanceActive = 2130903549;
+			
+			// aapt resource value: 0x7F0301FE
+			public const int itemTextAppearanceInactive = 2130903550;
+			
+			// aapt resource value: 0x7F0301FF
+			public const int itemTextColor = 2130903551;
 			
 			// aapt resource value: 0x7F030200
-			public const int labelBehavior = 2130903552;
-			
-			// aapt resource value: 0x7F030201
-			public const int labelStyle = 2130903553;
+			public const int key = 2130903552;
 			
 			// aapt resource value: 0x7F030202
-			public const int labelVisibilityMode = 2130903554;
+			public const int keyboardIcon = 2130903554;
 			
 			// aapt resource value: 0x7F030203
-			public const int lastBaselineToBottomHeight = 2130903555;
+			public const int keylines = 2130903555;
 			
-			// aapt resource value: 0x7F030204
-			public const int launchSingleTop = 2130903556;
+			// aapt resource value: 0x7F030201
+			public const int keyPositionType = 2130903553;
 			
 			// aapt resource value: 0x7F030205
-			public const int layout = 2130903557;
+			public const int labelBehavior = 2130903557;
 			
 			// aapt resource value: 0x7F030206
-			public const int layoutDescription = 2130903558;
+			public const int labelStyle = 2130903558;
 			
 			// aapt resource value: 0x7F030207
-			public const int layoutDuringTransition = 2130903559;
+			public const int labelVisibilityMode = 2130903559;
 			
 			// aapt resource value: 0x7F030208
-			public const int layoutManager = 2130903560;
+			public const int lastBaselineToBottomHeight = 2130903560;
 			
 			// aapt resource value: 0x7F030209
-			public const int layout_anchor = 2130903561;
+			public const int launchSingleTop = 2130903561;
 			
 			// aapt resource value: 0x7F03020A
-			public const int layout_anchorGravity = 2130903562;
+			public const int layout = 2130903562;
 			
 			// aapt resource value: 0x7F03020B
-			public const int layout_behavior = 2130903563;
+			public const int layoutDescription = 2130903563;
 			
 			// aapt resource value: 0x7F03020C
-			public const int layout_collapseMode = 2130903564;
+			public const int layoutDuringTransition = 2130903564;
 			
 			// aapt resource value: 0x7F03020D
-			public const int layout_collapseParallaxMultiplier = 2130903565;
+			public const int layoutManager = 2130903565;
 			
 			// aapt resource value: 0x7F03020E
-			public const int layout_constrainedHeight = 2130903566;
+			public const int layout_anchor = 2130903566;
 			
 			// aapt resource value: 0x7F03020F
-			public const int layout_constrainedWidth = 2130903567;
+			public const int layout_anchorGravity = 2130903567;
 			
 			// aapt resource value: 0x7F030210
-			public const int layout_constraintBaseline_creator = 2130903568;
+			public const int layout_behavior = 2130903568;
 			
 			// aapt resource value: 0x7F030211
-			public const int layout_constraintBaseline_toBaselineOf = 2130903569;
+			public const int layout_collapseMode = 2130903569;
 			
 			// aapt resource value: 0x7F030212
-			public const int layout_constraintBaseline_toBottomOf = 2130903570;
+			public const int layout_collapseParallaxMultiplier = 2130903570;
 			
 			// aapt resource value: 0x7F030213
-			public const int layout_constraintBaseline_toTopOf = 2130903571;
+			public const int layout_constrainedHeight = 2130903571;
 			
 			// aapt resource value: 0x7F030214
-			public const int layout_constraintBottom_creator = 2130903572;
+			public const int layout_constrainedWidth = 2130903572;
 			
 			// aapt resource value: 0x7F030215
-			public const int layout_constraintBottom_toBottomOf = 2130903573;
+			public const int layout_constraintBaseline_creator = 2130903573;
 			
 			// aapt resource value: 0x7F030216
-			public const int layout_constraintBottom_toTopOf = 2130903574;
+			public const int layout_constraintBaseline_toBaselineOf = 2130903574;
 			
 			// aapt resource value: 0x7F030217
-			public const int layout_constraintCircle = 2130903575;
+			public const int layout_constraintBaseline_toBottomOf = 2130903575;
 			
 			// aapt resource value: 0x7F030218
-			public const int layout_constraintCircleAngle = 2130903576;
+			public const int layout_constraintBaseline_toTopOf = 2130903576;
 			
 			// aapt resource value: 0x7F030219
-			public const int layout_constraintCircleRadius = 2130903577;
+			public const int layout_constraintBottom_creator = 2130903577;
 			
 			// aapt resource value: 0x7F03021A
-			public const int layout_constraintDimensionRatio = 2130903578;
+			public const int layout_constraintBottom_toBottomOf = 2130903578;
 			
 			// aapt resource value: 0x7F03021B
-			public const int layout_constraintEnd_toEndOf = 2130903579;
+			public const int layout_constraintBottom_toTopOf = 2130903579;
 			
 			// aapt resource value: 0x7F03021C
-			public const int layout_constraintEnd_toStartOf = 2130903580;
+			public const int layout_constraintCircle = 2130903580;
 			
 			// aapt resource value: 0x7F03021D
-			public const int layout_constraintGuide_begin = 2130903581;
+			public const int layout_constraintCircleAngle = 2130903581;
 			
 			// aapt resource value: 0x7F03021E
-			public const int layout_constraintGuide_end = 2130903582;
+			public const int layout_constraintCircleRadius = 2130903582;
 			
 			// aapt resource value: 0x7F03021F
-			public const int layout_constraintGuide_percent = 2130903583;
+			public const int layout_constraintDimensionRatio = 2130903583;
 			
 			// aapt resource value: 0x7F030220
-			public const int layout_constraintHeight = 2130903584;
+			public const int layout_constraintEnd_toEndOf = 2130903584;
 			
 			// aapt resource value: 0x7F030221
-			public const int layout_constraintHeight_default = 2130903585;
+			public const int layout_constraintEnd_toStartOf = 2130903585;
 			
 			// aapt resource value: 0x7F030222
-			public const int layout_constraintHeight_max = 2130903586;
+			public const int layout_constraintGuide_begin = 2130903586;
 			
 			// aapt resource value: 0x7F030223
-			public const int layout_constraintHeight_min = 2130903587;
+			public const int layout_constraintGuide_end = 2130903587;
 			
 			// aapt resource value: 0x7F030224
-			public const int layout_constraintHeight_percent = 2130903588;
+			public const int layout_constraintGuide_percent = 2130903588;
 			
 			// aapt resource value: 0x7F030225
-			public const int layout_constraintHorizontal_bias = 2130903589;
+			public const int layout_constraintHeight = 2130903589;
 			
 			// aapt resource value: 0x7F030226
-			public const int layout_constraintHorizontal_chainStyle = 2130903590;
+			public const int layout_constraintHeight_default = 2130903590;
 			
 			// aapt resource value: 0x7F030227
-			public const int layout_constraintHorizontal_weight = 2130903591;
+			public const int layout_constraintHeight_max = 2130903591;
 			
 			// aapt resource value: 0x7F030228
-			public const int layout_constraintLeft_creator = 2130903592;
+			public const int layout_constraintHeight_min = 2130903592;
 			
 			// aapt resource value: 0x7F030229
-			public const int layout_constraintLeft_toLeftOf = 2130903593;
+			public const int layout_constraintHeight_percent = 2130903593;
 			
 			// aapt resource value: 0x7F03022A
-			public const int layout_constraintLeft_toRightOf = 2130903594;
+			public const int layout_constraintHorizontal_bias = 2130903594;
 			
 			// aapt resource value: 0x7F03022B
-			public const int layout_constraintRight_creator = 2130903595;
+			public const int layout_constraintHorizontal_chainStyle = 2130903595;
 			
 			// aapt resource value: 0x7F03022C
-			public const int layout_constraintRight_toLeftOf = 2130903596;
+			public const int layout_constraintHorizontal_weight = 2130903596;
 			
 			// aapt resource value: 0x7F03022D
-			public const int layout_constraintRight_toRightOf = 2130903597;
+			public const int layout_constraintLeft_creator = 2130903597;
 			
 			// aapt resource value: 0x7F03022E
-			public const int layout_constraintStart_toEndOf = 2130903598;
+			public const int layout_constraintLeft_toLeftOf = 2130903598;
 			
 			// aapt resource value: 0x7F03022F
-			public const int layout_constraintStart_toStartOf = 2130903599;
+			public const int layout_constraintLeft_toRightOf = 2130903599;
 			
 			// aapt resource value: 0x7F030230
-			public const int layout_constraintTag = 2130903600;
+			public const int layout_constraintRight_creator = 2130903600;
 			
 			// aapt resource value: 0x7F030231
-			public const int layout_constraintTop_creator = 2130903601;
+			public const int layout_constraintRight_toLeftOf = 2130903601;
 			
 			// aapt resource value: 0x7F030232
-			public const int layout_constraintTop_toBottomOf = 2130903602;
+			public const int layout_constraintRight_toRightOf = 2130903602;
 			
 			// aapt resource value: 0x7F030233
-			public const int layout_constraintTop_toTopOf = 2130903603;
+			public const int layout_constraintStart_toEndOf = 2130903603;
 			
 			// aapt resource value: 0x7F030234
-			public const int layout_constraintVertical_bias = 2130903604;
+			public const int layout_constraintStart_toStartOf = 2130903604;
 			
 			// aapt resource value: 0x7F030235
-			public const int layout_constraintVertical_chainStyle = 2130903605;
+			public const int layout_constraintTag = 2130903605;
 			
 			// aapt resource value: 0x7F030236
-			public const int layout_constraintVertical_weight = 2130903606;
+			public const int layout_constraintTop_creator = 2130903606;
 			
 			// aapt resource value: 0x7F030237
-			public const int layout_constraintWidth = 2130903607;
+			public const int layout_constraintTop_toBottomOf = 2130903607;
 			
 			// aapt resource value: 0x7F030238
-			public const int layout_constraintWidth_default = 2130903608;
+			public const int layout_constraintTop_toTopOf = 2130903608;
 			
 			// aapt resource value: 0x7F030239
-			public const int layout_constraintWidth_max = 2130903609;
+			public const int layout_constraintVertical_bias = 2130903609;
 			
 			// aapt resource value: 0x7F03023A
-			public const int layout_constraintWidth_min = 2130903610;
+			public const int layout_constraintVertical_chainStyle = 2130903610;
 			
 			// aapt resource value: 0x7F03023B
-			public const int layout_constraintWidth_percent = 2130903611;
+			public const int layout_constraintVertical_weight = 2130903611;
 			
 			// aapt resource value: 0x7F03023C
-			public const int layout_dodgeInsetEdges = 2130903612;
+			public const int layout_constraintWidth = 2130903612;
 			
 			// aapt resource value: 0x7F03023D
-			public const int layout_editor_absoluteX = 2130903613;
+			public const int layout_constraintWidth_default = 2130903613;
 			
 			// aapt resource value: 0x7F03023E
-			public const int layout_editor_absoluteY = 2130903614;
+			public const int layout_constraintWidth_max = 2130903614;
 			
 			// aapt resource value: 0x7F03023F
-			public const int layout_goneMarginBaseline = 2130903615;
+			public const int layout_constraintWidth_min = 2130903615;
 			
 			// aapt resource value: 0x7F030240
-			public const int layout_goneMarginBottom = 2130903616;
+			public const int layout_constraintWidth_percent = 2130903616;
 			
 			// aapt resource value: 0x7F030241
-			public const int layout_goneMarginEnd = 2130903617;
+			public const int layout_dodgeInsetEdges = 2130903617;
 			
 			// aapt resource value: 0x7F030242
-			public const int layout_goneMarginLeft = 2130903618;
+			public const int layout_editor_absoluteX = 2130903618;
 			
 			// aapt resource value: 0x7F030243
-			public const int layout_goneMarginRight = 2130903619;
+			public const int layout_editor_absoluteY = 2130903619;
 			
 			// aapt resource value: 0x7F030244
-			public const int layout_goneMarginStart = 2130903620;
+			public const int layout_goneMarginBaseline = 2130903620;
 			
 			// aapt resource value: 0x7F030245
-			public const int layout_goneMarginTop = 2130903621;
+			public const int layout_goneMarginBottom = 2130903621;
 			
 			// aapt resource value: 0x7F030246
-			public const int layout_insetEdge = 2130903622;
+			public const int layout_goneMarginEnd = 2130903622;
 			
 			// aapt resource value: 0x7F030247
-			public const int layout_keyline = 2130903623;
+			public const int layout_goneMarginLeft = 2130903623;
 			
 			// aapt resource value: 0x7F030248
-			public const int layout_marginBaseline = 2130903624;
+			public const int layout_goneMarginRight = 2130903624;
 			
 			// aapt resource value: 0x7F030249
-			public const int layout_optimizationLevel = 2130903625;
+			public const int layout_goneMarginStart = 2130903625;
 			
 			// aapt resource value: 0x7F03024A
-			public const int layout_scrollFlags = 2130903626;
+			public const int layout_goneMarginTop = 2130903626;
 			
 			// aapt resource value: 0x7F03024B
-			public const int layout_scrollInterpolator = 2130903627;
+			public const int layout_insetEdge = 2130903627;
 			
 			// aapt resource value: 0x7F03024C
-			public const int layout_wrapBehaviorInParent = 2130903628;
+			public const int layout_keyline = 2130903628;
 			
 			// aapt resource value: 0x7F03024D
-			public const int liftOnScroll = 2130903629;
+			public const int layout_marginBaseline = 2130903629;
 			
 			// aapt resource value: 0x7F03024E
-			public const int liftOnScrollTargetViewId = 2130903630;
+			public const int layout_optimizationLevel = 2130903630;
 			
 			// aapt resource value: 0x7F03024F
-			public const int limitBoundsTo = 2130903631;
-			
-			// aapt resource value: 0x7F030252
-			public const int linearProgressIndicatorStyle = 2130903634;
+			public const int layout_scrollFlags = 2130903631;
 			
 			// aapt resource value: 0x7F030250
-			public const int lineHeight = 2130903632;
+			public const int layout_scrollInterpolator = 2130903632;
 			
 			// aapt resource value: 0x7F030251
-			public const int lineSpacing = 2130903633;
+			public const int layout_wrapBehaviorInParent = 2130903633;
+			
+			// aapt resource value: 0x7F030252
+			public const int liftOnScroll = 2130903634;
 			
 			// aapt resource value: 0x7F030253
-			public const int listChoiceBackgroundIndicator = 2130903635;
+			public const int liftOnScrollTargetViewId = 2130903635;
 			
 			// aapt resource value: 0x7F030254
-			public const int listChoiceIndicatorMultipleAnimated = 2130903636;
-			
-			// aapt resource value: 0x7F030255
-			public const int listChoiceIndicatorSingleAnimated = 2130903637;
-			
-			// aapt resource value: 0x7F030256
-			public const int listDividerAlertDialog = 2130903638;
+			public const int limitBoundsTo = 2130903636;
 			
 			// aapt resource value: 0x7F030257
-			public const int listItemLayout = 2130903639;
+			public const int linearProgressIndicatorStyle = 2130903639;
+			
+			// aapt resource value: 0x7F030255
+			public const int lineHeight = 2130903637;
+			
+			// aapt resource value: 0x7F030256
+			public const int lineSpacing = 2130903638;
 			
 			// aapt resource value: 0x7F030258
-			public const int listLayout = 2130903640;
+			public const int listChoiceBackgroundIndicator = 2130903640;
 			
 			// aapt resource value: 0x7F030259
-			public const int listMenuViewStyle = 2130903641;
+			public const int listChoiceIndicatorMultipleAnimated = 2130903641;
 			
 			// aapt resource value: 0x7F03025A
-			public const int listPopupWindowStyle = 2130903642;
+			public const int listChoiceIndicatorSingleAnimated = 2130903642;
 			
 			// aapt resource value: 0x7F03025B
-			public const int listPreferredItemHeight = 2130903643;
+			public const int listDividerAlertDialog = 2130903643;
 			
 			// aapt resource value: 0x7F03025C
-			public const int listPreferredItemHeightLarge = 2130903644;
+			public const int listItemLayout = 2130903644;
 			
 			// aapt resource value: 0x7F03025D
-			public const int listPreferredItemHeightSmall = 2130903645;
+			public const int listLayout = 2130903645;
 			
 			// aapt resource value: 0x7F03025E
-			public const int listPreferredItemPaddingEnd = 2130903646;
+			public const int listMenuViewStyle = 2130903646;
 			
 			// aapt resource value: 0x7F03025F
-			public const int listPreferredItemPaddingLeft = 2130903647;
+			public const int listPopupWindowStyle = 2130903647;
 			
 			// aapt resource value: 0x7F030260
-			public const int listPreferredItemPaddingRight = 2130903648;
+			public const int listPreferredItemHeight = 2130903648;
 			
 			// aapt resource value: 0x7F030261
-			public const int listPreferredItemPaddingStart = 2130903649;
+			public const int listPreferredItemHeightLarge = 2130903649;
 			
 			// aapt resource value: 0x7F030262
-			public const int logo = 2130903650;
+			public const int listPreferredItemHeightSmall = 2130903650;
 			
 			// aapt resource value: 0x7F030263
-			public const int logoDescription = 2130903651;
+			public const int listPreferredItemPaddingEnd = 2130903651;
 			
 			// aapt resource value: 0x7F030264
-			public const int materialAlertDialogBodyTextStyle = 2130903652;
+			public const int listPreferredItemPaddingLeft = 2130903652;
 			
 			// aapt resource value: 0x7F030265
-			public const int materialAlertDialogTheme = 2130903653;
+			public const int listPreferredItemPaddingRight = 2130903653;
 			
 			// aapt resource value: 0x7F030266
-			public const int materialAlertDialogTitleIconStyle = 2130903654;
+			public const int listPreferredItemPaddingStart = 2130903654;
 			
 			// aapt resource value: 0x7F030267
-			public const int materialAlertDialogTitlePanelStyle = 2130903655;
+			public const int logo = 2130903655;
 			
 			// aapt resource value: 0x7F030268
-			public const int materialAlertDialogTitleTextStyle = 2130903656;
+			public const int logoDescription = 2130903656;
+			
+			// aapt resource value: 0x7F030204
+			public const int lStar = 2130903556;
 			
 			// aapt resource value: 0x7F030269
-			public const int materialButtonOutlinedStyle = 2130903657;
+			public const int materialAlertDialogBodyTextStyle = 2130903657;
 			
 			// aapt resource value: 0x7F03026A
-			public const int materialButtonStyle = 2130903658;
+			public const int materialAlertDialogTheme = 2130903658;
 			
 			// aapt resource value: 0x7F03026B
-			public const int materialButtonToggleGroupStyle = 2130903659;
+			public const int materialAlertDialogTitleIconStyle = 2130903659;
 			
 			// aapt resource value: 0x7F03026C
-			public const int materialCalendarDay = 2130903660;
+			public const int materialAlertDialogTitlePanelStyle = 2130903660;
 			
 			// aapt resource value: 0x7F03026D
-			public const int materialCalendarFullscreenTheme = 2130903661;
+			public const int materialAlertDialogTitleTextStyle = 2130903661;
 			
 			// aapt resource value: 0x7F03026E
-			public const int materialCalendarHeaderCancelButton = 2130903662;
+			public const int materialButtonOutlinedStyle = 2130903662;
 			
 			// aapt resource value: 0x7F03026F
-			public const int materialCalendarHeaderConfirmButton = 2130903663;
+			public const int materialButtonStyle = 2130903663;
 			
 			// aapt resource value: 0x7F030270
-			public const int materialCalendarHeaderDivider = 2130903664;
+			public const int materialButtonToggleGroupStyle = 2130903664;
 			
 			// aapt resource value: 0x7F030271
-			public const int materialCalendarHeaderLayout = 2130903665;
+			public const int materialCalendarDay = 2130903665;
 			
 			// aapt resource value: 0x7F030272
-			public const int materialCalendarHeaderSelection = 2130903666;
+			public const int materialCalendarFullscreenTheme = 2130903666;
 			
 			// aapt resource value: 0x7F030273
-			public const int materialCalendarHeaderTitle = 2130903667;
+			public const int materialCalendarHeaderCancelButton = 2130903667;
 			
 			// aapt resource value: 0x7F030274
-			public const int materialCalendarHeaderToggleButton = 2130903668;
+			public const int materialCalendarHeaderConfirmButton = 2130903668;
 			
 			// aapt resource value: 0x7F030275
-			public const int materialCalendarMonth = 2130903669;
+			public const int materialCalendarHeaderDivider = 2130903669;
 			
 			// aapt resource value: 0x7F030276
-			public const int materialCalendarMonthNavigationButton = 2130903670;
+			public const int materialCalendarHeaderLayout = 2130903670;
 			
 			// aapt resource value: 0x7F030277
-			public const int materialCalendarStyle = 2130903671;
+			public const int materialCalendarHeaderSelection = 2130903671;
 			
 			// aapt resource value: 0x7F030278
-			public const int materialCalendarTheme = 2130903672;
+			public const int materialCalendarHeaderTitle = 2130903672;
 			
 			// aapt resource value: 0x7F030279
-			public const int materialCalendarYearNavigationButton = 2130903673;
+			public const int materialCalendarHeaderToggleButton = 2130903673;
 			
 			// aapt resource value: 0x7F03027A
-			public const int materialCardViewStyle = 2130903674;
+			public const int materialCalendarMonth = 2130903674;
 			
 			// aapt resource value: 0x7F03027B
-			public const int materialCircleRadius = 2130903675;
+			public const int materialCalendarMonthNavigationButton = 2130903675;
 			
 			// aapt resource value: 0x7F03027C
-			public const int materialClockStyle = 2130903676;
+			public const int materialCalendarStyle = 2130903676;
 			
 			// aapt resource value: 0x7F03027D
-			public const int materialThemeOverlay = 2130903677;
+			public const int materialCalendarTheme = 2130903677;
 			
 			// aapt resource value: 0x7F03027E
-			public const int materialTimePickerStyle = 2130903678;
+			public const int materialCalendarYearNavigationButton = 2130903678;
 			
 			// aapt resource value: 0x7F03027F
-			public const int materialTimePickerTheme = 2130903679;
+			public const int materialCardViewStyle = 2130903679;
 			
 			// aapt resource value: 0x7F030280
-			public const int maxAcceleration = 2130903680;
+			public const int materialCircleRadius = 2130903680;
 			
 			// aapt resource value: 0x7F030281
-			public const int maxActionInlineWidth = 2130903681;
+			public const int materialClockStyle = 2130903681;
 			
 			// aapt resource value: 0x7F030282
-			public const int maxButtonHeight = 2130903682;
+			public const int materialThemeOverlay = 2130903682;
 			
 			// aapt resource value: 0x7F030283
-			public const int maxCharacterCount = 2130903683;
+			public const int materialTimePickerStyle = 2130903683;
 			
 			// aapt resource value: 0x7F030284
-			public const int maxHeight = 2130903684;
+			public const int materialTimePickerTheme = 2130903684;
 			
 			// aapt resource value: 0x7F030285
-			public const int maxImageSize = 2130903685;
+			public const int maxAcceleration = 2130903685;
 			
 			// aapt resource value: 0x7F030286
-			public const int maxLines = 2130903686;
+			public const int maxActionInlineWidth = 2130903686;
 			
 			// aapt resource value: 0x7F030287
-			public const int maxVelocity = 2130903687;
+			public const int maxButtonHeight = 2130903687;
 			
 			// aapt resource value: 0x7F030288
-			public const int maxWidth = 2130903688;
+			public const int maxCharacterCount = 2130903688;
 			
 			// aapt resource value: 0x7F030289
-			public const int measureWithLargestChild = 2130903689;
+			public const int maxHeight = 2130903689;
 			
 			// aapt resource value: 0x7F03028A
-			public const int menu = 2130903690;
+			public const int maxImageSize = 2130903690;
 			
 			// aapt resource value: 0x7F03028B
-			public const int menuGravity = 2130903691;
+			public const int maxLines = 2130903691;
 			
 			// aapt resource value: 0x7F03028C
-			public const int methodName = 2130903692;
+			public const int maxVelocity = 2130903692;
 			
 			// aapt resource value: 0x7F03028D
-			public const int mimeType = 2130903693;
+			public const int maxWidth = 2130903693;
 			
 			// aapt resource value: 0x7F03028E
-			public const int min = 2130903694;
+			public const int measureWithLargestChild = 2130903694;
 			
 			// aapt resource value: 0x7F03028F
-			public const int minHeight = 2130903695;
+			public const int menu = 2130903695;
 			
 			// aapt resource value: 0x7F030290
-			public const int minHideDelay = 2130903696;
+			public const int menuGravity = 2130903696;
 			
 			// aapt resource value: 0x7F030291
-			public const int minSeparation = 2130903697;
+			public const int methodName = 2130903697;
 			
 			// aapt resource value: 0x7F030292
-			public const int minTouchTargetSize = 2130903698;
+			public const int mimeType = 2130903698;
 			
 			// aapt resource value: 0x7F030293
-			public const int minWidth = 2130903699;
+			public const int min = 2130903699;
 			
 			// aapt resource value: 0x7F030294
-			public const int mock_diagonalsColor = 2130903700;
+			public const int minHeight = 2130903700;
 			
 			// aapt resource value: 0x7F030295
-			public const int mock_label = 2130903701;
+			public const int minHideDelay = 2130903701;
 			
 			// aapt resource value: 0x7F030296
-			public const int mock_labelBackgroundColor = 2130903702;
+			public const int minSeparation = 2130903702;
 			
 			// aapt resource value: 0x7F030297
-			public const int mock_labelColor = 2130903703;
+			public const int minTouchTargetSize = 2130903703;
 			
 			// aapt resource value: 0x7F030298
-			public const int mock_showDiagonals = 2130903704;
+			public const int minWidth = 2130903704;
 			
 			// aapt resource value: 0x7F030299
-			public const int mock_showLabel = 2130903705;
+			public const int mock_diagonalsColor = 2130903705;
 			
 			// aapt resource value: 0x7F03029A
-			public const int motionDebug = 2130903706;
+			public const int mock_label = 2130903706;
 			
 			// aapt resource value: 0x7F03029B
-			public const int motionDurationLong1 = 2130903707;
+			public const int mock_labelBackgroundColor = 2130903707;
 			
 			// aapt resource value: 0x7F03029C
-			public const int motionDurationLong2 = 2130903708;
+			public const int mock_labelColor = 2130903708;
 			
 			// aapt resource value: 0x7F03029D
-			public const int motionDurationMedium1 = 2130903709;
+			public const int mock_showDiagonals = 2130903709;
 			
 			// aapt resource value: 0x7F03029E
-			public const int motionDurationMedium2 = 2130903710;
+			public const int mock_showLabel = 2130903710;
 			
 			// aapt resource value: 0x7F03029F
-			public const int motionDurationShort1 = 2130903711;
+			public const int motionDebug = 2130903711;
 			
 			// aapt resource value: 0x7F0302A0
-			public const int motionDurationShort2 = 2130903712;
+			public const int motionDurationLong1 = 2130903712;
 			
 			// aapt resource value: 0x7F0302A1
-			public const int motionEasingAccelerated = 2130903713;
+			public const int motionDurationLong2 = 2130903713;
 			
 			// aapt resource value: 0x7F0302A2
-			public const int motionEasingDecelerated = 2130903714;
+			public const int motionDurationMedium1 = 2130903714;
 			
 			// aapt resource value: 0x7F0302A3
-			public const int motionEasingEmphasized = 2130903715;
+			public const int motionDurationMedium2 = 2130903715;
 			
 			// aapt resource value: 0x7F0302A4
-			public const int motionEasingLinear = 2130903716;
+			public const int motionDurationShort1 = 2130903716;
 			
 			// aapt resource value: 0x7F0302A5
-			public const int motionEasingStandard = 2130903717;
+			public const int motionDurationShort2 = 2130903717;
 			
 			// aapt resource value: 0x7F0302A6
-			public const int motionEffect_alpha = 2130903718;
+			public const int motionEasingAccelerated = 2130903718;
 			
 			// aapt resource value: 0x7F0302A7
-			public const int motionEffect_end = 2130903719;
+			public const int motionEasingDecelerated = 2130903719;
 			
 			// aapt resource value: 0x7F0302A8
-			public const int motionEffect_move = 2130903720;
+			public const int motionEasingEmphasized = 2130903720;
 			
 			// aapt resource value: 0x7F0302A9
-			public const int motionEffect_start = 2130903721;
+			public const int motionEasingLinear = 2130903721;
 			
 			// aapt resource value: 0x7F0302AA
-			public const int motionEffect_strict = 2130903722;
+			public const int motionEasingStandard = 2130903722;
 			
 			// aapt resource value: 0x7F0302AB
-			public const int motionEffect_translationX = 2130903723;
+			public const int motionEffect_alpha = 2130903723;
 			
 			// aapt resource value: 0x7F0302AC
-			public const int motionEffect_translationY = 2130903724;
+			public const int motionEffect_end = 2130903724;
 			
 			// aapt resource value: 0x7F0302AD
-			public const int motionEffect_viewTransition = 2130903725;
+			public const int motionEffect_move = 2130903725;
 			
 			// aapt resource value: 0x7F0302AE
-			public const int motionInterpolator = 2130903726;
+			public const int motionEffect_start = 2130903726;
 			
 			// aapt resource value: 0x7F0302AF
-			public const int motionPath = 2130903727;
+			public const int motionEffect_strict = 2130903727;
 			
 			// aapt resource value: 0x7F0302B0
-			public const int motionPathRotate = 2130903728;
+			public const int motionEffect_translationX = 2130903728;
 			
 			// aapt resource value: 0x7F0302B1
-			public const int motionProgress = 2130903729;
+			public const int motionEffect_translationY = 2130903729;
 			
 			// aapt resource value: 0x7F0302B2
-			public const int motionStagger = 2130903730;
+			public const int motionEffect_viewTransition = 2130903730;
 			
 			// aapt resource value: 0x7F0302B3
-			public const int motionTarget = 2130903731;
+			public const int motionInterpolator = 2130903731;
 			
 			// aapt resource value: 0x7F0302B4
-			public const int motion_postLayoutCollision = 2130903732;
+			public const int motionPath = 2130903732;
 			
 			// aapt resource value: 0x7F0302B5
-			public const int motion_triggerOnCollision = 2130903733;
+			public const int motionPathRotate = 2130903733;
 			
 			// aapt resource value: 0x7F0302B6
-			public const int moveWhenScrollAtTop = 2130903734;
+			public const int motionProgress = 2130903734;
 			
 			// aapt resource value: 0x7F0302B7
-			public const int multiChoiceItemLayout = 2130903735;
+			public const int motionStagger = 2130903735;
 			
 			// aapt resource value: 0x7F0302B8
-			public const int navGraph = 2130903736;
+			public const int motionTarget = 2130903736;
 			
 			// aapt resource value: 0x7F0302B9
-			public const int navigationContentDescription = 2130903737;
+			public const int motion_postLayoutCollision = 2130903737;
 			
 			// aapt resource value: 0x7F0302BA
-			public const int navigationIcon = 2130903738;
+			public const int motion_triggerOnCollision = 2130903738;
 			
 			// aapt resource value: 0x7F0302BB
-			public const int navigationIconTint = 2130903739;
+			public const int moveWhenScrollAtTop = 2130903739;
 			
 			// aapt resource value: 0x7F0302BC
-			public const int navigationMode = 2130903740;
+			public const int multiChoiceItemLayout = 2130903740;
 			
 			// aapt resource value: 0x7F0302BD
-			public const int navigationRailStyle = 2130903741;
+			public const int navGraph = 2130903741;
 			
 			// aapt resource value: 0x7F0302BE
-			public const int navigationViewStyle = 2130903742;
+			public const int navigationContentDescription = 2130903742;
 			
 			// aapt resource value: 0x7F0302BF
-			public const int negativeButtonText = 2130903743;
-			
-			// aapt resource value: 0x7F0302C2
-			public const int nestedScrollable = 2130903746;
+			public const int navigationIcon = 2130903743;
 			
 			// aapt resource value: 0x7F0302C0
-			public const int nestedScrollFlags = 2130903744;
+			public const int navigationIconTint = 2130903744;
 			
 			// aapt resource value: 0x7F0302C1
-			public const int nestedScrollViewStyle = 2130903745;
+			public const int navigationMode = 2130903745;
+			
+			// aapt resource value: 0x7F0302C2
+			public const int navigationRailStyle = 2130903746;
 			
 			// aapt resource value: 0x7F0302C3
-			public const int nullable = 2130903747;
+			public const int navigationViewStyle = 2130903747;
 			
 			// aapt resource value: 0x7F0302C4
-			public const int number = 2130903748;
-			
-			// aapt resource value: 0x7F0302C5
-			public const int numericModifiers = 2130903749;
-			
-			// aapt resource value: 0x7F0302C6
-			public const int onCross = 2130903750;
+			public const int negativeButtonText = 2130903748;
 			
 			// aapt resource value: 0x7F0302C7
-			public const int onHide = 2130903751;
+			public const int nestedScrollable = 2130903751;
+			
+			// aapt resource value: 0x7F0302C5
+			public const int nestedScrollFlags = 2130903749;
+			
+			// aapt resource value: 0x7F0302C6
+			public const int nestedScrollViewStyle = 2130903750;
 			
 			// aapt resource value: 0x7F0302C8
-			public const int onNegativeCross = 2130903752;
+			public const int nullable = 2130903752;
 			
 			// aapt resource value: 0x7F0302C9
-			public const int onPositiveCross = 2130903753;
+			public const int number = 2130903753;
 			
 			// aapt resource value: 0x7F0302CA
-			public const int onShow = 2130903754;
+			public const int numericModifiers = 2130903754;
 			
 			// aapt resource value: 0x7F0302CB
-			public const int onStateTransition = 2130903755;
+			public const int onCross = 2130903755;
 			
 			// aapt resource value: 0x7F0302CC
-			public const int onTouchUp = 2130903756;
+			public const int onHide = 2130903756;
 			
 			// aapt resource value: 0x7F0302CD
-			public const int order = 2130903757;
+			public const int onNegativeCross = 2130903757;
 			
 			// aapt resource value: 0x7F0302CE
-			public const int orderingFromXml = 2130903758;
+			public const int onPositiveCross = 2130903758;
 			
 			// aapt resource value: 0x7F0302CF
-			public const int overlapAnchor = 2130903759;
+			public const int onShow = 2130903759;
 			
 			// aapt resource value: 0x7F0302D0
-			public const int overlay = 2130903760;
+			public const int onStateTransition = 2130903760;
 			
 			// aapt resource value: 0x7F0302D1
-			public const int paddingBottomNoButtons = 2130903761;
+			public const int onTouchUp = 2130903761;
 			
 			// aapt resource value: 0x7F0302D2
-			public const int paddingBottomSystemWindowInsets = 2130903762;
+			public const int order = 2130903762;
 			
 			// aapt resource value: 0x7F0302D3
-			public const int paddingEnd = 2130903763;
+			public const int orderingFromXml = 2130903763;
 			
 			// aapt resource value: 0x7F0302D4
-			public const int paddingLeftSystemWindowInsets = 2130903764;
+			public const int overlapAnchor = 2130903764;
 			
 			// aapt resource value: 0x7F0302D5
-			public const int paddingRightSystemWindowInsets = 2130903765;
+			public const int overlay = 2130903765;
 			
 			// aapt resource value: 0x7F0302D6
-			public const int paddingStart = 2130903766;
+			public const int paddingBottomNoButtons = 2130903766;
 			
 			// aapt resource value: 0x7F0302D7
-			public const int paddingTopNoTitle = 2130903767;
+			public const int paddingBottomSystemWindowInsets = 2130903767;
 			
 			// aapt resource value: 0x7F0302D8
-			public const int paddingTopSystemWindowInsets = 2130903768;
+			public const int paddingEnd = 2130903768;
 			
 			// aapt resource value: 0x7F0302D9
-			public const int panelBackground = 2130903769;
+			public const int paddingLeftSystemWindowInsets = 2130903769;
 			
 			// aapt resource value: 0x7F0302DA
-			public const int panelMenuListTheme = 2130903770;
+			public const int paddingRightSystemWindowInsets = 2130903770;
 			
 			// aapt resource value: 0x7F0302DB
-			public const int panelMenuListWidth = 2130903771;
+			public const int paddingStart = 2130903771;
 			
 			// aapt resource value: 0x7F0302DC
-			public const int passwordToggleContentDescription = 2130903772;
+			public const int paddingTopNoTitle = 2130903772;
 			
 			// aapt resource value: 0x7F0302DD
-			public const int passwordToggleDrawable = 2130903773;
+			public const int paddingTopSystemWindowInsets = 2130903773;
 			
 			// aapt resource value: 0x7F0302DE
-			public const int passwordToggleEnabled = 2130903774;
+			public const int panelBackground = 2130903774;
 			
 			// aapt resource value: 0x7F0302DF
-			public const int passwordToggleTint = 2130903775;
+			public const int panelMenuListTheme = 2130903775;
 			
 			// aapt resource value: 0x7F0302E0
-			public const int passwordToggleTintMode = 2130903776;
+			public const int panelMenuListWidth = 2130903776;
 			
 			// aapt resource value: 0x7F0302E1
-			public const int pathMotionArc = 2130903777;
+			public const int passwordToggleContentDescription = 2130903777;
 			
 			// aapt resource value: 0x7F0302E2
-			public const int path_percent = 2130903778;
+			public const int passwordToggleDrawable = 2130903778;
 			
 			// aapt resource value: 0x7F0302E3
-			public const int percentHeight = 2130903779;
+			public const int passwordToggleEnabled = 2130903779;
 			
 			// aapt resource value: 0x7F0302E4
-			public const int percentWidth = 2130903780;
+			public const int passwordToggleTint = 2130903780;
 			
 			// aapt resource value: 0x7F0302E5
-			public const int percentX = 2130903781;
+			public const int passwordToggleTintMode = 2130903781;
 			
 			// aapt resource value: 0x7F0302E6
-			public const int percentY = 2130903782;
+			public const int pathMotionArc = 2130903782;
 			
 			// aapt resource value: 0x7F0302E7
-			public const int perpendicularPath_percent = 2130903783;
+			public const int path_percent = 2130903783;
 			
 			// aapt resource value: 0x7F0302E8
-			public const int persistent = 2130903784;
+			public const int percentHeight = 2130903784;
 			
 			// aapt resource value: 0x7F0302E9
-			public const int pivotAnchor = 2130903785;
+			public const int percentWidth = 2130903785;
 			
 			// aapt resource value: 0x7F0302EA
-			public const int placeholderText = 2130903786;
+			public const int percentX = 2130903786;
 			
 			// aapt resource value: 0x7F0302EB
-			public const int placeholderTextAppearance = 2130903787;
+			public const int percentY = 2130903787;
 			
 			// aapt resource value: 0x7F0302EC
-			public const int placeholderTextColor = 2130903788;
+			public const int perpendicularPath_percent = 2130903788;
 			
 			// aapt resource value: 0x7F0302ED
-			public const int placeholder_emptyVisibility = 2130903789;
+			public const int persistent = 2130903789;
 			
 			// aapt resource value: 0x7F0302EE
-			public const int polarRelativeTo = 2130903790;
+			public const int pivotAnchor = 2130903790;
 			
 			// aapt resource value: 0x7F0302EF
-			public const int popEnterAnim = 2130903791;
+			public const int placeholderText = 2130903791;
 			
 			// aapt resource value: 0x7F0302F0
-			public const int popExitAnim = 2130903792;
-			
-			// aapt resource value: 0x7F0302F3
-			public const int popupMenuBackground = 2130903795;
-			
-			// aapt resource value: 0x7F0302F4
-			public const int popupMenuStyle = 2130903796;
-			
-			// aapt resource value: 0x7F0302F5
-			public const int popupTheme = 2130903797;
+			public const int placeholderTextAppearance = 2130903792;
 			
 			// aapt resource value: 0x7F0302F1
-			public const int popUpTo = 2130903793;
+			public const int placeholderTextColor = 2130903793;
 			
 			// aapt resource value: 0x7F0302F2
-			public const int popUpToInclusive = 2130903794;
+			public const int placeholder_emptyVisibility = 2130903794;
 			
-			// aapt resource value: 0x7F0302F6
-			public const int popupWindowStyle = 2130903798;
+			// aapt resource value: 0x7F0302F3
+			public const int polarRelativeTo = 2130903795;
 			
-			// aapt resource value: 0x7F0302F7
-			public const int positiveButtonText = 2130903799;
+			// aapt resource value: 0x7F0302F4
+			public const int popEnterAnim = 2130903796;
+			
+			// aapt resource value: 0x7F0302F5
+			public const int popExitAnim = 2130903797;
 			
 			// aapt resource value: 0x7F0302F8
-			public const int preferenceCategoryStyle = 2130903800;
+			public const int popupMenuBackground = 2130903800;
 			
 			// aapt resource value: 0x7F0302F9
-			public const int preferenceCategoryTitleTextAppearance = 2130903801;
+			public const int popupMenuStyle = 2130903801;
 			
 			// aapt resource value: 0x7F0302FA
-			public const int preferenceFragmentCompatStyle = 2130903802;
+			public const int popupTheme = 2130903802;
+			
+			// aapt resource value: 0x7F0302F6
+			public const int popUpTo = 2130903798;
+			
+			// aapt resource value: 0x7F0302F7
+			public const int popUpToInclusive = 2130903799;
 			
 			// aapt resource value: 0x7F0302FB
-			public const int preferenceFragmentListStyle = 2130903803;
+			public const int popupWindowStyle = 2130903803;
 			
 			// aapt resource value: 0x7F0302FC
-			public const int preferenceFragmentStyle = 2130903804;
+			public const int positiveButtonText = 2130903804;
 			
 			// aapt resource value: 0x7F0302FD
-			public const int preferenceInformationStyle = 2130903805;
+			public const int preferenceCategoryStyle = 2130903805;
 			
 			// aapt resource value: 0x7F0302FE
-			public const int preferenceScreenStyle = 2130903806;
+			public const int preferenceCategoryTitleTextAppearance = 2130903806;
 			
 			// aapt resource value: 0x7F0302FF
-			public const int preferenceStyle = 2130903807;
+			public const int preferenceFragmentCompatStyle = 2130903807;
 			
 			// aapt resource value: 0x7F030300
-			public const int preferenceTheme = 2130903808;
+			public const int preferenceFragmentListStyle = 2130903808;
 			
 			// aapt resource value: 0x7F030301
-			public const int prefixText = 2130903809;
+			public const int preferenceFragmentStyle = 2130903809;
 			
 			// aapt resource value: 0x7F030302
-			public const int prefixTextAppearance = 2130903810;
+			public const int preferenceInformationStyle = 2130903810;
 			
 			// aapt resource value: 0x7F030303
-			public const int prefixTextColor = 2130903811;
+			public const int preferenceScreenStyle = 2130903811;
 			
 			// aapt resource value: 0x7F030304
-			public const int preserveIconSpacing = 2130903812;
+			public const int preferenceStyle = 2130903812;
 			
 			// aapt resource value: 0x7F030305
-			public const int pressedTranslationZ = 2130903813;
+			public const int preferenceTheme = 2130903813;
 			
 			// aapt resource value: 0x7F030306
-			public const int progressBarPadding = 2130903814;
+			public const int prefixText = 2130903814;
 			
 			// aapt resource value: 0x7F030307
-			public const int progressBarStyle = 2130903815;
+			public const int prefixTextAppearance = 2130903815;
 			
 			// aapt resource value: 0x7F030308
-			public const int quantizeMotionInterpolator = 2130903816;
+			public const int prefixTextColor = 2130903816;
 			
 			// aapt resource value: 0x7F030309
-			public const int quantizeMotionPhase = 2130903817;
+			public const int preserveIconSpacing = 2130903817;
 			
 			// aapt resource value: 0x7F03030A
-			public const int quantizeMotionSteps = 2130903818;
+			public const int pressedTranslationZ = 2130903818;
 			
 			// aapt resource value: 0x7F03030B
-			public const int queryBackground = 2130903819;
+			public const int progressBarPadding = 2130903819;
 			
 			// aapt resource value: 0x7F03030C
-			public const int queryHint = 2130903820;
+			public const int progressBarStyle = 2130903820;
 			
 			// aapt resource value: 0x7F03030D
-			public const int queryPatterns = 2130903821;
+			public const int quantizeMotionInterpolator = 2130903821;
 			
 			// aapt resource value: 0x7F03030E
-			public const int radioButtonStyle = 2130903822;
+			public const int quantizeMotionPhase = 2130903822;
 			
 			// aapt resource value: 0x7F03030F
-			public const int rangeFillColor = 2130903823;
+			public const int quantizeMotionSteps = 2130903823;
 			
 			// aapt resource value: 0x7F030310
-			public const int ratingBarStyle = 2130903824;
+			public const int queryBackground = 2130903824;
 			
 			// aapt resource value: 0x7F030311
-			public const int ratingBarStyleIndicator = 2130903825;
+			public const int queryHint = 2130903825;
 			
 			// aapt resource value: 0x7F030312
-			public const int ratingBarStyleSmall = 2130903826;
+			public const int queryPatterns = 2130903826;
 			
 			// aapt resource value: 0x7F030313
-			public const int reactiveGuide_animateChange = 2130903827;
+			public const int radioButtonStyle = 2130903827;
 			
 			// aapt resource value: 0x7F030314
-			public const int reactiveGuide_applyToAllConstraintSets = 2130903828;
+			public const int rangeFillColor = 2130903828;
 			
 			// aapt resource value: 0x7F030315
-			public const int reactiveGuide_applyToConstraintSet = 2130903829;
+			public const int ratingBarStyle = 2130903829;
 			
 			// aapt resource value: 0x7F030316
-			public const int reactiveGuide_valueId = 2130903830;
+			public const int ratingBarStyleIndicator = 2130903830;
 			
 			// aapt resource value: 0x7F030317
-			public const int recyclerViewStyle = 2130903831;
+			public const int ratingBarStyleSmall = 2130903831;
 			
 			// aapt resource value: 0x7F030318
-			public const int region_heightLessThan = 2130903832;
+			public const int reactiveGuide_animateChange = 2130903832;
 			
 			// aapt resource value: 0x7F030319
-			public const int region_heightMoreThan = 2130903833;
+			public const int reactiveGuide_applyToAllConstraintSets = 2130903833;
 			
 			// aapt resource value: 0x7F03031A
-			public const int region_widthLessThan = 2130903834;
+			public const int reactiveGuide_applyToConstraintSet = 2130903834;
 			
 			// aapt resource value: 0x7F03031B
-			public const int region_widthMoreThan = 2130903835;
+			public const int reactiveGuide_valueId = 2130903835;
 			
 			// aapt resource value: 0x7F03031C
-			public const int reverseLayout = 2130903836;
+			public const int recyclerViewStyle = 2130903836;
 			
 			// aapt resource value: 0x7F03031D
-			public const int rippleColor = 2130903837;
+			public const int region_heightLessThan = 2130903837;
 			
 			// aapt resource value: 0x7F03031E
-			public const int rotationCenterId = 2130903838;
+			public const int region_heightMoreThan = 2130903838;
 			
 			// aapt resource value: 0x7F03031F
-			public const int round = 2130903839;
+			public const int region_widthLessThan = 2130903839;
 			
 			// aapt resource value: 0x7F030320
-			public const int roundPercent = 2130903840;
+			public const int region_widthMoreThan = 2130903840;
 			
 			// aapt resource value: 0x7F030321
-			public const int saturation = 2130903841;
+			public const int reverseLayout = 2130903841;
 			
 			// aapt resource value: 0x7F030322
-			public const int scaleFromTextSize = 2130903842;
+			public const int rippleColor = 2130903842;
 			
 			// aapt resource value: 0x7F030323
-			public const int scrimAnimationDuration = 2130903843;
+			public const int rotationCenterId = 2130903843;
 			
 			// aapt resource value: 0x7F030324
-			public const int scrimBackground = 2130903844;
+			public const int round = 2130903844;
 			
 			// aapt resource value: 0x7F030325
-			public const int scrimVisibleHeightTrigger = 2130903845;
+			public const int roundPercent = 2130903845;
 			
 			// aapt resource value: 0x7F030326
-			public const int scrollViewStyle = 2130903846;
+			public const int saturation = 2130903846;
 			
 			// aapt resource value: 0x7F030327
-			public const int searchHintIcon = 2130903847;
+			public const int scaleFromTextSize = 2130903847;
 			
 			// aapt resource value: 0x7F030328
-			public const int searchIcon = 2130903848;
+			public const int scrimAnimationDuration = 2130903848;
 			
 			// aapt resource value: 0x7F030329
-			public const int searchViewStyle = 2130903849;
+			public const int scrimBackground = 2130903849;
 			
 			// aapt resource value: 0x7F03032A
-			public const int seekBarIncrement = 2130903850;
+			public const int scrimVisibleHeightTrigger = 2130903850;
 			
 			// aapt resource value: 0x7F03032B
-			public const int seekBarPreferenceStyle = 2130903851;
+			public const int scrollViewStyle = 2130903851;
 			
 			// aapt resource value: 0x7F03032C
-			public const int seekBarStyle = 2130903852;
+			public const int searchHintIcon = 2130903852;
 			
 			// aapt resource value: 0x7F03032D
-			public const int selectable = 2130903853;
+			public const int searchIcon = 2130903853;
 			
 			// aapt resource value: 0x7F03032E
-			public const int selectableItemBackground = 2130903854;
+			public const int searchViewStyle = 2130903854;
 			
 			// aapt resource value: 0x7F03032F
-			public const int selectableItemBackgroundBorderless = 2130903855;
+			public const int seekBarIncrement = 2130903855;
 			
 			// aapt resource value: 0x7F030330
-			public const int selectionRequired = 2130903856;
+			public const int seekBarPreferenceStyle = 2130903856;
 			
 			// aapt resource value: 0x7F030331
-			public const int selectorSize = 2130903857;
+			public const int seekBarStyle = 2130903857;
 			
 			// aapt resource value: 0x7F030332
-			public const int setsTag = 2130903858;
+			public const int selectable = 2130903858;
 			
 			// aapt resource value: 0x7F030333
-			public const int shapeAppearance = 2130903859;
+			public const int selectableItemBackground = 2130903859;
 			
 			// aapt resource value: 0x7F030334
-			public const int shapeAppearanceLargeComponent = 2130903860;
+			public const int selectableItemBackgroundBorderless = 2130903860;
 			
 			// aapt resource value: 0x7F030335
-			public const int shapeAppearanceMediumComponent = 2130903861;
+			public const int selectionRequired = 2130903861;
 			
 			// aapt resource value: 0x7F030336
-			public const int shapeAppearanceOverlay = 2130903862;
+			public const int selectorSize = 2130903862;
 			
 			// aapt resource value: 0x7F030337
-			public const int shapeAppearanceSmallComponent = 2130903863;
+			public const int setsTag = 2130903863;
+			
+			// aapt resource value: 0x7F030338
+			public const int shapeAppearance = 2130903864;
+			
+			// aapt resource value: 0x7F030339
+			public const int shapeAppearanceLargeComponent = 2130903865;
+			
+			// aapt resource value: 0x7F03033A
+			public const int shapeAppearanceMediumComponent = 2130903866;
+			
+			// aapt resource value: 0x7F03033B
+			public const int shapeAppearanceOverlay = 2130903867;
+			
+			// aapt resource value: 0x7F03033C
+			public const int shapeAppearanceSmallComponent = 2130903868;
 			
 			// aapt resource value: 0x7F030001
 			public const int SharedValue = 2130903041;
@@ -16108,749 +16969,749 @@ namespace Havamal.Droid
 			// aapt resource value: 0x7F030002
 			public const int SharedValueId = 2130903042;
 			
-			// aapt resource value: 0x7F030338
-			public const int shortcutMatchRequired = 2130903864;
-			
-			// aapt resource value: 0x7F030339
-			public const int shouldDisableView = 2130903865;
-			
-			// aapt resource value: 0x7F03033A
-			public const int showAnimationBehavior = 2130903866;
-			
-			// aapt resource value: 0x7F03033B
-			public const int showAsAction = 2130903867;
-			
-			// aapt resource value: 0x7F03033C
-			public const int showDelay = 2130903868;
-			
 			// aapt resource value: 0x7F03033D
-			public const int showDividers = 2130903869;
+			public const int shortcutMatchRequired = 2130903869;
 			
 			// aapt resource value: 0x7F03033E
-			public const int showMotionSpec = 2130903870;
+			public const int shouldDisableView = 2130903870;
 			
 			// aapt resource value: 0x7F03033F
-			public const int showPaths = 2130903871;
+			public const int showAnimationBehavior = 2130903871;
 			
 			// aapt resource value: 0x7F030340
-			public const int showSeekBarValue = 2130903872;
+			public const int showAsAction = 2130903872;
 			
 			// aapt resource value: 0x7F030341
-			public const int showText = 2130903873;
+			public const int showDelay = 2130903873;
 			
 			// aapt resource value: 0x7F030342
-			public const int showTitle = 2130903874;
+			public const int showDividers = 2130903874;
 			
 			// aapt resource value: 0x7F030343
-			public const int shrinkMotionSpec = 2130903875;
+			public const int showMotionSpec = 2130903875;
 			
 			// aapt resource value: 0x7F030344
-			public const int singleChoiceItemLayout = 2130903876;
+			public const int showPaths = 2130903876;
 			
 			// aapt resource value: 0x7F030345
-			public const int singleLine = 2130903877;
+			public const int showSeekBarValue = 2130903877;
 			
 			// aapt resource value: 0x7F030346
-			public const int singleLineTitle = 2130903878;
+			public const int showText = 2130903878;
 			
 			// aapt resource value: 0x7F030347
-			public const int singleSelection = 2130903879;
+			public const int showTitle = 2130903879;
 			
 			// aapt resource value: 0x7F030348
-			public const int sizePercent = 2130903880;
+			public const int shrinkMotionSpec = 2130903880;
 			
 			// aapt resource value: 0x7F030349
-			public const int sliderStyle = 2130903881;
+			public const int singleChoiceItemLayout = 2130903881;
 			
 			// aapt resource value: 0x7F03034A
-			public const int snackbarButtonStyle = 2130903882;
+			public const int singleLine = 2130903882;
 			
 			// aapt resource value: 0x7F03034B
-			public const int snackbarStyle = 2130903883;
+			public const int singleLineTitle = 2130903883;
 			
 			// aapt resource value: 0x7F03034C
-			public const int snackbarTextViewStyle = 2130903884;
+			public const int singleSelection = 2130903884;
 			
 			// aapt resource value: 0x7F03034D
-			public const int spanCount = 2130903885;
+			public const int sizePercent = 2130903885;
 			
 			// aapt resource value: 0x7F03034E
-			public const int spinBars = 2130903886;
+			public const int sliderStyle = 2130903886;
 			
 			// aapt resource value: 0x7F03034F
-			public const int spinnerDropDownItemStyle = 2130903887;
+			public const int snackbarButtonStyle = 2130903887;
 			
 			// aapt resource value: 0x7F030350
-			public const int spinnerStyle = 2130903888;
+			public const int snackbarStyle = 2130903888;
 			
 			// aapt resource value: 0x7F030351
-			public const int splitTrack = 2130903889;
+			public const int snackbarTextViewStyle = 2130903889;
 			
 			// aapt resource value: 0x7F030352
-			public const int springBoundary = 2130903890;
+			public const int spanCount = 2130903890;
 			
 			// aapt resource value: 0x7F030353
-			public const int springDamping = 2130903891;
+			public const int spinBars = 2130903891;
 			
 			// aapt resource value: 0x7F030354
-			public const int springMass = 2130903892;
+			public const int spinnerDropDownItemStyle = 2130903892;
 			
 			// aapt resource value: 0x7F030355
-			public const int springStiffness = 2130903893;
+			public const int spinnerStyle = 2130903893;
 			
 			// aapt resource value: 0x7F030356
-			public const int springStopThreshold = 2130903894;
+			public const int splitTrack = 2130903894;
 			
 			// aapt resource value: 0x7F030357
-			public const int srcCompat = 2130903895;
+			public const int springBoundary = 2130903895;
 			
 			// aapt resource value: 0x7F030358
-			public const int stackFromEnd = 2130903896;
+			public const int springDamping = 2130903896;
 			
 			// aapt resource value: 0x7F030359
-			public const int staggered = 2130903897;
+			public const int springMass = 2130903897;
 			
 			// aapt resource value: 0x7F03035A
-			public const int startDestination = 2130903898;
+			public const int springStiffness = 2130903898;
 			
 			// aapt resource value: 0x7F03035B
-			public const int startIconCheckable = 2130903899;
+			public const int springStopThreshold = 2130903899;
 			
 			// aapt resource value: 0x7F03035C
-			public const int startIconContentDescription = 2130903900;
+			public const int srcCompat = 2130903900;
 			
 			// aapt resource value: 0x7F03035D
-			public const int startIconDrawable = 2130903901;
+			public const int stackFromEnd = 2130903901;
 			
 			// aapt resource value: 0x7F03035E
-			public const int startIconTint = 2130903902;
+			public const int staggered = 2130903902;
 			
 			// aapt resource value: 0x7F03035F
-			public const int startIconTintMode = 2130903903;
+			public const int startDestination = 2130903903;
 			
 			// aapt resource value: 0x7F030360
-			public const int state_above_anchor = 2130903904;
+			public const int startIconCheckable = 2130903904;
 			
 			// aapt resource value: 0x7F030361
-			public const int state_collapsed = 2130903905;
+			public const int startIconContentDescription = 2130903905;
 			
 			// aapt resource value: 0x7F030362
-			public const int state_collapsible = 2130903906;
+			public const int startIconDrawable = 2130903906;
 			
 			// aapt resource value: 0x7F030363
-			public const int state_dragged = 2130903907;
+			public const int startIconTint = 2130903907;
 			
 			// aapt resource value: 0x7F030364
-			public const int state_liftable = 2130903908;
+			public const int startIconTintMode = 2130903908;
 			
 			// aapt resource value: 0x7F030365
-			public const int state_lifted = 2130903909;
+			public const int state_above_anchor = 2130903909;
 			
 			// aapt resource value: 0x7F030366
-			public const int statusBarBackground = 2130903910;
+			public const int state_collapsed = 2130903910;
 			
 			// aapt resource value: 0x7F030367
-			public const int statusBarForeground = 2130903911;
+			public const int state_collapsible = 2130903911;
 			
 			// aapt resource value: 0x7F030368
-			public const int statusBarScrim = 2130903912;
+			public const int state_dragged = 2130903912;
 			
 			// aapt resource value: 0x7F030369
-			public const int strokeColor = 2130903913;
+			public const int state_liftable = 2130903913;
 			
 			// aapt resource value: 0x7F03036A
-			public const int strokeWidth = 2130903914;
+			public const int state_lifted = 2130903914;
 			
 			// aapt resource value: 0x7F03036B
-			public const int subMenuArrow = 2130903915;
+			public const int statusBarBackground = 2130903915;
 			
 			// aapt resource value: 0x7F03036C
-			public const int submitBackground = 2130903916;
+			public const int statusBarForeground = 2130903916;
 			
 			// aapt resource value: 0x7F03036D
-			public const int subtitle = 2130903917;
+			public const int statusBarScrim = 2130903917;
 			
 			// aapt resource value: 0x7F03036E
-			public const int subtitleCentered = 2130903918;
+			public const int strokeColor = 2130903918;
 			
 			// aapt resource value: 0x7F03036F
-			public const int subtitleTextAppearance = 2130903919;
+			public const int strokeWidth = 2130903919;
 			
 			// aapt resource value: 0x7F030370
-			public const int subtitleTextColor = 2130903920;
+			public const int subMenuArrow = 2130903920;
 			
 			// aapt resource value: 0x7F030371
-			public const int subtitleTextStyle = 2130903921;
+			public const int submitBackground = 2130903921;
 			
 			// aapt resource value: 0x7F030372
-			public const int suffixText = 2130903922;
+			public const int subtitle = 2130903922;
 			
 			// aapt resource value: 0x7F030373
-			public const int suffixTextAppearance = 2130903923;
+			public const int subtitleCentered = 2130903923;
 			
 			// aapt resource value: 0x7F030374
-			public const int suffixTextColor = 2130903924;
+			public const int subtitleTextAppearance = 2130903924;
 			
 			// aapt resource value: 0x7F030375
-			public const int suggestionRowLayout = 2130903925;
+			public const int subtitleTextColor = 2130903925;
 			
 			// aapt resource value: 0x7F030376
-			public const int summary = 2130903926;
+			public const int subtitleTextStyle = 2130903926;
 			
 			// aapt resource value: 0x7F030377
-			public const int summaryOff = 2130903927;
+			public const int suffixText = 2130903927;
 			
 			// aapt resource value: 0x7F030378
-			public const int summaryOn = 2130903928;
+			public const int suffixTextAppearance = 2130903928;
 			
 			// aapt resource value: 0x7F030379
-			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903929;
+			public const int suffixTextColor = 2130903929;
 			
 			// aapt resource value: 0x7F03037A
-			public const int switchMinWidth = 2130903930;
+			public const int suggestionRowLayout = 2130903930;
 			
 			// aapt resource value: 0x7F03037B
-			public const int switchPadding = 2130903931;
+			public const int summary = 2130903931;
 			
 			// aapt resource value: 0x7F03037C
-			public const int switchPreferenceCompatStyle = 2130903932;
+			public const int summaryOff = 2130903932;
 			
 			// aapt resource value: 0x7F03037D
-			public const int switchPreferenceStyle = 2130903933;
+			public const int summaryOn = 2130903933;
 			
 			// aapt resource value: 0x7F03037E
-			public const int switchStyle = 2130903934;
+			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903934;
 			
 			// aapt resource value: 0x7F03037F
-			public const int switchTextAppearance = 2130903935;
+			public const int switchMinWidth = 2130903935;
 			
 			// aapt resource value: 0x7F030380
-			public const int switchTextOff = 2130903936;
+			public const int switchPadding = 2130903936;
 			
 			// aapt resource value: 0x7F030381
-			public const int switchTextOn = 2130903937;
+			public const int switchPreferenceCompatStyle = 2130903937;
 			
 			// aapt resource value: 0x7F030382
-			public const int tabBackground = 2130903938;
+			public const int switchPreferenceStyle = 2130903938;
 			
 			// aapt resource value: 0x7F030383
-			public const int tabContentStart = 2130903939;
+			public const int switchStyle = 2130903939;
 			
 			// aapt resource value: 0x7F030384
-			public const int tabGravity = 2130903940;
+			public const int switchTextAppearance = 2130903940;
 			
 			// aapt resource value: 0x7F030385
-			public const int tabIconTint = 2130903941;
+			public const int switchTextOff = 2130903941;
 			
 			// aapt resource value: 0x7F030386
-			public const int tabIconTintMode = 2130903942;
+			public const int switchTextOn = 2130903942;
 			
 			// aapt resource value: 0x7F030387
-			public const int tabIndicator = 2130903943;
+			public const int tabBackground = 2130903943;
 			
 			// aapt resource value: 0x7F030388
-			public const int tabIndicatorAnimationDuration = 2130903944;
+			public const int tabContentStart = 2130903944;
 			
 			// aapt resource value: 0x7F030389
-			public const int tabIndicatorAnimationMode = 2130903945;
+			public const int tabGravity = 2130903945;
 			
 			// aapt resource value: 0x7F03038A
-			public const int tabIndicatorColor = 2130903946;
+			public const int tabIconTint = 2130903946;
 			
 			// aapt resource value: 0x7F03038B
-			public const int tabIndicatorFullWidth = 2130903947;
+			public const int tabIconTintMode = 2130903947;
 			
 			// aapt resource value: 0x7F03038C
-			public const int tabIndicatorGravity = 2130903948;
+			public const int tabIndicator = 2130903948;
 			
 			// aapt resource value: 0x7F03038D
-			public const int tabIndicatorHeight = 2130903949;
+			public const int tabIndicatorAnimationDuration = 2130903949;
 			
 			// aapt resource value: 0x7F03038E
-			public const int tabInlineLabel = 2130903950;
+			public const int tabIndicatorAnimationMode = 2130903950;
 			
 			// aapt resource value: 0x7F03038F
-			public const int tabMaxWidth = 2130903951;
+			public const int tabIndicatorColor = 2130903951;
 			
 			// aapt resource value: 0x7F030390
-			public const int tabMinWidth = 2130903952;
+			public const int tabIndicatorFullWidth = 2130903952;
 			
 			// aapt resource value: 0x7F030391
-			public const int tabMode = 2130903953;
+			public const int tabIndicatorGravity = 2130903953;
 			
 			// aapt resource value: 0x7F030392
-			public const int tabPadding = 2130903954;
+			public const int tabIndicatorHeight = 2130903954;
 			
 			// aapt resource value: 0x7F030393
-			public const int tabPaddingBottom = 2130903955;
+			public const int tabInlineLabel = 2130903955;
 			
 			// aapt resource value: 0x7F030394
-			public const int tabPaddingEnd = 2130903956;
+			public const int tabMaxWidth = 2130903956;
 			
 			// aapt resource value: 0x7F030395
-			public const int tabPaddingStart = 2130903957;
+			public const int tabMinWidth = 2130903957;
 			
 			// aapt resource value: 0x7F030396
-			public const int tabPaddingTop = 2130903958;
+			public const int tabMode = 2130903958;
 			
 			// aapt resource value: 0x7F030397
-			public const int tabRippleColor = 2130903959;
+			public const int tabPadding = 2130903959;
 			
 			// aapt resource value: 0x7F030398
-			public const int tabSelectedTextColor = 2130903960;
+			public const int tabPaddingBottom = 2130903960;
 			
 			// aapt resource value: 0x7F030399
-			public const int tabStyle = 2130903961;
+			public const int tabPaddingEnd = 2130903961;
 			
 			// aapt resource value: 0x7F03039A
-			public const int tabTextAppearance = 2130903962;
+			public const int tabPaddingStart = 2130903962;
 			
 			// aapt resource value: 0x7F03039B
-			public const int tabTextColor = 2130903963;
+			public const int tabPaddingTop = 2130903963;
 			
 			// aapt resource value: 0x7F03039C
-			public const int tabUnboundedRipple = 2130903964;
+			public const int tabRippleColor = 2130903964;
 			
 			// aapt resource value: 0x7F03039D
-			public const int targetId = 2130903965;
+			public const int tabSelectedTextColor = 2130903965;
 			
 			// aapt resource value: 0x7F03039E
-			public const int targetPackage = 2130903966;
+			public const int tabStyle = 2130903966;
 			
 			// aapt resource value: 0x7F03039F
-			public const int telltales_tailColor = 2130903967;
+			public const int tabTextAppearance = 2130903967;
 			
 			// aapt resource value: 0x7F0303A0
-			public const int telltales_tailScale = 2130903968;
+			public const int tabTextColor = 2130903968;
 			
 			// aapt resource value: 0x7F0303A1
-			public const int telltales_velocityMode = 2130903969;
+			public const int tabUnboundedRipple = 2130903969;
 			
 			// aapt resource value: 0x7F0303A2
-			public const int textAllCaps = 2130903970;
+			public const int targetId = 2130903970;
 			
 			// aapt resource value: 0x7F0303A3
-			public const int textAppearanceBody1 = 2130903971;
+			public const int targetPackage = 2130903971;
 			
 			// aapt resource value: 0x7F0303A4
-			public const int textAppearanceBody2 = 2130903972;
+			public const int telltales_tailColor = 2130903972;
 			
 			// aapt resource value: 0x7F0303A5
-			public const int textAppearanceButton = 2130903973;
+			public const int telltales_tailScale = 2130903973;
 			
 			// aapt resource value: 0x7F0303A6
-			public const int textAppearanceCaption = 2130903974;
+			public const int telltales_velocityMode = 2130903974;
 			
 			// aapt resource value: 0x7F0303A7
-			public const int textAppearanceHeadline1 = 2130903975;
+			public const int textAllCaps = 2130903975;
 			
 			// aapt resource value: 0x7F0303A8
-			public const int textAppearanceHeadline2 = 2130903976;
+			public const int textAppearanceBody1 = 2130903976;
 			
 			// aapt resource value: 0x7F0303A9
-			public const int textAppearanceHeadline3 = 2130903977;
+			public const int textAppearanceBody2 = 2130903977;
 			
 			// aapt resource value: 0x7F0303AA
-			public const int textAppearanceHeadline4 = 2130903978;
+			public const int textAppearanceButton = 2130903978;
 			
 			// aapt resource value: 0x7F0303AB
-			public const int textAppearanceHeadline5 = 2130903979;
+			public const int textAppearanceCaption = 2130903979;
 			
 			// aapt resource value: 0x7F0303AC
-			public const int textAppearanceHeadline6 = 2130903980;
+			public const int textAppearanceHeadline1 = 2130903980;
 			
 			// aapt resource value: 0x7F0303AD
-			public const int textAppearanceLargePopupMenu = 2130903981;
+			public const int textAppearanceHeadline2 = 2130903981;
 			
 			// aapt resource value: 0x7F0303AE
-			public const int textAppearanceLineHeightEnabled = 2130903982;
+			public const int textAppearanceHeadline3 = 2130903982;
 			
 			// aapt resource value: 0x7F0303AF
-			public const int textAppearanceListItem = 2130903983;
+			public const int textAppearanceHeadline4 = 2130903983;
 			
 			// aapt resource value: 0x7F0303B0
-			public const int textAppearanceListItemSecondary = 2130903984;
+			public const int textAppearanceHeadline5 = 2130903984;
 			
 			// aapt resource value: 0x7F0303B1
-			public const int textAppearanceListItemSmall = 2130903985;
+			public const int textAppearanceHeadline6 = 2130903985;
 			
 			// aapt resource value: 0x7F0303B2
-			public const int textAppearanceOverline = 2130903986;
+			public const int textAppearanceLargePopupMenu = 2130903986;
 			
 			// aapt resource value: 0x7F0303B3
-			public const int textAppearancePopupMenuHeader = 2130903987;
+			public const int textAppearanceLineHeightEnabled = 2130903987;
 			
 			// aapt resource value: 0x7F0303B4
-			public const int textAppearanceSearchResultSubtitle = 2130903988;
+			public const int textAppearanceListItem = 2130903988;
 			
 			// aapt resource value: 0x7F0303B5
-			public const int textAppearanceSearchResultTitle = 2130903989;
+			public const int textAppearanceListItemSecondary = 2130903989;
 			
 			// aapt resource value: 0x7F0303B6
-			public const int textAppearanceSmallPopupMenu = 2130903990;
+			public const int textAppearanceListItemSmall = 2130903990;
 			
 			// aapt resource value: 0x7F0303B7
-			public const int textAppearanceSubtitle1 = 2130903991;
+			public const int textAppearanceOverline = 2130903991;
 			
 			// aapt resource value: 0x7F0303B8
-			public const int textAppearanceSubtitle2 = 2130903992;
+			public const int textAppearancePopupMenuHeader = 2130903992;
 			
 			// aapt resource value: 0x7F0303B9
-			public const int textBackground = 2130903993;
+			public const int textAppearanceSearchResultSubtitle = 2130903993;
 			
 			// aapt resource value: 0x7F0303BA
-			public const int textBackgroundPanX = 2130903994;
+			public const int textAppearanceSearchResultTitle = 2130903994;
 			
 			// aapt resource value: 0x7F0303BB
-			public const int textBackgroundPanY = 2130903995;
+			public const int textAppearanceSmallPopupMenu = 2130903995;
 			
 			// aapt resource value: 0x7F0303BC
-			public const int textBackgroundRotate = 2130903996;
+			public const int textAppearanceSubtitle1 = 2130903996;
 			
 			// aapt resource value: 0x7F0303BD
-			public const int textBackgroundZoom = 2130903997;
+			public const int textAppearanceSubtitle2 = 2130903997;
 			
 			// aapt resource value: 0x7F0303BE
-			public const int textColorAlertDialogListItem = 2130903998;
+			public const int textBackground = 2130903998;
 			
 			// aapt resource value: 0x7F0303BF
-			public const int textColorSearchUrl = 2130903999;
+			public const int textBackgroundPanX = 2130903999;
 			
 			// aapt resource value: 0x7F0303C0
-			public const int textEndPadding = 2130904000;
+			public const int textBackgroundPanY = 2130904000;
 			
 			// aapt resource value: 0x7F0303C1
-			public const int textFillColor = 2130904001;
+			public const int textBackgroundRotate = 2130904001;
 			
 			// aapt resource value: 0x7F0303C2
-			public const int textInputLayoutFocusedRectEnabled = 2130904002;
+			public const int textBackgroundZoom = 2130904002;
 			
 			// aapt resource value: 0x7F0303C3
-			public const int textInputStyle = 2130904003;
+			public const int textColorAlertDialogListItem = 2130904003;
 			
 			// aapt resource value: 0x7F0303C4
-			public const int textLocale = 2130904004;
+			public const int textColorSearchUrl = 2130904004;
 			
 			// aapt resource value: 0x7F0303C5
-			public const int textOutlineColor = 2130904005;
+			public const int textEndPadding = 2130904005;
 			
 			// aapt resource value: 0x7F0303C6
-			public const int textOutlineThickness = 2130904006;
+			public const int textFillColor = 2130904006;
 			
 			// aapt resource value: 0x7F0303C7
-			public const int textPanX = 2130904007;
+			public const int textInputLayoutFocusedRectEnabled = 2130904007;
 			
 			// aapt resource value: 0x7F0303C8
-			public const int textPanY = 2130904008;
+			public const int textInputStyle = 2130904008;
 			
 			// aapt resource value: 0x7F0303C9
-			public const int textStartPadding = 2130904009;
+			public const int textLocale = 2130904009;
 			
 			// aapt resource value: 0x7F0303CA
-			public const int textureBlurFactor = 2130904010;
+			public const int textOutlineColor = 2130904010;
 			
 			// aapt resource value: 0x7F0303CB
-			public const int textureEffect = 2130904011;
+			public const int textOutlineThickness = 2130904011;
 			
 			// aapt resource value: 0x7F0303CC
-			public const int textureHeight = 2130904012;
+			public const int textPanX = 2130904012;
 			
 			// aapt resource value: 0x7F0303CD
-			public const int textureWidth = 2130904013;
+			public const int textPanY = 2130904013;
 			
 			// aapt resource value: 0x7F0303CE
-			public const int theme = 2130904014;
+			public const int textStartPadding = 2130904014;
 			
 			// aapt resource value: 0x7F0303CF
-			public const int themeLineHeight = 2130904015;
+			public const int textureBlurFactor = 2130904015;
 			
 			// aapt resource value: 0x7F0303D0
-			public const int thickness = 2130904016;
+			public const int textureEffect = 2130904016;
 			
 			// aapt resource value: 0x7F0303D1
-			public const int thumbColor = 2130904017;
+			public const int textureHeight = 2130904017;
 			
 			// aapt resource value: 0x7F0303D2
-			public const int thumbElevation = 2130904018;
+			public const int textureWidth = 2130904018;
 			
 			// aapt resource value: 0x7F0303D3
-			public const int thumbRadius = 2130904019;
+			public const int theme = 2130904019;
 			
 			// aapt resource value: 0x7F0303D4
-			public const int thumbStrokeColor = 2130904020;
+			public const int themeLineHeight = 2130904020;
 			
 			// aapt resource value: 0x7F0303D5
-			public const int thumbStrokeWidth = 2130904021;
+			public const int thickness = 2130904021;
 			
 			// aapt resource value: 0x7F0303D6
-			public const int thumbTextPadding = 2130904022;
+			public const int thumbColor = 2130904022;
 			
 			// aapt resource value: 0x7F0303D7
-			public const int thumbTint = 2130904023;
+			public const int thumbElevation = 2130904023;
 			
 			// aapt resource value: 0x7F0303D8
-			public const int thumbTintMode = 2130904024;
+			public const int thumbRadius = 2130904024;
 			
 			// aapt resource value: 0x7F0303D9
-			public const int tickColor = 2130904025;
+			public const int thumbStrokeColor = 2130904025;
 			
 			// aapt resource value: 0x7F0303DA
-			public const int tickColorActive = 2130904026;
+			public const int thumbStrokeWidth = 2130904026;
 			
 			// aapt resource value: 0x7F0303DB
-			public const int tickColorInactive = 2130904027;
+			public const int thumbTextPadding = 2130904027;
 			
 			// aapt resource value: 0x7F0303DC
-			public const int tickMark = 2130904028;
+			public const int thumbTint = 2130904028;
 			
 			// aapt resource value: 0x7F0303DD
-			public const int tickMarkTint = 2130904029;
+			public const int thumbTintMode = 2130904029;
 			
 			// aapt resource value: 0x7F0303DE
-			public const int tickMarkTintMode = 2130904030;
+			public const int tickColor = 2130904030;
 			
 			// aapt resource value: 0x7F0303DF
-			public const int tickVisible = 2130904031;
+			public const int tickColorActive = 2130904031;
 			
 			// aapt resource value: 0x7F0303E0
-			public const int tint = 2130904032;
+			public const int tickColorInactive = 2130904032;
 			
 			// aapt resource value: 0x7F0303E1
-			public const int tintMode = 2130904033;
+			public const int tickMark = 2130904033;
 			
 			// aapt resource value: 0x7F0303E2
-			public const int title = 2130904034;
+			public const int tickMarkTint = 2130904034;
 			
 			// aapt resource value: 0x7F0303E3
-			public const int titleCentered = 2130904035;
+			public const int tickMarkTintMode = 2130904035;
 			
 			// aapt resource value: 0x7F0303E4
-			public const int titleCollapseMode = 2130904036;
+			public const int tickVisible = 2130904036;
 			
 			// aapt resource value: 0x7F0303E5
-			public const int titleEnabled = 2130904037;
+			public const int tint = 2130904037;
 			
 			// aapt resource value: 0x7F0303E6
-			public const int titleMargin = 2130904038;
+			public const int tintMode = 2130904038;
 			
 			// aapt resource value: 0x7F0303E7
-			public const int titleMarginBottom = 2130904039;
+			public const int title = 2130904039;
 			
 			// aapt resource value: 0x7F0303E8
-			public const int titleMarginEnd = 2130904040;
-			
-			// aapt resource value: 0x7F0303EB
-			public const int titleMargins = 2130904043;
+			public const int titleCentered = 2130904040;
 			
 			// aapt resource value: 0x7F0303E9
-			public const int titleMarginStart = 2130904041;
+			public const int titleCollapseMode = 2130904041;
 			
 			// aapt resource value: 0x7F0303EA
-			public const int titleMarginTop = 2130904042;
+			public const int titleEnabled = 2130904042;
+			
+			// aapt resource value: 0x7F0303EB
+			public const int titleMargin = 2130904043;
 			
 			// aapt resource value: 0x7F0303EC
-			public const int titleTextAppearance = 2130904044;
+			public const int titleMarginBottom = 2130904044;
 			
 			// aapt resource value: 0x7F0303ED
-			public const int titleTextColor = 2130904045;
-			
-			// aapt resource value: 0x7F0303EE
-			public const int titleTextStyle = 2130904046;
-			
-			// aapt resource value: 0x7F0303EF
-			public const int toolbarId = 2130904047;
+			public const int titleMarginEnd = 2130904045;
 			
 			// aapt resource value: 0x7F0303F0
-			public const int toolbarNavigationButtonStyle = 2130904048;
+			public const int titleMargins = 2130904048;
+			
+			// aapt resource value: 0x7F0303EE
+			public const int titleMarginStart = 2130904046;
+			
+			// aapt resource value: 0x7F0303EF
+			public const int titleMarginTop = 2130904047;
 			
 			// aapt resource value: 0x7F0303F1
-			public const int toolbarStyle = 2130904049;
+			public const int titleTextAppearance = 2130904049;
 			
 			// aapt resource value: 0x7F0303F2
-			public const int tooltipForegroundColor = 2130904050;
+			public const int titleTextColor = 2130904050;
 			
 			// aapt resource value: 0x7F0303F3
-			public const int tooltipFrameBackground = 2130904051;
+			public const int titleTextStyle = 2130904051;
 			
 			// aapt resource value: 0x7F0303F4
-			public const int tooltipStyle = 2130904052;
+			public const int toolbarId = 2130904052;
 			
 			// aapt resource value: 0x7F0303F5
-			public const int tooltipText = 2130904053;
+			public const int toolbarNavigationButtonStyle = 2130904053;
 			
 			// aapt resource value: 0x7F0303F6
-			public const int touchAnchorId = 2130904054;
+			public const int toolbarStyle = 2130904054;
 			
 			// aapt resource value: 0x7F0303F7
-			public const int touchAnchorSide = 2130904055;
+			public const int tooltipForegroundColor = 2130904055;
 			
 			// aapt resource value: 0x7F0303F8
-			public const int touchRegionId = 2130904056;
+			public const int tooltipFrameBackground = 2130904056;
 			
 			// aapt resource value: 0x7F0303F9
-			public const int track = 2130904057;
+			public const int tooltipStyle = 2130904057;
 			
 			// aapt resource value: 0x7F0303FA
-			public const int trackColor = 2130904058;
+			public const int tooltipText = 2130904058;
 			
 			// aapt resource value: 0x7F0303FB
-			public const int trackColorActive = 2130904059;
+			public const int touchAnchorId = 2130904059;
 			
 			// aapt resource value: 0x7F0303FC
-			public const int trackColorInactive = 2130904060;
+			public const int touchAnchorSide = 2130904060;
 			
 			// aapt resource value: 0x7F0303FD
-			public const int trackCornerRadius = 2130904061;
+			public const int touchRegionId = 2130904061;
 			
 			// aapt resource value: 0x7F0303FE
-			public const int trackHeight = 2130904062;
+			public const int track = 2130904062;
 			
 			// aapt resource value: 0x7F0303FF
-			public const int trackThickness = 2130904063;
+			public const int trackColor = 2130904063;
 			
 			// aapt resource value: 0x7F030400
-			public const int trackTint = 2130904064;
+			public const int trackColorActive = 2130904064;
 			
 			// aapt resource value: 0x7F030401
-			public const int trackTintMode = 2130904065;
+			public const int trackColorInactive = 2130904065;
 			
 			// aapt resource value: 0x7F030402
-			public const int transformPivotTarget = 2130904066;
+			public const int trackCornerRadius = 2130904066;
 			
 			// aapt resource value: 0x7F030403
-			public const int transitionDisable = 2130904067;
+			public const int trackHeight = 2130904067;
 			
 			// aapt resource value: 0x7F030404
-			public const int transitionEasing = 2130904068;
+			public const int trackThickness = 2130904068;
 			
 			// aapt resource value: 0x7F030405
-			public const int transitionFlags = 2130904069;
+			public const int trackTint = 2130904069;
 			
 			// aapt resource value: 0x7F030406
-			public const int transitionPathRotate = 2130904070;
+			public const int trackTintMode = 2130904070;
 			
 			// aapt resource value: 0x7F030407
-			public const int transitionShapeAppearance = 2130904071;
+			public const int transformPivotTarget = 2130904071;
 			
 			// aapt resource value: 0x7F030408
-			public const int triggerId = 2130904072;
+			public const int transitionDisable = 2130904072;
 			
 			// aapt resource value: 0x7F030409
-			public const int triggerReceiver = 2130904073;
+			public const int transitionEasing = 2130904073;
 			
 			// aapt resource value: 0x7F03040A
-			public const int triggerSlack = 2130904074;
+			public const int transitionFlags = 2130904074;
 			
 			// aapt resource value: 0x7F03040B
-			public const int ttcIndex = 2130904075;
-			
-			// aapt resource value: 0x7F03040D
-			public const int updatesContinuously = 2130904077;
+			public const int transitionPathRotate = 2130904075;
 			
 			// aapt resource value: 0x7F03040C
-			public const int upDuration = 2130904076;
+			public const int transitionShapeAppearance = 2130904076;
+			
+			// aapt resource value: 0x7F03040D
+			public const int triggerId = 2130904077;
 			
 			// aapt resource value: 0x7F03040E
-			public const int uri = 2130904078;
+			public const int triggerReceiver = 2130904078;
 			
 			// aapt resource value: 0x7F03040F
-			public const int useCompatPadding = 2130904079;
+			public const int triggerSlack = 2130904079;
 			
 			// aapt resource value: 0x7F030410
-			public const int useMaterialThemeColors = 2130904080;
-			
-			// aapt resource value: 0x7F030411
-			public const int useSimpleSummaryProvider = 2130904081;
+			public const int ttcIndex = 2130904080;
 			
 			// aapt resource value: 0x7F030412
-			public const int values = 2130904082;
+			public const int updatesContinuously = 2130904082;
+			
+			// aapt resource value: 0x7F030411
+			public const int upDuration = 2130904081;
 			
 			// aapt resource value: 0x7F030413
-			public const int verticalOffset = 2130904083;
+			public const int uri = 2130904083;
 			
 			// aapt resource value: 0x7F030414
-			public const int viewInflaterClass = 2130904084;
+			public const int useCompatPadding = 2130904084;
 			
 			// aapt resource value: 0x7F030415
-			public const int viewTransitionMode = 2130904085;
+			public const int useMaterialThemeColors = 2130904085;
 			
 			// aapt resource value: 0x7F030416
-			public const int viewTransitionOnCross = 2130904086;
+			public const int useSimpleSummaryProvider = 2130904086;
 			
 			// aapt resource value: 0x7F030417
-			public const int viewTransitionOnNegativeCross = 2130904087;
+			public const int values = 2130904087;
 			
 			// aapt resource value: 0x7F030418
-			public const int viewTransitionOnPositiveCross = 2130904088;
+			public const int verticalOffset = 2130904088;
 			
 			// aapt resource value: 0x7F030419
-			public const int visibilityMode = 2130904089;
+			public const int viewInflaterClass = 2130904089;
 			
 			// aapt resource value: 0x7F03041A
-			public const int voiceIcon = 2130904090;
+			public const int viewTransitionMode = 2130904090;
 			
 			// aapt resource value: 0x7F03041B
-			public const int warmth = 2130904091;
+			public const int viewTransitionOnCross = 2130904091;
 			
 			// aapt resource value: 0x7F03041C
-			public const int waveDecay = 2130904092;
+			public const int viewTransitionOnNegativeCross = 2130904092;
 			
 			// aapt resource value: 0x7F03041D
-			public const int waveOffset = 2130904093;
+			public const int viewTransitionOnPositiveCross = 2130904093;
 			
 			// aapt resource value: 0x7F03041E
-			public const int wavePeriod = 2130904094;
+			public const int visibilityMode = 2130904094;
 			
 			// aapt resource value: 0x7F03041F
-			public const int wavePhase = 2130904095;
+			public const int voiceIcon = 2130904095;
 			
 			// aapt resource value: 0x7F030420
-			public const int waveShape = 2130904096;
+			public const int warmth = 2130904096;
 			
 			// aapt resource value: 0x7F030421
-			public const int waveVariesBy = 2130904097;
+			public const int waveDecay = 2130904097;
 			
 			// aapt resource value: 0x7F030422
-			public const int widgetLayout = 2130904098;
+			public const int waveOffset = 2130904098;
 			
 			// aapt resource value: 0x7F030423
-			public const int windowActionBar = 2130904099;
+			public const int wavePeriod = 2130904099;
 			
 			// aapt resource value: 0x7F030424
-			public const int windowActionBarOverlay = 2130904100;
+			public const int wavePhase = 2130904100;
 			
 			// aapt resource value: 0x7F030425
-			public const int windowActionModeOverlay = 2130904101;
+			public const int waveShape = 2130904101;
 			
 			// aapt resource value: 0x7F030426
-			public const int windowFixedHeightMajor = 2130904102;
+			public const int waveVariesBy = 2130904102;
 			
 			// aapt resource value: 0x7F030427
-			public const int windowFixedHeightMinor = 2130904103;
+			public const int widgetLayout = 2130904103;
 			
 			// aapt resource value: 0x7F030428
-			public const int windowFixedWidthMajor = 2130904104;
+			public const int windowActionBar = 2130904104;
 			
 			// aapt resource value: 0x7F030429
-			public const int windowFixedWidthMinor = 2130904105;
+			public const int windowActionBarOverlay = 2130904105;
 			
 			// aapt resource value: 0x7F03042A
-			public const int windowMinWidthMajor = 2130904106;
+			public const int windowActionModeOverlay = 2130904106;
 			
 			// aapt resource value: 0x7F03042B
-			public const int windowMinWidthMinor = 2130904107;
+			public const int windowFixedHeightMajor = 2130904107;
 			
 			// aapt resource value: 0x7F03042C
-			public const int windowNoTitle = 2130904108;
+			public const int windowFixedHeightMinor = 2130904108;
 			
 			// aapt resource value: 0x7F03042D
-			public const int yearSelectedStyle = 2130904109;
+			public const int windowFixedWidthMajor = 2130904109;
 			
 			// aapt resource value: 0x7F03042E
-			public const int yearStyle = 2130904110;
+			public const int windowFixedWidthMinor = 2130904110;
 			
 			// aapt resource value: 0x7F03042F
-			public const int yearTodayStyle = 2130904111;
+			public const int windowMinWidthMajor = 2130904111;
+			
+			// aapt resource value: 0x7F030430
+			public const int windowMinWidthMinor = 2130904112;
+			
+			// aapt resource value: 0x7F030431
+			public const int windowNoTitle = 2130904113;
+			
+			// aapt resource value: 0x7F030432
+			public const int yearSelectedStyle = 2130904114;
+			
+			// aapt resource value: 0x7F030433
+			public const int yearStyle = 2130904115;
+			
+			// aapt resource value: 0x7F030434
+			public const int yearTodayStyle = 2130904116;
 			
 			static Attribute()
 			{
@@ -19665,16 +20526,19 @@ namespace Havamal.Droid
 			public const int test_custom_background = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int tooltip_frame_dark = 2131165428;
+			public const int test_level_drawable = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int tooltip_frame_light = 2131165429;
+			public const int tooltip_frame_dark = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int torStatue = 2131165430;
+			public const int tooltip_frame_light = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int vegg = 2131165431;
+			public const int torStatue = 2131165431;
+			
+			// aapt resource value: 0x7F0700F8
+			public const int vegg = 2131165432;
 			
 			static Drawable()
 			{
@@ -21136,43 +22000,46 @@ namespace Havamal.Droid
 			public const int view_tree_lifecycle_owner = 2131231201;
 			
 			// aapt resource value: 0x7F0801E2
-			public const int view_tree_saved_state_registry_owner = 2131231202;
+			public const int view_tree_on_back_pressed_dispatcher_owner = 2131231202;
 			
 			// aapt resource value: 0x7F0801E3
-			public const int view_tree_view_model_store_owner = 2131231203;
+			public const int view_tree_saved_state_registry_owner = 2131231203;
 			
 			// aapt resource value: 0x7F0801E4
-			public const int visible = 2131231204;
+			public const int view_tree_view_model_store_owner = 2131231204;
 			
 			// aapt resource value: 0x7F0801E5
-			public const int visible_removing_fragment_view_tag = 2131231205;
+			public const int visible = 2131231205;
 			
 			// aapt resource value: 0x7F0801E6
-			public const int west = 2131231206;
-			
-			// aapt resource value: 0x7F0801E8
-			public const int withinBounds = 2131231208;
+			public const int visible_removing_fragment_view_tag = 2131231206;
 			
 			// aapt resource value: 0x7F0801E7
-			public const int withText = 2131231207;
+			public const int west = 2131231207;
 			
 			// aapt resource value: 0x7F0801E9
-			public const int wrap = 2131231209;
+			public const int withinBounds = 2131231209;
+			
+			// aapt resource value: 0x7F0801E8
+			public const int withText = 2131231208;
 			
 			// aapt resource value: 0x7F0801EA
-			public const int wrap_content = 2131231210;
+			public const int wrap = 2131231210;
 			
 			// aapt resource value: 0x7F0801EB
-			public const int wrap_content_constrained = 2131231211;
+			public const int wrap_content = 2131231211;
 			
 			// aapt resource value: 0x7F0801EC
-			public const int x_left = 2131231212;
+			public const int wrap_content_constrained = 2131231212;
 			
 			// aapt resource value: 0x7F0801ED
-			public const int x_right = 2131231213;
+			public const int x_left = 2131231213;
 			
 			// aapt resource value: 0x7F0801EE
-			public const int zero_corner_chip = 2131231214;
+			public const int x_right = 2131231214;
+			
+			// aapt resource value: 0x7F0801EF
+			public const int zero_corner_chip = 2131231215;
 			
 			static Id()
 			{
@@ -21891,277 +22758,280 @@ namespace Havamal.Droid
 			public const int abc_toolbar_collapse_description = 2131558426;
 			
 			// aapt resource value: 0x7F0D001B
-			public const int appbar_scrolling_view_behavior = 2131558427;
-			
-			// aapt resource value: 0x7F0D001D
-			public const int bottomsheet_action_expand_halfway = 2131558429;
+			public const int androidx_startup = 2131558427;
 			
 			// aapt resource value: 0x7F0D001C
-			public const int bottom_sheet_behavior = 2131558428;
+			public const int appbar_scrolling_view_behavior = 2131558428;
 			
 			// aapt resource value: 0x7F0D001E
-			public const int character_counter_content_description = 2131558430;
+			public const int bottomsheet_action_expand_halfway = 2131558430;
+			
+			// aapt resource value: 0x7F0D001D
+			public const int bottom_sheet_behavior = 2131558429;
 			
 			// aapt resource value: 0x7F0D001F
-			public const int character_counter_overflowed_content_description = 2131558431;
+			public const int character_counter_content_description = 2131558431;
 			
 			// aapt resource value: 0x7F0D0020
-			public const int character_counter_pattern = 2131558432;
+			public const int character_counter_overflowed_content_description = 2131558432;
 			
 			// aapt resource value: 0x7F0D0021
-			public const int chip_text = 2131558433;
+			public const int character_counter_pattern = 2131558433;
 			
 			// aapt resource value: 0x7F0D0022
-			public const int clear_text_end_icon_content_description = 2131558434;
+			public const int chip_text = 2131558434;
 			
 			// aapt resource value: 0x7F0D0023
-			public const int copy = 2131558435;
+			public const int clear_text_end_icon_content_description = 2131558435;
 			
 			// aapt resource value: 0x7F0D0024
-			public const int copy_toast_msg = 2131558436;
+			public const int copy = 2131558436;
 			
 			// aapt resource value: 0x7F0D0025
-			public const int error_icon_content_description = 2131558437;
+			public const int copy_toast_msg = 2131558437;
 			
 			// aapt resource value: 0x7F0D0026
-			public const int expand_button_title = 2131558438;
+			public const int error_icon_content_description = 2131558438;
 			
 			// aapt resource value: 0x7F0D0027
-			public const int exposed_dropdown_menu_content_description = 2131558439;
+			public const int expand_button_title = 2131558439;
 			
 			// aapt resource value: 0x7F0D0028
-			public const int fab_transformation_scrim_behavior = 2131558440;
+			public const int exposed_dropdown_menu_content_description = 2131558440;
 			
 			// aapt resource value: 0x7F0D0029
-			public const int fab_transformation_sheet_behavior = 2131558441;
+			public const int fab_transformation_scrim_behavior = 2131558441;
 			
 			// aapt resource value: 0x7F0D002A
-			public const int fallback_menu_item_copy_link = 2131558442;
+			public const int fab_transformation_sheet_behavior = 2131558442;
 			
 			// aapt resource value: 0x7F0D002B
-			public const int fallback_menu_item_open_in_browser = 2131558443;
+			public const int fallback_menu_item_copy_link = 2131558443;
 			
 			// aapt resource value: 0x7F0D002C
-			public const int fallback_menu_item_share_link = 2131558444;
+			public const int fallback_menu_item_open_in_browser = 2131558444;
 			
 			// aapt resource value: 0x7F0D002D
-			public const int hide_bottom_view_on_scroll_behavior = 2131558445;
+			public const int fallback_menu_item_share_link = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int icon_content_description = 2131558446;
+			public const int hide_bottom_view_on_scroll_behavior = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int item_view_role_description = 2131558447;
+			public const int icon_content_description = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int material_clock_display_divider = 2131558448;
+			public const int item_view_role_description = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int material_clock_toggle_content_description = 2131558449;
+			public const int material_clock_display_divider = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int material_hour_selection = 2131558450;
+			public const int material_clock_toggle_content_description = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int material_hour_suffix = 2131558451;
+			public const int material_hour_selection = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int material_minute_selection = 2131558452;
+			public const int material_hour_suffix = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int material_minute_suffix = 2131558453;
+			public const int material_minute_selection = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int material_motion_easing_accelerated = 2131558454;
+			public const int material_minute_suffix = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int material_motion_easing_decelerated = 2131558455;
+			public const int material_motion_easing_accelerated = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
-			public const int material_motion_easing_emphasized = 2131558456;
+			public const int material_motion_easing_decelerated = 2131558456;
 			
 			// aapt resource value: 0x7F0D0039
-			public const int material_motion_easing_linear = 2131558457;
+			public const int material_motion_easing_emphasized = 2131558457;
 			
 			// aapt resource value: 0x7F0D003A
-			public const int material_motion_easing_standard = 2131558458;
+			public const int material_motion_easing_linear = 2131558458;
 			
 			// aapt resource value: 0x7F0D003B
-			public const int material_slider_range_end = 2131558459;
+			public const int material_motion_easing_standard = 2131558459;
 			
 			// aapt resource value: 0x7F0D003C
-			public const int material_slider_range_start = 2131558460;
+			public const int material_slider_range_end = 2131558460;
 			
 			// aapt resource value: 0x7F0D003D
-			public const int material_timepicker_am = 2131558461;
+			public const int material_slider_range_start = 2131558461;
 			
 			// aapt resource value: 0x7F0D003E
-			public const int material_timepicker_clock_mode_description = 2131558462;
+			public const int material_timepicker_am = 2131558462;
 			
 			// aapt resource value: 0x7F0D003F
-			public const int material_timepicker_hour = 2131558463;
+			public const int material_timepicker_clock_mode_description = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int material_timepicker_minute = 2131558464;
+			public const int material_timepicker_hour = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int material_timepicker_pm = 2131558465;
+			public const int material_timepicker_minute = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int material_timepicker_select_time = 2131558466;
+			public const int material_timepicker_pm = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int material_timepicker_text_input_mode_description = 2131558467;
+			public const int material_timepicker_select_time = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int mtrl_badge_numberless_content_description = 2131558468;
+			public const int material_timepicker_text_input_mode_description = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int mtrl_chip_close_icon_content_description = 2131558469;
+			public const int mtrl_badge_numberless_content_description = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int mtrl_exceed_max_badge_number_content_description = 2131558470;
+			public const int mtrl_chip_close_icon_content_description = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int mtrl_exceed_max_badge_number_suffix = 2131558471;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int mtrl_picker_a11y_next_month = 2131558472;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int mtrl_picker_a11y_prev_month = 2131558473;
+			public const int mtrl_picker_a11y_next_month = 2131558473;
 			
 			// aapt resource value: 0x7F0D004A
-			public const int mtrl_picker_announce_current_selection = 2131558474;
+			public const int mtrl_picker_a11y_prev_month = 2131558474;
 			
 			// aapt resource value: 0x7F0D004B
-			public const int mtrl_picker_cancel = 2131558475;
+			public const int mtrl_picker_announce_current_selection = 2131558475;
 			
 			// aapt resource value: 0x7F0D004C
-			public const int mtrl_picker_confirm = 2131558476;
+			public const int mtrl_picker_cancel = 2131558476;
 			
 			// aapt resource value: 0x7F0D004D
-			public const int mtrl_picker_date_header_selected = 2131558477;
+			public const int mtrl_picker_confirm = 2131558477;
 			
 			// aapt resource value: 0x7F0D004E
-			public const int mtrl_picker_date_header_title = 2131558478;
+			public const int mtrl_picker_date_header_selected = 2131558478;
 			
 			// aapt resource value: 0x7F0D004F
-			public const int mtrl_picker_date_header_unselected = 2131558479;
+			public const int mtrl_picker_date_header_title = 2131558479;
 			
 			// aapt resource value: 0x7F0D0050
-			public const int mtrl_picker_day_of_week_column_header = 2131558480;
+			public const int mtrl_picker_date_header_unselected = 2131558480;
 			
 			// aapt resource value: 0x7F0D0051
-			public const int mtrl_picker_invalid_format = 2131558481;
+			public const int mtrl_picker_day_of_week_column_header = 2131558481;
 			
 			// aapt resource value: 0x7F0D0052
-			public const int mtrl_picker_invalid_format_example = 2131558482;
+			public const int mtrl_picker_invalid_format = 2131558482;
 			
 			// aapt resource value: 0x7F0D0053
-			public const int mtrl_picker_invalid_format_use = 2131558483;
+			public const int mtrl_picker_invalid_format_example = 2131558483;
 			
 			// aapt resource value: 0x7F0D0054
-			public const int mtrl_picker_invalid_range = 2131558484;
+			public const int mtrl_picker_invalid_format_use = 2131558484;
 			
 			// aapt resource value: 0x7F0D0055
-			public const int mtrl_picker_navigate_to_year_description = 2131558485;
+			public const int mtrl_picker_invalid_range = 2131558485;
 			
 			// aapt resource value: 0x7F0D0056
-			public const int mtrl_picker_out_of_range = 2131558486;
+			public const int mtrl_picker_navigate_to_year_description = 2131558486;
 			
 			// aapt resource value: 0x7F0D0057
-			public const int mtrl_picker_range_header_only_end_selected = 2131558487;
+			public const int mtrl_picker_out_of_range = 2131558487;
 			
 			// aapt resource value: 0x7F0D0058
-			public const int mtrl_picker_range_header_only_start_selected = 2131558488;
+			public const int mtrl_picker_range_header_only_end_selected = 2131558488;
 			
 			// aapt resource value: 0x7F0D0059
-			public const int mtrl_picker_range_header_selected = 2131558489;
+			public const int mtrl_picker_range_header_only_start_selected = 2131558489;
 			
 			// aapt resource value: 0x7F0D005A
-			public const int mtrl_picker_range_header_title = 2131558490;
+			public const int mtrl_picker_range_header_selected = 2131558490;
 			
 			// aapt resource value: 0x7F0D005B
-			public const int mtrl_picker_range_header_unselected = 2131558491;
+			public const int mtrl_picker_range_header_title = 2131558491;
 			
 			// aapt resource value: 0x7F0D005C
-			public const int mtrl_picker_save = 2131558492;
+			public const int mtrl_picker_range_header_unselected = 2131558492;
 			
 			// aapt resource value: 0x7F0D005D
-			public const int mtrl_picker_text_input_date_hint = 2131558493;
+			public const int mtrl_picker_save = 2131558493;
 			
 			// aapt resource value: 0x7F0D005E
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131558494;
+			public const int mtrl_picker_text_input_date_hint = 2131558494;
 			
 			// aapt resource value: 0x7F0D005F
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131558495;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131558495;
 			
 			// aapt resource value: 0x7F0D0060
-			public const int mtrl_picker_text_input_day_abbr = 2131558496;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131558496;
 			
 			// aapt resource value: 0x7F0D0061
-			public const int mtrl_picker_text_input_month_abbr = 2131558497;
+			public const int mtrl_picker_text_input_day_abbr = 2131558497;
 			
 			// aapt resource value: 0x7F0D0062
-			public const int mtrl_picker_text_input_year_abbr = 2131558498;
+			public const int mtrl_picker_text_input_month_abbr = 2131558498;
 			
 			// aapt resource value: 0x7F0D0063
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131558499;
+			public const int mtrl_picker_text_input_year_abbr = 2131558499;
 			
 			// aapt resource value: 0x7F0D0064
-			public const int mtrl_picker_toggle_to_day_selection = 2131558500;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131558500;
 			
 			// aapt resource value: 0x7F0D0065
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131558501;
+			public const int mtrl_picker_toggle_to_day_selection = 2131558501;
 			
 			// aapt resource value: 0x7F0D0066
-			public const int mtrl_picker_toggle_to_year_selection = 2131558502;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131558502;
 			
 			// aapt resource value: 0x7F0D0067
-			public const int nav_app_bar_navigate_up_description = 2131558503;
+			public const int mtrl_picker_toggle_to_year_selection = 2131558503;
 			
 			// aapt resource value: 0x7F0D0068
-			public const int nav_app_bar_open_drawer_description = 2131558504;
+			public const int nav_app_bar_navigate_up_description = 2131558504;
 			
 			// aapt resource value: 0x7F0D0069
-			public const int not_set = 2131558505;
+			public const int nav_app_bar_open_drawer_description = 2131558505;
 			
 			// aapt resource value: 0x7F0D006A
-			public const int overflow_tab_title = 2131558506;
+			public const int not_set = 2131558506;
 			
 			// aapt resource value: 0x7F0D006B
-			public const int password_toggle_content_description = 2131558507;
+			public const int overflow_tab_title = 2131558507;
 			
 			// aapt resource value: 0x7F0D006C
-			public const int path_password_eye = 2131558508;
+			public const int password_toggle_content_description = 2131558508;
 			
 			// aapt resource value: 0x7F0D006D
-			public const int path_password_eye_mask_strike_through = 2131558509;
+			public const int path_password_eye = 2131558509;
 			
 			// aapt resource value: 0x7F0D006E
-			public const int path_password_eye_mask_visible = 2131558510;
+			public const int path_password_eye_mask_strike_through = 2131558510;
 			
 			// aapt resource value: 0x7F0D006F
-			public const int path_password_strike_through = 2131558511;
+			public const int path_password_eye_mask_visible = 2131558511;
 			
 			// aapt resource value: 0x7F0D0070
-			public const int preference_copied = 2131558512;
+			public const int path_password_strike_through = 2131558512;
 			
 			// aapt resource value: 0x7F0D0071
-			public const int search_menu_title = 2131558513;
+			public const int preference_copied = 2131558513;
 			
 			// aapt resource value: 0x7F0D0072
-			public const int status_bar_notification_info_overflow = 2131558514;
+			public const int search_menu_title = 2131558514;
 			
 			// aapt resource value: 0x7F0D0073
-			public const int summary_collapsed_preference_list = 2131558515;
+			public const int status_bar_notification_info_overflow = 2131558515;
 			
 			// aapt resource value: 0x7F0D0074
-			public const int v7_preference_off = 2131558516;
+			public const int summary_collapsed_preference_list = 2131558516;
 			
 			// aapt resource value: 0x7F0D0075
-			public const int v7_preference_on = 2131558517;
+			public const int v7_preference_off = 2131558517;
+			
+			// aapt resource value: 0x7F0D0076
+			public const int v7_preference_on = 2131558518;
 			
 			static String()
 			{
@@ -24496,37 +25366,37 @@ namespace Havamal.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030047,0x7F03004E,0x7F03004F,0x7F0300F3,0x7F0300F4,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F03011E,0x7F03013A,0x7F03013B,0x7F030156,0x7F0301B5,0x7F0301BC,0x7F0301C2,0x7F0301C3,0x7F0301C6,0x7F0301D8,0x7F0301EC,0x7F030262,0x7F0302BC,0x7F0302F5,0x7F030306,0x7F030307,0x7F03036D,0x7F030371,0x7F0303E2,0x7F0303EE }
+			// aapt resource value: { 0x7F030047,0x7F03004E,0x7F03004F,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F030121,0x7F03013D,0x7F03013E,0x7F030159,0x7F0301B9,0x7F0301C0,0x7F0301C6,0x7F0301C7,0x7F0301CA,0x7F0301DC,0x7F0301F0,0x7F030267,0x7F0302C1,0x7F0302FA,0x7F03030B,0x7F03030C,0x7F030372,0x7F030376,0x7F0303E7,0x7F0303F3 }
 			public static int[] ActionBar = new int[] {
 					2130903111,
 					2130903118,
 					2130903119,
-					2130903283,
-					2130903284,
-					2130903285,
 					2130903286,
 					2130903287,
 					2130903288,
-					2130903326,
-					2130903354,
-					2130903355,
-					2130903382,
-					2130903477,
-					2130903484,
-					2130903490,
-					2130903491,
+					2130903289,
+					2130903290,
+					2130903291,
+					2130903329,
+					2130903357,
+					2130903358,
+					2130903385,
+					2130903481,
+					2130903488,
 					2130903494,
-					2130903512,
-					2130903532,
-					2130903650,
-					2130903740,
-					2130903797,
-					2130903814,
-					2130903815,
-					2130903917,
-					2130903921,
-					2130904034,
-					2130904046};
+					2130903495,
+					2130903498,
+					2130903516,
+					2130903536,
+					2130903655,
+					2130903745,
+					2130903802,
+					2130903819,
+					2130903820,
+					2130903922,
+					2130903926,
+					2130904039,
+					2130904051};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -24633,14 +25503,14 @@ namespace Havamal.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030047,0x7F03004E,0x7F0300CC,0x7F0301B5,0x7F030371,0x7F0303EE }
+			// aapt resource value: { 0x7F030047,0x7F03004E,0x7F0300CF,0x7F0301B9,0x7F030376,0x7F0303F3 }
 			public static int[] ActionMode = new int[] {
 					2130903111,
 					2130903118,
-					2130903244,
-					2130903477,
-					2130903921,
-					2130904046};
+					2130903247,
+					2130903481,
+					2130903926,
+					2130904051};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -24660,10 +25530,10 @@ namespace Havamal.Droid
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F030170,0x7F0301DE }
+			// aapt resource value: { 0x7F030174,0x7F0301E2 }
 			public static int[] ActivityChooserView = new int[] {
-					2130903408,
-					2130903518};
+					2130903412,
+					2130903522};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -24671,13 +25541,13 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x1010003,0x7F030003,0x7F030122,0x7F030123,0x7F03039E }
+			// aapt resource value: { 0x1010003,0x7F030003,0x7F030125,0x7F030126,0x7F0303A3 }
 			public static int[] ActivityNavigator = new int[] {
 					16842755,
 					2130903043,
-					2130903330,
-					2130903331,
-					2130903966};
+					2130903333,
+					2130903334,
+					2130903971};
 			
 			// aapt resource value: 1
 			public const int ActivityNavigator_action = 1;
@@ -24694,16 +25564,16 @@ namespace Havamal.Droid
 			// aapt resource value: 4
 			public const int ActivityNavigator_targetPackage = 4;
 			
-			// aapt resource value: { 0x10100F2,0x7F030080,0x7F030081,0x7F030257,0x7F030258,0x7F0302B7,0x7F030342,0x7F030344 }
+			// aapt resource value: { 0x10100F2,0x7F030080,0x7F030081,0x7F03025C,0x7F03025D,0x7F0302BC,0x7F030347,0x7F030349 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
 					2130903168,
 					2130903169,
-					2130903639,
-					2130903640,
-					2130903735,
-					2130903874,
-					2130903876};
+					2130903644,
+					2130903645,
+					2130903740,
+					2130903879,
+					2130903881};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -24786,23 +25656,23 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F030156,0x7F030171,0x7F03024D,0x7F03024E,0x7F030367 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F030159,0x7F030175,0x7F030252,0x7F030253,0x7F03036C }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903382,
-					2130903409,
-					2130903629,
-					2130903630,
-					2130903911};
+					2130903385,
+					2130903413,
+					2130903634,
+					2130903635,
+					2130903916};
 			
-			// aapt resource value: { 0x7F030361,0x7F030362,0x7F030364,0x7F030365 }
+			// aapt resource value: { 0x7F030366,0x7F030367,0x7F030369,0x7F03036A }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903905,
-					2130903906,
-					2130903908,
-					2130903909};
+					2130903910,
+					2130903911,
+					2130903913,
+					2130903914};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -24831,10 +25701,10 @@ namespace Havamal.Droid
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F03024A,0x7F03024B }
+			// aapt resource value: { 0x7F03024F,0x7F030250 }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903626,
-					2130903627};
+					2130903631,
+					2130903632};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -24851,12 +25721,16 @@ namespace Havamal.Droid
 			// aapt resource value: 7
 			public const int AppBarLayout_statusBarForeground = 7;
 			
-			// aapt resource value: { 0x1010119,0x7F030357,0x7F0303E0,0x7F0303E1 }
+			// aapt resource value: { 0xFFFFFFFF }
+			public static int[] AppCompatEmojiHelper = new int[] {
+					-1};
+			
+			// aapt resource value: { 0x1010119,0x7F03035C,0x7F0303E5,0x7F0303E6 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903895,
-					2130904032,
-					2130904033};
+					2130903900,
+					2130904037,
+					2130904038};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -24870,12 +25744,12 @@ namespace Havamal.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0303DC,0x7F0303DD,0x7F0303DE }
+			// aapt resource value: { 0x1010142,0x7F0303E1,0x7F0303E2,0x7F0303E3 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130904028,
-					2130904029,
-					2130904030};
+					2130904033,
+					2130904034,
+					2130904035};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -24920,7 +25794,7 @@ namespace Havamal.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F030041,0x7F030042,0x7F030043,0x7F030044,0x7F030045,0x7F030143,0x7F030144,0x7F030145,0x7F030146,0x7F030148,0x7F030149,0x7F03014A,0x7F03014B,0x7F030189,0x7F03019F,0x7F0301A8,0x7F030203,0x7F030250,0x7F0303A2,0x7F0303C4 }
+			// aapt resource value: { 0x1010034,0x7F030041,0x7F030042,0x7F030043,0x7F030044,0x7F030045,0x7F030146,0x7F030147,0x7F030148,0x7F030149,0x7F03014B,0x7F03014C,0x7F03014D,0x7F03014E,0x7F03015C,0x7F03018D,0x7F0301A3,0x7F0301AC,0x7F030208,0x7F030255,0x7F0303A7,0x7F0303C9 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130903105,
@@ -24928,21 +25802,22 @@ namespace Havamal.Droid
 					2130903107,
 					2130903108,
 					2130903109,
-					2130903363,
-					2130903364,
-					2130903365,
 					2130903366,
+					2130903367,
 					2130903368,
 					2130903369,
-					2130903370,
 					2130903371,
-					2130903433,
-					2130903455,
-					2130903464,
-					2130903555,
-					2130903632,
-					2130903970,
-					2130904004};
+					2130903372,
+					2130903373,
+					2130903374,
+					2130903388,
+					2130903437,
+					2130903459,
+					2130903468,
+					2130903560,
+					2130903637,
+					2130903975,
+					2130904009};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -24987,27 +25862,30 @@ namespace Havamal.Droid
 			public const int AppCompatTextView_drawableTopCompat = 13;
 			
 			// aapt resource value: 14
-			public const int AppCompatTextView_firstBaselineToTopHeight = 14;
+			public const int AppCompatTextView_emojiCompatEnabled = 14;
 			
 			// aapt resource value: 15
-			public const int AppCompatTextView_fontFamily = 15;
+			public const int AppCompatTextView_firstBaselineToTopHeight = 15;
 			
 			// aapt resource value: 16
-			public const int AppCompatTextView_fontVariationSettings = 16;
+			public const int AppCompatTextView_fontFamily = 16;
 			
 			// aapt resource value: 17
-			public const int AppCompatTextView_lastBaselineToBottomHeight = 17;
+			public const int AppCompatTextView_fontVariationSettings = 17;
 			
 			// aapt resource value: 18
-			public const int AppCompatTextView_lineHeight = 18;
+			public const int AppCompatTextView_lastBaselineToBottomHeight = 18;
 			
 			// aapt resource value: 19
-			public const int AppCompatTextView_textAllCaps = 19;
+			public const int AppCompatTextView_lineHeight = 19;
 			
 			// aapt resource value: 20
-			public const int AppCompatTextView_textLocale = 20;
+			public const int AppCompatTextView_textAllCaps = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030028,0x7F03002A,0x7F03002B,0x7F03002C,0x7F03002D,0x7F030040,0x7F030068,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F030082,0x7F030083,0x7F03009A,0x7F0300A3,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300E2,0x7F0300E3,0x7F0300E9,0x7F030102,0x7F030131,0x7F030136,0x7F030137,0x7F03013C,0x7F03013E,0x7F03014E,0x7F03014F,0x7F030152,0x7F030153,0x7F030155,0x7F0301C2,0x7F0301D2,0x7F030253,0x7F030254,0x7F030255,0x7F030256,0x7F030259,0x7F03025A,0x7F03025B,0x7F03025C,0x7F03025D,0x7F03025E,0x7F03025F,0x7F030260,0x7F030261,0x7F0302D9,0x7F0302DA,0x7F0302DB,0x7F0302F4,0x7F0302F6,0x7F03030E,0x7F030310,0x7F030311,0x7F030312,0x7F030329,0x7F03032C,0x7F03032E,0x7F03032F,0x7F03034F,0x7F030350,0x7F03037E,0x7F0303AD,0x7F0303AF,0x7F0303B0,0x7F0303B1,0x7F0303B3,0x7F0303B4,0x7F0303B5,0x7F0303B6,0x7F0303BE,0x7F0303BF,0x7F0303F0,0x7F0303F1,0x7F0303F2,0x7F0303F3,0x7F030414,0x7F030423,0x7F030424,0x7F030425,0x7F030426,0x7F030427,0x7F030428,0x7F030429,0x7F03042A,0x7F03042B,0x7F03042C }
+			// aapt resource value: 21
+			public const int AppCompatTextView_textLocale = 21;
+			
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030028,0x7F03002A,0x7F03002B,0x7F03002C,0x7F03002D,0x7F030040,0x7F030068,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F030082,0x7F030083,0x7F03009D,0x7F0300A6,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0300E5,0x7F0300E6,0x7F0300EC,0x7F030105,0x7F030134,0x7F030139,0x7F03013A,0x7F03013F,0x7F030141,0x7F030151,0x7F030152,0x7F030155,0x7F030156,0x7F030158,0x7F0301C6,0x7F0301D6,0x7F030258,0x7F030259,0x7F03025A,0x7F03025B,0x7F03025E,0x7F03025F,0x7F030260,0x7F030261,0x7F030262,0x7F030263,0x7F030264,0x7F030265,0x7F030266,0x7F0302DE,0x7F0302DF,0x7F0302E0,0x7F0302F9,0x7F0302FB,0x7F030313,0x7F030315,0x7F030316,0x7F030317,0x7F03032E,0x7F030331,0x7F030333,0x7F030334,0x7F030354,0x7F030355,0x7F030383,0x7F0303B2,0x7F0303B4,0x7F0303B5,0x7F0303B6,0x7F0303B8,0x7F0303B9,0x7F0303BA,0x7F0303BB,0x7F0303C3,0x7F0303C4,0x7F0303F5,0x7F0303F6,0x7F0303F7,0x7F0303F8,0x7F030419,0x7F030428,0x7F030429,0x7F03042A,0x7F03042B,0x7F03042C,0x7F03042D,0x7F03042E,0x7F03042F,0x7F030430,0x7F030431 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -25057,85 +25935,85 @@ namespace Havamal.Droid
 					2130903165,
 					2130903170,
 					2130903171,
-					2130903194,
-					2130903203,
-					2130903253,
-					2130903254,
-					2130903255,
+					2130903197,
+					2130903206,
 					2130903256,
 					2130903257,
 					2130903258,
 					2130903259,
-					2130903266,
-					2130903267,
-					2130903273,
-					2130903298,
-					2130903345,
-					2130903350,
-					2130903351,
-					2130903356,
-					2130903358,
-					2130903374,
-					2130903375,
+					2130903260,
+					2130903261,
+					2130903262,
+					2130903269,
+					2130903270,
+					2130903276,
+					2130903301,
+					2130903348,
+					2130903353,
+					2130903354,
+					2130903359,
+					2130903361,
+					2130903377,
 					2130903378,
-					2130903379,
 					2130903381,
-					2130903490,
-					2130903506,
-					2130903635,
-					2130903636,
-					2130903637,
-					2130903638,
+					2130903382,
+					2130903384,
+					2130903494,
+					2130903510,
+					2130903640,
 					2130903641,
 					2130903642,
 					2130903643,
-					2130903644,
-					2130903645,
 					2130903646,
 					2130903647,
 					2130903648,
 					2130903649,
-					2130903769,
-					2130903770,
-					2130903771,
-					2130903796,
-					2130903798,
-					2130903822,
-					2130903824,
-					2130903825,
-					2130903826,
-					2130903849,
-					2130903852,
+					2130903650,
+					2130903651,
+					2130903652,
+					2130903653,
+					2130903654,
+					2130903774,
+					2130903775,
+					2130903776,
+					2130903801,
+					2130903803,
+					2130903827,
+					2130903829,
+					2130903830,
+					2130903831,
 					2130903854,
-					2130903855,
-					2130903887,
-					2130903888,
-					2130903934,
-					2130903981,
-					2130903983,
-					2130903984,
-					2130903985,
-					2130903987,
+					2130903857,
+					2130903859,
+					2130903860,
+					2130903892,
+					2130903893,
+					2130903939,
+					2130903986,
 					2130903988,
 					2130903989,
 					2130903990,
-					2130903998,
-					2130903999,
-					2130904048,
-					2130904049,
-					2130904050,
-					2130904051,
-					2130904084,
-					2130904099,
-					2130904100,
-					2130904101,
-					2130904102,
-					2130904103,
+					2130903992,
+					2130903993,
+					2130903994,
+					2130903995,
+					2130904003,
+					2130904004,
+					2130904053,
+					2130904054,
+					2130904055,
+					2130904056,
+					2130904089,
 					2130904104,
 					2130904105,
 					2130904106,
 					2130904107,
-					2130904108};
+					2130904108,
+					2130904109,
+					2130904110,
+					2130904111,
+					2130904112,
+					2130904113};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -25518,10 +26396,10 @@ namespace Havamal.Droid
 			// aapt resource value: 126
 			public const int AppCompatTheme_windowNoTitle = 126;
 			
-			// aapt resource value: { 0x101030E,0x7F03032E }
+			// aapt resource value: { 0x101030E,0x7F030333 }
 			public static int[] BackgroundStyle = new int[] {
 					16843534,
-					2130903854};
+					2130903859};
 			
 			// aapt resource value: 0
 			public const int BackgroundStyle_android_selectableItemBackground = 0;
@@ -25529,15 +26407,15 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int BackgroundStyle_selectableItemBackground = 1;
 			
-			// aapt resource value: { 0x7F030048,0x7F030052,0x7F030054,0x7F0301C4,0x7F030283,0x7F0302C4,0x7F030413 }
+			// aapt resource value: { 0x7F030048,0x7F030052,0x7F030054,0x7F0301C8,0x7F030288,0x7F0302C9,0x7F030418 }
 			public static int[] Badge = new int[] {
 					2130903112,
 					2130903122,
 					2130903124,
-					2130903492,
-					2130903683,
-					2130903748,
-					2130904083};
+					2130903496,
+					2130903688,
+					2130903753,
+					2130904088};
 			
 			// aapt resource value: 0
 			public const int Badge_backgroundColor = 0;
@@ -25560,17 +26438,17 @@ namespace Havamal.Droid
 			// aapt resource value: 6
 			public const int Badge_verticalOffset = 6;
 			
-			// aapt resource value: { 0x1010139,0x7F0301BA,0x7F0301D9,0x7F030290,0x7F03033A,0x7F03033C,0x7F0303FA,0x7F0303FD,0x7F0303FF }
+			// aapt resource value: { 0x1010139,0x7F0301BE,0x7F0301DD,0x7F030295,0x7F03033F,0x7F030341,0x7F0303FF,0x7F030402,0x7F030404 }
 			public static int[] BaseProgressIndicator = new int[] {
 					16843065,
-					2130903482,
-					2130903513,
-					2130903696,
-					2130903866,
-					2130903868,
-					2130904058,
-					2130904061,
-					2130904063};
+					2130903486,
+					2130903517,
+					2130903701,
+					2130903871,
+					2130903873,
+					2130904063,
+					2130904066,
+					2130904068};
 			
 			// aapt resource value: 0
 			public const int BaseProgressIndicator_android_indeterminate = 0;
@@ -25599,19 +26477,19 @@ namespace Havamal.Droid
 			// aapt resource value: 8
 			public const int BaseProgressIndicator_trackThickness = 8;
 			
-			// aapt resource value: { 0x7F030050,0x7F030156,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030180,0x7F030181,0x7F0301BD,0x7F0302D2,0x7F0302D4,0x7F0302D5 }
+			// aapt resource value: { 0x7F030050,0x7F030159,0x7F030181,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F0301C1,0x7F0302D7,0x7F0302D9,0x7F0302DA }
 			public static int[] BottomAppBar = new int[] {
 					2130903120,
-					2130903382,
-					2130903421,
-					2130903422,
-					2130903423,
-					2130903424,
+					2130903385,
 					2130903425,
-					2130903485,
-					2130903762,
-					2130903764,
-					2130903765};
+					2130903426,
+					2130903427,
+					2130903428,
+					2130903429,
+					2130903489,
+					2130903767,
+					2130903769,
+					2130903770};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -25646,14 +26524,14 @@ namespace Havamal.Droid
 			// aapt resource value: 10
 			public const int BottomAppBar_paddingRightSystemWindowInsets = 10;
 			
-			// aapt resource value: { 0x7F0301E7 }
+			// aapt resource value: { 0x7F0301EB }
 			public static int[] BottomNavigationView = new int[] {
-					2130903527};
+					2130903531};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_itemHorizontalTranslationEnabled = 0;
 			
-			// aapt resource value: { 0x101011F,0x1010440,0x7F030050,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030061,0x7F030062,0x7F030063,0x7F0301AF,0x7F0302D2,0x7F0302D4,0x7F0302D5,0x7F0302D8,0x7F030333,0x7F030336 }
+			// aapt resource value: { 0x101011F,0x1010440,0x7F030050,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030061,0x7F030062,0x7F030063,0x7F0301B3,0x7F0302D7,0x7F0302D9,0x7F0302DA,0x7F0302DD,0x7F030338,0x7F03033B }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
 					16843039,
 					16843840,
@@ -25666,13 +26544,13 @@ namespace Havamal.Droid
 					2130903137,
 					2130903138,
 					2130903139,
-					2130903471,
-					2130903762,
-					2130903764,
-					2130903765,
-					2130903768,
-					2130903859,
-					2130903862};
+					2130903475,
+					2130903767,
+					2130903769,
+					2130903770,
+					2130903773,
+					2130903864,
+					2130903867};
 			
 			// aapt resource value: 1
 			public const int BottomSheetBehavior_Layout_android_elevation = 1;
@@ -25735,10 +26613,10 @@ namespace Havamal.Droid
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x7F03030D,0x7F030338 }
+			// aapt resource value: { 0x7F030312,0x7F03033D }
 			public static int[] Capability = new int[] {
-					2130903821,
-					2130903864};
+					2130903826,
+					2130903869};
 			
 			// aapt resource value: 0
 			public const int Capability_queryPatterns = 0;
@@ -25746,7 +26624,7 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int Capability_shortcutMatchRequired = 1;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F030086,0x7F030087,0x7F030088,0x7F03008A,0x7F03008B,0x7F03008C,0x7F0300F9,0x7F0300FA,0x7F0300FC,0x7F0300FD,0x7F0300FF }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F030086,0x7F030087,0x7F030088,0x7F03008A,0x7F03008B,0x7F03008C,0x7F0300FC,0x7F0300FD,0x7F0300FF,0x7F030100,0x7F030102 }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
@@ -25756,11 +26634,11 @@ namespace Havamal.Droid
 					2130903178,
 					2130903179,
 					2130903180,
-					2130903289,
-					2130903290,
 					2130903292,
 					2130903293,
-					2130903295};
+					2130903295,
+					2130903296,
+					2130903298};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -25844,14 +26722,14 @@ namespace Havamal.Droid
 			// aapt resource value: 9
 			public const int Carousel_carousel_touchUp_velocityThreshold = 9;
 			
-			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x7F030139,0x7F030377,0x7F030378 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x7F03013C,0x7F03037C,0x7F03037D }
 			public static int[] CheckBoxPreference = new int[] {
 					16843247,
 					16843248,
 					16843249,
-					2130903353,
-					2130903927,
-					2130903928};
+					2130903356,
+					2130903932,
+					2130903933};
 			
 			// aapt resource value: 2
 			public const int CheckBoxPreference_android_disableDependentsState = 2;
@@ -25871,7 +26749,26 @@ namespace Havamal.Droid
 			// aapt resource value: 5
 			public const int CheckBoxPreference_summaryOn = 5;
 			
-			// aapt resource value: { 0x1010034,0x1010095,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F03009D,0x7F03009E,0x7F0300A1,0x7F0300A2,0x7F0300A4,0x7F0300A5,0x7F0300A6,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300B3,0x7F0300B4,0x7F0300B5,0x7F0300B7,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F030164,0x7F0301BB,0x7F0301C7,0x7F0301CC,0x7F03031D,0x7F030333,0x7F030336,0x7F03033E,0x7F0303C0,0x7F0303C9 }
+			// aapt resource value: { 0x1010108,0x7F03009A,0x7F03009B,0x7F03009C }
+			public static int[] CheckedTextView = new int[] {
+					16843016,
+					2130903194,
+					2130903195,
+					2130903196};
+			
+			// aapt resource value: 0
+			public const int CheckedTextView_android_checkMark = 0;
+			
+			// aapt resource value: 1
+			public const int CheckedTextView_checkMarkCompat = 1;
+			
+			// aapt resource value: 2
+			public const int CheckedTextView_checkMarkTint = 2;
+			
+			// aapt resource value: 3
+			public const int CheckedTextView_checkMarkTintMode = 3;
+			
+			// aapt resource value: { 0x1010034,0x1010095,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F0300A0,0x7F0300A1,0x7F0300A4,0x7F0300A5,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300AF,0x7F0300B0,0x7F0300B1,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300BA,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CD,0x7F0300CE,0x7F030168,0x7F0301BF,0x7F0301CB,0x7F0301D0,0x7F030322,0x7F030338,0x7F03033B,0x7F030343,0x7F0303C5,0x7F0303CE }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842901,
@@ -25880,51 +26777,51 @@ namespace Havamal.Droid
 					16843039,
 					16843087,
 					16843237,
-					2130903197,
-					2130903198,
+					2130903200,
 					2130903201,
-					2130903202,
 					2130903204,
 					2130903205,
-					2130903206,
+					2130903207,
 					2130903208,
 					2130903209,
-					2130903210,
 					2130903211,
 					2130903212,
 					2130903213,
 					2130903214,
-					2130903219,
-					2130903220,
-					2130903221,
+					2130903215,
+					2130903216,
+					2130903217,
+					2130903222,
 					2130903223,
-					2130903237,
-					2130903238,
-					2130903239,
+					2130903224,
+					2130903226,
 					2130903240,
 					2130903241,
 					2130903242,
 					2130903243,
-					2130903396,
-					2130903483,
-					2130903495,
-					2130903500,
-					2130903837,
-					2130903859,
-					2130903862,
-					2130903870,
-					2130904000,
-					2130904009};
+					2130903244,
+					2130903245,
+					2130903246,
+					2130903400,
+					2130903487,
+					2130903499,
+					2130903504,
+					2130903842,
+					2130903864,
+					2130903867,
+					2130903875,
+					2130904005,
+					2130904014};
 			
-			// aapt resource value: { 0x7F03009C,0x7F0300AF,0x7F0300B0,0x7F0300B1,0x7F030330,0x7F030345,0x7F030347 }
+			// aapt resource value: { 0x7F03009F,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F030335,0x7F03034A,0x7F03034C }
 			public static int[] ChipGroup = new int[] {
-					2130903196,
-					2130903215,
-					2130903216,
-					2130903217,
-					2130903856,
-					2130903877,
-					2130903879};
+					2130903199,
+					2130903218,
+					2130903219,
+					2130903220,
+					2130903861,
+					2130903882,
+					2130903884};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -26073,11 +26970,11 @@ namespace Havamal.Droid
 			// aapt resource value: 41
 			public const int Chip_textStartPadding = 41;
 			
-			// aapt resource value: { 0x7F0301DA,0x7F0301DC,0x7F0301DD }
+			// aapt resource value: { 0x7F0301DE,0x7F0301E0,0x7F0301E1 }
 			public static int[] CircularProgressIndicator = new int[] {
-					2130903514,
-					2130903516,
-					2130903517};
+					2130903518,
+					2130903520,
+					2130903521};
 			
 			// aapt resource value: 0
 			public const int CircularProgressIndicator_indicatorDirectionCircular = 0;
@@ -26088,10 +26985,10 @@ namespace Havamal.Droid
 			// aapt resource value: 2
 			public const int CircularProgressIndicator_indicatorSize = 2;
 			
-			// aapt resource value: { 0x7F0300C1,0x7F0300C4 }
+			// aapt resource value: { 0x7F0300C4,0x7F0300C7 }
 			public static int[] ClockFaceView = new int[] {
-					2130903233,
-					2130903236};
+					2130903236,
+					2130903239};
 			
 			// aapt resource value: 0
 			public const int ClockFaceView_clockFaceBackgroundColor = 0;
@@ -26099,11 +26996,11 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int ClockFaceView_clockNumberTextColor = 1;
 			
-			// aapt resource value: { 0x7F0300C2,0x7F03027B,0x7F030331 }
+			// aapt resource value: { 0x7F0300C5,0x7F030280,0x7F030336 }
 			public static int[] ClockHandView = new int[] {
-					2130903234,
-					2130903675,
-					2130903857};
+					2130903237,
+					2130903680,
+					2130903862};
 			
 			// aapt resource value: 0
 			public const int ClockHandView_clockHandColor = 0;
@@ -26114,28 +27011,28 @@ namespace Havamal.Droid
 			// aapt resource value: 2
 			public const int ClockHandView_selectorSize = 2;
 			
-			// aapt resource value: { 0x7F0300D0,0x7F0300D1,0x7F030100,0x7F030173,0x7F030174,0x7F030175,0x7F030176,0x7F030177,0x7F030178,0x7F030179,0x7F03017C,0x7F0301AA,0x7F030286,0x7F030323,0x7F030325,0x7F030368,0x7F0303E2,0x7F0303E4,0x7F0303E5,0x7F0303EF }
+			// aapt resource value: { 0x7F0300D3,0x7F0300D4,0x7F030103,0x7F030177,0x7F030178,0x7F030179,0x7F03017A,0x7F03017B,0x7F03017C,0x7F03017D,0x7F030180,0x7F0301AE,0x7F03028B,0x7F030328,0x7F03032A,0x7F03036D,0x7F0303E7,0x7F0303E9,0x7F0303EA,0x7F0303F4 }
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130903248,
-					2130903249,
-					2130903296,
-					2130903411,
-					2130903412,
-					2130903413,
-					2130903414,
+					2130903251,
+					2130903252,
+					2130903299,
 					2130903415,
 					2130903416,
 					2130903417,
+					2130903418,
+					2130903419,
 					2130903420,
-					2130903466,
-					2130903686,
-					2130903843,
-					2130903845,
-					2130903912,
-					2130904034,
-					2130904036,
-					2130904037,
-					2130904047};
+					2130903421,
+					2130903424,
+					2130903470,
+					2130903691,
+					2130903848,
+					2130903850,
+					2130903917,
+					2130904039,
+					2130904041,
+					2130904042,
+					2130904052};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -26173,10 +27070,10 @@ namespace Havamal.Droid
 			// aapt resource value: 11
 			public const int CollapsingToolbarLayout_forceApplySystemWindowInsetTop = 11;
 			
-			// aapt resource value: { 0x7F03020C,0x7F03020D }
+			// aapt resource value: { 0x7F030211,0x7F030212 }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903564,
-					2130903565};
+					2130903569,
+					2130903570};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -26208,20 +27105,28 @@ namespace Havamal.Droid
 			// aapt resource value: 19
 			public const int CollapsingToolbarLayout_toolbarId = 19;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x7F030032 }
+			// aapt resource value: { 0x10101A5,0x101031F,0x1010647,0x7F030032,0x7F030204 }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130903090};
+					16844359,
+					2130903090,
+					2130903556};
 			
-			// aapt resource value: 2
-			public const int ColorStateListItem_alpha = 2;
+			// aapt resource value: 3
+			public const int ColorStateListItem_alpha = 3;
 			
 			// aapt resource value: 1
 			public const int ColorStateListItem_android_alpha = 1;
 			
 			// aapt resource value: 0
 			public const int ColorStateListItem_android_color = 0;
+			
+			// aapt resource value: 2
+			public const int ColorStateListItem_android_lStar = 2;
+			
+			// aapt resource value: 4
+			public const int ColorStateListItem_lStar = 4;
 			
 			// aapt resource value: { 0x1010107,0x7F03007E,0x7F030084,0x7F030085 }
 			public static int[] CompoundButton = new int[] {
@@ -26242,7 +27147,7 @@ namespace Havamal.Droid
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F030308,0x7F030309,0x7F03030A,0x7F030402,0x7F030404,0x7F030406,0x7F030419 }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300F1,0x7F0300F2,0x7F030145,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F030251,0x7F0302B6,0x7F0302B7,0x7F0302E6,0x7F0302EE,0x7F0302F3,0x7F03030D,0x7F03030E,0x7F03030F,0x7F030407,0x7F030409,0x7F03040B,0x7F03041E }
 			public static int[] Constraint = new int[] {
 					16842948,
 					16842960,
@@ -26277,13 +27182,9 @@ namespace Havamal.Droid
 					2130903127,
 					2130903128,
 					2130903192,
-					2130903278,
-					2130903279,
-					2130903362,
-					2130903435,
-					2130903436,
-					2130903437,
-					2130903438,
+					2130903281,
+					2130903282,
+					2130903365,
 					2130903439,
 					2130903440,
 					2130903441,
@@ -26293,16 +27194,15 @@ namespace Havamal.Droid
 					2130903445,
 					2130903446,
 					2130903447,
+					2130903448,
 					2130903449,
 					2130903450,
 					2130903451,
-					2130903452,
 					2130903453,
-					2130903566,
-					2130903567,
-					2130903568,
-					2130903569,
-					2130903570,
+					2130903454,
+					2130903455,
+					2130903456,
+					2130903457,
 					2130903571,
 					2130903572,
 					2130903573,
@@ -26344,31 +27244,36 @@ namespace Havamal.Droid
 					2130903609,
 					2130903610,
 					2130903611,
+					2130903612,
 					2130903613,
 					2130903614,
 					2130903615,
 					2130903616,
-					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
 					2130903621,
+					2130903622,
+					2130903623,
 					2130903624,
-					2130903628,
-					2130903729,
-					2130903730,
-					2130903777,
-					2130903785,
+					2130903625,
+					2130903626,
+					2130903629,
+					2130903633,
+					2130903734,
+					2130903735,
+					2130903782,
 					2130903790,
-					2130903816,
-					2130903817,
-					2130903818,
-					2130904066,
-					2130904068,
-					2130904070,
-					2130904089};
+					2130903795,
+					2130903821,
+					2130903822,
+					2130903823,
+					2130904071,
+					2130904073,
+					2130904075,
+					2130904094};
 			
-			// aapt resource value: { 0x10100C4,0x10100D5,0x10100D6,0x10100D7,0x10100D8,0x10100D9,0x10100DC,0x10100F4,0x10100F5,0x10100F6,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10103B3,0x10103B4,0x10103B5,0x10103B6,0x1010440,0x101053B,0x101053C,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300EB,0x7F0300EE,0x7F0300EF,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F030206,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F030249,0x7F03024C }
+			// aapt resource value: { 0x10100C4,0x10100D5,0x10100D6,0x10100D7,0x10100D8,0x10100D9,0x10100DC,0x10100F4,0x10100F5,0x10100F6,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10103B3,0x10103B4,0x10103B5,0x10103B6,0x1010440,0x101053B,0x101053C,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300C1,0x7F0300EE,0x7F0300F1,0x7F0300F2,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F03020B,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F03024E,0x7F030251 }
 			public static int[] ConstraintLayout_Layout = new int[] {
 					16842948,
 					16842965,
@@ -26399,18 +27304,14 @@ namespace Havamal.Droid
 					2130903127,
 					2130903128,
 					2130903192,
-					2130903226,
-					2130903227,
-					2130903228,
 					2130903229,
 					2130903230,
-					2130903275,
+					2130903231,
+					2130903232,
+					2130903233,
 					2130903278,
-					2130903279,
-					2130903435,
-					2130903436,
-					2130903437,
-					2130903438,
+					2130903281,
+					2130903282,
 					2130903439,
 					2130903440,
 					2130903441,
@@ -26420,17 +27321,16 @@ namespace Havamal.Droid
 					2130903445,
 					2130903446,
 					2130903447,
+					2130903448,
 					2130903449,
 					2130903450,
 					2130903451,
-					2130903452,
 					2130903453,
-					2130903558,
-					2130903566,
-					2130903567,
-					2130903568,
-					2130903569,
-					2130903570,
+					2130903454,
+					2130903455,
+					2130903456,
+					2130903457,
+					2130903563,
 					2130903571,
 					2130903572,
 					2130903573,
@@ -26472,18 +27372,23 @@ namespace Havamal.Droid
 					2130903609,
 					2130903610,
 					2130903611,
+					2130903612,
 					2130903613,
 					2130903614,
 					2130903615,
 					2130903616,
-					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
 					2130903621,
+					2130903622,
+					2130903623,
 					2130903624,
 					2130903625,
-					2130903628};
+					2130903626,
+					2130903629,
+					2130903630,
+					2130903633};
 			
 			// aapt resource value: 22
 			public const int ConstraintLayout_Layout_android_elevation = 22;
@@ -26827,10 +27732,10 @@ namespace Havamal.Droid
 			// aapt resource value: 113
 			public const int ConstraintLayout_Layout_layout_wrapBehaviorInParent = 113;
 			
-			// aapt resource value: { 0x7F0300F1,0x7F0302ED }
+			// aapt resource value: { 0x7F0300F4,0x7F0302F2 }
 			public static int[] ConstraintLayout_placeholder = new int[] {
-					2130903281,
-					2130903789};
+					2130903284,
+					2130903794};
 			
 			// aapt resource value: 0
 			public const int ConstraintLayout_placeholder_content = 0;
@@ -26838,12 +27743,12 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int ConstraintLayout_placeholder_placeholder_emptyVisibility = 1;
 			
-			// aapt resource value: { 0x7F030313,0x7F030314,0x7F030315,0x7F030316 }
+			// aapt resource value: { 0x7F030318,0x7F030319,0x7F03031A,0x7F03031B }
 			public static int[] ConstraintLayout_ReactiveGuide = new int[] {
-					2130903827,
-					2130903828,
-					2130903829,
-					2130903830};
+					2130903832,
+					2130903833,
+					2130903834,
+					2130903835};
 			
 			// aapt resource value: 0
 			public const int ConstraintLayout_ReactiveGuide_reactiveGuide_animateChange = 0;
@@ -26857,7 +27762,7 @@ namespace Havamal.Droid
 			// aapt resource value: 3
 			public const int ConstraintLayout_ReactiveGuide_reactiveGuide_valueId = 3;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030214,0x7F030218,0x7F030219,0x7F03021A,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F03022B,0x7F030230,0x7F030231,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302B3,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F030308,0x7F030309,0x7F03030A,0x7F030402,0x7F030404,0x7F030406,0x7F030419 }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300F1,0x7F030145,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F030213,0x7F030214,0x7F030215,0x7F030219,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F030230,0x7F030235,0x7F030236,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F030251,0x7F0302B6,0x7F0302B7,0x7F0302B8,0x7F0302E6,0x7F0302EE,0x7F0302F3,0x7F03030D,0x7F03030E,0x7F03030F,0x7F030407,0x7F030409,0x7F03040B,0x7F03041E }
 			public static int[] ConstraintOverride = new int[] {
 					16842948,
 					16842960,
@@ -26892,12 +27797,8 @@ namespace Havamal.Droid
 					2130903127,
 					2130903128,
 					2130903192,
-					2130903278,
-					2130903362,
-					2130903435,
-					2130903436,
-					2130903437,
-					2130903438,
+					2130903281,
+					2130903365,
 					2130903439,
 					2130903440,
 					2130903441,
@@ -26907,23 +27808,22 @@ namespace Havamal.Droid
 					2130903445,
 					2130903446,
 					2130903447,
+					2130903448,
 					2130903449,
 					2130903450,
 					2130903451,
-					2130903452,
 					2130903453,
-					2130903566,
-					2130903567,
-					2130903568,
+					2130903454,
+					2130903455,
+					2130903456,
+					2130903457,
+					2130903571,
 					2130903572,
-					2130903576,
+					2130903573,
 					2130903577,
-					2130903578,
 					2130903581,
 					2130903582,
 					2130903583,
-					2130903584,
-					2130903585,
 					2130903586,
 					2130903587,
 					2130903588,
@@ -26931,41 +27831,46 @@ namespace Havamal.Droid
 					2130903590,
 					2130903591,
 					2130903592,
+					2130903593,
+					2130903594,
 					2130903595,
+					2130903596,
+					2130903597,
 					2130903600,
-					2130903601,
-					2130903604,
 					2130903605,
 					2130903606,
-					2130903607,
-					2130903608,
 					2130903609,
 					2130903610,
 					2130903611,
+					2130903612,
 					2130903613,
 					2130903614,
 					2130903615,
 					2130903616,
-					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
 					2130903621,
+					2130903622,
+					2130903623,
 					2130903624,
-					2130903628,
-					2130903729,
-					2130903730,
-					2130903731,
-					2130903777,
-					2130903785,
+					2130903625,
+					2130903626,
+					2130903629,
+					2130903633,
+					2130903734,
+					2130903735,
+					2130903736,
+					2130903782,
 					2130903790,
-					2130903816,
-					2130903817,
-					2130903818,
-					2130904066,
-					2130904068,
-					2130904070,
-					2130904089};
+					2130903795,
+					2130903821,
+					2130903822,
+					2130903823,
+					2130904071,
+					2130904073,
+					2130904075,
+					2130904094};
 			
 			// aapt resource value: 13
 			public const int ConstraintOverride_android_alpha = 13;
@@ -27288,7 +28193,7 @@ namespace Havamal.Droid
 			// aapt resource value: 106
 			public const int ConstraintOverride_visibilityMode = 106;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10101B5,0x10101B6,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030000,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F03012F,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F03030A,0x7F030404,0x7F030406 }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10101B5,0x10101B6,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030000,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300F1,0x7F0300F2,0x7F030132,0x7F030145,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F030251,0x7F0302B6,0x7F0302B7,0x7F0302E6,0x7F0302EE,0x7F0302F3,0x7F03030F,0x7F030409,0x7F03040B }
 			public static int[] ConstraintSet = new int[] {
 					16842948,
 					16842960,
@@ -27326,14 +28231,10 @@ namespace Havamal.Droid
 					2130903127,
 					2130903128,
 					2130903192,
-					2130903278,
-					2130903279,
-					2130903343,
-					2130903362,
-					2130903435,
-					2130903436,
-					2130903437,
-					2130903438,
+					2130903281,
+					2130903282,
+					2130903346,
+					2130903365,
 					2130903439,
 					2130903440,
 					2130903441,
@@ -27343,16 +28244,15 @@ namespace Havamal.Droid
 					2130903445,
 					2130903446,
 					2130903447,
+					2130903448,
 					2130903449,
 					2130903450,
 					2130903451,
-					2130903452,
 					2130903453,
-					2130903566,
-					2130903567,
-					2130903568,
-					2130903569,
-					2130903570,
+					2130903454,
+					2130903455,
+					2130903456,
+					2130903457,
 					2130903571,
 					2130903572,
 					2130903573,
@@ -27366,11 +28266,11 @@ namespace Havamal.Droid
 					2130903581,
 					2130903582,
 					2130903583,
+					2130903584,
 					2130903585,
 					2130903586,
 					2130903587,
 					2130903588,
-					2130903589,
 					2130903590,
 					2130903591,
 					2130903592,
@@ -27388,6 +28288,7 @@ namespace Havamal.Droid
 					2130903604,
 					2130903605,
 					2130903606,
+					2130903607,
 					2130903608,
 					2130903609,
 					2130903610,
@@ -27396,21 +28297,25 @@ namespace Havamal.Droid
 					2130903614,
 					2130903615,
 					2130903616,
-					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
 					2130903621,
+					2130903622,
+					2130903623,
 					2130903624,
-					2130903628,
-					2130903729,
-					2130903730,
-					2130903777,
-					2130903785,
+					2130903625,
+					2130903626,
+					2130903629,
+					2130903633,
+					2130903734,
+					2130903735,
+					2130903782,
 					2130903790,
-					2130903818,
-					2130904068,
-					2130904070};
+					2130903795,
+					2130903823,
+					2130904073,
+					2130904075};
 			
 			// aapt resource value: 15
 			public const int ConstraintSet_android_alpha = 15;
@@ -28144,23 +29049,23 @@ namespace Havamal.Droid
 			// aapt resource value: 122
 			public const int Constraint_visibilityMode = 122;
 			
-			// aapt resource value: { 0x7F0301FF,0x7F030366 }
+			// aapt resource value: { 0x7F030203,0x7F03036B }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903551,
-					2130903910};
+					2130903555,
+					2130903915};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F030209,0x7F03020A,0x7F03020B,0x7F03023C,0x7F030246,0x7F030247 }
+			// aapt resource value: { 0x10100B3,0x7F03020E,0x7F03020F,0x7F030210,0x7F030241,0x7F03024B,0x7F03024C }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903561,
-					2130903562,
-					2130903563,
-					2130903612,
-					2130903622,
-					2130903623};
+					2130903566,
+					2130903567,
+					2130903568,
+					2130903617,
+					2130903627,
+					2130903628};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -28186,19 +29091,19 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F03003E,0x7F030118,0x7F030119,0x7F03011A,0x7F03011B,0x7F03011C,0x7F03011D,0x7F03011F,0x7F030120,0x7F030121,0x7F03028C }
+			// aapt resource value: { 0x7F03003E,0x7F03011B,0x7F03011C,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030120,0x7F030122,0x7F030123,0x7F030124,0x7F030291 }
 			public static int[] CustomAttribute = new int[] {
 					2130903102,
-					2130903320,
-					2130903321,
-					2130903322,
 					2130903323,
 					2130903324,
 					2130903325,
+					2130903326,
 					2130903327,
 					2130903328,
-					2130903329,
-					2130903692};
+					2130903330,
+					2130903331,
+					2130903332,
+					2130903697};
 			
 			// aapt resource value: 0
 			public const int CustomAttribute_attributeName = 0;
@@ -28233,7 +29138,7 @@ namespace Havamal.Droid
 			// aapt resource value: 10
 			public const int CustomAttribute_methodName = 10;
 			
-			// aapt resource value: { 0x10101F2,0x10101F3,0x10101F4,0x10101F5,0x10101F6,0x10101F7,0x7F030132,0x7F030133,0x7F030134,0x7F030138,0x7F0302BF,0x7F0302F7 }
+			// aapt resource value: { 0x10101F2,0x10101F3,0x10101F4,0x10101F5,0x10101F6,0x10101F7,0x7F030135,0x7F030136,0x7F030137,0x7F03013B,0x7F0302C4,0x7F0302FC }
 			public static int[] DialogPreference = new int[] {
 					16843250,
 					16843251,
@@ -28241,12 +29146,12 @@ namespace Havamal.Droid
 					16843253,
 					16843254,
 					16843255,
-					2130903346,
-					2130903347,
-					2130903348,
-					2130903352,
-					2130903743,
-					2130903799};
+					2130903349,
+					2130903350,
+					2130903351,
+					2130903355,
+					2130903748,
+					2130903804};
 			
 			// aapt resource value: 2
 			public const int DialogPreference_android_dialogIcon = 2;
@@ -28284,16 +29189,16 @@ namespace Havamal.Droid
 			// aapt resource value: 11
 			public const int DialogPreference_positiveButtonText = 11;
 			
-			// aapt resource value: { 0x7F03003C,0x7F03003D,0x7F030055,0x7F0300D4,0x7F030147,0x7F0301AE,0x7F03034E,0x7F0303D0 }
+			// aapt resource value: { 0x7F03003C,0x7F03003D,0x7F030055,0x7F0300D7,0x7F03014A,0x7F0301B2,0x7F030353,0x7F0303D5 }
 			public static int[] DrawerArrowToggle = new int[] {
 					2130903100,
 					2130903101,
 					2130903125,
-					2130903252,
-					2130903367,
-					2130903470,
-					2130903886,
-					2130904016};
+					2130903255,
+					2130903370,
+					2130903474,
+					2130903891,
+					2130904021};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -28319,28 +29224,28 @@ namespace Havamal.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030156 }
+			// aapt resource value: { 0x7F030159 }
 			public static int[] DrawerLayout = new int[] {
-					2130903382};
+					2130903385};
 			
 			// aapt resource value: 0
 			public const int DrawerLayout_elevation = 0;
 			
-			// aapt resource value: { 0x7F030411 }
+			// aapt resource value: { 0x7F030416 }
 			public static int[] EditTextPreference = new int[] {
-					2130904081};
+					2130904086};
 			
 			// aapt resource value: 0
 			public const int EditTextPreference_useSimpleSummaryProvider = 0;
 			
-			// aapt resource value: { 0x7F0300CF,0x7F030156,0x7F03017A,0x7F0301BB,0x7F03033E,0x7F030343 }
+			// aapt resource value: { 0x7F0300D2,0x7F030159,0x7F03017E,0x7F0301BF,0x7F030343,0x7F030348 }
 			public static int[] ExtendedFloatingActionButton = new int[] {
-					2130903247,
-					2130903382,
-					2130903418,
-					2130903483,
-					2130903870,
-					2130903875};
+					2130903250,
+					2130903385,
+					2130903422,
+					2130903487,
+					2130903875,
+					2130903880};
 			
 			// aapt resource value: { 0x7F030059,0x7F03005A }
 			public static int[] ExtendedFloatingActionButton_Behavior_Layout = new int[] {
@@ -28371,25 +29276,25 @@ namespace Havamal.Droid
 			// aapt resource value: 5
 			public const int ExtendedFloatingActionButton_shrinkMotionSpec = 5;
 			
-			// aapt resource value: { 0x101000E,0x7F030050,0x7F030051,0x7F030067,0x7F030156,0x7F030164,0x7F030182,0x7F030183,0x7F0301BB,0x7F0301C5,0x7F030285,0x7F030305,0x7F03031D,0x7F030333,0x7F030336,0x7F03033E,0x7F03040F }
+			// aapt resource value: { 0x101000E,0x7F030050,0x7F030051,0x7F030067,0x7F030159,0x7F030168,0x7F030186,0x7F030187,0x7F0301BF,0x7F0301C9,0x7F03028A,0x7F03030A,0x7F030322,0x7F030338,0x7F03033B,0x7F030343,0x7F030414 }
 			public static int[] FloatingActionButton = new int[] {
 					16842766,
 					2130903120,
 					2130903121,
 					2130903143,
-					2130903382,
-					2130903396,
-					2130903426,
-					2130903427,
-					2130903483,
-					2130903493,
-					2130903685,
-					2130903813,
-					2130903837,
-					2130903859,
-					2130903862,
-					2130903870,
-					2130904079};
+					2130903385,
+					2130903400,
+					2130903430,
+					2130903431,
+					2130903487,
+					2130903497,
+					2130903690,
+					2130903818,
+					2130903842,
+					2130903864,
+					2130903867,
+					2130903875,
+					2130904084};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_android_enabled = 0;
@@ -28449,10 +29354,10 @@ namespace Havamal.Droid
 			// aapt resource value: 16
 			public const int FloatingActionButton_useCompatPadding = 16;
 			
-			// aapt resource value: { 0x7F0301F5,0x7F030251 }
+			// aapt resource value: { 0x7F0301F9,0x7F030256 }
 			public static int[] FlowLayout = new int[] {
-					2130903541,
-					2130903633};
+					2130903545,
+					2130903638};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -28460,28 +29365,28 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A5,0x7F0301A6 }
+			// aapt resource value: { 0x7F0301A4,0x7F0301A5,0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AA }
 			public static int[] FontFamily = new int[] {
-					2130903456,
-					2130903457,
-					2130903458,
-					2130903459,
 					2130903460,
 					2130903461,
-					2130903462};
+					2130903462,
+					2130903463,
+					2130903464,
+					2130903465,
+					2130903466};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03019E,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F03040B }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0301A2,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F030410 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903454,
-					2130903463,
-					2130903464,
-					2130903465,
-					2130904075};
+					2130903458,
+					2130903467,
+					2130903468,
+					2130903469,
+					2130904080};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -28534,11 +29439,11 @@ namespace Havamal.Droid
 			// aapt resource value: 6
 			public const int FontFamily_fontProviderSystemFontFamily = 6;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0301AB }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F0301AF }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903467};
+					2130903471};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -28637,22 +29542,22 @@ namespace Havamal.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x7F030034,0x7F030064,0x7F030078,0x7F030101,0x7F030115,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0302D0,0x7F03031F,0x7F030320,0x7F030321,0x7F03041B }
+			// aapt resource value: { 0x7F030034,0x7F030064,0x7F030078,0x7F030104,0x7F030118,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0302D5,0x7F030324,0x7F030325,0x7F030326,0x7F030420 }
 			public static int[] ImageFilterView = new int[] {
 					2130903092,
 					2130903140,
 					2130903160,
-					2130903297,
-					2130903317,
-					2130903507,
-					2130903508,
-					2130903509,
-					2130903510,
-					2130903760,
-					2130903839,
-					2130903840,
-					2130903841,
-					2130904091};
+					2130903300,
+					2130903320,
+					2130903511,
+					2130903512,
+					2130903513,
+					2130903514,
+					2130903765,
+					2130903844,
+					2130903845,
+					2130903846,
+					2130904096};
 			
 			// aapt resource value: 0
 			public const int ImageFilterView_altSrc = 0;
@@ -28696,19 +29601,19 @@ namespace Havamal.Droid
 			// aapt resource value: 13
 			public const int ImageFilterView_warmth = 13;
 			
-			// aapt resource value: { 0x7F0300EB }
+			// aapt resource value: { 0x7F0300EE }
 			public static int[] include = new int[] {
-					2130903275};
+					2130903278};
 			
 			// aapt resource value: 0
 			public const int include_constraintSet = 0;
 			
-			// aapt resource value: { 0x7F0302D2,0x7F0302D4,0x7F0302D5,0x7F0302D8 }
+			// aapt resource value: { 0x7F0302D7,0x7F0302D9,0x7F0302DA,0x7F0302DD }
 			public static int[] Insets = new int[] {
-					2130903762,
-					2130903764,
-					2130903765,
-					2130903768};
+					2130903767,
+					2130903769,
+					2130903770,
+					2130903773};
 			
 			// aapt resource value: 0
 			public const int Insets_paddingBottomSystemWindowInsets = 0;
@@ -28722,14 +29627,14 @@ namespace Havamal.Droid
 			// aapt resource value: 3
 			public const int Insets_paddingTopSystemWindowInsets = 3;
 			
-			// aapt resource value: { 0x7F0300D3 }
+			// aapt resource value: { 0x7F0300D6 }
 			public static int[] ItemsViewRendererTheme = new int[] {
-					2130903251};
+					2130903254};
 			
 			// aapt resource value: 0
 			public const int ItemsViewRendererTheme_collectionViewStyle = 0;
 			
-			// aapt resource value: { 0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030402,0x7F030404,0x7F030406 }
+			// aapt resource value: { 0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F03011A,0x7F0301B1,0x7F0302B6,0x7F0302B8,0x7F030407,0x7F030409,0x7F03040B }
 			public static int[] KeyAttribute = new int[] {
 					16843551,
 					16843552,
@@ -28743,13 +29648,13 @@ namespace Havamal.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130903319,
-					2130903469,
-					2130903729,
-					2130903731,
-					2130904066,
-					2130904068,
-					2130904070};
+					2130903322,
+					2130903473,
+					2130903734,
+					2130903736,
+					2130904071,
+					2130904073,
+					2130904075};
 			
 			// aapt resource value: 0
 			public const int KeyAttribute_android_alpha = 0;
@@ -28808,7 +29713,7 @@ namespace Havamal.Droid
 			// aapt resource value: 18
 			public const int KeyAttribute_transitionPathRotate = 18;
 			
-			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030404,0x7F030406,0x7F03041D,0x7F03041E,0x7F03041F,0x7F030420,0x7F030421 }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F03011A,0x7F0301B1,0x7F0302B6,0x7F0302B8,0x7F030409,0x7F03040B,0x7F030422,0x7F030423,0x7F030424,0x7F030425,0x7F030426 }
 			public static int[] KeyCycle = new int[] {
 					16843551,
 					16843554,
@@ -28820,17 +29725,17 @@ namespace Havamal.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130903319,
-					2130903469,
-					2130903729,
-					2130903731,
-					2130904068,
-					2130904070,
-					2130904093,
-					2130904094,
-					2130904095,
-					2130904096,
-					2130904097};
+					2130903322,
+					2130903473,
+					2130903734,
+					2130903736,
+					2130904073,
+					2130904075,
+					2130904098,
+					2130904099,
+					2130904100,
+					2130904101,
+					2130904102};
 			
 			// aapt resource value: 0
 			public const int KeyCycle_android_alpha = 0;
@@ -28907,20 +29812,20 @@ namespace Havamal.Droid
 			public static int[] KeyFramesVelocity = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030117,0x7F030142,0x7F0301AD,0x7F0301FD,0x7F0302B3,0x7F0302E1,0x7F0302E3,0x7F0302E4,0x7F0302E5,0x7F0302E6,0x7F030348,0x7F030404 }
+			// aapt resource value: { 0x7F03011A,0x7F030145,0x7F0301B1,0x7F030201,0x7F0302B8,0x7F0302E6,0x7F0302E8,0x7F0302E9,0x7F0302EA,0x7F0302EB,0x7F03034D,0x7F030409 }
 			public static int[] KeyPosition = new int[] {
-					2130903319,
-					2130903362,
-					2130903469,
-					2130903549,
-					2130903731,
-					2130903777,
-					2130903779,
-					2130903780,
-					2130903781,
+					2130903322,
+					2130903365,
+					2130903473,
+					2130903553,
+					2130903736,
 					2130903782,
-					2130903880,
-					2130904068};
+					2130903784,
+					2130903785,
+					2130903786,
+					2130903787,
+					2130903885,
+					2130904073};
 			
 			// aapt resource value: 0
 			public const int KeyPosition_curveFit = 0;
@@ -28958,7 +29863,7 @@ namespace Havamal.Droid
 			// aapt resource value: 11
 			public const int KeyPosition_transitionEasing = 11;
 			
-			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030404,0x7F030406,0x7F03041C,0x7F03041D,0x7F03041E,0x7F03041F,0x7F030420 }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F03011A,0x7F0301B1,0x7F0302B6,0x7F0302B8,0x7F030409,0x7F03040B,0x7F030421,0x7F030422,0x7F030423,0x7F030424,0x7F030425 }
 			public static int[] KeyTimeCycle = new int[] {
 					16843551,
 					16843554,
@@ -28970,17 +29875,17 @@ namespace Havamal.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130903319,
-					2130903469,
-					2130903729,
-					2130903731,
-					2130904068,
-					2130904070,
-					2130904092,
-					2130904093,
-					2130904094,
-					2130904095,
-					2130904096};
+					2130903322,
+					2130903473,
+					2130903734,
+					2130903736,
+					2130904073,
+					2130904075,
+					2130904097,
+					2130904098,
+					2130904099,
+					2130904100,
+					2130904101};
 			
 			// aapt resource value: 0
 			public const int KeyTimeCycle_android_alpha = 0;
@@ -29045,21 +29950,21 @@ namespace Havamal.Droid
 			// aapt resource value: 20
 			public const int KeyTimeCycle_waveShape = 20;
 			
-			// aapt resource value: { 0x7F0301AD,0x7F0302B3,0x7F0302B4,0x7F0302B5,0x7F0302C6,0x7F0302C8,0x7F0302C9,0x7F030408,0x7F030409,0x7F03040A,0x7F030416,0x7F030417,0x7F030418 }
+			// aapt resource value: { 0x7F0301B1,0x7F0302B8,0x7F0302B9,0x7F0302BA,0x7F0302CB,0x7F0302CD,0x7F0302CE,0x7F03040D,0x7F03040E,0x7F03040F,0x7F03041B,0x7F03041C,0x7F03041D }
 			public static int[] KeyTrigger = new int[] {
-					2130903469,
-					2130903731,
-					2130903732,
-					2130903733,
-					2130903750,
-					2130903752,
-					2130903753,
-					2130904072,
-					2130904073,
-					2130904074,
-					2130904086,
-					2130904087,
-					2130904088};
+					2130903473,
+					2130903736,
+					2130903737,
+					2130903738,
+					2130903755,
+					2130903757,
+					2130903758,
+					2130904077,
+					2130904078,
+					2130904079,
+					2130904091,
+					2130904092,
+					2130904093};
 			
 			// aapt resource value: 0
 			public const int KeyTrigger_framePosition = 0;
@@ -29100,7 +30005,7 @@ namespace Havamal.Droid
 			// aapt resource value: 12
 			public const int KeyTrigger_viewTransitionOnPositiveCross = 12;
 			
-			// aapt resource value: { 0x10100C4,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x10103B5,0x10103B6,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F030284,0x7F030288,0x7F03028F,0x7F030293 }
+			// aapt resource value: { 0x10100C4,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x10103B5,0x10103B6,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300F1,0x7F0300F2,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F030251,0x7F030289,0x7F03028D,0x7F030294,0x7F030298 }
 			public static int[] Layout = new int[] {
 					16842948,
 					16842996,
@@ -29115,13 +30020,8 @@ namespace Havamal.Droid
 					2130903127,
 					2130903128,
 					2130903192,
-					2130903278,
-					2130903279,
-					2130903566,
-					2130903567,
-					2130903568,
-					2130903569,
-					2130903570,
+					2130903281,
+					2130903282,
 					2130903571,
 					2130903572,
 					2130903573,
@@ -29151,32 +30051,37 @@ namespace Havamal.Droid
 					2130903597,
 					2130903598,
 					2130903599,
+					2130903600,
 					2130903601,
 					2130903602,
 					2130903603,
 					2130903604,
-					2130903605,
 					2130903606,
 					2130903607,
 					2130903608,
 					2130903609,
 					2130903610,
 					2130903611,
+					2130903612,
 					2130903613,
 					2130903614,
 					2130903615,
 					2130903616,
-					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
 					2130903621,
+					2130903622,
+					2130903623,
 					2130903624,
-					2130903628,
-					2130903684,
-					2130903688,
-					2130903695,
-					2130903699};
+					2130903625,
+					2130903626,
+					2130903629,
+					2130903633,
+					2130903689,
+					2130903693,
+					2130903700,
+					2130903704};
 			
 			// aapt resource value: 2
 			public const int Layout_android_layout_height = 2;
@@ -29403,17 +30308,17 @@ namespace Havamal.Droid
 			// aapt resource value: 74
 			public const int Layout_minWidth = 74;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F03013B,0x7F03013D,0x7F030289,0x7F03033D }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F03013E,0x7F030140,0x7F03028E,0x7F030342 }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903355,
-					2130903357,
-					2130903689,
-					2130903869};
+					2130903358,
+					2130903360,
+					2130903694,
+					2130903874};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -29461,10 +30366,10 @@ namespace Havamal.Droid
 			// aapt resource value: 8
 			public const int LinearLayoutCompat_showDividers = 8;
 			
-			// aapt resource value: { 0x7F0301D7,0x7F0301DB }
+			// aapt resource value: { 0x7F0301DB,0x7F0301DF }
 			public static int[] LinearProgressIndicator = new int[] {
-					2130903511,
-					2130903515};
+					2130903515,
+					2130903519};
 			
 			// aapt resource value: 0
 			public const int LinearProgressIndicator_indeterminateAnimationType = 0;
@@ -29483,13 +30388,13 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10100B2,0x10101F8,0x7F030166,0x7F030167,0x7F030411 }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F03016A,0x7F03016B,0x7F030416 }
 			public static int[] ListPreference = new int[] {
 					16842930,
 					16843256,
-					2130903398,
-					2130903399,
-					2130904081};
+					2130903402,
+					2130903403,
+					2130904086};
 			
 			// aapt resource value: 0
 			public const int ListPreference_android_entries = 0;
@@ -29513,13 +30418,13 @@ namespace Havamal.Droid
 					2130903115,
 					2130903116};
 			
-			// aapt resource value: { 0x7F030264,0x7F030265,0x7F030266,0x7F030267,0x7F030268 }
+			// aapt resource value: { 0x7F030269,0x7F03026A,0x7F03026B,0x7F03026C,0x7F03026D }
 			public static int[] MaterialAlertDialogTheme = new int[] {
-					2130903652,
-					2130903653,
-					2130903654,
-					2130903655,
-					2130903656};
+					2130903657,
+					2130903658,
+					2130903659,
+					2130903660,
+					2130903661};
 			
 			// aapt resource value: 0
 			public const int MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = 0;
@@ -29555,7 +30460,7 @@ namespace Havamal.Droid
 			// aapt resource value: 0
 			public const int MaterialAutoCompleteTextView_android_inputType = 0;
 			
-			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F030050,0x7F030051,0x7F030109,0x7F030156,0x7F0301C6,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CD,0x7F0301CE,0x7F03031D,0x7F030333,0x7F030336,0x7F030369,0x7F03036A }
+			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F030050,0x7F030051,0x7F03010C,0x7F030159,0x7F0301CA,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301D1,0x7F0301D2,0x7F030322,0x7F030338,0x7F03033B,0x7F03036E,0x7F03036F }
 			public static int[] MaterialButton = new int[] {
 					16842964,
 					16843191,
@@ -29565,25 +30470,25 @@ namespace Havamal.Droid
 					16843237,
 					2130903120,
 					2130903121,
-					2130903305,
-					2130903382,
-					2130903494,
-					2130903496,
-					2130903497,
+					2130903308,
+					2130903385,
 					2130903498,
+					2130903500,
 					2130903501,
 					2130903502,
-					2130903837,
-					2130903859,
-					2130903862,
-					2130903913,
-					2130903914};
+					2130903505,
+					2130903506,
+					2130903842,
+					2130903864,
+					2130903867,
+					2130903918,
+					2130903919};
 			
-			// aapt resource value: { 0x7F03009B,0x7F030330,0x7F030347 }
+			// aapt resource value: { 0x7F03009E,0x7F030335,0x7F03034C }
 			public static int[] MaterialButtonToggleGroup = new int[] {
-					2130903195,
-					2130903856,
-					2130903879};
+					2130903198,
+					2130903861,
+					2130903884};
 			
 			// aapt resource value: 0
 			public const int MaterialButtonToggleGroup_checkedButton = 0;
@@ -29657,31 +30562,31 @@ namespace Havamal.Droid
 			// aapt resource value: 20
 			public const int MaterialButton_strokeWidth = 20;
 			
-			// aapt resource value: { 0x101020D,0x7F030124,0x7F030125,0x7F030126,0x7F030127,0x7F0302C2,0x7F03030F,0x7F03042D,0x7F03042E,0x7F03042F }
+			// aapt resource value: { 0x101020D,0x7F030127,0x7F030128,0x7F030129,0x7F03012A,0x7F0302C7,0x7F030314,0x7F030432,0x7F030433,0x7F030434 }
 			public static int[] MaterialCalendar = new int[] {
 					16843277,
-					2130903332,
-					2130903333,
-					2130903334,
 					2130903335,
-					2130903746,
-					2130903823,
-					2130904109,
-					2130904110,
-					2130904111};
+					2130903336,
+					2130903337,
+					2130903338,
+					2130903751,
+					2130903828,
+					2130904114,
+					2130904115,
+					2130904116};
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F0301E5,0x7F0301EE,0x7F0301EF,0x7F0301F6,0x7F0301F7,0x7F0301FB }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F0301E9,0x7F0301F2,0x7F0301F3,0x7F0301FA,0x7F0301FB,0x7F0301FF }
 			public static int[] MaterialCalendarItem = new int[] {
 					16843191,
 					16843192,
 					16843193,
 					16843194,
-					2130903525,
-					2130903534,
-					2130903535,
-					2130903542,
-					2130903543,
-					2130903547};
+					2130903529,
+					2130903538,
+					2130903539,
+					2130903546,
+					2130903547,
+					2130903551};
 			
 			// aapt resource value: 3
 			public const int MaterialCalendarItem_android_insetBottom = 3;
@@ -29743,20 +30648,20 @@ namespace Havamal.Droid
 			// aapt resource value: 9
 			public const int MaterialCalendar_yearTodayStyle = 9;
 			
-			// aapt resource value: { 0x10101E5,0x7F030089,0x7F03009D,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F03031D,0x7F030333,0x7F030336,0x7F030363,0x7F030369,0x7F03036A }
+			// aapt resource value: { 0x10101E5,0x7F030089,0x7F0300A0,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F030322,0x7F030338,0x7F03033B,0x7F030368,0x7F03036E,0x7F03036F }
 			public static int[] MaterialCardView = new int[] {
 					16843237,
 					2130903177,
-					2130903197,
-					2130903199,
 					2130903200,
-					2130903201,
-					2130903837,
-					2130903859,
-					2130903862,
-					2130903907,
-					2130903913,
-					2130903914};
+					2130903202,
+					2130903203,
+					2130903204,
+					2130903842,
+					2130903864,
+					2130903867,
+					2130903912,
+					2130903918,
+					2130903919};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_android_checkable = 0;
@@ -29794,10 +30699,10 @@ namespace Havamal.Droid
 			// aapt resource value: 11
 			public const int MaterialCardView_strokeWidth = 11;
 			
-			// aapt resource value: { 0x7F030084,0x7F030410 }
+			// aapt resource value: { 0x7F030084,0x7F030415 }
 			public static int[] MaterialCheckBox = new int[] {
 					2130903172,
-					2130904080};
+					2130904085};
 			
 			// aapt resource value: 0
 			public const int MaterialCheckBox_buttonTint = 0;
@@ -29805,10 +30710,10 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int MaterialCheckBox_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F030084,0x7F030410 }
+			// aapt resource value: { 0x7F030084,0x7F030415 }
 			public static int[] MaterialRadioButton = new int[] {
 					2130903172,
-					2130904080};
+					2130904085};
 			
 			// aapt resource value: 0
 			public const int MaterialRadioButton_buttonTint = 0;
@@ -29816,10 +30721,10 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int MaterialRadioButton_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F030333,0x7F030336 }
+			// aapt resource value: { 0x7F030338,0x7F03033B }
 			public static int[] MaterialShape = new int[] {
-					2130903859,
-					2130903862};
+					2130903864,
+					2130903867};
 			
 			// aapt resource value: 0
 			public const int MaterialShape_shapeAppearance = 0;
@@ -29827,11 +30732,11 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int MaterialShape_shapeAppearanceOverlay = 1;
 			
-			// aapt resource value: { 0x10104B6,0x101057F,0x7F030250 }
+			// aapt resource value: { 0x10104B6,0x101057F,0x7F030255 }
 			public static int[] MaterialTextAppearance = new int[] {
 					16843958,
 					16844159,
-					2130903632};
+					2130903637};
 			
 			// aapt resource value: 0
 			public const int MaterialTextAppearance_android_letterSpacing = 0;
@@ -29842,11 +30747,11 @@ namespace Havamal.Droid
 			// aapt resource value: 2
 			public const int MaterialTextAppearance_lineHeight = 2;
 			
-			// aapt resource value: { 0x1010034,0x101057F,0x7F030250 }
+			// aapt resource value: { 0x1010034,0x101057F,0x7F030255 }
 			public static int[] MaterialTextView = new int[] {
 					16842804,
 					16844159,
-					2130903632};
+					2130903637};
 			
 			// aapt resource value: 1
 			public const int MaterialTextView_android_lineHeight = 1;
@@ -29857,10 +30762,10 @@ namespace Havamal.Droid
 			// aapt resource value: 2
 			public const int MaterialTextView_lineHeight = 2;
 			
-			// aapt resource value: { 0x7F0300C3,0x7F0301FE }
+			// aapt resource value: { 0x7F0300C6,0x7F030202 }
 			public static int[] MaterialTimePicker = new int[] {
-					2130903235,
-					2130903550};
+					2130903238,
+					2130903554};
 			
 			// aapt resource value: 0
 			public const int MaterialTimePicker_clockIcon = 0;
@@ -29868,11 +30773,11 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int MaterialTimePicker_keyboardIcon = 1;
 			
-			// aapt resource value: { 0x7F0302BB,0x7F03036E,0x7F0303E3 }
+			// aapt resource value: { 0x7F0302C0,0x7F030373,0x7F0303E8 }
 			public static int[] MaterialToolbar = new int[] {
-					2130903739,
-					2130903918,
-					2130904035};
+					2130903744,
+					2130903923,
+					2130904040};
 			
 			// aapt resource value: 0
 			public const int MaterialToolbar_navigationIconTint = 0;
@@ -29910,7 +30815,7 @@ namespace Havamal.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030011,0x7F030025,0x7F030027,0x7F030033,0x7F0300F2,0x7F0301CD,0x7F0301CE,0x7F0302C5,0x7F03033B,0x7F0303F5 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030011,0x7F030025,0x7F030027,0x7F030033,0x7F0300F5,0x7F0301D1,0x7F0301D2,0x7F0302CA,0x7F030340,0x7F0303FA }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -29929,12 +30834,12 @@ namespace Havamal.Droid
 					2130903077,
 					2130903079,
 					2130903091,
-					2130903282,
-					2130903501,
-					2130903502,
-					2130903749,
-					2130903867,
-					2130904053};
+					2130903285,
+					2130903505,
+					2130903506,
+					2130903754,
+					2130903872,
+					2130904058};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -30005,7 +30910,7 @@ namespace Havamal.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030304,0x7F03036B }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030309,0x7F030370 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -30014,8 +30919,8 @@ namespace Havamal.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130903812,
-					2130903915};
+					2130903817,
+					2130903920};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -30044,14 +30949,14 @@ namespace Havamal.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x7F030294,0x7F030295,0x7F030296,0x7F030297,0x7F030298,0x7F030299 }
+			// aapt resource value: { 0x7F030299,0x7F03029A,0x7F03029B,0x7F03029C,0x7F03029D,0x7F03029E }
 			public static int[] MockView = new int[] {
-					2130903700,
-					2130903701,
-					2130903702,
-					2130903703,
-					2130903704,
-					2130903705};
+					2130903705,
+					2130903706,
+					2130903707,
+					2130903708,
+					2130903709,
+					2130903710};
 			
 			// aapt resource value: 0
 			public const int MockView_mock_diagonalsColor = 0;
@@ -30071,29 +30976,29 @@ namespace Havamal.Droid
 			// aapt resource value: 5
 			public const int MockView_mock_showLabel = 5;
 			
-			// aapt resource value: { 0x7F030035,0x7F030036,0x7F030142,0x7F0302B0,0x7F0302B2,0x7F0302E1,0x7F030308,0x7F030309,0x7F03030A,0x7F030404 }
+			// aapt resource value: { 0x7F030035,0x7F030036,0x7F030145,0x7F0302B5,0x7F0302B7,0x7F0302E6,0x7F03030D,0x7F03030E,0x7F03030F,0x7F030409 }
 			public static int[] Motion = new int[] {
 					2130903093,
 					2130903094,
-					2130903362,
-					2130903728,
-					2130903730,
-					2130903777,
-					2130903816,
-					2130903817,
-					2130903818,
-					2130904068};
+					2130903365,
+					2130903733,
+					2130903735,
+					2130903782,
+					2130903821,
+					2130903822,
+					2130903823,
+					2130904073};
 			
-			// aapt resource value: { 0x7F0302A6,0x7F0302A7,0x7F0302A8,0x7F0302A9,0x7F0302AA,0x7F0302AB,0x7F0302AC,0x7F0302AD }
+			// aapt resource value: { 0x7F0302AB,0x7F0302AC,0x7F0302AD,0x7F0302AE,0x7F0302AF,0x7F0302B0,0x7F0302B1,0x7F0302B2 }
 			public static int[] MotionEffect = new int[] {
-					2130903718,
-					2130903719,
-					2130903720,
-					2130903721,
-					2130903722,
 					2130903723,
 					2130903724,
-					2130903725};
+					2130903725,
+					2130903726,
+					2130903727,
+					2130903728,
+					2130903729,
+					2130903730};
 			
 			// aapt resource value: 0
 			public const int MotionEffect_motionEffect_alpha = 0;
@@ -30119,10 +31024,10 @@ namespace Havamal.Droid
 			// aapt resource value: 7
 			public const int MotionEffect_motionEffect_viewTransition = 7;
 			
-			// aapt resource value: { 0x7F0302C7,0x7F0302CA }
+			// aapt resource value: { 0x7F0302CC,0x7F0302CF }
 			public static int[] MotionHelper = new int[] {
-					2130903751,
-					2130903754};
+					2130903756,
+					2130903759};
 			
 			// aapt resource value: 0
 			public const int MotionHelper_onHide = 0;
@@ -30130,7 +31035,7 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int MotionHelper_onShow = 1;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x10100AF,0x101014F,0x1010164,0x10103AC,0x1010535,0x7F030065,0x7F030066,0x7F030322,0x7F0303B9,0x7F0303BA,0x7F0303BB,0x7F0303BC,0x7F0303BD,0x7F0303C5,0x7F0303C6,0x7F0303C7,0x7F0303C8,0x7F0303CA,0x7F0303CB,0x7F0303CC,0x7F0303CD }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x10100AF,0x101014F,0x1010164,0x10103AC,0x1010535,0x7F030065,0x7F030066,0x7F030327,0x7F0303BE,0x7F0303BF,0x7F0303C0,0x7F0303C1,0x7F0303C2,0x7F0303CA,0x7F0303CB,0x7F0303CC,0x7F0303CD,0x7F0303CF,0x7F0303D0,0x7F0303D1,0x7F0303D2 }
 			public static int[] MotionLabel = new int[] {
 					16842901,
 					16842902,
@@ -30143,20 +31048,20 @@ namespace Havamal.Droid
 					16844085,
 					2130903141,
 					2130903142,
-					2130903842,
-					2130903993,
-					2130903994,
-					2130903995,
-					2130903996,
-					2130903997,
-					2130904005,
-					2130904006,
-					2130904007,
-					2130904008,
+					2130903847,
+					2130903998,
+					2130903999,
+					2130904000,
+					2130904001,
+					2130904002,
 					2130904010,
 					2130904011,
 					2130904012,
-					2130904013};
+					2130904013,
+					2130904015,
+					2130904016,
+					2130904017,
+					2130904018};
 			
 			// aapt resource value: 8
 			public const int MotionLabel_android_autoSizeTextType = 8;
@@ -30233,14 +31138,14 @@ namespace Havamal.Droid
 			// aapt resource value: 24
 			public const int MotionLabel_textureWidth = 24;
 			
-			// aapt resource value: { 0x7F030039,0x7F030116,0x7F030206,0x7F03029A,0x7F0302B1,0x7F03033F }
+			// aapt resource value: { 0x7F030039,0x7F030119,0x7F03020B,0x7F03029F,0x7F0302B6,0x7F030344 }
 			public static int[] MotionLayout = new int[] {
 					2130903097,
-					2130903318,
-					2130903558,
-					2130903706,
-					2130903729,
-					2130903871};
+					2130903321,
+					2130903563,
+					2130903711,
+					2130903734,
+					2130903876};
 			
 			// aapt resource value: 0
 			public const int MotionLayout_applyMotionScene = 0;
@@ -30260,10 +31165,10 @@ namespace Havamal.Droid
 			// aapt resource value: 5
 			public const int MotionLayout_showPaths = 5;
 			
-			// aapt resource value: { 0x7F030128,0x7F030207 }
+			// aapt resource value: { 0x7F03012B,0x7F03020C }
 			public static int[] MotionScene = new int[] {
-					2130903336,
-					2130903559};
+					2130903339,
+					2130903564};
 			
 			// aapt resource value: 0
 			public const int MotionScene_defaultDuration = 0;
@@ -30271,11 +31176,11 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int MotionScene_layoutDuringTransition = 1;
 			
-			// aapt resource value: { 0x7F03039F,0x7F0303A0,0x7F0303A1 }
+			// aapt resource value: { 0x7F0303A4,0x7F0303A5,0x7F0303A6 }
 			public static int[] MotionTelltales = new int[] {
-					2130903967,
-					2130903968,
-					2130903969};
+					2130903972,
+					2130903973,
+					2130903974};
 			
 			// aapt resource value: 0
 			public const int MotionTelltales_telltales_tailColor = 0;
@@ -30316,12 +31221,12 @@ namespace Havamal.Droid
 			// aapt resource value: 9
 			public const int Motion_transitionEasing = 9;
 			
-			// aapt resource value: { 0x10100B2,0x10101F8,0x7F030166,0x7F030167 }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F03016A,0x7F03016B }
 			public static int[] MultiSelectListPreference = new int[] {
 					16842930,
 					16843256,
-					2130903398,
-					2130903399};
+					2130903402,
+					2130903403};
 			
 			// aapt resource value: 0
 			public const int MultiSelectListPreference_android_entries = 0;
@@ -30335,17 +31240,17 @@ namespace Havamal.Droid
 			// aapt resource value: 3
 			public const int MultiSelectListPreference_entryValues = 3;
 			
-			// aapt resource value: { 0x10100D0,0x7F030130,0x7F030165,0x7F03016F,0x7F030204,0x7F0302EF,0x7F0302F0,0x7F0302F1,0x7F0302F2 }
+			// aapt resource value: { 0x10100D0,0x7F030133,0x7F030169,0x7F030173,0x7F030209,0x7F0302F4,0x7F0302F5,0x7F0302F6,0x7F0302F7 }
 			public static int[] NavAction = new int[] {
 					16842960,
-					2130903344,
-					2130903397,
-					2130903407,
-					2130903556,
-					2130903791,
-					2130903792,
-					2130903793,
-					2130903794};
+					2130903347,
+					2130903401,
+					2130903411,
+					2130903561,
+					2130903796,
+					2130903797,
+					2130903798,
+					2130903799};
 			
 			// aapt resource value: 0
 			public const int NavAction_android_id = 0;
@@ -30374,12 +31279,12 @@ namespace Havamal.Droid
 			// aapt resource value: 8
 			public const int NavAction_popUpToInclusive = 8;
 			
-			// aapt resource value: { 0x1010003,0x10101ED,0x7F03003B,0x7F0302C3 }
+			// aapt resource value: { 0x1010003,0x10101ED,0x7F03003B,0x7F0302C8 }
 			public static int[] NavArgument = new int[] {
 					16842755,
 					16843245,
 					2130903099,
-					2130903747};
+					2130903752};
 			
 			// aapt resource value: 1
 			public const int NavArgument_android_defaultValue = 1;
@@ -30393,12 +31298,12 @@ namespace Havamal.Droid
 			// aapt resource value: 3
 			public const int NavArgument_nullable = 3;
 			
-			// aapt resource value: { 0x10104EE,0x7F030003,0x7F03028D,0x7F03040E }
+			// aapt resource value: { 0x10104EE,0x7F030003,0x7F030292,0x7F030413 }
 			public static int[] NavDeepLink = new int[] {
 					16844014,
 					2130903043,
-					2130903693,
-					2130904078};
+					2130903698,
+					2130904083};
 			
 			// aapt resource value: 1
 			public const int NavDeepLink_action = 1;
@@ -30412,33 +31317,33 @@ namespace Havamal.Droid
 			// aapt resource value: 3
 			public const int NavDeepLink_uri = 3;
 			
-			// aapt resource value: { 0x7F03035A }
+			// aapt resource value: { 0x7F03035F }
 			public static int[] NavGraphNavigator = new int[] {
-					2130903898};
+					2130903903};
 			
 			// aapt resource value: 0
 			public const int NavGraphNavigator_startDestination = 0;
 			
-			// aapt resource value: { 0x7F0302B8 }
+			// aapt resource value: { 0x7F0302BD }
 			public static int[] NavHost = new int[] {
-					2130903736};
+					2130903741};
 			
 			// aapt resource value: 0
 			public const int NavHost_navGraph = 0;
 			
-			// aapt resource value: { 0x7F030050,0x7F030156,0x7F0301E4,0x7F0301E9,0x7F0301EA,0x7F0301ED,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F030202,0x7F03028A }
+			// aapt resource value: { 0x7F030050,0x7F030159,0x7F0301E8,0x7F0301ED,0x7F0301EE,0x7F0301F1,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030207,0x7F03028F }
 			public static int[] NavigationBarView = new int[] {
 					2130903120,
-					2130903382,
-					2130903524,
-					2130903529,
-					2130903530,
+					2130903385,
+					2130903528,
 					2130903533,
-					2130903545,
-					2130903546,
-					2130903547,
-					2130903554,
-					2130903690};
+					2130903534,
+					2130903537,
+					2130903549,
+					2130903550,
+					2130903551,
+					2130903559,
+					2130903695};
 			
 			// aapt resource value: 0
 			public const int NavigationBarView_backgroundTint = 0;
@@ -30473,10 +31378,10 @@ namespace Havamal.Droid
 			// aapt resource value: 10
 			public const int NavigationBarView_menu = 10;
 			
-			// aapt resource value: { 0x7F0301B4,0x7F03028B }
+			// aapt resource value: { 0x7F0301B8,0x7F030290 }
 			public static int[] NavigationRailView = new int[] {
-					2130903476,
-					2130903691};
+					2130903480,
+					2130903696};
 			
 			// aapt resource value: 0
 			public const int NavigationRailView_headerLayout = 0;
@@ -30484,31 +31389,31 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int NavigationRailView_menuGravity = 1;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F030156,0x7F0301B4,0x7F0301E4,0x7F0301E6,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F8,0x7F0301FB,0x7F03028A,0x7F030333,0x7F030336 }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F030159,0x7F0301B8,0x7F0301E8,0x7F0301EA,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301FC,0x7F0301FF,0x7F03028F,0x7F030338,0x7F03033B }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903382,
-					2130903476,
-					2130903524,
-					2130903526,
+					2130903385,
+					2130903480,
 					2130903528,
-					2130903529,
 					2130903530,
-					2130903531,
+					2130903532,
+					2130903533,
 					2130903534,
 					2130903535,
-					2130903536,
-					2130903537,
 					2130903538,
 					2130903539,
 					2130903540,
+					2130903541,
+					2130903542,
+					2130903543,
 					2130903544,
-					2130903547,
-					2130903690,
-					2130903859,
-					2130903862};
+					2130903548,
+					2130903551,
+					2130903695,
+					2130903864,
+					2130903867};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -30590,17 +31495,17 @@ namespace Havamal.Droid
 			// aapt resource value: 0
 			public const int Navigator_android_label = 0;
 			
-			// aapt resource value: { 0x7F0301B1 }
+			// aapt resource value: { 0x7F0301B5 }
 			public static int[] NavInclude = new int[] {
-					2130903473};
+					2130903477};
 			
 			// aapt resource value: 0
 			public const int NavInclude_graph = 0;
 			
-			// aapt resource value: { 0x7F0300C0,0x7F03039D }
+			// aapt resource value: { 0x7F0300C3,0x7F0303A2 }
 			public static int[] OnClick = new int[] {
-					2130903232,
-					2130903965};
+					2130903235,
+					2130903970};
 			
 			// aapt resource value: 0
 			public const int OnClick_clickAction = 0;
@@ -30608,27 +31513,27 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int OnClick_targetId = 1;
 			
-			// aapt resource value: { 0x7F03003F,0x7F03013F,0x7F030140,0x7F030141,0x7F03024F,0x7F030280,0x7F030287,0x7F0302B6,0x7F0302C0,0x7F0302CC,0x7F03031E,0x7F030352,0x7F030353,0x7F030354,0x7F030355,0x7F030356,0x7F0303F6,0x7F0303F7,0x7F0303F8 }
+			// aapt resource value: { 0x7F03003F,0x7F030142,0x7F030143,0x7F030144,0x7F030254,0x7F030285,0x7F03028C,0x7F0302BB,0x7F0302C5,0x7F0302D1,0x7F030323,0x7F030357,0x7F030358,0x7F030359,0x7F03035A,0x7F03035B,0x7F0303FB,0x7F0303FC,0x7F0303FD }
 			public static int[] OnSwipe = new int[] {
 					2130903103,
-					2130903359,
-					2130903360,
-					2130903361,
-					2130903631,
-					2130903680,
-					2130903687,
-					2130903734,
-					2130903744,
-					2130903756,
-					2130903838,
-					2130903890,
-					2130903891,
-					2130903892,
-					2130903893,
-					2130903894,
-					2130904054,
-					2130904055,
-					2130904056};
+					2130903362,
+					2130903363,
+					2130903364,
+					2130903636,
+					2130903685,
+					2130903692,
+					2130903739,
+					2130903749,
+					2130903761,
+					2130903843,
+					2130903895,
+					2130903896,
+					2130903897,
+					2130903898,
+					2130903899,
+					2130904059,
+					2130904060,
+					2130904061};
 			
 			// aapt resource value: 0
 			public const int OnSwipe_autoCompleteMode = 0;
@@ -30687,15 +31592,15 @@ namespace Havamal.Droid
 			// aapt resource value: 18
 			public const int OnSwipe_touchRegionId = 18;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F0302CF }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F0302D4 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903759};
+					2130903764};
 			
-			// aapt resource value: { 0x7F030360 }
+			// aapt resource value: { 0x7F030365 }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903904};
+					2130903909};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -30709,7 +31614,7 @@ namespace Havamal.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000D,0x101000E,0x10100F2,0x10101E1,0x10101E6,0x10101E8,0x10101E9,0x10101EA,0x10101EB,0x10101EC,0x10101ED,0x10101EE,0x10102E3,0x101055C,0x1010561,0x7F03002E,0x7F030030,0x7F03012B,0x7F03012E,0x7F030159,0x7F03015B,0x7F0301AC,0x7F0301C6,0x7F0301CB,0x7F0301E3,0x7F0301FC,0x7F030205,0x7F0302CD,0x7F0302E8,0x7F03032D,0x7F030339,0x7F030346,0x7F030376,0x7F0303E2,0x7F030422 }
+			// aapt resource value: { 0x1010002,0x101000D,0x101000E,0x10100F2,0x10101E1,0x10101E6,0x10101E8,0x10101E9,0x10101EA,0x10101EB,0x10101EC,0x10101ED,0x10101EE,0x10102E3,0x101055C,0x1010561,0x7F03002E,0x7F030030,0x7F03012E,0x7F030131,0x7F03015D,0x7F03015F,0x7F0301B0,0x7F0301CA,0x7F0301CF,0x7F0301E7,0x7F030200,0x7F03020A,0x7F0302D2,0x7F0302ED,0x7F030332,0x7F03033E,0x7F03034B,0x7F03037B,0x7F0303E7,0x7F030427 }
 			public static int[] Preference = new int[] {
 					16842754,
 					16842765,
@@ -30729,24 +31634,24 @@ namespace Havamal.Droid
 					16844129,
 					2130903086,
 					2130903088,
-					2130903339,
 					2130903342,
-					2130903385,
-					2130903387,
-					2130903468,
-					2130903494,
-					2130903499,
-					2130903523,
-					2130903548,
-					2130903557,
-					2130903757,
-					2130903784,
-					2130903853,
-					2130903865,
-					2130903878,
-					2130903926,
-					2130904034,
-					2130904098};
+					2130903345,
+					2130903389,
+					2130903391,
+					2130903472,
+					2130903498,
+					2130903503,
+					2130903527,
+					2130903552,
+					2130903562,
+					2130903762,
+					2130903789,
+					2130903858,
+					2130903870,
+					2130903883,
+					2130903931,
+					2130904039,
+					2130904103};
 			
 			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03002F }
 			public static int[] PreferenceFragment = new int[] {
@@ -30786,11 +31691,11 @@ namespace Havamal.Droid
 			// aapt resource value: 0
 			public const int PreferenceFragment_android_layout = 0;
 			
-			// aapt resource value: { 0x10101E7,0x7F0301DF,0x7F0302CE }
+			// aapt resource value: { 0x10101E7,0x7F0301E3,0x7F0302D3 }
 			public static int[] PreferenceGroup = new int[] {
 					16843239,
-					2130903519,
-					2130903758};
+					2130903523,
+					2130903763};
 			
 			// aapt resource value: 0
 			public const int PreferenceGroup_android_orderingFromXml = 0;
@@ -30801,12 +31706,12 @@ namespace Havamal.Droid
 			// aapt resource value: 2
 			public const int PreferenceGroup_orderingFromXml = 2;
 			
-			// aapt resource value: { 0x101011F,0x1010120,0x7F030284,0x7F030288 }
+			// aapt resource value: { 0x101011F,0x1010120,0x7F030289,0x7F03028D }
 			public static int[] PreferenceImageView = new int[] {
 					16843039,
 					16843040,
-					2130903684,
-					2130903688};
+					2130903689,
+					2130903693};
 			
 			// aapt resource value: 1
 			public const int PreferenceImageView_android_maxHeight = 1;
@@ -30820,24 +31725,24 @@ namespace Havamal.Droid
 			// aapt resource value: 3
 			public const int PreferenceImageView_maxWidth = 3;
 			
-			// aapt resource value: { 0x7F030099,0x7F030135,0x7F030150,0x7F030154,0x7F0302F8,0x7F0302F9,0x7F0302FA,0x7F0302FB,0x7F0302FC,0x7F0302FD,0x7F0302FE,0x7F0302FF,0x7F030300,0x7F03032B,0x7F03037C,0x7F03037D }
+			// aapt resource value: { 0x7F030099,0x7F030138,0x7F030153,0x7F030157,0x7F0302FD,0x7F0302FE,0x7F0302FF,0x7F030300,0x7F030301,0x7F030302,0x7F030303,0x7F030304,0x7F030305,0x7F030330,0x7F030381,0x7F030382 }
 			public static int[] PreferenceTheme = new int[] {
 					2130903193,
-					2130903349,
-					2130903376,
-					2130903380,
-					2130903800,
-					2130903801,
-					2130903802,
-					2130903803,
-					2130903804,
+					2130903352,
+					2130903379,
+					2130903383,
 					2130903805,
 					2130903806,
 					2130903807,
 					2130903808,
-					2130903851,
-					2130903932,
-					2130903933};
+					2130903809,
+					2130903810,
+					2130903811,
+					2130903812,
+					2130903813,
+					2130903856,
+					2130903937,
+					2130903938};
 			
 			// aapt resource value: 0
 			public const int PreferenceTheme_checkBoxPreferenceStyle = 0;
@@ -30995,13 +31900,13 @@ namespace Havamal.Droid
 			// aapt resource value: 35
 			public const int Preference_widgetLayout = 35;
 			
-			// aapt resource value: { 0x10100DC,0x101031F,0x7F030230,0x7F0302B1,0x7F030419 }
+			// aapt resource value: { 0x10100DC,0x101031F,0x7F030235,0x7F0302B6,0x7F03041E }
 			public static int[] PropertySet = new int[] {
 					16842972,
 					16843551,
-					2130903600,
-					2130903729,
-					2130904089};
+					2130903605,
+					2130903734,
+					2130904094};
 			
 			// aapt resource value: 1
 			public const int PropertySet_android_alpha = 1;
@@ -31018,17 +31923,17 @@ namespace Havamal.Droid
 			// aapt resource value: 4
 			public const int PropertySet_visibilityMode = 4;
 			
-			// aapt resource value: { 0x7F03027B }
+			// aapt resource value: { 0x7F030280 }
 			public static int[] RadialViewGroup = new int[] {
-					2130903675};
+					2130903680};
 			
 			// aapt resource value: 0
 			public const int RadialViewGroup_materialCircleRadius = 0;
 			
-			// aapt resource value: { 0x7F030291,0x7F030412 }
+			// aapt resource value: { 0x7F030296,0x7F030417 }
 			public static int[] RangeSlider = new int[] {
-					2130903697,
-					2130904082};
+					2130903702,
+					2130904087};
 			
 			// aapt resource value: 0
 			public const int RangeSlider_minSeparation = 0;
@@ -31036,10 +31941,10 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int RangeSlider_values = 1;
 			
-			// aapt resource value: { 0x7F0302D1,0x7F0302D7 }
+			// aapt resource value: { 0x7F0302D6,0x7F0302DC }
 			public static int[] RecycleListView = new int[] {
-					2130903761,
-					2130903767};
+					2130903766,
+					2130903772};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -31047,20 +31952,20 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030208,0x7F03031C,0x7F03034D,0x7F030358 }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F03020D,0x7F030321,0x7F030352,0x7F03035D }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
 					16842993,
-					2130903428,
-					2130903429,
-					2130903430,
-					2130903431,
 					2130903432,
-					2130903560,
-					2130903836,
-					2130903885,
-					2130903896};
+					2130903433,
+					2130903434,
+					2130903435,
+					2130903436,
+					2130903565,
+					2130903841,
+					2130903890,
+					2130903901};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;
@@ -31098,9 +32003,9 @@ namespace Havamal.Droid
 			// aapt resource value: 11
 			public const int RecyclerView_stackFromEnd = 11;
 			
-			// aapt resource value: { 0x7F0301E0 }
+			// aapt resource value: { 0x7F0301E4 }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903520};
+					2130903524};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
@@ -31112,32 +32017,32 @@ namespace Havamal.Droid
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x7F030326 }
+			// aapt resource value: { 0x7F03032B }
 			public static int[] ScrollViewRendererTheme = new int[] {
-					2130903846};
+					2130903851};
 			
 			// aapt resource value: 0
 			public const int ScrollViewRendererTheme_scrollViewStyle = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300C5,0x7F0300EA,0x7F030129,0x7F0301B0,0x7F0301CF,0x7F030205,0x7F03030B,0x7F03030C,0x7F030327,0x7F030328,0x7F03036C,0x7F030375,0x7F03041A }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300C8,0x7F0300ED,0x7F03012C,0x7F0301B4,0x7F0301D3,0x7F03020A,0x7F030310,0x7F030311,0x7F03032C,0x7F03032D,0x7F030371,0x7F03037A,0x7F03041F }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130903237,
-					2130903274,
-					2130903337,
-					2130903472,
-					2130903503,
-					2130903557,
-					2130903819,
-					2130903820,
-					2130903847,
-					2130903848,
-					2130903916,
-					2130903925,
-					2130904090};
+					2130903240,
+					2130903277,
+					2130903340,
+					2130903476,
+					2130903507,
+					2130903562,
+					2130903824,
+					2130903825,
+					2130903852,
+					2130903853,
+					2130903921,
+					2130903930,
+					2130904095};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -31190,15 +32095,15 @@ namespace Havamal.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x10100F2,0x1010136,0x7F030029,0x7F03028E,0x7F03032A,0x7F030340,0x7F03040D }
+			// aapt resource value: { 0x10100F2,0x1010136,0x7F030029,0x7F030293,0x7F03032F,0x7F030345,0x7F030412 }
 			public static int[] SeekBarPreference = new int[] {
 					16842994,
 					16843062,
 					2130903081,
-					2130903694,
-					2130903850,
-					2130903872,
-					2130904077};
+					2130903699,
+					2130903855,
+					2130903877,
+					2130904082};
 			
 			// aapt resource value: 2
 			public const int SeekBarPreference_adjustable = 2;
@@ -31221,19 +32126,19 @@ namespace Havamal.Droid
 			// aapt resource value: 6
 			public const int SeekBarPreference_updatesContinuously = 6;
 			
-			// aapt resource value: { 0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F0300FC,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030333,0x7F030336,0x7F030369,0x7F03036A }
+			// aapt resource value: { 0x7F0300FC,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030338,0x7F03033B,0x7F03036E,0x7F03036F }
 			public static int[] ShapeableImageView = new int[] {
-					2130903289,
-					2130903290,
-					2130903291,
 					2130903292,
 					2130903293,
 					2130903294,
 					2130903295,
-					2130903859,
-					2130903862,
-					2130903913,
-					2130903914};
+					2130903296,
+					2130903297,
+					2130903298,
+					2130903864,
+					2130903867,
+					2130903918,
+					2130903919};
 			
 			// aapt resource value: 0
 			public const int ShapeableImageView_contentPadding = 0;
@@ -31268,18 +32173,18 @@ namespace Havamal.Droid
 			// aapt resource value: 10
 			public const int ShapeableImageView_strokeWidth = 10;
 			
-			// aapt resource value: { 0x7F030104,0x7F030105,0x7F030106,0x7F030107,0x7F030108,0x7F03010A,0x7F03010B,0x7F03010C,0x7F03010D,0x7F03010E }
+			// aapt resource value: { 0x7F030107,0x7F030108,0x7F030109,0x7F03010A,0x7F03010B,0x7F03010D,0x7F03010E,0x7F03010F,0x7F030110,0x7F030111 }
 			public static int[] ShapeAppearance = new int[] {
-					2130903300,
-					2130903301,
-					2130903302,
 					2130903303,
 					2130903304,
+					2130903305,
 					2130903306,
 					2130903307,
-					2130903308,
 					2130903309,
-					2130903310};
+					2130903310,
+					2130903311,
+					2130903312,
+					2130903313};
 			
 			// aapt resource value: 0
 			public const int ShapeAppearance_cornerFamily = 0;
@@ -31311,30 +32216,30 @@ namespace Havamal.Droid
 			// aapt resource value: 9
 			public const int ShapeAppearance_cornerSizeTopRight = 9;
 			
-			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F0301B2,0x7F0301B3,0x7F030200,0x7F030201,0x7F0303D1,0x7F0303D2,0x7F0303D3,0x7F0303D4,0x7F0303D5,0x7F0303D9,0x7F0303DA,0x7F0303DB,0x7F0303DF,0x7F0303FA,0x7F0303FB,0x7F0303FC,0x7F0303FE }
+			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F0301B6,0x7F0301B7,0x7F030205,0x7F030206,0x7F0303D6,0x7F0303D7,0x7F0303D8,0x7F0303D9,0x7F0303DA,0x7F0303DE,0x7F0303DF,0x7F0303E0,0x7F0303E4,0x7F0303FF,0x7F030400,0x7F030401,0x7F030403 }
 			public static int[] Slider = new int[] {
 					16842766,
 					16842788,
 					16843078,
 					16843486,
 					16843487,
-					2130903474,
-					2130903475,
-					2130903552,
-					2130903553,
-					2130904017,
-					2130904018,
-					2130904019,
-					2130904020,
-					2130904021,
+					2130903478,
+					2130903479,
+					2130903557,
+					2130903558,
+					2130904022,
+					2130904023,
+					2130904024,
 					2130904025,
 					2130904026,
-					2130904027,
+					2130904030,
 					2130904031,
-					2130904058,
-					2130904059,
-					2130904060,
-					2130904062};
+					2130904032,
+					2130904036,
+					2130904063,
+					2130904064,
+					2130904065,
+					2130904067};
 			
 			// aapt resource value: 0
 			public const int Slider_android_enabled = 0;
@@ -31402,13 +32307,13 @@ namespace Havamal.Droid
 			// aapt resource value: 21
 			public const int Slider_trackHeight = 21;
 			
-			// aapt resource value: { 0x7F03034A,0x7F03034B,0x7F03034C }
+			// aapt resource value: { 0x7F03034F,0x7F030350,0x7F030351 }
 			public static int[] Snackbar = new int[] {
-					2130903882,
-					2130903883,
-					2130903884};
+					2130903887,
+					2130903888,
+					2130903889};
 			
-			// aapt resource value: { 0x101011F,0x7F030026,0x7F030037,0x7F03004D,0x7F030050,0x7F030051,0x7F030156,0x7F030281 }
+			// aapt resource value: { 0x101011F,0x7F030026,0x7F030037,0x7F03004D,0x7F030050,0x7F030051,0x7F030159,0x7F030286 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130903078,
@@ -31416,8 +32321,8 @@ namespace Havamal.Droid
 					2130903117,
 					2130903120,
 					2130903121,
-					2130903382,
-					2130903681};
+					2130903385,
+					2130903686};
 			
 			// aapt resource value: 1
 			public const int SnackbarLayout_actionTextColorAlpha = 1;
@@ -31452,13 +32357,13 @@ namespace Havamal.Droid
 			// aapt resource value: 2
 			public const int Snackbar_snackbarTextViewStyle = 2;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0302F5 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0302FA }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903797};
+					2130903802};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -31475,10 +32380,10 @@ namespace Havamal.Droid
 			// aapt resource value: 4
 			public const int Spinner_popupTheme = 4;
 			
-			// aapt resource value: { 0x10100D0,0x7F0300F0 }
+			// aapt resource value: { 0x10100D0,0x7F0300F3 }
 			public static int[] State = new int[] {
 					16842960,
-					2130903280};
+					2130903283};
 			
 			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
 			public static int[] StateListDrawable = new int[] {
@@ -31514,9 +32419,9 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x7F03012A }
+			// aapt resource value: { 0x7F03012D }
 			public static int[] StateSet = new int[] {
-					2130903338};
+					2130903341};
 			
 			// aapt resource value: 0
 			public const int StateSet_defaultState = 0;
@@ -31527,29 +32432,29 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int State_constraints = 1;
 			
-			// aapt resource value: { 0x7F030379 }
+			// aapt resource value: { 0x7F03037E }
 			public static int[] SwipeRefreshLayout = new int[] {
-					2130903929};
+					2130903934};
 			
 			// aapt resource value: 0
 			public const int SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = 0;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030341,0x7F030351,0x7F03037A,0x7F03037B,0x7F03037F,0x7F0303D6,0x7F0303D7,0x7F0303D8,0x7F0303F9,0x7F030400,0x7F030401 }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030346,0x7F030356,0x7F03037F,0x7F030380,0x7F030384,0x7F0303DB,0x7F0303DC,0x7F0303DD,0x7F0303FE,0x7F030405,0x7F030406 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903873,
-					2130903889,
-					2130903930,
-					2130903931,
+					2130903878,
+					2130903894,
 					2130903935,
-					2130904022,
-					2130904023,
-					2130904024,
-					2130904057,
-					2130904064,
-					2130904065};
+					2130903936,
+					2130903940,
+					2130904027,
+					2130904028,
+					2130904029,
+					2130904062,
+					2130904069,
+					2130904070};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -31593,38 +32498,38 @@ namespace Havamal.Droid
 			// aapt resource value: 13
 			public const int SwitchCompat_trackTintMode = 13;
 			
-			// aapt resource value: { 0x7F030410 }
+			// aapt resource value: { 0x7F030415 }
 			public static int[] SwitchMaterial = new int[] {
-					2130904080};
+					2130904085};
 			
 			// aapt resource value: 0
 			public const int SwitchMaterial_useMaterialThemeColors = 0;
 			
-			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F030139,0x7F030377,0x7F030378,0x7F030380,0x7F030381 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F03013C,0x7F03037C,0x7F03037D,0x7F030385,0x7F030386 }
 			public static int[] SwitchPreference = new int[] {
 					16843247,
 					16843248,
 					16843249,
 					16843627,
 					16843628,
-					2130903353,
-					2130903927,
-					2130903928,
-					2130903936,
-					2130903937};
+					2130903356,
+					2130903932,
+					2130903933,
+					2130903941,
+					2130903942};
 			
-			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F030139,0x7F030377,0x7F030378,0x7F030380,0x7F030381 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F03013C,0x7F03037C,0x7F03037D,0x7F030385,0x7F030386 }
 			public static int[] SwitchPreferenceCompat = new int[] {
 					16843247,
 					16843248,
 					16843249,
 					16843627,
 					16843628,
-					2130903353,
-					2130903927,
-					2130903928,
-					2130903936,
-					2130903937};
+					2130903356,
+					2130903932,
+					2130903933,
+					2130903941,
+					2130903942};
 			
 			// aapt resource value: 2
 			public const int SwitchPreferenceCompat_android_disableDependentsState = 2;
@@ -31701,13 +32606,8 @@ namespace Havamal.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F030382,0x7F030383,0x7F030384,0x7F030385,0x7F030386,0x7F030387,0x7F030388,0x7F030389,0x7F03038A,0x7F03038B,0x7F03038C,0x7F03038D,0x7F03038E,0x7F03038F,0x7F030390,0x7F030391,0x7F030392,0x7F030393,0x7F030394,0x7F030395,0x7F030396,0x7F030397,0x7F030398,0x7F03039A,0x7F03039B,0x7F03039C }
+			// aapt resource value: { 0x7F030387,0x7F030388,0x7F030389,0x7F03038A,0x7F03038B,0x7F03038C,0x7F03038D,0x7F03038E,0x7F03038F,0x7F030390,0x7F030391,0x7F030392,0x7F030393,0x7F030394,0x7F030395,0x7F030396,0x7F030397,0x7F030398,0x7F030399,0x7F03039A,0x7F03039B,0x7F03039C,0x7F03039D,0x7F03039F,0x7F0303A0,0x7F0303A1 }
 			public static int[] TabLayout = new int[] {
-					2130903938,
-					2130903939,
-					2130903940,
-					2130903941,
-					2130903942,
 					2130903943,
 					2130903944,
 					2130903945,
@@ -31726,9 +32626,14 @@ namespace Havamal.Droid
 					2130903958,
 					2130903959,
 					2130903960,
+					2130903961,
 					2130903962,
 					2130903963,
-					2130903964};
+					2130903964,
+					2130903965,
+					2130903967,
+					2130903968,
+					2130903969};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -31808,7 +32713,7 @@ namespace Havamal.Droid
 			// aapt resource value: 25
 			public const int TabLayout_tabUnboundedRipple = 25;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F03019F,0x7F0301A8,0x7F0303A2,0x7F0303C4 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F0301A3,0x7F0301AC,0x7F0303A7,0x7F0303C9 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -31822,10 +32727,10 @@ namespace Havamal.Droid
 					16843108,
 					16843692,
 					16844165,
-					2130903455,
-					2130903464,
-					2130903970,
-					2130904004};
+					2130903459,
+					2130903468,
+					2130903975,
+					2130904009};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -31875,7 +32780,7 @@ namespace Havamal.Droid
 			// aapt resource value: 15
 			public const int TextAppearance_textLocale = 15;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x101014F,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F030065,0x7F030066,0x7F0303C1,0x7F0303C5,0x7F0303C6 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x101014F,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F030065,0x7F030066,0x7F0303C6,0x7F0303CA,0x7F0303CB }
 			public static int[] TextEffects = new int[] {
 					16842901,
 					16842902,
@@ -31888,9 +32793,9 @@ namespace Havamal.Droid
 					16843692,
 					2130903141,
 					2130903142,
-					2130904001,
-					2130904005,
-					2130904006};
+					2130904006,
+					2130904010,
+					2130904011};
 			
 			// aapt resource value: 8
 			public const int TextEffects_android_fontFamily = 8;
@@ -31934,14 +32839,14 @@ namespace Havamal.Droid
 			// aapt resource value: 13
 			public const int TextEffects_textOutlineThickness = 13;
 			
-			// aapt resource value: { 0x7F0303C2 }
+			// aapt resource value: { 0x7F0303C7 }
 			public static int[] TextInputEditText = new int[] {
-					2130904002};
+					2130904007};
 			
 			// aapt resource value: 0
 			public const int TextInputEditText_textInputLayoutFocusedRectEnabled = 0;
 			
-			// aapt resource value: { 0x101000E,0x101009A,0x101011F,0x101013F,0x1010150,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030070,0x7F030071,0x7F030072,0x7F030073,0x7F030074,0x7F030075,0x7F030076,0x7F030077,0x7F03010F,0x7F030110,0x7F030111,0x7F030112,0x7F030113,0x7F030114,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030168,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F030172,0x7F0301B6,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0302DC,0x7F0302DD,0x7F0302DE,0x7F0302DF,0x7F0302E0,0x7F0302EA,0x7F0302EB,0x7F0302EC,0x7F030301,0x7F030302,0x7F030303,0x7F030333,0x7F030336,0x7F03035B,0x7F03035C,0x7F03035D,0x7F03035E,0x7F03035F,0x7F030372,0x7F030373,0x7F030374 }
+			// aapt resource value: { 0x101000E,0x101009A,0x101011F,0x101013F,0x1010150,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030070,0x7F030071,0x7F030072,0x7F030073,0x7F030074,0x7F030075,0x7F030076,0x7F030077,0x7F030112,0x7F030113,0x7F030114,0x7F030115,0x7F030116,0x7F030117,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030172,0x7F030176,0x7F0301BA,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0302E1,0x7F0302E2,0x7F0302E3,0x7F0302E4,0x7F0302E5,0x7F0302EF,0x7F0302F0,0x7F0302F1,0x7F030306,0x7F030307,0x7F030308,0x7F030338,0x7F03033B,0x7F030360,0x7F030361,0x7F030362,0x7F030363,0x7F030364,0x7F030377,0x7F030378,0x7F030379 }
 			public static int[] TextInputLayout = new int[] {
 					16842766,
 					16842906,
@@ -31959,55 +32864,55 @@ namespace Havamal.Droid
 					2130903157,
 					2130903158,
 					2130903159,
-					2130903311,
-					2130903312,
-					2130903313,
 					2130903314,
 					2130903315,
 					2130903316,
-					2130903388,
-					2130903389,
-					2130903390,
-					2130903391,
+					2130903317,
+					2130903318,
+					2130903319,
 					2130903392,
 					2130903393,
-					2130903400,
-					2130903401,
-					2130903402,
-					2130903403,
+					2130903394,
+					2130903395,
+					2130903396,
+					2130903397,
 					2130903404,
 					2130903405,
 					2130903406,
+					2130903407,
+					2130903408,
+					2130903409,
 					2130903410,
-					2130903478,
-					2130903479,
-					2130903480,
-					2130903481,
-					2130903486,
-					2130903487,
-					2130903488,
-					2130903489,
-					2130903772,
-					2130903773,
-					2130903774,
-					2130903775,
-					2130903776,
-					2130903786,
-					2130903787,
-					2130903788,
-					2130903809,
-					2130903810,
-					2130903811,
-					2130903859,
-					2130903862,
-					2130903899,
-					2130903900,
-					2130903901,
-					2130903902,
-					2130903903,
-					2130903922,
-					2130903923,
-					2130903924};
+					2130903414,
+					2130903482,
+					2130903483,
+					2130903484,
+					2130903485,
+					2130903490,
+					2130903491,
+					2130903492,
+					2130903493,
+					2130903777,
+					2130903778,
+					2130903779,
+					2130903780,
+					2130903781,
+					2130903791,
+					2130903792,
+					2130903793,
+					2130903814,
+					2130903815,
+					2130903816,
+					2130903864,
+					2130903867,
+					2130903904,
+					2130903905,
+					2130903906,
+					2130903907,
+					2130903908,
+					2130903927,
+					2130903928,
+					2130903929};
 			
 			// aapt resource value: 0
 			public const int TextInputLayout_android_enabled = 0;
@@ -32204,11 +33109,11 @@ namespace Havamal.Droid
 			// aapt resource value: 64
 			public const int TextInputLayout_suffixTextColor = 64;
 			
-			// aapt resource value: { 0x1010034,0x7F030162,0x7F030163 }
+			// aapt resource value: { 0x1010034,0x7F030166,0x7F030167 }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130903394,
-					2130903395};
+					2130903398,
+					2130903399};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -32219,38 +33124,38 @@ namespace Havamal.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F03007F,0x7F0300CD,0x7F0300CE,0x7F0300F3,0x7F0300F4,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F030262,0x7F030263,0x7F030282,0x7F03028A,0x7F0302B9,0x7F0302BA,0x7F0302F5,0x7F03036D,0x7F03036F,0x7F030370,0x7F0303E2,0x7F0303E6,0x7F0303E7,0x7F0303E8,0x7F0303E9,0x7F0303EA,0x7F0303EB,0x7F0303EC,0x7F0303ED }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F03007F,0x7F0300D0,0x7F0300D1,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F030267,0x7F030268,0x7F030287,0x7F03028F,0x7F0302BE,0x7F0302BF,0x7F0302FA,0x7F030372,0x7F030374,0x7F030375,0x7F0303E7,0x7F0303EB,0x7F0303EC,0x7F0303ED,0x7F0303EE,0x7F0303EF,0x7F0303F0,0x7F0303F1,0x7F0303F2 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
 					2130903167,
-					2130903245,
-					2130903246,
-					2130903283,
-					2130903284,
-					2130903285,
+					2130903248,
+					2130903249,
 					2130903286,
 					2130903287,
 					2130903288,
-					2130903650,
-					2130903651,
-					2130903682,
-					2130903690,
-					2130903737,
-					2130903738,
-					2130903797,
-					2130903917,
-					2130903919,
-					2130903920,
-					2130904034,
-					2130904038,
+					2130903289,
+					2130903290,
+					2130903291,
+					2130903655,
+					2130903656,
+					2130903687,
+					2130903695,
+					2130903742,
+					2130903743,
+					2130903802,
+					2130903922,
+					2130903924,
+					2130903925,
 					2130904039,
-					2130904040,
-					2130904041,
-					2130904042,
 					2130904043,
 					2130904044,
-					2130904045};
+					2130904045,
+					2130904046,
+					2130904047,
+					2130904048,
+					2130904049,
+					2130904050};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -32373,7 +33278,7 @@ namespace Havamal.Droid
 			// aapt resource value: 6
 			public const int Tooltip_backgroundTint = 6;
 			
-			// aapt resource value: { 0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030402 }
+			// aapt resource value: { 0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030407 }
 			public static int[] Transform = new int[] {
 					16843552,
 					16843553,
@@ -32386,7 +33291,7 @@ namespace Havamal.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130904066};
+					2130904071};
 			
 			// aapt resource value: 10
 			public const int Transform_android_elevation = 10;
@@ -32424,19 +33329,19 @@ namespace Havamal.Droid
 			// aapt resource value: 11
 			public const int Transform_transformPivotTarget = 11;
 			
-			// aapt resource value: { 0x10100D0,0x7F030046,0x7F0300EC,0x7F0300ED,0x7F030151,0x7F030207,0x7F0302AE,0x7F0302E1,0x7F030359,0x7F030403,0x7F030405 }
+			// aapt resource value: { 0x10100D0,0x7F030046,0x7F0300EF,0x7F0300F0,0x7F030154,0x7F03020C,0x7F0302B3,0x7F0302E6,0x7F03035E,0x7F030408,0x7F03040A }
 			public static int[] Transition = new int[] {
 					16842960,
 					2130903110,
-					2130903276,
-					2130903277,
-					2130903377,
-					2130903559,
-					2130903726,
-					2130903777,
-					2130903897,
-					2130904067,
-					2130904069};
+					2130903279,
+					2130903280,
+					2130903380,
+					2130903564,
+					2130903731,
+					2130903782,
+					2130903902,
+					2130904072,
+					2130904074};
 			
 			// aapt resource value: 0
 			public const int Transition_android_id = 0;
@@ -32471,13 +33376,13 @@ namespace Havamal.Droid
 			// aapt resource value: 10
 			public const int Transition_transitionFlags = 10;
 			
-			// aapt resource value: { 0x7F0300F0,0x7F030318,0x7F030319,0x7F03031A,0x7F03031B }
+			// aapt resource value: { 0x7F0300F3,0x7F03031D,0x7F03031E,0x7F03031F,0x7F030320 }
 			public static int[] Variant = new int[] {
-					2130903280,
-					2130903832,
-					2130903833,
-					2130903834,
-					2130903835};
+					2130903283,
+					2130903837,
+					2130903838,
+					2130903839,
+					2130903840};
 			
 			// aapt resource value: 0
 			public const int Variant_constraints = 0;
@@ -32494,13 +33399,13 @@ namespace Havamal.Droid
 			// aapt resource value: 4
 			public const int Variant_region_widthMoreThan = 4;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F0302D3,0x7F0302D6,0x7F0303CE }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F0302D8,0x7F0302DB,0x7F0303D3 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903763,
-					2130903766,
-					2130904014};
+					2130903768,
+					2130903771,
+					2130904019};
 			
 			// aapt resource value: { 0x10100D4,0x7F030050,0x7F030051 }
 			public static int[] ViewBackgroundHelper = new int[] {
@@ -32539,23 +33444,23 @@ namespace Havamal.Droid
 			// aapt resource value: 1
 			public const int ViewStubCompat_android_layout = 1;
 			
-			// aapt resource value: { 0x10100D0,0x7F030001,0x7F030002,0x7F0300BF,0x7F030151,0x7F0301D0,0x7F0301D1,0x7F0302AE,0x7F0302B3,0x7F0302CB,0x7F0302E1,0x7F030332,0x7F030403,0x7F03040C,0x7F030415 }
+			// aapt resource value: { 0x10100D0,0x7F030001,0x7F030002,0x7F0300C2,0x7F030154,0x7F0301D4,0x7F0301D5,0x7F0302B3,0x7F0302B8,0x7F0302D0,0x7F0302E6,0x7F030337,0x7F030408,0x7F030411,0x7F03041A }
 			public static int[] ViewTransition = new int[] {
 					16842960,
 					2130903041,
 					2130903042,
-					2130903231,
-					2130903377,
-					2130903504,
-					2130903505,
-					2130903726,
+					2130903234,
+					2130903380,
+					2130903508,
+					2130903509,
 					2130903731,
-					2130903755,
-					2130903777,
-					2130903858,
-					2130904067,
-					2130904076,
-					2130904085};
+					2130903736,
+					2130903760,
+					2130903782,
+					2130903863,
+					2130904072,
+					2130904081,
+					2130904090};
 			
 			// aapt resource value: 0
 			public const int ViewTransition_android_id = 0;
